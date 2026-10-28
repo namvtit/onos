@@ -168,13 +168,45 @@ export function mountSourceAnimations(pageId: string) {
       });
     });
     document.querySelectorAll<HTMLElement>(".count").forEach((el, index) => {
-      const target = parseInt((el.dataset.target || el.textContent || "0").replace(/\D/g, ""), 10);
-      if (reduced) return;
-      const counter = { val: 0 };
-      gsap.to(counter, { val: target, duration: Math.max(1, Math.min(3, (target / 200) * 2)), ease: "none", delay: index * 0.15,
-        scrollTrigger: { trigger: el, start: "top 80%", once: true },
-        onUpdate: () => { el.textContent = Math.floor(counter.val).toLocaleString("en-US"); },
-        onComplete: () => { el.textContent = target.toLocaleString("en-US"); },
+      const rawTarget = el.dataset.target || el.dataset.count || el.textContent || "0";
+      const target = parseInt(rawTarget.replace(/\D/g, ""), 10);
+      const isYear = el.dataset.format === "year" || target === 2019;
+      const isPadded = el.dataset.pad === "2" || (target < 10 && (rawTarget.trim().startsWith("0") || el.dataset.pad !== "false"));
+
+      const format = (v: number) => {
+        const intVal = Math.floor(v);
+        if (isYear) return String(intVal);
+        if (isPadded) return String(intVal).padStart(2, "0");
+        return String(intVal);
+      };
+
+      const finalFormatted = isYear ? String(target) : (isPadded ? String(target).padStart(2, "0") : String(target));
+
+      if (reduced) {
+        el.textContent = finalFormatted;
+        return;
+      }
+
+      ScrollTrigger.create({
+        trigger: el,
+        start: "top 85%",
+        once: true,
+        onEnter: () => {
+          const counter = { val: 0 };
+          el.textContent = format(0);
+          gsap.to(counter, {
+            val: target,
+            duration: Math.max(1, Math.min(2.5, (target / 200) * 2 + 0.8)),
+            ease: "power2.out",
+            delay: (index % 4) * 0.12,
+            onUpdate: () => {
+              el.textContent = format(counter.val);
+            },
+            onComplete: () => {
+              el.textContent = finalFormatted;
+            },
+          });
+        },
       });
     });
     ScrollTrigger.refresh();

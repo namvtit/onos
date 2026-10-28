@@ -1,0 +1,250 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1106" height="486" viewBox="0 0 1106 486" fill="none">
+  <defs>
+    <linearGradient id="brandGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f66234" />
+      <stop offset="100%" stop-color="#c8370b" />
+    </linearGradient>
+    <linearGradient id="beamGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f66234" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#f66234" stop-opacity="0" />
+    </linearGradient>
+    <pattern id="gridPattern" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#ffffff" stroke-opacity="0.03" stroke-width="0.75" />
+    </pattern>
+  </defs>
+
+  <!-- Background Blueprint Technical Grid -->
+  <rect width="1106" height="486" fill="url(#gridPattern)" />
+
+  <!-- Upper Technical Header Rule -->
+  <line x1="40" y1="35" x2="1066" y2="35" stroke="#a7a3a2" stroke-width="1" stroke-opacity="0.35" />
+  <circle cx="40" cy="35" r="3" fill="#f66234" />
+  <circle cx="1066" cy="35" r="3" fill="#f66234" />
+  <text x="52" y="28" fill="#a7a3a2" font-family="monospace" font-size="10" letter-spacing="0.1em">ONOS ADVANCED APPAREL &amp; PRINT MANUFACTURING PIPELINE // 01-CAD → 02-DTG → 03-EMBROIDERY → 04-HEAT TRANSFER → 05-FULFILLMENT</text>
+  <text x="960" y="28" fill="#a7a3a2" font-family="monospace" font-size="10" letter-spacing="0.1em">GRID: 1106 x 486</text>
+
+  <!-- Lower Technical Baseline Rule -->
+  <line x1="40" y1="450" x2="1066" y2="450" stroke="#a7a3a2" stroke-width="1" stroke-opacity="0.35" />
+  <line x1="40" y1="455" x2="1066" y2="455" stroke="#a7a3a2" stroke-width="0.5" stroke-dasharray="4 4" stroke-opacity="0.25" />
+
+  <!-- Flow Connector Line across All Stages -->
+  <path d="M 230 250 L 270 250 M 470 250 L 510 250 M 710 250 L 750 250 M 930 250 L 960 250" stroke="#f66234" stroke-width="2" stroke-dasharray="3 3" />
+  <polygon points="268,246 276,250 268,254" fill="#f66234" />
+  <polygon points="508,246 516,250 508,254" fill="#f66234" />
+  <polygon points="748,246 756,250 748,254" fill="#f66234" />
+  <polygon points="958,246 966,250 958,254" fill="#f66234" />
+
+  <!-- ========================================================================= -->
+  <!-- MODULE 01: DIGITAL LASER CUTTING & PATTERN CAD (x: 50 - 230) -->
+  <!-- ========================================================================= -->
+  <g id="module-laser-cut" transform="translate(50, 70)">
+    <!-- Stage Box -->
+    <rect x="0" y="0" width="180" height="350" rx="4" fill="none" stroke="#a7a3a2" stroke-width="1.2" stroke-opacity="0.4" />
+    <rect x="0" y="0" width="180" height="24" rx="4" fill="#a7a3a2" fill-opacity="0.1" />
+    <text x="12" y="16" fill="#a7a3a2" font-family="monospace" font-size="10" font-weight="700">01 // PATTERN CAD &amp; LASER</text>
+    <circle cx="168" cy="12" r="3" fill="#f66234" />
+
+    <!-- Cutting Bed Frame -->
+    <rect x="18" y="48" width="144" height="200" fill="none" stroke="#a7a3a2" stroke-width="1.2" />
+    <path d="M 18 80 L 162 80 M 18 120 L 162 120 M 18 160 L 162 160 M 18 200 L 162 200" stroke="#a7a3a2" stroke-width="0.5" stroke-opacity="0.3" stroke-dasharray="2 4" />
+    <path d="M 50 48 L 50 248 M 90 48 L 90 248 M 130 48 L 130 248" stroke="#a7a3a2" stroke-width="0.5" stroke-opacity="0.3" stroke-dasharray="2 4" />
+
+    <!-- Garment Pattern Outlines (T-Shirt Outline on Cutting Bed) -->
+    <path d="M 68 85 C 75 92 105 92 112 85 L 140 102 L 126 126 L 114 118 L 114 215 L 66 215 L 66 118 L 54 126 L 40 102 Z" fill="#f66234" fill-opacity="0.08" stroke="#f66234" stroke-width="1.5" stroke-dasharray="4 2" />
+    
+    <!-- Laser Gantry and Head -->
+    <line x1="12" y1="130" x2="168" y2="130" stroke="#a7a3a2" stroke-width="2.5" />
+    <rect x="78" y="120" width="24" height="20" rx="2" fill="#a7a3a2" />
+    <!-- Laser Beam -->
+    <polygon points="90,140 86,170 94,170" fill="url(#beamGrad)" />
+    <circle cx="90" cy="170" r="3" fill="#f66234" />
+    <circle cx="90" cy="170" r="6" stroke="#f66234" stroke-width="0.75" />
+
+    <!-- Technical Specs -->
+    <text x="18" y="275" fill="#a7a3a2" font-family="monospace" font-size="9">PRECISION: ±0.05mm</text>
+    <text x="18" y="292" fill="#a7a3a2" font-family="monospace" font-size="9">NESTING: AUTOMATED</text>
+    <text x="18" y="309" fill="#a7a3a2" font-family="monospace" font-size="9">SPEED: 1200mm/s</text>
+    <rect x="18" y="324" width="70" height="14" rx="2" fill="url(#brandGrad)" />
+    <text x="24" y="334" fill="#ffffff" font-family="monospace" font-size="8" font-weight="700">CAD READY</text>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- MODULE 02: HIGH-RESOLUTION DTG DIGITAL PRINTING (x: 290 - 470) -->
+  <!-- ========================================================================= -->
+  <g id="module-dtg-print" transform="translate(290, 70)">
+    <!-- Stage Box -->
+    <rect x="0" y="0" width="180" height="350" rx="4" fill="none" stroke="#a7a3a2" stroke-width="1.2" stroke-opacity="0.4" />
+    <rect x="0" y="0" width="180" height="24" rx="4" fill="#a7a3a2" fill-opacity="0.1" />
+    <text x="12" y="16" fill="#a7a3a2" font-family="monospace" font-size="10" font-weight="700">02 // DIGITAL DIRECT-TO-GARMENT</text>
+    <circle cx="168" cy="12" r="3" fill="#f66234" />
+
+    <!-- DTG Machine Body -->
+    <rect x="16" y="48" width="148" height="195" rx="3" fill="none" stroke="#a7a3a2" stroke-width="1.2" />
+    <!-- Garment Platen Tray -->
+    <rect x="34" y="90" width="112" height="140" fill="#a7a3a2" fill-opacity="0.08" stroke="#a7a3a2" stroke-width="1" />
+    <!-- T-Shirt on Platen with Graphic Preview -->
+    <path d="M 58 108 C 68 114 92 114 102 108 L 124 120 L 114 138 L 106 132 L 106 210 L 54 210 L 54 132 L 46 138 L 36 120 Z" fill="#ffffff" fill-opacity="0.05" stroke="#a7a3a2" stroke-width="1" />
+    <!-- Printed Graphic Block on Chest -->
+    <rect x="66" y="135" width="48" height="42" rx="2" fill="url(#brandGrad)" fill-opacity="0.85" />
+    <line x1="70" y1="145" x2="110" y2="145" stroke="#ffffff" stroke-width="1.5" />
+    <line x1="70" y1="152" x2="105" y2="152" stroke="#ffffff" stroke-width="1" stroke-opacity="0.8" />
+    <line x1="70" y1="158" x2="98" y2="158" stroke="#ffffff" stroke-width="1" stroke-opacity="0.6" />
+    <circle cx="104" cy="164" r="3" fill="#ffffff" />
+
+    <!-- Print Head Dual Gantry Rail -->
+    <line x1="10" y1="72" x2="170" y2="72" stroke="#a7a3a2" stroke-width="3" />
+    <line x1="10" y1="78" x2="170" y2="78" stroke="#a7a3a2" stroke-width="1.5" />
+    <!-- Moving Carriage -->
+    <rect x="68" y="60" width="44" height="26" rx="2" fill="#a7a3a2" />
+    <!-- Ink Supply Line Tubes -->
+    <path d="M 74 60 C 74 52 82 48 90 48" fill="none" stroke="#f66234" stroke-width="1.5" />
+    <path d="M 80 60 C 80 54 86 50 90 50" fill="none" stroke="#a7a3a2" stroke-width="1" />
+    <!-- Ink Jet Droplet Spray (CMYK+W) -->
+    <circle cx="76" cy="94" r="1.5" fill="#f66234" />
+    <circle cx="82" cy="96" r="1.5" fill="#a7a3a2" />
+    <circle cx="88" cy="93" r="1.5" fill="#f66234" />
+    <circle cx="94" cy="95" r="1.5" fill="#ffffff" />
+    <circle cx="100" cy="93" r="1.5" fill="#a7a3a2" />
+
+    <!-- Technical Specs -->
+    <text x="18" y="275" fill="#a7a3a2" font-family="monospace" font-size="9">RESOLUTION: 1200 DPI</text>
+    <text x="18" y="292" fill="#a7a3a2" font-family="monospace" font-size="9">CHANNELS: CMYK + DUAL WHITE</text>
+    <text x="18" y="309" fill="#a7a3a2" font-family="monospace" font-size="9">CERTIFIED: OEKO-TEX ECO</text>
+    <rect x="18" y="324" width="76" height="14" rx="2" fill="url(#brandGrad)" />
+    <text x="24" y="334" fill="#ffffff" font-family="monospace" font-size="8" font-weight="700">PRINT VERIFIED</text>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- MODULE 03: MULTI-HEAD COMPUTERIZED EMBROIDERY (x: 530 - 710) -->
+  <!-- ========================================================================= -->
+  <g id="module-embroidery" transform="translate(530, 70)">
+    <!-- Stage Box -->
+    <rect x="0" y="0" width="180" height="350" rx="4" fill="none" stroke="#a7a3a2" stroke-width="1.2" stroke-opacity="0.4" />
+    <rect x="0" y="0" width="180" height="24" rx="4" fill="#a7a3a2" fill-opacity="0.1" />
+    <text x="12" y="16" fill="#a7a3a2" font-family="monospace" font-size="10" font-weight="700">03 // MULTI-HEAD EMBROIDERY</text>
+    <circle cx="168" cy="12" r="3" fill="#f66234" />
+
+    <!-- Thread Spool Cone Rack (Top) -->
+    <rect x="25" y="46" width="130" height="8" rx="2" fill="#a7a3a2" />
+    <!-- 4 Thread Cones -->
+    <path d="M 35 46 L 41 32 L 47 46 Z" fill="#f66234" />
+    <path d="M 65 46 L 71 32 L 77 46 Z" fill="#a7a3a2" />
+    <path d="M 95 46 L 101 32 L 107 46 Z" fill="#f66234" />
+    <path d="M 125 46 L 131 32 L 137 46 Z" fill="#a7a3a2" />
+
+    <!-- Thread Guides converging down -->
+    <line x1="41" y1="46" x2="75" y2="80" stroke="#f66234" stroke-width="0.75" />
+    <line x1="71" y1="46" x2="82" y2="80" stroke="#a7a3a2" stroke-width="0.75" />
+    <line x1="101" y1="46" x2="88" y2="80" stroke="#f66234" stroke-width="0.75" />
+    <line x1="131" y1="46" x2="95" y2="80" stroke="#a7a3a2" stroke-width="0.75" />
+
+    <!-- Needle Bar Assembly & Driver Head -->
+    <rect x="66" y="80" width="48" height="42" rx="3" fill="#a7a3a2" />
+    <rect x="74" y="90" width="32" height="12" fill="#191919" />
+    <!-- Needles -->
+    <line x1="78" y1="122" x2="78" y2="148" stroke="#a7a3a2" stroke-width="1.5" />
+    <line x1="86" y1="122" x2="86" y2="152" stroke="#f66234" stroke-width="2" />
+    <line x1="94" y1="122" x2="94" y2="148" stroke="#a7a3a2" stroke-width="1.5" />
+    <line x1="102" y1="122" x2="102" y2="148" stroke="#a7a3a2" stroke-width="1.5" />
+
+    <!-- Pantograph Hoop Table & Embroidered Panel -->
+    <rect x="22" y="160" width="136" height="85" rx="3" fill="none" stroke="#a7a3a2" stroke-width="1.2" />
+    <!-- Circular Embroidery Hoop -->
+    <circle cx="90" cy="195" r="32" fill="#ffffff" fill-opacity="0.05" stroke="#f66234" stroke-width="1.8" />
+    <!-- 3D Puff Embroidery Logo Silhouette -->
+    <path d="M 80 185 L 100 185 L 104 205 L 76 205 Z" fill="url(#brandGrad)" />
+    <text x="83" y="198" fill="#ffffff" font-family="sans-serif" font-size="9" font-weight="900">ON</text>
+    <!-- Stitch Detail Vectors -->
+    <path d="M 72 176 L 108 176 M 72 214 L 108 214" stroke="#f66234" stroke-width="1" stroke-dasharray="2 2" />
+
+    <!-- Technical Specs -->
+    <text x="18" y="275" fill="#a7a3a2" font-family="monospace" font-size="9">HEADS: 15-NEEDLE SYSTEM</text>
+    <text x="18" y="292" fill="#a7a3a2" font-family="monospace" font-size="9">STITCH RATE: 1000 SPM</text>
+    <text x="18" y="309" fill="#a7a3a2" font-family="monospace" font-size="9">SPECIALTY: 3D PUFF / FLAT</text>
+    <rect x="18" y="324" width="70" height="14" rx="2" fill="url(#brandGrad)" />
+    <text x="24" y="334" fill="#ffffff" font-family="monospace" font-size="8" font-weight="700">THREAD CAL</text>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- MODULE 04: SUBLIMATION & HEAT FUSION (x: 770 - 950) -->
+  <!-- ========================================================================= -->
+  <g id="module-sublimation" transform="translate(770, 70)">
+    <!-- Stage Box -->
+    <rect x="0" y="0" width="180" height="350" rx="4" fill="none" stroke="#a7a3a2" stroke-width="1.2" stroke-opacity="0.4" />
+    <rect x="0" y="0" width="180" height="24" rx="4" fill="#a7a3a2" fill-opacity="0.1" />
+    <text x="12" y="16" fill="#a7a3a2" font-family="monospace" font-size="10" font-weight="700">04 // SUBLIMATION &amp; PRESS</text>
+    <circle cx="168" cy="12" r="3" fill="#f66234" />
+
+    <!-- Industrial Pneumatic Heat Press Station -->
+    <rect x="20" y="55" width="140" height="190" rx="3" fill="none" stroke="#a7a3a2" stroke-width="1.2" />
+    
+    <!-- Top Heating Platen Block -->
+    <rect x="35" y="70" width="110" height="28" rx="2" fill="#a7a3a2" />
+    <text x="60" y="88" fill="#191919" font-family="monospace" font-size="9" font-weight="700">HEATED PLATEN</text>
+    <!-- Heat Waves radiating down -->
+    <path d="M 45 106 Q 50 112 55 106 Q 60 100 65 106 M 85 106 Q 90 112 95 106 Q 100 100 105 106 M 125 106 Q 130 112 135 106 Q 140 100 145 106" fill="none" stroke="#f66234" stroke-width="1.5" />
+
+    <!-- Pneumatic Piston Ram -->
+    <rect x="80" y="42" width="20" height="28" fill="#a7a3a2" />
+    <line x1="90" y1="36" x2="90" y2="42" stroke="#f66234" stroke-width="2" />
+
+    <!-- Sublimation Sportswear Jersey Pattern (All-Over Print) -->
+    <g transform="translate(42, 126)">
+      <rect x="0" y="0" width="96" height="104" fill="#a7a3a2" fill-opacity="0.08" stroke="#a7a3a2" stroke-width="1" />
+      <!-- Jersey Silhouette with Dynamic Patterns -->
+      <path d="M 24 16 L 40 8 L 56 8 L 72 16 L 86 28 L 74 42 L 68 36 L 68 96 L 28 96 L 28 36 L 22 42 L 10 28 Z" fill="none" stroke="#f66234" stroke-width="1.5" />
+      <path d="M 28 50 L 68 70 M 28 65 L 68 85 M 28 35 L 68 55" stroke="#f66234" stroke-width="1" stroke-opacity="0.5" />
+      <!-- Temperature Indicator Badge -->
+      <circle cx="82" cy="85" r="10" fill="url(#brandGrad)" />
+      <text x="75" y="88" fill="#ffffff" font-family="monospace" font-size="7" font-weight="700">205°</text>
+    </g>
+
+    <!-- Technical Specs -->
+    <text x="18" y="275" fill="#a7a3a2" font-family="monospace" font-size="9">TEMP: 205°C UNIFORM</text>
+    <text x="18" y="292" fill="#a7a3a2" font-family="monospace" font-size="9">PRESSURE: 6.0 BAR AUTO</text>
+    <text x="18" y="309" fill="#a7a3a2" font-family="monospace" font-size="9">FASTNESS: GRADE 5 VIBRANT</text>
+    <rect x="18" y="324" width="70" height="14" rx="2" fill="url(#brandGrad)" />
+    <text x="24" y="334" fill="#ffffff" font-family="monospace" font-size="8" font-weight="700">PRESS OK</text>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- MODULE 05: GLOBAL FULFILLMENT & QC SCAN (x: 980 - 1080 - condensed) -->
+  <!-- ========================================================================= -->
+  <g id="module-fulfillment" transform="translate(980, 70)">
+    <rect x="0" y="0" width="86" height="350" rx="4" fill="none" stroke="#a7a3a2" stroke-width="1.2" stroke-opacity="0.4" />
+    <rect x="0" y="0" width="86" height="24" rx="4" fill="#a7a3a2" fill-opacity="0.1" />
+    <text x="8" y="16" fill="#a7a3a2" font-family="monospace" font-size="9" font-weight="700">05 // QC</text>
+    <circle cx="74" cy="12" r="3" fill="#f66234" />
+
+    <!-- Fulfillment Carton Box -->
+    <polygon points="15,100 43,85 71,100 43,115" fill="#a7a3a2" fill-opacity="0.2" stroke="#a7a3a2" stroke-width="1" />
+    <polygon points="15,100 43,115 43,155 15,140" fill="#a7a3a2" fill-opacity="0.3" stroke="#a7a3a2" stroke-width="1" />
+    <polygon points="71,100 43,115 43,155 71,140" fill="#a7a3a2" fill-opacity="0.4" stroke="#a7a3a2" stroke-width="1" />
+    <!-- Barcode Optical Laser Line -->
+    <line x1="8" y1="126" x2="78" y2="126" stroke="#f66234" stroke-width="2" />
+    <text x="14" y="180" fill="#a7a3a2" font-family="monospace" font-size="8">VN ↔ USA</text>
+    <text x="14" y="195" fill="#a7a3a2" font-family="monospace" font-size="8">DIRECT</text>
+
+    <!-- Inspection Pass Checkmark -->
+    <circle cx="43" cy="225" r="16" fill="url(#brandGrad)" />
+    <path d="M 35 225 L 41 231 L 52 219" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <text x="10" y="275" fill="#a7a3a2" font-family="monospace" font-size="8">QC 100%</text>
+    <text x="10" y="292" fill="#a7a3a2" font-family="monospace" font-size="8">BARCODE</text>
+    <text x="10" y="309" fill="#a7a3a2" font-family="monospace" font-size="8">DISPATCH</text>
+    <rect x="10" y="324" width="66" height="14" rx="2" fill="url(#brandGrad)" />
+    <text x="16" y="334" fill="#ffffff" font-family="monospace" font-size="8" font-weight="700">PASS</text>
+  </g>
+
+  <!-- Technical Calibration Markings (Manufactt-style Crosshairs) -->
+  <g stroke="#a7a3a2" stroke-width="0.75" opacity="0.4">
+    <line x1="20" y1="20" x2="30" y2="20" />
+    <line x1="25" y1="15" x2="25" y2="25" />
+    <line x1="1076" y1="20" x2="1086" y2="20" />
+    <line x1="1081" y1="15" x2="1081" y2="25" />
+    <line x1="20" y1="466" x2="30" y2="466" />
+    <line x1="25" y1="461" x2="25" y2="471" />
+    <line x1="1076" y1="466" x2="1086" y2="466" />
+    <line x1="1081" y1="461" x2="1081" y2="471" />
+  </g>
+</svg>

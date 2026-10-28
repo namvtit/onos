@@ -36,6 +36,8 @@ export const vietnamese: Record<string, string> = {
   "ONOS / PRODUCTION": "ONOS / SẢN XUẤT",
   "CONNECTED BY DESIGN": "KẾT NỐI TỪ NỀN TẢNG",
   "Production network": "Mạng lưới sản xuất",
+  "Active Facility · Thai Nguyen": "Xưởng đang vận hành · Thái Nguyên",
+  "Expand facility photograph": "Xem ảnh phóng to cơ sở sản xuất",
 
   // About
   "Who we are": "Về chúng tôi",

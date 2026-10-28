@@ -36,30 +36,5 @@ export function PageMotion() {
     elements.forEach(element => { if (element.getBoundingClientRect().top > innerHeight) element.classList.add('will-reveal'); observer.observe(element); });
     return () => observer.disconnect();
   }, [paused]);
-  useEffect(() => {
-    const elements = document.querySelectorAll<HTMLElement>('[data-count]');
-    const frames: number[] = [];
-    elements.forEach(element => { element.dataset.finalCount ??= element.textContent ?? ''; });
-    const finish = () => elements.forEach(element => { element.textContent = element.dataset.finalCount!; });
-    if (paused) { finish(); return; }
-    const observer = new IntersectionObserver(entries => entries.forEach(entry => {
-      if (!entry.isIntersecting) return;
-      const element = entry.target as HTMLElement;
-      observer.unobserve(element);
-      if (element.dataset.counted) return;
-      element.dataset.counted = 'true';
-      const target = Number(element.dataset.count), final = element.dataset.finalCount!;
-      const padding = final.startsWith('0') ? final.length : 1;
-      const started = performance.now();
-      const tick = (time: number) => {
-        const progress = Math.min(1, (time - started) / 950);
-        element.textContent = progress === 1 ? final : String(Math.round(target * (1 - (1 - progress) ** 3))).padStart(padding, '0') + (final.endsWith('+') ? '+' : '');
-        if (progress < 1) frames.push(requestAnimationFrame(tick));
-      };
-      frames.push(requestAnimationFrame(tick));
-    }), { threshold: .18 });
-    elements.forEach(element => observer.observe(element));
-    return () => { observer.disconnect(); frames.forEach(cancelAnimationFrame); finish(); };
-  }, [paused]);
   return null;
 }

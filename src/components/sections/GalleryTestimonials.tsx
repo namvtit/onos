@@ -150,7 +150,7 @@ export function GalleryTestimonials() {
                     <div className="counter">
                       <div className="inner-number testimonial-counter">
                         <div className="numbers-counts">
-                          <div data-count="3" className="count">
+                          <div data-target="3" data-pad="2" className="count">
                             03
                           </div>
                         </div>
@@ -163,7 +163,7 @@ export function GalleryTestimonials() {
                     <div className="counter">
                       <div className="inner-number testimonial-counter">
                         <div className="numbers-counts">
-                          <div data-count="50" className="count">
+                          <div data-target="50" className="count">
                             50
                           </div>
                         </div>

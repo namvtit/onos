@@ -57,7 +57,7 @@ export function Hero() {
                 <a
                   data-wf--button-arrow--variant="base"
                   data-w-id="d102baf6-0bbf-4311-9c79-6b424f8fe8a7"
-                  href="#capabilities"
+                  href="#production-fit"
                   className="primary-button w-inline-block"
                 >
                   <div className="button-primary-inner">

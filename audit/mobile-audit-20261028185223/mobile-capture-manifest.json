@@ -1,0 +1,538 @@
+{
+  "timestamp": "20261028185223",
+  "dir": "/home/nam/onos/manufactt-project/audit/mobile-audit-20261028185223",
+  "fullPagePath": "/home/nam/onos/manufactt-project/audit/mobile-audit-20261028185223/mobile-fullpage-20261028185223.png",
+  "sections": [
+    {
+      "key": "01-hero",
+      "selector": "#home",
+      "shotPath": "/home/nam/onos/manufactt-project/audit/mobile-audit-20261028185223/01-hero-375px.png",
+      "width": 375,
+      "height": 695,
+      "opacity": "1",
+      "visibility": "visible",
+      "zeroOpCount": 0,
+      "totalImages": 2,
+      "images": [
+        {
+          "src": "75e8f722a505-68d527b447e1a5cc60cc1c27_button-icon.svg",
+          "complete": true,
+          "naturalWidth": 16,
+          "naturalHeight": 12,
+          "renderedWidth": 17,
+          "renderedHeight": 13
+        },
+        {
+          "src": "75e8f722a505-68d527b447e1a5cc60cc1c27_button-icon.svg",
+          "complete": true,
+          "naturalWidth": 16,
+          "naturalHeight": 12,
+          "renderedWidth": 17,
+          "renderedHeight": 13
+        }
+      ]
+    },
+    {
+      "key": "02-hero-video",
+      "selector": ".hero-video-wrap",
+      "shotPath": "/home/nam/onos/manufactt-project/audit/mobile-audit-20261028185223/02-hero-video-375px.png",
+      "width": 375,
+      "height": 550,
+      "opacity": "1",
+      "visibility": "visible",
+      "zeroOpCount": 0,
+      "totalImages": 4,
+      "images": [
+        {
+          "src": "onos-embroidery-hero.webp",
+          "complete": true,
+          "naturalWidth": 1440,
+          "naturalHeight": 1080,
+          "renderedWidth": 375,
+          "renderedHeight": 550
+        },
+        {
+          "src": "a3a417ca617f-68ecdd3c431234be644acd0a_video-Icon-Puse.svg",
+          "complete": true,
+          "naturalWidth": 12,
+          "naturalHeight": 14,
+          "renderedWidth": 12,
+          "renderedHeight": 14
+        },
+        {
+          "src": "f905b540fb48-68ecdd3d945e5b3131e0c22d_Video-Icon-Play.svg",
+          "complete": false,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "renderedWidth": 0,
+          "renderedHeight": 0
+        },
+        {
+          "src": "onos-sample-development.webp",
+          "complete": true,
+          "naturalWidth": 1200,
+          "naturalHeight": 900,
+          "renderedWidth": 218,
+          "renderedHeight": 164
+        }
+      ]
+    },
+    {
+      "key": "03-about",
+      "selector": "#about",
+      "shotPath": "/home/nam/onos/manufactt-project/audit/mobile-audit-20261028185223/03-about-375px.png",
+      "width": 375,
+      "height": 1800,
+      "opacity": "1",
+      "visibility": "visible",
+      "zeroOpCount": 0,
+      "totalImages": 14,
+      "images": [
+        {
+          "src": "onos-sample-development.webp",
+          "complete": true,
+          "naturalWidth": 1200,
+          "naturalHeight": 900,
+          "renderedWidth": 50,
+          "renderedHeight": 50
+        },
+        {
+          "src": "onos-partner-meeting.webp",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1200,
+          "renderedWidth": 50,
+          "renderedHeight": 50
+        },
+        {
+          "src": "onos-production-floor.webp",
+          "complete": true,
+          "naturalWidth": 2688,
+          "naturalHeight": 1520,
+          "renderedWidth": 50,
+          "renderedHeight": 50
+        },
+        {
+          "src": "onos-facility-thai-nguyen.webp",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 900,
+          "renderedWidth": 50,
+          "renderedHeight": 50
+        },
+        {
+          "src": "536a795c5a7c-68dcc369de4ced980408d673_-.svg",
+          "complete": true,
+          "naturalWidth": 17,
+          "naturalHeight": 17,
+          "renderedWidth": 12,
+          "renderedHeight": 12
+        },
+        {
+          "src": "75e8f722a505-68d527b447e1a5cc60cc1c27_button-icon.svg",
+          "complete": true,
+          "naturalWidth": 16,
+          "naturalHeight": 12,
+          "renderedWidth": 17,
+          "renderedHeight": 13
+        },
+        {
+          "src": "75e8f722a505-68d527b447e1a5cc60cc1c27_button-icon.svg",
+          "complete": true,
+          "naturalWidth": 16,
+          "naturalHeight": 12,
+          "renderedWidth": 17,
+          "renderedHeight": 13
+        },
+        {
+          "src": "onos-connection.svg",
+          "complete": true,
+          "naturalWidth": 150,
+          "naturalHeight": 150,
+          "renderedWidth": 50,
+          "renderedHeight": 50
+        },
+        {
+          "src": "onos-production-floor.webp",
+          "complete": true,
+          "naturalWidth": 2688,
+          "naturalHeight": 1520,
+          "renderedWidth": 250,
+          "renderedHeight": 250
+        },
+        {
+          "src": "onos-wordmark.svg",
+          "complete": true,
+          "naturalWidth": 300,
+          "naturalHeight": 48,
+          "renderedWidth": 125,
+          "renderedHeight": 20
+        },
+        {
+          "src": "c1e963771d4c-68dcd945b4e886f71b7649aa_01.svg",
+          "complete": true,
+          "naturalWidth": 108,
+          "naturalHeight": 16,
+          "renderedWidth": 102,
+          "renderedHeight": 15
+        },
+        {
+          "src": "onos-facility-thai-nguyen.webp",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 900,
+          "renderedWidth": 93,
+          "renderedHeight": 64
+        },
+        {
+          "src": "onos-facility-me-linh.webp",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 900,
+          "renderedWidth": 86,
+          "renderedHeight": 50
+        },
+        {
+          "src": "onos-facility-california.webp",
+          "complete": true,
+          "naturalWidth": 1400,
+          "naturalHeight": 788,
+          "renderedWidth": 93,
+          "renderedHeight": 64
+        }
+      ]
+    },
+    {
+      "key": "04-products",
+      "selector": "#products",
+      "shotPath": "/home/nam/onos/manufactt-project/audit/mobile-audit-20261028185223/04-products-375px.png",
+      "width": 375,
+      "height": 3023,
+      "opacity": "1",
+      "visibility": "visible",
+      "zeroOpCount": 0,
+      "totalImages": 7,
+      "images": [
+        {
+          "src": "035525d00d02-68dfbb0effbd3efe695a9fe0_Products-Icon.svg",
+          "complete": true,
+          "naturalWidth": 1106,
+          "naturalHeight": 486,
+          "renderedWidth": 345,
+          "renderedHeight": 152
+        },
+        {
+          "src": "onos-dtg-machine-detail.webp",
+          "complete": true,
+          "naturalWidth": 1100,
+          "naturalHeight": 644,
+          "renderedWidth": 303,
+          "renderedHeight": 161
+        },
+        {
+          "src": "onos-equipment-embroidery.webp",
+          "complete": true,
+          "naturalWidth": 1024,
+          "naturalHeight": 768,
+          "renderedWidth": 303,
+          "renderedHeight": 161
+        },
+        {
+          "src": "onos-press-machines-row.webp",
+          "complete": true,
+          "naturalWidth": 1200,
+          "naturalHeight": 1600,
+          "renderedWidth": 303,
+          "renderedHeight": 161
+        },
+        {
+          "src": "onos-laser-cut-gifts.webp",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1200,
+          "renderedWidth": 303,
+          "renderedHeight": 161
+        },
+        {
+          "src": "75e8f722a505-68d527b447e1a5cc60cc1c27_button-icon.svg",
+          "complete": true,
+          "naturalWidth": 16,
+          "naturalHeight": 12,
+          "renderedWidth": 17,
+          "renderedHeight": 13
+        },
+        {
+          "src": "75e8f722a505-68d527b447e1a5cc60cc1c27_button-icon.svg",
+          "complete": true,
+          "naturalWidth": 16,
+          "naturalHeight": 12,
+          "renderedWidth": 17,
+          "renderedHeight": 13
+        }
+      ]
+    },
+    {
+      "key": "05-workflow",
+      "selector": "#workflow",
+      "shotPath": "/home/nam/onos/manufactt-project/audit/mobile-audit-20261028185223/05-workflow-375px.png",
+      "width": 375,
+      "height": 984,
+      "opacity": "1",
+      "visibility": "visible",
+      "zeroOpCount": 0,
+      "totalImages": 11,
+      "images": [
+        {
+          "src": "050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+          "complete": true,
+          "naturalWidth": 15,
+          "naturalHeight": 10,
+          "renderedWidth": 15,
+          "renderedHeight": 10
+        },
+        {
+          "src": "050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+          "complete": true,
+          "naturalWidth": 15,
+          "naturalHeight": 10,
+          "renderedWidth": 15,
+          "renderedHeight": 10
+        },
+        {
+          "src": "050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+          "complete": true,
+          "naturalWidth": 15,
+          "naturalHeight": 10,
+          "renderedWidth": 15,
+          "renderedHeight": 10
+        },
+        {
+          "src": "050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+          "complete": true,
+          "naturalWidth": 15,
+          "naturalHeight": 10,
+          "renderedWidth": 15,
+          "renderedHeight": 10
+        },
+        {
+          "src": "75e8f722a505-68d527b447e1a5cc60cc1c27_button-icon.svg",
+          "complete": true,
+          "naturalWidth": 16,
+          "naturalHeight": 12,
+          "renderedWidth": 17,
+          "renderedHeight": 13
+        },
+        {
+          "src": "75e8f722a505-68d527b447e1a5cc60cc1c27_button-icon.svg",
+          "complete": true,
+          "naturalWidth": 16,
+          "naturalHeight": 12,
+          "renderedWidth": 17,
+          "renderedHeight": 13
+        },
+        {
+          "src": "onos-sample-development.webp",
+          "complete": true,
+          "naturalWidth": 1200,
+          "naturalHeight": 900,
+          "renderedWidth": 50,
+          "renderedHeight": 50
+        },
+        {
+          "src": "onos-partner-meeting.webp",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1200,
+          "renderedWidth": 50,
+          "renderedHeight": 50
+        },
+        {
+          "src": "onos-production-floor.webp",
+          "complete": true,
+          "naturalWidth": 2688,
+          "naturalHeight": 1520,
+          "renderedWidth": 50,
+          "renderedHeight": 50
+        },
+        {
+          "src": "onos-facility-thai-nguyen.webp",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 900,
+          "renderedWidth": 50,
+          "renderedHeight": 50
+        },
+        {
+          "src": "050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+          "complete": true,
+          "naturalWidth": 15,
+          "naturalHeight": 10,
+          "renderedWidth": 20,
+          "renderedHeight": 20
+        }
+      ]
+    },
+    {
+      "key": "06-gallery",
+      "selector": "#gallery",
+      "shotPath": "/home/nam/onos/manufactt-project/audit/mobile-audit-20261028185223/06-gallery-375px.png",
+      "width": 375,
+      "height": 1647,
+      "opacity": "1",
+      "visibility": "visible",
+      "zeroOpCount": 0,
+      "totalImages": 11,
+      "images": [
+        {
+          "src": "onos-partner-meeting.webp",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1200,
+          "renderedWidth": 50,
+          "renderedHeight": 50
+        },
+        {
+          "src": "onos-finishing-table.webp",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1200,
+          "renderedWidth": 50,
+          "renderedHeight": 50
+        },
+        {
+          "src": "onos-laser-cut-gifts.webp",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1200,
+          "renderedWidth": 50,
+          "renderedHeight": 50
+        },
+        {
+          "src": "onos-warehouse-inventory.webp",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1200,
+          "renderedWidth": 50,
+          "renderedHeight": 50
+        },
+        {
+          "src": "onos-partner-meeting.webp",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1200,
+          "renderedWidth": 305,
+          "renderedHeight": 229
+        },
+        {
+          "src": "onos-production-floor.webp",
+          "complete": true,
+          "naturalWidth": 2688,
+          "naturalHeight": 1520,
+          "renderedWidth": 345,
+          "renderedHeight": 278
+        },
+        {
+          "src": "onos-wordmark-light.svg",
+          "complete": true,
+          "naturalWidth": 300,
+          "naturalHeight": 48,
+          "renderedWidth": 150,
+          "renderedHeight": 24
+        },
+        {
+          "src": "1fa0b5bc68d0-68e0c2f936f3a375961dd0a0_shadow.png",
+          "complete": true,
+          "naturalWidth": 373,
+          "naturalHeight": 209,
+          "renderedWidth": 345,
+          "renderedHeight": 193
+        },
+        {
+          "src": "5c6703911d28-68e0bd5d66fbd6635638ea42_Icon.svg",
+          "complete": true,
+          "naturalWidth": 61,
+          "naturalHeight": 51,
+          "renderedWidth": 48,
+          "renderedHeight": 40
+        },
+        {
+          "src": "75e8f722a505-68d527b447e1a5cc60cc1c27_button-icon.svg",
+          "complete": true,
+          "naturalWidth": 16,
+          "naturalHeight": 12,
+          "renderedWidth": 17,
+          "renderedHeight": 13
+        },
+        {
+          "src": "75e8f722a505-68d527b447e1a5cc60cc1c27_button-icon.svg",
+          "complete": true,
+          "naturalWidth": 16,
+          "naturalHeight": 12,
+          "renderedWidth": 17,
+          "renderedHeight": 13
+        }
+      ]
+    },
+    {
+      "key": "07-footer",
+      "selector": "#Footer",
+      "shotPath": "/home/nam/onos/manufactt-project/audit/mobile-audit-20261028185223/07-footer-375px.png",
+      "width": 375,
+      "height": 1456,
+      "opacity": "1",
+      "visibility": "visible",
+      "zeroOpCount": 0,
+      "totalImages": 6,
+      "images": [
+        {
+          "src": "e5179c696018-68d1288562216d12f8801fb5_facebook.svg",
+          "complete": true,
+          "naturalWidth": 20,
+          "naturalHeight": 20,
+          "renderedWidth": 20,
+          "renderedHeight": 20
+        },
+        {
+          "src": "888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg",
+          "complete": true,
+          "naturalWidth": 20,
+          "naturalHeight": 20,
+          "renderedWidth": 20,
+          "renderedHeight": 20
+        },
+        {
+          "src": "6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg",
+          "complete": true,
+          "naturalWidth": 20,
+          "naturalHeight": 20,
+          "renderedWidth": 20,
+          "renderedHeight": 20
+        },
+        {
+          "src": "onos-wordmark-light.svg",
+          "complete": true,
+          "naturalWidth": 300,
+          "naturalHeight": 48,
+          "renderedWidth": 345,
+          "renderedHeight": 55
+        },
+        {
+          "src": "62379ae07751-68d6314bdbf908695fdc3d3e_blur.svg",
+          "complete": true,
+          "naturalWidth": 401,
+          "naturalHeight": 401,
+          "renderedWidth": 375,
+          "renderedHeight": 1000
+        },
+        {
+          "src": "62379ae07751-68d6314bdbf908695fdc3d3e_blur.svg",
+          "complete": true,
+          "naturalWidth": 401,
+          "naturalHeight": 401,
+          "renderedWidth": 375,
+          "renderedHeight": 1000
+        }
+      ]
+    }
+  ]
+}

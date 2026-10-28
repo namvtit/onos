@@ -155,7 +155,7 @@ export function About() {
                 <div className="about-content">{"// 2019 //"}</div>
                 <div className="inner-number">
                   <div className="numbers-counts">
-                    <div data-target="2019" className="count">
+                    <div data-target="2019" data-format="year" className="count">
                       2019
                     </div>
                   </div>
@@ -200,7 +200,7 @@ export function About() {
               <div className="counter-run">
                 <div className="inner-number about-counter">
                   <div className="numbers-counts text-linear-gradient">
-                    <div data-target="3" className="count">
+                    <div data-target="3" data-pad="2" className="count">
                       03
                     </div>
                   </div>
@@ -217,9 +217,9 @@ export function About() {
                   02 <span className="rating-small-text">{" / " + t("Countries, connected")}</span>
                 </div>
                 <img
-                  src="/assets/c1e963771d4c-68dcd945b4e886f71b7649aa_01.svg"
+                  src="/assets/onos-network-badge.svg"
                   loading="lazy"
-                  alt="Rating Image"
+                  alt="Vietnam and USA Network"
                   className="rating-image"
                 />
               </div>

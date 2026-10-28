@@ -21,30 +21,27 @@ export function HeroVideo() {
           style={{ width: "100%", height: "100%", objectFit: "cover" }}
           className="hero-video-image"
         />
-        <div aria-live="polite">
-          <button
-            type="button"
-            data-w-bg-video-control="true"
-            className="w-backgroundvideo-backgroundvideoplaypausebutton video-button w-background-video--control"
-            aria-label="Pause video"
+        <div className="hero-facility-indicator-bar">
+          <div className="hero-facility-badge">
+            <span className="facility-pulse-dot"></span>
+            <span>{t("Active Facility · Thai Nguyen")}</span>
+          </div>
+          <a
+            href="/assets/onos-embroidery-hero.webp"
+            className="w-lightbox hero-lightbox-trigger"
+            data-lightbox={JSON.stringify({
+              items: [{
+                type: "image",
+                url: "/assets/onos-embroidery-hero.webp",
+              }],
+            })}
+            aria-label={t("Expand facility photograph")}
+            title={t("Expand facility photograph")}
           >
-            <span className="play-state">
-              <img
-                src="/assets/a3a417ca617f-68ecdd3c431234be644acd0a_video-Icon-Puse.svg"
-                loading="lazy"
-                alt="Pause video"
-                className="video-button-image"
-              />
-            </span>
-            <span hidden={true} className="pause-state">
-              <img
-                loading="lazy"
-                alt="Play video"
-                src="/assets/f905b540fb48-68ecdd3d945e5b3131e0c22d_Video-Icon-Play.svg"
-                className="video-button-image"
-              />
-            </span>
-          </button>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+            </svg>
+          </a>
         </div>
       </div>
 

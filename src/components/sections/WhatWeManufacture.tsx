@@ -47,10 +47,10 @@ export function WhatWeManufacture() {
               </div>
             </div>
             <img
-              src="/assets/035525d00d02-68dfbb0effbd3efe695a9fe0_Products-Icon.svg"
+              src="/assets/onos-apparel-production-diagram.svg"
               loading="lazy"
               data-w-id="af52d740-e50f-ce19-4cc3-814bbe0cdac6"
-              alt="Product Info Graphic"
+              alt="ONOS Apparel & Print Production Pipeline"
               className="product-info-image"
             />
           </div>
