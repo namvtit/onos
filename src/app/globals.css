@@ -1,4 +1,5 @@
 /* Original Manufactt typography, tokens, composition and responsive cascade. */
 @import "../../public/assets/fonts.css";
 @import "../../public/assets/32f49076361a-manufactt-wbs.webflow.shared.edef070c1.min.css";
+@import "./interactions.css";
 @import "./onos.css";

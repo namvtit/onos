@@ -1,0 +1,2020 @@
+{
+  "manufactt": {
+    "375": {
+      "title": "Manufactt- Webflow HTML website template",
+      "nav": {
+        "tag": "div",
+        "id": "",
+        "className": "navbar w-nav",
+        "width": 375,
+        "height": 54,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(92, 92, 92)",
+        "fontFamily": "Geist, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "paddingTop": "10px",
+        "paddingBottom": "10px",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "display": "block",
+        "gridTemplateColumns": "none",
+        "flexDirection": "row"
+      },
+      "hero": {
+        "tag": "section",
+        "id": "",
+        "className": "hero-section section-spacing-top",
+        "width": 375,
+        "height": 622.375,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(92, 92, 92)",
+        "fontFamily": "Geist, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "paddingTop": "80px",
+        "paddingBottom": "0px",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "display": "block",
+        "gridTemplateColumns": "none",
+        "flexDirection": "row"
+      },
+      "heroH1": {
+        "tag": "h1",
+        "id": "",
+        "className": "hero-title",
+        "width": 345,
+        "height": 158.390625,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(21, 21, 21)",
+        "fontFamily": "\"Mona Sans\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "700",
+        "lineHeight": "52.8px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "display": "block",
+        "gridTemplateColumns": "none",
+        "flexDirection": "row"
+      },
+      "containers": [
+        {
+          "className": "container-full w-container",
+          "width": 375,
+          "maxWidth": "100%",
+          "paddingLeft": "15px",
+          "paddingRight": "15px"
+        },
+        {
+          "className": "container-full",
+          "width": 375,
+          "maxWidth": "100%",
+          "paddingLeft": "15px",
+          "paddingRight": "15px"
+        },
+        {
+          "className": "w-layout-blockcontainer container w-container",
+          "width": 375,
+          "maxWidth": "1360px",
+          "paddingLeft": "15px",
+          "paddingRight": "15px"
+        },
+        {
+          "className": "container-full",
+          "width": 375,
+          "maxWidth": "100%",
+          "paddingLeft": "15px",
+          "paddingRight": "15px"
+        },
+        {
+          "className": "container-full",
+          "width": 375,
+          "maxWidth": "100%",
+          "paddingLeft": "15px",
+          "paddingRight": "15px"
+        },
+        {
+          "className": "container",
+          "width": 375,
+          "maxWidth": "1360px",
+          "paddingLeft": "15px",
+          "paddingRight": "15px"
+        },
+        {
+          "className": "container-full",
+          "width": 375,
+          "maxWidth": "100%",
+          "paddingLeft": "15px",
+          "paddingRight": "15px"
+        },
+        {
+          "className": "container",
+          "width": 375,
+          "maxWidth": "1360px",
+          "paddingLeft": "15px",
+          "paddingRight": "15px"
+        },
+        {
+          "className": "container",
+          "width": 375,
+          "maxWidth": "1360px",
+          "paddingLeft": "15px",
+          "paddingRight": "15px"
+        },
+        {
+          "className": "container",
+          "width": 375,
+          "maxWidth": "1360px",
+          "paddingLeft": "15px",
+          "paddingRight": "15px"
+        }
+      ],
+      "sections": [
+        {
+          "tag": "section",
+          "id": "",
+          "className": "hero-section section-spacing-top",
+          "rect": {
+            "width": 375,
+            "height": 622.375,
+            "top": 0
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "80px",
+            "paddingBottom": "0px"
+          }
+        },
+        {
+          "tag": "div",
+          "id": "",
+          "className": "hero-video-wrap",
+          "rect": {
+            "width": 375,
+            "height": 550,
+            "top": 622.375
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "0px",
+            "paddingBottom": "0px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "About-Section",
+          "className": "about-section",
+          "rect": {
+            "width": 375,
+            "height": 1902.9375,
+            "top": 1172.375
+          },
+          "computed": {
+            "backgroundColor": "rgb(246, 246, 246)",
+            "paddingTop": "0px",
+            "paddingBottom": "0px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "",
+          "className": "service-section section-spacing-top",
+          "rect": {
+            "width": 375,
+            "height": 2197.03125,
+            "top": 3075.3125
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "80px",
+            "paddingBottom": "80px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "",
+          "className": "product-section",
+          "rect": {
+            "width": 375,
+            "height": 2078.34375,
+            "top": 5272.34375
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "0px",
+            "paddingBottom": "0px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "",
+          "className": "industry-section",
+          "rect": {
+            "width": 375,
+            "height": 1035.75,
+            "top": 7350.6875
+          },
+          "computed": {
+            "backgroundColor": "rgb(246, 246, 246)",
+            "paddingTop": "0px",
+            "paddingBottom": "0px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "",
+          "className": "case-study-section section-spacing",
+          "rect": {
+            "width": 375,
+            "height": 1144.578125,
+            "top": 8386.4375
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "80px",
+            "paddingBottom": "80px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "",
+          "className": "why-choose-section",
+          "rect": {
+            "width": 375,
+            "height": 769.765625,
+            "top": 9531.015625
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "0px",
+            "paddingBottom": "0px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "",
+          "className": "testimonial-section section-spacing",
+          "rect": {
+            "width": 375,
+            "height": 1530.765625,
+            "top": 10300.78125
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "80px",
+            "paddingBottom": "80px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "",
+          "className": "blog-section section-spacing-bottom",
+          "rect": {
+            "width": 375,
+            "height": 384.984375,
+            "top": 11831.546875
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "0px",
+            "paddingBottom": "80px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "Footer",
+          "className": "footer",
+          "rect": {
+            "width": 375,
+            "height": 1399.71875,
+            "top": 12216.53125
+          },
+          "computed": {
+            "backgroundColor": "rgb(21, 21, 21)",
+            "paddingTop": "0px",
+            "paddingBottom": "0px"
+          }
+        }
+      ],
+      "buttons": [
+        {
+          "className": "nav-button-wrap",
+          "text": "Get a QuoteGet a Quote",
+          "borderRadius": "0px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(92, 92, 92)"
+        },
+        {
+          "className": "primary-button w-variant-5ae0b7d1-2e18-9989-4375-c73c98041680 w-inline-block",
+          "text": "Get a QuoteGet a Quote",
+          "borderRadius": "5.008px 5.008px 15.008px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "backgroundColor": "rgb(21, 21, 21)",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "className": "button-primary-inner",
+          "text": "Get a QuoteGet a Quote",
+          "borderRadius": "5.008px 5.008px 0px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "className": "button-text-wrap",
+          "text": "Get a QuoteGet a Quote",
+          "borderRadius": "0px",
+          "padding": "15.008px 0px 15.008px 15.008px",
+          "fontSize": "16px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "className": "button-text-inner",
+          "text": "Get a QuoteGet a Quote",
+          "borderRadius": "0px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)"
+        }
+      ]
+    },
+    "1440": {
+      "title": "Manufactt- Webflow HTML website template",
+      "nav": {
+        "tag": "div",
+        "id": "",
+        "className": "navbar w-nav",
+        "width": 1440,
+        "height": 95.40625,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(92, 92, 92)",
+        "fontFamily": "Geist, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "paddingTop": "18px",
+        "paddingBottom": "18px",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "display": "block",
+        "gridTemplateColumns": "none",
+        "flexDirection": "row"
+      },
+      "hero": {
+        "tag": "section",
+        "id": "",
+        "className": "hero-section section-spacing-top",
+        "width": 1440,
+        "height": 604.515625,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(92, 92, 92)",
+        "fontFamily": "Geist, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "paddingTop": "200px",
+        "paddingBottom": "0px",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "display": "block",
+        "gridTemplateColumns": "none",
+        "flexDirection": "row"
+      },
+      "heroH1": {
+        "tag": "h1",
+        "id": "",
+        "className": "hero-title",
+        "width": 829.28125,
+        "height": 158.40625,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(21, 21, 21)",
+        "fontFamily": "\"Mona Sans\", sans-serif",
+        "fontSize": "72px",
+        "fontWeight": "700",
+        "lineHeight": "79.2px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "display": "block",
+        "gridTemplateColumns": "none",
+        "flexDirection": "row"
+      },
+      "containers": [
+        {
+          "className": "container-full w-container",
+          "width": 1440,
+          "maxWidth": "100%",
+          "paddingLeft": "50px",
+          "paddingRight": "50px"
+        },
+        {
+          "className": "container-full",
+          "width": 1440,
+          "maxWidth": "100%",
+          "paddingLeft": "50px",
+          "paddingRight": "50px"
+        },
+        {
+          "className": "w-layout-blockcontainer container w-container",
+          "width": 1360,
+          "maxWidth": "1360px",
+          "paddingLeft": "30px",
+          "paddingRight": "30px"
+        },
+        {
+          "className": "container-full",
+          "width": 1440,
+          "maxWidth": "100%",
+          "paddingLeft": "50px",
+          "paddingRight": "50px"
+        },
+        {
+          "className": "container-full",
+          "width": 1440,
+          "maxWidth": "100%",
+          "paddingLeft": "50px",
+          "paddingRight": "50px"
+        },
+        {
+          "className": "container",
+          "width": 1360,
+          "maxWidth": "1360px",
+          "paddingLeft": "30px",
+          "paddingRight": "30px"
+        },
+        {
+          "className": "container-full",
+          "width": 1440,
+          "maxWidth": "100%",
+          "paddingLeft": "50px",
+          "paddingRight": "50px"
+        },
+        {
+          "className": "container",
+          "width": 1360,
+          "maxWidth": "1360px",
+          "paddingLeft": "30px",
+          "paddingRight": "30px"
+        },
+        {
+          "className": "container",
+          "width": 1360,
+          "maxWidth": "1360px",
+          "paddingLeft": "30px",
+          "paddingRight": "30px"
+        },
+        {
+          "className": "container",
+          "width": 1360,
+          "maxWidth": "1360px",
+          "paddingLeft": "30px",
+          "paddingRight": "30px"
+        }
+      ],
+      "sections": [
+        {
+          "tag": "section",
+          "id": "",
+          "className": "hero-section section-spacing-top",
+          "rect": {
+            "width": 1440,
+            "height": 604.515625,
+            "top": 0
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "200px",
+            "paddingBottom": "0px"
+          }
+        },
+        {
+          "tag": "div",
+          "id": "",
+          "className": "hero-video-wrap",
+          "rect": {
+            "width": 1440,
+            "height": 1000,
+            "top": 604.515625
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "0px",
+            "paddingBottom": "0px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "About-Section",
+          "className": "about-section",
+          "rect": {
+            "width": 1440,
+            "height": 1165.015625,
+            "top": 1604.515625
+          },
+          "computed": {
+            "backgroundColor": "rgb(246, 246, 246)",
+            "paddingTop": "0px",
+            "paddingBottom": "0px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "",
+          "className": "service-section section-spacing-top",
+          "rect": {
+            "width": 1440,
+            "height": 2165.90625,
+            "top": 2769.53125
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "200px",
+            "paddingBottom": "50px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "",
+          "className": "product-section",
+          "rect": {
+            "width": 1440,
+            "height": 2129.0625,
+            "top": 4935.4375
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "0px",
+            "paddingBottom": "0px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "",
+          "className": "industry-section",
+          "rect": {
+            "width": 1440,
+            "height": 1047.296875,
+            "top": 7064.5
+          },
+          "computed": {
+            "backgroundColor": "rgb(246, 246, 246)",
+            "paddingTop": "0px",
+            "paddingBottom": "0px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "",
+          "className": "case-study-section section-spacing",
+          "rect": {
+            "width": 1440,
+            "height": 1171.296875,
+            "top": 8111.796875
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "200px",
+            "paddingBottom": "200px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "",
+          "className": "why-choose-section",
+          "rect": {
+            "width": 1440,
+            "height": 1040.65625,
+            "top": 9283.09375
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "0px",
+            "paddingBottom": "0px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "",
+          "className": "testimonial-section section-spacing",
+          "rect": {
+            "width": 1440,
+            "height": 1119.703125,
+            "top": 10323.75
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "200px",
+            "paddingBottom": "200px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "",
+          "className": "blog-section section-spacing-bottom",
+          "rect": {
+            "width": 1440,
+            "height": 458.703125,
+            "top": 11443.453125
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "0px",
+            "paddingBottom": "200px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "Footer",
+          "className": "footer",
+          "rect": {
+            "width": 1440,
+            "height": 693.453125,
+            "top": 11902.15625
+          },
+          "computed": {
+            "backgroundColor": "rgb(21, 21, 21)",
+            "paddingTop": "0px",
+            "paddingBottom": "0px"
+          }
+        }
+      ],
+      "buttons": [
+        {
+          "className": "nav-button-wrap",
+          "text": "Get a QuoteGet a Quote",
+          "borderRadius": "0px",
+          "padding": "0px",
+          "fontSize": "18px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(92, 92, 92)"
+        },
+        {
+          "className": "primary-button w-variant-5ae0b7d1-2e18-9989-4375-c73c98041680 w-inline-block",
+          "text": "Get a QuoteGet a Quote",
+          "borderRadius": "5.008px 5.008px 15.008px",
+          "padding": "0px",
+          "fontSize": "18px",
+          "backgroundColor": "rgb(21, 21, 21)",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "className": "button-primary-inner",
+          "text": "Get a QuoteGet a Quote",
+          "borderRadius": "5.008px 5.008px 0px",
+          "padding": "0px",
+          "fontSize": "18px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "className": "button-text-wrap",
+          "text": "Get a QuoteGet a Quote",
+          "borderRadius": "0px",
+          "padding": "15.008px 0px 15.008px 24px",
+          "fontSize": "18px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "className": "button-text-inner",
+          "text": "Get a QuoteGet a Quote",
+          "borderRadius": "0px",
+          "padding": "0px",
+          "fontSize": "18px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)"
+        }
+      ]
+    }
+  },
+  "local-current": {
+    "375": {
+      "title": "ONOS Global | Apparel Manufacturing & Fulfillment",
+      "nav": {
+        "tag": "header",
+        "id": "",
+        "className": "navbar w-nav onos-navbar",
+        "width": 375,
+        "height": 64,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(92, 92, 92)",
+        "fontFamily": "Geist, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "paddingTop": "10px",
+        "paddingBottom": "10px",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "display": "block",
+        "gridTemplateColumns": "none",
+        "flexDirection": "row"
+      },
+      "hero": {
+        "tag": "section",
+        "id": "home",
+        "className": "hero-section section-spacing-top",
+        "width": 375,
+        "height": 665.171875,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(92, 92, 92)",
+        "fontFamily": "Geist, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "paddingTop": "80px",
+        "paddingBottom": "0px",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "display": "block",
+        "gridTemplateColumns": "none",
+        "flexDirection": "row"
+      },
+      "heroH1": {
+        "tag": "h1",
+        "id": "",
+        "className": "hero-title",
+        "width": 345,
+        "height": 211.1875,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(21, 21, 21)",
+        "fontFamily": "\"Mona Sans\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "700",
+        "lineHeight": "52.8px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "display": "block",
+        "gridTemplateColumns": "none",
+        "flexDirection": "row"
+      },
+      "containers": [
+        {
+          "className": "container-full w-container",
+          "width": 375,
+          "maxWidth": "100%",
+          "paddingLeft": "15px",
+          "paddingRight": "15px"
+        },
+        {
+          "className": "container-full",
+          "width": 375,
+          "maxWidth": "100%",
+          "paddingLeft": "15px",
+          "paddingRight": "15px"
+        },
+        {
+          "className": "container",
+          "width": 375,
+          "maxWidth": "1360px",
+          "paddingLeft": "15px",
+          "paddingRight": "15px"
+        },
+        {
+          "className": "container-full",
+          "width": 375,
+          "maxWidth": "100%",
+          "paddingLeft": "15px",
+          "paddingRight": "15px"
+        },
+        {
+          "className": "container-full",
+          "width": 375,
+          "maxWidth": "100%",
+          "paddingLeft": "15px",
+          "paddingRight": "15px"
+        },
+        {
+          "className": "container",
+          "width": 375,
+          "maxWidth": "1360px",
+          "paddingLeft": "15px",
+          "paddingRight": "15px"
+        },
+        {
+          "className": "container-full",
+          "width": 375,
+          "maxWidth": "100%",
+          "paddingLeft": "15px",
+          "paddingRight": "15px"
+        },
+        {
+          "className": "container",
+          "width": 375,
+          "maxWidth": "1360px",
+          "paddingLeft": "15px",
+          "paddingRight": "15px"
+        },
+        {
+          "className": "container-full",
+          "width": 375,
+          "maxWidth": "100%",
+          "paddingLeft": "15px",
+          "paddingRight": "15px"
+        },
+        {
+          "className": "container-full",
+          "width": 375,
+          "maxWidth": "100%",
+          "paddingLeft": "15px",
+          "paddingRight": "15px"
+        }
+      ],
+      "sections": [
+        {
+          "tag": "header",
+          "id": "",
+          "className": "navbar w-nav onos-navbar",
+          "rect": {
+            "width": 375,
+            "height": 64,
+            "top": 0
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "10px",
+            "paddingBottom": "10px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "home",
+          "className": "hero-section section-spacing-top",
+          "rect": {
+            "width": 375,
+            "height": 665.171875,
+            "top": 0
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "80px",
+            "paddingBottom": "0px"
+          }
+        },
+        {
+          "tag": "div",
+          "id": "",
+          "className": "hero-video-wrap onos-hero-photo",
+          "rect": {
+            "width": 375,
+            "height": 640,
+            "top": 665.171875
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "0px",
+            "paddingBottom": "0px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "about",
+          "className": "about-section",
+          "rect": {
+            "width": 375,
+            "height": 1956.375,
+            "top": 1305.171875
+          },
+          "computed": {
+            "backgroundColor": "rgb(246, 246, 246)",
+            "paddingTop": "0px",
+            "paddingBottom": "0px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "capabilities",
+          "className": "service-section section-spacing",
+          "rect": {
+            "width": 375,
+            "height": 1959.5625,
+            "top": 3261.546875
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "80px",
+            "paddingBottom": "80px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "production-fit",
+          "className": "industry-section onos-finder",
+          "rect": {
+            "width": 375,
+            "height": 1724.953125,
+            "top": 5221.109375
+          },
+          "computed": {
+            "backgroundColor": "rgb(246, 246, 246)",
+            "paddingTop": "0px",
+            "paddingBottom": "0px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "network",
+          "className": "onos-network section-spacing",
+          "rect": {
+            "width": 375,
+            "height": 1673.90625,
+            "top": 6946.0625
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "80px",
+            "paddingBottom": "80px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "process",
+          "className": "step-section onos-process section-spacing",
+          "rect": {
+            "width": 375,
+            "height": 1552.171875,
+            "top": 8619.96875
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "0px",
+            "paddingBottom": "80px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "gallery",
+          "className": "onos-gallery product-section section-spacing",
+          "rect": {
+            "width": 375,
+            "height": 879.875,
+            "top": 10172.140625
+          },
+          "computed": {
+            "backgroundColor": "rgb(21, 21, 21)",
+            "paddingTop": "80px",
+            "paddingBottom": "80px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "ecosystem",
+          "className": "onos-ecosystem section-spacing",
+          "rect": {
+            "width": 375,
+            "height": 1274.96875,
+            "top": 11052.015625
+          },
+          "computed": {
+            "backgroundColor": "rgb(246, 246, 246)",
+            "paddingTop": "80px",
+            "paddingBottom": "80px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "faq",
+          "className": "onos-faq section-spacing",
+          "rect": {
+            "width": 375,
+            "height": 785.5625,
+            "top": 12326.984375
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "80px",
+            "paddingBottom": "80px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "contact",
+          "className": "onos-contact section-spacing",
+          "rect": {
+            "width": 375,
+            "height": 1106.546875,
+            "top": 13112.546875
+          },
+          "computed": {
+            "backgroundColor": "rgb(246, 246, 246)",
+            "paddingTop": "80px",
+            "paddingBottom": "80px"
+          }
+        },
+        {
+          "tag": "footer",
+          "id": "",
+          "className": "footer onos-footer",
+          "rect": {
+            "width": 375,
+            "height": 828.75,
+            "top": 14219.09375
+          },
+          "computed": {
+            "backgroundColor": "rgb(21, 21, 21)",
+            "paddingTop": "0px",
+            "paddingBottom": "0px"
+          }
+        }
+      ],
+      "buttons": [
+        {
+          "className": "nav-button-wrap",
+          "text": "Let's talkLet's talk↗",
+          "borderRadius": "0px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(92, 92, 92)"
+        },
+        {
+          "className": "primary-button w-inline-block onos-button-accent",
+          "text": "Let's talkLet's talk↗",
+          "borderRadius": "5.008px 5.008px 15.008px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "backgroundColor": "rgb(200, 55, 11)",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "className": "button-primary-inner",
+          "text": "Let's talkLet's talk↗",
+          "borderRadius": "5.008px 5.008px 0px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "className": "button-text-wrap",
+          "text": "Let's talkLet's talk",
+          "borderRadius": "0px",
+          "padding": "15.008px 0px 15.008px 15.008px",
+          "fontSize": "16px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "className": "button-text-inner",
+          "text": "Let's talkLet's talk",
+          "borderRadius": "0px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)"
+        }
+      ]
+    },
+    "1440": {
+      "title": "ONOS Global | Apparel Manufacturing & Fulfillment",
+      "nav": {
+        "tag": "header",
+        "id": "",
+        "className": "navbar w-nav onos-navbar",
+        "width": 1440,
+        "height": 95.40625,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(92, 92, 92)",
+        "fontFamily": "Geist, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "paddingTop": "18px",
+        "paddingBottom": "18px",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "display": "block",
+        "gridTemplateColumns": "none",
+        "flexDirection": "row"
+      },
+      "hero": {
+        "tag": "section",
+        "id": "home",
+        "className": "hero-section section-spacing-top",
+        "width": 1440,
+        "height": 604.515625,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(92, 92, 92)",
+        "fontFamily": "Geist, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "paddingTop": "200px",
+        "paddingBottom": "0px",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "display": "block",
+        "gridTemplateColumns": "none",
+        "flexDirection": "row"
+      },
+      "heroH1": {
+        "tag": "h1",
+        "id": "",
+        "className": "hero-title",
+        "width": 829.28125,
+        "height": 158.40625,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(21, 21, 21)",
+        "fontFamily": "\"Mona Sans\", sans-serif",
+        "fontSize": "72px",
+        "fontWeight": "700",
+        "lineHeight": "79.2px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "display": "block",
+        "gridTemplateColumns": "none",
+        "flexDirection": "row"
+      },
+      "containers": [
+        {
+          "className": "container-full w-container",
+          "width": 1440,
+          "maxWidth": "100%",
+          "paddingLeft": "50px",
+          "paddingRight": "50px"
+        },
+        {
+          "className": "container-full",
+          "width": 1440,
+          "maxWidth": "100%",
+          "paddingLeft": "50px",
+          "paddingRight": "50px"
+        },
+        {
+          "className": "container",
+          "width": 1360,
+          "maxWidth": "1360px",
+          "paddingLeft": "30px",
+          "paddingRight": "30px"
+        },
+        {
+          "className": "container-full",
+          "width": 1440,
+          "maxWidth": "100%",
+          "paddingLeft": "50px",
+          "paddingRight": "50px"
+        },
+        {
+          "className": "container-full",
+          "width": 1440,
+          "maxWidth": "100%",
+          "paddingLeft": "50px",
+          "paddingRight": "50px"
+        },
+        {
+          "className": "container",
+          "width": 1360,
+          "maxWidth": "1360px",
+          "paddingLeft": "30px",
+          "paddingRight": "30px"
+        },
+        {
+          "className": "container-full",
+          "width": 1440,
+          "maxWidth": "100%",
+          "paddingLeft": "50px",
+          "paddingRight": "50px"
+        },
+        {
+          "className": "container",
+          "width": 1347.03125,
+          "maxWidth": "1360px",
+          "paddingLeft": "30px",
+          "paddingRight": "30px"
+        },
+        {
+          "className": "container-full",
+          "width": 1440,
+          "maxWidth": "100%",
+          "paddingLeft": "50px",
+          "paddingRight": "50px"
+        },
+        {
+          "className": "container-full",
+          "width": 1440,
+          "maxWidth": "100%",
+          "paddingLeft": "50px",
+          "paddingRight": "50px"
+        }
+      ],
+      "sections": [
+        {
+          "tag": "header",
+          "id": "",
+          "className": "navbar w-nav onos-navbar",
+          "rect": {
+            "width": 1440,
+            "height": 95.40625,
+            "top": 0
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "18px",
+            "paddingBottom": "18px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "home",
+          "className": "hero-section section-spacing-top",
+          "rect": {
+            "width": 1440,
+            "height": 604.515625,
+            "top": 0
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "200px",
+            "paddingBottom": "0px"
+          }
+        },
+        {
+          "tag": "div",
+          "id": "",
+          "className": "hero-video-wrap onos-hero-photo",
+          "rect": {
+            "width": 1440,
+            "height": 1000,
+            "top": 604.515625
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "0px",
+            "paddingBottom": "0px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "about",
+          "className": "about-section",
+          "rect": {
+            "width": 1440,
+            "height": 1077.8125,
+            "top": 1604.515625
+          },
+          "computed": {
+            "backgroundColor": "rgb(246, 246, 246)",
+            "paddingTop": "0px",
+            "paddingBottom": "0px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "capabilities",
+          "className": "service-section section-spacing",
+          "rect": {
+            "width": 1440,
+            "height": 1920,
+            "top": 2682.328125
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "200px",
+            "paddingBottom": "50px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "production-fit",
+          "className": "industry-section onos-finder",
+          "rect": {
+            "width": 1440,
+            "height": 1621.71875,
+            "top": 4602.328125
+          },
+          "computed": {
+            "backgroundColor": "rgb(246, 246, 246)",
+            "paddingTop": "0px",
+            "paddingBottom": "0px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "network",
+          "className": "onos-network section-spacing",
+          "rect": {
+            "width": 1440,
+            "height": 1756.234375,
+            "top": 6224.046875
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "200px",
+            "paddingBottom": "200px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "process",
+          "className": "step-section onos-process section-spacing",
+          "rect": {
+            "width": 1440,
+            "height": 1678.3125,
+            "top": 7980.28125
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "0px",
+            "paddingBottom": "200px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "gallery",
+          "className": "onos-gallery product-section section-spacing",
+          "rect": {
+            "width": 1440,
+            "height": 1188.59375,
+            "top": 9658.59375
+          },
+          "computed": {
+            "backgroundColor": "rgb(21, 21, 21)",
+            "paddingTop": "200px",
+            "paddingBottom": "200px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "ecosystem",
+          "className": "onos-ecosystem section-spacing",
+          "rect": {
+            "width": 1440,
+            "height": 930.90625,
+            "top": 10847.1875
+          },
+          "computed": {
+            "backgroundColor": "rgb(246, 246, 246)",
+            "paddingTop": "200px",
+            "paddingBottom": "200px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "faq",
+          "className": "onos-faq section-spacing",
+          "rect": {
+            "width": 1440,
+            "height": 725,
+            "top": 11778.09375
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "200px",
+            "paddingBottom": "200px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "contact",
+          "className": "onos-contact section-spacing",
+          "rect": {
+            "width": 1440,
+            "height": 838.734375,
+            "top": 12503.09375
+          },
+          "computed": {
+            "backgroundColor": "rgb(246, 246, 246)",
+            "paddingTop": "200px",
+            "paddingBottom": "200px"
+          }
+        },
+        {
+          "tag": "footer",
+          "id": "",
+          "className": "footer onos-footer",
+          "rect": {
+            "width": 1440,
+            "height": 835.6875,
+            "top": 13341.828125
+          },
+          "computed": {
+            "backgroundColor": "rgb(21, 21, 21)",
+            "paddingTop": "0px",
+            "paddingBottom": "0px"
+          }
+        }
+      ],
+      "buttons": [
+        {
+          "className": "nav-button-wrap",
+          "text": "Let's talkLet's talk↗",
+          "borderRadius": "0px",
+          "padding": "0px",
+          "fontSize": "18px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(92, 92, 92)"
+        },
+        {
+          "className": "primary-button w-inline-block onos-button-accent",
+          "text": "Let's talkLet's talk↗",
+          "borderRadius": "5.008px 5.008px 15.008px",
+          "padding": "0px",
+          "fontSize": "18px",
+          "backgroundColor": "rgb(200, 55, 11)",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "className": "button-primary-inner",
+          "text": "Let's talkLet's talk↗",
+          "borderRadius": "5.008px 5.008px 0px",
+          "padding": "0px",
+          "fontSize": "18px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "className": "button-text-wrap",
+          "text": "Let's talkLet's talk",
+          "borderRadius": "0px",
+          "padding": "15.008px 0px 15.008px 24px",
+          "fontSize": "18px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "className": "button-text-inner",
+          "text": "Let's talkLet's talk",
+          "borderRadius": "0px",
+          "padding": "0px",
+          "fontSize": "18px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)"
+        }
+      ]
+    }
+  },
+  "onos-live": {
+    "375": {
+      "title": "Onos Global | POD Manufacturing & Fulfillment",
+      "nav": {
+        "tag": "header",
+        "id": "top",
+        "className": "site-header",
+        "width": 375,
+        "height": 71,
+        "backgroundColor": "rgba(248, 249, 245, 0.93)",
+        "color": "rgb(32, 41, 36)",
+        "fontFamily": "Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "26.4px",
+        "paddingTop": "13px",
+        "paddingBottom": "13px",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "display": "flex",
+        "gridTemplateColumns": "none",
+        "flexDirection": "row"
+      },
+      "hero": {
+        "tag": "section",
+        "id": "",
+        "className": "enterprise-hero wrap",
+        "width": 335,
+        "height": 993.34375,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(32, 41, 36)",
+        "fontFamily": "Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "26.4px",
+        "paddingTop": "25px",
+        "paddingBottom": "24px",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "display": "block",
+        "gridTemplateColumns": "none",
+        "flexDirection": "row"
+      },
+      "heroH1": {
+        "tag": "h1",
+        "id": "hero-heading",
+        "className": "",
+        "width": 335,
+        "height": 133.078125,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(32, 41, 36)",
+        "fontFamily": "Arial, Helvetica, sans-serif",
+        "fontSize": "37.6px",
+        "fontWeight": "500",
+        "lineHeight": "44.368px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "display": "block",
+        "gridTemplateColumns": "none",
+        "flexDirection": "row"
+      },
+      "containers": [],
+      "sections": [
+        {
+          "tag": "header",
+          "id": "top",
+          "className": "site-header",
+          "rect": {
+            "width": 375,
+            "height": 71,
+            "top": 0
+          },
+          "computed": {
+            "backgroundColor": "rgba(248, 249, 245, 0.93)",
+            "paddingTop": "13px",
+            "paddingBottom": "13px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "",
+          "className": "enterprise-hero wrap",
+          "rect": {
+            "width": 335,
+            "height": 993.34375,
+            "top": 71
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "25px",
+            "paddingBottom": "24px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "capabilities",
+          "className": "section wrap",
+          "rect": {
+            "width": 335,
+            "height": 2779.40625,
+            "top": 1359.09375
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "48px",
+            "paddingBottom": "48px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "production-fit",
+          "className": "production-fit",
+          "rect": {
+            "width": 375,
+            "height": 1248.171875,
+            "top": 4138.5
+          },
+          "computed": {
+            "backgroundColor": "rgb(237, 241, 233)",
+            "paddingTop": "48px",
+            "paddingBottom": "48px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "facilities",
+          "className": "network section",
+          "rect": {
+            "width": 375,
+            "height": 1621.0625,
+            "top": 5386.671875
+          },
+          "computed": {
+            "backgroundColor": "rgb(32, 41, 36)",
+            "paddingTop": "48px",
+            "paddingBottom": "48px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "process",
+          "className": "section wrap",
+          "rect": {
+            "width": 335,
+            "height": 1585.265625,
+            "top": 7007.734375
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "48px",
+            "paddingBottom": "48px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "inside-onos",
+          "className": "gallery-section section",
+          "rect": {
+            "width": 375,
+            "height": 640.640625,
+            "top": 8593
+          },
+          "computed": {
+            "backgroundColor": "rgb(237, 240, 233)",
+            "paddingTop": "48px",
+            "paddingBottom": "48px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "ecosystem",
+          "className": "section wrap ecosystem",
+          "rect": {
+            "width": 335,
+            "height": 1363.796875,
+            "top": 9233.640625
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "48px",
+            "paddingBottom": "48px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "faq",
+          "className": "section wrap faq",
+          "rect": {
+            "width": 335,
+            "height": 648.421875,
+            "top": 10597.4375
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "8px",
+            "paddingBottom": "48px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "contact",
+          "className": "contact-section",
+          "rect": {
+            "width": 375,
+            "height": 876.15625,
+            "top": 11245.859375
+          },
+          "computed": {
+            "backgroundColor": "rgb(237, 235, 148)",
+            "paddingTop": "48px",
+            "paddingBottom": "48px"
+          }
+        },
+        {
+          "tag": "footer",
+          "id": "",
+          "className": "site-footer wrap",
+          "rect": {
+            "width": 335,
+            "height": 274.421875,
+            "top": 12122.015625
+          },
+          "computed": {
+            "backgroundColor": "rgb(32, 41, 36)",
+            "paddingTop": "38px",
+            "paddingBottom": "26px"
+          }
+        }
+      ],
+      "buttons": [
+        {
+          "className": "button primary",
+          "text": "Find your production fit↗",
+          "borderRadius": "4px",
+          "padding": "14px 16px",
+          "fontSize": "14.88px",
+          "backgroundColor": "rgb(32, 41, 36)",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "className": "button",
+          "text": "Discuss this product↗",
+          "borderRadius": "99px",
+          "padding": "15px 24px",
+          "fontSize": "16px",
+          "backgroundColor": "rgb(40, 86, 64)",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "className": "photo-button",
+          "text": "↗",
+          "borderRadius": "5px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "backgroundColor": "rgb(218, 226, 211)",
+          "color": "rgb(32, 41, 36)"
+        },
+        {
+          "className": "photo-button",
+          "text": "↗",
+          "borderRadius": "5px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "backgroundColor": "rgb(218, 226, 211)",
+          "color": "rgb(32, 41, 36)"
+        },
+        {
+          "className": "photo-button",
+          "text": "↗",
+          "borderRadius": "5px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "backgroundColor": "rgb(218, 226, 211)",
+          "color": "rgb(32, 41, 36)"
+        }
+      ]
+    },
+    "1440": {
+      "title": "Onos Global | POD Manufacturing & Fulfillment",
+      "nav": {
+        "tag": "header",
+        "id": "top",
+        "className": "site-header",
+        "width": 1440,
+        "height": 86.078125,
+        "backgroundColor": "rgba(248, 249, 245, 0.93)",
+        "color": "rgb(32, 41, 36)",
+        "fontFamily": "Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "26.4px",
+        "paddingTop": "18px",
+        "paddingBottom": "18px",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "display": "flex",
+        "gridTemplateColumns": "none",
+        "flexDirection": "row"
+      },
+      "hero": {
+        "tag": "section",
+        "id": "",
+        "className": "enterprise-hero wrap",
+        "width": 1320,
+        "height": 745,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(32, 41, 36)",
+        "fontFamily": "Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "26.4px",
+        "paddingTop": "30px",
+        "paddingBottom": "28px",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "display": "block",
+        "gridTemplateColumns": "none",
+        "flexDirection": "row"
+      },
+      "heroH1": {
+        "tag": "h1",
+        "id": "hero-heading",
+        "className": "",
+        "width": 773.171875,
+        "height": 158.96875,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(32, 41, 36)",
+        "fontFamily": "Arial, Helvetica, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "500",
+        "lineHeight": "79.488px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "display": "block",
+        "gridTemplateColumns": "none",
+        "flexDirection": "row"
+      },
+      "containers": [],
+      "sections": [
+        {
+          "tag": "header",
+          "id": "top",
+          "className": "site-header",
+          "rect": {
+            "width": 1440,
+            "height": 86.078125,
+            "top": 0
+          },
+          "computed": {
+            "backgroundColor": "rgba(248, 249, 245, 0.93)",
+            "paddingTop": "18px",
+            "paddingBottom": "18px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "",
+          "className": "enterprise-hero wrap",
+          "rect": {
+            "width": 1320,
+            "height": 745,
+            "top": 86.078125
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "30px",
+            "paddingBottom": "28px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "capabilities",
+          "className": "section wrap",
+          "rect": {
+            "width": 1320,
+            "height": 1422.140625,
+            "top": 969.875
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "64px",
+            "paddingBottom": "64px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "production-fit",
+          "className": "production-fit",
+          "rect": {
+            "width": 1440,
+            "height": 863.234375,
+            "top": 2392.015625
+          },
+          "computed": {
+            "backgroundColor": "rgb(237, 241, 233)",
+            "paddingTop": "64px",
+            "paddingBottom": "64px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "facilities",
+          "className": "network section",
+          "rect": {
+            "width": 1440,
+            "height": 1219.9375,
+            "top": 3255.25
+          },
+          "computed": {
+            "backgroundColor": "rgb(32, 41, 36)",
+            "paddingTop": "76px",
+            "paddingBottom": "76px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "process",
+          "className": "section wrap",
+          "rect": {
+            "width": 1320,
+            "height": 863.0625,
+            "top": 4475.1875
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "76px",
+            "paddingBottom": "76px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "inside-onos",
+          "className": "gallery-section section",
+          "rect": {
+            "width": 1440,
+            "height": 812.578125,
+            "top": 5338.25
+          },
+          "computed": {
+            "backgroundColor": "rgb(237, 240, 233)",
+            "paddingTop": "76px",
+            "paddingBottom": "76px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "ecosystem",
+          "className": "section wrap ecosystem",
+          "rect": {
+            "width": 1320,
+            "height": 718.265625,
+            "top": 6150.828125
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "76px",
+            "paddingBottom": "76px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "faq",
+          "className": "section wrap faq",
+          "rect": {
+            "width": 1320,
+            "height": 434.5625,
+            "top": 6869.09375
+          },
+          "computed": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "16px",
+            "paddingBottom": "76px"
+          }
+        },
+        {
+          "tag": "section",
+          "id": "contact",
+          "className": "contact-section",
+          "rect": {
+            "width": 1440,
+            "height": 544.171875,
+            "top": 7303.65625
+          },
+          "computed": {
+            "backgroundColor": "rgb(237, 235, 148)",
+            "paddingTop": "64px",
+            "paddingBottom": "64px"
+          }
+        },
+        {
+          "tag": "footer",
+          "id": "",
+          "className": "site-footer wrap",
+          "rect": {
+            "width": 1320,
+            "height": 217.28125,
+            "top": 7847.828125
+          },
+          "computed": {
+            "backgroundColor": "rgb(32, 41, 36)",
+            "paddingTop": "50px",
+            "paddingBottom": "26px"
+          }
+        }
+      ],
+      "buttons": [
+        {
+          "className": "button primary",
+          "text": "Find your production fit↗",
+          "borderRadius": "4px",
+          "padding": "15px 22px",
+          "fontSize": "15.52px",
+          "backgroundColor": "rgb(32, 41, 36)",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "className": "button",
+          "text": "Discuss this product↗",
+          "borderRadius": "99px",
+          "padding": "15px 24px",
+          "fontSize": "16px",
+          "backgroundColor": "rgb(40, 86, 64)",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "className": "photo-button",
+          "text": "↗",
+          "borderRadius": "5px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "backgroundColor": "rgb(218, 226, 211)",
+          "color": "rgb(32, 41, 36)"
+        },
+        {
+          "className": "photo-button",
+          "text": "↗",
+          "borderRadius": "5px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "backgroundColor": "rgb(218, 226, 211)",
+          "color": "rgb(32, 41, 36)"
+        },
+        {
+          "className": "photo-button",
+          "text": "↗",
+          "borderRadius": "5px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "backgroundColor": "rgb(218, 226, 211)",
+          "color": "rgb(32, 41, 36)"
+        }
+      ]
+    }
+  }
+}
