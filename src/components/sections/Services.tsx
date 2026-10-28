@@ -89,6 +89,7 @@ export function Services() {
                           <img
                             src="/assets/onos-dtg-machine-detail.webp"
                             loading="lazy"
+                            data-w-id="d4d290b2-cf1f-2b7c-1c15-7a88dddc2d17"
                             alt="DTG printing machine"
                             className="service-image"
                             style={{ objectFit: "cover" }}
@@ -146,12 +147,14 @@ export function Services() {
                       <img
                         src="/assets/2b24032b0ac7-68e1e92ebc2f8e7f7dd6d052_testimonial-Slide-Arrow--1-.svg"
                         loading="lazy"
+                        data-w-id="6c3d66a0-b420-e0a5-aade-cb7ede5a2f49"
                         alt="Arrow"
                         className="service-icon-01"
                       />
                       <img
                         src="/assets/2b24032b0ac7-68e1e92ebc2f8e7f7dd6d052_testimonial-Slide-Arrow--1-.svg"
                         loading="lazy"
+                        data-w-id="1b0d8c68-7925-4e4c-b357-5d041e365520"
                         alt="Arrow"
                         className="service-hover-icon"
                       />
@@ -182,6 +185,7 @@ export function Services() {
                           <img
                             src="/assets/onos-equipment-embroidery.webp"
                             loading="lazy"
+                            data-w-id="77cde797-b601-13a8-b976-f135a003b6a3"
                             alt="Computerised embroidery"
                             className="service-image"
                             style={{ objectFit: "cover" }}
@@ -239,12 +243,14 @@ export function Services() {
                       <img
                         src="/assets/2b24032b0ac7-68e1e92ebc2f8e7f7dd6d052_testimonial-Slide-Arrow--1-.svg"
                         loading="lazy"
+                        data-w-id="77cde797-b601-13a8-b976-f135a003b6b7"
                         alt="Arrow"
                         className="service-icon-01"
                       />
                       <img
                         src="/assets/2b24032b0ac7-68e1e92ebc2f8e7f7dd6d052_testimonial-Slide-Arrow--1-.svg"
                         loading="lazy"
+                        data-w-id="77cde797-b601-13a8-b976-f135a003b6b8"
                         alt="Arrow"
                         className="service-hover-icon"
                       />
@@ -275,6 +281,7 @@ export function Services() {
                           <img
                             src="/assets/onos-press-machines-row.webp"
                             loading="lazy"
+                            data-w-id="fd6444eb-66fc-2dbd-3d3a-042d56ad9114"
                             alt="Sublimation printing"
                             className="service-image"
                             style={{ objectFit: "cover" }}
@@ -332,12 +339,14 @@ export function Services() {
                       <img
                         src="/assets/2b24032b0ac7-68e1e92ebc2f8e7f7dd6d052_testimonial-Slide-Arrow--1-.svg"
                         loading="lazy"
+                        data-w-id="fd6444eb-66fc-2dbd-3d3a-042d56ad9128"
                         alt="Arrow"
                         className="service-icon-01"
                       />
                       <img
                         src="/assets/2b24032b0ac7-68e1e92ebc2f8e7f7dd6d052_testimonial-Slide-Arrow--1-.svg"
                         loading="lazy"
+                        data-w-id="fd6444eb-66fc-2dbd-3d3a-042d56ad9129"
                         alt="Arrow"
                         className="service-hover-icon"
                       />
@@ -368,6 +377,7 @@ export function Services() {
                           <img
                             src="/assets/onos-laser-cut-gifts.webp"
                             loading="lazy"
+                            data-w-id="ea75087c-806d-fa5f-23d1-e85b71fbeb59"
                             alt="Laser cutting & engraving"
                             className="service-image"
                             style={{ objectFit: "cover" }}
@@ -425,12 +435,14 @@ export function Services() {
                       <img
                         src="/assets/2b24032b0ac7-68e1e92ebc2f8e7f7dd6d052_testimonial-Slide-Arrow--1-.svg"
                         loading="lazy"
+                        data-w-id="ea75087c-806d-fa5f-23d1-e85b71fbeb6d"
                         alt="Arrow"
                         className="service-icon-01"
                       />
                       <img
                         src="/assets/2b24032b0ac7-68e1e92ebc2f8e7f7dd6d052_testimonial-Slide-Arrow--1-.svg"
                         loading="lazy"
+                        data-w-id="ea75087c-806d-fa5f-23d1-e85b71fbeb6e"
                         alt="Arrow"
                         className="service-hover-icon"
                       />

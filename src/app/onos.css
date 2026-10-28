@@ -145,16 +145,4 @@ html.motion-paused [data-w-id] {
   display: inline-flex;
 }
 
-/* Ensure button arrows transition on hover as in template */
-.primary-button .button-icon {
-  display: block;
-}
-.primary-button .button-icon-hover {
-  display: none;
-}
-.primary-button:hover .button-icon {
-  display: none;
-}
-.primary-button:hover .button-icon-hover {
-  display: block;
-}
+

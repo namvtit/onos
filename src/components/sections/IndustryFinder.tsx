@@ -135,6 +135,7 @@ export function IndustryFinder() {
                     <div style={{ marginTop: "28px" }}>
                       <a
                         data-wf--button-arrow--variant="base"
+                        data-w-id="d102baf6-0bbf-4311-9c79-6b424f8fe8a7"
                         href={inquiryHref(language, currentMethod.title)}
                         className="primary-button w-inline-block"
                       >
@@ -173,20 +174,37 @@ export function IndustryFinder() {
       <img
         src="/assets/48c00c6655df-68dfaa6b3891620d3b4a31f5_Industry-image-bg--2-.png"
         loading="lazy"
+        data-w-id="68a88700-03b2-b1ae-401e-bd7fd327a74c"
         alt="Industry image BG"
         className="industry-image-bg one"
       />
       <img
         src="/assets/ae27370f52d3-68dfaa6a28c7a7c7d48d1369_Industry-image-bg--5-.png"
         loading="lazy"
+        data-w-id="bb1d146f-3020-9314-d86a-8b5d20f602bd"
         alt="Industry image BG"
         className="industry-image-bg two"
       />
       <img
         src="/assets/a18541310af5-68dfaa6a72a48addb404ecaf_Industry-image-bg--1-.png"
         loading="lazy"
+        data-w-id="ec80440d-ee55-273b-2ae9-ce265c3afa17"
         alt="Industry image BG"
         className="industry-image-bg three"
+      />
+      <img
+        src="/assets/b38b158ba43b-68dfaa6ba66a9dbc9c52d860_Industry-image-bg--3-.png"
+        loading="lazy"
+        data-w-id="17719652-441a-8e4d-6709-ab16c3504a7d"
+        alt="Industry image BG"
+        className="industry-image-bg four"
+      />
+      <img
+        src="/assets/69f77842671e-68dfaae5b689f779b96d4111_Industry-image-bg--4-.png"
+        loading="lazy"
+        data-w-id="67adcfec-de99-018d-1042-48952abe5b3f"
+        alt="Industry image BG"
+        className="industry-image-bg five"
       />
 
       <div className="line-wrapper">

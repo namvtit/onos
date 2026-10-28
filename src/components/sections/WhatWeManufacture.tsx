@@ -31,7 +31,7 @@ export function WhatWeManufacture() {
               <div className="products-counter-inner">
                 <div className="inner-number like-score">
                   <div className="numbers-counts">
-                    <div data-count="50" className="count">
+                    <div data-target="50" className="count">
                       50
                     </div>
                   </div>

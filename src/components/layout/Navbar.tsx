@@ -25,6 +25,7 @@ export function Navbar() {
 
   return (
     <div
+      data-wf--navbar--variant="base"
       data-animation="default"
       data-collapse="medium"
       data-duration="400"
@@ -33,9 +34,14 @@ export function Navbar() {
       role="banner"
       className="navbar w-nav"
     >
-      <div className="container-full">
-        <div className="grid-nav">
-          <a href="#home" aria-current="page" className="brand w-nav-brand">
+      <div className="container-full w-container">
+        <div className="w-layout-grid grid-nav">
+          <a
+            href="#home"
+            id="w-node-e6ff9f79-f479-fa42-6f69-a3df18a8ef3f-18a8ef3c"
+            aria-current="page"
+            className="brand w-nav-brand"
+          >
             <img
               src="/assets/onos-wordmark.svg"
               loading="eager"
@@ -44,94 +50,59 @@ export function Navbar() {
             />
           </a>
 
-          <nav role="navigation" className="nav-menu w-nav-menu">
+          <nav
+            role="navigation"
+            id="w-node-e6ff9f79-f479-fa42-6f69-a3df18a8ef41-18a8ef3c"
+            className="nav-menu w-nav-menu"
+          >
             <a
               href="#home"
               className={`nav-link w-nav-link ${activeSection === "home" ? "w--current" : ""}`}
             >
-              <img
-                src="/assets/8ced890523aa-6900a140f61795ffd32bd64a_Nav-Hover-Dot.svg"
-                loading="lazy"
-                alt="Dot"
-                className="nav-dot"
-              />
-              <div>{t("Home")}</div>
+              {t("Home")}
             </a>
             <a
               href="#about"
               className={`nav-link w-nav-link ${activeSection === "about" ? "w--current" : ""}`}
             >
-              <img
-                src="/assets/8ced890523aa-6900a140f61795ffd32bd64a_Nav-Hover-Dot.svg"
-                loading="lazy"
-                alt="Dot"
-                className="nav-dot"
-              />
-              <div>{t("About")}</div>
+              {t("About")}
             </a>
             <a
               href="#capabilities"
               className={`nav-link w-nav-link ${activeSection === "capabilities" ? "w--current" : ""}`}
             >
-              <img
-                src="/assets/8ced890523aa-6900a140f61795ffd32bd64a_Nav-Hover-Dot.svg"
-                loading="lazy"
-                alt="Dot"
-                className="nav-dot"
-              />
-              <div>{t("Capabilities")}</div>
+              {t("Capabilities")}
             </a>
             <a
               href="#products"
               className={`nav-link w-nav-link ${activeSection === "products" ? "w--current" : ""}`}
             >
-              <img
-                src="/assets/8ced890523aa-6900a140f61795ffd32bd64a_Nav-Hover-Dot.svg"
-                loading="lazy"
-                alt="Dot"
-                className="nav-dot"
-              />
-              <div>{t("What we make")}</div>
+              {t("What we make")}
             </a>
             <a
               href="#network"
               className={`nav-link w-nav-link ${activeSection === "network" ? "w--current" : ""}`}
             >
-              <img
-                src="/assets/8ced890523aa-6900a140f61795ffd32bd64a_Nav-Hover-Dot.svg"
-                loading="lazy"
-                alt="Dot"
-                className="nav-dot"
-              />
-              <div>{t("Our network")}</div>
+              {t("Our network")}
             </a>
             <a
               href="#faq"
               className={`nav-link w-nav-link ${activeSection === "faq" ? "w--current" : ""}`}
             >
-              <img
-                src="/assets/8ced890523aa-6900a140f61795ffd32bd64a_Nav-Hover-Dot.svg"
-                loading="lazy"
-                alt="Dot"
-                className="nav-dot"
-              />
-              <div>{t("FAQ")}</div>
+              {t("FAQ")}
             </a>
             <a
               href="#contact"
               className={`nav-link w-nav-link ${activeSection === "contact" ? "w--current" : ""}`}
             >
-              <img
-                src="/assets/8ced890523aa-6900a140f61795ffd32bd64a_Nav-Hover-Dot.svg"
-                loading="lazy"
-                alt="Dot"
-                className="nav-dot"
-              />
-              <div>{t("Contact")}</div>
+              {t("Contact")}
             </a>
           </nav>
 
-          <div className="right-nav">
+          <div
+            id="w-node-e6ff9f79-f479-fa42-6f69-a3df18a8ef64-18a8ef3c"
+            className="right-nav"
+          >
             <div className="nav-lang-switch">
               <button
                 type="button"
@@ -152,8 +123,10 @@ export function Navbar() {
               </button>
             </div>
 
-            <div className="nav-button">
+            <div className="nav-button-wrap">
               <a
+                data-wf--button-arrow--variant="button-primary-bg"
+                data-w-id="d102baf6-0bbf-4311-9c79-6b424f8fe8a7"
                 href="#contact"
                 className="primary-button w-variant-5ae0b7d1-2e18-9989-4375-c73c98041680 w-inline-block"
               >

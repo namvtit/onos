@@ -152,11 +152,11 @@ export function About() {
               className="about-info-box"
             >
               <div className="about-info-inner-wrap">
-                <div className="about-content">{"// 2019-2026 //"}</div>
+                <div className="about-content">{"// 2019 //"}</div>
                 <div className="inner-number">
                   <div className="numbers-counts">
-                    <div data-count="3" className="count">
-                      03
+                    <div data-target="2019" className="count">
+                      2019
                     </div>
                   </div>
                   <div className="counter-symbol">
@@ -164,7 +164,7 @@ export function About() {
                   </div>
                 </div>
                 <p className="about-content-description">
-                  {t("Production plants across Vietnam and USA.")}
+                  {t("The year we began.")}
                 </p>
               </div>
               <img
@@ -175,10 +175,11 @@ export function About() {
               />
             </div>
 
-            {/* Circle 2: Photo */}
+            {/* Circle 2: Photo with baseline growIn animation */}
             <img
               src="/assets/onos-production-floor.webp"
               loading="lazy"
+              data-w-id="2b6ca78d-f30a-dcb3-72dd-ee239194fdde"
               alt="Production Floor"
               className="about-image-box"
               style={{ objectFit: "cover" }}
@@ -199,17 +200,17 @@ export function About() {
               <div className="counter-run">
                 <div className="inner-number about-counter">
                   <div className="numbers-counts text-linear-gradient">
-                    <div data-count="50" className="count">
-                      50
+                    <div data-target="3" className="count">
+                      03
                     </div>
                   </div>
                   <div className="counter-symbol">
-                    <div className="counter-symbol-text">+</div>
+                    <div className="counter-symbol-text"></div>
                   </div>
                 </div>
               </div>
               <div className="about-info-text">
-                {t("Production machines and automated lines")}
+                {t("Production plants across Vietnam and USA")}
               </div>
               <div className="about-rating-wrap">
                 <div className="about-rating-text">
@@ -250,11 +251,11 @@ export function About() {
                 />
               </div>
               <h2 className="like-score">
-                1 million
+                <span data-target="50" className="count">50</span>
                 <span className="icon-primary">+</span>
               </h2>
               <p className="about-content-description text-white">
-                {t("Apparel and POD items manufactured and delivered")}
+                {t("Production machines and automated lines")}
               </p>
             </div>
           </div>

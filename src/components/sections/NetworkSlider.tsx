@@ -39,7 +39,10 @@ export function NetworkSlider() {
           </div>
         </div>
 
-        <div className="case-study-info">
+        <div
+          data-w-id="07cc8b02-829c-0744-9683-1d2336d4de7f"
+          className="case-study-info"
+        >
           <div
             data-delay="4000"
             data-animation="fade"
@@ -53,7 +56,10 @@ export function NetworkSlider() {
             role="region"
             aria-label="carousel"
           >
-            <div className="case-study-slider-mask w-slider-mask">
+            <div
+              data-w-id="b5c4663c-31cd-207d-58f8-818a01e9e39a"
+              className="case-study-slider-mask w-slider-mask"
+            >
               {factories.map((f, idx) => {
                 const isActive = idx === currentSlide;
                 return (
@@ -92,6 +98,7 @@ export function NetworkSlider() {
                                   <div className="case-study-button">
                                     <a
                                       data-wf--button-arrow--variant="button-white-bg"
+                                      data-w-id="d102baf6-0bbf-4311-9c79-6b424f8fe8a7"
                                       href="#contact"
                                       className="primary-button w-variant-e5ebfb29-ba2d-88c3-9b4e-1bbc038e3a15 w-inline-block"
                                     >
@@ -132,18 +139,35 @@ export function NetworkSlider() {
                                 className="case-study-box-shadow"
                               />
                             </div>
-                            <div className="case-study-info-right">
+                            <a
+                              data-w-id={
+                                idx === 0
+                                  ? "8acda32a-e4ec-bc3a-243e-32b1eadb1dc1"
+                                  : idx === 1
+                                  ? "6bffbb23-d411-347f-db2d-076268f89e48"
+                                  : "e41d84f7-eb50-c101-59a2-4cd8c62f3064"
+                              }
+                              href="#contact"
+                              className="case-study-info-right w-inline-block"
+                            >
                               <div className="case-study-image-info">
                                 <img
                                   src={`/assets/onos-${f.image}.webp`}
                                   loading="lazy"
+                                  data-w-id={
+                                    idx === 0
+                                      ? "844109a7-16c9-b242-3848-f6eb21546640"
+                                      : idx === 1
+                                      ? "6bffbb23-d411-347f-db2d-076268f89e4a"
+                                      : "e41d84f7-eb50-c101-59a2-4cd8c62f3066"
+                                  }
                                   alt={f.name}
                                   className="case-study-image"
                                   style={{ objectFit: "cover" }}
                                 />
                                 <div className="case-study-image-layout"></div>
                               </div>
-                            </div>
+                            </a>
                           </div>
                         </div>
                       </div>
@@ -252,6 +276,14 @@ export function NetworkSlider() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="line-wrapper">
+        <div className="section-line border-grey-1"></div>
+        <div className="section-line border-grey-1"></div>
+        <div className="section-line border-grey-1"></div>
+        <div className="section-line border-grey-1"></div>
+        <div className="section-line border-grey-1"></div>
       </div>
     </section>
   );

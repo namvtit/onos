@@ -305,6 +305,14 @@ export function ContactSection() {
           </div>
         </div>
       </div>
+
+      <div className="line-wrapper">
+        <div className="section-line border-grey-1"></div>
+        <div className="section-line border-grey-1"></div>
+        <div className="section-line border-grey-1"></div>
+        <div className="section-line border-grey-1"></div>
+        <div className="section-line border-grey-1"></div>
+      </div>
     </section>
   );
 }
