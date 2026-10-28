@@ -1,0 +1,169 @@
+{
+  "scrollWidth": 1440,
+  "height": 4822,
+  "blocks": [
+    {
+      "tag": "DIV",
+      "classes": "navbar w-nav",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 95.40625
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "hero-inner-section",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1168.59375
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "blog-simple-section",
+      "box": {
+        "x": 0,
+        "y": 1168.59375,
+        "width": 1440,
+        "height": 2002.21875
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "resent-blog-section section-spacing-bottom",
+      "box": {
+        "x": 0,
+        "y": 3170.8125,
+        "width": 1440,
+        "height": 804.5
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "footer",
+      "box": {
+        "x": 0,
+        "y": 3975.3125,
+        "width": 1440,
+        "height": 846.546875
+      }
+    }
+  ],
+  "headings": [
+    {
+      "text": "Smart factories transforming modern manufacturing",
+      "box": {
+        "x": 170,
+        "y": 251.40625,
+        "width": 1100,
+        "height": 158.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Recent blogs",
+      "box": {
+        "x": 537.90625,
+        "y": 3228.515625,
+        "width": 364.1875,
+        "height": 63.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Breakthroughs powering manufacturing efficiency",
+      "box": {
+        "x": 66,
+        "y": 3719.71875,
+        "width": 401.328125,
+        "height": 39.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "How automation is shaping the future of manufacturing",
+      "box": {
+        "x": 519.328125,
+        "y": 3719.71875,
+        "width": 401.328125,
+        "height": 39.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Top 5 materials revolutionizing industrial components",
+      "box": {
+        "x": 972.65625,
+        "y": 3719.71875,
+        "width": 401.34375,
+        "height": 39.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Stay connected",
+      "box": {
+        "x": 50,
+        "y": 4175.3125,
+        "width": 433.328125,
+        "height": 35.203125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Main links",
+      "box": {
+        "x": 523.328125,
+        "y": 4175.3125,
+        "width": 195.625,
+        "height": 30.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Utility links",
+      "box": {
+        "x": 733.953125,
+        "y": 4175.3125,
+        "width": 195.640625,
+        "height": 30.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Contact info",
+      "box": {
+        "x": 944.59375,
+        "y": 4175.3125,
+        "width": 234.765625,
+        "height": 30.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Working hours",
+      "box": {
+        "x": 1194.359375,
+        "y": 4175.3125,
+        "width": 195.640625,
+        "height": 61.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    }
+  ],
+  "errors": []
+}

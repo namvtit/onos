@@ -1,0 +1,4561 @@
+{
+  "pages": [
+    {
+      "file": "raw-webflow/401.html",
+      "route": "/401",
+      "sha256": "30106592a849fefa66d5ef4e3a38000b48f1c21155f278bdff323a0705b820fd",
+      "title": "Protected page | Saash - Webflow HTML website template",
+      "wfPage": "68d1288562216d12f8801f1a",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "utility-page-wrap"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "email-form",
+          "action": "https://manufactt-wbs.webflow.io/.wf_auth",
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "input-white",
+                "w-password-page",
+                "w-input"
+              ],
+              "autofocus": "true",
+              "maxlength": "256",
+              "name": "pass",
+              "data-name": "field",
+              "placeholder": "Enter your password",
+              "type": "password",
+              "id": "pass"
+            },
+            {
+              "type": "submit",
+              "data-wait": "Please wait...",
+              "class": [
+                "form-submit-button",
+                "bg-dark",
+                "w-password-page",
+                "w-button"
+              ],
+              "value": "Submit"
+            },
+            {
+              "type": "hidden",
+              "name": "path",
+              "value": "<%WF_FORM_VALUE_PATH%>"
+            },
+            {
+              "type": "hidden",
+              "name": "page",
+              "value": "<%WF_FORM_VALUE_PAGE%>"
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 0,
+        "w-dropdown": 0,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/404.html",
+      "route": "/404",
+      "sha256": "5e2513749f6a5fa3e881190955925198d01c36fece389d74237d1bb7c24dc31b",
+      "title": "Not Found | Saash - Webflow HTML website template",
+      "wfPage": "68d1288562216d12f8801f1b",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "utility-page-wrap"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/about.html",
+      "route": "/about",
+      "sha256": "2c1c2e87adbef368c2c0ef72cf38a9b79b58d5306f0e279ec06336a465626b25",
+      "title": "About | Manufactt - Webflow HTML website template",
+      "wfPage": "68e0e7c7e91a304b26e036ba",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "about-hero-section"
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "image-info-about"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "about-three-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "client-section",
+            "section-spacing"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "video-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "team-section",
+            "section-spacing"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 1,
+        "faq-item": 0,
+        "count": 1
+      }
+    },
+    {
+      "file": "raw-webflow/blog/3d-printing-revolutionizing-product-development.html",
+      "route": "/blog/3d-printing-revolutionizing-product-development",
+      "sha256": "06c204f2669d753a8b0480c24053f8150af41d345beb6ffc9383d3e5310779d0",
+      "title": "3D printing revolutionizing product development",
+      "wfPage": "68d1288562216d12f8801f1d",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "hero-inner-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "blog-simple-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "resent-blog-section",
+            "section-spacing-bottom"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/blog/ai-and-machine-learning-powering-smarter-production.html",
+      "route": "/blog/ai-and-machine-learning-powering-smarter-production",
+      "sha256": "59f4fabaf7076b7e4d4dacc820e825d789e328290773746b9884f9d2a84571ee",
+      "title": "AI and machine learning powering smarter production",
+      "wfPage": "68d1288562216d12f8801f1d",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "hero-inner-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "blog-simple-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "resent-blog-section",
+            "section-spacing-bottom"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/blog/breakthroughs-powering-manufacturing-efficiency.html",
+      "route": "/blog/breakthroughs-powering-manufacturing-efficiency",
+      "sha256": "2c78db5411a610c78cac2b1849bdc14a137f55d9bbc69bc11f483bbafafa82f1",
+      "title": "Breakthroughs powering manufacturing efficiency",
+      "wfPage": "68d1288562216d12f8801f1d",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "hero-inner-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "blog-simple-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "resent-blog-section",
+            "section-spacing-bottom"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/blog/how-automation-is-shaping-the-future-of-manufacturing.html",
+      "route": "/blog/how-automation-is-shaping-the-future-of-manufacturing",
+      "sha256": "7a55f0e2770b61e31894aff581410f1df8d30278c080a20c1f2b77c908476370",
+      "title": "How automation is shaping the future of manufacturing",
+      "wfPage": "68d1288562216d12f8801f1d",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "hero-inner-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "blog-simple-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "resent-blog-section",
+            "section-spacing-bottom"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/blog/robotics-revolution-changing-industrial-operations.html",
+      "route": "/blog/robotics-revolution-changing-industrial-operations",
+      "sha256": "199fe72f57b77765aa80efb8fee8b3e242f4648a3eac33439fae46cc6bfbe7ab",
+      "title": "Robotics revolution changing industrial operations",
+      "wfPage": "68d1288562216d12f8801f1d",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "hero-inner-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "blog-simple-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "resent-blog-section",
+            "section-spacing-bottom"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/blog/smart-factories-transforming-modern-manufacturing.html",
+      "route": "/blog/smart-factories-transforming-modern-manufacturing",
+      "sha256": "284908389060b431577d8c990b4f7103b54c21690605cb328c6858616ca25e42",
+      "title": "Smart factories transforming modern manufacturing",
+      "wfPage": "68d1288562216d12f8801f1d",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "hero-inner-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "blog-simple-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "resent-blog-section",
+            "section-spacing-bottom"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/blog/sustainable-manufacturing-driving-a-greener-future.html",
+      "route": "/blog/sustainable-manufacturing-driving-a-greener-future",
+      "sha256": "f4f2014d880e6a6e63056ae4681f703281bfcc7860fa718347124817c7a2eea1",
+      "title": "Sustainable manufacturing driving a greener future",
+      "wfPage": "68d1288562216d12f8801f1d",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "hero-inner-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "blog-simple-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "resent-blog-section",
+            "section-spacing-bottom"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/blog/top-5-materials-revolutionizing-industrial-components.html",
+      "route": "/blog/top-5-materials-revolutionizing-industrial-components",
+      "sha256": "6aa8ab84ee72c5c9398bd1a6afc25a4af322a6368f08e4b9306ae0cff44f82ce",
+      "title": "Top 5 materials revolutionizing industrial components",
+      "wfPage": "68d1288562216d12f8801f1d",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "hero-inner-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "blog-simple-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "resent-blog-section",
+            "section-spacing-bottom"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/blog.html",
+      "route": "/blog",
+      "sha256": "66a2b0a2fac44763832680339542204e273960bd1af15cfa77483f9ef613f1cc",
+      "title": "Blog | Manufactt - Webflow HTML website template",
+      "wfPage": "68e4e879eb761662434268b6",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "hero-simple-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "blog-inner-section",
+            "section-spacing"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/case-studies.html",
+      "route": "/case-studies",
+      "sha256": "fc89dff555d7909bfef49e460dfc15fc2380d68946654b9b3f6d2ce9df0dc3d6",
+      "title": "Case Study| Manufactt - Webflow HTML website template",
+      "wfPage": "68e72f12756f7e162c56f7c9",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "hero-simple-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "project-list-section",
+            "section-spacing"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/case-studies?a472e93b_page=1.html",
+      "route": "/case-studies?a472e93b_page=1",
+      "sha256": "fc89dff555d7909bfef49e460dfc15fc2380d68946654b9b3f6d2ce9df0dc3d6",
+      "title": "Case Study| Manufactt - Webflow HTML website template",
+      "wfPage": "68e72f12756f7e162c56f7c9",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "hero-simple-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "project-list-section",
+            "section-spacing"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/case-studies?a472e93b_page=2.html",
+      "route": "/case-studies?a472e93b_page=2",
+      "sha256": "47e988781f615aaec22d7243675f55c9180c50833e1d396fa4e7d48ceac516e2",
+      "title": "Case Study| Manufactt - Webflow HTML website template",
+      "wfPage": "68e72f12756f7e162c56f7c9",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "hero-simple-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "project-list-section",
+            "section-spacing"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/case-study/additive-manufacturing-for-custom-tooling.html",
+      "route": "/case-study/additive-manufacturing-for-custom-tooling",
+      "sha256": "b8f56922efb1a89cccc91a89d87cbb92882bcecdc29acd61535b002797551aaa",
+      "title": "Additive manufacturing for custom tooling",
+      "wfPage": "68e248755c877848858bfc9c",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "projects-details-section",
+            "section-spacing"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "project-list-section",
+            "section-spacing-bottom"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/case-study/automated-assembly-line-optimization.html",
+      "route": "/case-study/automated-assembly-line-optimization",
+      "sha256": "5468ce59521c0e7d29f0443c8c52821bc7da9bd0c51cd4cdc2c60ad93e3b9801",
+      "title": "Automated assembly line optimization",
+      "wfPage": "68e248755c877848858bfc9c",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "projects-details-section",
+            "section-spacing"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "project-list-section",
+            "section-spacing-bottom"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/case-study/lightweight-castings-for-industrial-equipment.html",
+      "route": "/case-study/lightweight-castings-for-industrial-equipment",
+      "sha256": "657ba083e5f4feb7ae352722e0ab229129044aa471e13f92bfd61659022a90ce",
+      "title": "Lightweight castings for Industrial equipment",
+      "wfPage": "68e248755c877848858bfc9c",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "projects-details-section",
+            "section-spacing"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "project-list-section",
+            "section-spacing-bottom"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/case-study/lightweight-industrial-bracket-fabrication.html",
+      "route": "/case-study/lightweight-industrial-bracket-fabrication",
+      "sha256": "866a5411c8aecbf4a7f66080492a484a83a515334e2c76f491e1c2629a3d2000",
+      "title": "Lightweight industrial bracket fabrication",
+      "wfPage": "68e248755c877848858bfc9c",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "projects-details-section",
+            "section-spacing"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "project-list-section",
+            "section-spacing-bottom"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/case-study/modular-fixture-design-for-mass-production.html",
+      "route": "/case-study/modular-fixture-design-for-mass-production",
+      "sha256": "fcadefe03c2f693864b5ce868085efece6d4cdbe4a7913ec12790b792783089a",
+      "title": "Modular fixture design for mass production",
+      "wfPage": "68e248755c877848858bfc9c",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "projects-details-section",
+            "section-spacing"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "project-list-section",
+            "section-spacing-bottom"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/case-study/precision-cnc-milling-for-automotive-components.html",
+      "route": "/case-study/precision-cnc-milling-for-automotive-components",
+      "sha256": "78b3892e6b3266bb5e41e591f38a79dddd83fc41036979ca1b63c5f3dfcb10b6",
+      "title": "Precision CNC milling for automotive components",
+      "wfPage": "68e248755c877848858bfc9c",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "projects-details-section",
+            "section-spacing"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "project-list-section",
+            "section-spacing-bottom"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/case-study/surface-treatment-innovation-for-corrosion-resistance.html",
+      "route": "/case-study/surface-treatment-innovation-for-corrosion-resistance",
+      "sha256": "4eaee05e9d8ca30f268ebe0c41c626295710d008db2a66d5ef35c0fd21465f9d",
+      "title": "Surface treatment innovation for corrosion resistance",
+      "wfPage": "68e248755c877848858bfc9c",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "projects-details-section",
+            "section-spacing"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "project-list-section",
+            "section-spacing-bottom"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/contact.html",
+      "route": "/contact",
+      "sha256": "13193fc4b267c5b5ba1eeaf73b2b8baf5e1d7eb4ff24c363084183253ff695e9",
+      "title": "Contact | Manufactt - Webflow HTML website template",
+      "wfPage": "68e0e82f4c9b7703e51a7cf0",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "contact-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "email-form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "First-Name",
+              "data-name": "First Name",
+              "placeholder": "",
+              "type": "text",
+              "id": "First-Name",
+              "required": ""
+            },
+            {
+              "class": [
+                "form-input",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "last-Name",
+              "data-name": "last Name",
+              "placeholder": "",
+              "type": "text",
+              "id": "last-Name",
+              "required": ""
+            },
+            {
+              "class": [
+                "form-input",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "email-address",
+              "data-name": "email address",
+              "placeholder": "",
+              "type": "email",
+              "id": "email-address",
+              "required": ""
+            },
+            {
+              "class": [
+                "form-input",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "phone-number",
+              "data-name": "phone number",
+              "placeholder": "",
+              "type": "tel",
+              "id": "phone-number"
+            },
+            {
+              "class": [
+                "form-input",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "subject",
+              "data-name": "subject",
+              "placeholder": "",
+              "type": "text",
+              "id": "subject"
+            },
+            {
+              "placeholder": "",
+              "maxlength": "5000",
+              "id": "message",
+              "name": "message",
+              "data-name": "message",
+              "class": [
+                "form-input",
+                "form-textarea",
+                "w-input"
+              ]
+            },
+            {
+              "type": "submit",
+              "data-wait": "Please wait...",
+              "aria-label": "button",
+              "class": [
+                "form-submit-button",
+                "w-button"
+              ],
+              "value": "Submit"
+            }
+          ]
+        },
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/faqs.html",
+      "route": "/faqs",
+      "sha256": "99f0cc0df66d0f1f03a5c315f5b2bfa0cce5fe3c3d2b2270ea263d7f00a0cf18",
+      "title": "FAQs | Manufactt - Webflow HTML website template",
+      "wfPage": "68d1288562216d12f8801f1e",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "hero-inner-section"
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "faqs-section",
+            "section-spacing-bottom"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/home-2.html",
+      "route": "/home-2",
+      "sha256": "40e64ed9e45a89ea81685ed5f84e0d809c99c836838729aaa0d958c712dc3371",
+      "title": "Home 2 | Manufactt - Webflow HTML website template",
+      "wfPage": "68e0cd43cf184b318b620479",
+      "sections": [
+        {
+          "tag": "section",
+          "classes": [
+            "hero-two-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "about-two-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-two-section",
+            "section-spacing"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "cta-section-two",
+            "section-spacing-bottom"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "step-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "counter-section",
+            "section-spacing-bottom"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "product-two-section",
+            "section-spacing"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "industry-two-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "testimonial-two-section",
+            "section-spacing"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "cta-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "email-form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "bg-change",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "name",
+              "data-name": "Name",
+              "placeholder": "Full name",
+              "type": "text",
+              "id": "name"
+            },
+            {
+              "class": [
+                "form-input",
+                "bg-change",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "email",
+              "data-name": "email",
+              "placeholder": "Email",
+              "type": "email",
+              "id": "email",
+              "required": ""
+            },
+            {
+              "class": [
+                "form-input",
+                "bg-change",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "inquiry",
+              "data-name": "inquiry",
+              "placeholder": "Inquiry",
+              "type": "text",
+              "id": "inquiry"
+            },
+            {
+              "placeholder": "Message",
+              "maxlength": "5000",
+              "id": "field",
+              "name": "field",
+              "data-name": "Field",
+              "class": [
+                "form-input",
+                "bg-change",
+                "form-textarea",
+                "w-input"
+              ]
+            },
+            {
+              "type": "submit",
+              "data-wait": "Please wait...",
+              "aria-label": "Button",
+              "class": [
+                "form-submit-button",
+                "bg-change",
+                "w-button"
+              ],
+              "value": "send"
+            }
+          ]
+        },
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 2,
+        "w-background-video": 1,
+        "faq-item": 0,
+        "count": 7
+      }
+    },
+    {
+      "file": "raw-webflow/index.html",
+      "route": "/",
+      "sha256": "86fcbab1ca98ff7c06837fb7cd34fa911775051125080a5ffcb599e7ce3a9e02",
+      "title": "Manufactt- Webflow HTML website template",
+      "wfPage": "68d1288562216d12f8801f19",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "hero-section",
+            "section-spacing-top"
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "hero-video-wrap"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "about-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-section",
+            "section-spacing-top"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "product-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "industry-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "case-study-section",
+            "section-spacing"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "why-choose-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "testimonial-section",
+            "section-spacing"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "blog-section",
+            "section-spacing-bottom"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "access-paas"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 2,
+        "w-slider": 1,
+        "w-background-video": 1,
+        "faq-item": 0,
+        "count": 5
+      }
+    },
+    {
+      "file": "raw-webflow/privacy-policy.html",
+      "route": "/privacy-policy",
+      "sha256": "91d343c33b39f4ed879fbea2008cb69b8a9f8449243a8eab98f53560c36b7e46",
+      "title": "Privacy Policy | Manufactt- Webflow HTML website template",
+      "wfPage": "68d1288562216d12f8801f21",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "hero-inner-section"
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "privacy-section",
+            "section-spacing-bottom"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/products.html",
+      "route": "/products",
+      "sha256": "f38684c9529cde16f2c6a77e236d823da9a0abf1a96171ff1acc46154ae2e36b",
+      "title": "product | Manufactt - Webflow HTML website template",
+      "wfPage": "68e35551162cf99220468b70",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "product-info-section",
+            "section-spacing"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/service/cnc-machining-services.html",
+      "route": "/service/cnc-machining-services",
+      "sha256": "64ca5ccad1e05560a6c4f8c61c49545d55483bf0ddd1bd6ac38fcf46149bae68",
+      "title": "CNC machining services",
+      "wfPage": "68dcffcae5e156fec4774ab0",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-details-section",
+            "section-spacing-top"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-category-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-step-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-faq-section",
+            "section-spacing"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "cta-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "email-form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "bg-change",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "name",
+              "data-name": "Name",
+              "placeholder": "Full name",
+              "type": "text",
+              "id": "name"
+            },
+            {
+              "class": [
+                "form-input",
+                "bg-change",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "email",
+              "data-name": "email",
+              "placeholder": "Email",
+              "type": "email",
+              "id": "email",
+              "required": ""
+            },
+            {
+              "class": [
+                "form-input",
+                "bg-change",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "inquiry",
+              "data-name": "inquiry",
+              "placeholder": "Inquiry",
+              "type": "text",
+              "id": "inquiry"
+            },
+            {
+              "placeholder": "Message",
+              "maxlength": "5000",
+              "id": "field",
+              "name": "field",
+              "data-name": "Field",
+              "class": [
+                "form-input",
+                "bg-change",
+                "form-textarea",
+                "w-input"
+              ]
+            },
+            {
+              "type": "submit",
+              "data-wait": "Please wait...",
+              "class": [
+                "form-submit-button",
+                "bg-change",
+                "w-button"
+              ],
+              "value": "send"
+            }
+          ]
+        },
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/service/injection-molding.html",
+      "route": "/service/injection-molding",
+      "sha256": "7a54218c93407736502070e0bf8c7a5351718b8d7505b591ef5054f723afa566",
+      "title": "Injection molding",
+      "wfPage": "68dcffcae5e156fec4774ab0",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-details-section",
+            "section-spacing-top"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-category-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-step-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-faq-section",
+            "section-spacing"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "cta-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "email-form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "bg-change",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "name",
+              "data-name": "Name",
+              "placeholder": "Full name",
+              "type": "text",
+              "id": "name"
+            },
+            {
+              "class": [
+                "form-input",
+                "bg-change",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "email",
+              "data-name": "email",
+              "placeholder": "Email",
+              "type": "email",
+              "id": "email",
+              "required": ""
+            },
+            {
+              "class": [
+                "form-input",
+                "bg-change",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "inquiry",
+              "data-name": "inquiry",
+              "placeholder": "Inquiry",
+              "type": "text",
+              "id": "inquiry"
+            },
+            {
+              "placeholder": "Message",
+              "maxlength": "5000",
+              "id": "field",
+              "name": "field",
+              "data-name": "Field",
+              "class": [
+                "form-input",
+                "bg-change",
+                "form-textarea",
+                "w-input"
+              ]
+            },
+            {
+              "type": "submit",
+              "data-wait": "Please wait...",
+              "class": [
+                "form-submit-button",
+                "bg-change",
+                "w-button"
+              ],
+              "value": "send"
+            }
+          ]
+        },
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/service/product-assembly.html",
+      "route": "/service/product-assembly",
+      "sha256": "ec842f83b9f9c357d0d9ac50b6dfb1223e7bf129c324c9163ca56ca884081304",
+      "title": "Product assembly",
+      "wfPage": "68dcffcae5e156fec4774ab0",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-details-section",
+            "section-spacing-top"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-category-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-step-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-faq-section",
+            "section-spacing"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "cta-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "email-form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "bg-change",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "name",
+              "data-name": "Name",
+              "placeholder": "Full name",
+              "type": "text",
+              "id": "name"
+            },
+            {
+              "class": [
+                "form-input",
+                "bg-change",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "email",
+              "data-name": "email",
+              "placeholder": "Email",
+              "type": "email",
+              "id": "email",
+              "required": ""
+            },
+            {
+              "class": [
+                "form-input",
+                "bg-change",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "inquiry",
+              "data-name": "inquiry",
+              "placeholder": "Inquiry",
+              "type": "text",
+              "id": "inquiry"
+            },
+            {
+              "placeholder": "Message",
+              "maxlength": "5000",
+              "id": "field",
+              "name": "field",
+              "data-name": "Field",
+              "class": [
+                "form-input",
+                "bg-change",
+                "form-textarea",
+                "w-input"
+              ]
+            },
+            {
+              "type": "submit",
+              "data-wait": "Please wait...",
+              "class": [
+                "form-submit-button",
+                "bg-change",
+                "w-button"
+              ],
+              "value": "send"
+            }
+          ]
+        },
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/service/quality-control-testing.html",
+      "route": "/service/quality-control-testing",
+      "sha256": "38fd28fff7b12841a2045e066dde6b96eb248ddeb0732fb805a5589a63bcd0a3",
+      "title": "Quality Control & Testing",
+      "wfPage": "68dcffcae5e156fec4774ab0",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-details-section",
+            "section-spacing-top"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-category-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-step-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-faq-section",
+            "section-spacing"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "cta-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "email-form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "bg-change",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "name",
+              "data-name": "Name",
+              "placeholder": "Full name",
+              "type": "text",
+              "id": "name"
+            },
+            {
+              "class": [
+                "form-input",
+                "bg-change",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "email",
+              "data-name": "email",
+              "placeholder": "Email",
+              "type": "email",
+              "id": "email",
+              "required": ""
+            },
+            {
+              "class": [
+                "form-input",
+                "bg-change",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "inquiry",
+              "data-name": "inquiry",
+              "placeholder": "Inquiry",
+              "type": "text",
+              "id": "inquiry"
+            },
+            {
+              "placeholder": "Message",
+              "maxlength": "5000",
+              "id": "field",
+              "name": "field",
+              "data-name": "Field",
+              "class": [
+                "form-input",
+                "bg-change",
+                "form-textarea",
+                "w-input"
+              ]
+            },
+            {
+              "type": "submit",
+              "data-wait": "Please wait...",
+              "class": [
+                "form-submit-button",
+                "bg-change",
+                "w-button"
+              ],
+              "value": "send"
+            }
+          ]
+        },
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/service/sheet-metal-fabrication.html",
+      "route": "/service/sheet-metal-fabrication",
+      "sha256": "0a761c1a5a0efa76b5c77fd9a82362fec2e73f21e0cafdd0b575e443a6d5a89c",
+      "title": "Sheet metal fabrication",
+      "wfPage": "68dcffcae5e156fec4774ab0",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-details-section",
+            "section-spacing-top"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-category-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-step-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-faq-section",
+            "section-spacing"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "cta-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "email-form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "bg-change",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "name",
+              "data-name": "Name",
+              "placeholder": "Full name",
+              "type": "text",
+              "id": "name"
+            },
+            {
+              "class": [
+                "form-input",
+                "bg-change",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "email",
+              "data-name": "email",
+              "placeholder": "Email",
+              "type": "email",
+              "id": "email",
+              "required": ""
+            },
+            {
+              "class": [
+                "form-input",
+                "bg-change",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "inquiry",
+              "data-name": "inquiry",
+              "placeholder": "Inquiry",
+              "type": "text",
+              "id": "inquiry"
+            },
+            {
+              "placeholder": "Message",
+              "maxlength": "5000",
+              "id": "field",
+              "name": "field",
+              "data-name": "Field",
+              "class": [
+                "form-input",
+                "bg-change",
+                "form-textarea",
+                "w-input"
+              ]
+            },
+            {
+              "type": "submit",
+              "data-wait": "Please wait...",
+              "class": [
+                "form-submit-button",
+                "bg-change",
+                "w-button"
+              ],
+              "value": "send"
+            }
+          ]
+        },
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/service/surface-finishing.html",
+      "route": "/service/surface-finishing",
+      "sha256": "67548f52e07496bdc8ba14b7be4331e167ba51248bfbda2529b9f6e817761276",
+      "title": "Surface Finishing",
+      "wfPage": "68dcffcae5e156fec4774ab0",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-details-section",
+            "section-spacing-top"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-category-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-step-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-faq-section",
+            "section-spacing"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "cta-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "email-form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "bg-change",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "name",
+              "data-name": "Name",
+              "placeholder": "Full name",
+              "type": "text",
+              "id": "name"
+            },
+            {
+              "class": [
+                "form-input",
+                "bg-change",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "email",
+              "data-name": "email",
+              "placeholder": "Email",
+              "type": "email",
+              "id": "email",
+              "required": ""
+            },
+            {
+              "class": [
+                "form-input",
+                "bg-change",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "inquiry",
+              "data-name": "inquiry",
+              "placeholder": "Inquiry",
+              "type": "text",
+              "id": "inquiry"
+            },
+            {
+              "placeholder": "Message",
+              "maxlength": "5000",
+              "id": "field",
+              "name": "field",
+              "data-name": "Field",
+              "class": [
+                "form-input",
+                "bg-change",
+                "form-textarea",
+                "w-input"
+              ]
+            },
+            {
+              "type": "submit",
+              "data-wait": "Please wait...",
+              "class": [
+                "form-submit-button",
+                "bg-change",
+                "w-button"
+              ],
+              "value": "send"
+            }
+          ]
+        },
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/services.html",
+      "route": "/services",
+      "sha256": "f88adb57f7b57ef18d699f366314f840df5919c530a0a6991d5b044260d4c3f3",
+      "title": "Services | Manufactt - Webflow HTML website template",
+      "wfPage": "68e4a8692cba96965b39f09b",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "service-inner-section",
+            "section-spacing"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/utility-pages/changelog.html",
+      "route": "/utility-pages/changelog",
+      "sha256": "613b70fadd2981157d1da22d16f2fa6d45114e6c972bd48e20a7aa2b0de6f5be",
+      "title": "Changelog | Manufactt - Webflow HTML website template",
+      "wfPage": "68d1288562216d12f8801f1c",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "hero-inner-section"
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "style-guide-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/utility-pages/instructions.html",
+      "route": "/utility-pages/instructions",
+      "sha256": "e209155109f39491cdd3764a055b500a9ad4ea12a59552d950898e7400a99085",
+      "title": "Instructions | Manufactt - Webflow HTML website template",
+      "wfPage": "68d1288562216d12f8801f1f",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "hero-inner-section"
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "style-guide-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/utility-pages/licenses.html",
+      "route": "/utility-pages/licenses",
+      "sha256": "3848da561cea74bed8e82c70e8af399e61df59fc1c65b1a3e542cbe6388e00b6",
+      "title": "License | Manufactt - Webflow HTML website template",
+      "wfPage": "68d1288562216d12f8801f20",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "hero-inner-section"
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "style-guide-section"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    },
+    {
+      "file": "raw-webflow/utility-pages/style-guide.html",
+      "route": "/utility-pages/style-guide",
+      "sha256": "c48fc4e81f474cff4dcba0fde14df1fbeca036b755aa4eab69319b632645cb2c",
+      "title": "Style Guide | Manufactt - Webflow HTML website template",
+      "wfPage": "68d1288562216d12f8801f23",
+      "sections": [
+        {
+          "tag": "div",
+          "classes": [
+            "navbar",
+            "w-nav"
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "hero-inner-section"
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "style-guide-section"
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "footer"
+          ]
+        },
+        {
+          "tag": "a",
+          "classes": [
+            "more-templates",
+            "w-inline-block"
+          ]
+        }
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Style-Guide-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Name",
+              "data-name": "Name",
+              "placeholder": "",
+              "type": "text",
+              "id": "Name"
+            },
+            {
+              "id": "Message",
+              "name": "Message",
+              "maxlength": "5000",
+              "data-name": "Message",
+              "placeholder": "",
+              "class": [
+                "form-input",
+                "form-textarea",
+                "w-input"
+              ]
+            },
+            {
+              "id": "radio",
+              "type": "radio",
+              "name": "radio",
+              "data-name": "Radio",
+              "style": "opacity:0;position:absolute;z-index:-1",
+              "value": "Radio"
+            },
+            {
+              "id": "radio",
+              "type": "radio",
+              "name": "radio",
+              "data-name": "Radio",
+              "style": "opacity:0;position:absolute;z-index:-1",
+              "value": "Radio"
+            },
+            {
+              "id": "checkbox",
+              "type": "checkbox",
+              "name": "checkbox",
+              "data-name": "Checkbox",
+              "style": "opacity:0;position:absolute;z-index:-1"
+            },
+            {
+              "id": "field",
+              "name": "field",
+              "data-name": "Field",
+              "class": [
+                "form-select",
+                "w-select"
+              ]
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "class": [
+                "form-submit-button",
+                "bg-change",
+                "w-button"
+              ],
+              "value": "Submit"
+            }
+          ]
+        },
+        {
+          "id": "wf-form-Subscribe-Form",
+          "action": null,
+          "fields": [
+            {
+              "class": [
+                "form-input",
+                "form-input-subscribe",
+                "w-input"
+              ],
+              "maxlength": "256",
+              "name": "Email",
+              "data-name": "Email",
+              "placeholder": "Enter your email",
+              "type": "email",
+              "id": "Email",
+              "required": ""
+            },
+            {
+              "type": "submit",
+              "data-wait": "",
+              "aria-label": "Button",
+              "class": [
+                "button-subscribe",
+                "w-button"
+              ],
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "widgets": {
+        "w-nav": 1,
+        "w-dropdown": 1,
+        "w-tabs": 0,
+        "w-slider": 0,
+        "w-background-video": 0,
+        "faq-item": 0,
+        "count": 0
+      }
+    }
+  ],
+  "assetUrls": [
+    "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js",
+    "https://cdn.prod.website-files.com",
+    "https://cdn.prod.website-files.com/6360b7ce770ddeb3770f652f/63a59d6f6df355075be6d82a_wbs-icon.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37%2F68dcaf0cefe8d0466c2141cf_hero%20video-poster-00001.jpg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37%2F68dcaf0cefe8d0466c2141cf_hero%20video-transcode.mp4",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37%2F68dcaf0cefe8d0466c2141cf_hero%20video-transcode.webm",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37%2F68e3748906d641fb7c119f89_counter%20video-poster-00001.jpg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37%2F68e3748906d641fb7c119f89_counter%20video-transcode.mp4",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37%2F68e3748906d641fb7c119f89_counter%20video-transcode.webm",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37%2F68e4bc3a1992c6b0b7d18443_Video%2002-poster-00001.jpg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37%2F68e4bc3a1992c6b0b7d18443_Video%2002-transcode.mp4",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37%2F68e4bc3a1992c6b0b7d18443_Video%2002-transcode.webm",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68d1288562216d12f8801f6e_instagram.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68d1288562216d12f8801fb5_facebook.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68d1288562216d12f8801fe1_67ca90d9a3388af71fdbf084_starter-page.png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68d527b447e1a5cc60cc1c27_button%20icon.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68d52f04943817525b88ad07_a29f3460f69ee2944f9599d001238d55_Logo.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68d6314bdbf908695fdc3d3e_blur.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68dcbebd1bc8fc56182605e9_Quote%20Image%202.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68dcc369de4ced980408d673_%2B.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68dcc4be0a27f1a9ecbc0b06_Avatar%20Image%20(1).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68dcc4be4bec1b8c53916029_Avatar%20Image%20(2).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68dcc4bebd77bc4ff1fc5206_Avatar%20Image%20(3).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68dcc4bed9e7a8448d66fb53_Avatar%20Image%20(4).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68dcd945b4e886f71b7649aa_01.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68dcd946978511538d622f29_Group.png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68dcda0075e8b528cbfffec8_about%20image.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68dfa2eeedefd61b2678f7ae_Industry%20icon.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68dfa44d1abc142af68c1e2d_list%20icon.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68dfaa6a28c7a7c7d48d1369_Industry%20image%20bg%20(5).png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68dfaa6a72a48addb404ecaf_Industry%20image%20bg%20(1).png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68dfaa6b3891620d3b4a31f5_Industry%20image%20bg%20(2).png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68dfaa6ba66a9dbc9c52d860_Industry%20image%20bg%20(3).png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68dfaae5b689f779b96d4111_Industry%20image%20bg%20(4).png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68dfbb0effbd3efe695a9fe0_Products%20Icon.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e097b6914d80d53f78e44b_Product%20Image%20(2)-p-500.png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e097b6914d80d53f78e44b_Product%20Image%20(2).png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e098644bb31efae7327e1e_Product%20Image%20(4)-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e098644bb31efae7327e1e_Product%20Image%20(4).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e09864627b68238e93a027_Product%20Image%20(1)-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e09864627b68238e93a027_Product%20Image%20(1).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e098648e044f6774ff0357_Product%20Image%20(3)-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e098648e044f6774ff0357_Product%20Image%20(3).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e0a3232f5c74270c386291_Client%20image%20(1).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e0a32352dda659458f9dbf_Client%20image%20(2).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e0a3240df9caaa148c8e4a_Client%20image%20(8).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e0a3246d21c9d17ee549f8_Client%20image%20(5).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e0a324728be1dc52eb971a_Client%20image%20(7).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e0a324aca239f0eb318b59_Client%20image%20(6).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e0a324c2e072fddf8eb8e8_Client%20image%20(3).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e0a324ecc054b681e1cb5b_Client%20image%20(4).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e0a5811f399b56334cd5cf_Why%20choose%20image.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e0a9c43bd0b1ca00cd2b65_Star.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e0b1d754d6ce41f9b34fb8_testimonial%20images%20(4).png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e0b1d7773807a49628d175_testimonial%20images%20(3).png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e0b1d79b260e7f43f3773b_testimonial%20images%20(1).png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e0b1d7e5dc788e9f17f966_testimonial%20images%20(5).png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e0b53000060b17ea5a6b03_Testimonial%20Star.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e0bd5d62070af5476040b7_01-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e0bd5d62070af5476040b7_01.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e0bd5d66fbd6635638ea42_Icon.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e0c2f936f3a375961dd0a0_shadow.png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e0de9da751d46e57eab5ce_Chart.png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e0f2d55bfe12b2d0d89da1_shadow-p-500.png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e0f2d55bfe12b2d0d89da1_shadow-p-800.png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e0f2d55bfe12b2d0d89da1_shadow.png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e10f8f4ab30641ef1be4bf_testimonial%20images%20(4).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e10f8f8909a10dec0a8876_testimonial%20images%20(3).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e10f8fb534a5ce614059b2_testimonial%20images%20(2).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e10f90715f79d3ce6cbcb3_testimonial%20images%20(1).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e10f90db84576a3cee5184_testimonial%20images%20(5).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e1e92ebc2f8e7f7dd6d052_testimonial%20Slide%20Arrow%20(1).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e1e92efee16c7f8fdae6b1_testimonial%20Slide%20Arrow%20(2).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e2096394f0ac3ba24efefa_industry%202%20(1).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e20963a751d46e5709b54b_industry%202%20(5).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e20964469b016c2e9b975e_industry%202%20(3).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e20964a1e9b28688647be6_industry%202%20(2).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e20964d73c072f5087d840_industry%202%20(4).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e2214cc283f05792dfc708_Award%20(4).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e2214d3f9f7fd1a8412201_Award%20(3).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e2214d469b016c2e9d689d_Award%20(1).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e2214da3e3ddc545e1c8f8_Award%20(2).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e362240c2d1510981b1f9e_Product%205-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e362240c2d1510981b1f9e_Product%205.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e36225515462be8d353c2b_Product%208-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e36225515462be8d353c2b_Product%208.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e362259d84e2e8f428b979_Product%206-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e362259d84e2e8f428b979_Product%206.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e36225ce6a424be8999cdc_Product%207-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e36225ce6a424be8999cdc_Product%207.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e36a0b34626e3842846490_sider%20arrow%20(1).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e36a0ba276b3c16c800d45_sider%20arrow%20(2).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e3860518576ae8099df460_Counter%20Line-p-1080.png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e3860518576ae8099df460_Counter%20Line-p-500.png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e3860518576ae8099df460_Counter%20Line-p-800.png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e3860518576ae8099df460_Counter%20Line.png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e397a9005a59e720fc81a7_Step%20Icon%202.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e397a9b7c9c2a0ebe884fd_Step%20Icon%201.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e397a9ee616a27fed6add7_Step%20Icon%204.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e397aa9321643777d22395_Step%20Icon%203.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e4960b857104b3f49cf6eb_Shadow-p-500.png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e4960b857104b3f49cf6eb_Shadow-p-800.png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e4960b857104b3f49cf6eb_Shadow.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e496d251974662834e9c54_About%20Hero%20Image-p-1080.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e496d251974662834e9c54_About%20Hero%20Image-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e496d251974662834e9c54_About%20Hero%20Image-p-800.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e496d251974662834e9c54_About%20Hero%20Image.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e4a478139d94dc1ef8914c_A.png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e4ad0b02234b1f4b36db55_Link%20Arrow.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e4b81e884760e3070cd389_Client%20image%20(10).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e4b81e90c5a2d2ed6b1bdb_Client%20image%20(9).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e4b81fc3b9f44298f9bb37_Client%20image%20(11).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e4b81ff1a23d72f7c38766_Client%20image%20(12).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e4cb3e2a22a605a377008d_social%20icon%20(3).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e4cb3edc42b538e669f498_social%20icon%20(1).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e4cb3fe740fb818253d579_social%20icon%20(2).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e74d7246442f79299415a2_marquee%20image%20(6).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e74d731b812d7944a634e4_marquee%20image%20(2).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e74d737df1cfac21f4746f_marquee%20image%20(1).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e74d73933552e9dca68cd4_marquee%20image%20(3).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e74d7465989122b4ac4063_marquee%20image%20(4).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e74d75323521c203b1a691_marquee%20image%20(5).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68e8855863e70b787c3ebe64_Hero%20Content%20Image.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68ecdd3c431234be644acd0a_video%20Icon%20Puse.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68ecdd3d945e5b3131e0c22d_Video%20Icon%20Play.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home%202%20logo.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68ef8c740c7b68bd15f4eeec_Energy%20%26%20Power.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68ef8c742a7bf3defa7650d3_Industrial%20equipment.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68ef8c7488c431e5697cf546_Medical%20devices.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68ef8c74b4dbcf9ddba15b0d_Automotive.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68f083bd068f5863f2f7606f_Fav%20Icon%2032.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68f0849840d991a6278e6745_Fav%20icon%20256.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68f0b900e90d66f1e6a7f4c3_2-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68f0b900e90d66f1e6a7f4c3_2.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68f0cd260f33dbf1ac5cefcb_Team%20Members%20(4).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68f0cd26622b55ec3a3ec249_Team%20Members%20(2).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68f0cd26d6a7b86a22158acb_Team%20Members%20(1).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68f0cd2786973a4f07346a59_Team%20Members%20(7).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68f0cd279465ea6b5dad0320_Team%20Members%20(3).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68f0cd27ab20d017a56a6c36_Team%20Members%20(6).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68f0cd27d2cbc9bf9ba9b734_Team%20Members%20(5).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/690092401550c668556b1522_about%20round%20image%20(3).png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/690092402be57032171eed75_about%20round%20image%20(2).png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/69009240e71084103dfc8390_about%20round%20image%20(1).png",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/6900978adab7c2df4b8af06a_3%20(2)-p-500.jpg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/6900978adab7c2df4b8af06a_3%20(2).jpg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/6900978b8937384b23c556df_3930-p-500.jpg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/6900978b8937384b23c556df_3930.jpg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/6900978be722667c0731fdce_3%20(3)-p-500.jpg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/6900978be722667c0731fdce_3%20(3).jpg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/6900978bee7fdb79ad563415_3%20(1)-p-500.jpg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/6900978bee7fdb79ad563415_3%20(1).jpg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/690300862ee7924a815a73f2_Client%20images%20(2).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/69030086f67c830626e8e303_Client%20images%20(4).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/69030087bc539651bba2d643_Client%20images%20(3).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/69030087fdeff1c0b5795cfa_Client%20images%20(1).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/6903036277cea5ae1a2d9233_Brand%20White.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/69030fdd6a4a78c789fc1f69_twitter-x.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/6954ffc673b0708bd9bbdbf9_crown.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/6954ffc673b0708bd9bbdbfa_close.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/6954ffc673b0708bd9bbdbff_access-image.jpg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/6954ffc673b0708bd9bbdbff_c6d4168604ef3f8f5fa13d42b2ebd32d_access-image-p-1080.jpg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/6954ffc673b0708bd9bbdbff_c6d4168604ef3f8f5fa13d42b2ebd32d_access-image-p-500.jpg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/6954ffc673b0708bd9bbdbff_c6d4168604ef3f8f5fa13d42b2ebd32d_access-image-p-800.jpg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/css/manufactt-wbs.webflow.shared.edef070c1.min.css",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/js/webflow.01c1af1c.33a1f3a415e0c2c5.js",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/js/webflow.0b794540.ecad0c8df27c1d95.js",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/js/webflow.36bdfbad.90c960e41ed53aaf.js",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/js/webflow.623fd989.7bb82f3d35b1a445.js",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/js/webflow.6aa9b53e.32b0e5fcd18cc99b.js",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/js/webflow.schunk.36b8fb49256177c8.js",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/js/webflow.schunk.61b534daaaeddbc7.js",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/js/webflow.schunk.9dfb96661114d3db.js",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/js/webflow.schunk.c1050d341df384dc.js",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/js/webflow.schunk.f919141e3448519b.js",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68dd0f0f45f09a74e7a4e083_68dd045c0438e2e8731b21c1_Icon%252002.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68dd0f10a657fd757cc63f70_68dd097ddfef66551e348204_Icon%252001.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68dd10c0b38ff642330975ce_Icon%2004.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68dd10d7260632638bde8850_Icon%2003.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68df5f9eb1faa87c52dcbf9b_Service%20Image%20(4)-p-1080.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68df5f9eb1faa87c52dcbf9b_Service%20Image%20(4)-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68df5f9eb1faa87c52dcbf9b_Service%20Image%20(4)-p-800.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68df5f9eb1faa87c52dcbf9b_Service%20Image%20(4).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68df5fb4697d6800a50442a3_Service%20Image%20(7)-p-1080.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68df5fb4697d6800a50442a3_Service%20Image%20(7)-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68df5fb4697d6800a50442a3_Service%20Image%20(7)-p-800.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68df5fb4697d6800a50442a3_Service%20Image%20(7).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68df5fc3dd6919f447f80a49_Service%20Image%20(1)-p-1080.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68df5fc3dd6919f447f80a49_Service%20Image%20(1)-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68df5fc3dd6919f447f80a49_Service%20Image%20(1)-p-800.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68df5fc3dd6919f447f80a49_Service%20Image%20(1).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68df5fd46f6e13be0b0f8839_Service%20Image%20(6)-p-1080.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68df5fd46f6e13be0b0f8839_Service%20Image%20(6)-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68df5fd46f6e13be0b0f8839_Service%20Image%20(6)-p-800.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68df5fd46f6e13be0b0f8839_Service%20Image%20(6).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e254aa0bf150d8b71ead93_Case%20Study%20Image%201-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e254aa0bf150d8b71ead93_Case%20Study%20Image%201.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e254b81d5a9819d9c132b7_Case%20Study%20Image%202-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e254b81d5a9819d9c132b7_Case%20Study%20Image%202.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e254c45dd2bac47a1b73ea_Case%20Study%20Image%203-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e254c45dd2bac47a1b73ea_Case%20Study%20Image%203.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e254eb0b7b84e9f4def04e_case%20study%20image%204-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e254eb0b7b84e9f4def04e_case%20study%20image%204.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e2550a6393cda20820810b_case%20study%20image%205-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e2550a6393cda20820810b_case%20study%20image%205.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e25528f043e1ae90e95631_case%20study%20image%206-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e25528f043e1ae90e95631_case%20study%20image%206.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e2555178675ff9623b0491_case%20study%20image%207-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e2555178675ff9623b0491_case%20study%20image%207.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e2579794f0ac3ba256d484_Client%20Image.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e257aed761fb3533200be5_Client%20Image%202.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e33a4abcec2d6e55eac7d0_Client%20Image%203.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e33b240f41e4018e30d8e1_Client%20Image%204.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e33b2be1011afe9783e44e_Client%20image%205.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e33b35d11bf82e5b1d78d6_Client%20Image%207.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e33b50fee16c7f8ffecd5f_Client%20image%206.svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e34a923545f0f0d61ea5d3_image%201-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e34a923545f0f0d61ea5d3_image%201.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e34bf4a3e3ddc5450493cb_blog%20big%20image%201.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e34c235b42befd11b5ec93_image%202-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e34c235b42befd11b5ec93_image%202.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e34c2b5b4fb72c7d9dd691_blog%20big%20image%202.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e34c39638ac15970c6717c_image%203-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e34c39638ac15970c6717c_image%203.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e34c4242c834288f918dee_blog%20big%20image%203.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e34c503ed0adec5ca1c9f7_image%204-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e34c503ed0adec5ca1c9f7_image%204.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e34c5441f10182d22ca65b_blog%20big%20image%204.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e34c7154f05f793faf9888_image%205-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e34c7154f05f793faf9888_image%205.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e34c75cdca16a714d6962e_blog%20big%20image%205.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e34c8a0f917a13debc0f2c_image%206-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e34c8a0f917a13debc0f2c_image%206.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e34c8ebb0a9c959c940a85_blog%20big%20image%206.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e34c9df2a2b68f26b6c08e_image%207-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e34c9df2a2b68f26b6c08e_image%207.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e34caa469b016c2ec00fe7_blog%20big%20image%207.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e5e433f5353269f863ba00_Service%20Image%20(2)-p-1080.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e5e433f5353269f863ba00_Service%20Image%20(2)-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e5e433f5353269f863ba00_Service%20Image%20(2)-p-800.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e5e433f5353269f863ba00_Service%20Image%20(2).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e5e44896c7f2571c97974b_Service%20Image%20(3)-p-1080.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e5e44896c7f2571c97974b_Service%20Image%20(3)-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e5e44896c7f2571c97974b_Service%20Image%20(3)-p-800.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e5e44896c7f2571c97974b_Service%20Image%20(3).webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e5fa3ed6ea05a74cf4cf6e_Service%20Fratures%20Icon%20(3).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e5fa4fd87126b410f24deb_Service%20Fratures%20Icon%20(4).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e5fa59c4ba42c966ffaa02_Service%20Fratures%20Icon%20(1).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e5fa805e7632fa2bde6893_Service%20Fratures%20Icon%20(2).svg",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e77e842f0acbb43b9d3e7c_Untitled-1.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e77e84cb92db72a703d9ac_Untitled-2.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e77fac2235d9ea8f316c41_Untitled-3.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e782390659bf5ac48b0d09_Untitled-6.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e782396fa689b94b9ab406_Untitled-5.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e78239ba9ac3e950131f4b_Untitled-4.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e7852848deec80bb48aba2_Untitled-9.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e78528719951b56187c851_Untitled-8.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e78528ba9ac3e9501427e8_Untitled-7.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e78674d3ebbaceb4b44efe_Untitled-12.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e78674e92cfe53c6106788_Untitled-11.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e78674f6857e2847973968_Untitled-10.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e788e4eca24ead46dfb49f_Untitled-15.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e788edd02ee081790acdc6_Untitled-14.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e788edf622788ab0f6d952_Untitled-13.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e78e9579f88772b20e66f8_Untitled-17.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e78e965c4355e229382a24_Untitled-16.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e78e96bf8662622d0f70b8_Untitled-18.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e78eaf026cc4e19d433516_Untitled-19.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e78eaf04f72a3052676c8d_Untitled-20.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68e78edc006764c838d8ead6_Untitled-21.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68f0d76a4b953aaae184fd6f_image%208-p-500.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68f0d76a4b953aaae184fd6f_image%208.webp",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f4a/68f0d76ef26b42567ee64ddc_blog%20big%20image%208.webp",
+    "https://cdn.prod.website-files.com/gsap/3.14.2/ScrollTrigger.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.14.2/gsap.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+    "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=68d1288562216d12f8801f37",
+    "https://fonts.googleapis.com",
+    "https://fonts.gstatic.com",
+    "https://www.youtube.com/embed/-U0IXSmp6kc"
+  ],
+  "scriptUrls": [
+    "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/js/webflow.01c1af1c.33a1f3a415e0c2c5.js",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/js/webflow.0b794540.ecad0c8df27c1d95.js",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/js/webflow.36bdfbad.90c960e41ed53aaf.js",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/js/webflow.623fd989.7bb82f3d35b1a445.js",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/js/webflow.6aa9b53e.32b0e5fcd18cc99b.js",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/js/webflow.schunk.36b8fb49256177c8.js",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/js/webflow.schunk.61b534daaaeddbc7.js",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/js/webflow.schunk.9dfb96661114d3db.js",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/js/webflow.schunk.c1050d341df384dc.js",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/js/webflow.schunk.f919141e3448519b.js",
+    "https://cdn.prod.website-files.com/gsap/3.14.2/ScrollTrigger.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.14.2/gsap.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+    "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=68d1288562216d12f8801f37"
+  ],
+  "links": [
+    "../401.html",
+    "../404.html",
+    "../about.html",
+    "../blog.html",
+    "../case-studies.html",
+    "../contact.html",
+    "../faqs.html",
+    "../home-2.html",
+    "../index.html",
+    "../privacy-policy.html",
+    "../products.html",
+    "../services.html",
+    "../utility-pages/changelog.html",
+    "../utility-pages/instructions.html",
+    "../utility-pages/licenses.html",
+    "../utility-pages/style-guide.html",
+    "401.html",
+    "404.html",
+    "about.html",
+    "about.html#team-section",
+    "additive-manufacturing-for-custom-tooling.html",
+    "additive-manufacturing-for-custom-tooling.html#",
+    "automated-assembly-line-optimization.html#",
+    "blog.html",
+    "blog/3d-printing-revolutionizing-product-development.html",
+    "blog/ai-and-machine-learning-powering-smarter-production.html",
+    "blog/breakthroughs-powering-manufacturing-efficiency.html",
+    "blog/how-automation-is-shaping-the-future-of-manufacturing.html",
+    "blog/robotics-revolution-changing-industrial-operations.html",
+    "blog/smart-factories-transforming-modern-manufacturing.html",
+    "blog/sustainable-manufacturing-driving-a-greener-future.html",
+    "blog/top-5-materials-revolutionizing-industrial-components.html",
+    "breakthroughs-powering-manufacturing-efficiency.html",
+    "case-studies%3Fa472e93b_page=1.html",
+    "case-studies%3Fa472e93b_page=2.html",
+    "case-studies.html",
+    "case-study/additive-manufacturing-for-custom-tooling.html",
+    "case-study/automated-assembly-line-optimization.html",
+    "case-study/lightweight-castings-for-industrial-equipment.html",
+    "case-study/lightweight-industrial-bracket-fabrication.html",
+    "case-study/modular-fixture-design-for-mass-production.html",
+    "case-study/precision-cnc-milling-for-automotive-components.html",
+    "case-study/surface-treatment-innovation-for-corrosion-resistance.html",
+    "changelog.html",
+    "contact.html",
+    "faqs.html",
+    "home-2.html",
+    "home-2.html#",
+    "how-automation-is-shaping-the-future-of-manufacturing.html",
+    "https://cdn.prod.website-files.com/68d1288562216d12f8801f37/68f0b12338ba832c3a370ba1_PDF.pdf",
+    "https://fonts.google.com/specimen/Geist/license",
+    "https://fonts.google.com/specimen/Mona+Sans",
+    "https://twitter.com/",
+    "https://university.webflow.com/",
+    "https://university.webflow.com/courses/webflow-101-crash-course",
+    "https://university.webflow.com/lesson/audit-panel",
+    "https://university.webflow.com/lesson/image-conversion-tool?topics=layout-design",
+    "https://university.webflow.com/lesson/rich-text#advanced-styling",
+    "https://university.webflow.com/lesson/seo-title-meta-description",
+    "https://university.webflow.com/lesson/style-manager#clean-up",
+    "https://university.webflow.com/lesson/triggers-and-animations#how-to-delete-triggers-and-animations",
+    "https://university.webflow.com/lesson/variables",
+    "https://webestica.com/",
+    "https://webflow.com/",
+    "https://webflow.com/blog/seo-and-webflow-the-essential-guide",
+    "https://webflow.com/templates/designers/webestica",
+    "https://www.facebook.com/",
+    "https://www.flaticon.com/",
+    "https://www.freepikcompany.com/legal",
+    "https://www.iconstica.com/",
+    "https://www.iconstica.com/free-icons",
+    "https://www.instagram.com/",
+    "https://www.linkedin.com/",
+    "https://www.lummi.ai/",
+    "https://www.pexels.com/license/",
+    "https://www.webestica.com/webflow-all-access?utm_source=template-preview&utm_medium=banner&utm_campaign=all-acces&utm_content=manufactt",
+    "https://www.webestica.com/webflow-development",
+    "https://www.webestica.com/webflow-template-support",
+    "https://x.com/",
+    "index.html",
+    "index.html#Footer",
+    "instructions.html",
+    "licenses.html",
+    "lightweight-castings-for-industrial-equipment.html",
+    "lightweight-castings-for-industrial-equipment.html#",
+    "lightweight-industrial-bracket-fabrication.html#",
+    "mailto:example@gmail.com",
+    "modular-fixture-design-for-mass-production.html#",
+    "precision-cnc-milling-for-automotive-components.html",
+    "precision-cnc-milling-for-automotive-components.html#",
+    "privacy-policy.html",
+    "products.html",
+    "service/cnc-machining-services.html",
+    "service/injection-molding.html",
+    "service/product-assembly.html",
+    "service/quality-control-testing.html",
+    "service/sheet-metal-fabrication.html",
+    "service/surface-finishing.html",
+    "services.html",
+    "smart-factories-transforming-modern-manufacturing.html",
+    "style-guide.html",
+    "style-guide.html#",
+    "surface-treatment-innovation-for-corrosion-resistance.html#",
+    "tel:+(41)845889568",
+    "tel:+(558)845889",
+    "tel:+1(415)555-0167",
+    "top-5-materials-revolutionizing-industrial-components.html",
+    "utility-pages/changelog.html",
+    "utility-pages/instructions.html",
+    "utility-pages/licenses.html",
+    "utility-pages/style-guide.html"
+  ]
+}

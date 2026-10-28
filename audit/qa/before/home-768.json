@@ -1,0 +1,481 @@
+{
+  "scrollWidth": 768,
+  "height": 12297,
+  "blocks": [
+    {
+      "tag": "DIV",
+      "classes": "navbar w-nav",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 83.40625
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "hero-section section-spacing-top",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 567.734375
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "hero-video-wrap",
+      "box": {
+        "x": 0,
+        "y": 567.734375,
+        "width": 768,
+        "height": 700
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "about-section",
+      "box": {
+        "x": 0,
+        "y": 1267.734375,
+        "width": 768,
+        "height": 1435.953125
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "service-section section-spacing-top",
+      "box": {
+        "x": 0,
+        "y": 2703.6875,
+        "width": 768,
+        "height": 1802.921875
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "product-section",
+      "box": {
+        "x": 0,
+        "y": 4506.609375,
+        "width": 768,
+        "height": 2125.21875
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "industry-section",
+      "box": {
+        "x": 0,
+        "y": 6631.828125,
+        "width": 768,
+        "height": 942.546875
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "case-study-section section-spacing",
+      "box": {
+        "x": 0,
+        "y": 7574.375,
+        "width": 768,
+        "height": 961.328125
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "why-choose-section",
+      "box": {
+        "x": 0,
+        "y": 8535.703125,
+        "width": 768,
+        "height": 856.84375
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "testimonial-section section-spacing",
+      "box": {
+        "x": 0,
+        "y": 9392.546875,
+        "width": 768,
+        "height": 1326.125
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "blog-section section-spacing-bottom",
+      "box": {
+        "x": 0,
+        "y": 10718.671875,
+        "width": 768,
+        "height": 677.28125
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "footer",
+      "box": {
+        "x": 0,
+        "y": 11395.953125,
+        "width": 768,
+        "height": 900.84375
+      }
+    }
+  ],
+  "headings": [
+    {
+      "text": "From raw material to market-ready",
+      "box": {
+        "x": 20,
+        "y": 152.703125,
+        "width": 376.65625,
+        "height": 281.625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "700"
+    },
+    {
+      "text": "Driven by technology, backed by experience, focused on manufacturing excellence",
+      "box": {
+        "x": 20,
+        "y": 1561.25,
+        "width": 728,
+        "height": 228.8125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "1 million+",
+      "box": {
+        "x": 457.828125,
+        "y": 2430.96875,
+        "width": 142.34375,
+        "height": 35.203125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Scalable capabilities for every challenge",
+      "box": {
+        "x": 20,
+        "y": 2856.390625,
+        "width": 419.40625,
+        "height": 171.609375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Product assembly",
+      "box": {
+        "x": 308.578125,
+        "y": 3129,
+        "width": 369.40625,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Sheet metal fabrication",
+      "box": {
+        "x": 308.578125,
+        "y": 3394.4375,
+        "width": 369.40625,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "CNC machining services",
+      "box": {
+        "x": 308.578125,
+        "y": 3659.875,
+        "width": 369.40625,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Injection molding",
+      "box": {
+        "x": 308.578125,
+        "y": 3925.3125,
+        "width": 369.40625,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Ready to start your next project?",
+      "box": {
+        "x": 40,
+        "y": 4282.96875,
+        "width": 325.859375,
+        "height": 70.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Aluminum gear housing",
+      "box": {
+        "x": 41,
+        "y": 5267.515625,
+        "width": 314.5,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Custom plastic enclosures",
+      "box": {
+        "x": 412.5,
+        "y": 5267.515625,
+        "width": 314.5,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Electrical control panels",
+      "box": {
+        "x": 41,
+        "y": 5833.0625,
+        "width": 314.5,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Precision Shaft Assemblies",
+      "box": {
+        "x": 412.5,
+        "y": 5833.0625,
+        "width": 314.5,
+        "height": 52.8125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Explore our complete product range across industries.",
+      "box": {
+        "x": 20,
+        "y": 6419.609375,
+        "width": 349,
+        "height": 112.21875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Manufacturing solutions for every industry",
+      "box": {
+        "x": 76,
+        "y": 6789.53125,
+        "width": 616,
+        "height": 114.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Aerospace",
+      "box": {
+        "x": 332.1875,
+        "y": 7244.9375,
+        "width": 394.796875,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Real results from real projects",
+      "box": {
+        "x": 20,
+        "y": 7727.078125,
+        "width": 445.625,
+        "height": 114.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Lightweight castings for Industrial equipment",
+      "box": {
+        "x": 44,
+        "y": 7915.484375,
+        "width": 306,
+        "height": 52.8125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "35%",
+      "box": {
+        "x": 44,
+        "y": 8123.265625,
+        "width": 190.546875,
+        "height": 37.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Need some help?",
+      "box": {
+        "x": 143.421875,
+        "y": 8352.484375,
+        "width": 360.359375,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Manufacturing solutions you can count on",
+      "box": {
+        "x": 51,
+        "y": 8806.703125,
+        "width": 463,
+        "height": 61.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Trusted by clients, proven by results",
+      "box": {
+        "x": 76,
+        "y": 9550.25,
+        "width": 616,
+        "height": 114.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Emily carter",
+      "box": {
+        "x": 170,
+        "y": 10039.84375,
+        "width": 548,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Need help choosing the right product?",
+      "box": {
+        "x": 478.40625,
+        "y": 10303.453125,
+        "width": 245.578125,
+        "height": 52.8125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Latest from our blog",
+      "box": {
+        "x": 20,
+        "y": 10776.375,
+        "width": 505.046875,
+        "height": 57.203125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Breakthroughs powering manufacturing efficiency",
+      "box": {
+        "x": 44,
+        "y": 11185.734375,
+        "width": 301,
+        "height": 52.8125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "How automation is shaping the future of manufacturing",
+      "box": {
+        "x": 423,
+        "y": 11159.328125,
+        "width": 301,
+        "height": 79.21875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Stay connected",
+      "box": {
+        "x": 20,
+        "y": 11495.953125,
+        "width": 660,
+        "height": 30.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Main links",
+      "box": {
+        "x": 20,
+        "y": 11719.5625,
+        "width": 143.78125,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Utility links",
+      "box": {
+        "x": 178.78125,
+        "y": 11719.5625,
+        "width": 179.734375,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Contact info",
+      "box": {
+        "x": 373.515625,
+        "y": 11719.5625,
+        "width": 179.734375,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Working hours",
+      "box": {
+        "x": 568.25,
+        "y": 11719.5625,
+        "width": 179.75,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    }
+  ],
+  "errors": []
+}

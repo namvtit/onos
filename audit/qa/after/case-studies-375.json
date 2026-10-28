@@ -1,0 +1,204 @@
+{
+  "scrollWidth": 375,
+  "height": 3446,
+  "blocks": [
+    {
+      "tag": "DIV",
+      "classes": "navbar w-nav",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 54
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "hero-simple-section",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 213.40625
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "project-list-section section-spacing",
+      "box": {
+        "x": 0,
+        "y": 213.40625,
+        "width": 375,
+        "height": 1803.265625
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "footer",
+      "box": {
+        "x": 0,
+        "y": 2016.671875,
+        "width": 375,
+        "height": 1429.125
+      }
+    }
+  ],
+  "headings": [
+    {
+      "text": "Our Case studies",
+      "box": {
+        "x": 46.9375,
+        "y": 96,
+        "width": 281.125,
+        "height": 37.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Lightweight castings for Industrial equipment",
+      "box": {
+        "x": 35,
+        "y": 537.421875,
+        "width": 305,
+        "height": 35.1875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "35%",
+      "box": {
+        "x": 35,
+        "y": 587.609375,
+        "width": 169.390625,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Precision CNC milling for automotive components",
+      "box": {
+        "x": 35,
+        "y": 935.109375,
+        "width": 305,
+        "height": 35.1875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "54%",
+      "box": {
+        "x": 35,
+        "y": 985.296875,
+        "width": 94.328125,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Additive manufacturing for custom tooling",
+      "box": {
+        "x": 35,
+        "y": 1332.796875,
+        "width": 305,
+        "height": 35.1875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "50%",
+      "box": {
+        "x": 35,
+        "y": 1382.984375,
+        "width": 134.4375,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Automated assembly line optimization",
+      "box": {
+        "x": 35,
+        "y": 1730.484375,
+        "width": 298.046875,
+        "height": 17.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "40%",
+      "box": {
+        "x": 35,
+        "y": 1763.078125,
+        "width": 136.5625,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Stay connected",
+      "box": {
+        "x": 15,
+        "y": 2096.671875,
+        "width": 345,
+        "height": 19.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Main links",
+      "box": {
+        "x": 15,
+        "y": 2304.0625,
+        "width": 345,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Utility links",
+      "box": {
+        "x": 15,
+        "y": 2622.4375,
+        "width": 345,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Contact info",
+      "box": {
+        "x": 15,
+        "y": 2879.21875,
+        "width": 345,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Working hours",
+      "box": {
+        "x": 15,
+        "y": 3074.40625,
+        "width": 345,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    }
+  ],
+  "hiddenReveals": [],
+  "errors": []
+}

@@ -1,0 +1,65 @@
+
+> manufactt-next@1.0.0 build
+> next build
+
+▲ Next.js 16.4.3 (Turbopack)
+✓ Running next.config.ts took 70ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1276ms
+  Running TypeScript ...
+  Finished TypeScript in 10.7s ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/39) ...
+⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+  Generating static pages using 11 workers (9/39) 
+  Generating static pages using 11 workers (19/39) 
+  Generating static pages using 11 workers (29/39) 
+✓ Generating static pages using 11 workers (39/39) in 1271ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /401
+├ ○ /404
+├ ○ /about
+├ ○ /blog
+├ ○ /blog/3d-printing-revolutionizing-product-development
+├ ○ /blog/ai-and-machine-learning-powering-smarter-production
+├ ○ /blog/breakthroughs-powering-manufacturing-efficiency
+├ ○ /blog/how-automation-is-shaping-the-future-of-manufacturing
+├ ○ /blog/robotics-revolution-changing-industrial-operations
+├ ○ /blog/smart-factories-transforming-modern-manufacturing
+├ ○ /blog/sustainable-manufacturing-driving-a-greener-future
+├ ○ /blog/top-5-materials-revolutionizing-industrial-components
+├ ƒ /case-studies
+├ ○ /case-study/additive-manufacturing-for-custom-tooling
+├ ○ /case-study/automated-assembly-line-optimization
+├ ○ /case-study/lightweight-castings-for-industrial-equipment
+├ ○ /case-study/lightweight-industrial-bracket-fabrication
+├ ○ /case-study/modular-fixture-design-for-mass-production
+├ ○ /case-study/precision-cnc-milling-for-automotive-components
+├ ○ /case-study/surface-treatment-innovation-for-corrosion-resistance
+├ ○ /contact
+├ ○ /faqs
+├ ○ /home-2
+├ ○ /privacy-policy
+├ ○ /products
+├ ○ /service/cnc-machining-services
+├ ○ /service/injection-molding
+├ ○ /service/product-assembly
+├ ○ /service/quality-control-testing
+├ ○ /service/sheet-metal-fabrication
+├ ○ /service/surface-finishing
+├ ○ /services
+├ ○ /utility-pages/changelog
+├ ○ /utility-pages/instructions
+├ ○ /utility-pages/licenses
+└ ○ /utility-pages/style-guide
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

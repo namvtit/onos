@@ -1,0 +1,105 @@
+{
+  "scrollWidth": 1440,
+  "height": 2101,
+  "blocks": [
+    {
+      "tag": "DIV",
+      "classes": "navbar w-nav",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 95.40625
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "contact-section",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1254.03125
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "footer",
+      "box": {
+        "x": 0,
+        "y": 1254.03125,
+        "width": 1440,
+        "height": 846.546875
+      }
+    }
+  ],
+  "headings": [
+    {
+      "text": "We’re ready to listen",
+      "box": {
+        "x": 50,
+        "y": 200,
+        "width": 655,
+        "height": 158.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Stay connected",
+      "box": {
+        "x": 50,
+        "y": 1454.0675048828125,
+        "width": 433.328125,
+        "height": 35.203125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Main links",
+      "box": {
+        "x": 523.328125,
+        "y": 1454.3521728515625,
+        "width": 195.625,
+        "height": 30.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Utility links",
+      "box": {
+        "x": 733.953125,
+        "y": 1455.33642578125,
+        "width": 195.640625,
+        "height": 30.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Contact info",
+      "box": {
+        "x": 944.59375,
+        "y": 1457.711669921875,
+        "width": 234.765625,
+        "height": 30.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Working hours",
+      "box": {
+        "x": 1194.359375,
+        "y": 1462.4090576171875,
+        "width": 195.640625,
+        "height": 61.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    }
+  ],
+  "errors": []
+}

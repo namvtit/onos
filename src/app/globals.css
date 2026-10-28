@@ -1,0 +1,7 @@
+/* Preserve the exported Webflow cascade. Tailwind is opt-in and has no reset. */
+@layer theme, utilities;
+@import "tailwindcss/theme.css" layer(theme) prefix(tw);
+@import "tailwindcss/utilities.css" layer(utilities) prefix(tw);
+@import "../../public/assets/fonts.css";
+@import "../../public/assets/32f49076361a-manufactt-wbs.webflow.shared.edef070c1.min.css";
+@import "./interactions.css";

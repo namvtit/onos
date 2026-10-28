@@ -1,0 +1,171 @@
+{
+  "scrollWidth": 375,
+  "height": 4408,
+  "blocks": [
+    {
+      "tag": "DIV",
+      "classes": "navbar w-nav",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 54
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "projects-details-section section-spacing",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 1970.25
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "project-list-section section-spacing-bottom",
+      "box": {
+        "x": 0,
+        "y": 1970.25,
+        "width": 375,
+        "height": 1008.875
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "footer",
+      "box": {
+        "x": 0,
+        "y": 2979.125,
+        "width": 375,
+        "height": 1429.125
+      }
+    }
+  ],
+  "headings": [
+    {
+      "text": "Precision CNC milling for automotive components",
+      "box": {
+        "x": 15,
+        "y": 111.171875,
+        "width": 345,
+        "height": 149.625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Other case studies",
+      "box": {
+        "x": 15,
+        "y": 1970.25,
+        "width": 345,
+        "height": 39.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Lightweight castings for Industrial equipment",
+      "box": {
+        "x": 35,
+        "y": 2378.453125,
+        "width": 305,
+        "height": 35.1875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "35%",
+      "box": {
+        "x": 35,
+        "y": 2428.640625,
+        "width": 169.390625,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Additive manufacturing for custom tooling",
+      "box": {
+        "x": 35,
+        "y": 2776.140625,
+        "width": 305,
+        "height": 35.1875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "50%",
+      "box": {
+        "x": 35,
+        "y": 2826.328125,
+        "width": 134.4375,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Stay connected",
+      "box": {
+        "x": 15,
+        "y": 3059.125,
+        "width": 345,
+        "height": 19.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Main links",
+      "box": {
+        "x": 15,
+        "y": 3266.515625,
+        "width": 345,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Utility links",
+      "box": {
+        "x": 15,
+        "y": 3584.890625,
+        "width": 345,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Contact info",
+      "box": {
+        "x": 15,
+        "y": 3841.671875,
+        "width": 345,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Working hours",
+      "box": {
+        "x": 15,
+        "y": 4036.859375,
+        "width": 345,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    }
+  ],
+  "hiddenReveals": [],
+  "errors": []
+}

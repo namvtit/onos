@@ -1,0 +1,332 @@
+{
+  "scrollWidth": 768,
+  "height": 6571,
+  "blocks": [
+    {
+      "tag": "DIV",
+      "classes": "navbar w-nav",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 83.40625
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "service-details-section section-spacing-top",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 1980.75
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "service-category-section",
+      "box": {
+        "x": 0,
+        "y": 1980.75,
+        "width": 768,
+        "height": 1404.171875
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "service-step-section",
+      "box": {
+        "x": 0,
+        "y": 3384.921875,
+        "width": 768,
+        "height": 668.3125
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "service-faq-section section-spacing",
+      "box": {
+        "x": 0,
+        "y": 4053.234375,
+        "width": 768,
+        "height": 988.921875
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "cta-section",
+      "box": {
+        "x": 0,
+        "y": 5042.15625,
+        "width": 768,
+        "height": 627.515625
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "footer",
+      "box": {
+        "x": 0,
+        "y": 5669.671875,
+        "width": 768,
+        "height": 900.84375
+      }
+    }
+  ],
+  "headings": [
+    {
+      "text": "CNC machining services",
+      "box": {
+        "x": 20,
+        "y": 115,
+        "width": 728,
+        "height": 140.8125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "CNC Machining Services",
+      "box": {
+        "x": 20,
+        "y": 976.046875,
+        "width": 728,
+        "height": 37.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "±0.0001\" tolerance capability",
+      "box": {
+        "x": 50,
+        "y": 1450.921875,
+        "width": 289,
+        "height": 19.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Multi-axis machining centers",
+      "box": {
+        "x": 429,
+        "y": 1450.921875,
+        "width": 289,
+        "height": 19.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Materials: Metals, plastics, composites",
+      "box": {
+        "x": 50,
+        "y": 1720.9375,
+        "width": 289,
+        "height": 39.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Prototype to production volumes",
+      "box": {
+        "x": 429,
+        "y": 1720.9375,
+        "width": 289,
+        "height": 19.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "CNC machining services",
+      "box": {
+        "x": 392,
+        "y": 2080.75,
+        "width": 356,
+        "height": 171.609375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Our proven workflow",
+      "box": {
+        "x": 20,
+        "y": 3532.625,
+        "width": 515.65625,
+        "height": 57.203125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Design and planning",
+      "box": {
+        "x": 50.75,
+        "y": 3845.03125,
+        "width": 178.5,
+        "height": 19.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Precision machining",
+      "box": {
+        "x": 291.484375,
+        "y": 3845.03125,
+        "width": 177.015625,
+        "height": 19.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Quality check & Delivery",
+      "box": {
+        "x": 522.5,
+        "y": 3835.140625,
+        "width": 195,
+        "height": 39.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "CNC machining services FAQs",
+      "box": {
+        "x": 20,
+        "y": 4210.9375,
+        "width": 728,
+        "height": 114.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "What is CNC Machining?",
+      "box": {
+        "x": 40,
+        "y": 4415.34375,
+        "width": 216.90625,
+        "height": 30
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "What materials can you machine?",
+      "box": {
+        "x": 40,
+        "y": 4592.15625,
+        "width": 296.4375,
+        "height": 30
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "What types of CNC machines do you use?",
+      "box": {
+        "x": 40,
+        "y": 4692.15625,
+        "width": 362.046875,
+        "height": 30
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Can you handle both prototypes and large production runs?",
+      "box": {
+        "x": 40,
+        "y": 4792.15625,
+        "width": 516.09375,
+        "height": 30
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "How do you ensure precision and quality?",
+      "box": {
+        "x": 40,
+        "y": 4892.15625,
+        "width": 358.328125,
+        "height": 30
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Start your precision manufacturing journey",
+      "box": {
+        "x": 56,
+        "y": 5199.859375,
+        "width": 656,
+        "height": 114.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Stay connected",
+      "box": {
+        "x": 20,
+        "y": 5769.671875,
+        "width": 660,
+        "height": 30.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Main links",
+      "box": {
+        "x": 20,
+        "y": 5993.28125,
+        "width": 143.78125,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Utility links",
+      "box": {
+        "x": 178.78125,
+        "y": 5993.28125,
+        "width": 179.734375,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Contact info",
+      "box": {
+        "x": 373.515625,
+        "y": 5993.28125,
+        "width": 179.734375,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Working hours",
+      "box": {
+        "x": 568.25,
+        "y": 5993.28125,
+        "width": 179.75,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    }
+  ],
+  "errors": []
+}

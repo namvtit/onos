@@ -1,0 +1,183 @@
+{
+  "scrollWidth": 768,
+  "height": 2541,
+  "blocks": [
+    {
+      "tag": "DIV",
+      "classes": "navbar w-nav",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 83.40625
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "service-inner-section section-spacing",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 1639.8125
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "footer",
+      "box": {
+        "x": 0,
+        "y": 1639.8125,
+        "width": 768,
+        "height": 900.84375
+      }
+    }
+  ],
+  "headings": [
+    {
+      "text": "Our Services",
+      "box": {
+        "x": 211.3125,
+        "y": 100,
+        "width": 345.359375,
+        "height": 61.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Product assembly",
+      "box": {
+        "x": 40,
+        "y": 425.953125,
+        "width": 314,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Sheet metal fabrication",
+      "box": {
+        "x": 414,
+        "y": 425.953125,
+        "width": 314,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "CNC machining services",
+      "box": {
+        "x": 40,
+        "y": 791.9375,
+        "width": 314,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Injection molding",
+      "box": {
+        "x": 414,
+        "y": 791.9375,
+        "width": 314,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Surface Finishing",
+      "box": {
+        "x": 40,
+        "y": 1157.921875,
+        "width": 314,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Quality Control & Testing",
+      "box": {
+        "x": 414,
+        "y": 1157.921875,
+        "width": 314,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Ready to start your next project?",
+      "box": {
+        "x": 40,
+        "y": 1416.171875,
+        "width": 386.84375,
+        "height": 70.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Stay connected",
+      "box": {
+        "x": 20,
+        "y": 1739.8125,
+        "width": 660,
+        "height": 30.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Main links",
+      "box": {
+        "x": 20,
+        "y": 1963.421875,
+        "width": 143.78125,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Utility links",
+      "box": {
+        "x": 178.78125,
+        "y": 1963.421875,
+        "width": 179.734375,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Contact info",
+      "box": {
+        "x": 373.515625,
+        "y": 1963.421875,
+        "width": 179.734375,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Working hours",
+      "box": {
+        "x": 568.25,
+        "y": 1963.421875,
+        "width": 179.75,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    }
+  ],
+  "hiddenReveals": [],
+  "errors": []
+}

@@ -1,0 +1,105 @@
+{
+  "scrollWidth": 1024,
+  "height": 2084,
+  "blocks": [
+    {
+      "tag": "DIV",
+      "classes": "navbar w-nav",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 95.40625
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "contact-section",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 1254.03125
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "footer",
+      "box": {
+        "x": 0,
+        "y": 1254.03125,
+        "width": 1024,
+        "height": 829.8125
+      }
+    }
+  ],
+  "headings": [
+    {
+      "text": "We’re ready to listen",
+      "box": {
+        "x": 50,
+        "y": 200,
+        "width": 447,
+        "height": 158.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Stay connected",
+      "box": {
+        "x": 50,
+        "y": 1454.03125,
+        "width": 294.65625,
+        "height": 35.203125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Main links",
+      "box": {
+        "x": 384.65625,
+        "y": 1454.03125,
+        "width": 123.203125,
+        "height": 61.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Utility links",
+      "box": {
+        "x": 522.859375,
+        "y": 1454.03125,
+        "width": 123.203125,
+        "height": 61.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Contact info",
+      "box": {
+        "x": 661.0625,
+        "y": 1454.03125,
+        "width": 174.71875,
+        "height": 30.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Working hours",
+      "box": {
+        "x": 850.78125,
+        "y": 1454.03125,
+        "width": 123.21875,
+        "height": 61.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    }
+  ],
+  "errors": []
+}

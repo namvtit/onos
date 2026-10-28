@@ -1,0 +1,204 @@
+{
+  "scrollWidth": 375,
+  "height": 5524,
+  "blocks": [
+    {
+      "tag": "DIV",
+      "classes": "navbar w-nav",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 54
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "hero-simple-section",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 213.40625
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "blog-inner-section section-spacing",
+      "box": {
+        "x": 0,
+        "y": 213.40625,
+        "width": 375,
+        "height": 3881.875
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "footer",
+      "box": {
+        "x": 0,
+        "y": 4095.28125,
+        "width": 375,
+        "height": 1429.125
+      }
+    }
+  ],
+  "headings": [
+    {
+      "text": "Our blogs",
+      "box": {
+        "x": 107.828125,
+        "y": 96,
+        "width": 159.328125,
+        "height": 37.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Sustainable manufacturing driving a greener future",
+      "box": {
+        "x": 31,
+        "y": 348.203125,
+        "width": 313,
+        "height": 35.1875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Breakthroughs powering manufacturing efficiency",
+      "box": {
+        "x": 31,
+        "y": 1157.6875,
+        "width": 313,
+        "height": 35.1875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "How automation is shaping the future of manufacturing",
+      "box": {
+        "x": 31,
+        "y": 1625.421875,
+        "width": 313,
+        "height": 35.1875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Top 5 materials revolutionizing industrial components",
+      "box": {
+        "x": 31,
+        "y": 2093.15625,
+        "width": 313,
+        "height": 35.1875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Smart factories transforming modern manufacturing",
+      "box": {
+        "x": 31,
+        "y": 2560.890625,
+        "width": 313,
+        "height": 35.1875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "3D printing revolutionizing product development",
+      "box": {
+        "x": 31,
+        "y": 3028.625,
+        "width": 313,
+        "height": 35.1875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "AI and machine learning powering smarter production",
+      "box": {
+        "x": 31,
+        "y": 3496.359375,
+        "width": 313,
+        "height": 35.1875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Robotics revolution changing industrial operations",
+      "box": {
+        "x": 31,
+        "y": 3964.09375,
+        "width": 313,
+        "height": 35.1875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Stay connected",
+      "box": {
+        "x": 15,
+        "y": 4175.28125,
+        "width": 345,
+        "height": 19.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Main links",
+      "box": {
+        "x": 15,
+        "y": 4382.671875,
+        "width": 345,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Utility links",
+      "box": {
+        "x": 15,
+        "y": 4701.046875,
+        "width": 345,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Contact info",
+      "box": {
+        "x": 15,
+        "y": 4957.828125,
+        "width": 345,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Working hours",
+      "box": {
+        "x": 15,
+        "y": 5153.015625,
+        "width": 345,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    }
+  ],
+  "hiddenReveals": [],
+  "errors": []
+}

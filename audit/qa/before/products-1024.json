@@ -1,0 +1,204 @@
+{
+  "scrollWidth": 1024,
+  "height": 3238,
+  "blocks": [
+    {
+      "tag": "DIV",
+      "classes": "navbar w-nav",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 95.40625
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "product-info-section section-spacing",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 2408.609375
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "footer",
+      "box": {
+        "x": 0,
+        "y": 2408.609375,
+        "width": 1024,
+        "height": 829.8125
+      }
+    }
+  ],
+  "headings": [
+    {
+      "text": "Innovative products across all sectors",
+      "box": {
+        "x": 50,
+        "y": 267.703125,
+        "width": 534.703125,
+        "height": 191.390625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Aluminum gear housing",
+      "box": {
+        "x": 71,
+        "y": 560.09375,
+        "width": 177.75,
+        "height": 61.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Custom plastic enclosures",
+      "box": {
+        "x": 305.75,
+        "y": 560.09375,
+        "width": 177.75,
+        "height": 92.390625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Electrical control panels",
+      "box": {
+        "x": 540.5,
+        "y": 560.09375,
+        "width": 177.75,
+        "height": 92.390625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Precision Shaft Assemblies",
+      "box": {
+        "x": 775.25,
+        "y": 560.09375,
+        "width": 177.75,
+        "height": 92.390625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Power distribution boards",
+      "box": {
+        "x": 71,
+        "y": 1283.921875,
+        "width": 177.75,
+        "height": 92.390625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Copper busbar panels",
+      "box": {
+        "x": 305.75,
+        "y": 1283.921875,
+        "width": 177.75,
+        "height": 92.390625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Stainless steel junction boxes",
+      "box": {
+        "x": 540.5,
+        "y": 1283.921875,
+        "width": 177.75,
+        "height": 123.1875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Titanium sensor housings",
+      "box": {
+        "x": 775.25,
+        "y": 1283.921875,
+        "width": 177.75,
+        "height": 92.390625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Custom Order Inquiry",
+      "box": {
+        "x": 95,
+        "y": 2058.0625,
+        "width": 536,
+        "height": 44
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Stay connected",
+      "box": {
+        "x": 50,
+        "y": 2608.609375,
+        "width": 294.65625,
+        "height": 35.203125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Main links",
+      "box": {
+        "x": 384.65625,
+        "y": 2608.609375,
+        "width": 123.203125,
+        "height": 61.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Utility links",
+      "box": {
+        "x": 522.859375,
+        "y": 2608.609375,
+        "width": 123.203125,
+        "height": 61.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Contact info",
+      "box": {
+        "x": 661.0625,
+        "y": 2608.609375,
+        "width": 174.71875,
+        "height": 30.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Working hours",
+      "box": {
+        "x": 850.78125,
+        "y": 2608.609375,
+        "width": 123.21875,
+        "height": 61.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    }
+  ],
+  "errors": []
+}

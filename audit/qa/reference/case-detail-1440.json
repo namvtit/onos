@@ -1,0 +1,192 @@
+{
+  "scrollWidth": 1440,
+  "height": 3988,
+  "blocks": [
+    {
+      "tag": "DIV",
+      "classes": "navbar w-nav",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 95.40625
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "projects-details-section section-spacing",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 2457.59375
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "project-list-section section-spacing-bottom",
+      "box": {
+        "x": 0,
+        "y": 2457.59375,
+        "width": 1440,
+        "height": 683.796875
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "footer",
+      "box": {
+        "x": 0,
+        "y": 3141.390625,
+        "width": 1440,
+        "height": 846.546875
+      }
+    }
+  ],
+  "headings": [
+    {
+      "text": "Precision CNC milling for automotive components",
+      "box": {
+        "x": 170,
+        "y": 233.78125,
+        "width": 1100,
+        "height": 158.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Other case studies",
+      "box": {
+        "x": 70,
+        "y": 2457.59375,
+        "width": 1022.140625,
+        "height": 63.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Lightweight castings for Industrial equipment",
+      "box": {
+        "x": 90,
+        "y": 2655.171875,
+        "width": 277.5,
+        "height": 39.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "35%",
+      "box": {
+        "x": 90,
+        "y": 2857.1875,
+        "width": 277.5,
+        "height": 30.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Additive manufacturing for custom tooling",
+      "box": {
+        "x": 755,
+        "y": 2655.171875,
+        "width": 277.5,
+        "height": 39.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "50%",
+      "box": {
+        "x": 755,
+        "y": 2857.1875,
+        "width": 277.5,
+        "height": 30.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Stay connected",
+      "box": {
+        "x": 50,
+        "y": 3341.390625,
+        "width": 433.328125,
+        "height": 35.203125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Main links",
+      "box": {
+        "x": 523.328125,
+        "y": 3341.390625,
+        "width": 195.625,
+        "height": 30.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Utility links",
+      "box": {
+        "x": 733.953125,
+        "y": 3341.390625,
+        "width": 195.640625,
+        "height": 30.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Contact info",
+      "box": {
+        "x": 944.59375,
+        "y": 3341.390625,
+        "width": 234.765625,
+        "height": 30.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Working hours",
+      "box": {
+        "x": 1194.359375,
+        "y": 3341.390625,
+        "width": 195.640625,
+        "height": 61.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    }
+  ],
+  "hiddenReveals": [
+    {
+      "classes": "project-image-layout",
+      "id": "a8b8708c-77d0-cb61-f087-40152a30c1a3",
+      "box": {
+        "x": 387.5,
+        "y": 2591.390625,
+        "width": 317.5,
+        "height": 350
+      }
+    },
+    {
+      "classes": "project-image-layout",
+      "id": "a8b8708c-77d0-cb61-f087-40152a30c1a3",
+      "box": {
+        "x": 1052.5,
+        "y": 2591.390625,
+        "width": 317.5,
+        "height": 350
+      }
+    }
+  ],
+  "errors": []
+}

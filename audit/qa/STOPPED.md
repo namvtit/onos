@@ -1,0 +1,1 @@
+Visual QA stopped at the user’s request on 28 October 2026. Existing screenshots and logs are retained. The latest visual comparison pass is partial; it was not completed or signed off as pixel-perfect. No further exhaustive screenshot or full-site browser test runs were started.

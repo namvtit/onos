@@ -1,0 +1,236 @@
+[
+  {
+    "source": "401.html",
+    "route": "/401",
+    "component": "Page73c13bdab4",
+    "wfPage": "68d1288562216d12f8801f1a"
+  },
+  {
+    "source": "404.html",
+    "route": "/404",
+    "component": "Page128cc35baa",
+    "wfPage": "68d1288562216d12f8801f1b"
+  },
+  {
+    "source": "about.html",
+    "route": "/about",
+    "component": "Page2212b84a2a",
+    "wfPage": "68e0e7c7e91a304b26e036ba"
+  },
+  {
+    "source": "blog/3d-printing-revolutionizing-product-development.html",
+    "route": "/blog/3d-printing-revolutionizing-product-development",
+    "component": "Page118d5ee9f3",
+    "wfPage": "68d1288562216d12f8801f1d"
+  },
+  {
+    "source": "blog/ai-and-machine-learning-powering-smarter-production.html",
+    "route": "/blog/ai-and-machine-learning-powering-smarter-production",
+    "component": "Page475401f293",
+    "wfPage": "68d1288562216d12f8801f1d"
+  },
+  {
+    "source": "blog/breakthroughs-powering-manufacturing-efficiency.html",
+    "route": "/blog/breakthroughs-powering-manufacturing-efficiency",
+    "component": "Page7dfe47843d",
+    "wfPage": "68d1288562216d12f8801f1d"
+  },
+  {
+    "source": "blog/how-automation-is-shaping-the-future-of-manufacturing.html",
+    "route": "/blog/how-automation-is-shaping-the-future-of-manufacturing",
+    "component": "Page32f3553fe4",
+    "wfPage": "68d1288562216d12f8801f1d"
+  },
+  {
+    "source": "blog/robotics-revolution-changing-industrial-operations.html",
+    "route": "/blog/robotics-revolution-changing-industrial-operations",
+    "component": "Page9cf819f26d",
+    "wfPage": "68d1288562216d12f8801f1d"
+  },
+  {
+    "source": "blog/smart-factories-transforming-modern-manufacturing.html",
+    "route": "/blog/smart-factories-transforming-modern-manufacturing",
+    "component": "Page61d11f8ca2",
+    "wfPage": "68d1288562216d12f8801f1d"
+  },
+  {
+    "source": "blog/sustainable-manufacturing-driving-a-greener-future.html",
+    "route": "/blog/sustainable-manufacturing-driving-a-greener-future",
+    "component": "Page8bb6c94216",
+    "wfPage": "68d1288562216d12f8801f1d"
+  },
+  {
+    "source": "blog/top-5-materials-revolutionizing-industrial-components.html",
+    "route": "/blog/top-5-materials-revolutionizing-industrial-components",
+    "component": "Page2d2d27f352",
+    "wfPage": "68d1288562216d12f8801f1d"
+  },
+  {
+    "source": "blog.html",
+    "route": "/blog",
+    "component": "Pagef0599f46f7",
+    "wfPage": "68e4e879eb761662434268b6"
+  },
+  {
+    "source": "case-studies.html",
+    "route": "/case-studies",
+    "component": "Pageb2209ae1d8",
+    "wfPage": "68e72f12756f7e162c56f7c9"
+  },
+  {
+    "source": "case-studies?a472e93b_page=1.html",
+    "route": "/case-studies?a472e93b_page=1",
+    "component": "Page477a478401",
+    "wfPage": "68e72f12756f7e162c56f7c9"
+  },
+  {
+    "source": "case-studies?a472e93b_page=2.html",
+    "route": "/case-studies?a472e93b_page=2",
+    "component": "Page26cd9913ac",
+    "wfPage": "68e72f12756f7e162c56f7c9"
+  },
+  {
+    "source": "case-study/additive-manufacturing-for-custom-tooling.html",
+    "route": "/case-study/additive-manufacturing-for-custom-tooling",
+    "component": "Pagea674e411e4",
+    "wfPage": "68e248755c877848858bfc9c"
+  },
+  {
+    "source": "case-study/automated-assembly-line-optimization.html",
+    "route": "/case-study/automated-assembly-line-optimization",
+    "component": "Pagefa1f949c77",
+    "wfPage": "68e248755c877848858bfc9c"
+  },
+  {
+    "source": "case-study/lightweight-castings-for-industrial-equipment.html",
+    "route": "/case-study/lightweight-castings-for-industrial-equipment",
+    "component": "Page890d5b02bb",
+    "wfPage": "68e248755c877848858bfc9c"
+  },
+  {
+    "source": "case-study/lightweight-industrial-bracket-fabrication.html",
+    "route": "/case-study/lightweight-industrial-bracket-fabrication",
+    "component": "Page6b7de2e0ae",
+    "wfPage": "68e248755c877848858bfc9c"
+  },
+  {
+    "source": "case-study/modular-fixture-design-for-mass-production.html",
+    "route": "/case-study/modular-fixture-design-for-mass-production",
+    "component": "Pagec98e999142",
+    "wfPage": "68e248755c877848858bfc9c"
+  },
+  {
+    "source": "case-study/precision-cnc-milling-for-automotive-components.html",
+    "route": "/case-study/precision-cnc-milling-for-automotive-components",
+    "component": "Pagee1ec93431d",
+    "wfPage": "68e248755c877848858bfc9c"
+  },
+  {
+    "source": "case-study/surface-treatment-innovation-for-corrosion-resistance.html",
+    "route": "/case-study/surface-treatment-innovation-for-corrosion-resistance",
+    "component": "Page12a13478c4",
+    "wfPage": "68e248755c877848858bfc9c"
+  },
+  {
+    "source": "contact.html",
+    "route": "/contact",
+    "component": "Pageeb5639ef03",
+    "wfPage": "68e0e82f4c9b7703e51a7cf0"
+  },
+  {
+    "source": "faqs.html",
+    "route": "/faqs",
+    "component": "Page6e6e608097",
+    "wfPage": "68d1288562216d12f8801f1e"
+  },
+  {
+    "source": "home-2.html",
+    "route": "/home-2",
+    "component": "Page411e97b5e8",
+    "wfPage": "68e0cd43cf184b318b620479"
+  },
+  {
+    "source": "index.html",
+    "route": "/",
+    "component": "Page0eb5473046",
+    "wfPage": "68d1288562216d12f8801f19"
+  },
+  {
+    "source": "privacy-policy.html",
+    "route": "/privacy-policy",
+    "component": "Pageaf686d8c85",
+    "wfPage": "68d1288562216d12f8801f21"
+  },
+  {
+    "source": "products.html",
+    "route": "/products",
+    "component": "Page436f81d503",
+    "wfPage": "68e35551162cf99220468b70"
+  },
+  {
+    "source": "service/cnc-machining-services.html",
+    "route": "/service/cnc-machining-services",
+    "component": "Page8f5230e31f",
+    "wfPage": "68dcffcae5e156fec4774ab0"
+  },
+  {
+    "source": "service/injection-molding.html",
+    "route": "/service/injection-molding",
+    "component": "Pageb34b43c969",
+    "wfPage": "68dcffcae5e156fec4774ab0"
+  },
+  {
+    "source": "service/product-assembly.html",
+    "route": "/service/product-assembly",
+    "component": "Pagedfae293630",
+    "wfPage": "68dcffcae5e156fec4774ab0"
+  },
+  {
+    "source": "service/quality-control-testing.html",
+    "route": "/service/quality-control-testing",
+    "component": "Page5985b8def2",
+    "wfPage": "68dcffcae5e156fec4774ab0"
+  },
+  {
+    "source": "service/sheet-metal-fabrication.html",
+    "route": "/service/sheet-metal-fabrication",
+    "component": "Page49d324a630",
+    "wfPage": "68dcffcae5e156fec4774ab0"
+  },
+  {
+    "source": "service/surface-finishing.html",
+    "route": "/service/surface-finishing",
+    "component": "Pagefd07ecbd13",
+    "wfPage": "68dcffcae5e156fec4774ab0"
+  },
+  {
+    "source": "services.html",
+    "route": "/services",
+    "component": "Pagec8b7dfe3d4",
+    "wfPage": "68e4a8692cba96965b39f09b"
+  },
+  {
+    "source": "utility-pages/changelog.html",
+    "route": "/utility-pages/changelog",
+    "component": "Pageb5573205f7",
+    "wfPage": "68d1288562216d12f8801f1c"
+  },
+  {
+    "source": "utility-pages/instructions.html",
+    "route": "/utility-pages/instructions",
+    "component": "Pagec950afe906",
+    "wfPage": "68d1288562216d12f8801f1f"
+  },
+  {
+    "source": "utility-pages/licenses.html",
+    "route": "/utility-pages/licenses",
+    "component": "Page7420efdb3a",
+    "wfPage": "68d1288562216d12f8801f20"
+  },
+  {
+    "source": "utility-pages/style-guide.html",
+    "route": "/utility-pages/style-guide",
+    "component": "Pagefc56e108f9",
+    "wfPage": "68d1288562216d12f8801f23"
+  }
+]

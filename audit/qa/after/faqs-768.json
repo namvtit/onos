@@ -1,0 +1,182 @@
+{
+  "scrollWidth": 768,
+  "height": 2024,
+  "blocks": [
+    {
+      "tag": "DIV",
+      "classes": "navbar w-nav",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 83.40625
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "hero-inner-section",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 283.1875
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "faqs-section section-spacing-bottom",
+      "box": {
+        "x": 0,
+        "y": 283.1875,
+        "width": 768,
+        "height": 840.21875
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "footer",
+      "box": {
+        "x": 0,
+        "y": 1123.40625,
+        "width": 768,
+        "height": 900.84375
+      }
+    }
+  ],
+  "headings": [
+    {
+      "text": "Frequently Asked Questions",
+      "box": {
+        "x": 20,
+        "y": 160,
+        "width": 728,
+        "height": 123.1875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "What are common manufacturing processes?",
+      "box": {
+        "x": 40,
+        "y": 383.1875,
+        "width": 398.609375,
+        "height": 30
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "How does automation improve manufacturing?",
+      "box": {
+        "x": 40,
+        "y": 573.40625,
+        "width": 410.53125,
+        "height": 30
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Why is quality control important?",
+      "box": {
+        "x": 40,
+        "y": 673.40625,
+        "width": 288.1875,
+        "height": 30
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "How are materials chosen?",
+      "box": {
+        "x": 40,
+        "y": 773.40625,
+        "width": 234.21875,
+        "height": 30
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "What are the latest trends in manufacturing technology?",
+      "box": {
+        "x": 40,
+        "y": 873.40625,
+        "width": 491.109375,
+        "height": 30
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "What challenges do manufacturers face today?",
+      "box": {
+        "x": 40,
+        "y": 973.40625,
+        "width": 411.96875,
+        "height": 30
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Stay connected",
+      "box": {
+        "x": 20,
+        "y": 1223.40625,
+        "width": 660,
+        "height": 30.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Main links",
+      "box": {
+        "x": 20,
+        "y": 1447.015625,
+        "width": 143.78125,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Utility links",
+      "box": {
+        "x": 178.78125,
+        "y": 1447.015625,
+        "width": 179.734375,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Contact info",
+      "box": {
+        "x": 373.515625,
+        "y": 1447.015625,
+        "width": 179.734375,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Working hours",
+      "box": {
+        "x": 568.25,
+        "y": 1447.015625,
+        "width": 179.75,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    }
+  ],
+  "hiddenReveals": [],
+  "errors": []
+}

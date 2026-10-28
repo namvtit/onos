@@ -1,0 +1,527 @@
+{
+  "scrollWidth": 375,
+  "height": 16423,
+  "blocks": [
+    {
+      "tag": "SECTION",
+      "classes": "hero-two-section",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 1505.28125
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "about-two-section",
+      "box": {
+        "x": 0,
+        "y": 1505.28125,
+        "width": 375,
+        "height": 1580.21875
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "service-two-section section-spacing",
+      "box": {
+        "x": 0,
+        "y": 3085.5,
+        "width": 375,
+        "height": 3051.953125
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "cta-section-two section-spacing-bottom",
+      "box": {
+        "x": 0,
+        "y": 6137.453125,
+        "width": 375,
+        "height": 640.59375
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "step-section",
+      "box": {
+        "x": 0,
+        "y": 6778.046875,
+        "width": 375,
+        "height": 868.171875
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "counter-section section-spacing-bottom",
+      "box": {
+        "x": 0,
+        "y": 7646.21875,
+        "width": 375,
+        "height": 894.78125
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "product-two-section section-spacing",
+      "box": {
+        "x": 0,
+        "y": 8541,
+        "width": 375,
+        "height": 953.734375
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "industry-two-section",
+      "box": {
+        "x": 0,
+        "y": 9494.734375,
+        "width": 375,
+        "height": 3332.84375
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "testimonial-two-section section-spacing",
+      "box": {
+        "x": 0,
+        "y": 12827.578125,
+        "width": 375,
+        "height": 1371.546875
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "cta-section",
+      "box": {
+        "x": 0,
+        "y": 14199.125,
+        "width": 375,
+        "height": 794.984375
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "footer",
+      "box": {
+        "x": 0,
+        "y": 14994.109375,
+        "width": 375,
+        "height": 1429.125
+      }
+    }
+  ],
+  "headings": [
+    {
+      "text": "Quality products for every industry",
+      "box": {
+        "x": 15,
+        "y": 145,
+        "width": 360,
+        "height": 52.8125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Advanced CNC manufacturing solutions",
+      "box": {
+        "x": 0,
+        "y": 1227.296875,
+        "width": 355,
+        "height": 44
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Driving growth through expertise and innovation",
+      "box": {
+        "x": 15,
+        "y": 1633.6875,
+        "width": 345,
+        "height": 118.78125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Innovation at heart",
+      "box": {
+        "x": 35,
+        "y": 1913.265625,
+        "width": 305,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "1 million+",
+      "box": {
+        "x": 35,
+        "y": 2169.25,
+        "width": 305,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Quality assurance score",
+      "box": {
+        "x": 35,
+        "y": 2827.90625,
+        "width": 305,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Essential manufacturing solutions",
+      "box": {
+        "x": 15,
+        "y": 3218.90625,
+        "width": 345,
+        "height": 118.78125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Product assembly",
+      "box": {
+        "x": 30,
+        "y": 3482.6875,
+        "width": 315,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Sheet metal fabrication",
+      "box": {
+        "x": 30,
+        "y": 4137.03125,
+        "width": 315,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "CNC machining services",
+      "box": {
+        "x": 30,
+        "y": 4812.171875,
+        "width": 315,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Injection molding",
+      "box": {
+        "x": 30,
+        "y": 5487.3125,
+        "width": 315,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Precision products across every industry",
+      "box": {
+        "x": 35,
+        "y": 6157.453125,
+        "width": 325,
+        "height": 44
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Have questions? we’ve got answers",
+      "box": {
+        "x": 35,
+        "y": 6452.453125,
+        "width": 250,
+        "height": 44
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Structured for quality, designed for growth",
+      "box": {
+        "x": 15,
+        "y": 6831.453125,
+        "width": 345,
+        "height": 118.78125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Research & analysis",
+      "box": {
+        "x": 89.578125,
+        "y": 7175.828125,
+        "width": 195.84375,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Planning & strategy",
+      "box": {
+        "x": 92.125,
+        "y": 7318.625,
+        "width": 190.734375,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Development process",
+      "box": {
+        "x": 82.546875,
+        "y": 7461.421875,
+        "width": 209.90625,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Testing and launch",
+      "box": {
+        "x": 96.109375,
+        "y": 7604.21875,
+        "width": 182.765625,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Excellence backed by Strong performance",
+      "box": {
+        "x": 15,
+        "y": 7794.625,
+        "width": 345,
+        "height": 118.78125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Innovative products across all sectors",
+      "box": {
+        "x": 0,
+        "y": 8674.40625,
+        "width": 375,
+        "height": 79.1875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Aluminum gear housing",
+      "box": {
+        "x": 58.5,
+        "y": 8854.59375,
+        "width": 258,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Serving excellence across every industry",
+      "box": {
+        "x": 15,
+        "y": 9623.140625,
+        "width": 345,
+        "height": 118.78125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Medical devices",
+      "box": {
+        "x": 35,
+        "y": 10147.71875,
+        "width": 305,
+        "height": 17.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Aerospace industry",
+      "box": {
+        "x": 35,
+        "y": 10695.890625,
+        "width": 305,
+        "height": 17.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Automotive",
+      "box": {
+        "x": 35,
+        "y": 11213.265625,
+        "width": 305,
+        "height": 17.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Energy & power",
+      "box": {
+        "x": 35,
+        "y": 11730.640625,
+        "width": 305,
+        "height": 17.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Industrial equipment",
+      "box": {
+        "x": 35,
+        "y": 12278.8125,
+        "width": 305,
+        "height": 17.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "20 Years of manufacturing excellence & recognition",
+      "box": {
+        "x": 15,
+        "y": 12606.984375,
+        "width": 345,
+        "height": 44
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Trusted by industry leaders worldwide",
+      "box": {
+        "x": 15,
+        "y": 12955.984375,
+        "width": 345,
+        "height": 79.1875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "4.9 /5.0",
+      "box": {
+        "x": 39,
+        "y": 13234.96875,
+        "width": 297,
+        "height": 24
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "John matthews",
+      "box": {
+        "x": 34.1875,
+        "y": 13922.140625,
+        "width": 306.625,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Start your precision manufacturing journey",
+      "box": {
+        "x": 0,
+        "y": 14332.53125,
+        "width": 375,
+        "height": 118.78125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Stay connected",
+      "box": {
+        "x": 15,
+        "y": 15074.109375,
+        "width": 345,
+        "height": 19.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Main links",
+      "box": {
+        "x": 15,
+        "y": 15281.5,
+        "width": 345,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Utility links",
+      "box": {
+        "x": 15,
+        "y": 15599.875,
+        "width": 345,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Contact info",
+      "box": {
+        "x": 15,
+        "y": 15856.65625,
+        "width": 345,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Working hours",
+      "box": {
+        "x": 15,
+        "y": 16051.84375,
+        "width": 345,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    }
+  ],
+  "hiddenReveals": [],
+  "errors": []
+}

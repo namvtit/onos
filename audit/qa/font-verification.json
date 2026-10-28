@@ -1,0 +1,155 @@
+{
+  "checks": [
+    {
+      "family": "Mona Sans",
+      "weight": 400,
+      "check": true
+    },
+    {
+      "family": "Mona Sans",
+      "weight": 600,
+      "check": true
+    },
+    {
+      "family": "Mona Sans",
+      "weight": 700,
+      "check": true
+    },
+    {
+      "family": "Geist",
+      "weight": 400,
+      "check": true
+    },
+    {
+      "family": "Geist",
+      "weight": 500,
+      "check": true
+    }
+  ],
+  "faces": [
+    {
+      "family": "Geist",
+      "weight": "400",
+      "status": "loaded"
+    },
+    {
+      "family": "Geist",
+      "weight": "500",
+      "status": "loaded"
+    },
+    {
+      "family": "Mona Sans",
+      "weight": "400",
+      "status": "loaded"
+    },
+    {
+      "family": "Mona Sans",
+      "weight": "600",
+      "status": "loaded"
+    },
+    {
+      "family": "Mona Sans",
+      "weight": "700",
+      "status": "loaded"
+    },
+    {
+      "family": "webflow-icons",
+      "weight": "400",
+      "status": "loaded"
+    }
+  ],
+  "rendered": [
+    {
+      "selector": "h1.hero-title",
+      "fonts": [
+        {
+          "familyName": "Mona Sans",
+          "postScriptName": "MonaSans-Bold",
+          "isCustomFont": true,
+          "glyphCount": 32
+        }
+      ]
+    },
+    {
+      "selector": ".hero-description",
+      "fonts": [
+        {
+          "familyName": "Geist Medium",
+          "postScriptName": "Geist-Medium",
+          "isCustomFont": true,
+          "glyphCount": 122
+        }
+      ]
+    },
+    {
+      "selector": ".pre-section-title",
+      "fonts": [
+        {
+          "familyName": "Geist Medium",
+          "postScriptName": "Geist-Medium",
+          "isCustomFont": true,
+          "glyphCount": 29
+        }
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "url": "http://127.0.0.1:3000/assets/f494923440e8-o-0mIpQmx24alC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyAjBN9d.ttf",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3000/assets/541119bccb21-gyBhhwUxId8gMGYQMKR3pzfaWI_RruM4nQ.ttf",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3000/assets/77501d0ee1a6-o-0mIpQmx24alC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyAaBN9d.ttf",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3000/assets/8b671e0bc5a1-o-0mIpQmx24alC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyD9A99d.ttf",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3000/assets/c2bef016fb9b-gyBhhwUxId8gMGYQMKR3pzfaWI_RnOM4nQ.ttf",
+      "status": 200
+    }
+  ],
+  "sources": [
+    {
+      "originalUrl": "https://fonts.gstatic.com/s/monasans/v4/o-0mIpQmx24alC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyAaBN9d.ttf",
+      "path": "/assets/77501d0ee1a6-o-0mIpQmx24alC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyAaBN9d.ttf",
+      "bytes": 78924,
+      "mime": "font/ttf",
+      "sha256": "285175e4437cdd71826e3e55eb1096c6c9210d0e55a6170134c626b66a0df889"
+    },
+    {
+      "originalUrl": "https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_RruM4nQ.ttf",
+      "path": "/assets/541119bccb21-gyBhhwUxId8gMGYQMKR3pzfaWI_RruM4nQ.ttf",
+      "bytes": 72996,
+      "mime": "font/ttf",
+      "sha256": "a8eefb873ba9c9020665f8a98302697ce1f3b79ab2deef6ee508c0ca6a82e876"
+    },
+    {
+      "originalUrl": "https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_RnOM4nQ.ttf",
+      "path": "/assets/c2bef016fb9b-gyBhhwUxId8gMGYQMKR3pzfaWI_RnOM4nQ.ttf",
+      "bytes": 72916,
+      "mime": "font/ttf",
+      "sha256": "ccce59465ae5c61930ada5453834f60500fbd95084d85db63e0e65fad0125455"
+    },
+    {
+      "originalUrl": "https://fonts.gstatic.com/s/monasans/v4/o-0mIpQmx24alC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyD9A99d.ttf",
+      "path": "/assets/8b671e0bc5a1-o-0mIpQmx24alC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyD9A99d.ttf",
+      "bytes": 78932,
+      "mime": "font/ttf",
+      "sha256": "d5082b3b520cd7f5c69b8977ffc830566dc8a411bb9f026b72084a4dc043fa73"
+    },
+    {
+      "originalUrl": "https://fonts.gstatic.com/s/monasans/v4/o-0mIpQmx24alC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyAjBN9d.ttf",
+      "path": "/assets/f494923440e8-o-0mIpQmx24alC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyAjBN9d.ttf",
+      "bytes": 78992,
+      "mime": "font/ttf",
+      "sha256": "61316d21d8c0d5c13661c9d55ff527228c5ed9c83d4b04879ac8909554e9a6a6"
+    }
+  ]
+}

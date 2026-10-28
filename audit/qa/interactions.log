@@ -1,0 +1,121 @@
+
+> manufactt-next@1.0.0 test:e2e
+> playwright test
+
+
+Running 16 tests using 1 worker
+
+(node:17267) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/site.spec.ts:6:5 › every migrated route renders without broken local media or runtime errors (22.6s)
+  ✓   2 tests/site.spec.ts:31:5 › desktop navigation, dropdown, buttons, anchors and legacy URLs (6.8s)
+  ✓   3 tests/site.spec.ts:48:37 › mobile navigation and nested pages menu at 768px (1.6s)
+  ✓   4 tests/site.spec.ts:48:37 › mobile navigation and nested pages menu at 375px (1.5s)
+  ✓   5 tests/site.spec.ts:64:5 › industry and testimonial tabs, keyboard navigation, carousel and video controls (3.7s)
+  ✓   6 tests/site.spec.ts:88:5 › FAQ preserves the initial open answer and supports keyboard toggling (480ms)
+  ✓   7 tests/site.spec.ts:100:5 › forms validate and give honest local feedback without a network submission (2.2s)
+  ✓   8 tests/site.spec.ts:119:5 › case-study pagination, brochure and media gallery (1.8s)
+  ✓   9 tests/site.spec.ts:140:49 › responsive controls and geometry at 375px (1.7s)
+  ✓  10 tests/site.spec.ts:140:49 › responsive controls and geometry at 768px (1.9s)
+  ✓  11 tests/site.spec.ts:140:49 › responsive controls and geometry at 1024px (1.2s)
+  ✓  12 tests/site.spec.ts:140:49 › responsive controls and geometry at 1440px (1.4s)
+  ✘  13 tests/site.spec.ts:160:5 › touch navigation, slider swipe and resize across the navigation breakpoint (2.6s)
+(node:18327) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  14 tests/site.spec.ts:184:5 › Home 2 slider autoplay, pause, dots, product CTA and video lightbox (1.0m)
+(node:19086) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  15 tests/site.spec.ts:204:5 › exact font weights and rendered heading fonts (1.0s)
+  ✓  16 tests/site.spec.ts:215:5 › Home 2 CTA marquee animates its columns without translating every image (1.0s)
+
+
+  1) tests/site.spec.ts:160:5 › touch navigation, slider swipe and resize across the navigation breakpoint 
+
+    Error: locator.dispatchEvent: TypeError: Failed to construct 'Touch': Failed to read the 'identifier' property from 'TouchInit': Required member is undefined.
+        at <anonymous>:7944:45
+        at Array.map (<anonymous>)
+        at InjectedScript.dispatchEvent (<anonymous>:7942:92)
+        at eval (eval at eval (:7098:24), <anonymous>:2:26)
+        at eval (eval at eval (:7098:24), <anonymous>:4:28)
+        at eval (eval at evaluate (:370:30), <anonymous>:15:22)
+        at UtilityScript.evaluate (<anonymous>:372:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+    Call log:
+      - waiting for locator('.case-study-slider .w-slider-mask')
+
+        at <anonymous>:7944:45
+        at InjectedScript.dispatchEvent (<anonymous>:7942:92)
+        at eval (eval at eval (:7098:24), <anonymous>:2:26)
+        at eval (eval at eval (:7098:24), <anonymous>:4:28)
+        at eval (eval at evaluate (:370:30), <anonymous>:15:22)
+        at UtilityScript.evaluate (<anonymous>:372:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /home/nam/onos/manufactt-project/tests/site.spec.ts:172:14
+
+    Error Context: test-results/site-touch-navigation-slid-30eca-s-the-navigation-breakpoint/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/site-touch-navigation-slid-30eca-s-the-navigation-breakpoint/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/site-touch-navigation-slid-30eca-s-the-navigation-breakpoint/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests/site.spec.ts:184:5 › Home 2 slider autoplay, pause, dots, product CTA and video lightbox 
+
+    Test timeout of 60000ms exceeded.
+
+    Error: locator.click: Test timeout of 60000ms exceeded.
+    Browser logs:
+
+    <launching> /home/nam/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-lnmaJd --remote-debugging-pipe --no-startup-window
+    <launched> pid=18339
+    [pid=18339][err] [1028/160539.169107:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/user/1000/bus: No such file or directory
+    [pid=18339][err] [1028/160539.175346:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+    [pid=18339][err] [1028/160539.175649:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/user/1000/bus: No such file or directory
+    [pid=18339][err] [1028/160539.183611:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+    [pid=18339][err] [1028/160539.209251:WARNING:sandbox/policy/linux/sandbox_linux.cc:405] InitializeSandbox() called with multiple threads in process gpu-process.
+    [pid=18339] <gracefully close start>
+    Call log:
+      - waiting for locator('.product-slider').locator('.w-slider-dot').first()
+        - locator resolved to <div role="button" tabindex="-1" class="w-slider-dot" aria-pressed="false" aria-label="Show slide 1 of 4"></div>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is not visible
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is not visible
+        - retrying click action
+          - waiting 100ms
+        97 × waiting for element to be visible, enabled and stable
+           - element is not visible
+         - retrying click action
+           - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+
+
+      192 |   await page.waitForTimeout(4300);
+      193 |   expect(await slider.locator(".w-slide[aria-hidden='false']").innerText()).toBe(paused);
+    > 194 |   await slider.locator(".w-slider-dot").first().click();
+          |                                                 ^
+      195 |   await expect(slider.locator(".w-slide[aria-hidden='false']")).toContainText(first);
+      196 |   const video = page.locator(".video-light-box");
+      197 |   await video.click();
+        at /home/nam/onos/manufactt-project/tests/site.spec.ts:194:49
+
+    Error Context: test-results/site-Home-2-slider-autopla-32c3a-duct-CTA-and-video-lightbox/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/site-Home-2-slider-autopla-32c3a-duct-CTA-and-video-lightbox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/site-Home-2-slider-autopla-32c3a-duct-CTA-and-video-lightbox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    tests/site.spec.ts:160:5 › touch navigation, slider swipe and resize across the navigation breakpoint 
+    tests/site.spec.ts:184:5 › Home 2 slider autoplay, pause, dots, product CTA and video lightbox ─
+  14 passed (2.0m)

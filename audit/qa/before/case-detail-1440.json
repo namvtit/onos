@@ -1,0 +1,170 @@
+{
+  "scrollWidth": 1440,
+  "height": 3988,
+  "blocks": [
+    {
+      "tag": "DIV",
+      "classes": "navbar w-nav",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 95.40625
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "projects-details-section section-spacing",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 2457.59375
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "project-list-section section-spacing-bottom",
+      "box": {
+        "x": 0,
+        "y": 2457.59375,
+        "width": 1440,
+        "height": 683.796875
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "footer",
+      "box": {
+        "x": 0,
+        "y": 3141.390625,
+        "width": 1440,
+        "height": 846.546875
+      }
+    }
+  ],
+  "headings": [
+    {
+      "text": "Precision CNC milling for automotive components",
+      "box": {
+        "x": 170,
+        "y": 233.78164672851562,
+        "width": 1100,
+        "height": 158.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Other case studies",
+      "box": {
+        "x": 70,
+        "y": 2457.59375,
+        "width": 1022.140625,
+        "height": 63.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Lightweight castings for Industrial equipment",
+      "box": {
+        "x": 92.29076385498047,
+        "y": 2656.0283203125,
+        "width": 275.36322021484375,
+        "height": 39.288818359375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "35%",
+      "box": {
+        "x": 92.29076385498047,
+        "y": 2856.48828125,
+        "width": 275.36322021484375,
+        "height": 30.559814453125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Additive manufacturing for custom tooling",
+      "box": {
+        "x": 757.290771484375,
+        "y": 2656.0283203125,
+        "width": 275.36328125,
+        "height": 39.288818359375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "50%",
+      "box": {
+        "x": 757.290771484375,
+        "y": 2856.48828125,
+        "width": 275.36328125,
+        "height": 30.559814453125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Stay connected",
+      "box": {
+        "x": 50,
+        "y": 3344.472900390625,
+        "width": 433.328125,
+        "height": 35.203125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Main links",
+      "box": {
+        "x": 523.328125,
+        "y": 3348.646240234375,
+        "width": 195.625,
+        "height": 30.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Utility links",
+      "box": {
+        "x": 733.953125,
+        "y": 3356.07177734375,
+        "width": 195.640625,
+        "height": 30.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Contact info",
+      "box": {
+        "x": 944.59375,
+        "y": 3368.115478515625,
+        "width": 234.765625,
+        "height": 30.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Working hours",
+      "box": {
+        "x": 1194.359375,
+        "y": 3386.382568359375,
+        "width": 195.640625,
+        "height": 61.59375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    }
+  ],
+  "errors": []
+}

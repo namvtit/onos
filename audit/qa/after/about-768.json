@@ -1,0 +1,486 @@
+{
+  "scrollWidth": 768,
+  "height": 6222,
+  "blocks": [
+    {
+      "tag": "DIV",
+      "classes": "navbar w-nav",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 83.40625
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "about-hero-section",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 415.921875
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "image-info-about",
+      "box": {
+        "x": 0,
+        "y": 415.921875,
+        "width": 768,
+        "height": 500
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "about-three-section",
+      "box": {
+        "x": 0,
+        "y": 915.921875,
+        "width": 768,
+        "height": 1211.03125
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "client-section section-spacing",
+      "box": {
+        "x": 0,
+        "y": 2126.953125,
+        "width": 768,
+        "height": 1025.234375
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "video-section",
+      "box": {
+        "x": 0,
+        "y": 3152.1875,
+        "width": 768,
+        "height": 500
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "team-section section-spacing",
+      "box": {
+        "x": 0,
+        "y": 3652.1875,
+        "width": 768,
+        "height": 1669.40625
+      }
+    },
+    {
+      "tag": "SECTION",
+      "classes": "footer",
+      "box": {
+        "x": 0,
+        "y": 5321.59375,
+        "width": 768,
+        "height": 900.84375
+      }
+    }
+  ],
+  "headings": [
+    {
+      "text": "About us",
+      "box": {
+        "x": 244.703125,
+        "y": 152.703125,
+        "width": 278.59375,
+        "height": 70.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "SINCE - 2005",
+      "box": {
+        "x": 11.329010009765625,
+        "y": 845.515625,
+        "width": 412.234375,
+        "height": 70.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "700"
+    },
+    {
+      "text": "SINCE - 2005",
+      "box": {
+        "x": 443.5633850097656,
+        "y": 845.515625,
+        "width": 412.2343444824219,
+        "height": 70.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "700"
+    },
+    {
+      "text": "SINCE - 2005",
+      "box": {
+        "x": 875.7977294921875,
+        "y": 845.515625,
+        "width": 412.234375,
+        "height": 70.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "700"
+    },
+    {
+      "text": "SINCE - 2005",
+      "box": {
+        "x": 1308.0321044921875,
+        "y": 845.515625,
+        "width": 412.234375,
+        "height": 70.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "700"
+    },
+    {
+      "text": "SINCE - 2005",
+      "box": {
+        "x": 1740.2664794921875,
+        "y": 845.515625,
+        "width": 412.2344970703125,
+        "height": 70.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "700"
+    },
+    {
+      "text": "SINCE - 2005",
+      "box": {
+        "x": 2172.5009765625,
+        "y": 845.515625,
+        "width": 412.234375,
+        "height": 70.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "700"
+    },
+    {
+      "text": "SINCE - 2005",
+      "box": {
+        "x": 2604.7353515625,
+        "y": 845.515625,
+        "width": 412.234375,
+        "height": 70.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "700"
+    },
+    {
+      "text": "SINCE - 2005",
+      "box": {
+        "x": 3036.9697265625,
+        "y": 845.515625,
+        "width": 412.234375,
+        "height": 70.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "700"
+    },
+    {
+      "text": "SINCE - 2005",
+      "box": {
+        "x": 3469.2041015625,
+        "y": 845.515625,
+        "width": 412.234375,
+        "height": 70.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "700"
+    },
+    {
+      "text": "SINCE - 2005",
+      "box": {
+        "x": 3901.4384765625,
+        "y": 845.515625,
+        "width": 412.234375,
+        "height": 70.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "700"
+    },
+    {
+      "text": "SINCE - 2005",
+      "box": {
+        "x": 4333.6728515625,
+        "y": 845.515625,
+        "width": 412.234375,
+        "height": 70.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "700"
+    },
+    {
+      "text": "SINCE - 2005",
+      "box": {
+        "x": 4765.9072265625,
+        "y": 845.515625,
+        "width": 412.234375,
+        "height": 70.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "700"
+    },
+    {
+      "text": "SINCE - 2005",
+      "box": {
+        "x": 5198.1416015625,
+        "y": 845.515625,
+        "width": 412.234375,
+        "height": 70.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "700"
+    },
+    {
+      "text": "SINCE - 2005",
+      "box": {
+        "x": 5630.3759765625,
+        "y": 845.515625,
+        "width": 412.234375,
+        "height": 70.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "700"
+    },
+    {
+      "text": "SINCE - 2005",
+      "box": {
+        "x": 6062.6103515625,
+        "y": 845.515625,
+        "width": 412.234375,
+        "height": 70.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "700"
+    },
+    {
+      "text": "Engineering trust and quality through years of manufacturing experience",
+      "box": {
+        "x": 20,
+        "y": 1083.625,
+        "width": 728,
+        "height": 171.609375
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Michael r. bennett",
+      "box": {
+        "x": 51.46875,
+        "y": 1494.921875,
+        "width": 169.703125,
+        "height": 22
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Our story",
+      "box": {
+        "x": 282.65625,
+        "y": 1305.234375,
+        "width": 465.34375,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Our capabilities",
+      "box": {
+        "x": 282.65625,
+        "y": 1684.515625,
+        "width": 465.34375,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Trusted by industry leaders",
+      "box": {
+        "x": 76,
+        "y": 2284.65625,
+        "width": 616,
+        "height": 114.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "20 Years of manufacturing excellence & recognition",
+      "box": {
+        "x": 20,
+        "y": 2974.71875,
+        "width": 314.65625,
+        "height": 52.8125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Delivering quality across industries and borders.",
+      "box": {
+        "x": 41,
+        "y": 3252.1875,
+        "width": 500,
+        "height": 74.8125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Leaders in precision work",
+      "box": {
+        "x": 20,
+        "y": 3804.890625,
+        "width": 630.890625,
+        "height": 57.203125
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "James anderson",
+      "box": {
+        "x": 20,
+        "y": 4161.453125,
+        "width": 189.65625,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Michael turner",
+      "box": {
+        "x": 272.65625,
+        "y": 4161.453125,
+        "width": 168.25,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Olivia bennett",
+      "box": {
+        "x": 525.328125,
+        "y": 4161.453125,
+        "width": 161.140625,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "William harris",
+      "box": {
+        "x": 20,
+        "y": 4611.625,
+        "width": 160.328125,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Sophie walker",
+      "box": {
+        "x": 272.65625,
+        "y": 4611.625,
+        "width": 161.703125,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "William carter",
+      "box": {
+        "x": 525.328125,
+        "y": 4611.625,
+        "width": 163.046875,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Emily carter",
+      "box": {
+        "x": 20,
+        "y": 5061.78125,
+        "width": 139.71875,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Stay connected",
+      "box": {
+        "x": 20,
+        "y": 5421.59375,
+        "width": 660,
+        "height": 30.796875
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Main links",
+      "box": {
+        "x": 20,
+        "y": 5645.203125,
+        "width": 143.78125,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Utility links",
+      "box": {
+        "x": 178.78125,
+        "y": 5645.203125,
+        "width": 179.734375,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Contact info",
+      "box": {
+        "x": 373.515625,
+        "y": 5645.203125,
+        "width": 179.734375,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    },
+    {
+      "text": "Working hours",
+      "box": {
+        "x": 568.25,
+        "y": 5645.203125,
+        "width": 179.75,
+        "height": 26.40625
+      },
+      "font": "\"Mona Sans\", sans-serif",
+      "weight": "600"
+    }
+  ],
+  "hiddenReveals": [],
+  "errors": []
+}

@@ -1,0 +1,27 @@
+products 375 {"referenceSize":[375,6403],"nextSize":[375,6403],"changedPixelsPercent":0.156,"threshold":20} errors 0 0
+about 375 {"referenceSize":[375,7011],"nextSize":[375,7011],"changedPixelsPercent":0.285,"threshold":20} errors 0 0
+case-studies 375 {"referenceSize":[375,3446],"nextSize":[375,3446],"changedPixelsPercent":0,"threshold":20} errors 0 0
+contact 375 {"referenceSize":[375,3147],"nextSize":[375,3147],"changedPixelsPercent":0.091,"threshold":20} errors 0 0
+faqs 375 {"referenceSize":[375,2418],"nextSize":[375,2418],"changedPixelsPercent":0.003,"threshold":20} errors 0 0
+service-detail 375 {"referenceSize":[375,7783],"nextSize":[375,7783],"changedPixelsPercent":0.205,"threshold":20} errors 0 0
+blog-detail 375 {"referenceSize":[375,5695],"nextSize":[375,5695],"changedPixelsPercent":0,"threshold":20} errors 0 0
+about 768 {"referenceSize":[768,6222],"nextSize":[768,6222],"changedPixelsPercent":0.056,"threshold":20} errors 0 0
+products 768 {"referenceSize":[768,3919],"nextSize":[768,3919],"changedPixelsPercent":0,"threshold":20} errors 0 0
+case-studies 768 {"referenceSize":[768,2351],"nextSize":[768,2351],"changedPixelsPercent":0,"threshold":20} errors 0 0
+contact 768 {"referenceSize":[768,2147],"nextSize":[768,2147],"changedPixelsPercent":0,"threshold":20} errors 0 0
+faqs 768 {"referenceSize":[768,2024],"nextSize":[768,2024],"changedPixelsPercent":0.002,"threshold":20} errors 0 0
+service-detail 768 {"referenceSize":[768,6571],"nextSize":[768,6571],"changedPixelsPercent":0.015,"threshold":20} errors 0 0
+blog-detail 768 {"referenceSize":[768,4841],"nextSize":[768,4841],"changedPixelsPercent":0,"threshold":20} errors 0 0
+node:internal/modules/run_main:123
+    triggerUncaughtException(
+    ^
+
+page.waitForTimeout: Target page, context or browser has been closed
+    at prepare (/home/nam/onos/manufactt-project/scripts/visual-qa.mjs:32:13)
+    at async capture (/home/nam/onos/manufactt-project/scripts/visual-qa.mjs:97:52)
+    at async file:///home/nam/onos/manufactt-project/scripts/visual-qa.mjs:108:140
+    at async file:///home/nam/onos/manufactt-project/scripts/visual-qa.mjs:108:1 {
+  log: []
+}
+
+Node.js v22.22.2

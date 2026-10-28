@@ -1,0 +1,60 @@
+home 1024 {"referenceSize":[1024,14381],"nextSize":[1024,14381],"changedPixelsPercent":0.002,"threshold":20} errors 0 0
+home-2 1024 {"referenceSize":[1024,15356],"nextSize":[1024,15356],"changedPixelsPercent":0.393,"threshold":20} errors 0 0
+services 1024 {"referenceSize":[1024,2403],"nextSize":[1024,2403],"changedPixelsPercent":0,"threshold":20} errors 0 0
+case-detail 1024 {"referenceSize":[1024,3900],"nextSize":[1024,3900],"changedPixelsPercent":0,"threshold":20} errors 0 0
+home 1440 {"referenceSize":[1440,13686],"nextSize":[1440,13686],"changedPixelsPercent":10.649,"threshold":20} errors 0 0
+home-2 1440 {"referenceSize":[1440,15002],"nextSize":[1440,15002],"changedPixelsPercent":0.558,"threshold":20} errors 0 0
+node:internal/modules/run_main:123
+    triggerUncaughtException(
+    ^
+
+locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /home/nam/.cache/ms-playwright/chromium-1248/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-Ldtul2 --remote-debugging-pipe --no-startup-window
+<launched> pid=20441
+[pid=20441][err] [20441:20459:1028/160922.643701:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[pid=20441][err] [20441:20459:1028/160922.646189:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[pid=20441][err] [20441:20459:1028/160922.646301:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[pid=20441][err] [20441:20459:1028/160922.708116:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[pid=20441][err] [20441:20441:1028/160922.729252:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[pid=20441][err] [20441:20459:1028/160922.729476:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[pid=20441][err] [20441:20441:1028/160922.729487:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[pid=20441][err] [20441:20459:1028/160922.729841:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[pid=20441][err] [20441:20441:1028/160922.738679:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[pid=20441][err] [20441:20459:1028/160922.738985:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[pid=20441][err] [20441:20441:1028/160922.742141:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[pid=20441][err] [20441:20441:1028/160922.742240:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[pid=20441][err] [20441:20441:1028/160922.744555:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[pid=20441][err] [20441:20459:1028/160922.746979:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[pid=20441][err] [20441:20441:1028/160922.749528:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[pid=20441][err] [20441:20441:1028/160922.749699:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.Properties.GetAll: object_path= /org/freedesktop/UPower/devices/DisplayDevice: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[pid=20441][err] [20441:20459:1028/160922.749871:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[pid=20441][err] [20441:20441:1028/160922.750093:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[pid=20441][err] [20441:20459:1028/160922.750345:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[pid=20441][err] [20441:20441:1028/160922.750807:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[pid=20441] <gracefully close start>
+[pid=20441][err] [20441:20441:1028/161112.261806:ERROR:content/common/zygote/zygote_communication_linux.cc:313] Failed to send GetTerminationStatus message to zygote
+Call log:
+[2m  - attempting scroll into view action[22m
+[2m    2 × waiting for element to be stable[22m
+[2m      - element is not stable[22m
+[2m    - retrying scroll into view action[22m
+[2m    - waiting 20ms[22m
+[2m    - waiting for element to be stable[22m
+
+    at prepare (/home/nam/onos/manufactt-project/scripts/visual-qa.mjs:49:17)
+    at async capture (/home/nam/onos/manufactt-project/scripts/visual-qa.mjs:97:52)
+    at async file:///home/nam/onos/manufactt-project/scripts/visual-qa.mjs:108:140
+    at async file:///home/nam/onos/manufactt-project/scripts/visual-qa.mjs:108:1 {
+  log: [
+    '  - attempting scroll into view action',
+    '    2 × waiting for element to be stable',
+    '      - element is not stable',
+    '    - retrying scroll into view action',
+    '    - waiting 20ms',
+    '    - waiting for element to be stable'
+  ]
+}
+
+Node.js v22.22.2

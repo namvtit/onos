@@ -1,0 +1,246 @@
+{
+  "events": {
+    "MOUSE_OVER": 31,
+    "MOUSE_OUT": 24,
+    "PAGE_START": 2,
+    "MOUSE_CLICK": 8,
+    "MOUSE_SECOND_CLICK": 7,
+    "SCROLL_INTO_VIEW": 197,
+    "SCROLLING_IN_VIEW": 2,
+    "DROPDOWN_OPEN": 2,
+    "DROPDOWN_CLOSE": 2
+  },
+  "actionLists": [
+    {
+      "id": "a-23",
+      "title": "Nav Link Hover [In]"
+    },
+    {
+      "id": "a-24",
+      "title": "Nav Link Hover [Out]"
+    },
+    {
+      "id": "a-11",
+      "title": "Client Marquee Move"
+    },
+    {
+      "id": "a-14",
+      "title": "Testimonial Marquee Move"
+    },
+    {
+      "id": "a-19",
+      "title": "🪗Accordion [Open]"
+    },
+    {
+      "id": "a-20",
+      "title": "🪗Accordion [Close]"
+    },
+    {
+      "id": "a-21",
+      "title": "Button Primary Hover [In]"
+    },
+    {
+      "id": "a-22",
+      "title": "Button Primary Hover [Out]"
+    },
+    {
+      "id": "a-26",
+      "title": "Service Box Hover [in]"
+    },
+    {
+      "id": "a-27",
+      "title": "Service Box Hover [out]"
+    },
+    {
+      "id": "a-28",
+      "title": "Client Box Marquee Move"
+    },
+    {
+      "id": "a-29",
+      "title": "Footer Shadow"
+    },
+    {
+      "id": "a-30",
+      "title": "Footer Shadow 2"
+    },
+    {
+      "id": "a-31",
+      "title": "Marquee View Two"
+    },
+    {
+      "id": "a-32",
+      "title": "Industry Image Hover [in]"
+    },
+    {
+      "id": "a-33",
+      "title": "Industry Image Hover [Out]"
+    },
+    {
+      "id": "a-38",
+      "title": "Case Study Image Hover In"
+    },
+    {
+      "id": "a-39",
+      "title": "Case Study Image Hover Out"
+    },
+    {
+      "id": "a-40",
+      "title": "blog image Hove I[n]"
+    },
+    {
+      "id": "a-41",
+      "title": "blog image Hove [out]"
+    },
+    {
+      "id": "a-42",
+      "title": "About Text Marquee Move"
+    },
+    {
+      "id": "a-43",
+      "title": "Team Hover [One]"
+    },
+    {
+      "id": "a-47",
+      "title": "Service Image Hover [In]"
+    },
+    {
+      "id": "a-48",
+      "title": "Service Image Hover [Out]"
+    },
+    {
+      "id": "a-49",
+      "title": "🪗Accordion Active [Open]"
+    },
+    {
+      "id": "a-50",
+      "title": "🪗Accordion Active [Close]"
+    },
+    {
+      "id": "a-51",
+      "title": "404 Button Hover [In]"
+    },
+    {
+      "id": "a-52",
+      "title": "404 Button Hover [Out]"
+    },
+    {
+      "id": "a-53",
+      "title": "Project Image Hover [In]"
+    },
+    {
+      "id": "a-54",
+      "title": "Project Image Hover [out]"
+    },
+    {
+      "id": "a-55",
+      "title": "CTA Marquee Move"
+    },
+    {
+      "id": "a-56",
+      "title": "Team Hover [Two]"
+    },
+    {
+      "id": "a-57",
+      "title": "Team Hover [Three]"
+    },
+    {
+      "id": "a-58",
+      "title": "Team Hover [Four]"
+    },
+    {
+      "id": "a-59",
+      "title": "Team Hover [Five]"
+    },
+    {
+      "id": "a-60",
+      "title": "Team Hover [Six]"
+    },
+    {
+      "id": "a-61",
+      "title": "Team Hover [Seven]"
+    },
+    {
+      "id": "a-64",
+      "title": "Service Info scroll"
+    },
+    {
+      "id": "a-66",
+      "title": "Logo Move"
+    },
+    {
+      "id": "a-3",
+      "title": "Dropdown [Open]"
+    },
+    {
+      "id": "a-4",
+      "title": "Dropdown [Close]"
+    },
+    {
+      "id": "a-62",
+      "title": "Dropdown Two [Open]"
+    },
+    {
+      "id": "a-63",
+      "title": "Dropdown Two [Close]"
+    },
+    {
+      "id": "a-67",
+      "title": "Blog Image Hover [In]"
+    },
+    {
+      "id": "a-68",
+      "title": "Blog Image Hover [out]"
+    },
+    {
+      "id": "a-69",
+      "title": "Blog Image Hover Two[in]"
+    },
+    {
+      "id": "a-70",
+      "title": "Blog Image Hover Two[Out]"
+    },
+    {
+      "id": "a-71",
+      "title": "Access Pass Move Up"
+    },
+    {
+      "id": "a-72",
+      "title": "Access Pass"
+    },
+    {
+      "id": "a-73",
+      "title": "Access Close"
+    },
+    {
+      "id": "slideInBottom"
+    },
+    {
+      "id": "shrinkIn"
+    },
+    {
+      "id": "growIn"
+    }
+  ],
+  "mediaQueries": [
+    {
+      "key": "main",
+      "min": 992,
+      "max": 10000
+    },
+    {
+      "key": "medium",
+      "min": 768,
+      "max": 991
+    },
+    {
+      "key": "small",
+      "min": 480,
+      "max": 767
+    },
+    {
+      "key": "tiny",
+      "min": 0,
+      "max": 479
+    }
+  ]
+}
