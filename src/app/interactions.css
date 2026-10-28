@@ -130,25 +130,22 @@ html:not(.site-ready) [data-w-id][style*="opacity: 0"] { opacity: 1 !important; 
   transform: translate3d(-50%, -50%, 0);
 }
 
-/* Product Card Dimensional Lock */
-.grid-products .product-info-main {
-  height: 506.25px !important;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+/* Product Card & Image Proportions (Restored to Manufactt Reference: 161px image height, natural card geometry) */
 .product-image-wrapper {
-  height: 180px !important;
-  max-height: 180px !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  border-radius: var(--border-radius--sm);
+  margin-bottom: 1.875rem;
+  position: relative;
   overflow: hidden;
+  height: 161px;
+  width: 100%;
+  display: block;
 }
 .product-image-wrapper .product-image {
-  max-height: 160px;
-  width: auto;
-  object-fit: contain;
+  border-radius: var(--border-radius--sm);
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
   transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
 }
 .product-info-main:hover .product-image-wrapper .product-image {
