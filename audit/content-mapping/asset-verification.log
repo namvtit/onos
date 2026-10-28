@@ -1,0 +1,12 @@
+
+> manufactt-next@1.0.0 verify:assets
+> node scripts/verify-assets.mjs
+
+{
+  "assetReferences": 273,
+  "missingAssets": [],
+  "unexpectedExternalMedia": [],
+  "sourceFilesChanged": [],
+  "downloadFailures": {},
+  "brokenInternalLinks": []
+}

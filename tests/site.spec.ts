@@ -64,18 +64,18 @@ for (const width of [768, 375]) test(`mobile navigation and nested pages menu at
 test("industry and testimonial tabs, keyboard navigation, carousel and video controls", async ({ page }) => {
   await page.goto("/");
   const industry = page.locator(".industry-tabs");
-  await industry.getByRole("tab", { name: "Automotive", exact: true }).click();
-  await expect(industry.getByRole("tabpanel").filter({ visible: true })).toContainText("Precision automotive components");
-  await industry.getByRole("tab", { name: "Automotive", exact: true }).press("ArrowRight");
-  await expect(industry.getByRole("tab", { name: "Medical devices", exact: true })).toHaveAttribute("aria-selected", "true");
+  await industry.getByRole("tab", { name: "Embroidered products", exact: true }).click();
+  await expect(industry.getByRole("tabpanel").filter({ visible: true })).toContainText("Digitized embroidery");
+  await industry.getByRole("tab", { name: "Embroidered products", exact: true }).press("ArrowRight");
+  await expect(industry.getByRole("tab", { name: "Polyester sportswear", exact: true })).toHaveAttribute("aria-selected", "true");
   const testimonials = page.locator(".testimonial-tabs");
   await testimonials.getByRole("tab").nth(2).click();
-  await expect(testimonials.getByRole("tabpanel").filter({ visible: true })).toContainText("John matthews");
+  await expect(testimonials.getByRole("tabpanel").filter({ visible: true })).toContainText("Awaiting ONOS review");
   const slider = page.locator(".case-study-slider");
   await slider.getByRole("button", { name: "Next slide", exact: true }).click();
-  await expect(slider.locator(".w-slide[aria-hidden='false']")).toContainText("Precision CNC milling");
+  await expect(slider.locator(".w-slide[aria-hidden='false']")).toContainText("DTG artwork preparation");
   await slider.getByRole("button", { name: "Previous slide", exact: true }).press("Enter");
-  await expect(slider.locator(".w-slide[aria-hidden='false']")).toContainText("Lightweight castings");
+  await expect(slider.locator(".w-slide[aria-hidden='false']")).toContainText("Printed cotton apparel");
   const video = page.locator(".hero-background-video video");
   await video.scrollIntoViewIfNeeded();
   const control = page.locator(".hero-background-video button");
@@ -116,7 +116,7 @@ test("forms validate and give honest local feedback without a network submission
   expect(submissions).toEqual([]);
 });
 
-test("case-study pagination, brochure and media gallery", async ({ page, request }) => {
+test("case-study pagination, verified quote link and media gallery", async ({ page }) => {
   await page.goto("/case-studies");
   const first = await page.locator(".project-list-section").innerText();
   await page.locator("a.w-pagination-next").click();
@@ -125,9 +125,8 @@ test("case-study pagination, brochure and media gallery", async ({ page, request
   await page.locator("a.w-pagination-previous").click();
   await expect(page).toHaveURL(/a472e93b_page=1/);
   await page.goto("/");
-  const brochure = page.getByRole("link", { name: "Download Brochure", exact: true }).first();
-  const response = await request.get((await brochure.getAttribute("href"))!);
-  expect(response.status()).toBe(200); expect(response.headers()["content-type"]).toContain("pdf");
+  const quote = page.getByRole("link", { name: "Request a Quote", exact: true }).filter({ hasText: "Request a Quote" });
+  await expect(quote.filter({ visible: true }).last()).toHaveAttribute("href", /^(mailto:onospod\.com@gmail\.com|\/contact)/);
   await page.goto("/case-study/precision-cnc-milling-for-automotive-components");
   await page.locator(".w-lightbox").first().click();
   await expect(page.getByRole("dialog")).toBeVisible();
@@ -171,7 +170,7 @@ test("touch navigation, slider swipe and resize across the navigation breakpoint
   await mask.scrollIntoViewIfNeeded();
   await mask.dispatchEvent("touchstart", { changedTouches: [{ identifier: 0, clientX: 300, clientY: 300 }] });
   await mask.dispatchEvent("touchend", { changedTouches: [{ identifier: 0, clientX: 80, clientY: 300 }] });
-  await expect(page.locator(".case-study-slider .w-slide[aria-hidden='false']")).toContainText("Precision CNC milling");
+  await expect(page.locator(".case-study-slider .w-slide[aria-hidden='false']")).toContainText("DTG artwork preparation");
   await page.setViewportSize({ width: 768, height: 900 });
   await page.locator(".menu-button").tap();
   await page.setViewportSize({ width: 1024, height: 900 });
@@ -198,7 +197,7 @@ test("Home 2 slider autoplay, pause, arrows and video lightbox", async ({ page }
   const video = page.locator(".video-light-box");
   await video.click();
   await expect(page.getByRole("dialog")).toBeVisible();
-  await expect(page.locator(".lightbox-video")).toHaveAttribute("src", /youtube\.com\/embed\/QOkw7bmc_t0/);
+  await expect(page.locator(".lightbox-video")).toHaveAttribute("src", /\/assets\/onos-production-reel\.mp4/);
   await page.getByRole("button", { name: "Close media viewer", exact: true }).click();
   await expect(page.getByRole("dialog")).toHaveCount(0);
 });

@@ -6,7 +6,7 @@ export function Navbar5de3fbdae5({ activePath }: { activePath: string }) { retur
 <div className={"container-full w-container"}>
 <div className={"w-layout-grid grid-nav"}>
 <a href={"/"} id={"w-node-e6ff9f79-f479-fa42-6f69-a3df18a8ef3f-18a8ef3c"} className={"brand w-nav-brand" + (activePath === "/" ? " w--current" : "")} aria-current={activePath === "/" ? "page" : undefined}>
-<img src={"/assets/acdb185fdc0a-68d52f04943817525b88ad07_a29f3460f69ee2944f9599d001238d55_Logo.svg"} loading={"lazy"} alt={"Brand"} className={"logo"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"logo"} />
 </a>
 <nav role={"navigation"} id={"w-node-e6ff9f79-f479-fa42-6f69-a3df18a8ef41-18a8ef3c"} className={"nav-menu w-nav-menu"}>
 <a href={"/"} className={"nav-link" + (activePath === "/" ? " w--current" : "")} aria-current={activePath === "/" ? "page" : undefined}>
@@ -18,7 +18,7 @@ export function Navbar5de3fbdae5({ activePath }: { activePath: string }) { retur
 <div data-hover={"true"} data-delay={"0"} data-w-id={"e6ff9f79-f479-fa42-6f69-a3df18a8ef4a"} className={"dropdown w-dropdown"}>
 <div className={"dropdown-toggle nav-link w-dropdown-toggle"}>
 <div>
-{"Pages"}
+{"Explore"}
 </div>
 <div className={"dropdown-icon w-icon-dropdown-toggle"}>
 
@@ -33,7 +33,7 @@ export function Navbar5de3fbdae5({ activePath }: { activePath: string }) { retur
 {"Home "}
 </a>
 <a href={"/home-2"} className={"dropdown-link w-dropdown-link" + (activePath === "/home-2" ? " w--current" : "")} aria-current={activePath === "/home-2" ? "page" : undefined}>
-{"Home 2"}
+{"Overview"}
 </a>
 <a href={"/about"} className={"dropdown-link w-dropdown-link" + (activePath === "/about" ? " w--current" : "")} aria-current={activePath === "/about" ? "page" : undefined}>
 {"About"}
@@ -42,13 +42,13 @@ export function Navbar5de3fbdae5({ activePath }: { activePath: string }) { retur
 {"Services"}
 </a>
 <a href={"/case-studies"} className={"dropdown-link w-dropdown-link" + (activePath === "/case-studies" ? " w--current" : "")} aria-current={activePath === "/case-studies" ? "page" : undefined}>
-{"Case Studies"}
+{"Production Work"}
 </a>
 <a href={"/products"} className={"dropdown-link w-dropdown-link" + (activePath === "/products" ? " w--current" : "")} aria-current={activePath === "/products" ? "page" : undefined}>
 {"Products"}
 </a>
 <a href={"/blog"} className={"dropdown-link w-dropdown-link" + (activePath === "/blog" ? " w--current" : "")} aria-current={activePath === "/blog" ? "page" : undefined}>
-{"Blog"}
+{"Production Guides"}
 </a>
 <a href={"/faqs"} className={"dropdown-link w-dropdown-link" + (activePath === "/faqs" ? " w--current" : "")} aria-current={activePath === "/faqs" ? "page" : undefined}>
 {"FAQs"}
@@ -79,10 +79,10 @@ export function Navbar5de3fbdae5({ activePath }: { activePath: string }) { retur
 <div className={"button-text-wrap"}>
 <div className={"button-text-inner"}>
 <div className={"button-text"}>
-{"Get a Quote"}
+{"Request a Quote"}
 </div>
 <div className={"button-hover-text"}>
-{"Get a Quote"}
+{"Request a Quote"}
 </div>
 </div>
 </div>
@@ -115,7 +115,7 @@ export function Footerff0835e88c() { return (
 {"Stay connected"}
 </h2>
 <p className={"subscribe-description"}>
-{"Join our newsletter for tips, updates, and project highlights—only the good stuff."}
+{"Demo newsletter — no subscription is sent. For production enquiries, email onospod.com@gmail.com."}
 </p>
 <div className={"form-subscribe-wrap w-form"}>
 <ContactForm id={"wf-form-Subscribe-Form"} name={"wf-form-Subscribe-Form"} data-name={"Subscribe Form"} className={"form-subscribe"}>
@@ -124,12 +124,12 @@ export function Footerff0835e88c() { return (
 </ContactForm>
 <div className={"success-message w-form-done"}>
 <div>
-{"Thank you! Your submission has been received!"}
+{"Demo only. No submission has been sent. Please email onospod.com@gmail.com."}
 </div>
 </div>
 <div className={"error-message w-form-fail"}>
 <div>
-{"Oops! Something went wrong while submitting the form."}
+{"Please email onospod.com@gmail.com to contact ONOS."}
 </div>
 </div>
 </div>
@@ -146,7 +146,7 @@ export function Footerff0835e88c() { return (
 {"Home"}
 </a>
 <a href={"/home-2"} className={"footer-link"}>
-{"Home 2"}
+{"Overview"}
 </a>
 <a href={"/about"} className={"footer-link"}>
 {"About"}
@@ -158,10 +158,10 @@ export function Footerff0835e88c() { return (
 {"Services"}
 </a>
 <a href={"/case-studies"} className={"footer-link"}>
-{"Case Studies"}
+{"Production Work"}
 </a>
 <a href={"/blog"} className={"footer-link"}>
-{"Blog"}
+{"Production Guides"}
 </a>
 <a href={"/contact"} className={"footer-link"}>
 {"Contact"}
@@ -170,14 +170,14 @@ export function Footerff0835e88c() { return (
 </div>
 <div data-w-id={"c3c71fa1-678a-c8f3-2483-91e8980a3ade"} className={"footer-link-item"}>
 <h2 className={"footer-title"}>
-{"Utility links"}
+{"Ecosystem & Resources"}
 </h2>
 <div className={"footer-links"}>
-<a href={"/utility-pages/style-guide"} className={"footer-link"}>
-{"Style Guide"}
+<a href={"https://onosgroup.pages.dev/"} className={"footer-link"}>
+{"ONOS Group"}
 </a>
-<a href={"/utility-pages/instructions"} className={"footer-link"}>
-{"Instructions"}
+<a href={"https://onospod.pages.dev/"} className={"footer-link"}>
+{"OnosPOD"}
 </a>
 <a href={"/utility-pages/licenses"} className={"footer-link"}>
 {"Licenses"}
@@ -199,13 +199,13 @@ export function Footerff0835e88c() { return (
 </h2>
 <div className={"footer-contact-item"}>
 <div className={"footer-address"}>
-{"1238 echo ridge blvd, suite 400, san francisco, CA 94103"}
+{"Floor 3, 705 Lac Long Quan, Tay Ho, Hanoi, Vietnam"}
 </div>
-<a href={"tel:+1(415)555-0167"} className={"footer-link"}>
-{"+1 (415) 555-0167"}
+<a href={"tel:+84986385112"} className={"footer-link"}>
+{"+84 986 385 112"}
 </a>
-<a href={"mailto:example@gmail.com"} className={"footer-link"}>
-{"example@gmail.com"}
+<a href={"mailto:onospod.com@gmail.com"} className={"footer-link"}>
+{"onospod.com@gmail.com"}
 </a>
 </div>
 </div>
@@ -215,13 +215,13 @@ export function Footerff0835e88c() { return (
 </h2>
 <div className={"footer-contact-item"}>
 <div className={"working-text"}>
-{"Mon to Fri: 8:00am - 4:00pm"}
+{"Mon–Fri: 7:30–17:30 (Vietnam time)"}
 </div>
 <div className={"working-text"}>
-{"Saturday: 8:00am - 1:00pm"}
+{"Saturday: 8:00–17:00 (Vietnam time)"}
 </div>
 <div className={"working-text"}>
-{"Sunday: Closed"}
+{"Vietnam time · UTC+7"}
 </div>
 </div>
 </div>
@@ -234,39 +234,39 @@ export function Footerff0835e88c() { return (
 <div className={"footer-bottom-wrap"}>
 <div data-w-id={"d283640d-fc6a-1283-2d22-21620e76ddab"} className={"footer-copyright-wrap"}>
 <p className={"footer-copyright"}>
-{"Designed by "}
+{"Template design by "}
 <a href={"https://webestica.com/"} target={"_blank"} className={"footer-copyright-link"}>
 {"Webestica"}
 </a>
-{", Powered by "}
+{", original platform "}
 <a href={"https://webflow.com/"} target={"_blank"} className={"footer-copyright-link"}>
 {"Webflow"}
 </a>
 </p>
 </div>
 <div data-w-id={"9807520c-65b7-e828-71bd-909a6cfe1841"} className={"footer-social-inline"}>
-<a href={"https://www.facebook.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg"} loading={"eager"} alt={"social-icon"} className={"footer-social-icon"} />
+<a href={"https://onosglobal.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Facebook"}
+{"ONOS Global"}
 </div>
 </a>
-<a href={"https://twitter.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg"} loading={"eager"} alt={""} className={"footer-social-icon"} />
+<a href={"https://onospod.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Twitter"}
+{"OnosPOD"}
 </div>
 </a>
-<a href={"https://www.instagram.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg"} loading={"eager"} alt={"social-icon"} className={"footer-social-icon"} />
+<a href={"https://onosgroup.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Instagram"}
+{"ONOS Group"}
 </div>
 </a>
 </div>
 </div>
 <div className={"footer-logo-info"}>
-<img src={"/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg"} loading={"lazy"} data-w-id={"65ddfbf8-98dc-79d4-6020-0e2cf17451cf"} alt={"Footer Logo"} className={"footer-logo"} />
+<img src={"/assets/onos-wordmark-light.svg"} loading={"lazy"} data-w-id={"65ddfbf8-98dc-79d4-6020-0e2cf17451cf"} alt={"ONOS Global"} className={"footer-logo"} />
 </div>
 </div>
 </div>
@@ -303,7 +303,7 @@ export function Footer43a9225e45() { return (
 {"Stay connected"}
 </h2>
 <p className={"subscribe-description"}>
-{"Join our newsletter for tips, updates, and project highlights—only the good stuff."}
+{"Demo newsletter — no subscription is sent. For production enquiries, email onospod.com@gmail.com."}
 </p>
 <div className={"form-subscribe-wrap w-form"}>
 <ContactForm id={"wf-form-Subscribe-Form"} name={"wf-form-Subscribe-Form"} data-name={"Subscribe Form"} className={"form-subscribe"}>
@@ -312,12 +312,12 @@ export function Footer43a9225e45() { return (
 </ContactForm>
 <div className={"success-message w-form-done"}>
 <div>
-{"Thank you! Your submission has been received!"}
+{"Demo only. No submission has been sent. Please email onospod.com@gmail.com."}
 </div>
 </div>
 <div className={"error-message w-form-fail"}>
 <div>
-{"Oops! Something went wrong while submitting the form."}
+{"Please email onospod.com@gmail.com to contact ONOS."}
 </div>
 </div>
 </div>
@@ -334,7 +334,7 @@ export function Footer43a9225e45() { return (
 {"Home"}
 </a>
 <a href={"/home-2"} className={"footer-link"}>
-{"Home 2"}
+{"Overview"}
 </a>
 <a href={"/about"} aria-current={"page"} className={"footer-link w--current"}>
 {"About"}
@@ -346,10 +346,10 @@ export function Footer43a9225e45() { return (
 {"Services"}
 </a>
 <a href={"/case-studies"} className={"footer-link"}>
-{"Case Studies"}
+{"Production Work"}
 </a>
 <a href={"/blog"} className={"footer-link"}>
-{"Blog"}
+{"Production Guides"}
 </a>
 <a href={"/contact"} className={"footer-link"}>
 {"Contact"}
@@ -358,14 +358,14 @@ export function Footer43a9225e45() { return (
 </div>
 <div data-w-id={"c3c71fa1-678a-c8f3-2483-91e8980a3ade"} className={"footer-link-item"}>
 <h2 className={"footer-title"}>
-{"Utility links"}
+{"Ecosystem & Resources"}
 </h2>
 <div className={"footer-links"}>
-<a href={"/utility-pages/style-guide"} className={"footer-link"}>
-{"Style Guide"}
+<a href={"https://onosgroup.pages.dev/"} className={"footer-link"}>
+{"ONOS Group"}
 </a>
-<a href={"/utility-pages/instructions"} className={"footer-link"}>
-{"Instructions"}
+<a href={"https://onospod.pages.dev/"} className={"footer-link"}>
+{"OnosPOD"}
 </a>
 <a href={"/utility-pages/licenses"} className={"footer-link"}>
 {"Licenses"}
@@ -387,13 +387,13 @@ export function Footer43a9225e45() { return (
 </h2>
 <div className={"footer-contact-item"}>
 <div className={"footer-address"}>
-{"1238 echo ridge blvd, suite 400, san francisco, CA 94103"}
+{"Floor 3, 705 Lac Long Quan, Tay Ho, Hanoi, Vietnam"}
 </div>
-<a href={"tel:+1(415)555-0167"} className={"footer-link"}>
-{"+1 (415) 555-0167"}
+<a href={"tel:+84986385112"} className={"footer-link"}>
+{"+84 986 385 112"}
 </a>
-<a href={"mailto:example@gmail.com"} className={"footer-link"}>
-{"example@gmail.com"}
+<a href={"mailto:onospod.com@gmail.com"} className={"footer-link"}>
+{"onospod.com@gmail.com"}
 </a>
 </div>
 </div>
@@ -403,13 +403,13 @@ export function Footer43a9225e45() { return (
 </h2>
 <div className={"footer-contact-item"}>
 <div className={"working-text"}>
-{"Mon to Fri: 8:00am - 4:00pm"}
+{"Mon–Fri: 7:30–17:30 (Vietnam time)"}
 </div>
 <div className={"working-text"}>
-{"Saturday: 8:00am - 1:00pm"}
+{"Saturday: 8:00–17:00 (Vietnam time)"}
 </div>
 <div className={"working-text"}>
-{"Sunday: Closed"}
+{"Vietnam time · UTC+7"}
 </div>
 </div>
 </div>
@@ -422,39 +422,39 @@ export function Footer43a9225e45() { return (
 <div className={"footer-bottom-wrap"}>
 <div data-w-id={"d283640d-fc6a-1283-2d22-21620e76ddab"} className={"footer-copyright-wrap"}>
 <p className={"footer-copyright"}>
-{"Designed by "}
+{"Template design by "}
 <a href={"https://webestica.com/"} target={"_blank"} className={"footer-copyright-link"}>
 {"Webestica"}
 </a>
-{", Powered by "}
+{", original platform "}
 <a href={"https://webflow.com/"} target={"_blank"} className={"footer-copyright-link"}>
 {"Webflow"}
 </a>
 </p>
 </div>
 <div data-w-id={"9807520c-65b7-e828-71bd-909a6cfe1841"} className={"footer-social-inline"}>
-<a href={"https://www.facebook.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg"} loading={"eager"} alt={"social-icon"} className={"footer-social-icon"} />
+<a href={"https://onosglobal.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Facebook"}
+{"ONOS Global"}
 </div>
 </a>
-<a href={"https://twitter.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg"} loading={"eager"} alt={""} className={"footer-social-icon"} />
+<a href={"https://onospod.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Twitter"}
+{"OnosPOD"}
 </div>
 </a>
-<a href={"https://www.instagram.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg"} loading={"eager"} alt={"social-icon"} className={"footer-social-icon"} />
+<a href={"https://onosgroup.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Instagram"}
+{"ONOS Group"}
 </div>
 </a>
 </div>
 </div>
 <div className={"footer-logo-info"}>
-<img src={"/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg"} loading={"lazy"} data-w-id={"65ddfbf8-98dc-79d4-6020-0e2cf17451cf"} alt={"Footer Logo"} className={"footer-logo"} />
+<img src={"/assets/onos-wordmark-light.svg"} loading={"lazy"} data-w-id={"65ddfbf8-98dc-79d4-6020-0e2cf17451cf"} alt={"ONOS Global"} className={"footer-logo"} />
 </div>
 </div>
 </div>
@@ -491,7 +491,7 @@ export function Footer610fffa9d2() { return (
 {"Stay connected"}
 </h2>
 <p className={"subscribe-description"}>
-{"Join our newsletter for tips, updates, and project highlights—only the good stuff."}
+{"Demo newsletter — no subscription is sent. For production enquiries, email onospod.com@gmail.com."}
 </p>
 <div className={"form-subscribe-wrap w-form"}>
 <ContactForm id={"wf-form-Subscribe-Form"} name={"wf-form-Subscribe-Form"} data-name={"Subscribe Form"} className={"form-subscribe"}>
@@ -500,12 +500,12 @@ export function Footer610fffa9d2() { return (
 </ContactForm>
 <div className={"success-message w-form-done"}>
 <div>
-{"Thank you! Your submission has been received!"}
+{"Demo only. No submission has been sent. Please email onospod.com@gmail.com."}
 </div>
 </div>
 <div className={"error-message w-form-fail"}>
 <div>
-{"Oops! Something went wrong while submitting the form."}
+{"Please email onospod.com@gmail.com to contact ONOS."}
 </div>
 </div>
 </div>
@@ -522,7 +522,7 @@ export function Footer610fffa9d2() { return (
 {"Home"}
 </a>
 <a href={"/home-2"} className={"footer-link"}>
-{"Home 2"}
+{"Overview"}
 </a>
 <a href={"/about"} className={"footer-link"}>
 {"About"}
@@ -534,10 +534,10 @@ export function Footer610fffa9d2() { return (
 {"Services"}
 </a>
 <a href={"/case-studies"} className={"footer-link"}>
-{"Case Studies"}
+{"Production Work"}
 </a>
 <a href={"/blog"} aria-current={"page"} className={"footer-link w--current"}>
-{"Blog"}
+{"Production Guides"}
 </a>
 <a href={"/contact"} className={"footer-link"}>
 {"Contact"}
@@ -546,14 +546,14 @@ export function Footer610fffa9d2() { return (
 </div>
 <div data-w-id={"c3c71fa1-678a-c8f3-2483-91e8980a3ade"} className={"footer-link-item"}>
 <h2 className={"footer-title"}>
-{"Utility links"}
+{"Ecosystem & Resources"}
 </h2>
 <div className={"footer-links"}>
-<a href={"/utility-pages/style-guide"} className={"footer-link"}>
-{"Style Guide"}
+<a href={"https://onosgroup.pages.dev/"} className={"footer-link"}>
+{"ONOS Group"}
 </a>
-<a href={"/utility-pages/instructions"} className={"footer-link"}>
-{"Instructions"}
+<a href={"https://onospod.pages.dev/"} className={"footer-link"}>
+{"OnosPOD"}
 </a>
 <a href={"/utility-pages/licenses"} className={"footer-link"}>
 {"Licenses"}
@@ -575,13 +575,13 @@ export function Footer610fffa9d2() { return (
 </h2>
 <div className={"footer-contact-item"}>
 <div className={"footer-address"}>
-{"1238 echo ridge blvd, suite 400, san francisco, CA 94103"}
+{"Floor 3, 705 Lac Long Quan, Tay Ho, Hanoi, Vietnam"}
 </div>
-<a href={"tel:+1(415)555-0167"} className={"footer-link"}>
-{"+1 (415) 555-0167"}
+<a href={"tel:+84986385112"} className={"footer-link"}>
+{"+84 986 385 112"}
 </a>
-<a href={"mailto:example@gmail.com"} className={"footer-link"}>
-{"example@gmail.com"}
+<a href={"mailto:onospod.com@gmail.com"} className={"footer-link"}>
+{"onospod.com@gmail.com"}
 </a>
 </div>
 </div>
@@ -591,13 +591,13 @@ export function Footer610fffa9d2() { return (
 </h2>
 <div className={"footer-contact-item"}>
 <div className={"working-text"}>
-{"Mon to Fri: 8:00am - 4:00pm"}
+{"Mon–Fri: 7:30–17:30 (Vietnam time)"}
 </div>
 <div className={"working-text"}>
-{"Saturday: 8:00am - 1:00pm"}
+{"Saturday: 8:00–17:00 (Vietnam time)"}
 </div>
 <div className={"working-text"}>
-{"Sunday: Closed"}
+{"Vietnam time · UTC+7"}
 </div>
 </div>
 </div>
@@ -610,39 +610,39 @@ export function Footer610fffa9d2() { return (
 <div className={"footer-bottom-wrap"}>
 <div data-w-id={"d283640d-fc6a-1283-2d22-21620e76ddab"} className={"footer-copyright-wrap"}>
 <p className={"footer-copyright"}>
-{"Designed by "}
+{"Template design by "}
 <a href={"https://webestica.com/"} target={"_blank"} className={"footer-copyright-link"}>
 {"Webestica"}
 </a>
-{", Powered by "}
+{", original platform "}
 <a href={"https://webflow.com/"} target={"_blank"} className={"footer-copyright-link"}>
 {"Webflow"}
 </a>
 </p>
 </div>
 <div data-w-id={"9807520c-65b7-e828-71bd-909a6cfe1841"} className={"footer-social-inline"}>
-<a href={"https://www.facebook.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg"} loading={"eager"} alt={"social-icon"} className={"footer-social-icon"} />
+<a href={"https://onosglobal.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Facebook"}
+{"ONOS Global"}
 </div>
 </a>
-<a href={"https://twitter.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg"} loading={"eager"} alt={""} className={"footer-social-icon"} />
+<a href={"https://onospod.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Twitter"}
+{"OnosPOD"}
 </div>
 </a>
-<a href={"https://www.instagram.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg"} loading={"eager"} alt={"social-icon"} className={"footer-social-icon"} />
+<a href={"https://onosgroup.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Instagram"}
+{"ONOS Group"}
 </div>
 </a>
 </div>
 </div>
 <div className={"footer-logo-info"}>
-<img src={"/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg"} loading={"lazy"} data-w-id={"65ddfbf8-98dc-79d4-6020-0e2cf17451cf"} alt={"Footer Logo"} className={"footer-logo"} />
+<img src={"/assets/onos-wordmark-light.svg"} loading={"lazy"} data-w-id={"65ddfbf8-98dc-79d4-6020-0e2cf17451cf"} alt={"ONOS Global"} className={"footer-logo"} />
 </div>
 </div>
 </div>
@@ -679,7 +679,7 @@ export function Footer495cd298f5() { return (
 {"Stay connected"}
 </h2>
 <p className={"subscribe-description"}>
-{"Join our newsletter for tips, updates, and project highlights—only the good stuff."}
+{"Demo newsletter — no subscription is sent. For production enquiries, email onospod.com@gmail.com."}
 </p>
 <div className={"form-subscribe-wrap w-form"}>
 <ContactForm id={"wf-form-Subscribe-Form"} name={"wf-form-Subscribe-Form"} data-name={"Subscribe Form"} className={"form-subscribe"}>
@@ -688,12 +688,12 @@ export function Footer495cd298f5() { return (
 </ContactForm>
 <div className={"success-message w-form-done"}>
 <div>
-{"Thank you! Your submission has been received!"}
+{"Demo only. No submission has been sent. Please email onospod.com@gmail.com."}
 </div>
 </div>
 <div className={"error-message w-form-fail"}>
 <div>
-{"Oops! Something went wrong while submitting the form."}
+{"Please email onospod.com@gmail.com to contact ONOS."}
 </div>
 </div>
 </div>
@@ -710,7 +710,7 @@ export function Footer495cd298f5() { return (
 {"Home"}
 </a>
 <a href={"/home-2"} className={"footer-link"}>
-{"Home 2"}
+{"Overview"}
 </a>
 <a href={"/about"} className={"footer-link"}>
 {"About"}
@@ -722,10 +722,10 @@ export function Footer495cd298f5() { return (
 {"Services"}
 </a>
 <a href={"/case-studies"} aria-current={"page"} className={"footer-link w--current"}>
-{"Case Studies"}
+{"Production Work"}
 </a>
 <a href={"/blog"} className={"footer-link"}>
-{"Blog"}
+{"Production Guides"}
 </a>
 <a href={"/contact"} className={"footer-link"}>
 {"Contact"}
@@ -734,14 +734,14 @@ export function Footer495cd298f5() { return (
 </div>
 <div data-w-id={"c3c71fa1-678a-c8f3-2483-91e8980a3ade"} className={"footer-link-item"}>
 <h2 className={"footer-title"}>
-{"Utility links"}
+{"Ecosystem & Resources"}
 </h2>
 <div className={"footer-links"}>
-<a href={"/utility-pages/style-guide"} className={"footer-link"}>
-{"Style Guide"}
+<a href={"https://onosgroup.pages.dev/"} className={"footer-link"}>
+{"ONOS Group"}
 </a>
-<a href={"/utility-pages/instructions"} className={"footer-link"}>
-{"Instructions"}
+<a href={"https://onospod.pages.dev/"} className={"footer-link"}>
+{"OnosPOD"}
 </a>
 <a href={"/utility-pages/licenses"} className={"footer-link"}>
 {"Licenses"}
@@ -763,13 +763,13 @@ export function Footer495cd298f5() { return (
 </h2>
 <div className={"footer-contact-item"}>
 <div className={"footer-address"}>
-{"1238 echo ridge blvd, suite 400, san francisco, CA 94103"}
+{"Floor 3, 705 Lac Long Quan, Tay Ho, Hanoi, Vietnam"}
 </div>
-<a href={"tel:+1(415)555-0167"} className={"footer-link"}>
-{"+1 (415) 555-0167"}
+<a href={"tel:+84986385112"} className={"footer-link"}>
+{"+84 986 385 112"}
 </a>
-<a href={"mailto:example@gmail.com"} className={"footer-link"}>
-{"example@gmail.com"}
+<a href={"mailto:onospod.com@gmail.com"} className={"footer-link"}>
+{"onospod.com@gmail.com"}
 </a>
 </div>
 </div>
@@ -779,13 +779,13 @@ export function Footer495cd298f5() { return (
 </h2>
 <div className={"footer-contact-item"}>
 <div className={"working-text"}>
-{"Mon to Fri: 8:00am - 4:00pm"}
+{"Mon–Fri: 7:30–17:30 (Vietnam time)"}
 </div>
 <div className={"working-text"}>
-{"Saturday: 8:00am - 1:00pm"}
+{"Saturday: 8:00–17:00 (Vietnam time)"}
 </div>
 <div className={"working-text"}>
-{"Sunday: Closed"}
+{"Vietnam time · UTC+7"}
 </div>
 </div>
 </div>
@@ -798,39 +798,39 @@ export function Footer495cd298f5() { return (
 <div className={"footer-bottom-wrap"}>
 <div data-w-id={"d283640d-fc6a-1283-2d22-21620e76ddab"} className={"footer-copyright-wrap"}>
 <p className={"footer-copyright"}>
-{"Designed by "}
+{"Template design by "}
 <a href={"https://webestica.com/"} target={"_blank"} className={"footer-copyright-link"}>
 {"Webestica"}
 </a>
-{", Powered by "}
+{", original platform "}
 <a href={"https://webflow.com/"} target={"_blank"} className={"footer-copyright-link"}>
 {"Webflow"}
 </a>
 </p>
 </div>
 <div data-w-id={"9807520c-65b7-e828-71bd-909a6cfe1841"} className={"footer-social-inline"}>
-<a href={"https://www.facebook.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg"} loading={"eager"} alt={"social-icon"} className={"footer-social-icon"} />
+<a href={"https://onosglobal.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Facebook"}
+{"ONOS Global"}
 </div>
 </a>
-<a href={"https://twitter.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg"} loading={"eager"} alt={""} className={"footer-social-icon"} />
+<a href={"https://onospod.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Twitter"}
+{"OnosPOD"}
 </div>
 </a>
-<a href={"https://www.instagram.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg"} loading={"eager"} alt={"social-icon"} className={"footer-social-icon"} />
+<a href={"https://onosgroup.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Instagram"}
+{"ONOS Group"}
 </div>
 </a>
 </div>
 </div>
 <div className={"footer-logo-info"}>
-<img src={"/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg"} loading={"lazy"} data-w-id={"65ddfbf8-98dc-79d4-6020-0e2cf17451cf"} alt={"Footer Logo"} className={"footer-logo"} />
+<img src={"/assets/onos-wordmark-light.svg"} loading={"lazy"} data-w-id={"65ddfbf8-98dc-79d4-6020-0e2cf17451cf"} alt={"ONOS Global"} className={"footer-logo"} />
 </div>
 </div>
 </div>
@@ -867,7 +867,7 @@ export function Footer7f5a8a9ef9() { return (
 {"Stay connected"}
 </h2>
 <p className={"subscribe-description"}>
-{"Join our newsletter for tips, updates, and project highlights—only the good stuff."}
+{"Demo newsletter — no subscription is sent. For production enquiries, email onospod.com@gmail.com."}
 </p>
 <div className={"form-subscribe-wrap w-form"}>
 <ContactForm id={"wf-form-Subscribe-Form"} name={"wf-form-Subscribe-Form"} data-name={"Subscribe Form"} className={"form-subscribe"}>
@@ -876,12 +876,12 @@ export function Footer7f5a8a9ef9() { return (
 </ContactForm>
 <div className={"success-message w-form-done"}>
 <div>
-{"Thank you! Your submission has been received!"}
+{"Demo only. No submission has been sent. Please email onospod.com@gmail.com."}
 </div>
 </div>
 <div className={"error-message w-form-fail"}>
 <div>
-{"Oops! Something went wrong while submitting the form."}
+{"Please email onospod.com@gmail.com to contact ONOS."}
 </div>
 </div>
 </div>
@@ -898,7 +898,7 @@ export function Footer7f5a8a9ef9() { return (
 {"Home"}
 </a>
 <a href={"/home-2"} className={"footer-link"}>
-{"Home 2"}
+{"Overview"}
 </a>
 <a href={"/about"} className={"footer-link"}>
 {"About"}
@@ -910,10 +910,10 @@ export function Footer7f5a8a9ef9() { return (
 {"Services"}
 </a>
 <a href={"/case-studies"} className={"footer-link"}>
-{"Case Studies"}
+{"Production Work"}
 </a>
 <a href={"/blog"} className={"footer-link"}>
-{"Blog"}
+{"Production Guides"}
 </a>
 <a href={"/contact"} aria-current={"page"} className={"footer-link w--current"}>
 {"Contact"}
@@ -922,14 +922,14 @@ export function Footer7f5a8a9ef9() { return (
 </div>
 <div data-w-id={"c3c71fa1-678a-c8f3-2483-91e8980a3ade"} className={"footer-link-item"}>
 <h2 className={"footer-title"}>
-{"Utility links"}
+{"Ecosystem & Resources"}
 </h2>
 <div className={"footer-links"}>
-<a href={"/utility-pages/style-guide"} className={"footer-link"}>
-{"Style Guide"}
+<a href={"https://onosgroup.pages.dev/"} className={"footer-link"}>
+{"ONOS Group"}
 </a>
-<a href={"/utility-pages/instructions"} className={"footer-link"}>
-{"Instructions"}
+<a href={"https://onospod.pages.dev/"} className={"footer-link"}>
+{"OnosPOD"}
 </a>
 <a href={"/utility-pages/licenses"} className={"footer-link"}>
 {"Licenses"}
@@ -951,13 +951,13 @@ export function Footer7f5a8a9ef9() { return (
 </h2>
 <div className={"footer-contact-item"}>
 <div className={"footer-address"}>
-{"1238 echo ridge blvd, suite 400, san francisco, CA 94103"}
+{"Floor 3, 705 Lac Long Quan, Tay Ho, Hanoi, Vietnam"}
 </div>
-<a href={"tel:+1(415)555-0167"} className={"footer-link"}>
-{"+1 (415) 555-0167"}
+<a href={"tel:+84986385112"} className={"footer-link"}>
+{"+84 986 385 112"}
 </a>
-<a href={"mailto:example@gmail.com"} className={"footer-link"}>
-{"example@gmail.com"}
+<a href={"mailto:onospod.com@gmail.com"} className={"footer-link"}>
+{"onospod.com@gmail.com"}
 </a>
 </div>
 </div>
@@ -967,13 +967,13 @@ export function Footer7f5a8a9ef9() { return (
 </h2>
 <div className={"footer-contact-item"}>
 <div className={"working-text"}>
-{"Mon to Fri: 8:00am - 4:00pm"}
+{"Mon–Fri: 7:30–17:30 (Vietnam time)"}
 </div>
 <div className={"working-text"}>
-{"Saturday: 8:00am - 1:00pm"}
+{"Saturday: 8:00–17:00 (Vietnam time)"}
 </div>
 <div className={"working-text"}>
-{"Sunday: Closed"}
+{"Vietnam time · UTC+7"}
 </div>
 </div>
 </div>
@@ -986,39 +986,39 @@ export function Footer7f5a8a9ef9() { return (
 <div className={"footer-bottom-wrap"}>
 <div data-w-id={"d283640d-fc6a-1283-2d22-21620e76ddab"} className={"footer-copyright-wrap"}>
 <p className={"footer-copyright"}>
-{"Designed by "}
+{"Template design by "}
 <a href={"https://webestica.com/"} target={"_blank"} className={"footer-copyright-link"}>
 {"Webestica"}
 </a>
-{", Powered by "}
+{", original platform "}
 <a href={"https://webflow.com/"} target={"_blank"} className={"footer-copyright-link"}>
 {"Webflow"}
 </a>
 </p>
 </div>
 <div data-w-id={"9807520c-65b7-e828-71bd-909a6cfe1841"} className={"footer-social-inline"}>
-<a href={"https://www.facebook.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg"} loading={"eager"} alt={"social-icon"} className={"footer-social-icon"} />
+<a href={"https://onosglobal.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Facebook"}
+{"ONOS Global"}
 </div>
 </a>
-<a href={"https://twitter.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg"} loading={"eager"} alt={""} className={"footer-social-icon"} />
+<a href={"https://onospod.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Twitter"}
+{"OnosPOD"}
 </div>
 </a>
-<a href={"https://www.instagram.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg"} loading={"eager"} alt={"social-icon"} className={"footer-social-icon"} />
+<a href={"https://onosgroup.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Instagram"}
+{"ONOS Group"}
 </div>
 </a>
 </div>
 </div>
 <div className={"footer-logo-info"}>
-<img src={"/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg"} loading={"lazy"} data-w-id={"65ddfbf8-98dc-79d4-6020-0e2cf17451cf"} alt={"Footer Logo"} className={"footer-logo"} />
+<img src={"/assets/onos-wordmark-light.svg"} loading={"lazy"} data-w-id={"65ddfbf8-98dc-79d4-6020-0e2cf17451cf"} alt={"ONOS Global"} className={"footer-logo"} />
 </div>
 </div>
 </div>
@@ -1049,7 +1049,7 @@ export function Navbard6235f7762({ activePath }: { activePath: string }) { retur
 <div className={"navbar-wrap-big"}>
 <div className={"nav-animated-logo-wrapper"}>
 <a id={"w-node-_950a2e1f-ba2a-1b76-8b88-d1afb3c9827c-8b620479"} href={"/"} className={"brand-link w-inline-block" + (activePath === "/" ? " w--current" : "")} aria-current={activePath === "/" ? "page" : undefined}>
-<img src={"/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg"} loading={"lazy"} id={"w-node-_35608bf7-63eb-8991-e274-b79fc2ac8a6a-8b620479"} alt={"Logo Big"} className={"logo-big"} />
+<img src={"/assets/onos-wordmark-light.svg"} loading={"lazy"} id={"w-node-_35608bf7-63eb-8991-e274-b79fc2ac8a6a-8b620479"} alt={"ONOS Global"} className={"logo-big"} />
 </a>
 <div className={"right-nav"}>
 <nav role={"navigation"} className={"nav-menu w-nav-menu"}>
@@ -1065,7 +1065,7 @@ export function Navbard6235f7762({ activePath }: { activePath: string }) { retur
 <div data-delay={"0"} data-hover={"true"} data-w-id={"b2d391e0-fe88-288b-458e-4b23197460cd"} className={"dropdown nav-text-color-white w-dropdown"}>
 <div className={"dropdown-toggle nav-link nav-text-color-white w-dropdown-toggle"}>
 <div className={"nav-link-text"}>
-{"Pages"}
+{"Explore"}
 </div>
 <div style={{"WebkitTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "MozTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "msTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "transform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"}} className={"dropdown-icon nav-text-color-white w-icon-dropdown-toggle"}>
 
@@ -1080,7 +1080,7 @@ export function Navbard6235f7762({ activePath }: { activePath: string }) { retur
 {"Home "}
 </a>
 <a href={"/home-2"} className={"dropdown-link w-dropdown-link" + (activePath === "/home-2" ? " w--current" : "")} aria-current={activePath === "/home-2" ? "page" : undefined}>
-{"Home 2"}
+{"Overview"}
 </a>
 <a href={"/about"} className={"dropdown-link w-dropdown-link" + (activePath === "/about" ? " w--current" : "")} aria-current={activePath === "/about" ? "page" : undefined}>
 {"About"}
@@ -1089,13 +1089,13 @@ export function Navbard6235f7762({ activePath }: { activePath: string }) { retur
 {"Services"}
 </a>
 <a href={"/case-studies"} className={"dropdown-link w-dropdown-link" + (activePath === "/case-studies" ? " w--current" : "")} aria-current={activePath === "/case-studies" ? "page" : undefined}>
-{"Case Studies"}
+{"Production Work"}
 </a>
 <a href={"/products"} className={"dropdown-link w-dropdown-link" + (activePath === "/products" ? " w--current" : "")} aria-current={activePath === "/products" ? "page" : undefined}>
 {"Products"}
 </a>
 <a href={"/blog"} className={"dropdown-link w-dropdown-link" + (activePath === "/blog" ? " w--current" : "")} aria-current={activePath === "/blog" ? "page" : undefined}>
-{"Blog"}
+{"Production Guides"}
 </a>
 <a href={"/faqs"} className={"dropdown-link w-dropdown-link" + (activePath === "/faqs" ? " w--current" : "")} aria-current={activePath === "/faqs" ? "page" : undefined}>
 {"FAQs"}
@@ -1122,10 +1122,10 @@ export function Navbard6235f7762({ activePath }: { activePath: string }) { retur
 <div className={"button-text-wrap"}>
 <div className={"button-text-inner"}>
 <div className={"button-text"}>
-{"Get a Quote"}
+{"Request a Quote"}
 </div>
 <div className={"button-hover-text"}>
-{"Get a Quote"}
+{"Request a Quote"}
 </div>
 </div>
 </div>
@@ -1158,7 +1158,7 @@ export function Footer7d59a10e40() { return (
 {"Stay connected"}
 </h2>
 <p className={"subscribe-description"}>
-{"Join our newsletter for tips, updates, and project highlights—only the good stuff."}
+{"Demo newsletter — no subscription is sent. For production enquiries, email onospod.com@gmail.com."}
 </p>
 <div className={"form-subscribe-wrap w-form"}>
 <ContactForm id={"wf-form-Subscribe-Form"} name={"wf-form-Subscribe-Form"} data-name={"Subscribe Form"} className={"form-subscribe"}>
@@ -1167,12 +1167,12 @@ export function Footer7d59a10e40() { return (
 </ContactForm>
 <div className={"success-message w-form-done"}>
 <div>
-{"Thank you! Your submission has been received!"}
+{"Demo only. No submission has been sent. Please email onospod.com@gmail.com."}
 </div>
 </div>
 <div className={"error-message w-form-fail"}>
 <div>
-{"Oops! Something went wrong while submitting the form."}
+{"Please email onospod.com@gmail.com to contact ONOS."}
 </div>
 </div>
 </div>
@@ -1189,7 +1189,7 @@ export function Footer7d59a10e40() { return (
 {"Home"}
 </a>
 <a href={"/home-2"} aria-current={"page"} className={"footer-link w--current"}>
-{"Home 2"}
+{"Overview"}
 </a>
 <a href={"/about"} className={"footer-link"}>
 {"About"}
@@ -1201,10 +1201,10 @@ export function Footer7d59a10e40() { return (
 {"Services"}
 </a>
 <a href={"/case-studies"} className={"footer-link"}>
-{"Case Studies"}
+{"Production Work"}
 </a>
 <a href={"/blog"} className={"footer-link"}>
-{"Blog"}
+{"Production Guides"}
 </a>
 <a href={"/contact"} className={"footer-link"}>
 {"Contact"}
@@ -1213,14 +1213,14 @@ export function Footer7d59a10e40() { return (
 </div>
 <div data-w-id={"c3c71fa1-678a-c8f3-2483-91e8980a3ade"} className={"footer-link-item"}>
 <h2 className={"footer-title"}>
-{"Utility links"}
+{"Ecosystem & Resources"}
 </h2>
 <div className={"footer-links"}>
-<a href={"/utility-pages/style-guide"} className={"footer-link"}>
-{"Style Guide"}
+<a href={"https://onosgroup.pages.dev/"} className={"footer-link"}>
+{"ONOS Group"}
 </a>
-<a href={"/utility-pages/instructions"} className={"footer-link"}>
-{"Instructions"}
+<a href={"https://onospod.pages.dev/"} className={"footer-link"}>
+{"OnosPOD"}
 </a>
 <a href={"/utility-pages/licenses"} className={"footer-link"}>
 {"Licenses"}
@@ -1242,13 +1242,13 @@ export function Footer7d59a10e40() { return (
 </h2>
 <div className={"footer-contact-item"}>
 <div className={"footer-address"}>
-{"1238 echo ridge blvd, suite 400, san francisco, CA 94103"}
+{"Floor 3, 705 Lac Long Quan, Tay Ho, Hanoi, Vietnam"}
 </div>
-<a href={"tel:+1(415)555-0167"} className={"footer-link"}>
-{"+1 (415) 555-0167"}
+<a href={"tel:+84986385112"} className={"footer-link"}>
+{"+84 986 385 112"}
 </a>
-<a href={"mailto:example@gmail.com"} className={"footer-link"}>
-{"example@gmail.com"}
+<a href={"mailto:onospod.com@gmail.com"} className={"footer-link"}>
+{"onospod.com@gmail.com"}
 </a>
 </div>
 </div>
@@ -1258,13 +1258,13 @@ export function Footer7d59a10e40() { return (
 </h2>
 <div className={"footer-contact-item"}>
 <div className={"working-text"}>
-{"Mon to Fri: 8:00am - 4:00pm"}
+{"Mon–Fri: 7:30–17:30 (Vietnam time)"}
 </div>
 <div className={"working-text"}>
-{"Saturday: 8:00am - 1:00pm"}
+{"Saturday: 8:00–17:00 (Vietnam time)"}
 </div>
 <div className={"working-text"}>
-{"Sunday: Closed"}
+{"Vietnam time · UTC+7"}
 </div>
 </div>
 </div>
@@ -1277,39 +1277,39 @@ export function Footer7d59a10e40() { return (
 <div className={"footer-bottom-wrap"}>
 <div data-w-id={"d283640d-fc6a-1283-2d22-21620e76ddab"} className={"footer-copyright-wrap"}>
 <p className={"footer-copyright"}>
-{"Designed by "}
+{"Template design by "}
 <a href={"https://webestica.com/"} target={"_blank"} className={"footer-copyright-link"}>
 {"Webestica"}
 </a>
-{", Powered by "}
+{", original platform "}
 <a href={"https://webflow.com/"} target={"_blank"} className={"footer-copyright-link"}>
 {"Webflow"}
 </a>
 </p>
 </div>
 <div data-w-id={"9807520c-65b7-e828-71bd-909a6cfe1841"} className={"footer-social-inline"}>
-<a href={"https://www.facebook.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg"} loading={"eager"} alt={"social-icon"} className={"footer-social-icon"} />
+<a href={"https://onosglobal.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Facebook"}
+{"ONOS Global"}
 </div>
 </a>
-<a href={"https://twitter.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg"} loading={"eager"} alt={""} className={"footer-social-icon"} />
+<a href={"https://onospod.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Twitter"}
+{"OnosPOD"}
 </div>
 </a>
-<a href={"https://www.instagram.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg"} loading={"eager"} alt={"social-icon"} className={"footer-social-icon"} />
+<a href={"https://onosgroup.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Instagram"}
+{"ONOS Group"}
 </div>
 </a>
 </div>
 </div>
 <div className={"footer-logo-info"}>
-<img src={"/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg"} loading={"lazy"} data-w-id={"65ddfbf8-98dc-79d4-6020-0e2cf17451cf"} alt={"Footer Logo"} className={"footer-logo"} />
+<img src={"/assets/onos-wordmark-light.svg"} loading={"lazy"} data-w-id={"65ddfbf8-98dc-79d4-6020-0e2cf17451cf"} alt={"ONOS Global"} className={"footer-logo"} />
 </div>
 </div>
 </div>
@@ -1346,7 +1346,7 @@ export function Footer0981dc575e() { return (
 {"Stay connected"}
 </h2>
 <p className={"subscribe-description"}>
-{"Join our newsletter for tips, updates, and project highlights—only the good stuff."}
+{"Demo newsletter — no subscription is sent. For production enquiries, email onospod.com@gmail.com."}
 </p>
 <div className={"form-subscribe-wrap w-form"}>
 <ContactForm id={"wf-form-Subscribe-Form"} name={"wf-form-Subscribe-Form"} data-name={"Subscribe Form"} className={"form-subscribe"}>
@@ -1355,12 +1355,12 @@ export function Footer0981dc575e() { return (
 </ContactForm>
 <div className={"success-message w-form-done"}>
 <div>
-{"Thank you! Your submission has been received!"}
+{"Demo only. No submission has been sent. Please email onospod.com@gmail.com."}
 </div>
 </div>
 <div className={"error-message w-form-fail"}>
 <div>
-{"Oops! Something went wrong while submitting the form."}
+{"Please email onospod.com@gmail.com to contact ONOS."}
 </div>
 </div>
 </div>
@@ -1377,7 +1377,7 @@ export function Footer0981dc575e() { return (
 {"Home"}
 </a>
 <a href={"/home-2"} className={"footer-link"}>
-{"Home 2"}
+{"Overview"}
 </a>
 <a href={"/about"} className={"footer-link"}>
 {"About"}
@@ -1389,10 +1389,10 @@ export function Footer0981dc575e() { return (
 {"Services"}
 </a>
 <a href={"/case-studies"} className={"footer-link"}>
-{"Case Studies"}
+{"Production Work"}
 </a>
 <a href={"/blog"} className={"footer-link"}>
-{"Blog"}
+{"Production Guides"}
 </a>
 <a href={"/contact"} className={"footer-link"}>
 {"Contact"}
@@ -1401,14 +1401,14 @@ export function Footer0981dc575e() { return (
 </div>
 <div data-w-id={"c3c71fa1-678a-c8f3-2483-91e8980a3ade"} className={"footer-link-item"}>
 <h2 className={"footer-title"}>
-{"Utility links"}
+{"Ecosystem & Resources"}
 </h2>
 <div className={"footer-links"}>
-<a href={"/utility-pages/style-guide"} className={"footer-link"}>
-{"Style Guide"}
+<a href={"https://onosgroup.pages.dev/"} className={"footer-link"}>
+{"ONOS Group"}
 </a>
-<a href={"/utility-pages/instructions"} className={"footer-link"}>
-{"Instructions"}
+<a href={"https://onospod.pages.dev/"} className={"footer-link"}>
+{"OnosPOD"}
 </a>
 <a href={"/utility-pages/licenses"} className={"footer-link"}>
 {"Licenses"}
@@ -1430,13 +1430,13 @@ export function Footer0981dc575e() { return (
 </h2>
 <div className={"footer-contact-item"}>
 <div className={"footer-address"}>
-{"1238 echo ridge blvd, suite 400, san francisco, CA 94103"}
+{"Floor 3, 705 Lac Long Quan, Tay Ho, Hanoi, Vietnam"}
 </div>
-<a href={"tel:+1(415)555-0167"} className={"footer-link"}>
-{"+1 (415) 555-0167"}
+<a href={"tel:+84986385112"} className={"footer-link"}>
+{"+84 986 385 112"}
 </a>
-<a href={"mailto:example@gmail.com"} className={"footer-link"}>
-{"example@gmail.com"}
+<a href={"mailto:onospod.com@gmail.com"} className={"footer-link"}>
+{"onospod.com@gmail.com"}
 </a>
 </div>
 </div>
@@ -1446,13 +1446,13 @@ export function Footer0981dc575e() { return (
 </h2>
 <div className={"footer-contact-item"}>
 <div className={"working-text"}>
-{"Mon to Fri: 8:00am - 4:00pm"}
+{"Mon–Fri: 7:30–17:30 (Vietnam time)"}
 </div>
 <div className={"working-text"}>
-{"Saturday: 8:00am - 1:00pm"}
+{"Saturday: 8:00–17:00 (Vietnam time)"}
 </div>
 <div className={"working-text"}>
-{"Sunday: Closed"}
+{"Vietnam time · UTC+7"}
 </div>
 </div>
 </div>
@@ -1465,39 +1465,39 @@ export function Footer0981dc575e() { return (
 <div className={"footer-bottom-wrap"}>
 <div data-w-id={"d283640d-fc6a-1283-2d22-21620e76ddab"} className={"footer-copyright-wrap"}>
 <p className={"footer-copyright"}>
-{"Designed by "}
+{"Template design by "}
 <a href={"https://webestica.com/"} target={"_blank"} className={"footer-copyright-link"}>
 {"Webestica"}
 </a>
-{", Powered by "}
+{", original platform "}
 <a href={"https://webflow.com/"} target={"_blank"} className={"footer-copyright-link"}>
 {"Webflow"}
 </a>
 </p>
 </div>
 <div data-w-id={"9807520c-65b7-e828-71bd-909a6cfe1841"} className={"footer-social-inline"}>
-<a href={"https://www.facebook.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg"} loading={"eager"} alt={"social-icon"} className={"footer-social-icon"} />
+<a href={"https://onosglobal.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Facebook"}
+{"ONOS Global"}
 </div>
 </a>
-<a href={"https://twitter.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg"} loading={"eager"} alt={""} className={"footer-social-icon"} />
+<a href={"https://onospod.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Twitter"}
+{"OnosPOD"}
 </div>
 </a>
-<a href={"https://www.instagram.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg"} loading={"eager"} alt={"social-icon"} className={"footer-social-icon"} />
+<a href={"https://onosgroup.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Instagram"}
+{"ONOS Group"}
 </div>
 </a>
 </div>
 </div>
 <div className={"footer-logo-info"}>
-<img src={"/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg"} loading={"lazy"} data-w-id={"65ddfbf8-98dc-79d4-6020-0e2cf17451cf"} alt={"Footer Logo"} className={"footer-logo"} />
+<img src={"/assets/onos-wordmark-light.svg"} loading={"lazy"} data-w-id={"65ddfbf8-98dc-79d4-6020-0e2cf17451cf"} alt={"ONOS Global"} className={"footer-logo"} />
 </div>
 </div>
 </div>
@@ -1534,7 +1534,7 @@ export function Footerd0e4a56900() { return (
 {"Stay connected"}
 </h2>
 <p className={"subscribe-description"}>
-{"Join our newsletter for tips, updates, and project highlights—only the good stuff."}
+{"Demo newsletter — no subscription is sent. For production enquiries, email onospod.com@gmail.com."}
 </p>
 <div className={"form-subscribe-wrap w-form"}>
 <ContactForm id={"wf-form-Subscribe-Form"} name={"wf-form-Subscribe-Form"} data-name={"Subscribe Form"} className={"form-subscribe"}>
@@ -1543,12 +1543,12 @@ export function Footerd0e4a56900() { return (
 </ContactForm>
 <div className={"success-message w-form-done"}>
 <div>
-{"Thank you! Your submission has been received!"}
+{"Demo only. No submission has been sent. Please email onospod.com@gmail.com."}
 </div>
 </div>
 <div className={"error-message w-form-fail"}>
 <div>
-{"Oops! Something went wrong while submitting the form."}
+{"Please email onospod.com@gmail.com to contact ONOS."}
 </div>
 </div>
 </div>
@@ -1565,7 +1565,7 @@ export function Footerd0e4a56900() { return (
 {"Home"}
 </a>
 <a href={"/home-2"} className={"footer-link"}>
-{"Home 2"}
+{"Overview"}
 </a>
 <a href={"/about"} className={"footer-link"}>
 {"About"}
@@ -1577,10 +1577,10 @@ export function Footerd0e4a56900() { return (
 {"Services"}
 </a>
 <a href={"/case-studies"} className={"footer-link"}>
-{"Case Studies"}
+{"Production Work"}
 </a>
 <a href={"/blog"} className={"footer-link"}>
-{"Blog"}
+{"Production Guides"}
 </a>
 <a href={"/contact"} className={"footer-link"}>
 {"Contact"}
@@ -1589,14 +1589,14 @@ export function Footerd0e4a56900() { return (
 </div>
 <div data-w-id={"c3c71fa1-678a-c8f3-2483-91e8980a3ade"} className={"footer-link-item"}>
 <h2 className={"footer-title"}>
-{"Utility links"}
+{"Ecosystem & Resources"}
 </h2>
 <div className={"footer-links"}>
-<a href={"/utility-pages/style-guide"} className={"footer-link"}>
-{"Style Guide"}
+<a href={"https://onosgroup.pages.dev/"} className={"footer-link"}>
+{"ONOS Group"}
 </a>
-<a href={"/utility-pages/instructions"} className={"footer-link"}>
-{"Instructions"}
+<a href={"https://onospod.pages.dev/"} className={"footer-link"}>
+{"OnosPOD"}
 </a>
 <a href={"/utility-pages/licenses"} className={"footer-link"}>
 {"Licenses"}
@@ -1618,13 +1618,13 @@ export function Footerd0e4a56900() { return (
 </h2>
 <div className={"footer-contact-item"}>
 <div className={"footer-address"}>
-{"1238 echo ridge blvd, suite 400, san francisco, CA 94103"}
+{"Floor 3, 705 Lac Long Quan, Tay Ho, Hanoi, Vietnam"}
 </div>
-<a href={"tel:+1(415)555-0167"} className={"footer-link"}>
-{"+1 (415) 555-0167"}
+<a href={"tel:+84986385112"} className={"footer-link"}>
+{"+84 986 385 112"}
 </a>
-<a href={"mailto:example@gmail.com"} className={"footer-link"}>
-{"example@gmail.com"}
+<a href={"mailto:onospod.com@gmail.com"} className={"footer-link"}>
+{"onospod.com@gmail.com"}
 </a>
 </div>
 </div>
@@ -1634,13 +1634,13 @@ export function Footerd0e4a56900() { return (
 </h2>
 <div className={"footer-contact-item"}>
 <div className={"working-text"}>
-{"Mon to Fri: 8:00am - 4:00pm"}
+{"Mon–Fri: 7:30–17:30 (Vietnam time)"}
 </div>
 <div className={"working-text"}>
-{"Saturday: 8:00am - 1:00pm"}
+{"Saturday: 8:00–17:00 (Vietnam time)"}
 </div>
 <div className={"working-text"}>
-{"Sunday: Closed"}
+{"Vietnam time · UTC+7"}
 </div>
 </div>
 </div>
@@ -1653,39 +1653,39 @@ export function Footerd0e4a56900() { return (
 <div className={"footer-bottom-wrap"}>
 <div data-w-id={"d283640d-fc6a-1283-2d22-21620e76ddab"} className={"footer-copyright-wrap"}>
 <p className={"footer-copyright"}>
-{"Designed by "}
+{"Template design by "}
 <a href={"https://webestica.com/"} target={"_blank"} className={"footer-copyright-link"}>
 {"Webestica"}
 </a>
-{", Powered by "}
+{", original platform "}
 <a href={"https://webflow.com/"} target={"_blank"} className={"footer-copyright-link"}>
 {"Webflow"}
 </a>
 </p>
 </div>
 <div data-w-id={"9807520c-65b7-e828-71bd-909a6cfe1841"} className={"footer-social-inline"}>
-<a href={"https://www.facebook.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg"} loading={"eager"} alt={"social-icon"} className={"footer-social-icon"} />
+<a href={"https://onosglobal.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Facebook"}
+{"ONOS Global"}
 </div>
 </a>
-<a href={"https://twitter.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg"} loading={"eager"} alt={""} className={"footer-social-icon"} />
+<a href={"https://onospod.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Twitter"}
+{"OnosPOD"}
 </div>
 </a>
-<a href={"https://www.instagram.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg"} loading={"eager"} alt={"social-icon"} className={"footer-social-icon"} />
+<a href={"https://onosgroup.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Instagram"}
+{"ONOS Group"}
 </div>
 </a>
 </div>
 </div>
 <div className={"footer-logo-info"}>
-<img src={"/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg"} loading={"lazy"} data-w-id={"65ddfbf8-98dc-79d4-6020-0e2cf17451cf"} alt={"Footer Logo"} className={"footer-logo"} />
+<img src={"/assets/onos-wordmark-light.svg"} loading={"lazy"} data-w-id={"65ddfbf8-98dc-79d4-6020-0e2cf17451cf"} alt={"ONOS Global"} className={"footer-logo"} />
 </div>
 </div>
 </div>
@@ -1722,7 +1722,7 @@ export function Footer132b67bc87() { return (
 {"Stay connected"}
 </h2>
 <p className={"subscribe-description"}>
-{"Join our newsletter for tips, updates, and project highlights—only the good stuff."}
+{"Demo newsletter — no subscription is sent. For production enquiries, email onospod.com@gmail.com."}
 </p>
 <div className={"form-subscribe-wrap w-form"}>
 <ContactForm id={"wf-form-Subscribe-Form"} name={"wf-form-Subscribe-Form"} data-name={"Subscribe Form"} className={"form-subscribe"}>
@@ -1731,12 +1731,12 @@ export function Footer132b67bc87() { return (
 </ContactForm>
 <div className={"success-message w-form-done"}>
 <div>
-{"Thank you! Your submission has been received!"}
+{"Demo only. No submission has been sent. Please email onospod.com@gmail.com."}
 </div>
 </div>
 <div className={"error-message w-form-fail"}>
 <div>
-{"Oops! Something went wrong while submitting the form."}
+{"Please email onospod.com@gmail.com to contact ONOS."}
 </div>
 </div>
 </div>
@@ -1753,7 +1753,7 @@ export function Footer132b67bc87() { return (
 {"Home"}
 </a>
 <a href={"/home-2"} className={"footer-link"}>
-{"Home 2"}
+{"Overview"}
 </a>
 <a href={"/about"} className={"footer-link"}>
 {"About"}
@@ -1765,10 +1765,10 @@ export function Footer132b67bc87() { return (
 {"Services"}
 </a>
 <a href={"/case-studies"} className={"footer-link"}>
-{"Case Studies"}
+{"Production Work"}
 </a>
 <a href={"/blog"} className={"footer-link"}>
-{"Blog"}
+{"Production Guides"}
 </a>
 <a href={"/contact"} className={"footer-link"}>
 {"Contact"}
@@ -1777,14 +1777,14 @@ export function Footer132b67bc87() { return (
 </div>
 <div data-w-id={"c3c71fa1-678a-c8f3-2483-91e8980a3ade"} className={"footer-link-item"}>
 <h2 className={"footer-title"}>
-{"Utility links"}
+{"Ecosystem & Resources"}
 </h2>
 <div className={"footer-links"}>
-<a href={"/utility-pages/style-guide"} className={"footer-link"}>
-{"Style Guide"}
+<a href={"https://onosgroup.pages.dev/"} className={"footer-link"}>
+{"ONOS Group"}
 </a>
-<a href={"/utility-pages/instructions"} className={"footer-link"}>
-{"Instructions"}
+<a href={"https://onospod.pages.dev/"} className={"footer-link"}>
+{"OnosPOD"}
 </a>
 <a href={"/utility-pages/licenses"} className={"footer-link"}>
 {"Licenses"}
@@ -1806,13 +1806,13 @@ export function Footer132b67bc87() { return (
 </h2>
 <div className={"footer-contact-item"}>
 <div className={"footer-address"}>
-{"1238 echo ridge blvd, suite 400, san francisco, CA 94103"}
+{"Floor 3, 705 Lac Long Quan, Tay Ho, Hanoi, Vietnam"}
 </div>
-<a href={"tel:+1(415)555-0167"} className={"footer-link"}>
-{"+1 (415) 555-0167"}
+<a href={"tel:+84986385112"} className={"footer-link"}>
+{"+84 986 385 112"}
 </a>
-<a href={"mailto:example@gmail.com"} className={"footer-link"}>
-{"example@gmail.com"}
+<a href={"mailto:onospod.com@gmail.com"} className={"footer-link"}>
+{"onospod.com@gmail.com"}
 </a>
 </div>
 </div>
@@ -1822,13 +1822,13 @@ export function Footer132b67bc87() { return (
 </h2>
 <div className={"footer-contact-item"}>
 <div className={"working-text"}>
-{"Mon to Fri: 8:00am - 4:00pm"}
+{"Mon–Fri: 7:30–17:30 (Vietnam time)"}
 </div>
 <div className={"working-text"}>
-{"Saturday: 8:00am - 1:00pm"}
+{"Saturday: 8:00–17:00 (Vietnam time)"}
 </div>
 <div className={"working-text"}>
-{"Sunday: Closed"}
+{"Vietnam time · UTC+7"}
 </div>
 </div>
 </div>
@@ -1841,39 +1841,39 @@ export function Footer132b67bc87() { return (
 <div className={"footer-bottom-wrap"}>
 <div data-w-id={"d283640d-fc6a-1283-2d22-21620e76ddab"} className={"footer-copyright-wrap"}>
 <p className={"footer-copyright"}>
-{"Designed by "}
+{"Template design by "}
 <a href={"https://webestica.com/"} target={"_blank"} className={"footer-copyright-link"}>
 {"Webestica"}
 </a>
-{", Powered by "}
+{", original platform "}
 <a href={"https://webflow.com/"} target={"_blank"} className={"footer-copyright-link"}>
 {"Webflow"}
 </a>
 </p>
 </div>
 <div data-w-id={"9807520c-65b7-e828-71bd-909a6cfe1841"} className={"footer-social-inline"}>
-<a href={"https://www.facebook.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg"} loading={"eager"} alt={"social-icon"} className={"footer-social-icon"} />
+<a href={"https://onosglobal.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Facebook"}
+{"ONOS Global"}
 </div>
 </a>
-<a href={"https://twitter.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg"} loading={"eager"} alt={""} className={"footer-social-icon"} />
+<a href={"https://onospod.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Twitter"}
+{"OnosPOD"}
 </div>
 </a>
-<a href={"https://www.instagram.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg"} loading={"eager"} alt={"social-icon"} className={"footer-social-icon"} />
+<a href={"https://onosgroup.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Instagram"}
+{"ONOS Group"}
 </div>
 </a>
 </div>
 </div>
 <div className={"footer-logo-info"}>
-<img src={"/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg"} loading={"lazy"} data-w-id={"65ddfbf8-98dc-79d4-6020-0e2cf17451cf"} alt={"Footer Logo"} className={"footer-logo"} />
+<img src={"/assets/onos-wordmark-light.svg"} loading={"lazy"} data-w-id={"65ddfbf8-98dc-79d4-6020-0e2cf17451cf"} alt={"ONOS Global"} className={"footer-logo"} />
 </div>
 </div>
 </div>
@@ -1910,7 +1910,7 @@ export function Footerad35bd4ee8() { return (
 {"Stay connected"}
 </h2>
 <p className={"subscribe-description"}>
-{"Join our newsletter for tips, updates, and project highlights—only the good stuff."}
+{"Demo newsletter — no subscription is sent. For production enquiries, email onospod.com@gmail.com."}
 </p>
 <div className={"form-subscribe-wrap w-form"}>
 <ContactForm id={"wf-form-Subscribe-Form"} name={"wf-form-Subscribe-Form"} data-name={"Subscribe Form"} className={"form-subscribe"}>
@@ -1919,12 +1919,12 @@ export function Footerad35bd4ee8() { return (
 </ContactForm>
 <div className={"success-message w-form-done"}>
 <div>
-{"Thank you! Your submission has been received!"}
+{"Demo only. No submission has been sent. Please email onospod.com@gmail.com."}
 </div>
 </div>
 <div className={"error-message w-form-fail"}>
 <div>
-{"Oops! Something went wrong while submitting the form."}
+{"Please email onospod.com@gmail.com to contact ONOS."}
 </div>
 </div>
 </div>
@@ -1941,7 +1941,7 @@ export function Footerad35bd4ee8() { return (
 {"Home"}
 </a>
 <a href={"/home-2"} className={"footer-link"}>
-{"Home 2"}
+{"Overview"}
 </a>
 <a href={"/about"} className={"footer-link"}>
 {"About"}
@@ -1953,10 +1953,10 @@ export function Footerad35bd4ee8() { return (
 {"Services"}
 </a>
 <a href={"/case-studies"} className={"footer-link"}>
-{"Case Studies"}
+{"Production Work"}
 </a>
 <a href={"/blog"} className={"footer-link"}>
-{"Blog"}
+{"Production Guides"}
 </a>
 <a href={"/contact"} className={"footer-link"}>
 {"Contact"}
@@ -1965,14 +1965,14 @@ export function Footerad35bd4ee8() { return (
 </div>
 <div data-w-id={"c3c71fa1-678a-c8f3-2483-91e8980a3ade"} className={"footer-link-item"}>
 <h2 className={"footer-title"}>
-{"Utility links"}
+{"Ecosystem & Resources"}
 </h2>
 <div className={"footer-links"}>
-<a href={"/utility-pages/style-guide"} className={"footer-link"}>
-{"Style Guide"}
+<a href={"https://onosgroup.pages.dev/"} className={"footer-link"}>
+{"ONOS Group"}
 </a>
-<a href={"/utility-pages/instructions"} className={"footer-link"}>
-{"Instructions"}
+<a href={"https://onospod.pages.dev/"} className={"footer-link"}>
+{"OnosPOD"}
 </a>
 <a href={"/utility-pages/licenses"} className={"footer-link"}>
 {"Licenses"}
@@ -1994,13 +1994,13 @@ export function Footerad35bd4ee8() { return (
 </h2>
 <div className={"footer-contact-item"}>
 <div className={"footer-address"}>
-{"1238 echo ridge blvd, suite 400, san francisco, CA 94103"}
+{"Floor 3, 705 Lac Long Quan, Tay Ho, Hanoi, Vietnam"}
 </div>
-<a href={"tel:+1(415)555-0167"} className={"footer-link"}>
-{"+1 (415) 555-0167"}
+<a href={"tel:+84986385112"} className={"footer-link"}>
+{"+84 986 385 112"}
 </a>
-<a href={"mailto:example@gmail.com"} className={"footer-link"}>
-{"example@gmail.com"}
+<a href={"mailto:onospod.com@gmail.com"} className={"footer-link"}>
+{"onospod.com@gmail.com"}
 </a>
 </div>
 </div>
@@ -2010,13 +2010,13 @@ export function Footerad35bd4ee8() { return (
 </h2>
 <div className={"footer-contact-item"}>
 <div className={"working-text"}>
-{"Mon to Fri: 8:00am - 4:00pm"}
+{"Mon–Fri: 7:30–17:30 (Vietnam time)"}
 </div>
 <div className={"working-text"}>
-{"Saturday: 8:00am - 1:00pm"}
+{"Saturday: 8:00–17:00 (Vietnam time)"}
 </div>
 <div className={"working-text"}>
-{"Sunday: Closed"}
+{"Vietnam time · UTC+7"}
 </div>
 </div>
 </div>
@@ -2029,39 +2029,39 @@ export function Footerad35bd4ee8() { return (
 <div className={"footer-bottom-wrap"}>
 <div data-w-id={"d283640d-fc6a-1283-2d22-21620e76ddab"} className={"footer-copyright-wrap"}>
 <p className={"footer-copyright"}>
-{"Designed by "}
+{"Template design by "}
 <a href={"https://webestica.com/"} target={"_blank"} className={"footer-copyright-link"}>
 {"Webestica"}
 </a>
-{", Powered by "}
+{", original platform "}
 <a href={"https://webflow.com/"} target={"_blank"} className={"footer-copyright-link"}>
 {"Webflow"}
 </a>
 </p>
 </div>
 <div data-w-id={"9807520c-65b7-e828-71bd-909a6cfe1841"} className={"footer-social-inline"}>
-<a href={"https://www.facebook.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg"} loading={"eager"} alt={"social-icon"} className={"footer-social-icon"} />
+<a href={"https://onosglobal.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Facebook"}
+{"ONOS Global"}
 </div>
 </a>
-<a href={"https://twitter.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg"} loading={"eager"} alt={""} className={"footer-social-icon"} />
+<a href={"https://onospod.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Twitter"}
+{"OnosPOD"}
 </div>
 </a>
-<a href={"https://www.instagram.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg"} loading={"eager"} alt={"social-icon"} className={"footer-social-icon"} />
+<a href={"https://onosgroup.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Instagram"}
+{"ONOS Group"}
 </div>
 </a>
 </div>
 </div>
 <div className={"footer-logo-info"}>
-<img src={"/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg"} loading={"lazy"} data-w-id={"65ddfbf8-98dc-79d4-6020-0e2cf17451cf"} alt={"Footer Logo"} className={"footer-logo"} />
+<img src={"/assets/onos-wordmark-light.svg"} loading={"lazy"} data-w-id={"65ddfbf8-98dc-79d4-6020-0e2cf17451cf"} alt={"ONOS Global"} className={"footer-logo"} />
 </div>
 </div>
 </div>
@@ -2098,7 +2098,7 @@ export function Footera60232d09d() { return (
 {"Stay connected"}
 </h2>
 <p className={"subscribe-description"}>
-{"Join our newsletter for tips, updates, and project highlights—only the good stuff."}
+{"Demo newsletter — no subscription is sent. For production enquiries, email onospod.com@gmail.com."}
 </p>
 <div className={"form-subscribe-wrap w-form"}>
 <ContactForm id={"wf-form-Subscribe-Form"} name={"wf-form-Subscribe-Form"} data-name={"Subscribe Form"} className={"form-subscribe"}>
@@ -2107,12 +2107,12 @@ export function Footera60232d09d() { return (
 </ContactForm>
 <div className={"success-message w-form-done"}>
 <div>
-{"Thank you! Your submission has been received!"}
+{"Demo only. No submission has been sent. Please email onospod.com@gmail.com."}
 </div>
 </div>
 <div className={"error-message w-form-fail"}>
 <div>
-{"Oops! Something went wrong while submitting the form."}
+{"Please email onospod.com@gmail.com to contact ONOS."}
 </div>
 </div>
 </div>
@@ -2129,7 +2129,7 @@ export function Footera60232d09d() { return (
 {"Home"}
 </a>
 <a href={"/home-2"} className={"footer-link"}>
-{"Home 2"}
+{"Overview"}
 </a>
 <a href={"/about"} className={"footer-link"}>
 {"About"}
@@ -2141,10 +2141,10 @@ export function Footera60232d09d() { return (
 {"Services"}
 </a>
 <a href={"/case-studies"} className={"footer-link"}>
-{"Case Studies"}
+{"Production Work"}
 </a>
 <a href={"/blog"} className={"footer-link"}>
-{"Blog"}
+{"Production Guides"}
 </a>
 <a href={"/contact"} className={"footer-link"}>
 {"Contact"}
@@ -2153,14 +2153,14 @@ export function Footera60232d09d() { return (
 </div>
 <div data-w-id={"c3c71fa1-678a-c8f3-2483-91e8980a3ade"} className={"footer-link-item"}>
 <h2 className={"footer-title"}>
-{"Utility links"}
+{"Ecosystem & Resources"}
 </h2>
 <div className={"footer-links"}>
-<a href={"/utility-pages/style-guide"} className={"footer-link"}>
-{"Style Guide"}
+<a href={"https://onosgroup.pages.dev/"} className={"footer-link"}>
+{"ONOS Group"}
 </a>
-<a href={"/utility-pages/instructions"} aria-current={"page"} className={"footer-link w--current"}>
-{"Instructions"}
+<a href={"https://onospod.pages.dev/"} aria-current={"page"} className={"footer-link w--current"}>
+{"OnosPOD"}
 </a>
 <a href={"/utility-pages/licenses"} className={"footer-link"}>
 {"Licenses"}
@@ -2182,13 +2182,13 @@ export function Footera60232d09d() { return (
 </h2>
 <div className={"footer-contact-item"}>
 <div className={"footer-address"}>
-{"1238 echo ridge blvd, suite 400, san francisco, CA 94103"}
+{"Floor 3, 705 Lac Long Quan, Tay Ho, Hanoi, Vietnam"}
 </div>
-<a href={"tel:+1(415)555-0167"} className={"footer-link"}>
-{"+1 (415) 555-0167"}
+<a href={"tel:+84986385112"} className={"footer-link"}>
+{"+84 986 385 112"}
 </a>
-<a href={"mailto:example@gmail.com"} className={"footer-link"}>
-{"example@gmail.com"}
+<a href={"mailto:onospod.com@gmail.com"} className={"footer-link"}>
+{"onospod.com@gmail.com"}
 </a>
 </div>
 </div>
@@ -2198,13 +2198,13 @@ export function Footera60232d09d() { return (
 </h2>
 <div className={"footer-contact-item"}>
 <div className={"working-text"}>
-{"Mon to Fri: 8:00am - 4:00pm"}
+{"Mon–Fri: 7:30–17:30 (Vietnam time)"}
 </div>
 <div className={"working-text"}>
-{"Saturday: 8:00am - 1:00pm"}
+{"Saturday: 8:00–17:00 (Vietnam time)"}
 </div>
 <div className={"working-text"}>
-{"Sunday: Closed"}
+{"Vietnam time · UTC+7"}
 </div>
 </div>
 </div>
@@ -2217,39 +2217,39 @@ export function Footera60232d09d() { return (
 <div className={"footer-bottom-wrap"}>
 <div data-w-id={"d283640d-fc6a-1283-2d22-21620e76ddab"} className={"footer-copyright-wrap"}>
 <p className={"footer-copyright"}>
-{"Designed by "}
+{"Template design by "}
 <a href={"https://webestica.com/"} target={"_blank"} className={"footer-copyright-link"}>
 {"Webestica"}
 </a>
-{", Powered by "}
+{", original platform "}
 <a href={"https://webflow.com/"} target={"_blank"} className={"footer-copyright-link"}>
 {"Webflow"}
 </a>
 </p>
 </div>
 <div data-w-id={"9807520c-65b7-e828-71bd-909a6cfe1841"} className={"footer-social-inline"}>
-<a href={"https://www.facebook.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg"} loading={"eager"} alt={"social-icon"} className={"footer-social-icon"} />
+<a href={"https://onosglobal.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Facebook"}
+{"ONOS Global"}
 </div>
 </a>
-<a href={"https://twitter.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg"} loading={"eager"} alt={""} className={"footer-social-icon"} />
+<a href={"https://onospod.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Twitter"}
+{"OnosPOD"}
 </div>
 </a>
-<a href={"https://www.instagram.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg"} loading={"eager"} alt={"social-icon"} className={"footer-social-icon"} />
+<a href={"https://onosgroup.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Instagram"}
+{"ONOS Group"}
 </div>
 </a>
 </div>
 </div>
 <div className={"footer-logo-info"}>
-<img src={"/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg"} loading={"lazy"} data-w-id={"65ddfbf8-98dc-79d4-6020-0e2cf17451cf"} alt={"Footer Logo"} className={"footer-logo"} />
+<img src={"/assets/onos-wordmark-light.svg"} loading={"lazy"} data-w-id={"65ddfbf8-98dc-79d4-6020-0e2cf17451cf"} alt={"ONOS Global"} className={"footer-logo"} />
 </div>
 </div>
 </div>
@@ -2286,7 +2286,7 @@ export function Footerb3330562fc() { return (
 {"Stay connected"}
 </h2>
 <p className={"subscribe-description"}>
-{"Join our newsletter for tips, updates, and project highlights—only the good stuff."}
+{"Demo newsletter — no subscription is sent. For production enquiries, email onospod.com@gmail.com."}
 </p>
 <div className={"form-subscribe-wrap w-form"}>
 <ContactForm id={"wf-form-Subscribe-Form"} name={"wf-form-Subscribe-Form"} data-name={"Subscribe Form"} className={"form-subscribe"}>
@@ -2295,12 +2295,12 @@ export function Footerb3330562fc() { return (
 </ContactForm>
 <div className={"success-message w-form-done"}>
 <div>
-{"Thank you! Your submission has been received!"}
+{"Demo only. No submission has been sent. Please email onospod.com@gmail.com."}
 </div>
 </div>
 <div className={"error-message w-form-fail"}>
 <div>
-{"Oops! Something went wrong while submitting the form."}
+{"Please email onospod.com@gmail.com to contact ONOS."}
 </div>
 </div>
 </div>
@@ -2317,7 +2317,7 @@ export function Footerb3330562fc() { return (
 {"Home"}
 </a>
 <a href={"/home-2"} className={"footer-link"}>
-{"Home 2"}
+{"Overview"}
 </a>
 <a href={"/about"} className={"footer-link"}>
 {"About"}
@@ -2329,10 +2329,10 @@ export function Footerb3330562fc() { return (
 {"Services"}
 </a>
 <a href={"/case-studies"} className={"footer-link"}>
-{"Case Studies"}
+{"Production Work"}
 </a>
 <a href={"/blog"} className={"footer-link"}>
-{"Blog"}
+{"Production Guides"}
 </a>
 <a href={"/contact"} className={"footer-link"}>
 {"Contact"}
@@ -2341,14 +2341,14 @@ export function Footerb3330562fc() { return (
 </div>
 <div data-w-id={"c3c71fa1-678a-c8f3-2483-91e8980a3ade"} className={"footer-link-item"}>
 <h2 className={"footer-title"}>
-{"Utility links"}
+{"Ecosystem & Resources"}
 </h2>
 <div className={"footer-links"}>
-<a href={"/utility-pages/style-guide"} className={"footer-link"}>
-{"Style Guide"}
+<a href={"https://onosgroup.pages.dev/"} className={"footer-link"}>
+{"ONOS Group"}
 </a>
-<a href={"/utility-pages/instructions"} className={"footer-link"}>
-{"Instructions"}
+<a href={"https://onospod.pages.dev/"} className={"footer-link"}>
+{"OnosPOD"}
 </a>
 <a href={"/utility-pages/licenses"} aria-current={"page"} className={"footer-link w--current"}>
 {"Licenses"}
@@ -2370,13 +2370,13 @@ export function Footerb3330562fc() { return (
 </h2>
 <div className={"footer-contact-item"}>
 <div className={"footer-address"}>
-{"1238 echo ridge blvd, suite 400, san francisco, CA 94103"}
+{"Floor 3, 705 Lac Long Quan, Tay Ho, Hanoi, Vietnam"}
 </div>
-<a href={"tel:+1(415)555-0167"} className={"footer-link"}>
-{"+1 (415) 555-0167"}
+<a href={"tel:+84986385112"} className={"footer-link"}>
+{"+84 986 385 112"}
 </a>
-<a href={"mailto:example@gmail.com"} className={"footer-link"}>
-{"example@gmail.com"}
+<a href={"mailto:onospod.com@gmail.com"} className={"footer-link"}>
+{"onospod.com@gmail.com"}
 </a>
 </div>
 </div>
@@ -2386,13 +2386,13 @@ export function Footerb3330562fc() { return (
 </h2>
 <div className={"footer-contact-item"}>
 <div className={"working-text"}>
-{"Mon to Fri: 8:00am - 4:00pm"}
+{"Mon–Fri: 7:30–17:30 (Vietnam time)"}
 </div>
 <div className={"working-text"}>
-{"Saturday: 8:00am - 1:00pm"}
+{"Saturday: 8:00–17:00 (Vietnam time)"}
 </div>
 <div className={"working-text"}>
-{"Sunday: Closed"}
+{"Vietnam time · UTC+7"}
 </div>
 </div>
 </div>
@@ -2405,39 +2405,39 @@ export function Footerb3330562fc() { return (
 <div className={"footer-bottom-wrap"}>
 <div data-w-id={"d283640d-fc6a-1283-2d22-21620e76ddab"} className={"footer-copyright-wrap"}>
 <p className={"footer-copyright"}>
-{"Designed by "}
+{"Template design by "}
 <a href={"https://webestica.com/"} target={"_blank"} className={"footer-copyright-link"}>
 {"Webestica"}
 </a>
-{", Powered by "}
+{", original platform "}
 <a href={"https://webflow.com/"} target={"_blank"} className={"footer-copyright-link"}>
 {"Webflow"}
 </a>
 </p>
 </div>
 <div data-w-id={"9807520c-65b7-e828-71bd-909a6cfe1841"} className={"footer-social-inline"}>
-<a href={"https://www.facebook.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg"} loading={"eager"} alt={"social-icon"} className={"footer-social-icon"} />
+<a href={"https://onosglobal.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Facebook"}
+{"ONOS Global"}
 </div>
 </a>
-<a href={"https://twitter.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg"} loading={"eager"} alt={""} className={"footer-social-icon"} />
+<a href={"https://onospod.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Twitter"}
+{"OnosPOD"}
 </div>
 </a>
-<a href={"https://www.instagram.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg"} loading={"eager"} alt={"social-icon"} className={"footer-social-icon"} />
+<a href={"https://onosgroup.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Instagram"}
+{"ONOS Group"}
 </div>
 </a>
 </div>
 </div>
 <div className={"footer-logo-info"}>
-<img src={"/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg"} loading={"lazy"} data-w-id={"65ddfbf8-98dc-79d4-6020-0e2cf17451cf"} alt={"Footer Logo"} className={"footer-logo"} />
+<img src={"/assets/onos-wordmark-light.svg"} loading={"lazy"} data-w-id={"65ddfbf8-98dc-79d4-6020-0e2cf17451cf"} alt={"ONOS Global"} className={"footer-logo"} />
 </div>
 </div>
 </div>
@@ -2474,7 +2474,7 @@ export function Footercc83311ca4() { return (
 {"Stay connected"}
 </h2>
 <p className={"subscribe-description"}>
-{"Join our newsletter for tips, updates, and project highlights—only the good stuff."}
+{"Demo newsletter — no subscription is sent. For production enquiries, email onospod.com@gmail.com."}
 </p>
 <div className={"form-subscribe-wrap w-form"}>
 <ContactForm id={"wf-form-Subscribe-Form"} name={"wf-form-Subscribe-Form"} data-name={"Subscribe Form"} className={"form-subscribe"}>
@@ -2483,12 +2483,12 @@ export function Footercc83311ca4() { return (
 </ContactForm>
 <div className={"success-message w-form-done"}>
 <div>
-{"Thank you! Your submission has been received!"}
+{"Demo only. No submission has been sent. Please email onospod.com@gmail.com."}
 </div>
 </div>
 <div className={"error-message w-form-fail"}>
 <div>
-{"Oops! Something went wrong while submitting the form."}
+{"Please email onospod.com@gmail.com to contact ONOS."}
 </div>
 </div>
 </div>
@@ -2505,7 +2505,7 @@ export function Footercc83311ca4() { return (
 {"Home"}
 </a>
 <a href={"/home-2"} className={"footer-link"}>
-{"Home 2"}
+{"Overview"}
 </a>
 <a href={"/about"} className={"footer-link"}>
 {"About"}
@@ -2517,10 +2517,10 @@ export function Footercc83311ca4() { return (
 {"Services"}
 </a>
 <a href={"/case-studies"} className={"footer-link"}>
-{"Case Studies"}
+{"Production Work"}
 </a>
 <a href={"/blog"} className={"footer-link"}>
-{"Blog"}
+{"Production Guides"}
 </a>
 <a href={"/contact"} className={"footer-link"}>
 {"Contact"}
@@ -2529,14 +2529,14 @@ export function Footercc83311ca4() { return (
 </div>
 <div data-w-id={"c3c71fa1-678a-c8f3-2483-91e8980a3ade"} className={"footer-link-item"}>
 <h2 className={"footer-title"}>
-{"Utility links"}
+{"Ecosystem & Resources"}
 </h2>
 <div className={"footer-links"}>
-<a href={"/utility-pages/style-guide"} aria-current={"page"} className={"footer-link w--current"}>
-{"Style Guide"}
+<a href={"https://onosgroup.pages.dev/"} aria-current={"page"} className={"footer-link w--current"}>
+{"ONOS Group"}
 </a>
-<a href={"/utility-pages/instructions"} className={"footer-link"}>
-{"Instructions"}
+<a href={"https://onospod.pages.dev/"} className={"footer-link"}>
+{"OnosPOD"}
 </a>
 <a href={"/utility-pages/licenses"} className={"footer-link"}>
 {"Licenses"}
@@ -2558,13 +2558,13 @@ export function Footercc83311ca4() { return (
 </h2>
 <div className={"footer-contact-item"}>
 <div className={"footer-address"}>
-{"1238 echo ridge blvd, suite 400, san francisco, CA 94103"}
+{"Floor 3, 705 Lac Long Quan, Tay Ho, Hanoi, Vietnam"}
 </div>
-<a href={"tel:+1(415)555-0167"} className={"footer-link"}>
-{"+1 (415) 555-0167"}
+<a href={"tel:+84986385112"} className={"footer-link"}>
+{"+84 986 385 112"}
 </a>
-<a href={"mailto:example@gmail.com"} className={"footer-link"}>
-{"example@gmail.com"}
+<a href={"mailto:onospod.com@gmail.com"} className={"footer-link"}>
+{"onospod.com@gmail.com"}
 </a>
 </div>
 </div>
@@ -2574,13 +2574,13 @@ export function Footercc83311ca4() { return (
 </h2>
 <div className={"footer-contact-item"}>
 <div className={"working-text"}>
-{"Mon to Fri: 8:00am - 4:00pm"}
+{"Mon–Fri: 7:30–17:30 (Vietnam time)"}
 </div>
 <div className={"working-text"}>
-{"Saturday: 8:00am - 1:00pm"}
+{"Saturday: 8:00–17:00 (Vietnam time)"}
 </div>
 <div className={"working-text"}>
-{"Sunday: Closed"}
+{"Vietnam time · UTC+7"}
 </div>
 </div>
 </div>
@@ -2593,39 +2593,39 @@ export function Footercc83311ca4() { return (
 <div className={"footer-bottom-wrap"}>
 <div data-w-id={"d283640d-fc6a-1283-2d22-21620e76ddab"} className={"footer-copyright-wrap"}>
 <p className={"footer-copyright"}>
-{"Designed by "}
+{"Template design by "}
 <a href={"https://webestica.com/"} target={"_blank"} className={"footer-copyright-link"}>
 {"Webestica"}
 </a>
-{", Powered by "}
+{", original platform "}
 <a href={"https://webflow.com/"} target={"_blank"} className={"footer-copyright-link"}>
 {"Webflow"}
 </a>
 </p>
 </div>
 <div data-w-id={"9807520c-65b7-e828-71bd-909a6cfe1841"} className={"footer-social-inline"}>
-<a href={"https://www.facebook.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg"} loading={"eager"} alt={"social-icon"} className={"footer-social-icon"} />
+<a href={"https://onosglobal.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Facebook"}
+{"ONOS Global"}
 </div>
 </a>
-<a href={"https://twitter.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg"} loading={"eager"} alt={""} className={"footer-social-icon"} />
+<a href={"https://onospod.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Twitter"}
+{"OnosPOD"}
 </div>
 </a>
-<a href={"https://www.instagram.com/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
-<img src={"/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg"} loading={"eager"} alt={"social-icon"} className={"footer-social-icon"} />
+<a href={"https://onosgroup.pages.dev/"} target={"_blank"} className={"footer-social-link w-inline-block"}>
+<img src={"/assets/onos-connection.svg"} loading={"eager"} alt={"ONOS production"} className={"footer-social-icon"} />
 <div>
-{"Instagram"}
+{"ONOS Group"}
 </div>
 </a>
 </div>
 </div>
 <div className={"footer-logo-info"}>
-<img src={"/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg"} loading={"lazy"} data-w-id={"65ddfbf8-98dc-79d4-6020-0e2cf17451cf"} alt={"Footer Logo"} className={"footer-logo"} />
+<img src={"/assets/onos-wordmark-light.svg"} loading={"lazy"} data-w-id={"65ddfbf8-98dc-79d4-6020-0e2cf17451cf"} alt={"ONOS Global"} className={"footer-logo"} />
 </div>
 </div>
 </div>

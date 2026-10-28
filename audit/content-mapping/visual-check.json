@@ -1,0 +1,42 @@
+[
+  {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "sectionOrder": [
+      "hero-section section-spacing-top",
+      "about-section",
+      "service-section section-spacing-top",
+      "product-section",
+      "industry-section",
+      "case-study-section section-spacing",
+      "why-choose-section",
+      "testimonial-section section-spacing",
+      "blog-section section-spacing-bottom",
+      "footer"
+    ],
+    "fonts": [
+      "\"Mona Sans\", sans-serif",
+      "Geist, sans-serif"
+    ]
+  },
+  {
+    "width": 375,
+    "scrollWidth": 375,
+    "sectionOrder": [
+      "hero-section section-spacing-top",
+      "about-section",
+      "service-section section-spacing-top",
+      "product-section",
+      "industry-section",
+      "case-study-section section-spacing",
+      "why-choose-section",
+      "testimonial-section section-spacing",
+      "blog-section section-spacing-bottom",
+      "footer"
+    ],
+    "fonts": [
+      "\"Mona Sans\", sans-serif",
+      "Geist, sans-serif"
+    ]
+  }
+]

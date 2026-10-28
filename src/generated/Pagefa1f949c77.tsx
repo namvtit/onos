@@ -2,7 +2,7 @@
 import { SiteRuntime } from "@/components/SiteRuntime";
 import { Footerff0835e88c, Navbar5de3fbdae5 } from "@/components/SiteChrome";
 
-export const metadata = {"title": "Automated assembly line optimization", "description": "Streamlined assembly processes with robotics, reducing labor costs and improving output consistency.", "openGraph": {"title": "Automated assembly line optimization", "description": "Streamlined assembly processes with robotics, reducing labor costs and improving output consistency.", "images": ["/assets/060aab7641ed-68e254eb0b7b84e9f4def04e_case-study-image-4.webp"]}};
+export const metadata = {"title":"Apparel finishing and fulfillment | ONOS Global","description":"Printed and embroidered garments are checked, finished and packed for shipping partner handover.","openGraph":{"title":"Apparel finishing and fulfillment | ONOS Global","description":"Printed and embroidered garments are checked, finished and packed for shipping partner handover.","images":["/assets/onos-production-floor.webp"]},"robots":{"index":false,"follow":true}};
 export default function Pagefa1f949c77() {
 const activePath = "/case-study/automated-assembly-line-optimization";
 return <>
@@ -13,48 +13,48 @@ return <>
 <div className={"case-detail-main"}>
 <div data-w-id={"cab6a32f-336d-0ffb-b011-845b3580be8a"} style={{"opacity": "0"}} className={"case-title-info"}>
 <div className={"case-category"}>
-{"Automation"}
+{"Fulfillment"}
 </div>
 <h1 className={"case-title"}>
-{"Automated assembly line optimization"}
+{"Apparel finishing and fulfillment"}
 </h1>
 </div>
 <div data-w-id={"1d1ee453-24e3-a218-f224-a41259c5d875"} style={{"opacity": "0"}} className={"case-image-wrap"}>
-<img src={"/assets/060aab7641ed-68e254eb0b7b84e9f4def04e_case-study-image-4.webp"} loading={"lazy"} alt={"Case Study Mian"} sizes={"100vw"} srcSet={"/assets/570acbb9781e-68e254eb0b7b84e9f4def04e_case-study-image-4-p-500.webp 500w, /assets/060aab7641ed-68e254eb0b7b84e9f4def04e_case-study-image-4.webp 760w"} className={"case-image"} />
-<img src={"/assets/fa8efdba11e5-68e33b240f41e4018e30d8e1_Client-Image-4.svg"} loading={"lazy"} style={{"opacity": "0"}} data-w-id={"3ea79cb9-7c77-2bdf-deeb-0f79adc24380"} alt={"Case Client Logo"} className={"case-client-logo"} />
+<img src={"/assets/onos-warehouse-inventory-slot-060aab7641ed.webp"} loading={"lazy"} alt={"Organised garment inventory at the Onos warehouse"} sizes={"100vw"} srcSet={"/assets/onos-warehouse-inventory-slot-060aab7641ed-500w.webp 500w, /assets/onos-warehouse-inventory-slot-060aab7641ed-760w.webp 760w"} className={"case-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} style={{"opacity": "0"}} data-w-id={"3ea79cb9-7c77-2bdf-deeb-0f79adc24380"} alt={"ONOS Global"} className={"case-client-logo"} />
 </div>
 <div data-w-id={"13737e71-ec2c-d585-6bbc-f4acad0bf072"} style={{"opacity": "0"}} className={"w-richtext"}>
 <h6>
-{"Project Overview:"}
+{"Production application"}
 </h6>
 <p>
-{"The project focused on optimizing an automated assembly line to enhance production efficiency, reduce manual intervention, and improve product consistency. The client’s existing setup faced issues with uneven cycle times and frequent downtime, limiting overall throughput. The objective was to integrate smart automation systems and process refinements to achieve higher productivity, accuracy, and flexibility in line operations."}
+{"This is a production application based on ONOS capabilities, not a customer case study or a measured project result."}
 </p>
 <p>
-{"‍"}
+{""}
 </p>
 <h6>
-{"Approach:"}
+{"Before production"}
 </h6>
 <p>
-{"The engineering team conducted a detailed process audit to identify bottlenecks and inefficiencies. Advanced robotics and PLC-controlled systems were introduced to synchronize operations and reduce idle time between assembly stages. Real-time data monitoring and predictive maintenance algorithms were implemented to ensure continuous workflow and minimize equipment failures. Line balancing and sensor-based inspection systems were integrated to maintain quality control throughout the process. Continuous testing and calibration helped fine-tune machine coordination for maximum uptime and performance consistency."}
+{"Share your artwork, intended product, expected quantity and destination. ONOS will help confirm materials, samples and the production method."}
 </p>
 </div>
 <div className={"w-dyn-list"}>
 <div role={"list"} className={"case-lightbox-link-list w-dyn-items"}>
 <div data-w-id={"ab15bb13-9674-7da7-6ced-a55b50f93db5"} style={{"opacity": "0"}} role={"listitem"} className={"w-dyn-item w-dyn-repeater-item"}>
-<a data-lightbox={"{\"items\": [{\"url\": \"/assets/4a6f1a59d6b5-68e78674f6857e2847973968_Untitled-10.webp\", \"type\": \"image\"}], \"group\": \"Work Image\"}"} href={"/case-study/automated-assembly-line-optimization"} className={"work-lightbox-link-list w-inline-block w-lightbox"}>
-<img src={"/assets/4a6f1a59d6b5-68e78674f6857e2847973968_Untitled-10.webp"} loading={"lazy"} alt={"Case Study Extra"} className={"overview-image"} />
+<a data-lightbox={"{\"items\": [{\"url\": \"/assets/onos-dtg-machine-detail.webp\", \"type\": \"image\"}], \"group\": \"Work Image\"}"} href={"/case-study/automated-assembly-line-optimization"} className={"work-lightbox-link-list w-inline-block w-lightbox"}>
+<img src={"/assets/onos-dtg-machine-detail-slot-4a6f1a59d6b5.webp"} loading={"lazy"} alt={"DTG printing machine at Onos"} className={"overview-image"} />
 </a>
 </div>
 <div data-w-id={"ab15bb13-9674-7da7-6ced-a55b50f93db5"} style={{"opacity": "0"}} role={"listitem"} className={"w-dyn-item w-dyn-repeater-item"}>
-<a data-lightbox={"{\"items\": [{\"url\": \"/assets/222ec6e2bcfc-68e78674e92cfe53c6106788_Untitled-11.webp\", \"type\": \"image\"}], \"group\": \"Work Image\"}"} href={"/case-study/automated-assembly-line-optimization"} className={"work-lightbox-link-list w-inline-block w-lightbox"}>
-<img src={"/assets/222ec6e2bcfc-68e78674e92cfe53c6106788_Untitled-11.webp"} loading={"lazy"} alt={"Case Study Extra"} className={"overview-image"} />
+<a data-lightbox={"{\"items\": [{\"url\": \"/assets/onos-sample-development.webp\", \"type\": \"image\"}], \"group\": \"Work Image\"}"} href={"/case-study/automated-assembly-line-optimization"} className={"work-lightbox-link-list w-inline-block w-lightbox"}>
+<img src={"/assets/onos-sample-development-slot-222ec6e2bcfc.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} className={"overview-image"} />
 </a>
 </div>
 <div data-w-id={"ab15bb13-9674-7da7-6ced-a55b50f93db5"} style={{"opacity": "0"}} role={"listitem"} className={"w-dyn-item w-dyn-repeater-item"}>
-<a data-lightbox={"{\"items\": [{\"url\": \"/assets/da773a74eeb1-68e78674d3ebbaceb4b44efe_Untitled-12.webp\", \"type\": \"image\"}], \"group\": \"Work Image\"}"} href={"/case-study/automated-assembly-line-optimization"} className={"work-lightbox-link-list w-inline-block w-lightbox"}>
-<img src={"/assets/da773a74eeb1-68e78674d3ebbaceb4b44efe_Untitled-12.webp"} loading={"lazy"} alt={"Case Study Extra"} className={"overview-image"} />
+<a data-lightbox={"{\"items\": [{\"url\": \"/assets/onos-finishing-table.webp\", \"type\": \"image\"}], \"group\": \"Work Image\"}"} href={"/case-study/automated-assembly-line-optimization"} className={"work-lightbox-link-list w-inline-block w-lightbox"}>
+<img src={"/assets/onos-finishing-table-slot-da773a74eeb1.webp"} loading={"lazy"} alt={"Printed garments organised at the finishing table"} className={"overview-image"} />
 </a>
 </div>
 </div>
@@ -67,34 +67,34 @@ return <>
 <div data-w-id={"262aec6e-40aa-516e-f687-cbc23a2bdb3c"} style={{"opacity": "0"}} className={"w-richtext"}>
 <p>
 <strong>
-{"Technical Specifications:"}
+{"This is a production application based on ONOS capabilities, not a customer case study or a measured project result."}
 </strong>
 </p>
 <ul role={"list"}>
 <li>
-{"Automation Type: Robotics and PLC-integrated systems"}
+{"Confirm the product and material"}
 </li>
 <li>
-{"Cycle Time Reduction: Up to 30% improvement"}
+{"Share artwork at the intended size"}
 </li>
 <li>
-{"Production Capacity: Increased throughput by 25%"}
+{"Review colours and placement"}
 </li>
 <li>
-{"Inspection System: Vision-based quality monitoring"}
+{"Agree a production sample"}
 </li>
 <li>
-{"Control System: SCADA and IoT-enabled monitoring"}
+{"Discuss quantity and destination"}
 </li>
 </ul>
 <p>
-{"‍"}
+{""}
 </p>
 <h6>
-{"Results:"}
+{"Production application"}
 </h6>
 <p>
-{"The optimized assembly line significantly improved production efficiency and reduced operational downtime. Output consistency increased while energy consumption and labor dependency were minimized. Real-time performance tracking enabled faster issue resolution and proactive maintenance scheduling. The overall system upgrade led to a measurable rise in product quality and a stronger return on investment for the client, setting a new standard for automated manufacturing efficiency."}
+{"Share your artwork, intended product, expected quantity and destination. ONOS will help confirm materials, samples and the production method."}
 </p>
 </div>
 </div>
@@ -104,7 +104,7 @@ return <>
 <div className={"w-layout-blockcontainer container w-container"}>
 <div className={"other-case-study-title"}>
 <h2 className={"section-title"}>
-{"Other case studies"}
+{"More Production Work"}
 </h2>
 <div className={"case-study-button-inner"}>
 <a data-wf--button-arrow--variant={"button-primary-bg"} data-w-id={"d102baf6-0bbf-4311-9c79-6b424f8fe8a7"} href={"/case-studies"} className={"primary-button w-variant-5ae0b7d1-2e18-9989-4375-c73c98041680 w-inline-block"}>
@@ -112,10 +112,10 @@ return <>
 <div className={"button-text-wrap"}>
 <div className={"button-text-inner"}>
 <div className={"button-text"}>
-{"See all case studies"}
+{"View All Applications"}
 </div>
 <div className={"button-hover-text"}>
-{"See all case studies"}
+{"View All Applications"}
 </div>
 </div>
 </div>
@@ -134,25 +134,25 @@ return <>
 <div className={"projects-name-wrap"}>
 <div>
 <div className={"project-category"}>
-{"Materials engineering"}
+{"Cotton apparel"}
 </div>
 <h2 className={"projects-name"}>
-{"Lightweight castings for Industrial equipment"}
+{"Printed cotton apparel"}
 </h2>
 </div>
 <div className={"case-list-stat-item"}>
 <h3 className={"case-list-stat-number"}>
-{"35%"}
+{"DTG"}
 </h3>
 <div className={"case-list-stat-title"}>
-{"Heavy-duty machinery"}
+{"Cotton apparel"}
 </div>
 </div>
 </div>
 <div className={"project-image-wrap"}>
-<img src={"/assets/79a31a2d5450-68e254aa0bf150d8b71ead93_Case-Study-Image-1.webp"} loading={"lazy"} data-w-id={"a8b8708c-77d0-cb61-f087-40152a30c1a2"} alt={"Project Image"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/8b2b95881eb7-68e254aa0bf150d8b71ead93_Case-Study-Image-1-p-500.webp 500w, /assets/79a31a2d5450-68e254aa0bf150d8b71ead93_Case-Study-Image-1.webp 761w"} className={"project-image"} />
+<img src={"/assets/onos-finishing-table-slot-79a31a2d5450.webp"} loading={"lazy"} data-w-id={"a8b8708c-77d0-cb61-f087-40152a30c1a2"} alt={"Printed garments organised at the finishing table"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/onos-finishing-table-slot-79a31a2d5450-500w.webp 500w, /assets/onos-finishing-table-slot-79a31a2d5450-761w.webp 761w"} className={"project-image"} />
 <div data-w-id={"a8b8708c-77d0-cb61-f087-40152a30c1a3"} className={"project-image-layout"}>
-<img src={"/assets/03147d08ed83-68e2579794f0ac3ba256d484_Client-Image.svg"} loading={"lazy"} alt={"Case List Logo"} className={"case-list-logo"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"case-list-logo"} />
 </div>
 </div>
 </a>
@@ -162,25 +162,25 @@ return <>
 <div className={"projects-name-wrap"}>
 <div>
 <div className={"project-category"}>
-{"CNC machining"}
+{"DTG printing"}
 </div>
 <h2 className={"projects-name"}>
-{"Precision CNC milling for automotive components"}
+{"DTG artwork preparation"}
 </h2>
 </div>
 <div className={"case-list-stat-item"}>
 <h3 className={"case-list-stat-number"}>
-{"54%"}
+{"ART"}
 </h3>
 <div className={"case-list-stat-title"}>
-{"Engine parts"}
+{"Artwork review"}
 </div>
 </div>
 </div>
 <div className={"project-image-wrap"}>
-<img src={"/assets/f43d8b900690-68e254b81d5a9819d9c132b7_Case-Study-Image-2.webp"} loading={"lazy"} data-w-id={"a8b8708c-77d0-cb61-f087-40152a30c1a2"} alt={"Project Image"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/16d6609a4608-68e254b81d5a9819d9c132b7_Case-Study-Image-2-p-500.webp 500w, /assets/f43d8b900690-68e254b81d5a9819d9c132b7_Case-Study-Image-2.webp 760w"} className={"project-image"} />
+<img src={"/assets/onos-dtg-machine-detail-slot-f43d8b900690.webp"} loading={"lazy"} data-w-id={"a8b8708c-77d0-cb61-f087-40152a30c1a2"} alt={"DTG printing machine at Onos"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/onos-dtg-machine-detail-slot-f43d8b900690-500w.webp 500w, /assets/onos-dtg-machine-detail-slot-f43d8b900690-760w.webp 760w"} className={"project-image"} />
 <div data-w-id={"a8b8708c-77d0-cb61-f087-40152a30c1a3"} className={"project-image-layout"}>
-<img src={"/assets/bfcfa2bfb293-68e257aed761fb3533200be5_Client-Image-2.svg"} loading={"lazy"} alt={"Case List Logo"} className={"case-list-logo"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"case-list-logo"} />
 </div>
 </div>
 </a>

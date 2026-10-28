@@ -2,7 +2,7 @@
 import { SiteRuntime } from "@/components/SiteRuntime";
 import { Footer132b67bc87, Navbar5de3fbdae5 } from "@/components/SiteChrome";
 
-export const metadata = {"title": "Services | Manufactt - Webflow HTML website template", "description": "Trusted by industries worldwide for quality manufacturing, advanced technology, and timely delivery.", "openGraph": {"title": "Services | Manufactt - Webflow HTML website template", "description": "Trusted by industries worldwide for quality manufacturing, advanced technology, and timely delivery.", "images": ["/assets/18abbc66ca4e-69032939b90d78f4742e4808_open-graph--1-.jpg"]}};
+export const metadata = {"title":"Services | ONOS Global","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","openGraph":{"title":"Services | ONOS Global","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","images":["/assets/onos-production-floor.webp"]},"robots":{"index":true,"follow":true}};
 export default function Pagec8b7dfe3d4() {
 const activePath = "/services";
 return <>
@@ -24,17 +24,17 @@ return <>
 <div data-w-id={"65f134bd-de72-aabe-4517-f0bc168bd38a"} style={{"opacity": "0"}} role={"listitem"} className={"w-dyn-item"}>
 <a data-w-id={"b106413e-6409-35c9-efda-8f0a70e7ac8a"} href={"/service/product-assembly"} className={"inner-service-link w-inline-block"}>
 <div className={"inner-service-image-wrap"}>
-<img src={"/assets/709f2e70e0a2-68df5fd46f6e13be0b0f8839_Service-Image--6-.webp"} loading={"lazy"} data-w-id={"a37047e8-e713-3a29-a468-d613539f3163"} alt={"Service Main"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/215864445fe2-68df5fd46f6e13be0b0f8839_Service-Image--6--p-500.webp 500w, /assets/26b70e5f6f00-68df5fd46f6e13be0b0f8839_Service-Image--6--p-800.webp 800w, /assets/eeee5ecbc8c8-68df5fd46f6e13be0b0f8839_Service-Image--6--p-1080.webp 1080w, /assets/709f2e70e0a2-68df5fd46f6e13be0b0f8839_Service-Image--6-.webp 1400w"} className={"service-image-inner"} />
+<img src={"/assets/onos-finishing-table-slot-709f2e70e0a2.webp"} loading={"lazy"} data-w-id={"a37047e8-e713-3a29-a468-d613539f3163"} alt={"Printed garments organised at the finishing table"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/onos-finishing-table-slot-709f2e70e0a2-500w.webp 500w, /assets/onos-finishing-table-slot-709f2e70e0a2-800w.webp 800w, /assets/onos-finishing-table-slot-709f2e70e0a2-1080w.webp 1080w, /assets/onos-finishing-table-slot-709f2e70e0a2-1400w.webp 1400w"} className={"service-image-inner"} />
 <div data-w-id={"52b9e0a8-0a05-12ae-8589-907a21ac01a6"} className={"service-hover"}>
 <img src={"/assets/1e7563df9af6-68e4ad0b02234b1f4b36db55_Link-Arrow.svg"} loading={"lazy"} data-w-id={"2831acca-05a7-2d35-1f67-b7cbdf42fa73"} alt={"Service Icon Inner"} className={"service-icon-inner"} />
 </div>
 </div>
 <div className={"service-content"}>
 <h2 className={"service-title"}>
-{"Product assembly"}
+{"Apparel & Fulfillment"}
 </h2>
 <p className={"service-description"}>
-{"Complete product assembly services with quality testing and packaging solutions."}
+{"Sampling, apparel production, finishing and packing connected with shipping partners."}
 </p>
 </div>
 </a>
@@ -42,17 +42,17 @@ return <>
 <div data-w-id={"65f134bd-de72-aabe-4517-f0bc168bd38a"} style={{"opacity": "0"}} role={"listitem"} className={"w-dyn-item"}>
 <a data-w-id={"b106413e-6409-35c9-efda-8f0a70e7ac8a"} href={"/service/sheet-metal-fabrication"} className={"inner-service-link w-inline-block"}>
 <div className={"inner-service-image-wrap"}>
-<img src={"/assets/a1f02455f6d5-68df5fc3dd6919f447f80a49_Service-Image--1-.webp"} loading={"lazy"} data-w-id={"a37047e8-e713-3a29-a468-d613539f3163"} alt={"Service Image"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/1fcea65a1062-68df5fc3dd6919f447f80a49_Service-Image--1--p-500.webp 500w, /assets/f1505a4586ec-68df5fc3dd6919f447f80a49_Service-Image--1--p-800.webp 800w, /assets/6850729c4def-68df5fc3dd6919f447f80a49_Service-Image--1--p-1080.webp 1080w, /assets/a1f02455f6d5-68df5fc3dd6919f447f80a49_Service-Image--1-.webp 1400w"} className={"service-image-inner"} />
+<img src={"/assets/onos-laser-cut-gifts-slot-a1f02455f6d5.webp"} loading={"lazy"} data-w-id={"a37047e8-e713-3a29-a468-d613539f3163"} alt={"Personalised laser-cut wooden decor and gift products"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/onos-laser-cut-gifts-slot-a1f02455f6d5-500w.webp 500w, /assets/onos-laser-cut-gifts-slot-a1f02455f6d5-800w.webp 800w, /assets/onos-laser-cut-gifts-slot-a1f02455f6d5-1080w.webp 1080w, /assets/onos-laser-cut-gifts-slot-a1f02455f6d5-1400w.webp 1400w"} className={"service-image-inner"} />
 <div data-w-id={"52b9e0a8-0a05-12ae-8589-907a21ac01a6"} className={"service-hover"}>
 <img src={"/assets/1e7563df9af6-68e4ad0b02234b1f4b36db55_Link-Arrow.svg"} loading={"lazy"} data-w-id={"2831acca-05a7-2d35-1f67-b7cbdf42fa73"} alt={"Service Icon Inner"} className={"service-icon-inner"} />
 </div>
 </div>
 <div className={"service-content"}>
 <h2 className={"service-title"}>
-{"Sheet metal fabrication"}
+{"Laser Cutting & Engraving"}
 </h2>
 <p className={"service-description"}>
-{"Comprehensive sheet metal services including cutting, forming, welding, and finishing."}
+{"Cutting and engraving for personalized gifts and decor in approved wood, acrylic, leather and fabric."}
 </p>
 </div>
 </a>
@@ -60,17 +60,17 @@ return <>
 <div data-w-id={"65f134bd-de72-aabe-4517-f0bc168bd38a"} style={{"opacity": "0"}} role={"listitem"} className={"w-dyn-item"}>
 <a data-w-id={"b106413e-6409-35c9-efda-8f0a70e7ac8a"} href={"/service/cnc-machining-services"} className={"inner-service-link w-inline-block"}>
 <div className={"inner-service-image-wrap"}>
-<img src={"/assets/092f666590da-68df5fb4697d6800a50442a3_Service-Image--7-.webp"} loading={"lazy"} data-w-id={"a37047e8-e713-3a29-a468-d613539f3163"} alt={"Service Image"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/d96091fcbd0a-68df5fb4697d6800a50442a3_Service-Image--7--p-500.webp 500w, /assets/787953046057-68df5fb4697d6800a50442a3_Service-Image--7--p-800.webp 800w, /assets/ca0b831883b7-68df5fb4697d6800a50442a3_Service-Image--7--p-1080.webp 1080w, /assets/092f666590da-68df5fb4697d6800a50442a3_Service-Image--7-.webp 1400w"} className={"service-image-inner"} />
+<img src={"/assets/onos-dtg-machine-detail-slot-092f666590da.webp"} loading={"lazy"} data-w-id={"a37047e8-e713-3a29-a468-d613539f3163"} alt={"DTG printing machine at Onos"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/onos-dtg-machine-detail-slot-092f666590da-500w.webp 500w, /assets/onos-dtg-machine-detail-slot-092f666590da-800w.webp 800w, /assets/onos-dtg-machine-detail-slot-092f666590da-1080w.webp 1080w, /assets/onos-dtg-machine-detail-slot-092f666590da-1400w.webp 1400w"} className={"service-image-inner"} />
 <div data-w-id={"52b9e0a8-0a05-12ae-8589-907a21ac01a6"} className={"service-hover"}>
 <img src={"/assets/1e7563df9af6-68e4ad0b02234b1f4b36db55_Link-Arrow.svg"} loading={"lazy"} data-w-id={"2831acca-05a7-2d35-1f67-b7cbdf42fa73"} alt={"Service Icon Inner"} className={"service-icon-inner"} />
 </div>
 </div>
 <div className={"service-content"}>
 <h2 className={"service-title"}>
-{"CNC machining services"}
+{"DTG Printing"}
 </h2>
 <p className={"service-description"}>
-{"Precision CNC machining with 5-axis technology for complex, high-accuracy parts."}
+{"Direct printing for detailed artwork and gradients on cotton and cotton-rich apparel."}
 </p>
 </div>
 </a>
@@ -78,17 +78,17 @@ return <>
 <div data-w-id={"65f134bd-de72-aabe-4517-f0bc168bd38a"} style={{"opacity": "0"}} role={"listitem"} className={"w-dyn-item"}>
 <a data-w-id={"b106413e-6409-35c9-efda-8f0a70e7ac8a"} href={"/service/injection-molding"} className={"inner-service-link w-inline-block"}>
 <div className={"inner-service-image-wrap"}>
-<img src={"/assets/f9aa8ad652f1-68df5f9eb1faa87c52dcbf9b_Service-Image--4-.webp"} loading={"lazy"} data-w-id={"a37047e8-e713-3a29-a468-d613539f3163"} alt={"Service Image"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/b7f3cc4d1234-68df5f9eb1faa87c52dcbf9b_Service-Image--4--p-500.webp 500w, /assets/b40286a28ab0-68df5f9eb1faa87c52dcbf9b_Service-Image--4--p-800.webp 800w, /assets/f4b19631b94c-68df5f9eb1faa87c52dcbf9b_Service-Image--4--p-1080.webp 1080w, /assets/f9aa8ad652f1-68df5f9eb1faa87c52dcbf9b_Service-Image--4-.webp 1400w"} className={"service-image-inner"} />
+<img src={"/assets/onos-press-machines-row-slot-f9aa8ad652f1.webp"} loading={"lazy"} data-w-id={"a37047e8-e713-3a29-a468-d613539f3163"} alt={"Heat press equipment at Onos"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/onos-press-machines-row-slot-f9aa8ad652f1-500w.webp 500w, /assets/onos-press-machines-row-slot-f9aa8ad652f1-800w.webp 800w, /assets/onos-press-machines-row-slot-f9aa8ad652f1-1080w.webp 1080w, /assets/onos-press-machines-row-slot-f9aa8ad652f1-1400w.webp 1400w"} className={"service-image-inner"} />
 <div data-w-id={"52b9e0a8-0a05-12ae-8589-907a21ac01a6"} className={"service-hover"}>
 <img src={"/assets/1e7563df9af6-68e4ad0b02234b1f4b36db55_Link-Arrow.svg"} loading={"lazy"} data-w-id={"2831acca-05a7-2d35-1f67-b7cbdf42fa73"} alt={"Service Icon Inner"} className={"service-icon-inner"} />
 </div>
 </div>
 <div className={"service-content"}>
 <h2 className={"service-title"}>
-{"Injection molding"}
+{"Sublimation Printing"}
 </h2>
 <p className={"service-description"}>
-{"High-volume plastic injection molding with state-of-the-art equipment and quality control."}
+{"All-over printing that brings colour into polyester fibres for apparel and sportswear."}
 </p>
 </div>
 </a>
@@ -96,17 +96,17 @@ return <>
 <div data-w-id={"65f134bd-de72-aabe-4517-f0bc168bd38a"} style={{"opacity": "0"}} role={"listitem"} className={"w-dyn-item"}>
 <a data-w-id={"b106413e-6409-35c9-efda-8f0a70e7ac8a"} href={"/service/surface-finishing"} className={"inner-service-link w-inline-block"}>
 <div className={"inner-service-image-wrap"}>
-<img src={"/assets/0f41e795711f-68e5e44896c7f2571c97974b_Service-Image--3-.webp"} loading={"lazy"} data-w-id={"a37047e8-e713-3a29-a468-d613539f3163"} alt={"Service Main"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/f67b7e54fa62-68e5e44896c7f2571c97974b_Service-Image--3--p-500.webp 500w, /assets/56bfe79fbac5-68e5e44896c7f2571c97974b_Service-Image--3--p-800.webp 800w, /assets/7060b808e513-68e5e44896c7f2571c97974b_Service-Image--3--p-1080.webp 1080w, /assets/0f41e795711f-68e5e44896c7f2571c97974b_Service-Image--3-.webp 1400w"} className={"service-image-inner"} />
+<img src={"/assets/onos-equipment-embroidery-slot-0f41e795711f.webp"} loading={"lazy"} data-w-id={"a37047e8-e713-3a29-a468-d613539f3163"} alt={"An Onos operator checking embroidery on garments"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/onos-equipment-embroidery-slot-0f41e795711f-500w.webp 500w, /assets/onos-equipment-embroidery-slot-0f41e795711f-800w.webp 800w, /assets/onos-equipment-embroidery-slot-0f41e795711f-1080w.webp 1080w, /assets/onos-equipment-embroidery-slot-0f41e795711f-1400w.webp 1400w"} className={"service-image-inner"} />
 <div data-w-id={"52b9e0a8-0a05-12ae-8589-907a21ac01a6"} className={"service-hover"}>
 <img src={"/assets/1e7563df9af6-68e4ad0b02234b1f4b36db55_Link-Arrow.svg"} loading={"lazy"} data-w-id={"2831acca-05a7-2d35-1f67-b7cbdf42fa73"} alt={"Service Icon Inner"} className={"service-icon-inner"} />
 </div>
 </div>
 <div className={"service-content"}>
 <h2 className={"service-title"}>
-{"Surface Finishing"}
+{"Embroidery"}
 </h2>
 <p className={"service-description"}>
-{"Professional surface treatment and finishing services for enhanced durability, aesthetics, and performance."}
+{"Digitized designs and multi-head embroidery for raised branding on caps, polos and bags."}
 </p>
 </div>
 </a>
@@ -114,17 +114,17 @@ return <>
 <div data-w-id={"65f134bd-de72-aabe-4517-f0bc168bd38a"} style={{"opacity": "0"}} role={"listitem"} className={"w-dyn-item"}>
 <a data-w-id={"b106413e-6409-35c9-efda-8f0a70e7ac8a"} href={"/service/quality-control-testing"} className={"inner-service-link w-inline-block"}>
 <div className={"inner-service-image-wrap"}>
-<img src={"/assets/124d65582cc8-68e5e433f5353269f863ba00_Service-Image--2-.webp"} loading={"lazy"} data-w-id={"a37047e8-e713-3a29-a468-d613539f3163"} alt={"Service Image"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/37c47b2a383f-68e5e433f5353269f863ba00_Service-Image--2--p-500.webp 500w, /assets/f3c541e9178a-68e5e433f5353269f863ba00_Service-Image--2--p-800.webp 800w, /assets/f01bd9a2f8dd-68e5e433f5353269f863ba00_Service-Image--2--p-1080.webp 1080w, /assets/124d65582cc8-68e5e433f5353269f863ba00_Service-Image--2-.webp 1400w"} className={"service-image-inner"} />
+<img src={"/assets/onos-sample-development-slot-124d65582cc8.webp"} loading={"lazy"} data-w-id={"a37047e8-e713-3a29-a468-d613539f3163"} alt={"The Onos team reviewing product samples and materials"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/onos-sample-development-slot-124d65582cc8-500w.webp 500w, /assets/onos-sample-development-slot-124d65582cc8-800w.webp 800w, /assets/onos-sample-development-slot-124d65582cc8-1080w.webp 1080w, /assets/onos-sample-development-slot-124d65582cc8-1400w.webp 1400w"} className={"service-image-inner"} />
 <div data-w-id={"52b9e0a8-0a05-12ae-8589-907a21ac01a6"} className={"service-hover"}>
 <img src={"/assets/1e7563df9af6-68e4ad0b02234b1f4b36db55_Link-Arrow.svg"} loading={"lazy"} data-w-id={"2831acca-05a7-2d35-1f67-b7cbdf42fa73"} alt={"Service Icon Inner"} className={"service-icon-inner"} />
 </div>
 </div>
 <div className={"service-content"}>
 <h2 className={"service-title"}>
-{"Quality Control & Testing"}
+{"Sampling & Quality Control"}
 </h2>
 <p className={"service-description"}>
-{"Advanced inspection and testing to ensure every component meets precise specifications and quality standards."}
+{"Artwork review, sample preparation and product checks before packing and shipping."}
 </p>
 </div>
 </a>
@@ -136,7 +136,7 @@ return <>
 </div>
 <div className={"service-cta-main"}>
 <div className={"w-layout-blockcontainer container w-container"}>
-<div data-w-id={"ee57fbb5-586d-a89a-0c56-0c92617ab522"} style={{"opacity": "0"}} className={"cta-info-wrapper"}>
+<div data-w-id={"ee57fbb5-586d-a89a-0c56-0c92617ab522"} style={{"opacity": "0", "backgroundImage": "url(\"/assets/onos-production-floor.webp\")"}} className={"cta-info-wrapper"}>
 <div className={"cta-info-inner"}>
 <h2 className={"cta-text"}>
 {"Ready to start your "}
@@ -149,10 +149,10 @@ return <>
 <div className={"button-text-wrap"}>
 <div className={"button-text-inner"}>
 <div className={"button-text"}>
-{"Schedule Now"}
+{"Request a Quote"}
 </div>
 <div className={"button-hover-text"}>
-{"Schedule Now"}
+{"Request a Quote"}
 </div>
 </div>
 </div>

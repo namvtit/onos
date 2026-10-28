@@ -3,7 +3,7 @@ import { ContactForm } from "@/components/ContactForm";
 import { SiteRuntime } from "@/components/SiteRuntime";
 import { Footer7f5a8a9ef9, Navbar5de3fbdae5 } from "@/components/SiteChrome";
 
-export const metadata = {"title": "Contact | Manufactt - Webflow HTML website template", "description": "Trusted by industries worldwide for quality manufacturing, advanced technology, and timely delivery.", "openGraph": {"title": "Contact | Manufactt - Webflow HTML website template", "description": "Trusted by industries worldwide for quality manufacturing, advanced technology, and timely delivery.", "images": ["/assets/18abbc66ca4e-69032939b90d78f4742e4808_open-graph--1-.jpg"]}};
+export const metadata = {"title":"Contact | ONOS Global","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","openGraph":{"title":"Contact | ONOS Global","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","images":["/assets/onos-production-floor.webp"]},"robots":{"index":true,"follow":true}};
 export default function Pageeb5639ef03() {
 const activePath = "/contact";
 return <>
@@ -25,18 +25,18 @@ return <>
 </h1>
 </div>
 <p className={"contact-description"}>
-{"Got questions or need assistance? Reach out to us anytime — our team is ready to provide the support and guidance you need."}
+{"Share your product, artwork, quantity and destination. This form is a demo; email onospod.com@gmail.com or call ONOS for a quote."}
 </p>
 <div className={"contact-button"}>
-<a data-wf--button-arrow--variant={"base"} data-w-id={"d102baf6-0bbf-4311-9c79-6b424f8fe8a7"} href={"/assets/7cc6038925cd-68f0b12338ba832c3a370ba1_PDF.pdf"} target={"_blank"} className={"primary-button w-inline-block"}>
+<a data-wf--button-arrow--variant={"base"} data-w-id={"d102baf6-0bbf-4311-9c79-6b424f8fe8a7"} href={"mailto:onospod.com@gmail.com?subject=ONOS%20Global%20production%20enquiry"} target={"_blank"} className={"primary-button w-inline-block"}>
 <div className={"button-primary-inner"}>
 <div className={"button-text-wrap"}>
 <div className={"button-text-inner"}>
 <div className={"button-text"}>
-{"Download Brochure"}
+{"Request a Quote"}
 </div>
 <div className={"button-hover-text"}>
-{"Download Brochure"}
+{"Request a Quote"}
 </div>
 </div>
 </div>
@@ -56,14 +56,14 @@ return <>
 </div>
 </div>
 <div className={"contact-item-list"}>
-<a href={"tel:+(558)845889"} className={"contact-link"}>
-{"+(558) 845 889"}
+<a href={"tel:+84986385112"} className={"contact-link"}>
+{"+84 986 385 112"}
 </a>
-<a href={"tel:+(41)845889568"} className={"contact-link"}>
-{"+(41) 845 889 568"}
+<a href={"tel:+84986385112"} className={"contact-link"}>
+{"+84 986 385 112"}
 </a>
-<a href={"mailto:example@gmail.com"} className={"contact-link"}>
-{"example@gmail.com"}
+<a href={"mailto:onospod.com@gmail.com"} className={"contact-link"}>
+{"onospod.com@gmail.com"}
 </a>
 </div>
 </div>
@@ -75,10 +75,10 @@ return <>
 </div>
 <div className={"contact-item-list _02"}>
 <div className={"contact-item-text"}>
-{"USA - 123 creative street, suite 456, new york, NY 10001"}
+{"Headquarters: Floor 3, 705 Lac Long Quan, Tay Ho, Hanoi, Vietnam"}
 </div>
 <div className={"contact-item-text"}>
-{"USA - 93 back street, suite 786, new york, ny 10005"}
+{"Factories: Thai Nguyen, Vietnam · Me Linh, Hanoi, Vietnam · California, USA"}
 </div>
 </div>
 </div>
@@ -128,16 +128,16 @@ return <>
 
 </textarea>
 </div>
-<input type={"submit"} data-wait={"Please wait..."} aria-label={"button"} className={"form-submit-button w-button"} value={"Submit"} />
+<input type={"submit"} data-wait={"Please wait..."} aria-label={"button"} className={"form-submit-button w-button"} value={"Preview (demo)"} />
 </ContactForm>
 <div className={"success-message w-form-done"}>
 <div>
-{"Thank you! Your submission has been received!"}
+{"Demo only. No submission has been sent. Please email onospod.com@gmail.com."}
 </div>
 </div>
 <div className={"error-message w-form-fail"}>
 <div>
-{"Oops! Something went wrong while submitting the form."}
+{"Please email onospod.com@gmail.com to contact ONOS."}
 </div>
 </div>
 </div>
@@ -148,80 +148,80 @@ return <>
 <div data-w-id={"16a1fb41-f3b4-8a07-c057-a78c67b3fe82"} className={"client-marquee"}>
 <div style={{"WebkitTransform": "translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)", "MozTransform": "translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)", "msTransform": "translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)", "transform": "translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"}} className={"client-marquee-list"}>
 <div className={"client-marquee-item bg-white"}>
-<img src={"/assets/73827beef985-68e0a3232f5c74270c386291_Client-image--1-.svg"} loading={"lazy"} alt={"Client Image"} className={"client-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"client-image"} />
 </div>
 <div className={"client-marquee-item bg-white"}>
-<img src={"/assets/71f97748fcd0-68e0a324c2e072fddf8eb8e8_Client-image--3-.svg"} loading={"lazy"} alt={"Client Image"} className={"client-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"client-image"} />
 </div>
 <div className={"client-marquee-item bg-white"}>
-<img src={"/assets/9da8a14cc69d-68e0a32352dda659458f9dbf_Client-image--2-.svg"} loading={"lazy"} alt={"Client Image"} className={"client-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"client-image"} />
 </div>
 <div className={"client-marquee-item bg-white"}>
-<img src={"/assets/babb6ebf179b-68e0a324ecc054b681e1cb5b_Client-image--4-.svg"} loading={"lazy"} alt={"Client Image"} className={"client-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"client-image"} />
 </div>
 <div className={"client-marquee-item bg-white"}>
-<img src={"/assets/e8fc908feb8e-68e0a324aca239f0eb318b59_Client-image--6-.svg"} loading={"lazy"} alt={"Client Image"} className={"client-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"client-image"} />
 </div>
 <div className={"client-marquee-item bg-white"}>
-<img src={"/assets/e9328a56c80f-68e0a324728be1dc52eb971a_Client-image--7-.svg"} loading={"lazy"} alt={"Client Image"} className={"client-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"client-image"} />
 </div>
 <div className={"client-marquee-item bg-white"}>
-<img src={"/assets/f9eff2214c5a-68e0a3240df9caaa148c8e4a_Client-image--8-.svg"} loading={"lazy"} alt={"Client Image"} className={"client-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"client-image"} />
 </div>
 <div className={"client-marquee-item bg-white"}>
-<img src={"/assets/731b3bffdd50-68e0a3246d21c9d17ee549f8_Client-image--5-.svg"} loading={"lazy"} alt={"Client Image"} className={"client-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"client-image"} />
 </div>
 </div>
 <div style={{"WebkitTransform": "translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)", "MozTransform": "translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)", "msTransform": "translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)", "transform": "translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"}} className={"client-marquee-list"}>
 <div className={"client-marquee-item bg-white"}>
-<img src={"/assets/73827beef985-68e0a3232f5c74270c386291_Client-image--1-.svg"} loading={"lazy"} alt={"Client Image"} className={"client-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"client-image"} />
 </div>
 <div className={"client-marquee-item bg-white"}>
-<img src={"/assets/71f97748fcd0-68e0a324c2e072fddf8eb8e8_Client-image--3-.svg"} loading={"lazy"} alt={"Client Image"} className={"client-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"client-image"} />
 </div>
 <div className={"client-marquee-item bg-white"}>
-<img src={"/assets/9da8a14cc69d-68e0a32352dda659458f9dbf_Client-image--2-.svg"} loading={"lazy"} alt={"Client Image"} className={"client-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"client-image"} />
 </div>
 <div className={"client-marquee-item bg-white"}>
-<img src={"/assets/babb6ebf179b-68e0a324ecc054b681e1cb5b_Client-image--4-.svg"} loading={"lazy"} alt={"Client Image"} className={"client-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"client-image"} />
 </div>
 <div className={"client-marquee-item bg-white"}>
-<img src={"/assets/e8fc908feb8e-68e0a324aca239f0eb318b59_Client-image--6-.svg"} loading={"lazy"} alt={"Client Image"} className={"client-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"client-image"} />
 </div>
 <div className={"client-marquee-item bg-white"}>
-<img src={"/assets/e9328a56c80f-68e0a324728be1dc52eb971a_Client-image--7-.svg"} loading={"lazy"} alt={"Client Image"} className={"client-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"client-image"} />
 </div>
 <div className={"client-marquee-item bg-white"}>
-<img src={"/assets/f9eff2214c5a-68e0a3240df9caaa148c8e4a_Client-image--8-.svg"} loading={"lazy"} alt={"Client Image"} className={"client-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"client-image"} />
 </div>
 <div className={"client-marquee-item bg-white"}>
-<img src={"/assets/731b3bffdd50-68e0a3246d21c9d17ee549f8_Client-image--5-.svg"} loading={"lazy"} alt={"Client Image"} className={"client-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"client-image"} />
 </div>
 </div>
 <div style={{"WebkitTransform": "translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)", "MozTransform": "translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)", "msTransform": "translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)", "transform": "translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"}} className={"client-marquee-list"}>
 <div className={"client-marquee-item bg-white"}>
-<img src={"/assets/73827beef985-68e0a3232f5c74270c386291_Client-image--1-.svg"} loading={"lazy"} alt={"Client Image"} className={"client-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"client-image"} />
 </div>
 <div className={"client-marquee-item bg-white"}>
-<img src={"/assets/71f97748fcd0-68e0a324c2e072fddf8eb8e8_Client-image--3-.svg"} loading={"lazy"} alt={"Client Image"} className={"client-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"client-image"} />
 </div>
 <div className={"client-marquee-item bg-white"}>
-<img src={"/assets/9da8a14cc69d-68e0a32352dda659458f9dbf_Client-image--2-.svg"} loading={"lazy"} alt={"Client Image"} className={"client-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"client-image"} />
 </div>
 <div className={"client-marquee-item bg-white"}>
-<img src={"/assets/babb6ebf179b-68e0a324ecc054b681e1cb5b_Client-image--4-.svg"} loading={"lazy"} alt={"Client Image"} className={"client-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"client-image"} />
 </div>
 <div className={"client-marquee-item bg-white"}>
-<img src={"/assets/e8fc908feb8e-68e0a324aca239f0eb318b59_Client-image--6-.svg"} loading={"lazy"} alt={"Client Image"} className={"client-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"client-image"} />
 </div>
 <div className={"client-marquee-item bg-white"}>
-<img src={"/assets/e9328a56c80f-68e0a324728be1dc52eb971a_Client-image--7-.svg"} loading={"lazy"} alt={"Client Image"} className={"client-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"client-image"} />
 </div>
 <div className={"client-marquee-item bg-white"}>
-<img src={"/assets/f9eff2214c5a-68e0a3240df9caaa148c8e4a_Client-image--8-.svg"} loading={"lazy"} alt={"Client Image"} className={"client-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"client-image"} />
 </div>
 <div className={"client-marquee-item bg-white"}>
-<img src={"/assets/731b3bffdd50-68e0a3246d21c9d17ee549f8_Client-image--5-.svg"} loading={"lazy"} alt={"Client Image"} className={"client-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"client-image"} />
 </div>
 </div>
 </div>

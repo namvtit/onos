@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "typecheck": "passed",
+    "lint": "passed",
+    "assets": "passed",
+    "build": "passed",
+    "playwright": {
+      "startTime": "2026-10-28T10:19:34.148Z",
+      "duration": 64553.717,
+      "expected": 16,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "designLock": "passed",
+    "contentScan": "passed"
+  },
+  "branch": "restore/manufactt-baseline",
+  "head": "b85079d329df16414d1ed2bf6810f521290e4a05",
+  "deployment": false,
+  "push": false,
+  "committed": false
+}

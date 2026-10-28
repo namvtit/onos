@@ -2,7 +2,7 @@
 import { SiteRuntime } from "@/components/SiteRuntime";
 import { Footerff0835e88c, Navbar5de3fbdae5 } from "@/components/SiteChrome";
 
-export const metadata = {"title": "Not Found | Saash - Webflow HTML website template", "description": "Trusted by industries worldwide for quality manufacturing, advanced technology, and timely delivery.", "openGraph": {"title": "Not Found | Saash - Webflow HTML website template", "description": "Trusted by industries worldwide for quality manufacturing, advanced technology, and timely delivery.", "images": ["/assets/18abbc66ca4e-69032939b90d78f4742e4808_open-graph--1-.jpg"]}};
+export const metadata = {"title":"Not Found | ONOS Global","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","openGraph":{"title":"Not Found | ONOS Global","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","images":["/assets/onos-production-floor.webp"]},"robots":{"index":true,"follow":true}};
 export default function Page128cc35baa() {
 const activePath = "/404";
 return <>

@@ -2,7 +2,7 @@
 import { SiteRuntime } from "@/components/SiteRuntime";
 import { Footerff0835e88c, Navbar5de3fbdae5 } from "@/components/SiteChrome";
 
-export const metadata = {"title": "Modular fixture design for mass production", "description": "Created flexible fixtures that speed up part changeovers and reduce downtime in manufacturing.", "openGraph": {"title": "Modular fixture design for mass production", "description": "Created flexible fixtures that speed up part changeovers and reduce downtime in manufacturing.", "images": ["/assets/0fcabf3332a4-68e2555178675ff9623b0491_case-study-image-7.webp"]}};
+export const metadata = {"title":"Sample development at Me Linh | ONOS Global","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","openGraph":{"title":"Sample development at Me Linh | ONOS Global","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","images":["/assets/onos-production-floor.webp"]},"robots":{"index":false,"follow":true}};
 export default function Pagec98e999142() {
 const activePath = "/case-study/modular-fixture-design-for-mass-production";
 return <>
@@ -13,51 +13,51 @@ return <>
 <div className={"case-detail-main"}>
 <div data-w-id={"cab6a32f-336d-0ffb-b011-845b3580be8a"} style={{"opacity": "0"}} className={"case-title-info"}>
 <div className={"case-category"}>
-{"Fixture design"}
+{"Sampling"}
 </div>
 <h1 className={"case-title"}>
-{"Modular fixture design for mass production"}
+{"Sample development at Me Linh"}
 </h1>
 </div>
 <div data-w-id={"1d1ee453-24e3-a218-f224-a41259c5d875"} style={{"opacity": "0"}} className={"case-image-wrap"}>
-<img src={"/assets/0fcabf3332a4-68e2555178675ff9623b0491_case-study-image-7.webp"} loading={"lazy"} alt={"Case Study Main"} sizes={"100vw"} srcSet={"/assets/6f1929c3a33f-68e2555178675ff9623b0491_case-study-image-7-p-500.webp 500w, /assets/0fcabf3332a4-68e2555178675ff9623b0491_case-study-image-7.webp 760w"} className={"case-image"} />
-<img src={"/assets/21d6057ee5c7-68e33b35d11bf82e5b1d78d6_Client-Image-7.svg"} loading={"lazy"} style={{"opacity": "0"}} data-w-id={"3ea79cb9-7c77-2bdf-deeb-0f79adc24380"} alt={"Case Client Logo"} className={"case-client-logo"} />
+<img src={"/assets/onos-sample-development-slot-0fcabf3332a4.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-0fcabf3332a4-500w.webp 500w, /assets/onos-sample-development-slot-0fcabf3332a4-760w.webp 760w"} className={"case-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} style={{"opacity": "0"}} data-w-id={"3ea79cb9-7c77-2bdf-deeb-0f79adc24380"} alt={"ONOS Global"} className={"case-client-logo"} />
 </div>
 <div data-w-id={"13737e71-ec2c-d585-6bbc-f4acad0bf072"} style={{"opacity": "0"}} className={"w-richtext"}>
 <h6>
-{"Project Overview:"}
+{"Production application"}
 </h6>
 <p>
 <strong>
-{"‍"}
+{""}
 </strong>
-{"The project focused on developing modular fixtures to streamline mass production processes and improve manufacturing flexibility. Traditional fixed fixtures were time-consuming to set up and lacked adaptability for different product variants. The objective was to create a modular, reconfigurable system that could accommodate multiple components, reduce setup time, and maintain high precision during production."}
+{"This is a production application based on ONOS capabilities, not a customer case study or a measured project result."}
 </p>
 <p>
-{"‍"}
+{""}
 </p>
 <h6>
-{"Approach:"}
+{"Before production"}
 </h6>
 <p>
-{"The engineering team designed a modular fixture system using CAD software and validated it with finite element analysis (FEA) to ensure rigidity and stability. Components were fabricated from high-strength steel and aluminum, allowing easy assembly and reconfiguration. Adjustable clamps, quick-release mechanisms, and standardized mounting interfaces were incorporated to facilitate fast changeovers between production runs. Prototypes underwent rigorous testing for repeatability, accuracy, and durability under high-volume operation conditions."}
+{"Share your artwork, intended product, expected quantity and destination. ONOS will help confirm materials, samples and the production method."}
 </p>
 </div>
 <div className={"w-dyn-list"}>
 <div role={"list"} className={"case-lightbox-link-list w-dyn-items"}>
 <div data-w-id={"ab15bb13-9674-7da7-6ced-a55b50f93db5"} style={{"opacity": "0"}} role={"listitem"} className={"w-dyn-item w-dyn-repeater-item"}>
-<a data-lightbox={"{\"items\": [{\"url\": \"/assets/123b21cf087d-68e78eaf026cc4e19d433516_Untitled-19.webp\", \"type\": \"image\"}], \"group\": \"Work Image\"}"} href={"/case-study/modular-fixture-design-for-mass-production"} className={"work-lightbox-link-list w-inline-block w-lightbox"}>
-<img src={"/assets/123b21cf087d-68e78eaf026cc4e19d433516_Untitled-19.webp"} loading={"lazy"} alt={"Case Study Extra"} className={"overview-image"} />
+<a data-lightbox={"{\"items\": [{\"url\": \"/assets/onos-dtg-machine-detail.webp\", \"type\": \"image\"}], \"group\": \"Work Image\"}"} href={"/case-study/modular-fixture-design-for-mass-production"} className={"work-lightbox-link-list w-inline-block w-lightbox"}>
+<img src={"/assets/onos-dtg-machine-detail-slot-123b21cf087d.webp"} loading={"lazy"} alt={"DTG printing machine at Onos"} className={"overview-image"} />
 </a>
 </div>
 <div data-w-id={"ab15bb13-9674-7da7-6ced-a55b50f93db5"} style={{"opacity": "0"}} role={"listitem"} className={"w-dyn-item w-dyn-repeater-item"}>
-<a data-lightbox={"{\"items\": [{\"url\": \"/assets/62488f261f3a-68e78eaf04f72a3052676c8d_Untitled-20.webp\", \"type\": \"image\"}], \"group\": \"Work Image\"}"} href={"/case-study/modular-fixture-design-for-mass-production"} className={"work-lightbox-link-list w-inline-block w-lightbox"}>
-<img src={"/assets/62488f261f3a-68e78eaf04f72a3052676c8d_Untitled-20.webp"} loading={"lazy"} alt={"Case Study Extra"} className={"overview-image"} />
+<a data-lightbox={"{\"items\": [{\"url\": \"/assets/onos-sample-development.webp\", \"type\": \"image\"}], \"group\": \"Work Image\"}"} href={"/case-study/modular-fixture-design-for-mass-production"} className={"work-lightbox-link-list w-inline-block w-lightbox"}>
+<img src={"/assets/onos-sample-development-slot-62488f261f3a.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} className={"overview-image"} />
 </a>
 </div>
 <div data-w-id={"ab15bb13-9674-7da7-6ced-a55b50f93db5"} style={{"opacity": "0"}} role={"listitem"} className={"w-dyn-item w-dyn-repeater-item"}>
-<a data-lightbox={"{\"items\": [{\"url\": \"/assets/7b64da3ddce9-68e78edc006764c838d8ead6_Untitled-21.webp\", \"type\": \"image\"}], \"group\": \"Work Image\"}"} href={"/case-study/modular-fixture-design-for-mass-production"} className={"work-lightbox-link-list w-inline-block w-lightbox"}>
-<img src={"/assets/7b64da3ddce9-68e78edc006764c838d8ead6_Untitled-21.webp"} loading={"lazy"} alt={"Case Study Extra"} className={"overview-image"} />
+<a data-lightbox={"{\"items\": [{\"url\": \"/assets/onos-finishing-table.webp\", \"type\": \"image\"}], \"group\": \"Work Image\"}"} href={"/case-study/modular-fixture-design-for-mass-production"} className={"work-lightbox-link-list w-inline-block w-lightbox"}>
+<img src={"/assets/onos-finishing-table-slot-7b64da3ddce9.webp"} loading={"lazy"} alt={"Printed garments organised at the finishing table"} className={"overview-image"} />
 </a>
 </div>
 </div>
@@ -70,34 +70,34 @@ return <>
 <div data-w-id={"262aec6e-40aa-516e-f687-cbc23a2bdb3c"} style={{"opacity": "0"}} className={"w-richtext"}>
 <p>
 <strong>
-{"Technical Specifications:"}
+{"This is a production application based on ONOS capabilities, not a customer case study or a measured project result."}
 </strong>
 </p>
 <ul role={"list"}>
 <li>
-{"Material: High-strength steel and aluminum"}
+{"Confirm the product and material"}
 </li>
 <li>
-{"Modularity: Interchangeable components for different product types"}
+{"Share artwork at the intended size"}
 </li>
 <li>
-{"Setup Time Reduction: Up to 50%"}
+{"Review colours and placement"}
 </li>
 <li>
-{"Tolerance: ±0.1 mm"}
+{"Agree a production sample"}
 </li>
 <li>
-{"Load Capacity: Supports full production loads without deformation"}
+{"Discuss quantity and destination"}
 </li>
 </ul>
 <p>
-{"‍"}
+{""}
 </p>
 <h6>
-{"Results:"}
+{"Production application"}
 </h6>
 <p>
-{"The modular fixtures significantly reduced setup times and improved production efficiency. Repeatability and accuracy were maintained across multiple product variants, minimizing errors and rework. The flexible system allowed rapid adaptation to new product designs, enhancing overall manufacturing agility. Clients reported substantial improvements in throughput, operational efficiency, and cost savings, establishing the modular fixture system as a benchmark for mass production optimization."}
+{"Share your artwork, intended product, expected quantity and destination. ONOS will help confirm materials, samples and the production method."}
 </p>
 </div>
 </div>
@@ -107,7 +107,7 @@ return <>
 <div className={"w-layout-blockcontainer container w-container"}>
 <div className={"other-case-study-title"}>
 <h2 className={"section-title"}>
-{"Other case studies"}
+{"More Production Work"}
 </h2>
 <div className={"case-study-button-inner"}>
 <a data-wf--button-arrow--variant={"button-primary-bg"} data-w-id={"d102baf6-0bbf-4311-9c79-6b424f8fe8a7"} href={"/case-studies"} className={"primary-button w-variant-5ae0b7d1-2e18-9989-4375-c73c98041680 w-inline-block"}>
@@ -115,10 +115,10 @@ return <>
 <div className={"button-text-wrap"}>
 <div className={"button-text-inner"}>
 <div className={"button-text"}>
-{"See all case studies"}
+{"View All Applications"}
 </div>
 <div className={"button-hover-text"}>
-{"See all case studies"}
+{"View All Applications"}
 </div>
 </div>
 </div>
@@ -137,25 +137,25 @@ return <>
 <div className={"projects-name-wrap"}>
 <div>
 <div className={"project-category"}>
-{"Materials engineering"}
+{"Cotton apparel"}
 </div>
 <h2 className={"projects-name"}>
-{"Lightweight castings for Industrial equipment"}
+{"Printed cotton apparel"}
 </h2>
 </div>
 <div className={"case-list-stat-item"}>
 <h3 className={"case-list-stat-number"}>
-{"35%"}
+{"DTG"}
 </h3>
 <div className={"case-list-stat-title"}>
-{"Heavy-duty machinery"}
+{"Cotton apparel"}
 </div>
 </div>
 </div>
 <div className={"project-image-wrap"}>
-<img src={"/assets/79a31a2d5450-68e254aa0bf150d8b71ead93_Case-Study-Image-1.webp"} loading={"lazy"} data-w-id={"a8b8708c-77d0-cb61-f087-40152a30c1a2"} alt={"Project Image"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/8b2b95881eb7-68e254aa0bf150d8b71ead93_Case-Study-Image-1-p-500.webp 500w, /assets/79a31a2d5450-68e254aa0bf150d8b71ead93_Case-Study-Image-1.webp 761w"} className={"project-image"} />
+<img src={"/assets/onos-finishing-table-slot-79a31a2d5450.webp"} loading={"lazy"} data-w-id={"a8b8708c-77d0-cb61-f087-40152a30c1a2"} alt={"Printed garments organised at the finishing table"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/onos-finishing-table-slot-79a31a2d5450-500w.webp 500w, /assets/onos-finishing-table-slot-79a31a2d5450-761w.webp 761w"} className={"project-image"} />
 <div data-w-id={"a8b8708c-77d0-cb61-f087-40152a30c1a3"} className={"project-image-layout"}>
-<img src={"/assets/03147d08ed83-68e2579794f0ac3ba256d484_Client-Image.svg"} loading={"lazy"} alt={"Case List Logo"} className={"case-list-logo"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"case-list-logo"} />
 </div>
 </div>
 </a>
@@ -165,25 +165,25 @@ return <>
 <div className={"projects-name-wrap"}>
 <div>
 <div className={"project-category"}>
-{"CNC machining"}
+{"DTG printing"}
 </div>
 <h2 className={"projects-name"}>
-{"Precision CNC milling for automotive components"}
+{"DTG artwork preparation"}
 </h2>
 </div>
 <div className={"case-list-stat-item"}>
 <h3 className={"case-list-stat-number"}>
-{"54%"}
+{"ART"}
 </h3>
 <div className={"case-list-stat-title"}>
-{"Engine parts"}
+{"Artwork review"}
 </div>
 </div>
 </div>
 <div className={"project-image-wrap"}>
-<img src={"/assets/f43d8b900690-68e254b81d5a9819d9c132b7_Case-Study-Image-2.webp"} loading={"lazy"} data-w-id={"a8b8708c-77d0-cb61-f087-40152a30c1a2"} alt={"Project Image"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/16d6609a4608-68e254b81d5a9819d9c132b7_Case-Study-Image-2-p-500.webp 500w, /assets/f43d8b900690-68e254b81d5a9819d9c132b7_Case-Study-Image-2.webp 760w"} className={"project-image"} />
+<img src={"/assets/onos-dtg-machine-detail-slot-f43d8b900690.webp"} loading={"lazy"} data-w-id={"a8b8708c-77d0-cb61-f087-40152a30c1a2"} alt={"DTG printing machine at Onos"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/onos-dtg-machine-detail-slot-f43d8b900690-500w.webp 500w, /assets/onos-dtg-machine-detail-slot-f43d8b900690-760w.webp 760w"} className={"project-image"} />
 <div data-w-id={"a8b8708c-77d0-cb61-f087-40152a30c1a3"} className={"project-image-layout"}>
-<img src={"/assets/bfcfa2bfb293-68e257aed761fb3533200be5_Client-Image-2.svg"} loading={"lazy"} alt={"Case List Logo"} className={"case-list-logo"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"case-list-logo"} />
 </div>
 </div>
 </a>

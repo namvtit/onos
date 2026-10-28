@@ -2,7 +2,7 @@
 import { SiteRuntime } from "@/components/SiteRuntime";
 import { Footera60232d09d, Navbar5de3fbdae5 } from "@/components/SiteChrome";
 
-export const metadata = {"title": "Instructions | Manufactt - Webflow HTML website template", "description": "Trusted by industries worldwide for quality manufacturing, advanced technology, and timely delivery.", "openGraph": {"title": "Instructions | Manufactt - Webflow HTML website template", "description": "Trusted by industries worldwide for quality manufacturing, advanced technology, and timely delivery.", "images": ["/assets/18abbc66ca4e-69032939b90d78f4742e4808_open-graph--1-.jpg"]}};
+export const metadata = {"title":"Instructions | ONOS Global","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","openGraph":{"title":"Instructions | ONOS Global","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","images":["/assets/onos-production-floor.webp"]},"robots":{"index":false,"follow":true}};
 export default function Pagec950afe906() {
 const activePath = "/utility-pages/instructions";
 return <>
@@ -111,7 +111,7 @@ return <>
 </p>
 <figure className={"w-richtext-align-normal w-richtext-figure-type-image"}>
 <div>
-<img src={"/assets/5c0f3af88957-68d1288562216d12f8801fe1_67ca90d9a3388af71fdbf084_starter-page.png"} loading={"lazy"} alt={"Rich image\n"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} />
 </div>
 </figure>
 </div>

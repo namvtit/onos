@@ -3,7 +3,7 @@ import { ContactForm } from "@/components/ContactForm";
 import { SiteRuntime } from "@/components/SiteRuntime";
 import { Footerff0835e88c, Navbar5de3fbdae5 } from "@/components/SiteChrome";
 
-export const metadata = {"title": "Surface Finishing", "description": "Professional surface treatment and finishing services for enhanced durability, aesthetics, and performance.", "openGraph": {"title": "Surface Finishing", "description": "Professional surface treatment and finishing services for enhanced durability, aesthetics, and performance.", "images": ["/assets/0f41e795711f-68e5e44896c7f2571c97974b_Service-Image--3-.webp"]}};
+export const metadata = {"title":"Embroidery | ONOS Global","description":"Digitized designs and multi-head embroidery for raised branding on caps, polos and bags.","openGraph":{"title":"Embroidery | ONOS Global","description":"Digitized designs and multi-head embroidery for raised branding on caps, polos and bags.","images":["/assets/onos-equipment-embroidery.webp"]},"robots":{"index":false,"follow":true}};
 export default function Pagefd07ecbd13() {
 const activePath = "/service/surface-finishing";
 return <>
@@ -13,10 +13,10 @@ return <>
 <div className={"service-details-top container"}>
 <div data-w-id={"206e8d17-554e-d01a-63a7-73227b355aec"} style={{"opacity": "0"}} className={"service-detail-main"}>
 <h1 className={"service-detail-name"}>
-{"Surface Finishing"}
+{"Embroidery"}
 </h1>
 <p className={"service-detail-description"}>
-{"Professional surface treatment and finishing services for enhanced durability, aesthetics, and performance."}
+{"Digitized designs and multi-head embroidery for raised branding on caps, polos and bags."}
 </p>
 <div className={"service-detail-button"}>
 <a data-wf--button-arrow--variant={"base"} data-w-id={"d102baf6-0bbf-4311-9c79-6b424f8fe8a7"} href={"/contact"} className={"primary-button w-inline-block"}>
@@ -24,10 +24,10 @@ return <>
 <div className={"button-text-wrap"}>
 <div className={"button-text-inner"}>
 <div className={"button-text"}>
-{"Get Free Quote"}
+{"Request a Quote"}
 </div>
 <div className={"button-hover-text"}>
-{"Get Free Quote"}
+{"Request a Quote"}
 </div>
 </div>
 </div>
@@ -40,7 +40,7 @@ return <>
 </div>
 </div>
 </div>
-<img src={"/assets/0f41e795711f-68e5e44896c7f2571c97974b_Service-Image--3-.webp"} loading={"lazy"} alt={"Service Detail Image"} sizes={"100vw"} srcSet={"/assets/f67b7e54fa62-68e5e44896c7f2571c97974b_Service-Image--3--p-500.webp 500w, /assets/56bfe79fbac5-68e5e44896c7f2571c97974b_Service-Image--3--p-800.webp 800w, /assets/7060b808e513-68e5e44896c7f2571c97974b_Service-Image--3--p-1080.webp 1080w, /assets/0f41e795711f-68e5e44896c7f2571c97974b_Service-Image--3-.webp 1400w"} className={"service-detail-image"} />
+<img src={"/assets/onos-equipment-embroidery-slot-0f41e795711f.webp"} loading={"lazy"} alt={"An Onos operator checking embroidery on garments"} sizes={"100vw"} srcSet={"/assets/onos-equipment-embroidery-slot-0f41e795711f-500w.webp 500w, /assets/onos-equipment-embroidery-slot-0f41e795711f-800w.webp 800w, /assets/onos-equipment-embroidery-slot-0f41e795711f-1080w.webp 1080w, /assets/onos-equipment-embroidery-slot-0f41e795711f-1400w.webp 1400w"} className={"service-detail-image"} />
 <div className={"service-more-info section-spacing-bottom"}>
 <div className={"container"}>
 <div className={"more-info-inner"}>
@@ -57,19 +57,19 @@ return <>
 </div>
 <div className={"service-info-description w-richtext"}>
 <h3>
-{"Surface Finishing"}
+{"Embroidery"}
 </h3>
 <p>
-{"‍"}
+{""}
 </p>
 <p>
-{"Our Surface Finishing services enhance both the appearance and durability of components through advanced techniques. From polishing and anodizing to powder coating and electroplating, we deliver precise, high-quality finishes tailored to your specifications."}
+{"Digitized designs and multi-head embroidery for raised branding on caps, polos and bags."}
 </p>
 <p>
-{"With rigorous quality checks at every stage, we ensure consistent surface texture, color uniformity, and defect-free results. Our processes improve corrosion resistance, wear protection, and overall product aesthetics."}
+{"Share your design, product, expected quantity and destination so ONOS can confirm the production method and material."}
 </p>
 <p>
-{"By combining skilled technicians, modern finishing equipment, and strict quality standards, we provide components ready for assembly, manufacturing, or end-use applications."}
+{"Agree artwork, colours, placement and a physical sample before proceeding with a larger order."}
 </p>
 </div>
 </div>
@@ -80,10 +80,10 @@ return <>
 <img src={"/assets/595dc863a514-68e5fa3ed6ea05a74cf4cf6e_Service-Fratures-Icon--3-.svg"} loading={"lazy"} alt={"Feature Icon"} className={"feature-icon"} />
 </div>
 <h2 className={"feature-name"}>
-{"Anodizing & powder coating"}
+{"Caps, polos and bags"}
 </h2>
 <p className={"feature-description"}>
-{"Durable anodizing and powder coating for enhanced protection and premium finish."}
+{"Confirm the product and material with ONOS."}
 </p>
 </div>
 <div data-w-id={"9fa3e42a-bbfa-2ab3-e864-45adad20769c"} style={{"opacity": "0"}} className={"feature-main"}>
@@ -91,10 +91,10 @@ return <>
 <img src={"/assets/556487eef0a2-68e5fa59c4ba42c966ffaa02_Service-Fratures-Icon--1-.svg"} loading={"lazy"} alt={"Feature Icon"} className={"feature-icon"} />
 </div>
 <h2 className={"feature-name"}>
-{"Electroplating services"}
+{"Digitized embroidery files"}
 </h2>
 <p className={"feature-description"}>
-{"Precision electroplating providing corrosion resistance and superior surface quality."}
+{"The team reviews artwork before production."}
 </p>
 </div>
 <div data-w-id={"4a6175ee-4c2a-ff61-a8b4-73a9a65dd739"} style={{"opacity": "0"}} className={"feature-main"}>
@@ -102,10 +102,10 @@ return <>
 <img src={"/assets/ec61ce0ba60c-68e5fa805e7632fa2bde6893_Service-Fratures-Icon--2-.svg"} loading={"lazy"} alt={"Feature Icon"} className={"feature-icon"} />
 </div>
 <h2 className={"feature-name"}>
-{"Heat treatment processing"}
+{"Logo size and placement"}
 </h2>
 <p className={"feature-description"}>
-{"Advanced heat treatment ensuring strength, durability, and material performance."}
+{"Review size, colour and placement on the intended material."}
 </p>
 </div>
 <div data-w-id={"ea5e43b3-cbbc-f0e0-4900-803ff30f1adb"} style={{"opacity": "0"}} className={"feature-main"}>
@@ -113,10 +113,10 @@ return <>
 <img src={"/assets/512d2d193cc7-68e5fa4fd87126b410f24deb_Service-Fratures-Icon--4-.svg"} loading={"lazy"} alt={"Feature Icon"} className={"feature-icon"} />
 </div>
 <h2 className={"feature-name"}>
-{"Custom color matching"}
+{"Review fine details"}
 </h2>
 <p className={"feature-description"}>
-{"Expert color matching for consistent, brand-aligned, and visually appealing finishes."}
+{"Agree the sample and order plan before production."}
 </p>
 </div>
 </div>
@@ -144,7 +144,7 @@ return <>
 </div>
 <div data-w-id={"2a387ced-18c6-fcb7-78b2-8b6420ebab7f"} style={{"opacity": "0"}} className={"title-grid-right"}>
 <h2 className={"category-title"}>
-{"Surface Finishing"}
+{"Embroidery"}
 </h2>
 </div>
 </div>
@@ -164,25 +164,25 @@ return <>
 <div data-w-id={"414d7f5e-7f66-a170-8b87-34e456294203"} style={{"opacity": "0"}} className={"w-layout-grid grid-category-info"}>
 <div className={"category-name-wrap"}>
 <div className={"category-name"}>
-{"Finishing Techniques"}
+{"Product & material"}
 </div>
 </div>
 <div className={"category-details-wrap"}>
 <div className={"category-details w-richtext"}>
 <li>
-{"Polishing for smooth surfaces"}
+{"Confirm the product"}
 </li>
 <li>
-{"Sandblasting for texture"}
+{"Confirm fabric or material suitability"}
 </li>
 <li>
-{"Powder coating for durability"}
+{"Share expected quantity"}
 </li>
 <li>
-{"Anodizing for corrosion resistance"}
+{"Discuss the destination"}
 </li>
 <li>
-{"Electroplating for metallic finish"}
+{"Agree details with ONOS"}
 </li>
 </div>
 </div>
@@ -190,25 +190,25 @@ return <>
 <div data-w-id={"525aa89b-801b-c9e1-5fdb-8cb4fb7ed62b"} style={{"opacity": "0"}} className={"w-layout-grid grid-category-info"}>
 <div className={"category-name-wrap"}>
 <div className={"category-name"}>
-{"Quality & Precision"}
+{"Artwork preparation"}
 </div>
 </div>
 <div className={"category-details-wrap"}>
 <div className={"category-details w-richtext"}>
 <li>
-{"Fine surface roughness control (Ra 0.2–1.6 μm)"}
+{"Share the artwork file"}
 </li>
 <li>
-{"Consistent coating thickness"}
+{"Confirm intended artwork size"}
 </li>
 <li>
-{"Scratch & defect inspection"}
+{"Review colour and placement"}
 </li>
 <li>
-{"Color uniformity verification"}
+{"Check fine design details"}
 </li>
 <li>
-{"Adhesion strength testing"}
+{"Request artwork review"}
 </li>
 </div>
 </div>
@@ -216,25 +216,25 @@ return <>
 <div data-w-id={"5edbb32d-21dc-53ca-9066-56c78845f5af"} style={{"opacity": "0"}} className={"w-layout-grid grid-category-info last"}>
 <div className={"category-name-wrap"}>
 <div className={"category-name"}>
-{"Applications"}
+{"Sample & order plan"}
 </div>
 </div>
 <div className={"category-details-wrap"}>
 <div className={"category-details w-richtext"}>
 <li>
-{"Decorative finishes for aesthetics"}
+{"Review a physical sample"}
 </li>
 <li>
-{"Functional coatings for wear resistance"}
+{"Agree larger-order production"}
 </li>
 <li>
-{"Corrosion protection for metals"}
+{"Check and finish products"}
 </li>
 <li>
-{"Automotive & aerospace components"}
+{"Prepare packing"}
 </li>
 <li>
-{"Electronics & consumer products"}
+{"Discuss shipping handover"}
 </li>
 </div>
 </div>
@@ -283,21 +283,21 @@ return <>
 <h2 className={"section-title"}>
 {"Our "}
 <span className={"text-linear-gradient"}>
-{"proven"}
+{"production"}
 </span>
 {" workflow"}
 </h2>
 </div>
 <div className={"step-button"}>
-<a data-wf--button-arrow--variant={"base"} data-w-id={"d102baf6-0bbf-4311-9c79-6b424f8fe8a7"} href={"/assets/7cc6038925cd-68f0b12338ba832c3a370ba1_PDF.pdf"} target={"_blank"} className={"primary-button w-inline-block"}>
+<a data-wf--button-arrow--variant={"base"} data-w-id={"d102baf6-0bbf-4311-9c79-6b424f8fe8a7"} href={"mailto:onospod.com@gmail.com?subject=ONOS%20Global%20production%20enquiry"} target={"_blank"} className={"primary-button w-inline-block"}>
 <div className={"button-primary-inner"}>
 <div className={"button-text-wrap"}>
 <div className={"button-text-inner"}>
 <div className={"button-text"}>
-{"Download Brochure"}
+{"Request a Quote"}
 </div>
 <div className={"button-hover-text"}>
-{"Download Brochure"}
+{"Request a Quote"}
 </div>
 </div>
 </div>
@@ -316,7 +316,7 @@ return <>
 {"Step 1"}
 </div>
 <h3 className={"step-title-one text-white"}>
-{"Design and planning"}
+{"Share your idea"}
 </h3>
 </div>
 </div>
@@ -326,7 +326,7 @@ return <>
 {"Step 2"}
 </div>
 <h3 className={"step-title-one text-primary"}>
-{"Precision machining"}
+{"Prepare production"}
 </h3>
 </div>
 </div>
@@ -336,7 +336,7 @@ return <>
 {"Step 3"}
 </div>
 <h3 className={"step-title-one"}>
-{"Quality check & Delivery"}
+{"Make, check & ship"}
 </h3>
 </div>
 </div>
@@ -380,14 +380,14 @@ return <>
 </div>
 </div>
 <h2 className={"section-title title-center"}>
-{"Surface Finishing FAQs"}
+{"Embroidery FAQs"}
 </h2>
 </div>
 <div data-w-id={"61ec9ba3-dd59-e899-fd09-62632b8c217d"} style={{"opacity": "0"}} className={"faqs-wrap"}>
 <div className={"accordion-item"}>
 <div data-w-id={"e4ff89fe-cbf7-86c1-7b53-b2ddd0ff35ac"} className={"accordion-heading"}>
 <h3 className={"accordion-title"}>
-{"What is Surface Finishing?"}
+{"Can I start with a small quantity?"}
 </h3>
 <div className={"accordion-icon-bg"}>
 <img src={"/assets/536a795c5a7c-68dcc369de4ced980408d673_-.svg"} loading={"lazy"} style={{"WebkitTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(45deg) skew(0, 0)", "MozTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(45deg) skew(0, 0)", "msTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(45deg) skew(0, 0)", "transform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(45deg) skew(0, 0)"}} alt={"Pluse Icon"} className={"plus-icon"} />
@@ -396,7 +396,7 @@ return <>
 <div className={"accordion-content"}>
 <div className={"accordion-description w-richtext"}>
 <p>
-{"Surface Finishing is the process of enhancing a component’s appearance, durability, and performance through techniques like polishing, coating, or plating."}
+{"DTG and sublimation orders can start from one product. Minimum quantities for custom blanks or tailored uniforms are agreed for each project."}
 </p>
 </div>
 </div>
@@ -404,7 +404,7 @@ return <>
 <div className={"accordion-item"}>
 <div data-w-id={"05056745-6dd6-af8a-fd49-dca6718387cd"} className={"accordion-heading"}>
 <h3 className={"accordion-title"}>
-{"What types of surface finishing do you offer?"}
+{"What artwork files should I prepare?"}
 </h3>
 <div className={"accordion-icon-bg"}>
 <img src={"/assets/536a795c5a7c-68dcc369de4ced980408d673_-.svg"} loading={"lazy"} style={{"WebkitTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "MozTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "msTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "transform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"}} alt={"Pluse Icon"} className={"plus-icon"} />
@@ -413,7 +413,7 @@ return <>
 <div style={{"height": "0px"}} className={"accordion-content"}>
 <div className={"accordion-description w-richtext"}>
 <p>
-{"We offer polishing, anodizing, powder coating, electroplating, sandblasting, and custom finishes to meet specific requirements."}
+{"Send AI, EPS, SVG or PDF vector artwork, or a transparent PNG at 300 DPI at actual print size. ONOS checks files before production."}
 </p>
 </div>
 </div>
@@ -421,7 +421,7 @@ return <>
 <div className={"accordion-item"}>
 <div data-w-id={"6ab982a9-d116-5d00-0772-e301af073cda"} className={"accordion-heading"}>
 <h3 className={"accordion-title"}>
-{"Why is surface finishing important?"}
+{"Can I approve a sample first?"}
 </h3>
 <div className={"accordion-icon-bg"}>
 <img src={"/assets/536a795c5a7c-68dcc369de4ced980408d673_-.svg"} loading={"lazy"} style={{"WebkitTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "MozTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "msTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "transform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"}} alt={"Pluse Icon"} className={"plus-icon"} />
@@ -430,7 +430,7 @@ return <>
 <div style={{"height": "0px"}} className={"accordion-content"}>
 <div className={"accordion-description w-richtext"}>
 <p>
-{"It improves corrosion resistance, wear protection, aesthetics, and overall functional performance of components."}
+{"Yes. Me Linh has a dedicated sampling line. ONOS recommends agreeing a sample before larger production orders."}
 </p>
 </div>
 </div>
@@ -438,7 +438,7 @@ return <>
 <div className={"accordion-item"}>
 <div data-w-id={"5a958ff6-c440-e8e8-bbe7-00f184c3223e"} className={"accordion-heading"}>
 <h3 className={"accordion-title"}>
-{"Can you handle both small and large production runs?"}
+{"How do I confirm pricing and timing?"}
 </h3>
 <div className={"accordion-icon-bg"}>
 <img src={"/assets/536a795c5a7c-68dcc369de4ced980408d673_-.svg"} loading={"lazy"} style={{"WebkitTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "MozTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "msTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "transform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"}} alt={"Pluse Icon"} className={"plus-icon"} />
@@ -447,7 +447,7 @@ return <>
 <div style={{"height": "0px"}} className={"accordion-content"}>
 <div className={"accordion-description w-richtext"}>
 <p>
-{"Yes, our surface finishing services are scalable, suitable for both prototypes and high-volume production."}
+{"Share your product, design, expected quantity and delivery address. ONOS discusses pricing, timing and shipping before you decide."}
 </p>
 </div>
 </div>
@@ -455,7 +455,7 @@ return <>
 <div className={"accordion-item"}>
 <div data-w-id={"4cbf6f7c-df07-9fae-3a18-cb63e9055216"} className={"accordion-heading"}>
 <h3 className={"accordion-title"}>
-{"How do you ensure quality in surface finishing?"}
+{"Which production method suits my product?"}
 </h3>
 <div className={"accordion-icon-bg"}>
 <img src={"/assets/536a795c5a7c-68dcc369de4ced980408d673_-.svg"} loading={"lazy"} style={{"WebkitTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "MozTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "msTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "transform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"}} alt={"Pluse Icon"} className={"plus-icon"} />
@@ -464,7 +464,7 @@ return <>
 <div style={{"height": "0px"}} className={"accordion-content"}>
 <div className={"accordion-description w-richtext"}>
 <p>
-{"We perform strict inspections for surface texture, color uniformity, adhesion, and defect-free results at every stage."}
+{"DTG suits cotton-rich apparel; embroidery suits caps, polos and bags; sublimation suits polyester; laser cutting and engraving suit materials confirmed by ONOS."}
 </p>
 </div>
 </div>
@@ -473,7 +473,7 @@ return <>
 </div>
 </div>
 </section>
-<section className={"cta-section"}>
+<section className={"cta-section"} style={{"backgroundImage": "linear-gradient(#151515d9,#151515d9),url(\"/assets/onos-finishing-table.webp\")"}}>
 <div className={"cta-info"}>
 <div className={"section-title-center _02"}>
 <div data-wf--pre-section-title--variant={"bg-dark"} className={"pre-section-title-wrap w-variant-de5a90dc-c401-95a9-b09f-388955c5be35"}>
@@ -489,9 +489,9 @@ return <>
 <h2 className={"section-title title-center text-white"}>
 {"Start your "}
 <span className={"text-linear-gradient"}>
-{"precision "}
+{"apparel "}
 </span>
-{"manufacturing journey"}
+{"production journey"}
 </h2>
 </div>
 <div className={"cta-form-info"}>
@@ -503,20 +503,20 @@ return <>
 <input className={"form-input bg-change w-input"} maxLength={256} name={"inquiry"} data-name={"inquiry"} placeholder={"Inquiry"} type={"text"} id={"inquiry"} />
 </div>
 <div className={"cta-form-textarea"}>
-<textarea placeholder={"Message"} maxLength={5000} id={"field"} name={"field"} data-name={"Field"} className={"form-input bg-change form-textarea w-input"}>
+<textarea placeholder={"Demo only — email onospod.com@gmail.com to request production."} maxLength={5000} id={"field"} name={"field"} data-name={"Field"} className={"form-input bg-change form-textarea w-input"}>
 
 </textarea>
-<input type={"submit"} data-wait={"Please wait..."} className={"form-submit-button bg-change w-button"} value={"send"} />
+<input type={"submit"} data-wait={"Please wait..."} className={"form-submit-button bg-change w-button"} value={"Preview (demo)"} />
 </div>
 </ContactForm>
 <div className={"w-form-done"}>
 <div>
-{"Thank you! Your submission has been received!"}
+{"Demo only. No submission has been sent. Please email onospod.com@gmail.com."}
 </div>
 </div>
 <div className={"w-form-fail"}>
 <div>
-{"Oops! Something went wrong while submitting the form."}
+{"Please email onospod.com@gmail.com to contact ONOS."}
 </div>
 </div>
 </div>

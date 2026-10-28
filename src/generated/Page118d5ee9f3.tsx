@@ -2,7 +2,7 @@
 import { SiteRuntime } from "@/components/SiteRuntime";
 import { Footerff0835e88c, Navbar5de3fbdae5 } from "@/components/SiteChrome";
 
-export const metadata = {"title": "3D printing revolutionizing product development", "description": "Additive manufacturing speeds up prototyping and customization. It cuts material waste and shortens production cycles. Manufacturers gain flexibility to meet unique customer needs.", "openGraph": {"title": "3D printing revolutionizing product development", "description": "Additive manufacturing speeds up prototyping and customization. It cuts material waste and shortens production cycles. Manufacturers gain flexibility to meet unique customer needs.", "images": ["/assets/33ca09a41b60-68e34c7154f05f793faf9888_image-5.webp"]}};
+export const metadata = {"title":"Developing a production sample | ONOS Global","description":"Me Linh has a dedicated sampling line for apparel development. ONOS recommends agreeing a sample before larger production orders.","openGraph":{"title":"Developing a production sample | ONOS Global","description":"Me Linh has a dedicated sampling line for apparel development. ONOS recommends agreeing a sample before larger production orders.","images":["/assets/onos-sample-development.webp"]},"robots":{"index":false,"follow":true}};
 export default function Page118d5ee9f3() {
 const activePath = "/blog/3d-printing-revolutionizing-product-development";
 return <>
@@ -13,19 +13,19 @@ return <>
 <div data-w-id={"57ad97ff-6e17-bb27-fb1a-35879195ab14"} style={{"opacity": "0"}} className={"hero-inner-wrap"}>
 <div className={"blog-category-wrap"}>
 <div className={"blog-hero-date"}>
-{"October 17, 2025"}
+{"ONOS production guide"}
 </div>
 <div className={"blog-category bg-change"}>
-{"Additive manufacturing"}
+{"Sampling"}
 </div>
 </div>
 <h1 className={"hero-inner-title"}>
-{"3D printing revolutionizing product development"}
+{"Developing a production sample"}
 </h1>
 <p className={"hero-inner-description"}>
-{"Additive manufacturing speeds up prototyping and customization. It cuts material waste and shortens production cycles. Manufacturers gain flexibility to meet unique customer needs."}
+{"Me Linh has a dedicated sampling line for apparel development. ONOS recommends agreeing a sample before larger production orders."}
 </p>
-<img src={"/assets/c2ad96ea220a-68e34c75cdca16a714d6962e_blog-big-image-5.webp"} loading={"eager"} alt={"Blog Image"} className={"hero-inner-image"} />
+<img src={"/assets/onos-sample-development-slot-c2ad96ea220a.webp"} loading={"eager"} alt={"The Onos team reviewing product samples and materials"} className={"hero-inner-image"} />
 </div>
 </div>
 </div>
@@ -33,49 +33,49 @@ return <>
 <div className={"w-layout-blockcontainer container-medium w-container"}>
 <div className={"blog-rich-text w-richtext"}>
 <h5>
-{"The most common business debate isn't as black and white as you might think"}
+{"Before production"}
 </h5>
 <p>
-{"3D printing, also known as additive manufacturing, is transforming product development by enabling rapid prototyping, complex geometries, and customized production. Unlike traditional manufacturing methods, 3D printing builds objects layer by layer, reducing material waste and production time. This technology allows designers and engineers to iterate quickly, test new concepts, and bring innovative products to market faster than ever before. By integrating 3D printing into manufacturing processes, companies can improve efficiency."}
+{"Me Linh has a dedicated sampling line for apparel development. ONOS recommends agreeing a sample before larger production orders."}
 </p>
 <ul role={"list"}>
 <li>
-{"Rapid Prototyping"}
+{"Confirm your product"}
 </li>
 <li>
-{"Design Flexibility"}
+{"Share your artwork"}
 </li>
 <li>
-{"Reduced Material Waste"}
+{"Review the material"}
 </li>
 <li>
-{"Faster Time-to-Market"}
+{"Agree the sample"}
 </li>
 <li>
-{"Cost Efficiency"}
+{"Discuss the shipping plan"}
 </li>
 </ul>
 <p>
-{"3D printing is reshaping the way products are designed, tested, and manufactured. By enabling greater flexibility, efficiency, and innovation, it allows companies to respond to market needs quickly and deliver high-quality customized solutions. As technology continues to advance, 3D printing will remain a cornerstone of modern product development, fostering creativity and sustainable manufacturing practices."}
+{"Review design, colour and print or embroidery placement on the intended material. Small text and fine embroidery details need checking during digitization."}
 </p>
 <figure style={{"paddingBottom": "56.206088992974244%"}} className={"w-richtext-align-fullwidth w-richtext-figure-type-video"}>
 <div>
-<iframe src={"/assets/bcf85a6254b8--U0IXSmp6kc"} scrolling={"no"} frameBorder={"0"} allowFullScreen={true}>
+<iframe src={"/assets/onos-production-reel.mp4"} scrolling={"no"} frameBorder={"0"} allowFullScreen={true}>
 
 </iframe>
 </div>
 </figure>
 <h5>
-{"Ten questions you should answer truthfully"}
+{"Prepare your order"}
 </h5>
 <p>
-{"3D printing allows designers and engineers to create complex and highly customized products that would be difficult or impossible to produce using traditional manufacturing techniques. This capability fosters creativity, innovation, and rapid experimentation during the product development process."}
+{"DTG and sublimation orders can begin with one product. Minimum quantities for custom blanks or tailored uniforms are agreed for each project."}
 </p>
 <blockquote>
-{"“3D printing is revolutionizing product development by turning imagination into reality faster and more efficiently than ever before. It empowers designers and engineers to create complex, customized, and innovative products while reducing waste, lowering costs, and accelerating time-to-market. This technology is not just reshaping manufacturing—it is transforming the very way we think about designing and producing the products of tomorrow.”"}
+{"Me Linh has a dedicated sampling line for apparel development. ONOS recommends agreeing a sample before larger production orders."}
 </blockquote>
 <p>
-{"By integrating 3D printing into product development, companies gain flexibility and adaptability to respond to changing consumer demands, produce small batch or customized products, and explore new design possibilities. This approach enhances competitiveness while supporting sustainable manufacturing practices through reduced resource consumption."}
+{"Review design, colour and print or embroidery placement on the intended material. Small text and fine embroidery details need checking during digitization."}
 </p>
 </div>
 </div>
@@ -90,12 +90,12 @@ return <>
 
 </div>
 <div className={"pre-section-title"}>
-{"Insights & Article"}
+{"Production guidance"}
 </div>
 </div>
 </div>
 <h2 className={"section-title title-center"}>
-{"Recent blogs"}
+{"More production guides"}
 </h2>
 </div>
 <div className={"w-dyn-list"}>
@@ -103,19 +103,19 @@ return <>
 <div data-w-id={"58bd62fe-80db-d9e6-6b94-34f2845c2cc8"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a href={"/blog/breakthroughs-powering-manufacturing-efficiency"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp"} loading={"lazy"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/dbad3439e2f8-68f0d76a4b953aaae184fd6f_image-8-p-500.webp 500w, /assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-c84ffa4fb2b8.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-c84ffa4fb2b8-500w.webp 500w, /assets/onos-sample-development-slot-c84ffa4fb2b8-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item two"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Smart manufacturing"}
+{"Sampling"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"Breakthroughs powering manufacturing efficiency"}
+{"Preparing artwork for DTG printing"}
 </h2>
 </div>
 </a>
@@ -123,19 +123,19 @@ return <>
 <div data-w-id={"58bd62fe-80db-d9e6-6b94-34f2845c2cc8"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a href={"/blog/how-automation-is-shaping-the-future-of-manufacturing"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp"} loading={"lazy"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/cbd6faacf7d6-68e34a923545f0f0d61ea5d3_image-1-p-500.webp 500w, /assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-17ed536d0c8a.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-17ed536d0c8a-500w.webp 500w, /assets/onos-sample-development-slot-17ed536d0c8a-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item two"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Industry 4.0"}
+{"Sampling"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"How automation is shaping the future of manufacturing"}
+{"Planning your apparel production order"}
 </h2>
 </div>
 </a>
@@ -143,19 +143,19 @@ return <>
 <div data-w-id={"58bd62fe-80db-d9e6-6b94-34f2845c2cc8"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a href={"/blog/top-5-materials-revolutionizing-industrial-components"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp"} loading={"lazy"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/412ae6730e81-68e34c235b42befd11b5ec93_image-2-p-500.webp 500w, /assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-1ca0aa821cd9.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-1ca0aa821cd9-500w.webp 500w, /assets/onos-sample-development-slot-1ca0aa821cd9-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item two"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Advanced materials"}
+{"Sampling"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"Top 5 materials revolutionizing industrial components"}
+{"Choosing materials for your apparel"}
 </h2>
 </div>
 </a>

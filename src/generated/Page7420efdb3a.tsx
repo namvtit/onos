@@ -2,7 +2,7 @@
 import { SiteRuntime } from "@/components/SiteRuntime";
 import { Footerb3330562fc, Navbar5de3fbdae5 } from "@/components/SiteChrome";
 
-export const metadata = {"title": "License | Manufactt - Webflow HTML website template", "description": "Trusted by industries worldwide for quality manufacturing, advanced technology, and timely delivery.", "openGraph": {"title": "License | Manufactt - Webflow HTML website template", "description": "Trusted by industries worldwide for quality manufacturing, advanced technology, and timely delivery.", "images": ["/assets/18abbc66ca4e-69032939b90d78f4742e4808_open-graph--1-.jpg"]}};
+export const metadata = {"title":"License | ONOS Global","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","openGraph":{"title":"License | ONOS Global","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","images":["/assets/onos-production-floor.webp"]},"robots":{"index":false,"follow":true}};
 export default function Page7420efdb3a() {
 const activePath = "/utility-pages/licenses";
 return <>
@@ -15,7 +15,7 @@ return <>
 {"Licenses"}
 </h1>
 <p className={"hero-inner-description"}>
-{"All graphical assets in this template are licensed for personal and commercial use. If you'd like to use a specific asset, please check the license below."}
+{"Original template licensing references are retained below. They do not establish rights to the added ONOS photographs. Confirm ONOS ownership and publication permission before publishing the source-supplied review assets."}
 </p>
 </div>
 </div>
@@ -31,7 +31,7 @@ return <>
 </div>
 <div className={"style-guide-content"}>
 <p>
-{"All images in this template are sourced from Pexels and Freepik and, are free for commercial use. Check out the license for Pexels "}
+{"Original template image references include Pexels, Lummi and Freepik. ONOS photos come from its reference site and have separate rights. See Pexels "}
 <a href={"https://www.pexels.com/license/"} target={"_blank"} className={"instruction-link"}>
 {"here"}
 </a>

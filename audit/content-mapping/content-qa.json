@@ -1,0 +1,275 @@
+[
+  {
+    "route": "/401",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/404",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/about",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/blog/3d-printing-revolutionizing-product-development",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/blog/ai-and-machine-learning-powering-smarter-production",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/blog/breakthroughs-powering-manufacturing-efficiency",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/blog/how-automation-is-shaping-the-future-of-manufacturing",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/blog/robotics-revolution-changing-industrial-operations",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/blog/smart-factories-transforming-modern-manufacturing",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/blog/sustainable-manufacturing-driving-a-greener-future",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/blog/top-5-materials-revolutionizing-industrial-components",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/blog",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/case-studies",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/case-studies?a472e93b_page=1",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/case-studies?a472e93b_page=2",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/case-study/additive-manufacturing-for-custom-tooling",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/case-study/automated-assembly-line-optimization",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/case-study/lightweight-castings-for-industrial-equipment",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/case-study/lightweight-industrial-bracket-fabrication",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/case-study/modular-fixture-design-for-mass-production",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/case-study/precision-cnc-milling-for-automotive-components",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/case-study/surface-treatment-innovation-for-corrosion-resistance",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/contact",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/faqs",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/home-2",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/privacy-policy",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/products",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/service/cnc-machining-services",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/service/injection-molding",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/service/product-assembly",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/service/quality-control-testing",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/service/sheet-metal-fabrication",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/service/surface-finishing",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/services",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/utility-pages/changelog",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/utility-pages/instructions",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/utility-pages/licenses",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  },
+  {
+    "route": "/utility-pages/style-guide",
+    "industrial": [],
+    "demoContacts": [],
+    "badSocial": [],
+    "hasBrand": true
+  }
+]

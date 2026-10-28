@@ -2,7 +2,7 @@
 import { SiteRuntime } from "@/components/SiteRuntime";
 import { Footerff0835e88c, Navbar5de3fbdae5 } from "@/components/SiteChrome";
 
-export const metadata = {"title": "Surface treatment innovation for corrosion resistance", "description": "Developed a new coating process to extend the lifespan of metal parts in harsh environments.", "openGraph": {"title": "Surface treatment innovation for corrosion resistance", "description": "Developed a new coating process to extend the lifespan of metal parts in harsh environments.", "images": ["/assets/0cce9e8f6c9c-68e2550a6393cda20820810b_case-study-image-5.webp"]}};
+export const metadata = {"title":"Embroidery for brand identity | ONOS Global","description":"Digitized embroidery brings raised logo details to caps, polos and bags.","openGraph":{"title":"Embroidery for brand identity | ONOS Global","description":"Digitized embroidery brings raised logo details to caps, polos and bags.","images":["/assets/onos-production-floor.webp"]},"robots":{"index":false,"follow":true}};
 export default function Page12a13478c4() {
 const activePath = "/case-study/surface-treatment-innovation-for-corrosion-resistance";
 return <>
@@ -13,51 +13,51 @@ return <>
 <div className={"case-detail-main"}>
 <div data-w-id={"cab6a32f-336d-0ffb-b011-845b3580be8a"} style={{"opacity": "0"}} className={"case-title-info"}>
 <div className={"case-category"}>
-{"Surface engineering"}
+{"Embroidery"}
 </div>
 <h1 className={"case-title"}>
-{"Surface treatment innovation for corrosion resistance"}
+{"Embroidery for brand identity"}
 </h1>
 </div>
 <div data-w-id={"1d1ee453-24e3-a218-f224-a41259c5d875"} style={{"opacity": "0"}} className={"case-image-wrap"}>
-<img src={"/assets/0cce9e8f6c9c-68e2550a6393cda20820810b_case-study-image-5.webp"} loading={"lazy"} alt={"Case Study Main"} sizes={"100vw"} srcSet={"/assets/248f38f36333-68e2550a6393cda20820810b_case-study-image-5-p-500.webp 500w, /assets/0cce9e8f6c9c-68e2550a6393cda20820810b_case-study-image-5.webp 760w"} className={"case-image"} />
-<img src={"/assets/ab05bb3ff732-68e33b2be1011afe9783e44e_Client-image-5.svg"} loading={"lazy"} style={{"opacity": "0"}} data-w-id={"3ea79cb9-7c77-2bdf-deeb-0f79adc24380"} alt={"Case Client Logo"} className={"case-client-logo"} />
+<img src={"/assets/onos-equipment-embroidery-slot-0cce9e8f6c9c.webp"} loading={"lazy"} alt={"An Onos operator checking embroidery on garments"} sizes={"100vw"} srcSet={"/assets/onos-equipment-embroidery-slot-0cce9e8f6c9c-500w.webp 500w, /assets/onos-equipment-embroidery-slot-0cce9e8f6c9c-760w.webp 760w"} className={"case-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} style={{"opacity": "0"}} data-w-id={"3ea79cb9-7c77-2bdf-deeb-0f79adc24380"} alt={"ONOS Global"} className={"case-client-logo"} />
 </div>
 <div data-w-id={"13737e71-ec2c-d585-6bbc-f4acad0bf072"} style={{"opacity": "0"}} className={"w-richtext"}>
 <h6>
-{"Project Overview:"}
+{"Production application"}
 </h6>
 <p>
-{"The project focused on developing advanced surface treatment solutions to enhance corrosion resistance for industrial components. Existing components faced accelerated wear and degradation in harsh environments, leading to higher maintenance costs and reduced equipment lifespan. The goal was to introduce innovative coating and surface engineering techniques that would improve durability, maintain functionality, and extend service life."}
+{"This is a production application based on ONOS capabilities, not a customer case study or a measured project result."}
 </p>
 <p>
-{"‍"}
+{""}
 </p>
 <h6>
-{"Approach:"}
+{"Before production"}
 </h6>
 <p>
 <strong>
-{"‍"}
+{""}
 </strong>
-{"The engineering team researched and tested multiple surface treatment methods, including electroplating, anodizing, and specialized polymer coatings. Material compatibility, environmental resistance, and adhesion properties were analyzed to select the most effective solution for each component. Laboratory simulations and accelerated corrosion testing ensured the treatments could withstand extreme conditions. Processes were optimized for uniform coating, minimal material wastage, and scalability for large production runs. Continuous quality checks and surface characterization validated the performance and longevity of each treated component."}
+{"Share your artwork, intended product, expected quantity and destination. ONOS will help confirm materials, samples and the production method."}
 </p>
 </div>
 <div className={"w-dyn-list"}>
 <div role={"list"} className={"case-lightbox-link-list w-dyn-items"}>
 <div data-w-id={"ab15bb13-9674-7da7-6ced-a55b50f93db5"} style={{"opacity": "0"}} role={"listitem"} className={"w-dyn-item w-dyn-repeater-item"}>
-<a data-lightbox={"{\"items\": [{\"url\": \"/assets/0f1b481cd8e3-68e788e4eca24ead46dfb49f_Untitled-15.webp\", \"type\": \"image\"}], \"group\": \"Work Image\"}"} href={"/case-study/surface-treatment-innovation-for-corrosion-resistance"} className={"work-lightbox-link-list w-inline-block w-lightbox"}>
-<img src={"/assets/0f1b481cd8e3-68e788e4eca24ead46dfb49f_Untitled-15.webp"} loading={"lazy"} alt={"Case Study Extra"} className={"overview-image"} />
+<a data-lightbox={"{\"items\": [{\"url\": \"/assets/onos-equipment-embroidery.webp\", \"type\": \"image\"}], \"group\": \"Work Image\"}"} href={"/case-study/surface-treatment-innovation-for-corrosion-resistance"} className={"work-lightbox-link-list w-inline-block w-lightbox"}>
+<img src={"/assets/onos-equipment-embroidery-slot-0f1b481cd8e3.webp"} loading={"lazy"} alt={"An Onos operator checking embroidery on garments"} className={"overview-image"} />
 </a>
 </div>
 <div data-w-id={"ab15bb13-9674-7da7-6ced-a55b50f93db5"} style={{"opacity": "0"}} role={"listitem"} className={"w-dyn-item w-dyn-repeater-item"}>
-<a data-lightbox={"{\"items\": [{\"url\": \"/assets/2359952e3860-68e788edf622788ab0f6d952_Untitled-13.webp\", \"type\": \"image\"}], \"group\": \"Work Image\"}"} href={"/case-study/surface-treatment-innovation-for-corrosion-resistance"} className={"work-lightbox-link-list w-inline-block w-lightbox"}>
-<img src={"/assets/2359952e3860-68e788edf622788ab0f6d952_Untitled-13.webp"} loading={"lazy"} alt={"Case Study Extra"} className={"overview-image"} />
+<a data-lightbox={"{\"items\": [{\"url\": \"/assets/onos-embroidery-hero.webp\", \"type\": \"image\"}], \"group\": \"Work Image\"}"} href={"/case-study/surface-treatment-innovation-for-corrosion-resistance"} className={"work-lightbox-link-list w-inline-block w-lightbox"}>
+<img src={"/assets/onos-embroidery-hero-slot-2359952e3860.webp"} loading={"lazy"} alt={"Multi-head embroidery machines producing garments at Onos"} className={"overview-image"} />
 </a>
 </div>
 <div data-w-id={"ab15bb13-9674-7da7-6ced-a55b50f93db5"} style={{"opacity": "0"}} role={"listitem"} className={"w-dyn-item w-dyn-repeater-item"}>
-<a data-lightbox={"{\"items\": [{\"url\": \"/assets/d4a40d45c081-68e788edd02ee081790acdc6_Untitled-14.webp\", \"type\": \"image\"}], \"group\": \"Work Image\"}"} href={"/case-study/surface-treatment-innovation-for-corrosion-resistance"} className={"work-lightbox-link-list w-inline-block w-lightbox"}>
-<img src={"/assets/d4a40d45c081-68e788edd02ee081790acdc6_Untitled-14.webp"} loading={"lazy"} alt={"Case Study Extra"} className={"overview-image"} />
+<a data-lightbox={"{\"items\": [{\"url\": \"/assets/onos-embroidery.webp\", \"type\": \"image\"}], \"group\": \"Work Image\"}"} href={"/case-study/surface-treatment-innovation-for-corrosion-resistance"} className={"work-lightbox-link-list w-inline-block w-lightbox"}>
+<img src={"/assets/onos-embroidery-slot-d4a40d45c081.webp"} loading={"lazy"} alt={"Embroidery equipment at Onos"} className={"overview-image"} />
 </a>
 </div>
 </div>
@@ -69,39 +69,39 @@ return <>
 </div>
 <div data-w-id={"262aec6e-40aa-516e-f687-cbc23a2bdb3c"} style={{"opacity": "0"}} className={"w-richtext"}>
 <h6>
-{"Technical Specifications:"}
+{"Production application"}
 </h6>
 <ul role={"list"}>
 <li>
-{"Treatment Types: Electroplating, Anodizing, Polymer Coating"}
+{"Confirm the product and material"}
 </li>
 <li>
-{"Corrosion Resistance: Up to 10x improvement over untreated components"}
+{"Share artwork at the intended size"}
 </li>
 <li>
-{"Coating Thickness: 5–25 µm"}
+{"Review colours and placement"}
 </li>
 <li>
-{"Surface Hardness: Increased by up to 40%"}
+{"Agree a production sample"}
 </li>
 <li>
-{"Testing Standards: ASTM B117 salt spray and ISO 9227"}
+{"Discuss quantity and destination"}
 </li>
 </ul>
 <p>
-{"‍"}
+{""}
 </p>
 <h6>
-{"Results"}
+{"Before production"}
 <strong>
-{":"}
+{"Discuss your order"}
 </strong>
 </h6>
 <p>
 <strong>
-{"‍"}
+{""}
 </strong>
-{"The innovative surface treatments significantly extended component lifespan and reduced maintenance requirements. Components demonstrated superior resistance to harsh environmental conditions, including moisture, chemicals, and temperature variations. The improved durability translated into lower operational costs and enhanced reliability of industrial equipment. Client feedback highlighted satisfaction with both the performance gains and the ability to scale treatments across various product lines."}
+{"This is a production application based on ONOS capabilities, not a customer case study or a measured project result."}
 </p>
 </div>
 </div>
@@ -111,7 +111,7 @@ return <>
 <div className={"w-layout-blockcontainer container w-container"}>
 <div className={"other-case-study-title"}>
 <h2 className={"section-title"}>
-{"Other case studies"}
+{"More Production Work"}
 </h2>
 <div className={"case-study-button-inner"}>
 <a data-wf--button-arrow--variant={"button-primary-bg"} data-w-id={"d102baf6-0bbf-4311-9c79-6b424f8fe8a7"} href={"/case-studies"} className={"primary-button w-variant-5ae0b7d1-2e18-9989-4375-c73c98041680 w-inline-block"}>
@@ -119,10 +119,10 @@ return <>
 <div className={"button-text-wrap"}>
 <div className={"button-text-inner"}>
 <div className={"button-text"}>
-{"See all case studies"}
+{"View All Applications"}
 </div>
 <div className={"button-hover-text"}>
-{"See all case studies"}
+{"View All Applications"}
 </div>
 </div>
 </div>
@@ -141,25 +141,25 @@ return <>
 <div className={"projects-name-wrap"}>
 <div>
 <div className={"project-category"}>
-{"Materials engineering"}
+{"Cotton apparel"}
 </div>
 <h2 className={"projects-name"}>
-{"Lightweight castings for Industrial equipment"}
+{"Printed cotton apparel"}
 </h2>
 </div>
 <div className={"case-list-stat-item"}>
 <h3 className={"case-list-stat-number"}>
-{"35%"}
+{"DTG"}
 </h3>
 <div className={"case-list-stat-title"}>
-{"Heavy-duty machinery"}
+{"Cotton apparel"}
 </div>
 </div>
 </div>
 <div className={"project-image-wrap"}>
-<img src={"/assets/79a31a2d5450-68e254aa0bf150d8b71ead93_Case-Study-Image-1.webp"} loading={"lazy"} data-w-id={"a8b8708c-77d0-cb61-f087-40152a30c1a2"} alt={"Project Image"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/8b2b95881eb7-68e254aa0bf150d8b71ead93_Case-Study-Image-1-p-500.webp 500w, /assets/79a31a2d5450-68e254aa0bf150d8b71ead93_Case-Study-Image-1.webp 761w"} className={"project-image"} />
+<img src={"/assets/onos-finishing-table-slot-79a31a2d5450.webp"} loading={"lazy"} data-w-id={"a8b8708c-77d0-cb61-f087-40152a30c1a2"} alt={"Printed garments organised at the finishing table"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/onos-finishing-table-slot-79a31a2d5450-500w.webp 500w, /assets/onos-finishing-table-slot-79a31a2d5450-761w.webp 761w"} className={"project-image"} />
 <div data-w-id={"a8b8708c-77d0-cb61-f087-40152a30c1a3"} className={"project-image-layout"}>
-<img src={"/assets/03147d08ed83-68e2579794f0ac3ba256d484_Client-Image.svg"} loading={"lazy"} alt={"Case List Logo"} className={"case-list-logo"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"case-list-logo"} />
 </div>
 </div>
 </a>
@@ -169,25 +169,25 @@ return <>
 <div className={"projects-name-wrap"}>
 <div>
 <div className={"project-category"}>
-{"CNC machining"}
+{"DTG printing"}
 </div>
 <h2 className={"projects-name"}>
-{"Precision CNC milling for automotive components"}
+{"DTG artwork preparation"}
 </h2>
 </div>
 <div className={"case-list-stat-item"}>
 <h3 className={"case-list-stat-number"}>
-{"54%"}
+{"ART"}
 </h3>
 <div className={"case-list-stat-title"}>
-{"Engine parts"}
+{"Artwork review"}
 </div>
 </div>
 </div>
 <div className={"project-image-wrap"}>
-<img src={"/assets/f43d8b900690-68e254b81d5a9819d9c132b7_Case-Study-Image-2.webp"} loading={"lazy"} data-w-id={"a8b8708c-77d0-cb61-f087-40152a30c1a2"} alt={"Project Image"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/16d6609a4608-68e254b81d5a9819d9c132b7_Case-Study-Image-2-p-500.webp 500w, /assets/f43d8b900690-68e254b81d5a9819d9c132b7_Case-Study-Image-2.webp 760w"} className={"project-image"} />
+<img src={"/assets/onos-dtg-machine-detail-slot-f43d8b900690.webp"} loading={"lazy"} data-w-id={"a8b8708c-77d0-cb61-f087-40152a30c1a2"} alt={"DTG printing machine at Onos"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/onos-dtg-machine-detail-slot-f43d8b900690-500w.webp 500w, /assets/onos-dtg-machine-detail-slot-f43d8b900690-760w.webp 760w"} className={"project-image"} />
 <div data-w-id={"a8b8708c-77d0-cb61-f087-40152a30c1a3"} className={"project-image-layout"}>
-<img src={"/assets/bfcfa2bfb293-68e257aed761fb3533200be5_Client-Image-2.svg"} loading={"lazy"} alt={"Case List Logo"} className={"case-list-logo"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"case-list-logo"} />
 </div>
 </div>
 </a>

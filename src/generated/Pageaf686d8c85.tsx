@@ -2,7 +2,7 @@
 import { SiteRuntime } from "@/components/SiteRuntime";
 import { Footerff0835e88c, Navbar5de3fbdae5 } from "@/components/SiteChrome";
 
-export const metadata = {"title": "Privacy Policy | Manufactt- Webflow HTML website template", "description": "Trusted by industries worldwide for quality manufacturing, advanced technology, and timely delivery.", "openGraph": {"title": "Privacy Policy | Manufactt- Webflow HTML website template", "description": "Trusted by industries worldwide for quality manufacturing, advanced technology, and timely delivery.", "images": ["/assets/18abbc66ca4e-69032939b90d78f4742e4808_open-graph--1-.jpg"]}};
+export const metadata = {"title":"Privacy Policy | ONOS Global","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","openGraph":{"title":"Privacy Policy | ONOS Global","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","images":["/assets/onos-production-floor.webp"]},"robots":{"index":false,"follow":true}};
 export default function Pageaf686d8c85() {
 const activePath = "/privacy-policy";
 return <>
@@ -12,10 +12,10 @@ return <>
 <div className={"container w-container"}>
 <div data-w-id={"b06ca171-067c-a210-657c-01af28324117"} style={{"opacity": "0"}} className={"hero-inner-wrap"}>
 <h1 className={"hero-inner-title"}>
-{"Privacy Policy"}
+{"Privacy information pending approval"}
 </h1>
 <div>
-{"Last updated: Oct 30, 2025"}
+{"Draft — owner approval required"}
 </div>
 </div>
 </div>
@@ -25,62 +25,62 @@ return <>
 <div data-w-id={"dd67f32a-2eba-893c-6f30-eb98a4754030"} style={{"opacity": "0"}} className={"privacy-wrap"}>
 <div className={"rich-text w-richtext"}>
 <h2 className={"heading-h6"}>
-{"Collecting Personal Information"}
+{"Current preview behaviour"}
 <br />
 </h2>
 <p>
-{"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."}
+{"Contact and newsletter forms in this local preview validate entries in the browser. They do not send submissions to ONOS."}
 </p>
 <ul role={"list"}>
 <li>
-{"There are many variations of passages of Lorem Ipsum available."}
+{"Form fields accept visitor input locally."}
 </li>
 <li>
-{"Iusto odio dignissimos ducimus qui blanditiis."}
+{"No form submission endpoint is configured."}
 </li>
 <li>
-{"Praesentium voluptatum deleniti atque."}
+{"Newsletter entries do not create subscriptions."}
 </li>
 <li>
-{"Quas molestias excepturi sint occaecati."}
+{"The password page does not authenticate visitors."}
 </li>
 </ul>
 <p>
-{"The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" "}
+{"Email and phone links open your email or calling application. "}
 <em>
-{"by Cicero are also reproduced in their exact original form"}
+{"Your email or calling application"}
 </em>
-{", accompanied by English versions from the 1914 translation by H. Rackham."}
+{" handles the communication when you choose to send or call."}
 </p>
 <h2 className={"heading-h6"}>
-{"Sharing Personal Information"}
+{"Before publication"}
 </h2>
 <p>
-{"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing "}
+{"ONOS must approve the privacy policy and identify the relevant operator, service providers and data practices. "}
 <strong>
-{"hidden in the middle of text."}
+{"Approval is pending."}
 </strong>
-{" All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."}
+{" This page is a preview status notice, not an approved ONOS privacy policy."}
 </p>
 <p>
-{"It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."}
+{"The following business information is still required:"}
 </p>
 <ol role={"list"}>
 <li>
-{"sometimes on purpose."}
+{"Operator and privacy contact details."}
 </li>
 <li>
-{"classical Latin literature from 45 BC."}
+{"Purposes and handling of personal information."}
 </li>
 <li>
-{"The Extremes of Good and Evil."}
+{"Service providers and any international transfers."}
 </li>
 <li>
-{"This book is a treatise on the theory."}
+{"Retention periods and visitor rights procedures."}
 </li>
 </ol>
 <p>
-{"Combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."}
+{"For privacy enquiries, contact onospod.com@gmail.com."}
 </p>
 </div>
 </div>

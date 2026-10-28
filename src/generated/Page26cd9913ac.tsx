@@ -2,7 +2,7 @@
 import { SiteRuntime } from "@/components/SiteRuntime";
 import { Footer495cd298f5, Navbar5de3fbdae5 } from "@/components/SiteChrome";
 
-export const metadata = {"title": "Case Study| Manufactt - Webflow HTML website template", "description": "Trusted by industries worldwide for quality manufacturing, advanced technology, and timely delivery.", "openGraph": {"title": "Case Study| Manufactt - Webflow HTML website template", "description": "Trusted by industries worldwide for quality manufacturing, advanced technology, and timely delivery.", "images": ["/assets/18abbc66ca4e-69032939b90d78f4742e4808_open-graph--1-.jpg"]}};
+export const metadata = {"title":"Case Study| ONOS Global - Webflow HTML website template","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","openGraph":{"title":"Case Study| ONOS Global - Webflow HTML website template","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","images":["/assets/onos-production-floor.webp"]},"robots":{"index":true,"follow":true}};
 export default function Page26cd9913ac() {
 const activePath = "/case-studies";
 return <>
@@ -12,7 +12,7 @@ return <>
 <div className={"container-medium"}>
 <div className={"hero-simple-wrap"}>
 <h1 data-w-id={"1ffb823c-7f1f-d7e1-b6cb-d667cb80f2ce"} style={{"opacity": "0"}} className={"hero-inner-title"}>
-{"Our Case studies"}
+{"Production Work"}
 </h1>
 </div>
 </div>
@@ -46,25 +46,25 @@ return <>
 <div className={"projects-name-wrap"}>
 <div>
 <div className={"project-category"}>
-{"Surface engineering"}
+{"Embroidery"}
 </div>
 <h2 className={"projects-name"}>
-{"Surface treatment innovation for corrosion resistance"}
+{"Embroidery for brand identity"}
 </h2>
 </div>
 <div className={"case-list-stat-item"}>
 <h3 className={"case-list-stat-number"}>
-{"65%"}
+{"LOGO"}
 </h3>
 <div className={"case-list-stat-title"}>
-{"Metal parts"}
+{"Caps, polos and bags"}
 </div>
 </div>
 </div>
 <div className={"project-image-wrap"}>
-<img src={"/assets/0cce9e8f6c9c-68e2550a6393cda20820810b_case-study-image-5.webp"} loading={"lazy"} data-w-id={"0fc91e6d-439f-d4ca-8808-68eeae93ee0d"} alt={"Project Image"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/248f38f36333-68e2550a6393cda20820810b_case-study-image-5-p-500.webp 500w, /assets/0cce9e8f6c9c-68e2550a6393cda20820810b_case-study-image-5.webp 760w"} className={"project-image"} />
+<img src={"/assets/onos-equipment-embroidery-slot-0cce9e8f6c9c.webp"} loading={"lazy"} data-w-id={"0fc91e6d-439f-d4ca-8808-68eeae93ee0d"} alt={"An Onos operator checking embroidery on garments"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/onos-equipment-embroidery-slot-0cce9e8f6c9c-500w.webp 500w, /assets/onos-equipment-embroidery-slot-0cce9e8f6c9c-760w.webp 760w"} className={"project-image"} />
 <div data-w-id={"1f753c77-a3a4-4531-360d-9d626452cc82"} className={"project-image-layout"}>
-<img src={"/assets/ab05bb3ff732-68e33b2be1011afe9783e44e_Client-image-5.svg"} loading={"lazy"} alt={"Case List Logo"} className={"case-list-logo"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"case-list-logo"} />
 </div>
 </div>
 </a>
@@ -74,25 +74,25 @@ return <>
 <div className={"projects-name-wrap"}>
 <div>
 <div className={"project-category"}>
-{"Industrial manufacturing"}
+{"Sublimation"}
 </div>
 <h2 className={"projects-name"}>
-{"Lightweight industrial bracket fabrication"}
+{"All-over polyester sportswear"}
 </h2>
 </div>
 <div className={"case-list-stat-item"}>
 <h3 className={"case-list-stat-number"}>
-{"70%"}
+{"AOP"}
 </h3>
 <div className={"case-list-stat-title"}>
-{"Industrial support bracket"}
+{"Polyester sportswear"}
 </div>
 </div>
 </div>
 <div className={"project-image-wrap"}>
-<img src={"/assets/a7358f674f5d-68e25528f043e1ae90e95631_case-study-image-6.webp"} loading={"lazy"} data-w-id={"0fc91e6d-439f-d4ca-8808-68eeae93ee0d"} alt={"Project Image"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/acb597143987-68e25528f043e1ae90e95631_case-study-image-6-p-500.webp 500w, /assets/a7358f674f5d-68e25528f043e1ae90e95631_case-study-image-6.webp 760w"} className={"project-image"} />
+<img src={"/assets/onos-press-machines-row-slot-a7358f674f5d.webp"} loading={"lazy"} data-w-id={"0fc91e6d-439f-d4ca-8808-68eeae93ee0d"} alt={"Heat press equipment at Onos"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/onos-press-machines-row-slot-a7358f674f5d-500w.webp 500w, /assets/onos-press-machines-row-slot-a7358f674f5d-760w.webp 760w"} className={"project-image"} />
 <div data-w-id={"1f753c77-a3a4-4531-360d-9d626452cc82"} className={"project-image-layout"}>
-<img src={"/assets/134ca7144ec5-68e33b50fee16c7f8ffecd5f_Client-image-6.svg"} loading={"lazy"} alt={"Case List Logo"} className={"case-list-logo"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"case-list-logo"} />
 </div>
 </div>
 </a>
@@ -102,25 +102,25 @@ return <>
 <div className={"projects-name-wrap"}>
 <div>
 <div className={"project-category"}>
-{"Fixture design"}
+{"Sampling"}
 </div>
 <h2 className={"projects-name"}>
-{"Modular fixture design for mass production"}
+{"Sample development at Me Linh"}
 </h2>
 </div>
 <div className={"case-list-stat-item"}>
 <h3 className={"case-list-stat-number"}>
-{"65%"}
+{"LOGO"}
 </h3>
 <div className={"case-list-stat-title"}>
-{"Different part types"}
+{"Sample development"}
 </div>
 </div>
 </div>
 <div className={"project-image-wrap"}>
-<img src={"/assets/0fcabf3332a4-68e2555178675ff9623b0491_case-study-image-7.webp"} loading={"lazy"} data-w-id={"0fc91e6d-439f-d4ca-8808-68eeae93ee0d"} alt={"Project Image"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/6f1929c3a33f-68e2555178675ff9623b0491_case-study-image-7-p-500.webp 500w, /assets/0fcabf3332a4-68e2555178675ff9623b0491_case-study-image-7.webp 760w"} className={"project-image"} />
+<img src={"/assets/onos-sample-development-slot-0fcabf3332a4.webp"} loading={"lazy"} data-w-id={"0fc91e6d-439f-d4ca-8808-68eeae93ee0d"} alt={"The Onos team reviewing product samples and materials"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/onos-sample-development-slot-0fcabf3332a4-500w.webp 500w, /assets/onos-sample-development-slot-0fcabf3332a4-760w.webp 760w"} className={"project-image"} />
 <div data-w-id={"1f753c77-a3a4-4531-360d-9d626452cc82"} className={"project-image-layout"}>
-<img src={"/assets/21d6057ee5c7-68e33b35d11bf82e5b1d78d6_Client-Image-7.svg"} loading={"lazy"} alt={"Case List Logo"} className={"case-list-logo"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"case-list-logo"} />
 </div>
 </div>
 </a>

@@ -13,27 +13,27 @@ export function Hero() { return (
 
 </div>
 <div className={"pre-section-title"}>
-{"Trusted manufacturing partner"}
+{"ONOS Global production partner"}
 </div>
 </div>
 </div>
 <div className={"hero-title-wrap"}>
 <h1 className={"hero-title"}>
-{"From raw "}
+{"From your "}
 <span className={"text-linear-gradient"}>
-{"material"}
+{"design"}
 </span>
-{" to market-ready"}
+{" to ready-to-ship"}
 </h1>
 </div>
 </div>
 </div>
 <div data-w-id={"89b15f62-94c9-1c8d-5eb8-ed12f4e88666"} style={{"opacity": "0"}} className={"hero-right-wrap"}>
 <div className={"hero-content-text"}>
-{"// SINCE - 2005 //"}
+{"// VIETNAM + USA //"}
 </div>
 <p className={"hero-description"}>
-{"From concept to production, we deliver high-quality, scalable, and cost-effective solutions tailored to your business needs."}
+{"Your production partner for apparel printing, embroidery and order fulfillment in Vietnam and the United States."}
 </p>
 <div className={"hero-button"}>
 <a data-wf--button-arrow--variant={"base"} data-w-id={"d102baf6-0bbf-4311-9c79-6b424f8fe8a7"} href={"/services"} className={"primary-button w-inline-block"}>
@@ -59,13 +59,13 @@ export function Hero() { return (
 </div>
 <div className={"hero-bottom-wrap"}>
 <div id={"w-node-_7dec0c57-d1b2-b423-ef21-282893928583-f8801f19"} data-w-id={"7dec0c57-d1b2-b423-ef21-282893928583"} style={{"opacity": "0"}} className={"hero-bottom-text"}>
-{"Based in: Los Angeles, USA"}
+{"Vietnam + California, USA"}
 </div>
 <a id={"w-node-_33e8caeb-8f86-0a37-d251-e7111d4b615c-f8801f19"} data-w-id={"33e8caeb-8f86-0a37-d251-e7111d4b615c"} style={{"opacity": "0"}} href={"/#Footer"} className={"hero-bottom-link"}>
 {"SCROLL DOWN"}
 </a>
 <div id={"w-node-_22ca442b-6b4e-ae70-b69a-dc7eb35ab8aa-f8801f19"} data-w-id={"22ca442b-6b4e-ae70-b69a-dc7eb35ab8aa"} style={{"opacity": "0"}} className={"hero-bottom-text"}>
-{"21.0278° N, 105.8342° E"}
+{"Hanoi, Vietnam ↔ California, USA"}
 </div>
 </div>
 </div>
@@ -95,10 +95,10 @@ export function Hero() { return (
 
 export function HeroVideo() { return (
 <div className={"hero-video-wrap"}>
-<div data-poster-url={"/assets/40e26bb74965-68d1288562216d12f8801f37-68dcaf0cefe8d0466c2141cf_hero-video-poster-00001.jpg"} data-video-urls={"/assets/430137efdaad-68d1288562216d12f8801f37-68dcaf0cefe8d0466c2141cf_hero-video-transcode.mp4,/assets/769cefdc4eb2-68d1288562216d12f8801f37-68dcaf0cefe8d0466c2141cf_hero-video-transcode.webm"} data-autoplay={"true"} data-loop={"true"} data-wf-ignore={"true"} className={"hero-background-video w-background-video w-background-video-atom"}>
-<video id={"e77f24d8-eda0-f5c0-babb-14e345b95f67-video"} autoPlay={true} loop={true} style={{"backgroundImage": "url(\"/assets/40e26bb74965-68d1288562216d12f8801f37-68dcaf0cefe8d0466c2141cf_hero-video-poster-00001.jpg\")"}} muted={true} playsInline={true} data-wf-ignore={"true"} data-object-fit={"cover"}>
-<source src={"/assets/430137efdaad-68d1288562216d12f8801f37-68dcaf0cefe8d0466c2141cf_hero-video-transcode.mp4"} data-wf-ignore={"true"} />
-<source src={"/assets/769cefdc4eb2-68d1288562216d12f8801f37-68dcaf0cefe8d0466c2141cf_hero-video-transcode.webm"} data-wf-ignore={"true"} />
+<div data-poster-url={"/assets/onos-production-floor.webp"} data-video-urls={"/assets/onos-production-reel.mp4,/assets/onos-production-reel.webm"} data-autoplay={"true"} data-loop={"true"} data-wf-ignore={"true"} className={"hero-background-video w-background-video w-background-video-atom"}>
+<video id={"e77f24d8-eda0-f5c0-babb-14e345b95f67-video"} autoPlay={true} loop={true} style={{"backgroundImage": "url(\"/assets/onos-production-floor.webp\")"}} muted={true} playsInline={true} data-wf-ignore={"true"} data-object-fit={"cover"}>
+<source src={"/assets/onos-production-reel.mp4"} data-wf-ignore={"true"} />
+<source src={"/assets/onos-production-reel.webm"} data-wf-ignore={"true"} />
 </video>
 <div aria-live={"polite"}>
 <button type={"button"} data-w-bg-video-control={"true"} aria-controls={"e77f24d8-eda0-f5c0-babb-14e345b95f67-video"} className={"w-backgroundvideo-backgroundvideoplaypausebutton video-button w-background-video--control"}>
@@ -114,18 +114,18 @@ export function HeroVideo() { return (
 <div className={"hero-quote-wrap"}>
 <div data-w-id={"8094fac9-4cf8-16af-6b25-90966716d9c7"} style={{"opacity": "0"}} className={"hero-quote-info"}>
 <div className={"hero-quote-card"}>
-<img src={"/assets/8bbff24cefc7-68dcbebd1bc8fc56182605e9_Quote-Image-2.webp"} loading={"lazy"} alt={"Hero Quote Image"} className={"hero-quote-image"} />
+<img src={"/assets/onos-sample-development-slot-8bbff24cefc7.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} className={"hero-quote-image"} />
 <div className={"quote-founder-info"}>
 <div className={"quote-founder-name"}>
-{"Michael R. Bennett"}
+{"ONOS Global"}
 </div>
 <div className={"quote-founder-job"}>
-{"Founder & CEO"}
+{"Production network"}
 </div>
 </div>
 </div>
 <p className={"quote-description"}>
-{"Great manufacturing isn't just about precision it's about vision, commitment, and the relentless pursuit of excellence."}
+{"Local craftsmanship. Global connections. Apparel printing, embroidery and fulfillment for your next collection."}
 </p>
 </div>
 </div>
@@ -154,44 +154,44 @@ export function About() { return (
 </div>
 <div className={"avatar"}>
 <div className={"avatar-box"}>
-<img src={"/assets/b67523de0d62-68dcc4be4bec1b8c53916029_Avatar-Image--2-.webp"} loading={"lazy"} alt={"Avatar Image"} className={"avatar-image"} />
+<img src={"/assets/onos-sample-development-slot-b67523de0d62.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} className={"avatar-image"} />
 </div>
 <div className={"avatar-box one"}>
-<img src={"/assets/4c4eddd9988b-68dcc4bebd77bc4ff1fc5206_Avatar-Image--3-.webp"} loading={"lazy"} alt={"Avatar Image"} className={"avatar-image"} />
+<img src={"/assets/onos-sample-development-slot-4c4eddd9988b.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} className={"avatar-image"} />
 </div>
 <div className={"avatar-box one"}>
-<img src={"/assets/24641e74c0a7-68dcc4bed9e7a8448d66fb53_Avatar-Image--4-.webp"} loading={"lazy"} alt={"Avatar Image"} className={"avatar-image"} />
+<img src={"/assets/onos-sample-development-slot-24641e74c0a7.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} className={"avatar-image"} />
 </div>
 <div className={"avatar-box one"}>
-<img src={"/assets/1ade6f5f4402-68dcc4be0a27f1a9ecbc0b06_Avatar-Image--1-.webp"} loading={"lazy"} alt={"Avatar Image"} className={"avatar-image"} />
+<img src={"/assets/onos-sample-development-slot-1ade6f5f4402.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} className={"avatar-image"} />
 </div>
 <a href={"/about#team-section"} className={"avatar-box one w-inline-block"}>
 <div className={"avatar-icon-box"}>
 <div className={"avatar-count"}>
-{"10"}
+{"3"}
 </div>
 <img src={"/assets/536a795c5a7c-68dcc369de4ced980408d673_-.svg"} loading={"lazy"} alt={"Avatar Icon"} className={"avatar-icon"} />
 </div>
 </a>
 </div>
 <div className={"avatar-info"}>
-{"Team Of passionate"}
+{"Connected production"}
 <br />
-{"professionals"}
+{"facilities"}
 </div>
 </div>
 <div className={"about-right-wrap"}>
 <div className={"about-section-title"}>
 <h2 data-w-id={"710a89bc-f9dd-2ab9-dd91-b12ed4a78144"} style={{"opacity": "0"}} className={"section-title"}>
-{"Driven by technology, backed by experience, focused on "}
+{"Printing, embroidery and fulfillment, focused on "}
 <span className={"text-linear-gradient"}>
 {"manufacturing"}
 </span>
-{" excellence"}
+{" for your brand"}
 </h2>
 </div>
 <p data-w-id={"017b83dc-7656-67a6-b23e-69b6032ef810"} style={{"opacity": "0"}} className={"about-description"}>
-{"Backed by advanced technology, skilled craftsmanship, and a commitment to quality, we help businesses bring their ideas to life with confidence and speed. Whether it’s prototyping or full-scale production, we’re your trusted partner every step of the way."}
+{"ONOS connects three factories in Thai Nguyen, Me Linh in Hanoi, and California. From product development to printing, embroidery, finishing and packing, the team helps prepare your next production order."}
 </p>
 <div data-w-id={"5a23ee6f-035d-2255-fd4f-73aa8e89689a"} style={{"opacity": "0"}} className={"about-button-wrap"}>
 <a data-wf--button-arrow--variant={"base"} data-w-id={"d102baf6-0bbf-4311-9c79-6b424f8fe8a7"} href={"/about"} className={"primary-button w-inline-block"}>
@@ -199,10 +199,10 @@ export function About() { return (
 <div className={"button-text-wrap"}>
 <div className={"button-text-inner"}>
 <div className={"button-text"}>
-{"Learn More About Us"}
+{"About ONOS Global"}
 </div>
 <div className={"button-hover-text"}>
-{"Learn More About Us"}
+{"About ONOS Global"}
 </div>
 </div>
 </div>
@@ -212,8 +212,8 @@ export function About() { return (
 </div>
 </div>
 </a>
-<a href={"/assets/7cc6038925cd-68f0b12338ba832c3a370ba1_PDF.pdf"} target={"_blank"} className={"download-link"}>
-{"Download Brochure"}
+<a href={"mailto:onospod.com@gmail.com?subject=ONOS%20Global%20production%20enquiry"} target={"_blank"} className={"download-link"}>
+{"Request a Quote"}
 </a>
 </div>
 </div>
@@ -225,71 +225,71 @@ export function About() { return (
 <div data-w-id={"52b525da-7c1b-3a5f-e1d2-3e25e3d423eb"} style={{"opacity": "0"}} className={"about-info-box"}>
 <div className={"about-info-inner-wrap"}>
 <div className={"about-content"}>
-{"// 2005-2K25 //"}
+{"// VIETNAM ↔ USA //"}
 </div>
 <div className={"inner-number"}>
 <div className={"numbers-counts"}>
-<div data-target={"20"} className={"count"}>
-{"20"}
+<div data-target={"3"} className={"count"}>
+{"3"}
 <br />
 </div>
 </div>
 <div className={"counter-symbol"}>
 <div className={"counter-symbol-text"}>
-{"+"}
+{""}
 </div>
 </div>
 </div>
 <p className={"about-content-description"}>
-{"Delivering consistent manufacturing excellence since day one."}
+{"Factories in Thai Nguyen, Me Linh and California."}
 </p>
 </div>
-<img src={"/assets/cb361e303112-68dcd946978511538d622f29_Group.png"} loading={"lazy"} alt={"About Box Vector"} className={"about-box-vector"} />
+<img src={"/assets/onos-connection.svg"} loading={"lazy"} alt={"ONOS production"} className={"about-box-vector"} />
 </div>
-<img src={"/assets/e547dfdb5e37-68dcda0075e8b528cbfffec8_about-image.webp"} loading={"lazy"} style={{"opacity": "0"}} data-w-id={"2b6ca78d-f30a-dcb3-72dd-ee239194fdde"} alt={"About Image Box"} className={"about-image-box"} />
+<img src={"/assets/onos-production-floor-slot-e547dfdb5e37.webp"} loading={"lazy"} style={{"opacity": "0"}} data-w-id={"2b6ca78d-f30a-dcb3-72dd-ee239194fdde"} alt={"Epson print production with an automated conveyor at Onos"} className={"about-image-box"} />
 <div data-w-id={"e0a0517f-1ee8-9dfc-bba2-14c8a6a448da"} style={{"opacity": "0"}} className={"about-info-box box-bg-white"}>
-<img src={"/assets/acdb185fdc0a-68d52f04943817525b88ad07_a29f3460f69ee2944f9599d001238d55_Logo.svg"} loading={"lazy"} alt={"About Box Logo"} className={"about-box-logo"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"about-box-logo"} />
 <div className={"counter-run"}>
 <div className={"inner-number about-counter"}>
 <div className={"numbers-counts text-linear-gradient"}>
-<div data-target={"100"} className={"count"}>
-{"100"}
+<div data-target={"2"} className={"count"}>
+{"2"}
 </div>
 </div>
 <div className={"counter-symbol"}>
 <div className={"counter-symbol-text"}>
-{"+"}
+{""}
 </div>
 </div>
 </div>
 </div>
 <div className={"about-info-text"}>
-{"Trusted by businesses across multiple industries"}
+{"Countries connected"}
 </div>
 <div className={"about-rating-wrap"}>
 <div className={"about-rating-text"}>
-{"4.9 "}
+{"50+ "}
 <span className={"rating-small-text"}>
-{"/5.0"}
+{"machines"}
 </span>
 </div>
-<img src={"/assets/c1e963771d4c-68dcd945b4e886f71b7649aa_01.svg"} loading={"lazy"} alt={"Rating Image"} className={"rating-image"} />
+<img src={"/assets/onos-connection.svg"} loading={"lazy"} alt={"ONOS production"} className={"rating-image"} />
 </div>
 </div>
 <div data-w-id={"a502134d-7170-6735-c416-b637dce64a74"} style={{"opacity": "0"}} className={"about-info-box box-bg-dark"}>
 <div className={"about-image-wrap"}>
-<img src={"/assets/acc14bd76ebf-690092402be57032171eed75_about-round-image--2-.png"} loading={"lazy"} alt={"About Image Small"} className={"about-image-small image-one"} />
-<img src={"/assets/523c719f4d04-690092401550c668556b1522_about-round-image--3-.png"} loading={"lazy"} alt={"About Image Small"} className={"about-image-small image-two"} />
-<img src={"/assets/9a42f43e47b7-69009240e71084103dfc8390_about-round-image--1-.png"} loading={"lazy"} alt={"About Image Small"} className={"about-image-small image-three"} />
+<img src={"/assets/onos-partner-meeting-slot-acc14bd76ebf.webp"} loading={"lazy"} alt={"Onos team"} className={"about-image-small image-one"} />
+<img src={"/assets/onos-partner-meeting-slot-523c719f4d04.webp"} loading={"lazy"} alt={"Onos team"} className={"about-image-small image-two"} />
+<img src={"/assets/onos-partner-meeting-slot-9a42f43e47b7.webp"} loading={"lazy"} alt={"Onos team"} className={"about-image-small image-three"} />
 </div>
 <h2 className={"like-score"}>
-{"1 million"}
+{"2019"}
 <span className={"icon-primary"}>
-{"+"}
+{""}
 </span>
 </h2>
 <p className={"about-info-description"}>
-{"Precision-crafted components delivered globally"}
+{"The beginning of the ONOS journey."}
 </p>
 </div>
 </div>
@@ -372,13 +372,13 @@ export function Services() { return (
 <div className={"service-image-main"}>
 <img src={"/assets/919b6e982e1e-68dd10c0b38ff642330975ce_Icon-04.svg"} loading={"lazy"} alt={"Service Icon"} className={"service-icon"} />
 <div className={"service-image-wrap"}>
-<img src={"/assets/709f2e70e0a2-68df5fd46f6e13be0b0f8839_Service-Image--6-.webp"} loading={"lazy"} data-w-id={"d4d290b2-cf1f-2b7c-1c15-7a88dddc2d17"} alt={"Service Image"} sizes={"100vw"} srcSet={"/assets/215864445fe2-68df5fd46f6e13be0b0f8839_Service-Image--6--p-500.webp 500w, /assets/26b70e5f6f00-68df5fd46f6e13be0b0f8839_Service-Image--6--p-800.webp 800w, /assets/eeee5ecbc8c8-68df5fd46f6e13be0b0f8839_Service-Image--6--p-1080.webp 1080w, /assets/709f2e70e0a2-68df5fd46f6e13be0b0f8839_Service-Image--6-.webp 1400w"} className={"service-image"} />
+<img src={"/assets/onos-finishing-table-slot-709f2e70e0a2.webp"} loading={"lazy"} data-w-id={"d4d290b2-cf1f-2b7c-1c15-7a88dddc2d17"} alt={"Printed garments organised at the finishing table"} sizes={"100vw"} srcSet={"/assets/onos-finishing-table-slot-709f2e70e0a2-500w.webp 500w, /assets/onos-finishing-table-slot-709f2e70e0a2-800w.webp 800w, /assets/onos-finishing-table-slot-709f2e70e0a2-1080w.webp 1080w, /assets/onos-finishing-table-slot-709f2e70e0a2-1400w.webp 1400w"} className={"service-image"} />
 </div>
 </div>
 <div className={"service-content-wrap"}>
 <div className={"service-name-wrapper"}>
 <h2 className={"service-name"}>
-{"Product assembly"}
+{"Apparel & Fulfillment"}
 </h2>
 </div>
 <div className={"service-feature-list"}>
@@ -387,27 +387,27 @@ export function Services() { return (
 </div>
 <div className={"feature-list-item"}>
 <div className={"feature-item-inner"}>
-<img src={"/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"} loading={"lazy"} alt={"Feature Item Icon"} className={"feature-item-icon"} />
+<img src={"/assets/onos-connection.svg"} loading={"lazy"} alt={"ONOS production"} className={"feature-item-icon"} />
 <div className={"feature-item"}>
-{"Manual & automated assembly"}
+{"Sample development"}
 </div>
 </div>
 <div className={"feature-item-inner"}>
-<img src={"/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"} loading={"lazy"} alt={"Feature Item Icon"} className={"feature-item-icon"} />
+<img src={"/assets/onos-connection.svg"} loading={"lazy"} alt={"ONOS production"} className={"feature-item-icon"} />
 <div className={"feature-item"}>
-{"Functional testing protocols"}
+{"Garment production"}
 </div>
 </div>
 <div className={"feature-item-inner"}>
-<img src={"/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"} loading={"lazy"} alt={"Feature Item Icon"} className={"feature-item-icon"} />
+<img src={"/assets/onos-connection.svg"} loading={"lazy"} alt={"ONOS production"} className={"feature-item-icon"} />
 <div className={"feature-item"}>
-{"Custom packaging design"}
+{"Inspection and packing"}
 </div>
 </div>
 <div className={"feature-item-inner"}>
-<img src={"/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"} loading={"lazy"} alt={"Feature Item Icon"} className={"feature-item-icon"} />
+<img src={"/assets/onos-connection.svg"} loading={"lazy"} alt={"ONOS production"} className={"feature-item-icon"} />
 <div className={"feature-item"}>
-{"Supply chain management"}
+{"Shipping partner handover"}
 </div>
 </div>
 </div>
@@ -430,13 +430,13 @@ export function Services() { return (
 <div className={"service-image-main"}>
 <img src={"/assets/3d82ea8adf9e-68dd0f0f45f09a74e7a4e083_68dd045c0438e2e8731b21c1_Icon-2002.svg"} loading={"lazy"} alt={"Service Icon"} className={"service-icon"} />
 <div className={"service-image-wrap"}>
-<img src={"/assets/a1f02455f6d5-68df5fc3dd6919f447f80a49_Service-Image--1-.webp"} loading={"lazy"} data-w-id={"77cde797-b601-13a8-b976-f135a003b6a3"} alt={"Service Image"} sizes={"100vw"} srcSet={"/assets/1fcea65a1062-68df5fc3dd6919f447f80a49_Service-Image--1--p-500.webp 500w, /assets/f1505a4586ec-68df5fc3dd6919f447f80a49_Service-Image--1--p-800.webp 800w, /assets/6850729c4def-68df5fc3dd6919f447f80a49_Service-Image--1--p-1080.webp 1080w, /assets/a1f02455f6d5-68df5fc3dd6919f447f80a49_Service-Image--1-.webp 1400w"} className={"service-image"} />
+<img src={"/assets/onos-laser-cut-gifts-slot-a1f02455f6d5.webp"} loading={"lazy"} data-w-id={"77cde797-b601-13a8-b976-f135a003b6a3"} alt={"Personalised laser-cut wooden decor and gift products"} sizes={"100vw"} srcSet={"/assets/onos-laser-cut-gifts-slot-a1f02455f6d5-500w.webp 500w, /assets/onos-laser-cut-gifts-slot-a1f02455f6d5-800w.webp 800w, /assets/onos-laser-cut-gifts-slot-a1f02455f6d5-1080w.webp 1080w, /assets/onos-laser-cut-gifts-slot-a1f02455f6d5-1400w.webp 1400w"} className={"service-image"} />
 </div>
 </div>
 <div className={"service-content-wrap"}>
 <div className={"service-name-wrapper"}>
 <h2 className={"service-name"}>
-{"Sheet metal fabrication"}
+{"Laser Cutting & Engraving"}
 </h2>
 </div>
 <div className={"service-feature-list"}>
@@ -445,27 +445,27 @@ export function Services() { return (
 </div>
 <div className={"feature-list-item"}>
 <div className={"feature-item-inner"}>
-<img src={"/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"} loading={"lazy"} alt={"Feature Item Icon"} className={"feature-item-icon"} />
+<img src={"/assets/onos-connection.svg"} loading={"lazy"} alt={"ONOS production"} className={"feature-item-icon"} />
 <div className={"feature-item"}>
-{"Laser cutting up to 1\" thickness"}
+{"Personalized gifts"}
 </div>
 </div>
 <div className={"feature-item-inner"}>
-<img src={"/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"} loading={"lazy"} alt={"Feature Item Icon"} className={"feature-item-icon"} />
+<img src={"/assets/onos-connection.svg"} loading={"lazy"} alt={"ONOS production"} className={"feature-item-icon"} />
 <div className={"feature-item"}>
-{"Press brake forming"}
+{"Wood and acrylic"}
 </div>
 </div>
 <div className={"feature-item-inner"}>
-<img src={"/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"} loading={"lazy"} alt={"Feature Item Icon"} className={"feature-item-icon"} />
+<img src={"/assets/onos-connection.svg"} loading={"lazy"} alt={"ONOS production"} className={"feature-item-icon"} />
 <div className={"feature-item"}>
-{"TIG/MIG welding services"}
+{"Confirm material thickness"}
 </div>
 </div>
 <div className={"feature-item-inner"}>
-<img src={"/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"} loading={"lazy"} alt={"Feature Item Icon"} className={"feature-item-icon"} />
+<img src={"/assets/onos-connection.svg"} loading={"lazy"} alt={"ONOS production"} className={"feature-item-icon"} />
 <div className={"feature-item"}>
-{"Powder coating & finishing"}
+{"Approve a surface sample"}
 </div>
 </div>
 </div>
@@ -488,13 +488,13 @@ export function Services() { return (
 <div className={"service-image-main"}>
 <img src={"/assets/7b73a5e3512f-68dd0f10a657fd757cc63f70_68dd097ddfef66551e348204_Icon-2001.svg"} loading={"lazy"} alt={"Service Icon"} className={"service-icon"} />
 <div className={"service-image-wrap"}>
-<img src={"/assets/092f666590da-68df5fb4697d6800a50442a3_Service-Image--7-.webp"} loading={"lazy"} data-w-id={"fd6444eb-66fc-2dbd-3d3a-042d56ad9114"} alt={"Service Image"} sizes={"100vw"} srcSet={"/assets/d96091fcbd0a-68df5fb4697d6800a50442a3_Service-Image--7--p-500.webp 500w, /assets/787953046057-68df5fb4697d6800a50442a3_Service-Image--7--p-800.webp 800w, /assets/ca0b831883b7-68df5fb4697d6800a50442a3_Service-Image--7--p-1080.webp 1080w, /assets/092f666590da-68df5fb4697d6800a50442a3_Service-Image--7-.webp 1400w"} className={"service-image"} />
+<img src={"/assets/onos-dtg-machine-detail-slot-092f666590da.webp"} loading={"lazy"} data-w-id={"fd6444eb-66fc-2dbd-3d3a-042d56ad9114"} alt={"DTG printing machine at Onos"} sizes={"100vw"} srcSet={"/assets/onos-dtg-machine-detail-slot-092f666590da-500w.webp 500w, /assets/onos-dtg-machine-detail-slot-092f666590da-800w.webp 800w, /assets/onos-dtg-machine-detail-slot-092f666590da-1080w.webp 1080w, /assets/onos-dtg-machine-detail-slot-092f666590da-1400w.webp 1400w"} className={"service-image"} />
 </div>
 </div>
 <div className={"service-content-wrap"}>
 <div className={"service-name-wrapper"}>
 <h2 className={"service-name"}>
-{"CNC machining services"}
+{"DTG Printing"}
 </h2>
 </div>
 <div className={"service-feature-list"}>
@@ -503,27 +503,27 @@ export function Services() { return (
 </div>
 <div className={"feature-list-item"}>
 <div className={"feature-item-inner"}>
-<img src={"/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"} loading={"lazy"} alt={"Feature Item Icon"} className={"feature-item-icon"} />
+<img src={"/assets/onos-connection.svg"} loading={"lazy"} alt={"ONOS production"} className={"feature-item-icon"} />
 <div className={"feature-item"}>
-{"±0.0001\" tolerance capability"}
+{"Cotton apparel"}
 </div>
 </div>
 <div className={"feature-item-inner"}>
-<img src={"/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"} loading={"lazy"} alt={"Feature Item Icon"} className={"feature-item-icon"} />
+<img src={"/assets/onos-connection.svg"} loading={"lazy"} alt={"ONOS production"} className={"feature-item-icon"} />
 <div className={"feature-item"}>
-{"Multi-axis machining centers"}
+{"Detailed artwork"}
 </div>
 </div>
 <div className={"feature-item-inner"}>
-<img src={"/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"} loading={"lazy"} alt={"Feature Item Icon"} className={"feature-item-icon"} />
+<img src={"/assets/onos-connection.svg"} loading={"lazy"} alt={"ONOS production"} className={"feature-item-icon"} />
 <div className={"feature-item"}>
-{"Materials: Metals, plastics, composites"}
+{"Artwork placement"}
 </div>
 </div>
 <div className={"feature-item-inner"}>
-<img src={"/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"} loading={"lazy"} alt={"Feature Item Icon"} className={"feature-item-icon"} />
+<img src={"/assets/onos-connection.svg"} loading={"lazy"} alt={"ONOS production"} className={"feature-item-icon"} />
 <div className={"feature-item"}>
-{"Prototype to production volumes"}
+{"Approve a physical sample"}
 </div>
 </div>
 </div>
@@ -546,13 +546,13 @@ export function Services() { return (
 <div className={"service-image-main"}>
 <img src={"/assets/a9658e3178bd-68dd10d7260632638bde8850_Icon-03.svg"} loading={"lazy"} alt={"Service Icon"} className={"service-icon"} />
 <div className={"service-image-wrap"}>
-<img src={"/assets/f9aa8ad652f1-68df5f9eb1faa87c52dcbf9b_Service-Image--4-.webp"} loading={"lazy"} data-w-id={"ea75087c-806d-fa5f-23d1-e85b71fbeb59"} alt={"Service Image"} sizes={"100vw"} srcSet={"/assets/b7f3cc4d1234-68df5f9eb1faa87c52dcbf9b_Service-Image--4--p-500.webp 500w, /assets/b40286a28ab0-68df5f9eb1faa87c52dcbf9b_Service-Image--4--p-800.webp 800w, /assets/f4b19631b94c-68df5f9eb1faa87c52dcbf9b_Service-Image--4--p-1080.webp 1080w, /assets/f9aa8ad652f1-68df5f9eb1faa87c52dcbf9b_Service-Image--4-.webp 1400w"} className={"service-image"} />
+<img src={"/assets/onos-press-machines-row-slot-f9aa8ad652f1.webp"} loading={"lazy"} data-w-id={"ea75087c-806d-fa5f-23d1-e85b71fbeb59"} alt={"Heat press equipment at Onos"} sizes={"100vw"} srcSet={"/assets/onos-press-machines-row-slot-f9aa8ad652f1-500w.webp 500w, /assets/onos-press-machines-row-slot-f9aa8ad652f1-800w.webp 800w, /assets/onos-press-machines-row-slot-f9aa8ad652f1-1080w.webp 1080w, /assets/onos-press-machines-row-slot-f9aa8ad652f1-1400w.webp 1400w"} className={"service-image"} />
 </div>
 </div>
 <div className={"service-content-wrap"}>
 <div className={"service-name-wrapper"}>
 <h2 className={"service-name"}>
-{"Injection molding"}
+{"Sublimation Printing"}
 </h2>
 </div>
 <div className={"service-feature-list"}>
@@ -561,27 +561,27 @@ export function Services() { return (
 </div>
 <div className={"feature-list-item"}>
 <div className={"feature-item-inner"}>
-<img src={"/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"} loading={"lazy"} alt={"Feature Item Icon"} className={"feature-item-icon"} />
+<img src={"/assets/onos-connection.svg"} loading={"lazy"} alt={"ONOS production"} className={"feature-item-icon"} />
 <div className={"feature-item"}>
-{"50-1000 ton molding machines"}
+{"Polyester apparel"}
 </div>
 </div>
 <div className={"feature-item-inner"}>
-<img src={"/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"} loading={"lazy"} alt={"Feature Item Icon"} className={"feature-item-icon"} />
+<img src={"/assets/onos-connection.svg"} loading={"lazy"} alt={"ONOS production"} className={"feature-item-icon"} />
 <div className={"feature-item"}>
-{"Multi-cavity tooling design"}
+{"All-over artwork"}
 </div>
 </div>
 <div className={"feature-item-inner"}>
-<img src={"/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"} loading={"lazy"} alt={"Feature Item Icon"} className={"feature-item-icon"} />
+<img src={"/assets/onos-connection.svg"} loading={"lazy"} alt={"ONOS production"} className={"feature-item-icon"} />
 <div className={"feature-item"}>
-{"Insert molding capabilities"}
+{"Sportswear"}
 </div>
 </div>
 <div className={"feature-item-inner"}>
-<img src={"/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"} loading={"lazy"} alt={"Feature Item Icon"} className={"feature-item-icon"} />
+<img src={"/assets/onos-connection.svg"} loading={"lazy"} alt={"ONOS production"} className={"feature-item-icon"} />
 <div className={"feature-item"}>
-{"Cleanroom Fabrication Unit"}
+{"Check colour on your fabric"}
 </div>
 </div>
 </div>
@@ -601,7 +601,7 @@ export function Services() { return (
 </div>
 </div>
 <div className={"cta-wrap"}>
-<div data-w-id={"2a6fecb6-c324-2a47-4e56-63bf9666fe76"} style={{"opacity": "0"}} className={"cta-info-wrapper"}>
+<div data-w-id={"2a6fecb6-c324-2a47-4e56-63bf9666fe76"} style={{"opacity": "0", "backgroundImage": "url(\"/assets/onos-production-floor.webp\")"}} className={"cta-info-wrapper"}>
 <div className={"cta-info-inner"}>
 <h2 className={"cta-text"}>
 {"Ready to start your "}
@@ -614,10 +614,10 @@ export function Services() { return (
 <div className={"button-text-wrap"}>
 <div className={"button-text-inner"}>
 <div className={"button-text"}>
-{"Schedule Consultation"}
+{"Request a Quote"}
 </div>
 <div className={"button-hover-text"}>
-{"Schedule Consultation"}
+{"Request a Quote"}
 </div>
 </div>
 </div>
@@ -647,17 +647,17 @@ export function Projects() { return (
 
 </div>
 <div className={"pre-section-title"}>
-{"Real-world success"}
+{"Inside ONOS production"}
 </div>
 </div>
 </div>
 <div className={"section-title-wrap one"}>
 <h2 data-w-id={"9d872462-3a61-1c11-5760-a0f5066f94a7"} style={{"opacity": "0"}} className={"section-title"}>
-{"Real "}
+{"From "}
 <span className={"text-linear-gradient"}>
-{"results"}
+{"ideas"}
 </span>
-{" from real projects"}
+{" to finished products"}
 </h2>
 </div>
 </div>
@@ -673,19 +673,19 @@ export function Projects() { return (
 <div className={"case-study-inner"}>
 <div className={"case-study-content-wrap"}>
 <h3 className={"case-study-name"}>
-{"Lightweight castings for Industrial equipment"}
+{"Printed cotton apparel"}
 </h3>
 <p className={"case-study-description"}>
-{"Redesigned metal castings to reduce material use and maintain strength, optimizing cost and weight."}
+{"DTG printing brings detailed designs to cotton and cotton-rich apparel."}
 </p>
 </div>
 <div className={"case-study-score-info"}>
 <div className={"case-study-score-info-inner"}>
 <h3 className={"case-study-score"}>
-{"35%"}
+{"DTG"}
 </h3>
 <div className={"case-study-score-text"}>
-{"Heavy-duty machinery"}
+{"Cotton apparel"}
 </div>
 </div>
 <div className={"case-study-button"}>
@@ -715,8 +715,8 @@ export function Projects() { return (
 <div className={"case-study-info-right"}>
 <a data-w-id={"8acda32a-e4ec-bc3a-243e-32b1eadb1dc1"} href={"/case-study/lightweight-castings-for-industrial-equipment"} className={"case-study-link w-inline-block"}>
 <div className={"case-study-image-info"}>
-<img src={"/assets/79a31a2d5450-68e254aa0bf150d8b71ead93_Case-Study-Image-1.webp"} loading={"lazy"} data-w-id={"844109a7-16c9-b242-3848-f6eb21546640"} alt={"Case Study Image "} sizes={"100vw"} srcSet={"/assets/8b2b95881eb7-68e254aa0bf150d8b71ead93_Case-Study-Image-1-p-500.webp 500w, /assets/79a31a2d5450-68e254aa0bf150d8b71ead93_Case-Study-Image-1.webp 761w"} className={"case-study-image"} />
-<img src={"/assets/03147d08ed83-68e2579794f0ac3ba256d484_Client-Image.svg"} loading={"lazy"} alt={"Case Study Logo"} className={"case-study-logo"} />
+<img src={"/assets/onos-finishing-table-slot-79a31a2d5450.webp"} loading={"lazy"} data-w-id={"844109a7-16c9-b242-3848-f6eb21546640"} alt={"Printed garments organised at the finishing table"} sizes={"100vw"} srcSet={"/assets/onos-finishing-table-slot-79a31a2d5450-500w.webp 500w, /assets/onos-finishing-table-slot-79a31a2d5450-761w.webp 761w"} className={"case-study-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"case-study-logo"} />
 <div className={"case-study-image-layout"}>
 
 </div>
@@ -737,19 +737,19 @@ export function Projects() { return (
 <div className={"case-study-inner"}>
 <div className={"case-study-content-wrap"}>
 <h3 className={"case-study-name"}>
-{"Precision CNC milling for automotive components"}
+{"DTG artwork preparation"}
 </h3>
 <p className={"case-study-description"}>
-{"Improved machining process to achieve tighter tolerances and faster production cycles for car parts."}
+{"Confirm fabric composition, garment colour, artwork size and placement before printing."}
 </p>
 </div>
 <div className={"case-study-score-info"}>
 <div className={"case-study-score-info-inner"}>
 <h3 className={"case-study-score"}>
-{"54%"}
+{"ART"}
 </h3>
 <div className={"case-study-score-text"}>
-{"Engine parts"}
+{"Artwork review"}
 </div>
 </div>
 <div className={"case-study-button"}>
@@ -779,8 +779,8 @@ export function Projects() { return (
 <div className={"case-study-info-right"}>
 <a data-w-id={"6bffbb23-d411-347f-db2d-076268f89e48"} href={"/case-study/precision-cnc-milling-for-automotive-components"} className={"case-study-link w-inline-block"}>
 <div className={"case-study-image-info"}>
-<img src={"/assets/f43d8b900690-68e254b81d5a9819d9c132b7_Case-Study-Image-2.webp"} loading={"lazy"} data-w-id={"6bffbb23-d411-347f-db2d-076268f89e4a"} alt={"Case Study Image "} sizes={"100vw"} srcSet={"/assets/16d6609a4608-68e254b81d5a9819d9c132b7_Case-Study-Image-2-p-500.webp 500w, /assets/f43d8b900690-68e254b81d5a9819d9c132b7_Case-Study-Image-2.webp 760w"} className={"case-study-image"} />
-<img src={"/assets/bfcfa2bfb293-68e257aed761fb3533200be5_Client-Image-2.svg"} loading={"lazy"} alt={"Case Study Logo"} className={"case-study-logo"} />
+<img src={"/assets/onos-dtg-machine-detail-slot-f43d8b900690.webp"} loading={"lazy"} data-w-id={"6bffbb23-d411-347f-db2d-076268f89e4a"} alt={"DTG printing machine at Onos"} sizes={"100vw"} srcSet={"/assets/onos-dtg-machine-detail-slot-f43d8b900690-500w.webp 500w, /assets/onos-dtg-machine-detail-slot-f43d8b900690-760w.webp 760w"} className={"case-study-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"case-study-logo"} />
 <div className={"case-study-image-layout"}>
 
 </div>
@@ -801,19 +801,19 @@ export function Projects() { return (
 <div className={"case-study-inner"}>
 <div className={"case-study-content-wrap"}>
 <h3 className={"case-study-name"}>
-{"Additive manufacturing for custom tooling"}
+{"Personalized laser-cut gifts"}
 </h3>
 <p className={"case-study-description"}>
-{"Implemented 3D-printed tools to accelerate prototyping and reduce lead time in production."}
+{"Laser cutting and engraving for personalized gifts and decor in suitable materials."}
 </p>
 </div>
 <div className={"case-study-score-info"}>
 <div className={"case-study-score-info-inner"}>
 <h3 className={"case-study-score"}>
-{"50%"}
+{"LASER"}
 </h3>
 <div className={"case-study-score-text"}>
-{"Traditional tooling"}
+{"Gifts and decor"}
 </div>
 </div>
 <div className={"case-study-button"}>
@@ -843,8 +843,8 @@ export function Projects() { return (
 <div className={"case-study-info-right"}>
 <a data-w-id={"e41d84f7-eb50-c101-59a2-4cd8c62f3064"} href={"/case-study/additive-manufacturing-for-custom-tooling"} className={"case-study-link w-inline-block"}>
 <div className={"case-study-image-info"}>
-<img src={"/assets/291661be0b4b-68e254c45dd2bac47a1b73ea_Case-Study-Image-3.webp"} loading={"lazy"} data-w-id={"e41d84f7-eb50-c101-59a2-4cd8c62f3066"} alt={"Case Study Image "} sizes={"100vw"} srcSet={"/assets/56a8602db7a1-68e254c45dd2bac47a1b73ea_Case-Study-Image-3-p-500.webp 500w, /assets/291661be0b4b-68e254c45dd2bac47a1b73ea_Case-Study-Image-3.webp 760w"} className={"case-study-image"} />
-<img src={"/assets/cf0de23d4c0d-68e33a4abcec2d6e55eac7d0_Client-Image-3.svg"} loading={"lazy"} alt={"Case Study Logo"} className={"case-study-logo"} />
+<img src={"/assets/onos-laser-cut-gifts-slot-291661be0b4b.webp"} loading={"lazy"} data-w-id={"e41d84f7-eb50-c101-59a2-4cd8c62f3066"} alt={"Personalised laser-cut wooden decor and gift products"} sizes={"100vw"} srcSet={"/assets/onos-laser-cut-gifts-slot-291661be0b4b-500w.webp 500w, /assets/onos-laser-cut-gifts-slot-291661be0b4b-760w.webp 760w"} className={"case-study-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"case-study-logo"} />
 <div className={"case-study-image-layout"}>
 
 </div>
@@ -865,19 +865,19 @@ export function Projects() { return (
 <div className={"case-study-inner"}>
 <div className={"case-study-content-wrap"}>
 <h3 className={"case-study-name"}>
-{"Automated assembly line optimization"}
+{"Apparel finishing and fulfillment"}
 </h3>
 <p className={"case-study-description"}>
-{"Streamlined assembly processes with robotics, reducing labor costs and improving output consistency."}
+{"Printed and embroidered garments are checked, finished and packed for shipping partner handover."}
 </p>
 </div>
 <div className={"case-study-score-info"}>
 <div className={"case-study-score-info-inner"}>
 <h3 className={"case-study-score"}>
-{"40%"}
+{"PACK"}
 </h3>
 <div className={"case-study-score-text"}>
-{"Assembly process"}
+{"Order preparation"}
 </div>
 </div>
 <div className={"case-study-button"}>
@@ -907,8 +907,8 @@ export function Projects() { return (
 <div className={"case-study-info-right"}>
 <a data-w-id={"29aa1c23-697a-a5b6-b178-a0342072fe9f"} href={"/case-study/automated-assembly-line-optimization"} className={"case-study-link w-inline-block"}>
 <div className={"case-study-image-info"}>
-<img src={"/assets/060aab7641ed-68e254eb0b7b84e9f4def04e_case-study-image-4.webp"} loading={"lazy"} data-w-id={"29aa1c23-697a-a5b6-b178-a0342072fea1"} alt={"Case Study Image "} sizes={"100vw"} srcSet={"/assets/570acbb9781e-68e254eb0b7b84e9f4def04e_case-study-image-4-p-500.webp 500w, /assets/060aab7641ed-68e254eb0b7b84e9f4def04e_case-study-image-4.webp 760w"} className={"case-study-image"} />
-<img src={"/assets/fa8efdba11e5-68e33b240f41e4018e30d8e1_Client-Image-4.svg"} loading={"lazy"} alt={"Case Study Logo"} className={"case-study-logo"} />
+<img src={"/assets/onos-warehouse-inventory-slot-060aab7641ed.webp"} loading={"lazy"} data-w-id={"29aa1c23-697a-a5b6-b178-a0342072fea1"} alt={"Organised garment inventory at the Onos warehouse"} sizes={"100vw"} srcSet={"/assets/onos-warehouse-inventory-slot-060aab7641ed-500w.webp 500w, /assets/onos-warehouse-inventory-slot-060aab7641ed-760w.webp 760w"} className={"case-study-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"case-study-logo"} />
 <div className={"case-study-image-layout"}>
 
 </div>
@@ -929,19 +929,19 @@ export function Projects() { return (
 <div className={"case-study-inner"}>
 <div className={"case-study-content-wrap"}>
 <h3 className={"case-study-name"}>
-{"Surface treatment innovation for corrosion resistance"}
+{"Embroidery for brand identity"}
 </h3>
 <p className={"case-study-description"}>
-{"Developed a new coating process to extend the lifespan of metal parts in harsh environments."}
+{"Digitized embroidery brings raised logo details to caps, polos and bags."}
 </p>
 </div>
 <div className={"case-study-score-info"}>
 <div className={"case-study-score-info-inner"}>
 <h3 className={"case-study-score"}>
-{"65%"}
+{"LOGO"}
 </h3>
 <div className={"case-study-score-text"}>
-{"Metal parts"}
+{"Caps, polos and bags"}
 </div>
 </div>
 <div className={"case-study-button"}>
@@ -971,8 +971,8 @@ export function Projects() { return (
 <div className={"case-study-info-right"}>
 <a data-w-id={"2f849f1b-3676-ed33-20c8-0819c11eb78c"} href={"/case-study/surface-treatment-innovation-for-corrosion-resistance"} className={"case-study-link w-inline-block"}>
 <div className={"case-study-image-info"}>
-<img src={"/assets/0cce9e8f6c9c-68e2550a6393cda20820810b_case-study-image-5.webp"} loading={"lazy"} data-w-id={"2f849f1b-3676-ed33-20c8-0819c11eb78e"} alt={"Case Study Image "} sizes={"100vw"} srcSet={"/assets/248f38f36333-68e2550a6393cda20820810b_case-study-image-5-p-500.webp 500w, /assets/0cce9e8f6c9c-68e2550a6393cda20820810b_case-study-image-5.webp 760w"} className={"case-study-image"} />
-<img src={"/assets/ab05bb3ff732-68e33b2be1011afe9783e44e_Client-image-5.svg"} loading={"lazy"} alt={"Case Study Logo"} className={"case-study-logo"} />
+<img src={"/assets/onos-equipment-embroidery-slot-0cce9e8f6c9c.webp"} loading={"lazy"} data-w-id={"2f849f1b-3676-ed33-20c8-0819c11eb78e"} alt={"An Onos operator checking embroidery on garments"} sizes={"100vw"} srcSet={"/assets/onos-equipment-embroidery-slot-0cce9e8f6c9c-500w.webp 500w, /assets/onos-equipment-embroidery-slot-0cce9e8f6c9c-760w.webp 760w"} className={"case-study-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"case-study-logo"} />
 <div className={"case-study-image-layout"}>
 
 </div>
@@ -1000,12 +1000,12 @@ export function Projects() { return (
 <div className={"help-info-left"}>
 <div className={"help-info-inner"}>
 <div className={"help-line-image-wrap"}>
-<img src={"/assets/89e9c4c56e8a-68e0b1d7773807a49628d175_testimonial-images--3-.png"} loading={"lazy"} alt={"Help Line Image"} className={"help-line-image"} />
-<img src={"/assets/7637ca827e29-68e0b1d79b260e7f43f3773b_testimonial-images--1-.png"} loading={"lazy"} alt={"Help Line Image"} className={"help-line-image one"} />
+<img src={"/assets/onos-production-floor-slot-89e9c4c56e8a.webp"} loading={"lazy"} alt={"Epson print production with an automated conveyor at Onos"} className={"help-line-image"} />
+<img src={"/assets/onos-partner-meeting-slot-7637ca827e29.webp"} loading={"lazy"} alt={"Onos team"} className={"help-line-image one"} />
 </div>
 <div className={"help-line-content-wrap"}>
 <h3 className={"help-line-title"}>
-{"Need some help?"}
+{"Plan your production"}
 </h3>
 <div className={"help-line-text"}>
 {"We’re here to provide support and assistance."}
@@ -1019,10 +1019,10 @@ export function Projects() { return (
 <div className={"button-text-wrap"}>
 <div className={"button-text-inner"}>
 <div className={"button-text"}>
-{"Contact us now"}
+{"Contact"}
 </div>
 <div className={"button-hover-text"}>
-{"Contact us now"}
+{"Contact"}
 </div>
 </div>
 </div>
@@ -1052,52 +1052,52 @@ export function Testimonials() { return (
 
 </div>
 <div className={"pre-section-title"}>
-{"Built on trust"}
+{"Customer testimonials"}
 </div>
 </div>
 </div>
 <h2 className={"section-title title-center"}>
-{"Trusted by "}
+{"Testimonials "}
 <span className={"text-linear-gradient"}>
-{"clients"}
+{"pending"}
 </span>
-{", proven by results"}
+{" ONOS review"}
 </h2>
 </div>
 <div className={"w-layout-grid grid-testimonial"}>
 <div data-w-id={"5b9d076c-a381-6e6a-9705-5ca5cc1c9344"} style={{"opacity": "0"}} data-current={"Tab 1"} data-easing={"ease"} data-duration-in={"300"} data-duration-out={"100"} className={"testimonial-tabs w-tabs"}>
 <div className={"testimonial-tabs-menu w-tab-menu"}>
 <a data-w-tab={"Tab 1"} className={"testimonial-tabs-link w-inline-block w-tab-link w--current"}>
-<img loading={"lazy"} src={"/assets/7637ca827e29-68e0b1d79b260e7f43f3773b_testimonial-images--1-.png"} alt={"Testimonial Image"} className={"testimonial-image"} />
+<img loading={"lazy"} src={"/assets/onos-partner-meeting-slot-7637ca827e29.webp"} alt={"Onos team"} className={"testimonial-image"} />
 </a>
 <a data-w-tab={"Tab 2"} className={"testimonial-tabs-link w-inline-block w-tab-link"}>
-<img loading={"lazy"} src={"/assets/f950461d7bef-690300862ee7924a815a73f2_Client-images--2-.webp"} alt={"Testimonial Image"} className={"testimonial-image"} />
+<img loading={"lazy"} src={"/assets/onos-sample-development-slot-f950461d7bef.webp"} alt={"The Onos team reviewing product samples and materials"} className={"testimonial-image"} />
 </a>
 <a data-w-tab={"Tab 3"} className={"testimonial-tabs-link w-inline-block w-tab-link"}>
-<img loading={"lazy"} src={"/assets/89e9c4c56e8a-68e0b1d7773807a49628d175_testimonial-images--3-.png"} alt={"Testimonial Image"} className={"testimonial-image"} />
+<img loading={"lazy"} src={"/assets/onos-production-floor-slot-89e9c4c56e8a.webp"} alt={"Epson print production with an automated conveyor at Onos"} className={"testimonial-image"} />
 </a>
 <a data-w-tab={"Tab 4"} className={"testimonial-tabs-link w-inline-block w-tab-link"}>
-<img loading={"lazy"} src={"/assets/ee6643d259cd-68e0b1d754d6ce41f9b34fb8_testimonial-images--4-.png"} alt={"Testimonial Image"} className={"testimonial-image"} />
+<img loading={"lazy"} src={"/assets/onos-warehouse-inventory-slot-ee6643d259cd.webp"} alt={"Organised garment inventory at the Onos warehouse"} className={"testimonial-image"} />
 </a>
 <a data-w-tab={"Tab 5"} className={"testimonial-tabs-link w-inline-block w-tab-link"}>
-<img loading={"lazy"} src={"/assets/cd85abd121f8-68e0b1d7e5dc788e9f17f966_testimonial-images--5-.png"} alt={"Testimonial Image"} className={"testimonial-image"} />
+<img loading={"lazy"} src={"/assets/onos-finishing-table-slot-cd85abd121f8.webp"} alt={"Printed garments organised at the finishing table"} className={"testimonial-image"} />
 </a>
 </div>
 <div className={"testimonial-tabs-content w-tab-content"}>
 <div data-w-tab={"Tab 1"} className={"testimonial-tabs-pane w-tab-pane w--tab-active"}>
 <div className={"testimonial-info"}>
 <div className={"testimonial-info-inner"}>
-<img loading={"lazy"} src={"/assets/569f9df35283-68e0b53000060b17ea5a6b03_Testimonial-Star.svg"} alt={"Testimonial Star"} className={"testimonial-star"} />
+<img loading={"lazy"} src={"/assets/onos-connection.svg"} alt={"ONOS production"} className={"testimonial-star"} />
 <p className={"testimonial-description"}>
-{"The team’s dedication and innovative approach transformed our ideas into reality. Every stage of the project was handled with care and expertise."}
+{"Content review pending. No verified ONOS customer testimonial has been supplied."}
 </p>
 </div>
 <div className={"author-details"}>
 <h3 className={"author-name"}>
-{"Emily carter"}
+{"Awaiting ONOS review"}
 </h3>
 <div className={"author-job-title"}>
-{"Product Designer "}
+{"Customer testimonial pending"}
 </div>
 </div>
 </div>
@@ -1105,17 +1105,17 @@ export function Testimonials() { return (
 <div data-w-tab={"Tab 2"} className={"testimonial-tabs-pane w-tab-pane"}>
 <div className={"testimonial-info"}>
 <div className={"testimonial-info-inner"}>
-<img loading={"lazy"} src={"/assets/569f9df35283-68e0b53000060b17ea5a6b03_Testimonial-Star.svg"} alt={"Testimonial Star"} className={"testimonial-star"} />
+<img loading={"lazy"} src={"/assets/onos-connection.svg"} alt={"ONOS production"} className={"testimonial-star"} />
 <p className={"testimonial-description"}>
-{"The precision and efficiency they demonstrated made the entire process effortless. I highly recommend them for any technical project."}
+{"Content review pending. No verified ONOS customer testimonial has been supplied."}
 </p>
 </div>
 <div className={"author-details"}>
 <h3 className={"author-name"}>
-{"Liam thompson"}
+{"Awaiting ONOS review"}
 </h3>
 <div className={"author-job-title"}>
-{"Operations Manager"}
+{"Customer testimonial pending"}
 </div>
 </div>
 </div>
@@ -1123,17 +1123,17 @@ export function Testimonials() { return (
 <div data-w-tab={"Tab 3"} className={"testimonial-tabs-pane w-tab-pane"}>
 <div className={"testimonial-info"}>
 <div className={"testimonial-info-inner"}>
-<img loading={"lazy"} src={"/assets/569f9df35283-68e0b53000060b17ea5a6b03_Testimonial-Star.svg"} alt={"Testimonial Star"} className={"testimonial-star"} />
+<img loading={"lazy"} src={"/assets/onos-connection.svg"} alt={"ONOS production"} className={"testimonial-star"} />
 <p className={"testimonial-description"}>
-{"Their precision engineering and attention to detail exceeded our expectations. From prototyping to delivery, the entire process was seamless and professional."}
+{"Content review pending. No verified ONOS customer testimonial has been supplied."}
 </p>
 </div>
 <div className={"author-details"}>
 <h3 className={"author-name"}>
-{"John matthews"}
+{"Awaiting ONOS review"}
 </h3>
 <div className={"author-job-title"}>
-{"Procurement Manager"}
+{"Customer testimonial pending"}
 </div>
 </div>
 </div>
@@ -1144,17 +1144,17 @@ export function Testimonials() { return (
 <div data-w-tab={"Tab 4"} className={"testimonial-tabs-pane w-tab-pane"}>
 <div className={"testimonial-info"}>
 <div className={"testimonial-info-inner"}>
-<img loading={"lazy"} src={"/assets/569f9df35283-68e0b53000060b17ea5a6b03_Testimonial-Star.svg"} alt={"Testimonial Star"} className={"testimonial-star"} />
+<img loading={"lazy"} src={"/assets/onos-connection.svg"} alt={"ONOS production"} className={"testimonial-star"} />
 <p className={"testimonial-description"}>
-{"I was impressed by their professionalism and attention to detail. Communication was clear, and the final product exceeded our expectations."}
+{"Content review pending. No verified ONOS customer testimonial has been supplied."}
 </p>
 </div>
 <div className={"author-details"}>
 <h3 className={"author-name"}>
-{"Sofia ramirez"}
+{"Awaiting ONOS review"}
 </h3>
 <div className={"author-job-title"}>
-{"Marketing Lead at BrightWave Tech"}
+{"Customer testimonial pending"}
 </div>
 </div>
 </div>
@@ -1162,17 +1162,17 @@ export function Testimonials() { return (
 <div data-w-tab={"Tab 5"} className={"testimonial-tabs-pane w-tab-pane"}>
 <div className={"testimonial-info"}>
 <div className={"testimonial-info-inner"}>
-<img loading={"lazy"} src={"/assets/569f9df35283-68e0b53000060b17ea5a6b03_Testimonial-Star.svg"} alt={"Testimonial Star"} className={"testimonial-star"} />
+<img loading={"lazy"} src={"/assets/onos-connection.svg"} alt={"ONOS production"} className={"testimonial-star"} />
 <p className={"testimonial-description"}>
-{"The level of professionalism and commitment to quality was exceptional. Every detail was meticulously handled, making our collaboration stress-free."}
+{"Content review pending. No verified ONOS customer testimonial has been supplied."}
 </p>
 </div>
 <div className={"author-details"}>
 <h3 className={"author-name"}>
-{"Ethan brooks"}
+{"Awaiting ONOS review"}
 </h3>
 <div className={"author-job-title"}>
-{"Project Coordinator at Stellar Industries"}
+{"Customer testimonial pending"}
 </div>
 </div>
 </div>
@@ -1182,12 +1182,12 @@ export function Testimonials() { return (
 <div className={"testimonial-more-info"}>
 <div data-w-id={"3c0ff7e9-dac1-81ef-d189-54acdf24a6e9"} style={{"opacity": "0"}} className={"testimonial-inner"}>
 <div className={"testimonial-image-wrap"}>
-<img src={"/assets/2012b8c229c2-68e0bd5d62070af5476040b7_01.webp"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/23eb24f9ba4f-68e0bd5d62070af5476040b7_01-p-500.webp 500w, /assets/2012b8c229c2-68e0bd5d62070af5476040b7_01.webp 524w"} alt={"Testimonial Info  Image "} className={"testimonial-info-image"} />
+<img src={"/assets/onos-partner-meeting-slot-2012b8c229c2.webp"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/onos-partner-meeting-slot-2012b8c229c2-500w.webp 500w, /assets/onos-partner-meeting-slot-2012b8c229c2-524w.webp 524w"} alt={"Onos team"} className={"testimonial-info-image"} />
 <div className={"testimonial-layout"}>
 <div className={"logo-info-text"}>
-{"// 2005-2K25 //"}
+{"// VIETNAM ↔ USA //"}
 </div>
-<img src={"/assets/a19694e03003-6903036277cea5ae1a2d9233_Brand-White.svg"} loading={"lazy"} alt={"Logo  Image"} className={"logo-image"} />
+<img src={"/assets/onos-wordmark-light.svg"} loading={"lazy"} alt={"ONOS Global"} className={"logo-image"} />
 </div>
 </div>
 <div className={"testimonial-counter-wrapper"}>
@@ -1195,35 +1195,35 @@ export function Testimonials() { return (
 <div className={"counter"}>
 <div className={"inner-number testimonial-counter"}>
 <div className={"numbers-counts"}>
-<div data-target={"98"} className={"count"}>
-{"98"}
+<div data-target={"3"} className={"count"}>
+{"3"}
 </div>
 </div>
 <div className={"counter-symbol text-dark"}>
 <div>
-{"%"}
+{""}
 </div>
 </div>
 </div>
 <div className={"counter-text"}>
-{"On-Time delivery rate"}
+{"Connected factories"}
 </div>
 </div>
 <div className={"counter"}>
 <div className={"inner-number testimonial-counter"}>
 <div className={"numbers-counts"}>
-<div data-target={"50"} className={"count"}>
-{"50"}
+<div data-target={"2"} className={"count"}>
+{"2"}
 </div>
 </div>
 <div className={"counter-symbol text-dark"}>
 <div>
-{"+"}
+{""}
 </div>
 </div>
 </div>
 <div className={"counter-text"}>
-{"Skilled professionals"}
+{"Countries connected"}
 </div>
 </div>
 </div>
@@ -1235,10 +1235,10 @@ export function Testimonials() { return (
 <img src={"/assets/5c6703911d28-68e0bd5d66fbd6635638ea42_Icon.svg"} loading={"lazy"} alt={"Support Icon"} className={"support-icon"} />
 <div>
 <h3 className={"support-title"}>
-{"Need help choosing the right product?"}
+{"Need help choosing a production method?"}
 </h3>
 <p className={"support-description"}>
-{"Always ready with guidance, product details, and after-sales support."}
+{"Share your design, material and product idea with the ONOS team."}
 </p>
 </div>
 <div className={"support-button"}>
@@ -1247,10 +1247,10 @@ export function Testimonials() { return (
 <div className={"button-text-wrap"}>
 <div className={"button-text-inner"}>
 <div className={"button-text"}>
-{"Contact Support"}
+{"Contact"}
 </div>
 <div className={"button-hover-text"}>
-{"Contact Support"}
+{"Contact"}
 </div>
 </div>
 </div>

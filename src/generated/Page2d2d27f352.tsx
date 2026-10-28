@@ -2,7 +2,7 @@
 import { SiteRuntime } from "@/components/SiteRuntime";
 import { Footerff0835e88c, Navbar5de3fbdae5 } from "@/components/SiteChrome";
 
-export const metadata = {"title": "Top 5 materials revolutionizing industrial components", "description": "New-age materials like carbon fiber and titanium boost strength and reduce weight. They enhance durability and performance across industries. Innovation in materials is redefining modern manufacturing.", "openGraph": {"title": "Top 5 materials revolutionizing industrial components", "description": "New-age materials like carbon fiber and titanium boost strength and reduce weight. They enhance durability and performance across industries. Innovation in materials is redefining modern manufacturing.", "images": ["/assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp"]}};
+export const metadata = {"title":"Choosing materials for your apparel | ONOS Global","description":"DTG suits cotton and cotton-rich garments. Confirm fabric composition, garment colour, artwork size and print position.","openGraph":{"title":"Choosing materials for your apparel | ONOS Global","description":"DTG suits cotton and cotton-rich garments. Confirm fabric composition, garment colour, artwork size and print position.","images":["/assets/onos-finishing-table.webp"]},"robots":{"index":false,"follow":true}};
 export default function Page2d2d27f352() {
 const activePath = "/blog/top-5-materials-revolutionizing-industrial-components";
 return <>
@@ -13,19 +13,19 @@ return <>
 <div data-w-id={"57ad97ff-6e17-bb27-fb1a-35879195ab14"} style={{"opacity": "0"}} className={"hero-inner-wrap"}>
 <div className={"blog-category-wrap"}>
 <div className={"blog-hero-date"}>
-{"October 17, 2025"}
+{"ONOS production guide"}
 </div>
 <div className={"blog-category bg-change"}>
-{"Advanced materials"}
+{"Materials"}
 </div>
 </div>
 <h1 className={"hero-inner-title"}>
-{"Top 5 materials revolutionizing industrial components"}
+{"Choosing materials for your apparel"}
 </h1>
 <p className={"hero-inner-description"}>
-{"New-age materials like carbon fiber and titanium boost strength and reduce weight. They enhance durability and performance across industries. Innovation in materials is redefining modern manufacturing."}
+{"DTG suits cotton and cotton-rich garments. Confirm fabric composition, garment colour, artwork size and print position."}
 </p>
-<img src={"/assets/a412c318c8fb-68e34c2b5b4fb72c7d9dd691_blog-big-image-2.webp"} loading={"eager"} alt={"Blog Image"} className={"hero-inner-image"} />
+<img src={"/assets/onos-finishing-table-slot-a412c318c8fb.webp"} loading={"eager"} alt={"Printed garments organised at the finishing table"} className={"hero-inner-image"} />
 </div>
 </div>
 </div>
@@ -33,53 +33,53 @@ return <>
 <div className={"w-layout-blockcontainer container-medium w-container"}>
 <div className={"blog-rich-text w-richtext"}>
 <h5>
-{"The most common business debate isn't as black and white as you might think"}
+{"Before production"}
 </h5>
 <p>
-{"In today’s fast-evolving industrial landscape, material innovation stands at the forefront of progress. The development of advanced materials such as composites, smart polymers, high-performance alloys, ceramics, and nanomaterials has completely transformed how industrial components are designed and manufactured. These materials not only enhance mechanical strength and thermal stability but also promote lightweight construction, energy efficiency, and environmental sustainability."}
+{"DTG suits cotton and cotton-rich garments. Confirm fabric composition, garment colour, artwork size and print position."}
 </p>
 <ul role={"list"}>
 <li>
-{"Enhanced strength-to-weight ratio"}
+{"Confirm your product"}
 </li>
 <li>
-{"Improved corrosion and heat resistance"}
+{"Share your artwork"}
 </li>
 <li>
-{"Greater design flexibility and precision"}
+{"Review the material"}
 </li>
 <li>
-{"Increased energy efficiency and durability"}
+{"Agree the sample"}
 </li>
 <li>
-{"Reduced manufacturing costs and waste"}
+{"Discuss the shipping plan"}
 </li>
 </ul>
 <p>
-{"The integration of revolutionary materials is transforming industrial production at every level. By combining strength, efficiency, and sustainability, these materials are powering a new era of manufacturing innovation. As industries evolve, the adoption of advanced materials will remain the cornerstone of progress and performance."}
+{"Sublimation suits polyester apparel and sportswear. Confirm fabric composition, base colour, pattern layout and seams. Check colour on the intended material."}
 </p>
 <figure style={{"paddingBottom": "56.206088992974244%"}} className={"w-richtext-align-fullwidth w-richtext-figure-type-video"}>
 <div>
-<iframe src={"/assets/bcf85a6254b8--U0IXSmp6kc"} scrolling={"no"} frameBorder={"0"} allowFullScreen={true}>
+<iframe src={"/assets/onos-production-reel.mp4"} scrolling={"no"} frameBorder={"0"} allowFullScreen={true}>
 
 </iframe>
 </div>
 </figure>
 <h5>
-{"Ten questions you should answer truthfully"}
+{"Prepare your order"}
 </h5>
 <p>
-{"The rise of advanced materials has revolutionized industrial manufacturing, introducing superior performance, energy efficiency, and sustainability across every production stage. From aerospace to electronics, these materials are setting new industry standards. Lightweight composites, high-strength alloys, and smart materials are helping industries overcome limitations of traditional metals and plastics, allowing more efficient designs with enhanced durability and reduced environmental impact."}
+{"Embroidery can be used for suitable caps, polo shirts and bags. Share logo dimensions and position so fine details can be checked during digitization."}
 </p>
 <blockquote>
-{"“The future of manufacturing is being written in the language of materials — where science meets creativity, and innovation reshapes what’s possible. Every new material discovered brings industries closer to efficiency, resilience, and a greener tomorrow.”"}
+{"DTG suits cotton and cotton-rich garments. Confirm fabric composition, garment colour, artwork size and print position."}
 </blockquote>
 <p>
-{"Material innovation is not just improving component quality—it’s shaping the future of manufacturing itself"}
+{"Sublimation suits polyester apparel and sportswear. Confirm fabric composition, base colour, pattern layout and seams. Check colour on the intended material."}
 <strong>
-{"."}
+{"Embroidery can be used for suitable caps, polo shirts and bags. Share logo dimensions and position so fine details can be checked during digitization."}
 </strong>
-{" By merging science, technology, and sustainability, these materials ensure that the next generation of industrial components is stronger, smarter, and more efficient than ever before."}
+{"DTG suits cotton and cotton-rich garments. Confirm fabric composition, garment colour, artwork size and print position."}
 </p>
 </div>
 </div>
@@ -94,12 +94,12 @@ return <>
 
 </div>
 <div className={"pre-section-title"}>
-{"Insights & Article"}
+{"Production guidance"}
 </div>
 </div>
 </div>
 <h2 className={"section-title title-center"}>
-{"Recent blogs"}
+{"More production guides"}
 </h2>
 </div>
 <div className={"w-dyn-list"}>
@@ -107,19 +107,19 @@ return <>
 <div data-w-id={"58bd62fe-80db-d9e6-6b94-34f2845c2cc8"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a href={"/blog/breakthroughs-powering-manufacturing-efficiency"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp"} loading={"lazy"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/dbad3439e2f8-68f0d76a4b953aaae184fd6f_image-8-p-500.webp 500w, /assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-c84ffa4fb2b8.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-c84ffa4fb2b8-500w.webp 500w, /assets/onos-sample-development-slot-c84ffa4fb2b8-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item two"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Smart manufacturing"}
+{"Materials"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"Breakthroughs powering manufacturing efficiency"}
+{"Preparing artwork for DTG printing"}
 </h2>
 </div>
 </a>
@@ -127,19 +127,19 @@ return <>
 <div data-w-id={"58bd62fe-80db-d9e6-6b94-34f2845c2cc8"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a href={"/blog/how-automation-is-shaping-the-future-of-manufacturing"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp"} loading={"lazy"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/cbd6faacf7d6-68e34a923545f0f0d61ea5d3_image-1-p-500.webp 500w, /assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-17ed536d0c8a.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-17ed536d0c8a-500w.webp 500w, /assets/onos-sample-development-slot-17ed536d0c8a-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item two"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Industry 4.0"}
+{"Materials"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"How automation is shaping the future of manufacturing"}
+{"Planning your apparel production order"}
 </h2>
 </div>
 </a>
@@ -147,19 +147,19 @@ return <>
 <div data-w-id={"58bd62fe-80db-d9e6-6b94-34f2845c2cc8"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a href={"/blog/smart-factories-transforming-modern-manufacturing"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/044f629c5a70-68e34c39638ac15970c6717c_image-3.webp"} loading={"lazy"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/6646126256f8-68e34c39638ac15970c6717c_image-3-p-500.webp 500w, /assets/044f629c5a70-68e34c39638ac15970c6717c_image-3.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-044f629c5a70.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-044f629c5a70-500w.webp 500w, /assets/onos-sample-development-slot-044f629c5a70-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item two"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Smart manufacturing"}
+{"Materials"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"Smart factories transforming modern manufacturing"}
+{"The ONOS factory network"}
 </h2>
 </div>
 </a>

@@ -2,7 +2,7 @@
 import { SiteRuntime } from "@/components/SiteRuntime";
 import { Footerff0835e88c, Navbar5de3fbdae5 } from "@/components/SiteChrome";
 
-export const metadata = {"title": "How automation is shaping the future of manufacturing", "description": "Automation boosts efficiency and accuracy in production. Smart systems reduce errors and speed up processes. Manufacturing is evolving toward intelligent, connected operations.", "openGraph": {"title": "How automation is shaping the future of manufacturing", "description": "Automation boosts efficiency and accuracy in production. Smart systems reduce errors and speed up processes. Manufacturing is evolving toward intelligent, connected operations.", "images": ["/assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp"]}};
+export const metadata = {"title":"Planning your apparel production order | ONOS Global","description":"Start by sharing your product, expected quantity and intended market. ONOS advises on material and production method.","openGraph":{"title":"Planning your apparel production order | ONOS Global","description":"Start by sharing your product, expected quantity and intended market. ONOS advises on material and production method.","images":["/assets/onos-partner-meeting.webp"]},"robots":{"index":false,"follow":true}};
 export default function Page32f3553fe4() {
 const activePath = "/blog/how-automation-is-shaping-the-future-of-manufacturing";
 return <>
@@ -13,19 +13,19 @@ return <>
 <div data-w-id={"57ad97ff-6e17-bb27-fb1a-35879195ab14"} style={{"opacity": "0"}} className={"hero-inner-wrap"}>
 <div className={"blog-category-wrap"}>
 <div className={"blog-hero-date"}>
-{"October 17, 2025"}
+{"ONOS production guide"}
 </div>
 <div className={"blog-category bg-change"}>
-{"Industry 4.0"}
+{"Order planning"}
 </div>
 </div>
 <h1 className={"hero-inner-title"}>
-{"How automation is shaping the future of manufacturing"}
+{"Planning your apparel production order"}
 </h1>
 <p className={"hero-inner-description"}>
-{"Automation boosts efficiency and accuracy in production. Smart systems reduce errors and speed up processes. Manufacturing is evolving toward intelligent, connected operations."}
+{"Start by sharing your product, expected quantity and intended market. ONOS advises on material and production method."}
 </p>
-<img src={"/assets/05a540b58921-68e34bf4a3e3ddc5450493cb_blog-big-image-1.webp"} loading={"eager"} alt={"Blog Image"} className={"hero-inner-image"} />
+<img src={"/assets/onos-partner-meeting-slot-05a540b58921.webp"} loading={"eager"} alt={"Onos team"} className={"hero-inner-image"} />
 </div>
 </div>
 </div>
@@ -33,56 +33,56 @@ return <>
 <div className={"w-layout-blockcontainer container-medium w-container"}>
 <div className={"blog-rich-text w-richtext"}>
 <h5>
-{"How Automation Is Shaping the Future of Manufacturing"}
+{"Before production"}
 </h5>
 <p>
-{"Automation is transforming the manufacturing industry, bringing intelligence, precision, and speed to every stage of production. Modern factories are no longer just spaces for assembly — they are smart ecosystems where machines and humans work together. Automation helps industries produce more efficiently, reduce errors, and innovate faster, all while supporting sustainable and future-ready practices."}
+{"Start by sharing your product, expected quantity and intended market. ONOS advises on material and production method."}
 <br />
 </p>
 <ul role={"list"}>
 <li>
 <strong>
-{"I"}
+{"Confirm your product"}
 </strong>
-{"ntelligent Robotics Integration"}
+{"Share your artwork"}
 </li>
 <li>
-{"Real-Time Monitoring & Analytics"}
+{"Review the material"}
 </li>
 <li>
-{"Consistent Quality Control"}
+{"Agree the sample"}
 </li>
 <li>
-{"Workforce Empowerment"}
+{"Discuss the shipping plan"}
 </li>
 <li>
-{"Sustainable Manufacturing Practices"}
+{"Discuss the shipping plan"}
 </li>
 <li>
-{"Future-Ready Operations"}
+{"Discuss the shipping plan"}
 </li>
 </ul>
 <p>
-{"Machines hum along lines where human hands once led. Swift calculations and precise movements guide every part, yet curiosity and insight still steer the work. Tasks once tedious now pass in quiet rhythm, allowing minds to wander toward ideas untested and innovations unexplored."}
+{"Review artwork, colours and placement. For larger orders, agree a sample before production begins."}
 </p>
 <figure style={{"paddingBottom": "56.206088992974244%"}} className={"w-richtext-align-fullwidth w-richtext-figure-type-video"}>
 <div>
-<iframe src={"/assets/bcf85a6254b8--U0IXSmp6kc"} scrolling={"no"} frameBorder={"0"} allowFullScreen={true}>
+<iframe src={"/assets/onos-production-reel.mp4"} scrolling={"no"} frameBorder={"0"} allowFullScreen={true}>
 
 </iframe>
 </div>
 </figure>
 <h5>
-{"Ten questions you should answer truthfully"}
+{"Prepare your order"}
 </h5>
 <p>
-{"Data streams across screens and sensors, charting paths of efficiency unknown before. Robots lift, place, and measure, but human vision shapes the design. In this blend of steel and thought, productivity rises, errors shrink, and the factory pulses with a new kind of intelligence, ready to meet tomorrow."}
+{"ONOS discusses pricing, production timing and shipping before you decide. Products are checked, finished and packed before handover to shipping partners."}
 </p>
 <blockquote>
-{"Existence certainly explained how improving the household pretended. Delightful own attachment her partiality unaffected occasionally thoroughly. Adieus it no wonders spirit houses. Started several mistakes but Joy says the painful removal reached the end. State burst think end are its. Arrived off she elderly beloved him affixed noisier yet. Course regard to up he hardly. View four has said do men saw find dear shy? Talent men wicket add garden."}
+{"Start by sharing your product, expected quantity and intended market. ONOS advises on material and production method."}
 </blockquote>
 <p>
-{"Automation is no longer optional — it is the backbone of modern manufacturing. By combining smart machines, AI, and human expertise, industries can achieve higher productivity, reduce waste, and stay competitive in a fast-changing global market. The integration of automation ensures that manufacturing is not just faster or cheaper, but smarter, greener, and ready for the challenges of tomorrow. wings offended yet answered Jennings perceive laughing six did far."}
+{"Review artwork, colours and placement. For larger orders, agree a sample before production begins."}
 </p>
 </div>
 </div>
@@ -97,12 +97,12 @@ return <>
 
 </div>
 <div className={"pre-section-title"}>
-{"Insights & Article"}
+{"Production guidance"}
 </div>
 </div>
 </div>
 <h2 className={"section-title title-center"}>
-{"Recent blogs"}
+{"More production guides"}
 </h2>
 </div>
 <div className={"w-dyn-list"}>
@@ -110,19 +110,19 @@ return <>
 <div data-w-id={"58bd62fe-80db-d9e6-6b94-34f2845c2cc8"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a href={"/blog/breakthroughs-powering-manufacturing-efficiency"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp"} loading={"lazy"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/dbad3439e2f8-68f0d76a4b953aaae184fd6f_image-8-p-500.webp 500w, /assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-c84ffa4fb2b8.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-c84ffa4fb2b8-500w.webp 500w, /assets/onos-sample-development-slot-c84ffa4fb2b8-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item two"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Smart manufacturing"}
+{"Order planning"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"Breakthroughs powering manufacturing efficiency"}
+{"Preparing artwork for DTG printing"}
 </h2>
 </div>
 </a>
@@ -130,19 +130,19 @@ return <>
 <div data-w-id={"58bd62fe-80db-d9e6-6b94-34f2845c2cc8"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a href={"/blog/top-5-materials-revolutionizing-industrial-components"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp"} loading={"lazy"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/412ae6730e81-68e34c235b42befd11b5ec93_image-2-p-500.webp 500w, /assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-1ca0aa821cd9.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-1ca0aa821cd9-500w.webp 500w, /assets/onos-sample-development-slot-1ca0aa821cd9-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item two"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Advanced materials"}
+{"Order planning"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"Top 5 materials revolutionizing industrial components"}
+{"Choosing materials for your apparel"}
 </h2>
 </div>
 </a>
@@ -150,19 +150,19 @@ return <>
 <div data-w-id={"58bd62fe-80db-d9e6-6b94-34f2845c2cc8"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a href={"/blog/smart-factories-transforming-modern-manufacturing"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/044f629c5a70-68e34c39638ac15970c6717c_image-3.webp"} loading={"lazy"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/6646126256f8-68e34c39638ac15970c6717c_image-3-p-500.webp 500w, /assets/044f629c5a70-68e34c39638ac15970c6717c_image-3.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-044f629c5a70.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-044f629c5a70-500w.webp 500w, /assets/onos-sample-development-slot-044f629c5a70-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item two"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Smart manufacturing"}
+{"Order planning"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"Smart factories transforming modern manufacturing"}
+{"The ONOS factory network"}
 </h2>
 </div>
 </a>

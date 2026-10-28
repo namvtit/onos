@@ -1,0 +1,14 @@
+{
+  "baseline": "b85079d329df16414d1ed2bf6810f521290e4a05",
+  "branch": "restore/manufactt-baseline",
+  "backupCommit": "c0010d5ca2f2993f9c3cb2378eb0ff0037c43709",
+  "checkedTemplatesAndComponents": 42,
+  "structureFailures": [],
+  "cssFilesUnchanged": 4,
+  "rawAndOriginalQaFilesUnchanged": 444,
+  "originalAssetsUnchanged": 302,
+  "preservationFailures": [],
+  "verifiedSourceFactsPresent": true,
+  "sourceAssetHashFailures": [],
+  "genuinePhotosMatchingBackup": 15
+}

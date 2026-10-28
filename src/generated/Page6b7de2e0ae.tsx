@@ -2,7 +2,7 @@
 import { SiteRuntime } from "@/components/SiteRuntime";
 import { Footerff0835e88c, Navbar5de3fbdae5 } from "@/components/SiteChrome";
 
-export const metadata = {"title": "Lightweight industrial bracket fabrication", "description": "Optimized bracket design with advanced alloys to reduce weight while maintaining structural integrity.", "openGraph": {"title": "Lightweight industrial bracket fabrication", "description": "Optimized bracket design with advanced alloys to reduce weight while maintaining structural integrity.", "images": ["/assets/a7358f674f5d-68e25528f043e1ae90e95631_case-study-image-6.webp"]}};
+export const metadata = {"title":"All-over polyester sportswear | ONOS Global","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","openGraph":{"title":"All-over polyester sportswear | ONOS Global","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","images":["/assets/onos-production-floor.webp"]},"robots":{"index":false,"follow":true}};
 export default function Page6b7de2e0ae() {
 const activePath = "/case-study/lightweight-industrial-bracket-fabrication";
 return <>
@@ -13,57 +13,57 @@ return <>
 <div className={"case-detail-main"}>
 <div data-w-id={"cab6a32f-336d-0ffb-b011-845b3580be8a"} style={{"opacity": "0"}} className={"case-title-info"}>
 <div className={"case-category"}>
-{"Industrial manufacturing"}
+{"Sublimation"}
 </div>
 <h1 className={"case-title"}>
-{"Lightweight industrial bracket fabrication"}
+{"All-over polyester sportswear"}
 </h1>
 </div>
 <div data-w-id={"1d1ee453-24e3-a218-f224-a41259c5d875"} style={{"opacity": "0"}} className={"case-image-wrap"}>
-<img src={"/assets/a7358f674f5d-68e25528f043e1ae90e95631_case-study-image-6.webp"} loading={"lazy"} alt={"Case Study Main"} sizes={"100vw"} srcSet={"/assets/acb597143987-68e25528f043e1ae90e95631_case-study-image-6-p-500.webp 500w, /assets/a7358f674f5d-68e25528f043e1ae90e95631_case-study-image-6.webp 760w"} className={"case-image"} />
-<img src={"/assets/134ca7144ec5-68e33b50fee16c7f8ffecd5f_Client-image-6.svg"} loading={"lazy"} style={{"opacity": "0"}} data-w-id={"3ea79cb9-7c77-2bdf-deeb-0f79adc24380"} alt={"Case Client Logo"} className={"case-client-logo"} />
+<img src={"/assets/onos-press-machines-row-slot-a7358f674f5d.webp"} loading={"lazy"} alt={"Heat press equipment at Onos"} sizes={"100vw"} srcSet={"/assets/onos-press-machines-row-slot-a7358f674f5d-500w.webp 500w, /assets/onos-press-machines-row-slot-a7358f674f5d-760w.webp 760w"} className={"case-image"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} style={{"opacity": "0"}} data-w-id={"3ea79cb9-7c77-2bdf-deeb-0f79adc24380"} alt={"ONOS Global"} className={"case-client-logo"} />
 </div>
 <div data-w-id={"13737e71-ec2c-d585-6bbc-f4acad0bf072"} style={{"opacity": "0"}} className={"w-richtext"}>
 <h6>
-{"Project Overview:"}
+{"Production application"}
 </h6>
 <p>
 <strong>
-{"‍"}
+{""}
 </strong>
-{"The project aimed to design and fabricate lightweight industrial brackets that maintained structural integrity while reducing overall weight. Traditional brackets added unnecessary mass, affecting equipment efficiency and installation ease. The goal was to create high-strength, lightweight components suitable for industrial machinery and structural applications."}
+{"This is a production application based on ONOS capabilities, not a customer case study or a measured project result."}
 </p>
 <p>
-{"‍"}
+{""}
 </p>
 <h6>
-{"Approach"}
+{"Before production"}
 <strong>
-{":"}
+{"Discuss your order"}
 </strong>
 </h6>
 <p>
 <strong>
-{"‍"}
+{""}
 </strong>
-{"Engineers employed advanced CAD modeling and finite element analysis (FEA) to optimize bracket geometry for maximum strength with minimal material usage. High-performance aluminum and composite materials were selected for their favorable strength-to-weight ratios. Fabrication techniques included precision casting, CNC machining, and surface finishing to ensure durability and compatibility with existing equipment. Prototyping and iterative testing validated load-bearing capacity and installation performance."}
+{"Share your artwork, intended product, expected quantity and destination. ONOS will help confirm materials, samples and the production method."}
 </p>
 </div>
 <div className={"w-dyn-list"}>
 <div role={"list"} className={"case-lightbox-link-list w-dyn-items"}>
 <div data-w-id={"ab15bb13-9674-7da7-6ced-a55b50f93db5"} style={{"opacity": "0"}} role={"listitem"} className={"w-dyn-item w-dyn-repeater-item"}>
-<a data-lightbox={"{\"items\": [{\"url\": \"/assets/34855537bbe3-68e78e965c4355e229382a24_Untitled-16.webp\", \"type\": \"image\"}], \"group\": \"Work Image\"}"} href={"/case-study/lightweight-industrial-bracket-fabrication"} className={"work-lightbox-link-list w-inline-block w-lightbox"}>
-<img src={"/assets/34855537bbe3-68e78e965c4355e229382a24_Untitled-16.webp"} loading={"lazy"} alt={"Case Study Extra"} className={"overview-image"} />
+<a data-lightbox={"{\"items\": [{\"url\": \"/assets/onos-dtg-machine-detail.webp\", \"type\": \"image\"}], \"group\": \"Work Image\"}"} href={"/case-study/lightweight-industrial-bracket-fabrication"} className={"work-lightbox-link-list w-inline-block w-lightbox"}>
+<img src={"/assets/onos-dtg-machine-detail-slot-34855537bbe3.webp"} loading={"lazy"} alt={"DTG printing machine at Onos"} className={"overview-image"} />
 </a>
 </div>
 <div data-w-id={"ab15bb13-9674-7da7-6ced-a55b50f93db5"} style={{"opacity": "0"}} role={"listitem"} className={"w-dyn-item w-dyn-repeater-item"}>
-<a data-lightbox={"{\"items\": [{\"url\": \"/assets/03ca0fd1e5a0-68e78e9579f88772b20e66f8_Untitled-17.webp\", \"type\": \"image\"}], \"group\": \"Work Image\"}"} href={"/case-study/lightweight-industrial-bracket-fabrication"} className={"work-lightbox-link-list w-inline-block w-lightbox"}>
-<img src={"/assets/03ca0fd1e5a0-68e78e9579f88772b20e66f8_Untitled-17.webp"} loading={"lazy"} alt={"Case Study Extra"} className={"overview-image"} />
+<a data-lightbox={"{\"items\": [{\"url\": \"/assets/onos-sample-development.webp\", \"type\": \"image\"}], \"group\": \"Work Image\"}"} href={"/case-study/lightweight-industrial-bracket-fabrication"} className={"work-lightbox-link-list w-inline-block w-lightbox"}>
+<img src={"/assets/onos-sample-development-slot-03ca0fd1e5a0.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} className={"overview-image"} />
 </a>
 </div>
 <div data-w-id={"ab15bb13-9674-7da7-6ced-a55b50f93db5"} style={{"opacity": "0"}} role={"listitem"} className={"w-dyn-item w-dyn-repeater-item"}>
-<a data-lightbox={"{\"items\": [{\"url\": \"/assets/dfdcabf1ab39-68e78e96bf8662622d0f70b8_Untitled-18.webp\", \"type\": \"image\"}], \"group\": \"Work Image\"}"} href={"/case-study/lightweight-industrial-bracket-fabrication"} className={"work-lightbox-link-list w-inline-block w-lightbox"}>
-<img src={"/assets/dfdcabf1ab39-68e78e96bf8662622d0f70b8_Untitled-18.webp"} loading={"lazy"} alt={"Case Study Extra"} className={"overview-image"} />
+<a data-lightbox={"{\"items\": [{\"url\": \"/assets/onos-finishing-table.webp\", \"type\": \"image\"}], \"group\": \"Work Image\"}"} href={"/case-study/lightweight-industrial-bracket-fabrication"} className={"work-lightbox-link-list w-inline-block w-lightbox"}>
+<img src={"/assets/onos-finishing-table-slot-dfdcabf1ab39.webp"} loading={"lazy"} alt={"Printed garments organised at the finishing table"} className={"overview-image"} />
 </a>
 </div>
 </div>
@@ -76,34 +76,34 @@ return <>
 <div data-w-id={"262aec6e-40aa-516e-f687-cbc23a2bdb3c"} style={{"opacity": "0"}} className={"w-richtext"}>
 <p>
 <strong>
-{"Technical Specifications:"}
+{"This is a production application based on ONOS capabilities, not a customer case study or a measured project result."}
 </strong>
 </p>
 <ul role={"list"}>
 <li>
-{"Material: Aluminum alloys and reinforced composites"}
+{"Confirm the product and material"}
 </li>
 <li>
-{"Weight Reduction: Up to 40%"}
+{"Share artwork at the intended size"}
 </li>
 <li>
-{"Load Capacity: Equivalent to conventional steel brackets"}
+{"Review colours and placement"}
 </li>
 <li>
-{"Tolerance: ±0.2 mm"}
+{"Agree a production sample"}
 </li>
 <li>
-{"Surface Finish: Powder-coated or anodized for corrosion resistance"}
+{"Discuss quantity and destination"}
 </li>
 </ul>
 <p>
-{"‍"}
+{""}
 </p>
 <h6>
-{"Results:"}
+{"Production application"}
 </h6>
 <p>
-{"The lightweight brackets improved overall equipment efficiency and simplified installation processes. Reduced material usage and lower component weight contributed to energy savings and cost reductions. The brackets maintained full structural performance under operational loads, and clients reported improved handling and ease of integration. The project demonstrated the effectiveness of combining material innovation with optimized design for industrial applications."}
+{"Share your artwork, intended product, expected quantity and destination. ONOS will help confirm materials, samples and the production method."}
 </p>
 </div>
 </div>
@@ -113,7 +113,7 @@ return <>
 <div className={"w-layout-blockcontainer container w-container"}>
 <div className={"other-case-study-title"}>
 <h2 className={"section-title"}>
-{"Other case studies"}
+{"More Production Work"}
 </h2>
 <div className={"case-study-button-inner"}>
 <a data-wf--button-arrow--variant={"button-primary-bg"} data-w-id={"d102baf6-0bbf-4311-9c79-6b424f8fe8a7"} href={"/case-studies"} className={"primary-button w-variant-5ae0b7d1-2e18-9989-4375-c73c98041680 w-inline-block"}>
@@ -121,10 +121,10 @@ return <>
 <div className={"button-text-wrap"}>
 <div className={"button-text-inner"}>
 <div className={"button-text"}>
-{"See all case studies"}
+{"View All Applications"}
 </div>
 <div className={"button-hover-text"}>
-{"See all case studies"}
+{"View All Applications"}
 </div>
 </div>
 </div>
@@ -143,25 +143,25 @@ return <>
 <div className={"projects-name-wrap"}>
 <div>
 <div className={"project-category"}>
-{"Materials engineering"}
+{"Cotton apparel"}
 </div>
 <h2 className={"projects-name"}>
-{"Lightweight castings for Industrial equipment"}
+{"Printed cotton apparel"}
 </h2>
 </div>
 <div className={"case-list-stat-item"}>
 <h3 className={"case-list-stat-number"}>
-{"35%"}
+{"DTG"}
 </h3>
 <div className={"case-list-stat-title"}>
-{"Heavy-duty machinery"}
+{"Cotton apparel"}
 </div>
 </div>
 </div>
 <div className={"project-image-wrap"}>
-<img src={"/assets/79a31a2d5450-68e254aa0bf150d8b71ead93_Case-Study-Image-1.webp"} loading={"lazy"} data-w-id={"a8b8708c-77d0-cb61-f087-40152a30c1a2"} alt={"Project Image"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/8b2b95881eb7-68e254aa0bf150d8b71ead93_Case-Study-Image-1-p-500.webp 500w, /assets/79a31a2d5450-68e254aa0bf150d8b71ead93_Case-Study-Image-1.webp 761w"} className={"project-image"} />
+<img src={"/assets/onos-finishing-table-slot-79a31a2d5450.webp"} loading={"lazy"} data-w-id={"a8b8708c-77d0-cb61-f087-40152a30c1a2"} alt={"Printed garments organised at the finishing table"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/onos-finishing-table-slot-79a31a2d5450-500w.webp 500w, /assets/onos-finishing-table-slot-79a31a2d5450-761w.webp 761w"} className={"project-image"} />
 <div data-w-id={"a8b8708c-77d0-cb61-f087-40152a30c1a3"} className={"project-image-layout"}>
-<img src={"/assets/03147d08ed83-68e2579794f0ac3ba256d484_Client-Image.svg"} loading={"lazy"} alt={"Case List Logo"} className={"case-list-logo"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"case-list-logo"} />
 </div>
 </div>
 </a>
@@ -171,25 +171,25 @@ return <>
 <div className={"projects-name-wrap"}>
 <div>
 <div className={"project-category"}>
-{"CNC machining"}
+{"DTG printing"}
 </div>
 <h2 className={"projects-name"}>
-{"Precision CNC milling for automotive components"}
+{"DTG artwork preparation"}
 </h2>
 </div>
 <div className={"case-list-stat-item"}>
 <h3 className={"case-list-stat-number"}>
-{"54%"}
+{"ART"}
 </h3>
 <div className={"case-list-stat-title"}>
-{"Engine parts"}
+{"Artwork review"}
 </div>
 </div>
 </div>
 <div className={"project-image-wrap"}>
-<img src={"/assets/f43d8b900690-68e254b81d5a9819d9c132b7_Case-Study-Image-2.webp"} loading={"lazy"} data-w-id={"a8b8708c-77d0-cb61-f087-40152a30c1a2"} alt={"Project Image"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/16d6609a4608-68e254b81d5a9819d9c132b7_Case-Study-Image-2-p-500.webp 500w, /assets/f43d8b900690-68e254b81d5a9819d9c132b7_Case-Study-Image-2.webp 760w"} className={"project-image"} />
+<img src={"/assets/onos-dtg-machine-detail-slot-f43d8b900690.webp"} loading={"lazy"} data-w-id={"a8b8708c-77d0-cb61-f087-40152a30c1a2"} alt={"DTG printing machine at Onos"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/onos-dtg-machine-detail-slot-f43d8b900690-500w.webp 500w, /assets/onos-dtg-machine-detail-slot-f43d8b900690-760w.webp 760w"} className={"project-image"} />
 <div data-w-id={"a8b8708c-77d0-cb61-f087-40152a30c1a3"} className={"project-image-layout"}>
-<img src={"/assets/bfcfa2bfb293-68e257aed761fb3533200be5_Client-Image-2.svg"} loading={"lazy"} alt={"Case List Logo"} className={"case-list-logo"} />
+<img src={"/assets/onos-wordmark.svg"} loading={"lazy"} alt={"ONOS Global"} className={"case-list-logo"} />
 </div>
 </div>
 </a>

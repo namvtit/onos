@@ -3,7 +3,7 @@ import { ContactForm } from "@/components/ContactForm";
 import { SiteRuntime } from "@/components/SiteRuntime";
 import { Footerff0835e88c, Navbar5de3fbdae5 } from "@/components/SiteChrome";
 
-export const metadata = {"title": "Product assembly", "description": "Complete product assembly services with quality testing and packaging solutions.", "openGraph": {"title": "Product assembly", "description": "Complete product assembly services with quality testing and packaging solutions.", "images": ["/assets/709f2e70e0a2-68df5fd46f6e13be0b0f8839_Service-Image--6-.webp"]}};
+export const metadata = {"title":"Apparel & Fulfillment | ONOS Global","description":"Sampling, apparel production, finishing and packing connected with shipping partners.","openGraph":{"title":"Apparel & Fulfillment | ONOS Global","description":"Sampling, apparel production, finishing and packing connected with shipping partners.","images":["/assets/onos-finishing-table.webp"]},"robots":{"index":false,"follow":true}};
 export default function Pagedfae293630() {
 const activePath = "/service/product-assembly";
 return <>
@@ -13,10 +13,10 @@ return <>
 <div className={"service-details-top container"}>
 <div data-w-id={"206e8d17-554e-d01a-63a7-73227b355aec"} style={{"opacity": "0"}} className={"service-detail-main"}>
 <h1 className={"service-detail-name"}>
-{"Product assembly"}
+{"Apparel & Fulfillment"}
 </h1>
 <p className={"service-detail-description"}>
-{"Complete product assembly services with quality testing and packaging solutions."}
+{"Sampling, apparel production, finishing and packing connected with shipping partners."}
 </p>
 <div className={"service-detail-button"}>
 <a data-wf--button-arrow--variant={"base"} data-w-id={"d102baf6-0bbf-4311-9c79-6b424f8fe8a7"} href={"/contact"} className={"primary-button w-inline-block"}>
@@ -24,10 +24,10 @@ return <>
 <div className={"button-text-wrap"}>
 <div className={"button-text-inner"}>
 <div className={"button-text"}>
-{"Get Free Quote"}
+{"Request a Quote"}
 </div>
 <div className={"button-hover-text"}>
-{"Get Free Quote"}
+{"Request a Quote"}
 </div>
 </div>
 </div>
@@ -40,7 +40,7 @@ return <>
 </div>
 </div>
 </div>
-<img src={"/assets/709f2e70e0a2-68df5fd46f6e13be0b0f8839_Service-Image--6-.webp"} loading={"lazy"} alt={"Service Detail Image"} sizes={"100vw"} srcSet={"/assets/215864445fe2-68df5fd46f6e13be0b0f8839_Service-Image--6--p-500.webp 500w, /assets/26b70e5f6f00-68df5fd46f6e13be0b0f8839_Service-Image--6--p-800.webp 800w, /assets/eeee5ecbc8c8-68df5fd46f6e13be0b0f8839_Service-Image--6--p-1080.webp 1080w, /assets/709f2e70e0a2-68df5fd46f6e13be0b0f8839_Service-Image--6-.webp 1400w"} className={"service-detail-image"} />
+<img src={"/assets/onos-finishing-table-slot-709f2e70e0a2.webp"} loading={"lazy"} alt={"Printed garments organised at the finishing table"} sizes={"100vw"} srcSet={"/assets/onos-finishing-table-slot-709f2e70e0a2-500w.webp 500w, /assets/onos-finishing-table-slot-709f2e70e0a2-800w.webp 800w, /assets/onos-finishing-table-slot-709f2e70e0a2-1080w.webp 1080w, /assets/onos-finishing-table-slot-709f2e70e0a2-1400w.webp 1400w"} className={"service-detail-image"} />
 <div className={"service-more-info section-spacing-bottom"}>
 <div className={"container"}>
 <div className={"more-info-inner"}>
@@ -57,19 +57,19 @@ return <>
 </div>
 <div className={"service-info-description w-richtext"}>
 <h3>
-{"Product Assembly"}
+{"Apparel & Fulfillment"}
 </h3>
 <p>
-{"‍"}
+{""}
 </p>
 <p>
-{"Our Product Assembly services integrate skilled craftsmanship with advanced manufacturing practices to deliver fully assembled products that meet the highest industry standards. From simple sub-assemblies to complex multi-component systems, we ensure precision, reliability, and seamless functionality."}
+{"Sampling, apparel production, finishing and packing connected with shipping partners."}
 </p>
 <p>
-{"With strict quality checks at every stage, our team guarantees each assembly meets your exact specifications. Leveraging lean processes and certified assembly protocols, we achieve efficient turnaround times without compromising quality."}
+{"Share your design, product, expected quantity and destination so ONOS can confirm the production method and material."}
 </p>
 <p>
-{"By combining experienced technicians, optimized workflows, and comprehensive testing, we deliver assemblies that are ready for production, distribution, or end-use. Whether it’s small-scale prototypes or large-volume production, our product assembly services ensure consistency, accuracy, and operational excellence."}
+{"Agree artwork, colours, placement and a physical sample before proceeding with a larger order."}
 </p>
 </div>
 </div>
@@ -80,10 +80,10 @@ return <>
 <img src={"/assets/595dc863a514-68e5fa3ed6ea05a74cf4cf6e_Service-Fratures-Icon--3-.svg"} loading={"lazy"} alt={"Feature Icon"} className={"feature-icon"} />
 </div>
 <h2 className={"feature-name"}>
-{"Manual & automated assembly"}
+{"Sample development"}
 </h2>
 <p className={"feature-description"}>
-{"Efficient manual and automated assembly ensuring precise, high-quality production."}
+{"Confirm the product and material with ONOS."}
 </p>
 </div>
 <div data-w-id={"9fa3e42a-bbfa-2ab3-e864-45adad20769c"} style={{"opacity": "0"}} className={"feature-main"}>
@@ -91,10 +91,10 @@ return <>
 <img src={"/assets/556487eef0a2-68e5fa59c4ba42c966ffaa02_Service-Fratures-Icon--1-.svg"} loading={"lazy"} alt={"Feature Icon"} className={"feature-icon"} />
 </div>
 <h2 className={"feature-name"}>
-{"Functional testing protocols"}
+{"Garment production"}
 </h2>
 <p className={"feature-description"}>
-{"Rigorous functional testing ensuring every product performs reliably and meets standards."}
+{"The team reviews artwork before production."}
 </p>
 </div>
 <div data-w-id={"4a6175ee-4c2a-ff61-a8b4-73a9a65dd739"} style={{"opacity": "0"}} className={"feature-main"}>
@@ -102,10 +102,10 @@ return <>
 <img src={"/assets/ec61ce0ba60c-68e5fa805e7632fa2bde6893_Service-Fratures-Icon--2-.svg"} loading={"lazy"} alt={"Feature Icon"} className={"feature-icon"} />
 </div>
 <h2 className={"feature-name"}>
-{"Custom packaging design"}
+{"Inspection and packing"}
 </h2>
 <p className={"feature-description"}>
-{"Tailored packaging solutions ensuring protection, functionality, and brand appeal."}
+{"Review size, colour and placement on the intended material."}
 </p>
 </div>
 <div data-w-id={"ea5e43b3-cbbc-f0e0-4900-803ff30f1adb"} style={{"opacity": "0"}} className={"feature-main"}>
@@ -113,10 +113,10 @@ return <>
 <img src={"/assets/512d2d193cc7-68e5fa4fd87126b410f24deb_Service-Fratures-Icon--4-.svg"} loading={"lazy"} alt={"Feature Icon"} className={"feature-icon"} />
 </div>
 <h2 className={"feature-name"}>
-{"Supply chain management"}
+{"Shipping partner handover"}
 </h2>
 <p className={"feature-description"}>
-{"Streamlined supply chain management ensuring timely delivery and operational efficiency."}
+{"Agree the sample and order plan before production."}
 </p>
 </div>
 </div>
@@ -144,7 +144,7 @@ return <>
 </div>
 <div data-w-id={"2a387ced-18c6-fcb7-78b2-8b6420ebab7f"} style={{"opacity": "0"}} className={"title-grid-right"}>
 <h2 className={"category-title"}>
-{"Product assembly"}
+{"Apparel & Fulfillment"}
 </h2>
 </div>
 </div>
@@ -164,25 +164,25 @@ return <>
 <div data-w-id={"414d7f5e-7f66-a170-8b87-34e456294203"} style={{"opacity": "0"}} className={"w-layout-grid grid-category-info"}>
 <div className={"category-name-wrap"}>
 <div className={"category-name"}>
-{"Manual & Automated Assembly"}
+{"Product & material"}
 </div>
 </div>
 <div className={"category-details-wrap"}>
 <div className={"category-details w-richtext"}>
 <li>
-{"Manual and automated assembly"}
+{"Confirm the product"}
 </li>
 <li>
-{"Accurate and efficient"}
+{"Confirm fabric or material suitability"}
 </li>
 <li>
-{"High-quality production"}
+{"Share expected quantity"}
 </li>
 <li>
-{"Scalable for volumes"}
+{"Discuss the destination"}
 </li>
 <li>
-{"Component integration"}
+{"Agree details with ONOS"}
 </li>
 </div>
 </div>
@@ -190,25 +190,25 @@ return <>
 <div data-w-id={"525aa89b-801b-c9e1-5fdb-8cb4fb7ed62b"} style={{"opacity": "0"}} className={"w-layout-grid grid-category-info"}>
 <div className={"category-name-wrap"}>
 <div className={"category-name"}>
-{"Quality Assurance"}
+{"Artwork preparation"}
 </div>
 </div>
 <div className={"category-details-wrap"}>
 <div className={"category-details w-richtext"}>
 <li>
-{"Functional performance checks"}
+{"Share the artwork file"}
 </li>
 <li>
-{"Ensures reliability"}
+{"Confirm intended artwork size"}
 </li>
 <li>
-{"Detects defects early"}
+{"Review colour and placement"}
 </li>
 <li>
-{"Compliance with standards"}
+{"Check fine design details"}
 </li>
 <li>
-{"Quality assurance"}
+{"Request artwork review"}
 </li>
 </div>
 </div>
@@ -216,25 +216,25 @@ return <>
 <div data-w-id={"5edbb32d-21dc-53ca-9066-56c78845f5af"} style={{"opacity": "0"}} className={"w-layout-grid grid-category-info last"}>
 <div className={"category-name-wrap"}>
 <div className={"category-name"}>
-{"Packaging & Supply Chain Integration"}
+{"Sample & order plan"}
 </div>
 </div>
 <div className={"category-details-wrap"}>
 <div className={"category-details w-richtext"}>
 <li>
-{"Custom protective packaging"}
+{"Review a physical sample"}
 </li>
 <li>
-{"Safe for shipping"}
+{"Agree larger-order production"}
 </li>
 <li>
-{"Enhances product presentation"}
+{"Check and finish products"}
 </li>
 <li>
-{"Supports supply chain"}
+{"Prepare packing"}
 </li>
 <li>
-{"Brand-aligned design"}
+{"Discuss shipping handover"}
 </li>
 </div>
 </div>
@@ -283,21 +283,21 @@ return <>
 <h2 className={"section-title"}>
 {"Our "}
 <span className={"text-linear-gradient"}>
-{"proven"}
+{"production"}
 </span>
 {" workflow"}
 </h2>
 </div>
 <div className={"step-button"}>
-<a data-wf--button-arrow--variant={"base"} data-w-id={"d102baf6-0bbf-4311-9c79-6b424f8fe8a7"} href={"/assets/7cc6038925cd-68f0b12338ba832c3a370ba1_PDF.pdf"} target={"_blank"} className={"primary-button w-inline-block"}>
+<a data-wf--button-arrow--variant={"base"} data-w-id={"d102baf6-0bbf-4311-9c79-6b424f8fe8a7"} href={"mailto:onospod.com@gmail.com?subject=ONOS%20Global%20production%20enquiry"} target={"_blank"} className={"primary-button w-inline-block"}>
 <div className={"button-primary-inner"}>
 <div className={"button-text-wrap"}>
 <div className={"button-text-inner"}>
 <div className={"button-text"}>
-{"Download Brochure"}
+{"Request a Quote"}
 </div>
 <div className={"button-hover-text"}>
-{"Download Brochure"}
+{"Request a Quote"}
 </div>
 </div>
 </div>
@@ -316,7 +316,7 @@ return <>
 {"Step 1"}
 </div>
 <h3 className={"step-title-one text-white"}>
-{"Design and planning"}
+{"Share your idea"}
 </h3>
 </div>
 </div>
@@ -326,7 +326,7 @@ return <>
 {"Step 2"}
 </div>
 <h3 className={"step-title-one text-primary"}>
-{"Precision machining"}
+{"Prepare production"}
 </h3>
 </div>
 </div>
@@ -336,7 +336,7 @@ return <>
 {"Step 3"}
 </div>
 <h3 className={"step-title-one"}>
-{"Quality check & Delivery"}
+{"Make, check & ship"}
 </h3>
 </div>
 </div>
@@ -380,14 +380,14 @@ return <>
 </div>
 </div>
 <h2 className={"section-title title-center"}>
-{"Product assembly FAQs"}
+{"Apparel & Fulfillment FAQs"}
 </h2>
 </div>
 <div data-w-id={"61ec9ba3-dd59-e899-fd09-62632b8c217d"} style={{"opacity": "0"}} className={"faqs-wrap"}>
 <div className={"accordion-item"}>
 <div data-w-id={"e4ff89fe-cbf7-86c1-7b53-b2ddd0ff35ac"} className={"accordion-heading"}>
 <h3 className={"accordion-title"}>
-{"What is Product Assembly?"}
+{"Can I start with a small quantity?"}
 </h3>
 <div className={"accordion-icon-bg"}>
 <img src={"/assets/536a795c5a7c-68dcc369de4ced980408d673_-.svg"} loading={"lazy"} style={{"WebkitTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(45deg) skew(0, 0)", "MozTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(45deg) skew(0, 0)", "msTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(45deg) skew(0, 0)", "transform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(45deg) skew(0, 0)"}} alt={"Pluse Icon"} className={"plus-icon"} />
@@ -396,7 +396,7 @@ return <>
 <div className={"accordion-content"}>
 <div className={"accordion-description w-richtext"}>
 <p>
-{"Product Assembly is the process of combining individual components into a complete, functional product, ensuring accuracy, reliability, and quality throughout the process."}
+{"DTG and sublimation orders can start from one product. Minimum quantities for custom blanks or tailored uniforms are agreed for each project."}
 </p>
 </div>
 </div>
@@ -404,7 +404,7 @@ return <>
 <div className={"accordion-item"}>
 <div data-w-id={"05056745-6dd6-af8a-fd49-dca6718387cd"} className={"accordion-heading"}>
 <h3 className={"accordion-title"}>
-{"What types of assemblies do you handle?"}
+{"What artwork files should I prepare?"}
 </h3>
 <div className={"accordion-icon-bg"}>
 <img src={"/assets/536a795c5a7c-68dcc369de4ced980408d673_-.svg"} loading={"lazy"} style={{"WebkitTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "MozTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "msTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "transform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"}} alt={"Pluse Icon"} className={"plus-icon"} />
@@ -413,7 +413,7 @@ return <>
 <div style={{"height": "0px"}} className={"accordion-content"}>
 <div className={"accordion-description w-richtext"}>
 <p>
-{"We handle simple sub-assemblies, complex multi-component systems, prototype assemblies, and full-scale production assemblies across various industries."}
+{"Send AI, EPS, SVG or PDF vector artwork, or a transparent PNG at 300 DPI at actual print size. ONOS checks files before production."}
 </p>
 </div>
 </div>
@@ -421,7 +421,7 @@ return <>
 <div className={"accordion-item"}>
 <div data-w-id={"6ab982a9-d116-5d00-0772-e301af073cda"} className={"accordion-heading"}>
 <h3 className={"accordion-title"}>
-{"How do you ensure assembly quality?"}
+{"Can I approve a sample first?"}
 </h3>
 <div className={"accordion-icon-bg"}>
 <img src={"/assets/536a795c5a7c-68dcc369de4ced980408d673_-.svg"} loading={"lazy"} style={{"WebkitTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "MozTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "msTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "transform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"}} alt={"Pluse Icon"} className={"plus-icon"} />
@@ -430,7 +430,7 @@ return <>
 <div style={{"height": "0px"}} className={"accordion-content"}>
 <div className={"accordion-description w-richtext"}>
 <p>
-{"Quality is ensured through rigorous inspections, testing at every stage, and adherence to ISO-certified assembly standards and protocols."}
+{"Yes. Me Linh has a dedicated sampling line. ONOS recommends agreeing a sample before larger production orders."}
 </p>
 </div>
 </div>
@@ -438,7 +438,7 @@ return <>
 <div className={"accordion-item"}>
 <div data-w-id={"5a958ff6-c440-e8e8-bbe7-00f184c3223e"} className={"accordion-heading"}>
 <h3 className={"accordion-title"}>
-{"Can you manage low and high-volume production?"}
+{"How do I confirm pricing and timing?"}
 </h3>
 <div className={"accordion-icon-bg"}>
 <img src={"/assets/536a795c5a7c-68dcc369de4ced980408d673_-.svg"} loading={"lazy"} style={{"WebkitTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "MozTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "msTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "transform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"}} alt={"Pluse Icon"} className={"plus-icon"} />
@@ -447,7 +447,7 @@ return <>
 <div style={{"height": "0px"}} className={"accordion-content"}>
 <div className={"accordion-description w-richtext"}>
 <p>
-{"Yes, our flexible assembly processes allow us to efficiently handle both small prototype batches and large-scale production runs."}
+{"Share your product, design, expected quantity and delivery address. ONOS discusses pricing, timing and shipping before you decide."}
 </p>
 </div>
 </div>
@@ -455,7 +455,7 @@ return <>
 <div className={"accordion-item"}>
 <div data-w-id={"4cbf6f7c-df07-9fae-3a18-cb63e9055216"} className={"accordion-heading"}>
 <h3 className={"accordion-title"}>
-{"What industries do you serve with Product Assembly?"}
+{"Which production method suits my product?"}
 </h3>
 <div className={"accordion-icon-bg"}>
 <img src={"/assets/536a795c5a7c-68dcc369de4ced980408d673_-.svg"} loading={"lazy"} style={{"WebkitTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "MozTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "msTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "transform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"}} alt={"Pluse Icon"} className={"plus-icon"} />
@@ -464,7 +464,7 @@ return <>
 <div style={{"height": "0px"}} className={"accordion-content"}>
 <div className={"accordion-description w-richtext"}>
 <p>
-{"We serve automotive, aerospace, electronics, consumer products, industrial equipment, and other manufacturing sectors requiring precise and reliable assemblies."}
+{"DTG suits cotton-rich apparel; embroidery suits caps, polos and bags; sublimation suits polyester; laser cutting and engraving suit materials confirmed by ONOS."}
 </p>
 </div>
 </div>
@@ -473,7 +473,7 @@ return <>
 </div>
 </div>
 </section>
-<section className={"cta-section"}>
+<section className={"cta-section"} style={{"backgroundImage": "linear-gradient(#151515d9,#151515d9),url(\"/assets/onos-finishing-table.webp\")"}}>
 <div className={"cta-info"}>
 <div className={"section-title-center _02"}>
 <div data-wf--pre-section-title--variant={"bg-dark"} className={"pre-section-title-wrap w-variant-de5a90dc-c401-95a9-b09f-388955c5be35"}>
@@ -489,9 +489,9 @@ return <>
 <h2 className={"section-title title-center text-white"}>
 {"Start your "}
 <span className={"text-linear-gradient"}>
-{"precision "}
+{"apparel "}
 </span>
-{"manufacturing journey"}
+{"production journey"}
 </h2>
 </div>
 <div className={"cta-form-info"}>
@@ -503,20 +503,20 @@ return <>
 <input className={"form-input bg-change w-input"} maxLength={256} name={"inquiry"} data-name={"inquiry"} placeholder={"Inquiry"} type={"text"} id={"inquiry"} />
 </div>
 <div className={"cta-form-textarea"}>
-<textarea placeholder={"Message"} maxLength={5000} id={"field"} name={"field"} data-name={"Field"} className={"form-input bg-change form-textarea w-input"}>
+<textarea placeholder={"Demo only — email onospod.com@gmail.com to request production."} maxLength={5000} id={"field"} name={"field"} data-name={"Field"} className={"form-input bg-change form-textarea w-input"}>
 
 </textarea>
-<input type={"submit"} data-wait={"Please wait..."} className={"form-submit-button bg-change w-button"} value={"send"} />
+<input type={"submit"} data-wait={"Please wait..."} className={"form-submit-button bg-change w-button"} value={"Preview (demo)"} />
 </div>
 </ContactForm>
 <div className={"w-form-done"}>
 <div>
-{"Thank you! Your submission has been received!"}
+{"Demo only. No submission has been sent. Please email onospod.com@gmail.com."}
 </div>
 </div>
 <div className={"w-form-fail"}>
 <div>
-{"Oops! Something went wrong while submitting the form."}
+{"Please email onospod.com@gmail.com to contact ONOS."}
 </div>
 </div>
 </div>

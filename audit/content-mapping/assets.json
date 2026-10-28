@@ -1,0 +1,2128 @@
+[
+  {
+    "source": "https://onosglobal.pages.dev/assets/embroidery-hero.webp",
+    "local": "/assets/onos-embroidery-hero.webp",
+    "alt": "Multi-head embroidery machines producing garments at Onos",
+    "sha256": "77afad62af26d6c6118628a16094784f45000468940fae0547abf8231dcad186",
+    "bytes": 226058,
+    "matchesBackup": true
+  },
+  {
+    "source": "https://onosglobal.pages.dev/assets/dtg-machine-detail.webp",
+    "local": "/assets/onos-dtg-machine-detail.webp",
+    "alt": "DTG printing machine at Onos",
+    "sha256": "315a490b741561185c8d4cbb5aaeff05738d0eaeeb13dced8194dc13877ce9c7",
+    "bytes": 62358,
+    "matchesBackup": true
+  },
+  {
+    "source": "https://onosglobal.pages.dev/assets/equipment-embroidery.webp",
+    "local": "/assets/onos-equipment-embroidery.webp",
+    "alt": "An Onos operator checking embroidery on garments",
+    "sha256": "9ce154a02ed9f72fbd9d9f2b56f8af0b001495f693b42d208d24743e773148ee",
+    "bytes": 115794,
+    "matchesBackup": true
+  },
+  {
+    "source": "https://onosglobal.pages.dev/assets/press-machines-row.webp",
+    "local": "/assets/onos-press-machines-row.webp",
+    "alt": "Heat press equipment at Onos",
+    "sha256": "0e37b94a9b3c5492c3783fc7b8d5d2f1c5a16b0be9fb57de1f113b09e443cba5",
+    "bytes": 189096,
+    "matchesBackup": true
+  },
+  {
+    "source": "https://onosglobal.pages.dev/assets/laser-cut-gifts.webp",
+    "local": "/assets/onos-laser-cut-gifts.webp",
+    "alt": "Personalised laser-cut wooden decor and gift products",
+    "sha256": "1cf593d1f4e3993014ffb5f30d08187f575d4f8d32f61d290665a12c354bbb8c",
+    "bytes": 270764,
+    "matchesBackup": true
+  },
+  {
+    "source": "https://onosglobal.pages.dev/assets/production-floor.webp",
+    "local": "/assets/onos-production-floor.webp",
+    "alt": "Epson print production with an automated conveyor at Onos",
+    "sha256": "cd90904ada71b678a21ecd9335b67324ef1f039d10a09e6db632551184e095ed",
+    "bytes": 333762,
+    "matchesBackup": true
+  },
+  {
+    "source": "https://onosglobal.pages.dev/assets/embroidery.webp",
+    "local": "/assets/onos-embroidery.webp",
+    "alt": "Embroidery equipment at Onos",
+    "sha256": "fecf4ef11c74ebe886e88a2eb17706fcf9b142f3fd2007d967e3e2dc61ba9e28",
+    "bytes": 467928,
+    "matchesBackup": true
+  },
+  {
+    "source": "https://onosglobal.pages.dev/assets/facility-thai-nguyen.webp",
+    "local": "/assets/onos-facility-thai-nguyen.webp",
+    "alt": "Sewing floor at the Thai Nguyen plant",
+    "sha256": "ffdd6c35e4f339acb8e2f079d8d4dab57ecc06e460cd09409738c6aaefb0f96e",
+    "bytes": 304850,
+    "matchesBackup": true
+  },
+  {
+    "source": "https://onosglobal.pages.dev/assets/facility-me-linh.webp",
+    "local": "/assets/onos-facility-me-linh.webp",
+    "alt": "Automated fabric cutting at the Me Linh plant",
+    "sha256": "7a566a66c35867aa9239da5062e0d10ad8d6ac11ecf5bc998ba1d76d0021c198",
+    "bytes": 207538,
+    "matchesBackup": true
+  },
+  {
+    "source": "https://onosglobal.pages.dev/assets/facility-california.webp",
+    "local": "/assets/onos-facility-california.webp",
+    "alt": "Onos team discussing operations in California",
+    "sha256": "3866e4e71a68a64b0659fbb399e6141bd8967e5ebe46f22f8aca0f03a90920d1",
+    "bytes": 67036,
+    "matchesBackup": true
+  },
+  {
+    "source": "https://onosglobal.pages.dev/assets/sample-development.webp",
+    "local": "/assets/onos-sample-development.webp",
+    "alt": "The Onos team reviewing product samples and materials",
+    "sha256": "506c23c053d9ee206d90696c90855a222134606049e6bcb019452f91057e654a",
+    "bytes": 233656,
+    "matchesBackup": true
+  },
+  {
+    "source": "https://onosglobal.pages.dev/assets/partner-meeting.webp",
+    "local": "/assets/onos-partner-meeting.webp",
+    "alt": "Onos team",
+    "sha256": "fb38d2b49e08f7aa5736cd6f0291146156e67f2d399f519cc21e68a347e32fd3",
+    "bytes": 181870,
+    "matchesBackup": true
+  },
+  {
+    "source": "https://onosglobal.pages.dev/assets/finishing-table.webp",
+    "local": "/assets/onos-finishing-table.webp",
+    "alt": "Printed garments organised at the finishing table",
+    "sha256": "4d732638081d8c2e3dd4599c4ef9717278b025979a439a7b7f09a9949e94d33c",
+    "bytes": 169438,
+    "matchesBackup": true
+  },
+  {
+    "source": "https://onosglobal.pages.dev/assets/warehouse-inventory.webp",
+    "local": "/assets/onos-warehouse-inventory.webp",
+    "alt": "Organised garment inventory at the Onos warehouse",
+    "sha256": "ad51bd7ed55230f473c926805c8fe3677cc44a755f1c4e72bd9501b86986fa54",
+    "bytes": 278722,
+    "matchesBackup": true
+  },
+  {
+    "source": "https://onosglobal.pages.dev/assets/embroidery-hero-640.webp",
+    "local": "/assets/onos-embroidery-hero-640.webp",
+    "alt": "Multi-head embroidery machines producing garments at Onos",
+    "sha256": "6661887bb448181c5513882362e138273db55071b015faf4894820e4d830cc59",
+    "bytes": 59754,
+    "matchesBackup": true
+  },
+  {
+    "local": "/assets/onos-wordmark.svg",
+    "origin": "backup/onos-before-manufactt-restore-20261028:public/assets/onos/wordmark.svg",
+    "note": "Existing font-based wordmark or neutral artwork; approved ONOS lockup not supplied.",
+    "sha256": "255d0b688795d463f00ce7d269d5a64fdfc4729be89b180ae3844b766f11be2a"
+  },
+  {
+    "local": "/assets/onos-wordmark-light.svg",
+    "origin": "backup/onos-before-manufactt-restore-20261028:public/assets/onos/wordmark-light.svg",
+    "note": "Existing font-based wordmark or neutral artwork; approved ONOS lockup not supplied.",
+    "sha256": "41873d0f73ac6cee4fadab4b090a0f48c2333ead5e7e45585e74492ae2b0dfea"
+  },
+  {
+    "local": "/assets/onos-connection.svg",
+    "origin": "backup/onos-before-manufactt-restore-20261028:public/assets/onos/connection.svg",
+    "note": "Existing font-based wordmark or neutral artwork; approved ONOS lockup not supplied.",
+    "sha256": "74390da2ded5eca026f2b5a583a9bb9f3b7a27536cba74e21767c3650c958435"
+  },
+  {
+    "local": "/assets/onos-favicon.svg",
+    "origin": "backup/onos-before-manufactt-restore-20261028:public/assets/onos/favicon.svg",
+    "note": "Existing font-based wordmark or neutral artwork; approved ONOS lockup not supplied.",
+    "sha256": "fe5a2fa5b8100c4def8749b4e6848928cfbb76e5ed03e1096d402b06a1156efd"
+  },
+  {
+    "local": "/assets/onos-finishing-table-slot-61e0c111c451.webp",
+    "derivedFrom": "/assets/onos-finishing-table.webp",
+    "originalSlotAsset": "/assets/61e0c111c451-68e098648e044f6774ff0357_Product-Image--3-.webp",
+    "width": 525,
+    "height": 300,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "f05f592dbdd00ad5fb4574f438b20cd4a10fced95265a88c958d317777fe99b3",
+    "bytes": 38220
+  },
+  {
+    "local": "/assets/onos-finishing-table-slot-61e0c111c451-500w.webp",
+    "derivedFrom": "/assets/onos-finishing-table.webp",
+    "originalSlotAsset": "/assets/61e0c111c451-68e098648e044f6774ff0357_Product-Image--3-.webp",
+    "width": 500,
+    "height": 286,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "e2345060eb0bcf69bb5b96a390e977f519d171977f0d7648beecdfeb3b05db3c",
+    "bytes": 35246
+  },
+  {
+    "local": "/assets/onos-finishing-table-slot-61e0c111c451-525w.webp",
+    "derivedFrom": "/assets/onos-finishing-table.webp",
+    "originalSlotAsset": "/assets/61e0c111c451-68e098648e044f6774ff0357_Product-Image--3-.webp",
+    "width": 525,
+    "height": 300,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "f05f592dbdd00ad5fb4574f438b20cd4a10fced95265a88c958d317777fe99b3",
+    "bytes": 38220
+  },
+  {
+    "local": "/assets/onos-press-machines-row-slot-3784355d542a.webp",
+    "derivedFrom": "/assets/onos-press-machines-row.webp",
+    "originalSlotAsset": "/assets/3784355d542a-68e097b6914d80d53f78e44b_Product-Image--2-.png",
+    "width": 525,
+    "height": 300,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "a8d8640a0421cd1d808b6caa3b16d0ea44eafcf67d4e7598e258401e69d8b1d5",
+    "bytes": 34938
+  },
+  {
+    "local": "/assets/onos-press-machines-row-slot-3784355d542a-500w.webp",
+    "derivedFrom": "/assets/onos-press-machines-row.webp",
+    "originalSlotAsset": "/assets/3784355d542a-68e097b6914d80d53f78e44b_Product-Image--2-.png",
+    "width": 500,
+    "height": 286,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "f7935e8e3ace51a642cd7cf92e213394f5975be3d2577bc4a6205849afad6917",
+    "bytes": 32016
+  },
+  {
+    "local": "/assets/onos-press-machines-row-slot-3784355d542a-525w.webp",
+    "derivedFrom": "/assets/onos-press-machines-row.webp",
+    "originalSlotAsset": "/assets/3784355d542a-68e097b6914d80d53f78e44b_Product-Image--2-.png",
+    "width": 525,
+    "height": 300,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "a8d8640a0421cd1d808b6caa3b16d0ea44eafcf67d4e7598e258401e69d8b1d5",
+    "bytes": 34938
+  },
+  {
+    "local": "/assets/onos-laser-cut-gifts-slot-287932d7ab5a.webp",
+    "derivedFrom": "/assets/onos-laser-cut-gifts.webp",
+    "originalSlotAsset": "/assets/287932d7ab5a-68e09864627b68238e93a027_Product-Image--1-.webp",
+    "width": 525,
+    "height": 300,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "2779ad65a08644863ae0192cc11565a0ba449915fe2091800246cec1d219bdfd",
+    "bytes": 50706
+  },
+  {
+    "local": "/assets/onos-laser-cut-gifts-slot-287932d7ab5a-500w.webp",
+    "derivedFrom": "/assets/onos-laser-cut-gifts.webp",
+    "originalSlotAsset": "/assets/287932d7ab5a-68e09864627b68238e93a027_Product-Image--1-.webp",
+    "width": 500,
+    "height": 286,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "28d4fc98c5c7f2a9ada61ba2fcfc3c8bcb81bd82e5ad717356d9594ec14d316c",
+    "bytes": 47110
+  },
+  {
+    "local": "/assets/onos-laser-cut-gifts-slot-287932d7ab5a-525w.webp",
+    "derivedFrom": "/assets/onos-laser-cut-gifts.webp",
+    "originalSlotAsset": "/assets/287932d7ab5a-68e09864627b68238e93a027_Product-Image--1-.webp",
+    "width": 525,
+    "height": 300,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "2779ad65a08644863ae0192cc11565a0ba449915fe2091800246cec1d219bdfd",
+    "bytes": 50706
+  },
+  {
+    "local": "/assets/onos-equipment-embroidery-slot-87da0557bb85.webp",
+    "derivedFrom": "/assets/onos-equipment-embroidery.webp",
+    "originalSlotAsset": "/assets/87da0557bb85-68e098644bb31efae7327e1e_Product-Image--4-.webp",
+    "width": 525,
+    "height": 300,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "aad426d6d07b58dd36b1d550ef21a2ddf40e280d9c7172b8ad74e2b2d77ec49b",
+    "bytes": 44096
+  },
+  {
+    "local": "/assets/onos-equipment-embroidery-slot-87da0557bb85-500w.webp",
+    "derivedFrom": "/assets/onos-equipment-embroidery.webp",
+    "originalSlotAsset": "/assets/87da0557bb85-68e098644bb31efae7327e1e_Product-Image--4-.webp",
+    "width": 500,
+    "height": 286,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "334fdc3888e1d938bce02efe8cf0320b24bfc83462e216c45ddcbbdbcbe7ede9",
+    "bytes": 41036
+  },
+  {
+    "local": "/assets/onos-equipment-embroidery-slot-87da0557bb85-525w.webp",
+    "derivedFrom": "/assets/onos-equipment-embroidery.webp",
+    "originalSlotAsset": "/assets/87da0557bb85-68e098644bb31efae7327e1e_Product-Image--4-.webp",
+    "width": 525,
+    "height": 300,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "aad426d6d07b58dd36b1d550ef21a2ddf40e280d9c7172b8ad74e2b2d77ec49b",
+    "bytes": 44096
+  },
+  {
+    "local": "/assets/onos-dtg-machine-detail-slot-4e4b73038efe.webp",
+    "derivedFrom": "/assets/onos-dtg-machine-detail.webp",
+    "originalSlotAsset": "/assets/4e4b73038efe-6900978b8937384b23c556df_3930.jpg",
+    "width": 533,
+    "height": 355,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "507f43e4ec03d62a8bef2e234a46fa4e9ac67895a02dc124fe6ca082f9ba5da8",
+    "bytes": 23816
+  },
+  {
+    "local": "/assets/onos-dtg-machine-detail-slot-4e4b73038efe-500w.webp",
+    "derivedFrom": "/assets/onos-dtg-machine-detail.webp",
+    "originalSlotAsset": "/assets/4e4b73038efe-6900978b8937384b23c556df_3930.jpg",
+    "width": 500,
+    "height": 333,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "63a15229bdd27a2f038a9f3b9abb274b23ee43180617986ebeb393f17d69fb66",
+    "bytes": 21626
+  },
+  {
+    "local": "/assets/onos-dtg-machine-detail-slot-4e4b73038efe-533w.webp",
+    "derivedFrom": "/assets/onos-dtg-machine-detail.webp",
+    "originalSlotAsset": "/assets/4e4b73038efe-6900978b8937384b23c556df_3930.jpg",
+    "width": 533,
+    "height": 355,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "507f43e4ec03d62a8bef2e234a46fa4e9ac67895a02dc124fe6ca082f9ba5da8",
+    "bytes": 23816
+  },
+  {
+    "local": "/assets/onos-equipment-embroidery-slot-665b1bd0a788.webp",
+    "derivedFrom": "/assets/onos-equipment-embroidery.webp",
+    "originalSlotAsset": "/assets/665b1bd0a788-6900978be722667c0731fdce_3--3-.jpg",
+    "width": 533,
+    "height": 355,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "c0afe733d73ef654dce0c378aaef62fdf6e69a1931ef273c15edad3f300f9276",
+    "bytes": 50438
+  },
+  {
+    "local": "/assets/onos-equipment-embroidery-slot-665b1bd0a788-500w.webp",
+    "derivedFrom": "/assets/onos-equipment-embroidery.webp",
+    "originalSlotAsset": "/assets/665b1bd0a788-6900978be722667c0731fdce_3--3-.jpg",
+    "width": 500,
+    "height": 333,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "3f4fef8f63d1275d4e90660d7499fc5e99678dcde9dd16a3996b5edca9f5ed6d",
+    "bytes": 45546
+  },
+  {
+    "local": "/assets/onos-equipment-embroidery-slot-665b1bd0a788-533w.webp",
+    "derivedFrom": "/assets/onos-equipment-embroidery.webp",
+    "originalSlotAsset": "/assets/665b1bd0a788-6900978be722667c0731fdce_3--3-.jpg",
+    "width": 533,
+    "height": 355,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "c0afe733d73ef654dce0c378aaef62fdf6e69a1931ef273c15edad3f300f9276",
+    "bytes": 50438
+  },
+  {
+    "local": "/assets/onos-press-machines-row-slot-a735c7f18d7a.webp",
+    "derivedFrom": "/assets/onos-press-machines-row.webp",
+    "originalSlotAsset": "/assets/a735c7f18d7a-6900978bee7fdb79ad563415_3--1-.jpg",
+    "width": 533,
+    "height": 355,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "5b104fbca3135d877dae643e9e3123f4ec6ff6ae9f89c572b18a68de3c3e801e",
+    "bytes": 39298
+  },
+  {
+    "local": "/assets/onos-press-machines-row-slot-a735c7f18d7a-500w.webp",
+    "derivedFrom": "/assets/onos-press-machines-row.webp",
+    "originalSlotAsset": "/assets/a735c7f18d7a-6900978bee7fdb79ad563415_3--1-.jpg",
+    "width": 500,
+    "height": 333,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "1fccb6859d8627635ec0d4d4244bde4e20f2c1deeac5189b8b3d8848c84b6e67",
+    "bytes": 35616
+  },
+  {
+    "local": "/assets/onos-press-machines-row-slot-a735c7f18d7a-533w.webp",
+    "derivedFrom": "/assets/onos-press-machines-row.webp",
+    "originalSlotAsset": "/assets/a735c7f18d7a-6900978bee7fdb79ad563415_3--1-.jpg",
+    "width": 533,
+    "height": 355,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "5b104fbca3135d877dae643e9e3123f4ec6ff6ae9f89c572b18a68de3c3e801e",
+    "bytes": 39298
+  },
+  {
+    "local": "/assets/onos-laser-cut-gifts-slot-5adfffc4debd.webp",
+    "derivedFrom": "/assets/onos-laser-cut-gifts.webp",
+    "originalSlotAsset": "/assets/5adfffc4debd-6900978adab7c2df4b8af06a_3--2-.jpg",
+    "width": 533,
+    "height": 355,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "4aa106eb6212f12b78f7188fe7792f8e28dbc0e8b332387331d0aa15202783f3",
+    "bytes": 59854
+  },
+  {
+    "local": "/assets/onos-laser-cut-gifts-slot-5adfffc4debd-500w.webp",
+    "derivedFrom": "/assets/onos-laser-cut-gifts.webp",
+    "originalSlotAsset": "/assets/5adfffc4debd-6900978adab7c2df4b8af06a_3--2-.jpg",
+    "width": 500,
+    "height": 333,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "1b1b3665c33acdc4d02955bfd1a91f4adbd21518b32f50ec494ba2a58335ae24",
+    "bytes": 53636
+  },
+  {
+    "local": "/assets/onos-laser-cut-gifts-slot-5adfffc4debd-533w.webp",
+    "derivedFrom": "/assets/onos-laser-cut-gifts.webp",
+    "originalSlotAsset": "/assets/5adfffc4debd-6900978adab7c2df4b8af06a_3--2-.jpg",
+    "width": 533,
+    "height": 355,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "4aa106eb6212f12b78f7188fe7792f8e28dbc0e8b332387331d0aa15202783f3",
+    "bytes": 59854
+  },
+  {
+    "local": "/assets/onos-finishing-table-slot-768ea262688c.webp",
+    "derivedFrom": "/assets/onos-finishing-table.webp",
+    "originalSlotAsset": "/assets/768ea262688c-68f0b900e90d66f1e6a7f4c3_2.webp",
+    "width": 533,
+    "height": 355,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "07a5e882efe5486eaba14bfa6bf5ed4456006e18d7e5988f8e1d0be350cdb6b6",
+    "bytes": 43824
+  },
+  {
+    "local": "/assets/onos-finishing-table-slot-768ea262688c-500w.webp",
+    "derivedFrom": "/assets/onos-finishing-table.webp",
+    "originalSlotAsset": "/assets/768ea262688c-68f0b900e90d66f1e6a7f4c3_2.webp",
+    "width": 500,
+    "height": 333,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "7a36d4c54d8afeabd8dd1130e2612320716a809d78d6fb31823d9f1e27336a57",
+    "bytes": 39594
+  },
+  {
+    "local": "/assets/onos-finishing-table-slot-768ea262688c-533w.webp",
+    "derivedFrom": "/assets/onos-finishing-table.webp",
+    "originalSlotAsset": "/assets/768ea262688c-68f0b900e90d66f1e6a7f4c3_2.webp",
+    "width": 533,
+    "height": 355,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "07a5e882efe5486eaba14bfa6bf5ed4456006e18d7e5988f8e1d0be350cdb6b6",
+    "bytes": 43824
+  },
+  {
+    "local": "/assets/onos-equipment-embroidery-slot-48c00c6655df.webp",
+    "derivedFrom": "/assets/onos-equipment-embroidery.webp",
+    "originalSlotAsset": "/assets/48c00c6655df-68dfaa6b3891620d3b4a31f5_Industry-image-bg--2-.png",
+    "width": 133,
+    "height": 148,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "b0d1e09299ecdee33a16dc6e35051a3489c483a9f87731bdcf982d95ef1fe531",
+    "bytes": 7270
+  },
+  {
+    "local": "/assets/onos-warehouse-inventory-slot-ae27370f52d3.webp",
+    "derivedFrom": "/assets/onos-warehouse-inventory.webp",
+    "originalSlotAsset": "/assets/ae27370f52d3-68dfaa6a28c7a7c7d48d1369_Industry-image-bg--5-.png",
+    "width": 117,
+    "height": 95,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "d5864c4d6dd1db0682eaca39c305fdd6b08ded47fc6df425f77b9114b005cf48",
+    "bytes": 5084
+  },
+  {
+    "local": "/assets/onos-finishing-table-slot-a18541310af5.webp",
+    "derivedFrom": "/assets/onos-finishing-table.webp",
+    "originalSlotAsset": "/assets/a18541310af5-68dfaa6a72a48addb404ecaf_Industry-image-bg--1-.png",
+    "width": 137,
+    "height": 139,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "6ab3c36b6bd5967dbd4e4c918ea1544e42050599111269511576f00a7bfd092d",
+    "bytes": 7004
+  },
+  {
+    "local": "/assets/onos-press-machines-row-slot-b38b158ba43b.webp",
+    "derivedFrom": "/assets/onos-press-machines-row.webp",
+    "originalSlotAsset": "/assets/b38b158ba43b-68dfaa6ba66a9dbc9c52d860_Industry-image-bg--3-.png",
+    "width": 126,
+    "height": 102,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "5134e76b6b3f4cbdc8a388cee6e796d34268d443776ea7b87b8bd6378e24a613",
+    "bytes": 4578
+  },
+  {
+    "local": "/assets/onos-laser-cut-gifts-slot-69f77842671e.webp",
+    "derivedFrom": "/assets/onos-laser-cut-gifts.webp",
+    "originalSlotAsset": "/assets/69f77842671e-68dfaae5b689f779b96d4111_Industry-image-bg--4-.png",
+    "width": 143,
+    "height": 153,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "062f0e8950b7529860a11773da0bfe0ea7ec1019b1f0e72b352512c455fe456a",
+    "bytes": 9960
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-f950461d7bef.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/f950461d7bef-690300862ee7924a815a73f2_Client-images--2-.webp",
+    "width": 60,
+    "height": 60,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "af4fcd0e9b7dd18508a2ca1d90885e1855b4b2759d38cab0649623d1ac0ae7bd",
+    "bytes": 2098
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-c84ffa4fb2b8.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp",
+    "width": 700,
+    "height": 720,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44",
+    "bytes": 121602
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-c84ffa4fb2b8-500w.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp",
+    "width": 500,
+    "height": 514,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "aaa4af3d97f4fb47a85c4eefef5799a7be86f325ce9b7a2a77b14137a0c4ffa0",
+    "bytes": 71784
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-c84ffa4fb2b8-700w.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp",
+    "width": 700,
+    "height": 720,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44",
+    "bytes": 121602
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-17ed536d0c8a.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp",
+    "width": 700,
+    "height": 720,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44",
+    "bytes": 121602
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-17ed536d0c8a-500w.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp",
+    "width": 500,
+    "height": 514,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "aaa4af3d97f4fb47a85c4eefef5799a7be86f325ce9b7a2a77b14137a0c4ffa0",
+    "bytes": 71784
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-17ed536d0c8a-700w.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp",
+    "width": 700,
+    "height": 720,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44",
+    "bytes": 121602
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-c2ad96ea220a.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/c2ad96ea220a-68e34c75cdca16a714d6962e_blog-big-image-5.webp",
+    "width": 1400,
+    "height": 800,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "05e4e390a2709c0c6cac064708ea0420d2fc31b005e9b06df759227a6044b4cb",
+    "bytes": 215174
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-1ca0aa821cd9.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp",
+    "width": 700,
+    "height": 720,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44",
+    "bytes": 121602
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-1ca0aa821cd9-500w.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp",
+    "width": 500,
+    "height": 514,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "aaa4af3d97f4fb47a85c4eefef5799a7be86f325ce9b7a2a77b14137a0c4ffa0",
+    "bytes": 71784
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-1ca0aa821cd9-700w.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp",
+    "width": 700,
+    "height": 720,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44",
+    "bytes": 121602
+  },
+  {
+    "local": "/assets/onos-equipment-embroidery-slot-0cce9e8f6c9c.webp",
+    "derivedFrom": "/assets/onos-equipment-embroidery.webp",
+    "originalSlotAsset": "/assets/0cce9e8f6c9c-68e2550a6393cda20820810b_case-study-image-5.webp",
+    "width": 760,
+    "height": 404,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "2cd02fc19accc23705f461df24534ebbc555a5dd00887011c680168f33b1fc60",
+    "bytes": 72798
+  },
+  {
+    "local": "/assets/onos-equipment-embroidery-slot-0cce9e8f6c9c-500w.webp",
+    "derivedFrom": "/assets/onos-equipment-embroidery.webp",
+    "originalSlotAsset": "/assets/0cce9e8f6c9c-68e2550a6393cda20820810b_case-study-image-5.webp",
+    "width": 500,
+    "height": 266,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "bfb6e8b759bf3bb10815c7c6d7547289db5a50de29b590ecd2d2398cdc90b0fc",
+    "bytes": 38832
+  },
+  {
+    "local": "/assets/onos-equipment-embroidery-slot-0cce9e8f6c9c-760w.webp",
+    "derivedFrom": "/assets/onos-equipment-embroidery.webp",
+    "originalSlotAsset": "/assets/0cce9e8f6c9c-68e2550a6393cda20820810b_case-study-image-5.webp",
+    "width": 760,
+    "height": 404,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "2cd02fc19accc23705f461df24534ebbc555a5dd00887011c680168f33b1fc60",
+    "bytes": 72798
+  },
+  {
+    "local": "/assets/onos-equipment-embroidery-slot-0f1b481cd8e3.webp",
+    "derivedFrom": "/assets/onos-equipment-embroidery.webp",
+    "originalSlotAsset": "/assets/0f1b481cd8e3-68e788e4eca24ead46dfb49f_Untitled-15.webp",
+    "width": 400,
+    "height": 400,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "2d8124b7ccc126897de42efc4cdcc6d2e2f8b9c0ba50813ae6adf4c26ba310a5",
+    "bytes": 41326
+  },
+  {
+    "local": "/assets/onos-embroidery-hero-slot-2359952e3860.webp",
+    "derivedFrom": "/assets/onos-embroidery-hero.webp",
+    "originalSlotAsset": "/assets/2359952e3860-68e788edf622788ab0f6d952_Untitled-13.webp",
+    "width": 400,
+    "height": 400,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "468117bb63d69f234df55e0bb943b57e4e72d800a8f179fc76d62bd849ce4879",
+    "bytes": 40896
+  },
+  {
+    "local": "/assets/onos-embroidery-slot-d4a40d45c081.webp",
+    "derivedFrom": "/assets/onos-embroidery.webp",
+    "originalSlotAsset": "/assets/d4a40d45c081-68e788edd02ee081790acdc6_Untitled-14.webp",
+    "width": 400,
+    "height": 400,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "9b03de2fdba8dd9d4e83b39149d304d32f16cf9591428ab4ce7e4ddda61301fa",
+    "bytes": 41596
+  },
+  {
+    "local": "/assets/onos-finishing-table-slot-79a31a2d5450.webp",
+    "derivedFrom": "/assets/onos-finishing-table.webp",
+    "originalSlotAsset": "/assets/79a31a2d5450-68e254aa0bf150d8b71ead93_Case-Study-Image-1.webp",
+    "width": 761,
+    "height": 404,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "a65d2407403e28d337b5bb464aa1573feea2979c51b45a0a1bf6ecbc7bbd53e4",
+    "bytes": 63818
+  },
+  {
+    "local": "/assets/onos-finishing-table-slot-79a31a2d5450-500w.webp",
+    "derivedFrom": "/assets/onos-finishing-table.webp",
+    "originalSlotAsset": "/assets/79a31a2d5450-68e254aa0bf150d8b71ead93_Case-Study-Image-1.webp",
+    "width": 500,
+    "height": 265,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "848126050ef053ed116872c51fcd5f5fcec5d1a512a83fd6185a841a79a9ea13",
+    "bytes": 33820
+  },
+  {
+    "local": "/assets/onos-finishing-table-slot-79a31a2d5450-761w.webp",
+    "derivedFrom": "/assets/onos-finishing-table.webp",
+    "originalSlotAsset": "/assets/79a31a2d5450-68e254aa0bf150d8b71ead93_Case-Study-Image-1.webp",
+    "width": 761,
+    "height": 404,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "a65d2407403e28d337b5bb464aa1573feea2979c51b45a0a1bf6ecbc7bbd53e4",
+    "bytes": 63818
+  },
+  {
+    "local": "/assets/onos-dtg-machine-detail-slot-f43d8b900690.webp",
+    "derivedFrom": "/assets/onos-dtg-machine-detail.webp",
+    "originalSlotAsset": "/assets/f43d8b900690-68e254b81d5a9819d9c132b7_Case-Study-Image-2.webp",
+    "width": 760,
+    "height": 404,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "2f6af4ae3ee9cd2cdd7ec411c22d1b734f9a0c5481d24bef125d98ba2e297acf",
+    "bytes": 31828
+  },
+  {
+    "local": "/assets/onos-dtg-machine-detail-slot-f43d8b900690-500w.webp",
+    "derivedFrom": "/assets/onos-dtg-machine-detail.webp",
+    "originalSlotAsset": "/assets/f43d8b900690-68e254b81d5a9819d9c132b7_Case-Study-Image-2.webp",
+    "width": 500,
+    "height": 266,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "6e7f59900d3157f8d08551bc9e0462215d5dfe24b2954bbd16b81a981ba421b4",
+    "bytes": 19470
+  },
+  {
+    "local": "/assets/onos-dtg-machine-detail-slot-f43d8b900690-760w.webp",
+    "derivedFrom": "/assets/onos-dtg-machine-detail.webp",
+    "originalSlotAsset": "/assets/f43d8b900690-68e254b81d5a9819d9c132b7_Case-Study-Image-2.webp",
+    "width": 760,
+    "height": 404,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "2f6af4ae3ee9cd2cdd7ec411c22d1b734f9a0c5481d24bef125d98ba2e297acf",
+    "bytes": 31828
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-b67523de0d62.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/b67523de0d62-68dcc4be4bec1b8c53916029_Avatar-Image--2-.webp",
+    "width": 120,
+    "height": 121,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "3a9e1fa7217509cfec6afa9dbc14a7cc96251b21c020b4d327903e04587544c8",
+    "bytes": 6474
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-4c4eddd9988b.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/4c4eddd9988b-68dcc4bebd77bc4ff1fc5206_Avatar-Image--3-.webp",
+    "width": 120,
+    "height": 121,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "3a9e1fa7217509cfec6afa9dbc14a7cc96251b21c020b4d327903e04587544c8",
+    "bytes": 6474
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-24641e74c0a7.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/24641e74c0a7-68dcc4bed9e7a8448d66fb53_Avatar-Image--4-.webp",
+    "width": 120,
+    "height": 121,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "3a9e1fa7217509cfec6afa9dbc14a7cc96251b21c020b4d327903e04587544c8",
+    "bytes": 6474
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-1ade6f5f4402.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/1ade6f5f4402-68dcc4be0a27f1a9ecbc0b06_Avatar-Image--1-.webp",
+    "width": 120,
+    "height": 121,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "3a9e1fa7217509cfec6afa9dbc14a7cc96251b21c020b4d327903e04587544c8",
+    "bytes": 6474
+  },
+  {
+    "local": "/assets/onos-production-floor-slot-52d70e14a4fd.webp",
+    "derivedFrom": "/assets/onos-production-floor.webp",
+    "originalSlotAsset": "/assets/52d70e14a4fd-68e496d251974662834e9c54_About-Hero-Image.webp",
+    "width": 1337,
+    "height": 586,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "a35a3138d30bba0e6c41eec51186f80d2c974ae14b66d79d2fdff374273e9fd5",
+    "bytes": 148066
+  },
+  {
+    "local": "/assets/onos-production-floor-slot-52d70e14a4fd-500w.webp",
+    "derivedFrom": "/assets/onos-production-floor.webp",
+    "originalSlotAsset": "/assets/52d70e14a4fd-68e496d251974662834e9c54_About-Hero-Image.webp",
+    "width": 500,
+    "height": 219,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "69f7bbbd1bb48a0c236710b0e9e4c5b28b1ad359bb3868662dcda1f3f7ebb438",
+    "bytes": 29498
+  },
+  {
+    "local": "/assets/onos-production-floor-slot-52d70e14a4fd-800w.webp",
+    "derivedFrom": "/assets/onos-production-floor.webp",
+    "originalSlotAsset": "/assets/52d70e14a4fd-68e496d251974662834e9c54_About-Hero-Image.webp",
+    "width": 800,
+    "height": 351,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "369654fda4791d3966243e6be8d7a011b001e678ab61adcd8361891f469ca89e",
+    "bytes": 65056
+  },
+  {
+    "local": "/assets/onos-production-floor-slot-52d70e14a4fd-1080w.webp",
+    "derivedFrom": "/assets/onos-production-floor.webp",
+    "originalSlotAsset": "/assets/52d70e14a4fd-68e496d251974662834e9c54_About-Hero-Image.webp",
+    "width": 1080,
+    "height": 473,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "4db794f7b569e8ddb3a0bc4cacf75069d1504ae90f0cb2c14f4f7ae2d731cfc4",
+    "bytes": 105660
+  },
+  {
+    "local": "/assets/onos-production-floor-slot-52d70e14a4fd-1337w.webp",
+    "derivedFrom": "/assets/onos-production-floor.webp",
+    "originalSlotAsset": "/assets/52d70e14a4fd-68e496d251974662834e9c54_About-Hero-Image.webp",
+    "width": 1337,
+    "height": 586,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "a35a3138d30bba0e6c41eec51186f80d2c974ae14b66d79d2fdff374273e9fd5",
+    "bytes": 148066
+  },
+  {
+    "local": "/assets/onos-partner-meeting-slot-9c47dab1e55f.webp",
+    "derivedFrom": "/assets/onos-partner-meeting.webp",
+    "originalSlotAsset": "/assets/9c47dab1e55f-68e4a478139d94dc1ef8914c_A.png",
+    "width": 251,
+    "height": 286,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "bf001fcfbf7d0200981a46a48925db80d31f2d9507229a666f053cc836154d8d",
+    "bytes": 13832
+  },
+  {
+    "local": "/assets/onos-facility-california-slot-46a30e49739d.webp",
+    "derivedFrom": "/assets/onos-facility-california.webp",
+    "originalSlotAsset": "/assets/46a30e49739d-68f0cd279465ea6b5dad0320_Team-Members--3-.webp",
+    "width": 400,
+    "height": 430,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "794bcf47b39e86216ee9011438c5c0c1b61c887d7aaed09aea035bcda8e31921",
+    "bytes": 15554
+  },
+  {
+    "local": "/assets/onos-partner-meeting-slot-2189a248897a.webp",
+    "derivedFrom": "/assets/onos-partner-meeting.webp",
+    "originalSlotAsset": "/assets/2189a248897a-68f0cd27d2cbc9bf9ba9b734_Team-Members--5-.webp",
+    "width": 400,
+    "height": 430,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "e115777181cdbf6c8667ca1e00ee75237bbe5730e9ca35850cbfe54049cfdc0c",
+    "bytes": 26776
+  },
+  {
+    "local": "/assets/onos-facility-me-linh-slot-709dd11cac55.webp",
+    "derivedFrom": "/assets/onos-facility-me-linh.webp",
+    "originalSlotAsset": "/assets/709dd11cac55-68f0cd26622b55ec3a3ec249_Team-Members--2-.webp",
+    "width": 400,
+    "height": 430,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "0905eb749e2421f90cb507d6a5ed886c9945129ef367697f75ef4360bc6691ff",
+    "bytes": 47186
+  },
+  {
+    "local": "/assets/onos-finishing-table-slot-33fb02620915.webp",
+    "derivedFrom": "/assets/onos-finishing-table.webp",
+    "originalSlotAsset": "/assets/33fb02620915-68f0cd2786973a4f07346a59_Team-Members--7-.webp",
+    "width": 400,
+    "height": 430,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "18e89c9ac8f38d059c475fab5862b68fb2df82d0dc51da3afb99c55bb7076b7e",
+    "bytes": 37282
+  },
+  {
+    "local": "/assets/onos-production-floor-slot-acc7d80c36b3.webp",
+    "derivedFrom": "/assets/onos-production-floor.webp",
+    "originalSlotAsset": "/assets/acc7d80c36b3-68f0cd260f33dbf1ac5cefcb_Team-Members--4-.webp",
+    "width": 400,
+    "height": 430,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "3ea877b1759f4e6ddaefc4e0ff7c9f895338727316dff6026e047cf26bf2f731",
+    "bytes": 38902
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-9fd2d77f9bed.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/9fd2d77f9bed-68f0cd27ab20d017a56a6c36_Team-Members--6-.webp",
+    "width": 400,
+    "height": 430,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "a072cc836b631834877088259b358bb3eade8fc1750313a63efc3cf1749c546a",
+    "bytes": 50854
+  },
+  {
+    "local": "/assets/onos-facility-thai-nguyen-slot-a5bb7b038fbf.webp",
+    "derivedFrom": "/assets/onos-facility-thai-nguyen.webp",
+    "originalSlotAsset": "/assets/a5bb7b038fbf-68f0cd26d6a7b86a22158acb_Team-Members--1-.webp",
+    "width": 400,
+    "height": 430,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "f5b93e2e7c173daa5757ed87b45e441eae5a3fafce22a2f4a4688502b142abaa",
+    "bytes": 65478
+  },
+  {
+    "local": "/assets/onos-press-machines-row-slot-a7358f674f5d.webp",
+    "derivedFrom": "/assets/onos-press-machines-row.webp",
+    "originalSlotAsset": "/assets/a7358f674f5d-68e25528f043e1ae90e95631_case-study-image-6.webp",
+    "width": 760,
+    "height": 404,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "cbcc42cfd376f35e9679efaffd3b834b028a489adf172d07439249c506ff6c1d",
+    "bytes": 59478
+  },
+  {
+    "local": "/assets/onos-press-machines-row-slot-a7358f674f5d-500w.webp",
+    "derivedFrom": "/assets/onos-press-machines-row.webp",
+    "originalSlotAsset": "/assets/a7358f674f5d-68e25528f043e1ae90e95631_case-study-image-6.webp",
+    "width": 500,
+    "height": 266,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "0a6c06543aa556d9e8f312b348675e5251490152d41bb05dbb3dc7c5a5484fd9",
+    "bytes": 30316
+  },
+  {
+    "local": "/assets/onos-press-machines-row-slot-a7358f674f5d-760w.webp",
+    "derivedFrom": "/assets/onos-press-machines-row.webp",
+    "originalSlotAsset": "/assets/a7358f674f5d-68e25528f043e1ae90e95631_case-study-image-6.webp",
+    "width": 760,
+    "height": 404,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "cbcc42cfd376f35e9679efaffd3b834b028a489adf172d07439249c506ff6c1d",
+    "bytes": 59478
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-0fcabf3332a4.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/0fcabf3332a4-68e2555178675ff9623b0491_case-study-image-7.webp",
+    "width": 760,
+    "height": 404,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "39292e2c50cd1ba4e9f8179cead0c24dc5fd3894fcb4f836c86ea613586fcbda",
+    "bytes": 85324
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-0fcabf3332a4-500w.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/0fcabf3332a4-68e2555178675ff9623b0491_case-study-image-7.webp",
+    "width": 500,
+    "height": 266,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "b4555c76dc15e0efb8370e2476742c3f810c7a9e1844a14a7fa451d2a2d79020",
+    "bytes": 43556
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-0fcabf3332a4-760w.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/0fcabf3332a4-68e2555178675ff9623b0491_case-study-image-7.webp",
+    "width": 760,
+    "height": 404,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "39292e2c50cd1ba4e9f8179cead0c24dc5fd3894fcb4f836c86ea613586fcbda",
+    "bytes": 85324
+  },
+  {
+    "local": "/assets/onos-finishing-table-slot-a412c318c8fb.webp",
+    "derivedFrom": "/assets/onos-finishing-table.webp",
+    "originalSlotAsset": "/assets/a412c318c8fb-68e34c2b5b4fb72c7d9dd691_blog-big-image-2.webp",
+    "width": 1400,
+    "height": 800,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "dd9fb00ab23f22dcc603e37b7e36e319230bfde2f6f1405e3744ee7d1e2be858",
+    "bytes": 158298
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-044f629c5a70.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/044f629c5a70-68e34c39638ac15970c6717c_image-3.webp",
+    "width": 700,
+    "height": 720,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44",
+    "bytes": 121602
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-044f629c5a70-500w.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/044f629c5a70-68e34c39638ac15970c6717c_image-3.webp",
+    "width": 500,
+    "height": 514,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "aaa4af3d97f4fb47a85c4eefef5799a7be86f325ce9b7a2a77b14137a0c4ffa0",
+    "bytes": 71784
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-044f629c5a70-700w.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/044f629c5a70-68e34c39638ac15970c6717c_image-3.webp",
+    "width": 700,
+    "height": 720,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44",
+    "bytes": 121602
+  },
+  {
+    "local": "/assets/onos-partner-meeting-slot-05a540b58921.webp",
+    "derivedFrom": "/assets/onos-partner-meeting.webp",
+    "originalSlotAsset": "/assets/05a540b58921-68e34bf4a3e3ddc5450493cb_blog-big-image-1.webp",
+    "width": 1400,
+    "height": 800,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "557bf97286214efd92f4356b4e19c55952f8ef41895c4ff621735dddf417391a",
+    "bytes": 120768
+  },
+  {
+    "local": "/assets/onos-embroidery-slot-1ffdc9ac2aa3.webp",
+    "derivedFrom": "/assets/onos-embroidery.webp",
+    "originalSlotAsset": "/assets/1ffdc9ac2aa3-68e0de9da751d46e57eab5ce_Chart.png",
+    "width": 368,
+    "height": 169,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "51f29c8c5b8b5d95a4c722338c41ece14c85f659365e2f1f83649f6ab387182e",
+    "bytes": 22062
+  },
+  {
+    "local": "/assets/onos-finishing-table-slot-709f2e70e0a2.webp",
+    "derivedFrom": "/assets/onos-finishing-table.webp",
+    "originalSlotAsset": "/assets/709f2e70e0a2-68df5fd46f6e13be0b0f8839_Service-Image--6-.webp",
+    "width": 1400,
+    "height": 800,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "dd9fb00ab23f22dcc603e37b7e36e319230bfde2f6f1405e3744ee7d1e2be858",
+    "bytes": 158298
+  },
+  {
+    "local": "/assets/onos-finishing-table-slot-709f2e70e0a2-500w.webp",
+    "derivedFrom": "/assets/onos-finishing-table.webp",
+    "originalSlotAsset": "/assets/709f2e70e0a2-68df5fd46f6e13be0b0f8839_Service-Image--6-.webp",
+    "width": 500,
+    "height": 286,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "e2345060eb0bcf69bb5b96a390e977f519d171977f0d7648beecdfeb3b05db3c",
+    "bytes": 35246
+  },
+  {
+    "local": "/assets/onos-finishing-table-slot-709f2e70e0a2-800w.webp",
+    "derivedFrom": "/assets/onos-finishing-table.webp",
+    "originalSlotAsset": "/assets/709f2e70e0a2-68df5fd46f6e13be0b0f8839_Service-Image--6-.webp",
+    "width": 800,
+    "height": 457,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "95ecc5f21656938d4bc75806b5b888555ff03f3376552f27bde7ba5d75f0da5b",
+    "bytes": 71654
+  },
+  {
+    "local": "/assets/onos-finishing-table-slot-709f2e70e0a2-1080w.webp",
+    "derivedFrom": "/assets/onos-finishing-table.webp",
+    "originalSlotAsset": "/assets/709f2e70e0a2-68df5fd46f6e13be0b0f8839_Service-Image--6-.webp",
+    "width": 1080,
+    "height": 617,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "c3360d76d03d33bd52d6f84174961ce88e0cf193560ea1d7cba1dab89950d18e",
+    "bytes": 110838
+  },
+  {
+    "local": "/assets/onos-finishing-table-slot-709f2e70e0a2-1400w.webp",
+    "derivedFrom": "/assets/onos-finishing-table.webp",
+    "originalSlotAsset": "/assets/709f2e70e0a2-68df5fd46f6e13be0b0f8839_Service-Image--6-.webp",
+    "width": 1400,
+    "height": 800,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "dd9fb00ab23f22dcc603e37b7e36e319230bfde2f6f1405e3744ee7d1e2be858",
+    "bytes": 158298
+  },
+  {
+    "local": "/assets/onos-laser-cut-gifts-slot-a1f02455f6d5.webp",
+    "derivedFrom": "/assets/onos-laser-cut-gifts.webp",
+    "originalSlotAsset": "/assets/a1f02455f6d5-68df5fc3dd6919f447f80a49_Service-Image--1-.webp",
+    "width": 1400,
+    "height": 800,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "d9047616d2bc1270a7f603768878eadb5645f6103fea45db65f9b04214943fba",
+    "bytes": 230054
+  },
+  {
+    "local": "/assets/onos-laser-cut-gifts-slot-a1f02455f6d5-500w.webp",
+    "derivedFrom": "/assets/onos-laser-cut-gifts.webp",
+    "originalSlotAsset": "/assets/a1f02455f6d5-68df5fc3dd6919f447f80a49_Service-Image--1-.webp",
+    "width": 500,
+    "height": 286,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "28d4fc98c5c7f2a9ada61ba2fcfc3c8bcb81bd82e5ad717356d9594ec14d316c",
+    "bytes": 47110
+  },
+  {
+    "local": "/assets/onos-laser-cut-gifts-slot-a1f02455f6d5-800w.webp",
+    "derivedFrom": "/assets/onos-laser-cut-gifts.webp",
+    "originalSlotAsset": "/assets/a1f02455f6d5-68df5fc3dd6919f447f80a49_Service-Image--1-.webp",
+    "width": 800,
+    "height": 457,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "a2443e5a7e65cf92b1ac10b4deac88c5e1dd72ddd2e6da2529c749d664b6c9ef",
+    "bytes": 100020
+  },
+  {
+    "local": "/assets/onos-laser-cut-gifts-slot-a1f02455f6d5-1080w.webp",
+    "derivedFrom": "/assets/onos-laser-cut-gifts.webp",
+    "originalSlotAsset": "/assets/a1f02455f6d5-68df5fc3dd6919f447f80a49_Service-Image--1-.webp",
+    "width": 1080,
+    "height": 617,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "7031e4f50a23f1f843409754a6640d6d15e9bc09a29b079653c22a8302593ee0",
+    "bytes": 155070
+  },
+  {
+    "local": "/assets/onos-laser-cut-gifts-slot-a1f02455f6d5-1400w.webp",
+    "derivedFrom": "/assets/onos-laser-cut-gifts.webp",
+    "originalSlotAsset": "/assets/a1f02455f6d5-68df5fc3dd6919f447f80a49_Service-Image--1-.webp",
+    "width": 1400,
+    "height": 800,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "d9047616d2bc1270a7f603768878eadb5645f6103fea45db65f9b04214943fba",
+    "bytes": 230054
+  },
+  {
+    "local": "/assets/onos-dtg-machine-detail-slot-092f666590da.webp",
+    "derivedFrom": "/assets/onos-dtg-machine-detail.webp",
+    "originalSlotAsset": "/assets/092f666590da-68df5fb4697d6800a50442a3_Service-Image--7-.webp",
+    "width": 1400,
+    "height": 800,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "448ed55c59889aed587d4796d07a05c6fcf0cf70c4b28c8be76902400bfd8e23",
+    "bytes": 66744
+  },
+  {
+    "local": "/assets/onos-dtg-machine-detail-slot-092f666590da-500w.webp",
+    "derivedFrom": "/assets/onos-dtg-machine-detail.webp",
+    "originalSlotAsset": "/assets/092f666590da-68df5fb4697d6800a50442a3_Service-Image--7-.webp",
+    "width": 500,
+    "height": 286,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "660724923a8da497348a7afd44c90cd1d2d045df5a0bcb95692870db543dda50",
+    "bytes": 21442
+  },
+  {
+    "local": "/assets/onos-dtg-machine-detail-slot-092f666590da-800w.webp",
+    "derivedFrom": "/assets/onos-dtg-machine-detail.webp",
+    "originalSlotAsset": "/assets/092f666590da-68df5fb4697d6800a50442a3_Service-Image--7-.webp",
+    "width": 800,
+    "height": 457,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "13981dd4010a6057aeeb1919babccbb0e51e9c7031d7ce19cdd9b46fcc7c49fc",
+    "bytes": 37824
+  },
+  {
+    "local": "/assets/onos-dtg-machine-detail-slot-092f666590da-1080w.webp",
+    "derivedFrom": "/assets/onos-dtg-machine-detail.webp",
+    "originalSlotAsset": "/assets/092f666590da-68df5fb4697d6800a50442a3_Service-Image--7-.webp",
+    "width": 1080,
+    "height": 617,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "84514db944bd306b4e82b37829d99c926f2d333355a62f18dbe0c886ab3886c7",
+    "bytes": 52624
+  },
+  {
+    "local": "/assets/onos-dtg-machine-detail-slot-092f666590da-1400w.webp",
+    "derivedFrom": "/assets/onos-dtg-machine-detail.webp",
+    "originalSlotAsset": "/assets/092f666590da-68df5fb4697d6800a50442a3_Service-Image--7-.webp",
+    "width": 1400,
+    "height": 800,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "448ed55c59889aed587d4796d07a05c6fcf0cf70c4b28c8be76902400bfd8e23",
+    "bytes": 66744
+  },
+  {
+    "local": "/assets/onos-press-machines-row-slot-f9aa8ad652f1.webp",
+    "derivedFrom": "/assets/onos-press-machines-row.webp",
+    "originalSlotAsset": "/assets/f9aa8ad652f1-68df5f9eb1faa87c52dcbf9b_Service-Image--4-.webp",
+    "width": 1400,
+    "height": 800,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "59a2df4794e9db13125eb71cd2cb963b453b9bf196c782d6ccf93374930a857c",
+    "bytes": 151790
+  },
+  {
+    "local": "/assets/onos-press-machines-row-slot-f9aa8ad652f1-500w.webp",
+    "derivedFrom": "/assets/onos-press-machines-row.webp",
+    "originalSlotAsset": "/assets/f9aa8ad652f1-68df5f9eb1faa87c52dcbf9b_Service-Image--4-.webp",
+    "width": 500,
+    "height": 286,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "f7935e8e3ace51a642cd7cf92e213394f5975be3d2577bc4a6205849afad6917",
+    "bytes": 32016
+  },
+  {
+    "local": "/assets/onos-press-machines-row-slot-f9aa8ad652f1-800w.webp",
+    "derivedFrom": "/assets/onos-press-machines-row.webp",
+    "originalSlotAsset": "/assets/f9aa8ad652f1-68df5f9eb1faa87c52dcbf9b_Service-Image--4-.webp",
+    "width": 800,
+    "height": 457,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "698ad3b0c2c009bb786ff9e24c7188f331a5ec36b014aebbda44059194d23f9f",
+    "bytes": 67572
+  },
+  {
+    "local": "/assets/onos-press-machines-row-slot-f9aa8ad652f1-1080w.webp",
+    "derivedFrom": "/assets/onos-press-machines-row.webp",
+    "originalSlotAsset": "/assets/f9aa8ad652f1-68df5f9eb1faa87c52dcbf9b_Service-Image--4-.webp",
+    "width": 1080,
+    "height": 617,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "0304f13eed1832bde286e9a8519e5d5b6b6c2f4895c62c267ee64b2fe525081d",
+    "bytes": 108916
+  },
+  {
+    "local": "/assets/onos-press-machines-row-slot-f9aa8ad652f1-1400w.webp",
+    "derivedFrom": "/assets/onos-press-machines-row.webp",
+    "originalSlotAsset": "/assets/f9aa8ad652f1-68df5f9eb1faa87c52dcbf9b_Service-Image--4-.webp",
+    "width": 1400,
+    "height": 800,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "59a2df4794e9db13125eb71cd2cb963b453b9bf196c782d6ccf93374930a857c",
+    "bytes": 151790
+  },
+  {
+    "local": "/assets/onos-partner-meeting-slot-f02f46afbd73.webp",
+    "derivedFrom": "/assets/onos-partner-meeting.webp",
+    "originalSlotAsset": "/assets/f02f46afbd73-68e74d75323521c203b1a691_marquee-image--5-.webp",
+    "width": 130,
+    "height": 142,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "8408c7ccab6d54799d938b252b3e3e8b0dc4513876485d9522f847b9d3d24586",
+    "bytes": 5136
+  },
+  {
+    "local": "/assets/onos-partner-meeting-slot-838d1d8608fa.webp",
+    "derivedFrom": "/assets/onos-partner-meeting.webp",
+    "originalSlotAsset": "/assets/838d1d8608fa-68e74d73933552e9dca68cd4_marquee-image--3-.webp",
+    "width": 130,
+    "height": 142,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "8408c7ccab6d54799d938b252b3e3e8b0dc4513876485d9522f847b9d3d24586",
+    "bytes": 5136
+  },
+  {
+    "local": "/assets/onos-partner-meeting-slot-1fe441a2e589.webp",
+    "derivedFrom": "/assets/onos-partner-meeting.webp",
+    "originalSlotAsset": "/assets/1fe441a2e589-68e74d7465989122b4ac4063_marquee-image--4-.webp",
+    "width": 130,
+    "height": 142,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "8408c7ccab6d54799d938b252b3e3e8b0dc4513876485d9522f847b9d3d24586",
+    "bytes": 5136
+  },
+  {
+    "local": "/assets/onos-partner-meeting-slot-6c01a7087931.webp",
+    "derivedFrom": "/assets/onos-partner-meeting.webp",
+    "originalSlotAsset": "/assets/6c01a7087931-68e74d731b812d7944a634e4_marquee-image--2-.webp",
+    "width": 130,
+    "height": 142,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "8408c7ccab6d54799d938b252b3e3e8b0dc4513876485d9522f847b9d3d24586",
+    "bytes": 5136
+  },
+  {
+    "local": "/assets/onos-partner-meeting-slot-a57060e6e940.webp",
+    "derivedFrom": "/assets/onos-partner-meeting.webp",
+    "originalSlotAsset": "/assets/a57060e6e940-68e74d737df1cfac21f4746f_marquee-image--1-.webp",
+    "width": 130,
+    "height": 142,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "8408c7ccab6d54799d938b252b3e3e8b0dc4513876485d9522f847b9d3d24586",
+    "bytes": 5136
+  },
+  {
+    "local": "/assets/onos-partner-meeting-slot-61b645ad489b.webp",
+    "derivedFrom": "/assets/onos-partner-meeting.webp",
+    "originalSlotAsset": "/assets/61b645ad489b-68e74d7246442f79299415a2_marquee-image--6-.webp",
+    "width": 130,
+    "height": 142,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "8408c7ccab6d54799d938b252b3e3e8b0dc4513876485d9522f847b9d3d24586",
+    "bytes": 5136
+  },
+  {
+    "local": "/assets/onos-equipment-embroidery-slot-499fc3831bb5.webp",
+    "derivedFrom": "/assets/onos-equipment-embroidery.webp",
+    "originalSlotAsset": "/assets/499fc3831bb5-68e20964a1e9b28688647be6_industry-2--2-.webp",
+    "width": 340,
+    "height": 417,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "7d6be29655644d0bbf42f1fc892b4419c2dbe6208cbed404fbc3e0b20901afd5",
+    "bytes": 34958
+  },
+  {
+    "local": "/assets/onos-press-machines-row-slot-a61c1aca7ee7.webp",
+    "derivedFrom": "/assets/onos-press-machines-row.webp",
+    "originalSlotAsset": "/assets/a61c1aca7ee7-68e20964469b016c2e9b975e_industry-2--3-.webp",
+    "width": 340,
+    "height": 417,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "b5d74e8ec0698555469922aff60064e8988294b3848c3b14dc018b857771b38e",
+    "bytes": 30136
+  },
+  {
+    "local": "/assets/onos-laser-cut-gifts-slot-c3fe12f9f05d.webp",
+    "derivedFrom": "/assets/onos-laser-cut-gifts.webp",
+    "originalSlotAsset": "/assets/c3fe12f9f05d-68e20964d73c072f5087d840_industry-2--4-.webp",
+    "width": 340,
+    "height": 417,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "08f80f6423e1c2c4fcb9a6e6d6e5c5a37a6f1edc2193db62d3b4a60542185759",
+    "bytes": 45248
+  },
+  {
+    "local": "/assets/onos-warehouse-inventory-slot-761cce29f032.webp",
+    "derivedFrom": "/assets/onos-warehouse-inventory.webp",
+    "originalSlotAsset": "/assets/761cce29f032-68e20963a751d46e5709b54b_industry-2--5-.webp",
+    "width": 340,
+    "height": 417,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "070757ece4796d5067bafb92acc363d880cf16c1ae9f567a27191362294d4124",
+    "bytes": 49330
+  },
+  {
+    "local": "/assets/onos-finishing-table-slot-cac7de71ad9c.webp",
+    "derivedFrom": "/assets/onos-finishing-table.webp",
+    "originalSlotAsset": "/assets/cac7de71ad9c-68e2096394f0ac3ba24efefa_industry-2--1-.webp",
+    "width": 340,
+    "height": 417,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "10be08eac1ca1841c8e8b4277361d1c04778009bff014b16e6bec96199008d50",
+    "bytes": 32546
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-ba1a3da1c376.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/ba1a3da1c376-68e10f8f8909a10dec0a8876_testimonial-images--3-.webp",
+    "width": 398,
+    "height": 500,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "4ae71b644dff3761df53d62a09920cbdff2d328e39c23e89344145e05ce53cfd",
+    "bytes": 58426
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-f165bc1323ad.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/f165bc1323ad-68e10f90715f79d3ce6cbcb3_testimonial-images--1-.webp",
+    "width": 398,
+    "height": 500,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "4ae71b644dff3761df53d62a09920cbdff2d328e39c23e89344145e05ce53cfd",
+    "bytes": 58426
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-408f6bff77b2.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/408f6bff77b2-68e10f90db84576a3cee5184_testimonial-images--5-.webp",
+    "width": 398,
+    "height": 500,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "4ae71b644dff3761df53d62a09920cbdff2d328e39c23e89344145e05ce53cfd",
+    "bytes": 58426
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-08f3412fcb24.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/08f3412fcb24-68e10f8f4ab30641ef1be4bf_testimonial-images--4-.webp",
+    "width": 398,
+    "height": 500,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "4ae71b644dff3761df53d62a09920cbdff2d328e39c23e89344145e05ce53cfd",
+    "bytes": 58426
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-34f42b969523.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/34f42b969523-68e10f8fb534a5ce614059b2_testimonial-images--2-.webp",
+    "width": 398,
+    "height": 500,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "4ae71b644dff3761df53d62a09920cbdff2d328e39c23e89344145e05ce53cfd",
+    "bytes": 58426
+  },
+  {
+    "local": "/assets/onos-embroidery-slot-64004978aafd.webp",
+    "derivedFrom": "/assets/onos-embroidery.webp",
+    "originalSlotAsset": "/assets/64004978aafd-68e362240c2d1510981b1f9e_Product-5.webp",
+    "width": 525,
+    "height": 300,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "029bde9228db16229fa36f513a0821a7cf8c71cef995351189fc005fd2b65017",
+    "bytes": 47832
+  },
+  {
+    "local": "/assets/onos-embroidery-slot-64004978aafd-500w.webp",
+    "derivedFrom": "/assets/onos-embroidery.webp",
+    "originalSlotAsset": "/assets/64004978aafd-68e362240c2d1510981b1f9e_Product-5.webp",
+    "width": 500,
+    "height": 286,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "cf7d4851666982b2d2219f38cd04bbe25af212d2d495601ae711228d7c7dd520",
+    "bytes": 44216
+  },
+  {
+    "local": "/assets/onos-embroidery-slot-64004978aafd-525w.webp",
+    "derivedFrom": "/assets/onos-embroidery.webp",
+    "originalSlotAsset": "/assets/64004978aafd-68e362240c2d1510981b1f9e_Product-5.webp",
+    "width": 525,
+    "height": 300,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "029bde9228db16229fa36f513a0821a7cf8c71cef995351189fc005fd2b65017",
+    "bytes": 47832
+  },
+  {
+    "local": "/assets/onos-equipment-embroidery-slot-781e1ba80e04.webp",
+    "derivedFrom": "/assets/onos-equipment-embroidery.webp",
+    "originalSlotAsset": "/assets/781e1ba80e04-68e362259d84e2e8f428b979_Product-6.webp",
+    "width": 525,
+    "height": 300,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "aad426d6d07b58dd36b1d550ef21a2ddf40e280d9c7172b8ad74e2b2d77ec49b",
+    "bytes": 44096
+  },
+  {
+    "local": "/assets/onos-equipment-embroidery-slot-781e1ba80e04-500w.webp",
+    "derivedFrom": "/assets/onos-equipment-embroidery.webp",
+    "originalSlotAsset": "/assets/781e1ba80e04-68e362259d84e2e8f428b979_Product-6.webp",
+    "width": 500,
+    "height": 286,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "334fdc3888e1d938bce02efe8cf0320b24bfc83462e216c45ddcbbdbcbe7ede9",
+    "bytes": 41036
+  },
+  {
+    "local": "/assets/onos-equipment-embroidery-slot-781e1ba80e04-525w.webp",
+    "derivedFrom": "/assets/onos-equipment-embroidery.webp",
+    "originalSlotAsset": "/assets/781e1ba80e04-68e362259d84e2e8f428b979_Product-6.webp",
+    "width": 525,
+    "height": 300,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "aad426d6d07b58dd36b1d550ef21a2ddf40e280d9c7172b8ad74e2b2d77ec49b",
+    "bytes": 44096
+  },
+  {
+    "local": "/assets/onos-laser-cut-gifts-slot-df5362e46192.webp",
+    "derivedFrom": "/assets/onos-laser-cut-gifts.webp",
+    "originalSlotAsset": "/assets/df5362e46192-68e36225ce6a424be8999cdc_Product-7.webp",
+    "width": 525,
+    "height": 300,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "2779ad65a08644863ae0192cc11565a0ba449915fe2091800246cec1d219bdfd",
+    "bytes": 50706
+  },
+  {
+    "local": "/assets/onos-laser-cut-gifts-slot-df5362e46192-500w.webp",
+    "derivedFrom": "/assets/onos-laser-cut-gifts.webp",
+    "originalSlotAsset": "/assets/df5362e46192-68e36225ce6a424be8999cdc_Product-7.webp",
+    "width": 500,
+    "height": 286,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "28d4fc98c5c7f2a9ada61ba2fcfc3c8bcb81bd82e5ad717356d9594ec14d316c",
+    "bytes": 47110
+  },
+  {
+    "local": "/assets/onos-laser-cut-gifts-slot-df5362e46192-525w.webp",
+    "derivedFrom": "/assets/onos-laser-cut-gifts.webp",
+    "originalSlotAsset": "/assets/df5362e46192-68e36225ce6a424be8999cdc_Product-7.webp",
+    "width": 525,
+    "height": 300,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "2779ad65a08644863ae0192cc11565a0ba449915fe2091800246cec1d219bdfd",
+    "bytes": 50706
+  },
+  {
+    "local": "/assets/onos-press-machines-row-slot-99b77a69802c.webp",
+    "derivedFrom": "/assets/onos-press-machines-row.webp",
+    "originalSlotAsset": "/assets/99b77a69802c-68e36225515462be8d353c2b_Product-8.webp",
+    "width": 525,
+    "height": 300,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "a8d8640a0421cd1d808b6caa3b16d0ea44eafcf67d4e7598e258401e69d8b1d5",
+    "bytes": 34938
+  },
+  {
+    "local": "/assets/onos-press-machines-row-slot-99b77a69802c-500w.webp",
+    "derivedFrom": "/assets/onos-press-machines-row.webp",
+    "originalSlotAsset": "/assets/99b77a69802c-68e36225515462be8d353c2b_Product-8.webp",
+    "width": 500,
+    "height": 286,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "f7935e8e3ace51a642cd7cf92e213394f5975be3d2577bc4a6205849afad6917",
+    "bytes": 32016
+  },
+  {
+    "local": "/assets/onos-press-machines-row-slot-99b77a69802c-525w.webp",
+    "derivedFrom": "/assets/onos-press-machines-row.webp",
+    "originalSlotAsset": "/assets/99b77a69802c-68e36225515462be8d353c2b_Product-8.webp",
+    "width": 525,
+    "height": 300,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "a8d8640a0421cd1d808b6caa3b16d0ea44eafcf67d4e7598e258401e69d8b1d5",
+    "bytes": 34938
+  },
+  {
+    "local": "/assets/onos-warehouse-inventory-slot-35d052637085.webp",
+    "derivedFrom": "/assets/onos-warehouse-inventory.webp",
+    "originalSlotAsset": "/assets/35d052637085-68e34c8ebb0a9c959c940a85_blog-big-image-6.webp",
+    "width": 1400,
+    "height": 800,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "774cfc94d99302f54800e3e2715de9b8e13844f4af9c18dc9094a062e3863352",
+    "bytes": 239450
+  },
+  {
+    "local": "/assets/onos-laser-cut-gifts-slot-291661be0b4b.webp",
+    "derivedFrom": "/assets/onos-laser-cut-gifts.webp",
+    "originalSlotAsset": "/assets/291661be0b4b-68e254c45dd2bac47a1b73ea_Case-Study-Image-3.webp",
+    "width": 760,
+    "height": 404,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "d20132fb3cf44cd770d04b5c4d45202a9245bf43e3bc38ec4036ed41ddd82596",
+    "bytes": 85990
+  },
+  {
+    "local": "/assets/onos-laser-cut-gifts-slot-291661be0b4b-500w.webp",
+    "derivedFrom": "/assets/onos-laser-cut-gifts.webp",
+    "originalSlotAsset": "/assets/291661be0b4b-68e254c45dd2bac47a1b73ea_Case-Study-Image-3.webp",
+    "width": 500,
+    "height": 266,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "9aef26968e4553ba9410b09ffaef55eaaa74d4089cf6fdc69ab60a99429cde14",
+    "bytes": 44422
+  },
+  {
+    "local": "/assets/onos-laser-cut-gifts-slot-291661be0b4b-760w.webp",
+    "derivedFrom": "/assets/onos-laser-cut-gifts.webp",
+    "originalSlotAsset": "/assets/291661be0b4b-68e254c45dd2bac47a1b73ea_Case-Study-Image-3.webp",
+    "width": 760,
+    "height": 404,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "d20132fb3cf44cd770d04b5c4d45202a9245bf43e3bc38ec4036ed41ddd82596",
+    "bytes": 85990
+  },
+  {
+    "local": "/assets/onos-warehouse-inventory-slot-060aab7641ed.webp",
+    "derivedFrom": "/assets/onos-warehouse-inventory.webp",
+    "originalSlotAsset": "/assets/060aab7641ed-68e254eb0b7b84e9f4def04e_case-study-image-4.webp",
+    "width": 760,
+    "height": 404,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "15964e6d57c8028355e8e9c7c7b82238da7ef4f0f1cc3c1e0d400829b8ff0f58",
+    "bytes": 89348
+  },
+  {
+    "local": "/assets/onos-warehouse-inventory-slot-060aab7641ed-500w.webp",
+    "derivedFrom": "/assets/onos-warehouse-inventory.webp",
+    "originalSlotAsset": "/assets/060aab7641ed-68e254eb0b7b84e9f4def04e_case-study-image-4.webp",
+    "width": 500,
+    "height": 266,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "49858c704306e7bfede1a494425694878db9678405f5033fa5131980bbad0964",
+    "bytes": 44446
+  },
+  {
+    "local": "/assets/onos-warehouse-inventory-slot-060aab7641ed-760w.webp",
+    "derivedFrom": "/assets/onos-warehouse-inventory.webp",
+    "originalSlotAsset": "/assets/060aab7641ed-68e254eb0b7b84e9f4def04e_case-study-image-4.webp",
+    "width": 760,
+    "height": 404,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "15964e6d57c8028355e8e9c7c7b82238da7ef4f0f1cc3c1e0d400829b8ff0f58",
+    "bytes": 89348
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-124d65582cc8.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/124d65582cc8-68e5e433f5353269f863ba00_Service-Image--2-.webp",
+    "width": 1400,
+    "height": 800,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "05e4e390a2709c0c6cac064708ea0420d2fc31b005e9b06df759227a6044b4cb",
+    "bytes": 215174
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-124d65582cc8-500w.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/124d65582cc8-68e5e433f5353269f863ba00_Service-Image--2-.webp",
+    "width": 500,
+    "height": 286,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "915a8505ec3994fd903e65c1e4520ae6f4679029073ddc52c000fd6954170ef7",
+    "bytes": 45094
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-124d65582cc8-800w.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/124d65582cc8-68e5e433f5353269f863ba00_Service-Image--2-.webp",
+    "width": 800,
+    "height": 457,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "d3eb6085f965461ae6057fa74d9e067372472bf581d646767266338c8247984c",
+    "bytes": 96280
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-124d65582cc8-1080w.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/124d65582cc8-68e5e433f5353269f863ba00_Service-Image--2-.webp",
+    "width": 1080,
+    "height": 617,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "a95b83b77809f72468a6847c407150d8bfc57779b7867f037e1ba990f247c69a",
+    "bytes": 153228
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-124d65582cc8-1400w.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/124d65582cc8-68e5e433f5353269f863ba00_Service-Image--2-.webp",
+    "width": 1400,
+    "height": 800,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "05e4e390a2709c0c6cac064708ea0420d2fc31b005e9b06df759227a6044b4cb",
+    "bytes": 215174
+  },
+  {
+    "local": "/assets/onos-facility-thai-nguyen-slot-634640404b79.webp",
+    "derivedFrom": "/assets/onos-facility-thai-nguyen.webp",
+    "originalSlotAsset": "/assets/634640404b79-68e34c4242c834288f918dee_blog-big-image-3.webp",
+    "width": 1400,
+    "height": 800,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "9b867ec18883b3acab7da457a14df5127d8696c3b2a76bb6bba46393209ee675",
+    "bytes": 298028
+  },
+  {
+    "local": "/assets/onos-dtg-machine-detail-slot-34855537bbe3.webp",
+    "derivedFrom": "/assets/onos-dtg-machine-detail.webp",
+    "originalSlotAsset": "/assets/34855537bbe3-68e78e965c4355e229382a24_Untitled-16.webp",
+    "width": 400,
+    "height": 400,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "9543cf23b750b3f661b43284e1478a685e5e7b617a1615ccba674b2119f3a389",
+    "bytes": 14130
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-03ca0fd1e5a0.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/03ca0fd1e5a0-68e78e9579f88772b20e66f8_Untitled-17.webp",
+    "width": 400,
+    "height": 400,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "b008a7f097065b9f55f3f58ceaf2ebc2d3c386a70fd096dd63f284249bccfbec",
+    "bytes": 47246
+  },
+  {
+    "local": "/assets/onos-finishing-table-slot-dfdcabf1ab39.webp",
+    "derivedFrom": "/assets/onos-finishing-table.webp",
+    "originalSlotAsset": "/assets/dfdcabf1ab39-68e78e96bf8662622d0f70b8_Untitled-18.webp",
+    "width": 400,
+    "height": 400,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "e4eb29f7667af9ec0c23940e5702e7652427259b6a85ef39b6bc1364f7ff25b8",
+    "bytes": 35640
+  },
+  {
+    "local": "/assets/onos-dtg-machine-detail-slot-a47cf3da203c.webp",
+    "derivedFrom": "/assets/onos-dtg-machine-detail.webp",
+    "originalSlotAsset": "/assets/a47cf3da203c-68f0d76ef26b42567ee64ddc_blog-big-image-8.webp",
+    "width": 1400,
+    "height": 800,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "448ed55c59889aed587d4796d07a05c6fcf0cf70c4b28c8be76902400bfd8e23",
+    "bytes": 66744
+  },
+  {
+    "local": "/assets/onos-dtg-machine-detail-slot-6032b4467bfc.webp",
+    "derivedFrom": "/assets/onos-dtg-machine-detail.webp",
+    "originalSlotAsset": "/assets/6032b4467bfc-68e77e842f0acbb43b9d3e7c_Untitled-1.webp",
+    "width": 400,
+    "height": 400,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "9543cf23b750b3f661b43284e1478a685e5e7b617a1615ccba674b2119f3a389",
+    "bytes": 14130
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-d1dae711fe5d.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/d1dae711fe5d-68e77e84cb92db72a703d9ac_Untitled-2.webp",
+    "width": 400,
+    "height": 400,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "b008a7f097065b9f55f3f58ceaf2ebc2d3c386a70fd096dd63f284249bccfbec",
+    "bytes": 47246
+  },
+  {
+    "local": "/assets/onos-finishing-table-slot-5512662f1cd9.webp",
+    "derivedFrom": "/assets/onos-finishing-table.webp",
+    "originalSlotAsset": "/assets/5512662f1cd9-68e77fac2235d9ea8f316c41_Untitled-3.webp",
+    "width": 400,
+    "height": 400,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "e4eb29f7667af9ec0c23940e5702e7652427259b6a85ef39b6bc1364f7ff25b8",
+    "bytes": 35640
+  },
+  {
+    "local": "/assets/onos-laser-cut-gifts-slot-35d338b6bbf8.webp",
+    "derivedFrom": "/assets/onos-laser-cut-gifts.webp",
+    "originalSlotAsset": "/assets/35d338b6bbf8-68e34c5441f10182d22ca65b_blog-big-image-4.webp",
+    "width": 1400,
+    "height": 800,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "d9047616d2bc1270a7f603768878eadb5645f6103fea45db65f9b04214943fba",
+    "bytes": 230054
+  },
+  {
+    "local": "/assets/onos-equipment-embroidery-slot-71280ceeb52d.webp",
+    "derivedFrom": "/assets/onos-equipment-embroidery.webp",
+    "originalSlotAsset": "/assets/71280ceeb52d-68e34caa469b016c2ec00fe7_blog-big-image-7.webp",
+    "width": 1400,
+    "height": 800,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "63f438611b4a11365d6ba65f90a69d45b865d72fa746cf2bc01b189900e281bb",
+    "bytes": 177410
+  },
+  {
+    "local": "/assets/onos-laser-cut-gifts-slot-6cb1e02b97db.webp",
+    "derivedFrom": "/assets/onos-laser-cut-gifts.webp",
+    "originalSlotAsset": "/assets/6cb1e02b97db-68e78528ba9ac3e9501427e8_Untitled-7.webp",
+    "width": 400,
+    "height": 400,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "d37b52d7dac3e26ed09ad56458887e14388dce04afbec30b8623ee7482caaeb2",
+    "bytes": 51056
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-b4b334dc3333.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/b4b334dc3333-68e78528719951b56187c851_Untitled-8.webp",
+    "width": 400,
+    "height": 400,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "b008a7f097065b9f55f3f58ceaf2ebc2d3c386a70fd096dd63f284249bccfbec",
+    "bytes": 47246
+  },
+  {
+    "local": "/assets/onos-partner-meeting-slot-f1e0a3d2c01a.webp",
+    "derivedFrom": "/assets/onos-partner-meeting.webp",
+    "originalSlotAsset": "/assets/f1e0a3d2c01a-68e7852848deec80bb48aba2_Untitled-9.webp",
+    "width": 400,
+    "height": 400,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "420bf5110d32cb37f0f938ff3ce93a9e71cb1902311dd533063eb35917d52f40",
+    "bytes": 25266
+  },
+  {
+    "local": "/assets/onos-equipment-embroidery-slot-0f41e795711f.webp",
+    "derivedFrom": "/assets/onos-equipment-embroidery.webp",
+    "originalSlotAsset": "/assets/0f41e795711f-68e5e44896c7f2571c97974b_Service-Image--3-.webp",
+    "width": 1400,
+    "height": 800,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "63f438611b4a11365d6ba65f90a69d45b865d72fa746cf2bc01b189900e281bb",
+    "bytes": 177410
+  },
+  {
+    "local": "/assets/onos-equipment-embroidery-slot-0f41e795711f-500w.webp",
+    "derivedFrom": "/assets/onos-equipment-embroidery.webp",
+    "originalSlotAsset": "/assets/0f41e795711f-68e5e44896c7f2571c97974b_Service-Image--3-.webp",
+    "width": 500,
+    "height": 286,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "334fdc3888e1d938bce02efe8cf0320b24bfc83462e216c45ddcbbdbcbe7ede9",
+    "bytes": 41036
+  },
+  {
+    "local": "/assets/onos-equipment-embroidery-slot-0f41e795711f-800w.webp",
+    "derivedFrom": "/assets/onos-equipment-embroidery.webp",
+    "originalSlotAsset": "/assets/0f41e795711f-68e5e44896c7f2571c97974b_Service-Image--3-.webp",
+    "width": 800,
+    "height": 457,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "acd7aa7b25808de177a8b6d982cbf883fb3dbb8a7b579bf5ac1112ab461215b5",
+    "bytes": 83218
+  },
+  {
+    "local": "/assets/onos-equipment-embroidery-slot-0f41e795711f-1080w.webp",
+    "derivedFrom": "/assets/onos-equipment-embroidery.webp",
+    "originalSlotAsset": "/assets/0f41e795711f-68e5e44896c7f2571c97974b_Service-Image--3-.webp",
+    "width": 1080,
+    "height": 617,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "310813ae573a7bd1e524cf81d84c272d0305f907534bee516ee37d272709015a",
+    "bytes": 130534
+  },
+  {
+    "local": "/assets/onos-equipment-embroidery-slot-0f41e795711f-1400w.webp",
+    "derivedFrom": "/assets/onos-equipment-embroidery.webp",
+    "originalSlotAsset": "/assets/0f41e795711f-68e5e44896c7f2571c97974b_Service-Image--3-.webp",
+    "width": 1400,
+    "height": 800,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "63f438611b4a11365d6ba65f90a69d45b865d72fa746cf2bc01b189900e281bb",
+    "bytes": 177410
+  },
+  {
+    "local": "/assets/onos-dtg-machine-detail-slot-123b21cf087d.webp",
+    "derivedFrom": "/assets/onos-dtg-machine-detail.webp",
+    "originalSlotAsset": "/assets/123b21cf087d-68e78eaf026cc4e19d433516_Untitled-19.webp",
+    "width": 400,
+    "height": 400,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "9543cf23b750b3f661b43284e1478a685e5e7b617a1615ccba674b2119f3a389",
+    "bytes": 14130
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-62488f261f3a.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/62488f261f3a-68e78eaf04f72a3052676c8d_Untitled-20.webp",
+    "width": 400,
+    "height": 400,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "b008a7f097065b9f55f3f58ceaf2ebc2d3c386a70fd096dd63f284249bccfbec",
+    "bytes": 47246
+  },
+  {
+    "local": "/assets/onos-finishing-table-slot-7b64da3ddce9.webp",
+    "derivedFrom": "/assets/onos-finishing-table.webp",
+    "originalSlotAsset": "/assets/7b64da3ddce9-68e78edc006764c838d8ead6_Untitled-21.webp",
+    "width": 400,
+    "height": 400,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "e4eb29f7667af9ec0c23940e5702e7652427259b6a85ef39b6bc1364f7ff25b8",
+    "bytes": 35640
+  },
+  {
+    "local": "/assets/onos-dtg-machine-detail-slot-d2c8e6c275a9.webp",
+    "derivedFrom": "/assets/onos-dtg-machine-detail.webp",
+    "originalSlotAsset": "/assets/d2c8e6c275a9-68e78239ba9ac3e950131f4b_Untitled-4.webp",
+    "width": 400,
+    "height": 400,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "9543cf23b750b3f661b43284e1478a685e5e7b617a1615ccba674b2119f3a389",
+    "bytes": 14130
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-8093152243df.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/8093152243df-68e782396fa689b94b9ab406_Untitled-5.webp",
+    "width": 400,
+    "height": 400,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "b008a7f097065b9f55f3f58ceaf2ebc2d3c386a70fd096dd63f284249bccfbec",
+    "bytes": 47246
+  },
+  {
+    "local": "/assets/onos-finishing-table-slot-3d5f11e48633.webp",
+    "derivedFrom": "/assets/onos-finishing-table.webp",
+    "originalSlotAsset": "/assets/3d5f11e48633-68e782390659bf5ac48b0d09_Untitled-6.webp",
+    "width": 400,
+    "height": 400,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "e4eb29f7667af9ec0c23940e5702e7652427259b6a85ef39b6bc1364f7ff25b8",
+    "bytes": 35640
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-56b1595ce856.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/56b1595ce856-68e34c503ed0adec5ca1c9f7_image-4.webp",
+    "width": 700,
+    "height": 720,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44",
+    "bytes": 121602
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-56b1595ce856-500w.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/56b1595ce856-68e34c503ed0adec5ca1c9f7_image-4.webp",
+    "width": 500,
+    "height": 514,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "aaa4af3d97f4fb47a85c4eefef5799a7be86f325ce9b7a2a77b14137a0c4ffa0",
+    "bytes": 71784
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-56b1595ce856-700w.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/56b1595ce856-68e34c503ed0adec5ca1c9f7_image-4.webp",
+    "width": 700,
+    "height": 720,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44",
+    "bytes": 121602
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-33ca09a41b60.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/33ca09a41b60-68e34c7154f05f793faf9888_image-5.webp",
+    "width": 700,
+    "height": 720,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44",
+    "bytes": 121602
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-33ca09a41b60-500w.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/33ca09a41b60-68e34c7154f05f793faf9888_image-5.webp",
+    "width": 500,
+    "height": 514,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "aaa4af3d97f4fb47a85c4eefef5799a7be86f325ce9b7a2a77b14137a0c4ffa0",
+    "bytes": 71784
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-33ca09a41b60-700w.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/33ca09a41b60-68e34c7154f05f793faf9888_image-5.webp",
+    "width": 700,
+    "height": 720,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44",
+    "bytes": 121602
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-ef8f7135eaab.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/ef8f7135eaab-68e34c8a0f917a13debc0f2c_image-6.webp",
+    "width": 700,
+    "height": 720,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44",
+    "bytes": 121602
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-ef8f7135eaab-500w.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/ef8f7135eaab-68e34c8a0f917a13debc0f2c_image-6.webp",
+    "width": 500,
+    "height": 514,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "aaa4af3d97f4fb47a85c4eefef5799a7be86f325ce9b7a2a77b14137a0c4ffa0",
+    "bytes": 71784
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-ef8f7135eaab-700w.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/ef8f7135eaab-68e34c8a0f917a13debc0f2c_image-6.webp",
+    "width": 700,
+    "height": 720,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44",
+    "bytes": 121602
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-bf56dbb39faa.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/bf56dbb39faa-68e34c9df2a2b68f26b6c08e_image-7.webp",
+    "width": 700,
+    "height": 720,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44",
+    "bytes": 121602
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-bf56dbb39faa-500w.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/bf56dbb39faa-68e34c9df2a2b68f26b6c08e_image-7.webp",
+    "width": 500,
+    "height": 514,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "aaa4af3d97f4fb47a85c4eefef5799a7be86f325ce9b7a2a77b14137a0c4ffa0",
+    "bytes": 71784
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-bf56dbb39faa-700w.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/bf56dbb39faa-68e34c9df2a2b68f26b6c08e_image-7.webp",
+    "width": 700,
+    "height": 720,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44",
+    "bytes": 121602
+  },
+  {
+    "local": "/assets/onos-dtg-machine-detail-slot-4a6f1a59d6b5.webp",
+    "derivedFrom": "/assets/onos-dtg-machine-detail.webp",
+    "originalSlotAsset": "/assets/4a6f1a59d6b5-68e78674f6857e2847973968_Untitled-10.webp",
+    "width": 400,
+    "height": 400,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "9543cf23b750b3f661b43284e1478a685e5e7b617a1615ccba674b2119f3a389",
+    "bytes": 14130
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-222ec6e2bcfc.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/222ec6e2bcfc-68e78674e92cfe53c6106788_Untitled-11.webp",
+    "width": 400,
+    "height": 400,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "b008a7f097065b9f55f3f58ceaf2ebc2d3c386a70fd096dd63f284249bccfbec",
+    "bytes": 47246
+  },
+  {
+    "local": "/assets/onos-finishing-table-slot-da773a74eeb1.webp",
+    "derivedFrom": "/assets/onos-finishing-table.webp",
+    "originalSlotAsset": "/assets/da773a74eeb1-68e78674d3ebbaceb4b44efe_Untitled-12.webp",
+    "width": 400,
+    "height": 400,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "e4eb29f7667af9ec0c23940e5702e7652427259b6a85ef39b6bc1364f7ff25b8",
+    "bytes": 35640
+  },
+  {
+    "local": "/assets/onos-laser-cut-gifts-slot-7dbcee796a77.webp",
+    "derivedFrom": "/assets/onos-laser-cut-gifts.webp",
+    "originalSlotAsset": "/assets/7dbcee796a77-68e0a5811f399b56334cd5cf_Why-choose-image.webp",
+    "width": 1920,
+    "height": 830,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "3a9364ca7b161ccaecd361d5cd83621bfae8515dc590f53c10c732917274d21e",
+    "bytes": 256580
+  },
+  {
+    "local": "/assets/onos-sample-development-slot-8bbff24cefc7.webp",
+    "derivedFrom": "/assets/onos-sample-development.webp",
+    "originalSlotAsset": "/assets/8bbff24cefc7-68dcbebd1bc8fc56182605e9_Quote-Image-2.webp",
+    "width": 500,
+    "height": 377,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "de31a8444271e347dd1ef0fb6ccabbc95e685cfcd8d753a9caa83cd438512d79",
+    "bytes": 54700
+  },
+  {
+    "local": "/assets/onos-production-floor-slot-e547dfdb5e37.webp",
+    "derivedFrom": "/assets/onos-production-floor.webp",
+    "originalSlotAsset": "/assets/e547dfdb5e37-68dcda0075e8b528cbfffec8_about-image.webp",
+    "width": 500,
+    "height": 500,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "b8ced5addd330b27380cefce4e37a95e56d90154f32746f0d8170d7af7d588ad",
+    "bytes": 53956
+  },
+  {
+    "local": "/assets/onos-partner-meeting-slot-acc14bd76ebf.webp",
+    "derivedFrom": "/assets/onos-partner-meeting.webp",
+    "originalSlotAsset": "/assets/acc14bd76ebf-690092402be57032171eed75_about-round-image--2-.png",
+    "width": 64,
+    "height": 70,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "fc3323ba6b9ef73452f09e60e8289969cd11a60a6ea5b6d4f2f8890d375bb065",
+    "bytes": 1772
+  },
+  {
+    "local": "/assets/onos-partner-meeting-slot-523c719f4d04.webp",
+    "derivedFrom": "/assets/onos-partner-meeting.webp",
+    "originalSlotAsset": "/assets/523c719f4d04-690092401550c668556b1522_about-round-image--3-.png",
+    "width": 64,
+    "height": 70,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "fc3323ba6b9ef73452f09e60e8289969cd11a60a6ea5b6d4f2f8890d375bb065",
+    "bytes": 1772
+  },
+  {
+    "local": "/assets/onos-partner-meeting-slot-9a42f43e47b7.webp",
+    "derivedFrom": "/assets/onos-partner-meeting.webp",
+    "originalSlotAsset": "/assets/9a42f43e47b7-69009240e71084103dfc8390_about-round-image--1-.png",
+    "width": 64,
+    "height": 70,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "fc3323ba6b9ef73452f09e60e8289969cd11a60a6ea5b6d4f2f8890d375bb065",
+    "bytes": 1772
+  },
+  {
+    "local": "/assets/onos-production-floor-slot-89e9c4c56e8a.webp",
+    "derivedFrom": "/assets/onos-production-floor.webp",
+    "originalSlotAsset": "/assets/89e9c4c56e8a-68e0b1d7773807a49628d175_testimonial-images--3-.png",
+    "width": 100,
+    "height": 100,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "5118984c45b69108166f41ac904b72fc22124cd05bbb40ec29a9436832e2d5b7",
+    "bytes": 4108
+  },
+  {
+    "local": "/assets/onos-partner-meeting-slot-7637ca827e29.webp",
+    "derivedFrom": "/assets/onos-partner-meeting.webp",
+    "originalSlotAsset": "/assets/7637ca827e29-68e0b1d79b260e7f43f3773b_testimonial-images--1-.png",
+    "width": 100,
+    "height": 100,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "51998616c238b182d4190049f1a819284ca1be98a28e7a22ad1865e739a36d85",
+    "bytes": 3352
+  },
+  {
+    "local": "/assets/onos-warehouse-inventory-slot-ee6643d259cd.webp",
+    "derivedFrom": "/assets/onos-warehouse-inventory.webp",
+    "originalSlotAsset": "/assets/ee6643d259cd-68e0b1d754d6ce41f9b34fb8_testimonial-images--4-.png",
+    "width": 100,
+    "height": 100,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "fab0ad3bfa7fce91619ade56416ec966f01f25659363721b2f845cad6de9bca7",
+    "bytes": 4838
+  },
+  {
+    "local": "/assets/onos-finishing-table-slot-cd85abd121f8.webp",
+    "derivedFrom": "/assets/onos-finishing-table.webp",
+    "originalSlotAsset": "/assets/cd85abd121f8-68e0b1d7e5dc788e9f17f966_testimonial-images--5-.png",
+    "width": 100,
+    "height": 100,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "7cc0767e3c6d958c1d3296bfb3419bcaded278ec11ff483b82c2a0dd5876f53b",
+    "bytes": 4300
+  },
+  {
+    "local": "/assets/onos-partner-meeting-slot-2012b8c229c2.webp",
+    "derivedFrom": "/assets/onos-partner-meeting.webp",
+    "originalSlotAsset": "/assets/2012b8c229c2-68e0bd5d62070af5476040b7_01.webp",
+    "width": 524,
+    "height": 278,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "63c0204a9b81454d1569e6eb09c8e29db48be4b1620c415ffe8fcd9a94027ecb",
+    "bytes": 29926
+  },
+  {
+    "local": "/assets/onos-partner-meeting-slot-2012b8c229c2-500w.webp",
+    "derivedFrom": "/assets/onos-partner-meeting.webp",
+    "originalSlotAsset": "/assets/2012b8c229c2-68e0bd5d62070af5476040b7_01.webp",
+    "width": 500,
+    "height": 265,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "96344aae97a6bae9460482b9013eb34184f4a041fb7098183b772ce84ffdb25e",
+    "bytes": 27988
+  },
+  {
+    "local": "/assets/onos-partner-meeting-slot-2012b8c229c2-524w.webp",
+    "derivedFrom": "/assets/onos-partner-meeting.webp",
+    "originalSlotAsset": "/assets/2012b8c229c2-68e0bd5d62070af5476040b7_01.webp",
+    "width": 524,
+    "height": 278,
+    "operation": "Center crop and resize to the original template image aspect ratio; source photo unchanged.",
+    "sha256": "63c0204a9b81454d1569e6eb09c8e29db48be4b1620c415ffe8fcd9a94027ecb",
+    "bytes": 29926
+  },
+  {
+    "local": "/assets/onos-production-reel.mp4",
+    "derivedFrom": [
+      "/assets/onos-embroidery-hero.webp",
+      "/assets/onos-production-floor.webp",
+      "/assets/onos-finishing-table.webp"
+    ],
+    "operation": "Silent 9-second photo reel; three genuine ONOS stills, 3 seconds each. No source video footage is claimed.",
+    "sha256": "fe28fc22256e5655026c6d89dd7d268989d0c509779988a8301458d917d15fec",
+    "bytes": 683921
+  },
+  {
+    "local": "/assets/onos-production-reel.webm",
+    "derivedFrom": [
+      "/assets/onos-embroidery-hero.webp",
+      "/assets/onos-production-floor.webp",
+      "/assets/onos-finishing-table.webp"
+    ],
+    "operation": "Silent 9-second photo reel; three genuine ONOS stills, 3 seconds each. No source video footage is claimed.",
+    "sha256": "7ab69d3933d54511e8ebe01211403f3713d306613ff878a3474bc81b98beac02",
+    "bytes": 313077
+  }
+]

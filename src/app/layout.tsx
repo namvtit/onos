@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Manufactt- Webflow HTML website template",
-  description: "Trusted by industries worldwide for quality manufacturing, advanced technology, and timely delivery.",
+  title: "ONOS Global | Apparel Manufacturing & Fulfillment",
+  description: "Apparel printing, embroidery, personalized merchandise and fulfillment across Vietnam and the United States.",
   icons: {
-    icon: "/assets/23886552e67a-68f083bd068f5863f2f7606f_Fav-Icon-32.svg",
+    icon: "/assets/onos-favicon.svg",
   },
 };
 

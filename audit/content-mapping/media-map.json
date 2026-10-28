@@ -1,0 +1,3339 @@
+[
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/035525d00d02-68dfbb0effbd3efe695a9fe0_Products-Icon.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "product-info-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/61e0c111c451-68e098648e044f6774ff0357_Product-Image--3-.webp",
+    "replacement": "/assets/onos-finishing-table-slot-61e0c111c451.webp",
+    "componentClass": "product-image",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/3784355d542a-68e097b6914d80d53f78e44b_Product-Image--2-.png",
+    "replacement": "/assets/onos-press-machines-row-slot-3784355d542a.webp",
+    "componentClass": "product-image",
+    "alt": "Heat press equipment at Onos"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/287932d7ab5a-68e09864627b68238e93a027_Product-Image--1-.webp",
+    "replacement": "/assets/onos-laser-cut-gifts-slot-287932d7ab5a.webp",
+    "componentClass": "product-image",
+    "alt": "Personalised laser-cut wooden decor and gift products"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/87da0557bb85-68e098644bb31efae7327e1e_Product-Image--4-.webp",
+    "replacement": "/assets/onos-equipment-embroidery-slot-87da0557bb85.webp",
+    "componentClass": "product-image",
+    "alt": "An Onos operator checking embroidery on garments"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/4e4b73038efe-6900978b8937384b23c556df_3930.jpg",
+    "replacement": "/assets/onos-dtg-machine-detail-slot-4e4b73038efe.webp",
+    "componentClass": "industry-image",
+    "alt": "DTG printing machine at Onos"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/7ffd01c4687d-68dfa2eeedefd61b2678f7ae_Industry-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "industry-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/665b1bd0a788-6900978be722667c0731fdce_3--3-.jpg",
+    "replacement": "/assets/onos-equipment-embroidery-slot-665b1bd0a788.webp",
+    "componentClass": "industry-image",
+    "alt": "An Onos operator checking embroidery on garments"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/fae2eb2a9204-68ef8c74b4dbcf9ddba15b0d_Automotive.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "industry-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/a735c7f18d7a-6900978bee7fdb79ad563415_3--1-.jpg",
+    "replacement": "/assets/onos-press-machines-row-slot-a735c7f18d7a.webp",
+    "componentClass": "industry-image",
+    "alt": "Heat press equipment at Onos"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/9594efa49b03-68ef8c7488c431e5697cf546_Medical-devices.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "industry-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/5adfffc4debd-6900978adab7c2df4b8af06a_3--2-.jpg",
+    "replacement": "/assets/onos-laser-cut-gifts-slot-5adfffc4debd.webp",
+    "componentClass": "industry-image",
+    "alt": "Personalised laser-cut wooden decor and gift products"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/9e2147816950-68ef8c740c7b68bd15f4eeec_Energy---Power.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "industry-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/768ea262688c-68f0b900e90d66f1e6a7f4c3_2.webp",
+    "replacement": "/assets/onos-finishing-table-slot-768ea262688c.webp",
+    "componentClass": "industry-image",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/4de5b852c15c-68ef8c742a7bf3defa7650d3_Industrial-equipment.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "industry-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/48c00c6655df-68dfaa6b3891620d3b4a31f5_Industry-image-bg--2-.png",
+    "replacement": "/assets/onos-equipment-embroidery-slot-48c00c6655df.webp",
+    "componentClass": "industry-image-bg one",
+    "alt": "An Onos operator checking embroidery on garments"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/ae27370f52d3-68dfaa6a28c7a7c7d48d1369_Industry-image-bg--5-.png",
+    "replacement": "/assets/onos-warehouse-inventory-slot-ae27370f52d3.webp",
+    "componentClass": "industry-image-bg two",
+    "alt": "Organised garment inventory at the Onos warehouse"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/a18541310af5-68dfaa6a72a48addb404ecaf_Industry-image-bg--1-.png",
+    "replacement": "/assets/onos-finishing-table-slot-a18541310af5.webp",
+    "componentClass": "industry-image-bg three",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/b38b158ba43b-68dfaa6ba66a9dbc9c52d860_Industry-image-bg--3-.png",
+    "replacement": "/assets/onos-press-machines-row-slot-b38b158ba43b.webp",
+    "componentClass": "industry-image-bg four",
+    "alt": "Heat press equipment at Onos"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/69f77842671e-68dfaae5b689f779b96d4111_Industry-image-bg--4-.png",
+    "replacement": "/assets/onos-laser-cut-gifts-slot-69f77842671e.webp",
+    "componentClass": "industry-image-bg five",
+    "alt": "Personalised laser-cut wooden decor and gift products"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/73827beef985-68e0a3232f5c74270c386291_Client-image--1-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/71f97748fcd0-68e0a324c2e072fddf8eb8e8_Client-image--3-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/9da8a14cc69d-68e0a32352dda659458f9dbf_Client-image--2-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/babb6ebf179b-68e0a324ecc054b681e1cb5b_Client-image--4-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/e8fc908feb8e-68e0a324aca239f0eb318b59_Client-image--6-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/e9328a56c80f-68e0a324728be1dc52eb971a_Client-image--7-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/f9eff2214c5a-68e0a3240df9caaa148c8e4a_Client-image--8-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/731b3bffdd50-68e0a3246d21c9d17ee549f8_Client-image--5-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/73827beef985-68e0a3232f5c74270c386291_Client-image--1-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/71f97748fcd0-68e0a324c2e072fddf8eb8e8_Client-image--3-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/9da8a14cc69d-68e0a32352dda659458f9dbf_Client-image--2-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/babb6ebf179b-68e0a324ecc054b681e1cb5b_Client-image--4-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/e8fc908feb8e-68e0a324aca239f0eb318b59_Client-image--6-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/e9328a56c80f-68e0a324728be1dc52eb971a_Client-image--7-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/f9eff2214c5a-68e0a3240df9caaa148c8e4a_Client-image--8-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/731b3bffdd50-68e0a3246d21c9d17ee549f8_Client-image--5-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/73827beef985-68e0a3232f5c74270c386291_Client-image--1-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/71f97748fcd0-68e0a324c2e072fddf8eb8e8_Client-image--3-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/9da8a14cc69d-68e0a32352dda659458f9dbf_Client-image--2-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/babb6ebf179b-68e0a324ecc054b681e1cb5b_Client-image--4-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/e8fc908feb8e-68e0a324aca239f0eb318b59_Client-image--6-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/e9328a56c80f-68e0a324728be1dc52eb971a_Client-image--7-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/f9eff2214c5a-68e0a3240df9caaa148c8e4a_Client-image--8-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/731b3bffdd50-68e0a3246d21c9d17ee549f8_Client-image--5-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/9b9407a344cc-69030086f67c830626e8e303_Client-images--4-.webp",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "avatar-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/4aac6c0ccf4f-69030087bc539651bba2d643_Client-images--3-.webp",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "avatar-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/baddf10c0c4d-69030087fdeff1c0b5795cfa_Client-images--1-.webp",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "avatar-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/f950461d7bef-690300862ee7924a815a73f2_Client-images--2-.webp",
+    "replacement": "/assets/onos-sample-development-slot-f950461d7bef.webp",
+    "componentClass": "avatar-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/6cf3ebf029f9-68e0a9c43bd0b1ca00cd2b65_Star.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "rating-image",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp",
+    "replacement": "/assets/onos-sample-development-slot-c84ffa4fb2b8.webp",
+    "componentClass": "blog-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page0eb5473046.tsx",
+    "original": "/assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp",
+    "replacement": "/assets/onos-sample-development-slot-17ed536d0c8a.webp",
+    "componentClass": "blog-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page118d5ee9f3.tsx",
+    "original": "/assets/c2ad96ea220a-68e34c75cdca16a714d6962e_blog-big-image-5.webp",
+    "replacement": "/assets/onos-sample-development-slot-c2ad96ea220a.webp",
+    "componentClass": "hero-inner-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page118d5ee9f3.tsx",
+    "original": "/assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp",
+    "replacement": "/assets/onos-sample-development-slot-c84ffa4fb2b8.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page118d5ee9f3.tsx",
+    "original": "/assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp",
+    "replacement": "/assets/onos-sample-development-slot-17ed536d0c8a.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page118d5ee9f3.tsx",
+    "original": "/assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp",
+    "replacement": "/assets/onos-sample-development-slot-1ca0aa821cd9.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page12a13478c4.tsx",
+    "original": "/assets/0cce9e8f6c9c-68e2550a6393cda20820810b_case-study-image-5.webp",
+    "replacement": "/assets/onos-equipment-embroidery-slot-0cce9e8f6c9c.webp",
+    "componentClass": "case-image",
+    "alt": "An Onos operator checking embroidery on garments"
+  },
+  {
+    "file": "src/generated/Page12a13478c4.tsx",
+    "original": "/assets/ab05bb3ff732-68e33b2be1011afe9783e44e_Client-image-5.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-client-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page12a13478c4.tsx",
+    "original": "/assets/0f1b481cd8e3-68e788e4eca24ead46dfb49f_Untitled-15.webp",
+    "replacement": "/assets/onos-equipment-embroidery-slot-0f1b481cd8e3.webp",
+    "componentClass": "overview-image",
+    "alt": "An Onos operator checking embroidery on garments"
+  },
+  {
+    "file": "src/generated/Page12a13478c4.tsx",
+    "original": "/assets/2359952e3860-68e788edf622788ab0f6d952_Untitled-13.webp",
+    "replacement": "/assets/onos-embroidery-hero-slot-2359952e3860.webp",
+    "componentClass": "overview-image",
+    "alt": "Multi-head embroidery machines producing garments at Onos"
+  },
+  {
+    "file": "src/generated/Page12a13478c4.tsx",
+    "original": "/assets/d4a40d45c081-68e788edd02ee081790acdc6_Untitled-14.webp",
+    "replacement": "/assets/onos-embroidery-slot-d4a40d45c081.webp",
+    "componentClass": "overview-image",
+    "alt": "Embroidery equipment at Onos"
+  },
+  {
+    "file": "src/generated/Page12a13478c4.tsx",
+    "original": "/assets/79a31a2d5450-68e254aa0bf150d8b71ead93_Case-Study-Image-1.webp",
+    "replacement": "/assets/onos-finishing-table-slot-79a31a2d5450.webp",
+    "componentClass": "project-image",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/generated/Page12a13478c4.tsx",
+    "original": "/assets/03147d08ed83-68e2579794f0ac3ba256d484_Client-Image.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-list-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page12a13478c4.tsx",
+    "original": "/assets/f43d8b900690-68e254b81d5a9819d9c132b7_Case-Study-Image-2.webp",
+    "replacement": "/assets/onos-dtg-machine-detail-slot-f43d8b900690.webp",
+    "componentClass": "project-image",
+    "alt": "DTG printing machine at Onos"
+  },
+  {
+    "file": "src/generated/Page12a13478c4.tsx",
+    "original": "/assets/bfcfa2bfb293-68e257aed761fb3533200be5_Client-Image-2.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-list-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/b67523de0d62-68dcc4be4bec1b8c53916029_Avatar-Image--2-.webp",
+    "replacement": "/assets/onos-sample-development-slot-b67523de0d62.webp",
+    "componentClass": "avatar-image one",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/4c4eddd9988b-68dcc4bebd77bc4ff1fc5206_Avatar-Image--3-.webp",
+    "replacement": "/assets/onos-sample-development-slot-4c4eddd9988b.webp",
+    "componentClass": "avatar-image one",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/24641e74c0a7-68dcc4bed9e7a8448d66fb53_Avatar-Image--4-.webp",
+    "replacement": "/assets/onos-sample-development-slot-24641e74c0a7.webp",
+    "componentClass": "avatar-image one",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/1ade6f5f4402-68dcc4be0a27f1a9ecbc0b06_Avatar-Image--1-.webp",
+    "replacement": "/assets/onos-sample-development-slot-1ade6f5f4402.webp",
+    "componentClass": "avatar-image one",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/52d70e14a4fd-68e496d251974662834e9c54_About-Hero-Image.webp",
+    "replacement": "/assets/onos-production-floor-slot-52d70e14a4fd.webp",
+    "componentClass": "about-image",
+    "alt": "Epson print production with an automated conveyor at Onos"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/9c47dab1e55f-68e4a478139d94dc1ef8914c_A.png",
+    "replacement": "/assets/onos-partner-meeting-slot-9c47dab1e55f.webp",
+    "componentClass": "about-author-image",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/29a7d1006974-68e4b81e90c5a2d2ed6b1bdb_Client-image--9-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/73827beef985-68e0a3232f5c74270c386291_Client-image--1-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/71f97748fcd0-68e0a324c2e072fddf8eb8e8_Client-image--3-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/9da8a14cc69d-68e0a32352dda659458f9dbf_Client-image--2-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/babb6ebf179b-68e0a324ecc054b681e1cb5b_Client-image--4-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/e8fc908feb8e-68e0a324aca239f0eb318b59_Client-image--6-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/e9328a56c80f-68e0a324728be1dc52eb971a_Client-image--7-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/f9eff2214c5a-68e0a3240df9caaa148c8e4a_Client-image--8-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/731b3bffdd50-68e0a3246d21c9d17ee549f8_Client-image--5-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/4e576bec3956-68e4b81e884760e3070cd389_Client-image--10-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/aa941b5d0b50-68e4b81fc3b9f44298f9bb37_Client-image--11-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/e143d99131ff-68e4b81ff1a23d72f7c38766_Client-image--12-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/f222f22a190d-68e2214da3e3ddc545e1c8f8_Award--2-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "award-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/0c25ad641304-68e2214d3f9f7fd1a8412201_Award--3-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "award-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/475bb9c3f352-68e2214cc283f05792dfc708_Award--4-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "award-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/65f9191bba7c-68e2214d469b016c2e9d689d_Award--1-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "award-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/46a30e49739d-68f0cd279465ea6b5dad0320_Team-Members--3-.webp",
+    "replacement": "/assets/onos-facility-california-slot-46a30e49739d.webp",
+    "componentClass": "team-image one",
+    "alt": "Onos team discussing operations in California"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/cdf005dc5768-68e4cb3fe740fb818253d579_social-icon--2-.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/48153a316eff-68e4cb3e2a22a605a377008d_social-icon--3-.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/f5a760e3742d-68e4cb3edc42b538e669f498_social-icon--1-.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/2189a248897a-68f0cd27d2cbc9bf9ba9b734_Team-Members--5-.webp",
+    "replacement": "/assets/onos-partner-meeting-slot-2189a248897a.webp",
+    "componentClass": "team-image two",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/48153a316eff-68e4cb3e2a22a605a377008d_social-icon--3-.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/f5a760e3742d-68e4cb3edc42b538e669f498_social-icon--1-.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/709dd11cac55-68f0cd26622b55ec3a3ec249_Team-Members--2-.webp",
+    "replacement": "/assets/onos-facility-me-linh-slot-709dd11cac55.webp",
+    "componentClass": "team-image three",
+    "alt": "Automated fabric cutting at the Me Linh plant"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/cdf005dc5768-68e4cb3fe740fb818253d579_social-icon--2-.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/f5a760e3742d-68e4cb3edc42b538e669f498_social-icon--1-.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/33fb02620915-68f0cd2786973a4f07346a59_Team-Members--7-.webp",
+    "replacement": "/assets/onos-finishing-table-slot-33fb02620915.webp",
+    "componentClass": "team-image four",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/cdf005dc5768-68e4cb3fe740fb818253d579_social-icon--2-.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/48153a316eff-68e4cb3e2a22a605a377008d_social-icon--3-.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/acc7d80c36b3-68f0cd260f33dbf1ac5cefcb_Team-Members--4-.webp",
+    "replacement": "/assets/onos-production-floor-slot-acc7d80c36b3.webp",
+    "componentClass": "team-image five",
+    "alt": "Epson print production with an automated conveyor at Onos"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/cdf005dc5768-68e4cb3fe740fb818253d579_social-icon--2-.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/48153a316eff-68e4cb3e2a22a605a377008d_social-icon--3-.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/f5a760e3742d-68e4cb3edc42b538e669f498_social-icon--1-.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/9fd2d77f9bed-68f0cd27ab20d017a56a6c36_Team-Members--6-.webp",
+    "replacement": "/assets/onos-sample-development-slot-9fd2d77f9bed.webp",
+    "componentClass": "team-image six",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/48153a316eff-68e4cb3e2a22a605a377008d_social-icon--3-.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/f5a760e3742d-68e4cb3edc42b538e669f498_social-icon--1-.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/a5bb7b038fbf-68f0cd26d6a7b86a22158acb_Team-Members--1-.webp",
+    "replacement": "/assets/onos-facility-thai-nguyen-slot-a5bb7b038fbf.webp",
+    "componentClass": "team-image seven",
+    "alt": "Sewing floor at the Thai Nguyen plant"
+  },
+  {
+    "file": "src/generated/Page2212b84a2a.tsx",
+    "original": "/assets/f5a760e3742d-68e4cb3edc42b538e669f498_social-icon--1-.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page26cd9913ac.tsx",
+    "original": "/assets/0cce9e8f6c9c-68e2550a6393cda20820810b_case-study-image-5.webp",
+    "replacement": "/assets/onos-equipment-embroidery-slot-0cce9e8f6c9c.webp",
+    "componentClass": "project-image",
+    "alt": "An Onos operator checking embroidery on garments"
+  },
+  {
+    "file": "src/generated/Page26cd9913ac.tsx",
+    "original": "/assets/ab05bb3ff732-68e33b2be1011afe9783e44e_Client-image-5.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-list-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page26cd9913ac.tsx",
+    "original": "/assets/a7358f674f5d-68e25528f043e1ae90e95631_case-study-image-6.webp",
+    "replacement": "/assets/onos-press-machines-row-slot-a7358f674f5d.webp",
+    "componentClass": "project-image",
+    "alt": "Heat press equipment at Onos"
+  },
+  {
+    "file": "src/generated/Page26cd9913ac.tsx",
+    "original": "/assets/134ca7144ec5-68e33b50fee16c7f8ffecd5f_Client-image-6.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-list-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page26cd9913ac.tsx",
+    "original": "/assets/0fcabf3332a4-68e2555178675ff9623b0491_case-study-image-7.webp",
+    "replacement": "/assets/onos-sample-development-slot-0fcabf3332a4.webp",
+    "componentClass": "project-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page26cd9913ac.tsx",
+    "original": "/assets/21d6057ee5c7-68e33b35d11bf82e5b1d78d6_Client-Image-7.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-list-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page2d2d27f352.tsx",
+    "original": "/assets/a412c318c8fb-68e34c2b5b4fb72c7d9dd691_blog-big-image-2.webp",
+    "replacement": "/assets/onos-finishing-table-slot-a412c318c8fb.webp",
+    "componentClass": "hero-inner-image",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/generated/Page2d2d27f352.tsx",
+    "original": "/assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp",
+    "replacement": "/assets/onos-sample-development-slot-c84ffa4fb2b8.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page2d2d27f352.tsx",
+    "original": "/assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp",
+    "replacement": "/assets/onos-sample-development-slot-17ed536d0c8a.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page2d2d27f352.tsx",
+    "original": "/assets/044f629c5a70-68e34c39638ac15970c6717c_image-3.webp",
+    "replacement": "/assets/onos-sample-development-slot-044f629c5a70.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page32f3553fe4.tsx",
+    "original": "/assets/05a540b58921-68e34bf4a3e3ddc5450493cb_blog-big-image-1.webp",
+    "replacement": "/assets/onos-partner-meeting-slot-05a540b58921.webp",
+    "componentClass": "hero-inner-image",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/generated/Page32f3553fe4.tsx",
+    "original": "/assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp",
+    "replacement": "/assets/onos-sample-development-slot-c84ffa4fb2b8.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page32f3553fe4.tsx",
+    "original": "/assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp",
+    "replacement": "/assets/onos-sample-development-slot-1ca0aa821cd9.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page32f3553fe4.tsx",
+    "original": "/assets/044f629c5a70-68e34c39638ac15970c6717c_image-3.webp",
+    "replacement": "/assets/onos-sample-development-slot-044f629c5a70.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/b67523de0d62-68dcc4be4bec1b8c53916029_Avatar-Image--2-.webp",
+    "replacement": "/assets/onos-sample-development-slot-b67523de0d62.webp",
+    "componentClass": "avatar-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/4c4eddd9988b-68dcc4bebd77bc4ff1fc5206_Avatar-Image--3-.webp",
+    "replacement": "/assets/onos-sample-development-slot-4c4eddd9988b.webp",
+    "componentClass": "avatar-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/24641e74c0a7-68dcc4bed9e7a8448d66fb53_Avatar-Image--4-.webp",
+    "replacement": "/assets/onos-sample-development-slot-24641e74c0a7.webp",
+    "componentClass": "avatar-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/1ade6f5f4402-68dcc4be0a27f1a9ecbc0b06_Avatar-Image--1-.webp",
+    "replacement": "/assets/onos-sample-development-slot-1ade6f5f4402.webp",
+    "componentClass": "avatar-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/9e9739b1b293-68e8855863e70b787c3ebe64_Hero-Content-Image.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "hero-content-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/a19694e03003-6903036277cea5ae1a2d9233_Brand-White.svg",
+    "replacement": "/assets/onos-wordmark-light.svg",
+    "componentClass": "about-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/1ffdc9ac2aa3-68e0de9da751d46e57eab5ce_Chart.png",
+    "replacement": "/assets/onos-embroidery-slot-1ffdc9ac2aa3.webp",
+    "componentClass": "about-progress-image",
+    "alt": "Embroidery equipment at Onos"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/569f9df35283-68e0b53000060b17ea5a6b03_Testimonial-Star.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "rating-star-image",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/709f2e70e0a2-68df5fd46f6e13be0b0f8839_Service-Image--6-.webp",
+    "replacement": "/assets/onos-finishing-table-slot-709f2e70e0a2.webp",
+    "componentClass": "service-image-two",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/a1f02455f6d5-68df5fc3dd6919f447f80a49_Service-Image--1-.webp",
+    "replacement": "/assets/onos-laser-cut-gifts-slot-a1f02455f6d5.webp",
+    "componentClass": "service-image-two",
+    "alt": "Personalised laser-cut wooden decor and gift products"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/092f666590da-68df5fb4697d6800a50442a3_Service-Image--7-.webp",
+    "replacement": "/assets/onos-dtg-machine-detail-slot-092f666590da.webp",
+    "componentClass": "service-image-two",
+    "alt": "DTG printing machine at Onos"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/f9aa8ad652f1-68df5f9eb1faa87c52dcbf9b_Service-Image--4-.webp",
+    "replacement": "/assets/onos-press-machines-row-slot-f9aa8ad652f1.webp",
+    "componentClass": "service-image-two",
+    "alt": "Heat press equipment at Onos"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/f02f46afbd73-68e74d75323521c203b1a691_marquee-image--5-.webp",
+    "replacement": "/assets/onos-partner-meeting-slot-f02f46afbd73.webp",
+    "componentClass": "cta-marquee-image",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/838d1d8608fa-68e74d73933552e9dca68cd4_marquee-image--3-.webp",
+    "replacement": "/assets/onos-partner-meeting-slot-838d1d8608fa.webp",
+    "componentClass": "cta-marquee-image",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/1fe441a2e589-68e74d7465989122b4ac4063_marquee-image--4-.webp",
+    "replacement": "/assets/onos-partner-meeting-slot-1fe441a2e589.webp",
+    "componentClass": "cta-marquee-image",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/838d1d8608fa-68e74d73933552e9dca68cd4_marquee-image--3-.webp",
+    "replacement": "/assets/onos-partner-meeting-slot-838d1d8608fa.webp",
+    "componentClass": "cta-marquee-image",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/6c01a7087931-68e74d731b812d7944a634e4_marquee-image--2-.webp",
+    "replacement": "/assets/onos-partner-meeting-slot-6c01a7087931.webp",
+    "componentClass": "cta-marquee-image",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/a57060e6e940-68e74d737df1cfac21f4746f_marquee-image--1-.webp",
+    "replacement": "/assets/onos-partner-meeting-slot-a57060e6e940.webp",
+    "componentClass": "cta-marquee-image",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/61b645ad489b-68e74d7246442f79299415a2_marquee-image--6-.webp",
+    "replacement": "/assets/onos-partner-meeting-slot-61b645ad489b.webp",
+    "componentClass": "cta-marquee-image",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/f02f46afbd73-68e74d75323521c203b1a691_marquee-image--5-.webp",
+    "replacement": "/assets/onos-partner-meeting-slot-f02f46afbd73.webp",
+    "componentClass": "cta-marquee-image",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/1fe441a2e589-68e74d7465989122b4ac4063_marquee-image--4-.webp",
+    "replacement": "/assets/onos-partner-meeting-slot-1fe441a2e589.webp",
+    "componentClass": "cta-marquee-image",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/61b645ad489b-68e74d7246442f79299415a2_marquee-image--6-.webp",
+    "replacement": "/assets/onos-partner-meeting-slot-61b645ad489b.webp",
+    "componentClass": "cta-marquee-image",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/a57060e6e940-68e74d737df1cfac21f4746f_marquee-image--1-.webp",
+    "replacement": "/assets/onos-partner-meeting-slot-a57060e6e940.webp",
+    "componentClass": "cta-marquee-image",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/6c01a7087931-68e74d731b812d7944a634e4_marquee-image--2-.webp",
+    "replacement": "/assets/onos-partner-meeting-slot-6c01a7087931.webp",
+    "componentClass": "cta-marquee-image",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/838d1d8608fa-68e74d73933552e9dca68cd4_marquee-image--3-.webp",
+    "replacement": "/assets/onos-partner-meeting-slot-838d1d8608fa.webp",
+    "componentClass": "cta-marquee-image",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/1fe441a2e589-68e74d7465989122b4ac4063_marquee-image--4-.webp",
+    "replacement": "/assets/onos-partner-meeting-slot-1fe441a2e589.webp",
+    "componentClass": "cta-marquee-image",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/f02f46afbd73-68e74d75323521c203b1a691_marquee-image--5-.webp",
+    "replacement": "/assets/onos-partner-meeting-slot-f02f46afbd73.webp",
+    "componentClass": "cta-marquee-image",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/61b645ad489b-68e74d7246442f79299415a2_marquee-image--6-.webp",
+    "replacement": "/assets/onos-partner-meeting-slot-61b645ad489b.webp",
+    "componentClass": "cta-marquee-image",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/a57060e6e940-68e74d737df1cfac21f4746f_marquee-image--1-.webp",
+    "replacement": "/assets/onos-partner-meeting-slot-a57060e6e940.webp",
+    "componentClass": "cta-marquee-image",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/6c01a7087931-68e74d731b812d7944a634e4_marquee-image--2-.webp",
+    "replacement": "/assets/onos-partner-meeting-slot-6c01a7087931.webp",
+    "componentClass": "cta-marquee-image",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/61e0c111c451-68e098648e044f6774ff0357_Product-Image--3-.webp",
+    "replacement": "/assets/onos-finishing-table-slot-61e0c111c451.webp",
+    "componentClass": "product-image",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/3784355d542a-68e097b6914d80d53f78e44b_Product-Image--2-.png",
+    "replacement": "/assets/onos-press-machines-row-slot-3784355d542a.webp",
+    "componentClass": "product-image",
+    "alt": "Heat press equipment at Onos"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/287932d7ab5a-68e09864627b68238e93a027_Product-Image--1-.webp",
+    "replacement": "/assets/onos-laser-cut-gifts-slot-287932d7ab5a.webp",
+    "componentClass": "product-image",
+    "alt": "Personalised laser-cut wooden decor and gift products"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/87da0557bb85-68e098644bb31efae7327e1e_Product-Image--4-.webp",
+    "replacement": "/assets/onos-equipment-embroidery-slot-87da0557bb85.webp",
+    "componentClass": "product-image",
+    "alt": "An Onos operator checking embroidery on garments"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/499fc3831bb5-68e20964a1e9b28688647be6_industry-2--2-.webp",
+    "replacement": "/assets/onos-equipment-embroidery-slot-499fc3831bb5.webp",
+    "componentClass": "industry-image-two",
+    "alt": "An Onos operator checking embroidery on garments"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "industry-icon-two",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "industry-icon-two",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "industry-icon-two",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "industry-icon-two",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/a61c1aca7ee7-68e20964469b016c2e9b975e_industry-2--3-.webp",
+    "replacement": "/assets/onos-press-machines-row-slot-a61c1aca7ee7.webp",
+    "componentClass": "industry-image-two",
+    "alt": "Heat press equipment at Onos"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "industry-icon-two",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "industry-icon-two",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "industry-icon-two",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/c3fe12f9f05d-68e20964d73c072f5087d840_industry-2--4-.webp",
+    "replacement": "/assets/onos-laser-cut-gifts-slot-c3fe12f9f05d.webp",
+    "componentClass": "industry-image-two",
+    "alt": "Personalised laser-cut wooden decor and gift products"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "industry-icon-two",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "industry-icon-two",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "industry-icon-two",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/761cce29f032-68e20963a751d46e5709b54b_industry-2--5-.webp",
+    "replacement": "/assets/onos-warehouse-inventory-slot-761cce29f032.webp",
+    "componentClass": "industry-image-two",
+    "alt": "Organised garment inventory at the Onos warehouse"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "industry-icon-two",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "industry-icon-two",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "industry-icon-two",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "industry-icon-two",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/cac7de71ad9c-68e2096394f0ac3ba24efefa_industry-2--1-.webp",
+    "replacement": "/assets/onos-finishing-table-slot-cac7de71ad9c.webp",
+    "componentClass": "industry-image-two",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "industry-icon-two",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "industry-icon-two",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "industry-icon-two",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "industry-icon-two",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/f222f22a190d-68e2214da3e3ddc545e1c8f8_Award--2-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "award-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/0c25ad641304-68e2214d3f9f7fd1a8412201_Award--3-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "award-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/475bb9c3f352-68e2214cc283f05792dfc708_Award--4-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "award-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/65f9191bba7c-68e2214d469b016c2e9d689d_Award--1-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "award-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/a19694e03003-6903036277cea5ae1a2d9233_Brand-White.svg",
+    "replacement": "/assets/onos-wordmark-light.svg",
+    "componentClass": "logo-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/b67523de0d62-68dcc4be4bec1b8c53916029_Avatar-Image--2-.webp",
+    "replacement": "/assets/onos-sample-development-slot-b67523de0d62.webp",
+    "componentClass": "avatar-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/4c4eddd9988b-68dcc4bebd77bc4ff1fc5206_Avatar-Image--3-.webp",
+    "replacement": "/assets/onos-sample-development-slot-4c4eddd9988b.webp",
+    "componentClass": "avatar-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/24641e74c0a7-68dcc4bed9e7a8448d66fb53_Avatar-Image--4-.webp",
+    "replacement": "/assets/onos-sample-development-slot-24641e74c0a7.webp",
+    "componentClass": "avatar-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/1ade6f5f4402-68dcc4be0a27f1a9ecbc0b06_Avatar-Image--1-.webp",
+    "replacement": "/assets/onos-sample-development-slot-1ade6f5f4402.webp",
+    "componentClass": "avatar-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/569f9df35283-68e0b53000060b17ea5a6b03_Testimonial-Star.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "rating-image",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/ba1a3da1c376-68e10f8f8909a10dec0a8876_testimonial-images--3-.webp",
+    "replacement": "/assets/onos-sample-development-slot-ba1a3da1c376.webp",
+    "componentClass": "testimonial-two-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/569f9df35283-68e0b53000060b17ea5a6b03_Testimonial-Star.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "testimonial-star",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/f165bc1323ad-68e10f90715f79d3ce6cbcb3_testimonial-images--1-.webp",
+    "replacement": "/assets/onos-sample-development-slot-f165bc1323ad.webp",
+    "componentClass": "testimonial-two-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/569f9df35283-68e0b53000060b17ea5a6b03_Testimonial-Star.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "testimonial-star",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/408f6bff77b2-68e10f90db84576a3cee5184_testimonial-images--5-.webp",
+    "replacement": "/assets/onos-sample-development-slot-408f6bff77b2.webp",
+    "componentClass": "testimonial-two-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/569f9df35283-68e0b53000060b17ea5a6b03_Testimonial-Star.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "testimonial-star",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/08f3412fcb24-68e10f8f4ab30641ef1be4bf_testimonial-images--4-.webp",
+    "replacement": "/assets/onos-sample-development-slot-08f3412fcb24.webp",
+    "componentClass": "testimonial-two-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/569f9df35283-68e0b53000060b17ea5a6b03_Testimonial-Star.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "testimonial-star",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/34f42b969523-68e10f8fb534a5ce614059b2_testimonial-images--2-.webp",
+    "replacement": "/assets/onos-sample-development-slot-34f42b969523.webp",
+    "componentClass": "testimonial-two-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/569f9df35283-68e0b53000060b17ea5a6b03_Testimonial-Star.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "testimonial-star",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/e8fc908feb8e-68e0a324aca239f0eb318b59_Client-image--6-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/e9328a56c80f-68e0a324728be1dc52eb971a_Client-image--7-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/71f97748fcd0-68e0a324c2e072fddf8eb8e8_Client-image--3-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/babb6ebf179b-68e0a324ecc054b681e1cb5b_Client-image--4-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/73827beef985-68e0a3232f5c74270c386291_Client-image--1-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/f9eff2214c5a-68e0a3240df9caaa148c8e4a_Client-image--8-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/9da8a14cc69d-68e0a32352dda659458f9dbf_Client-image--2-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/731b3bffdd50-68e0a3246d21c9d17ee549f8_Client-image--5-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/e8fc908feb8e-68e0a324aca239f0eb318b59_Client-image--6-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/e9328a56c80f-68e0a324728be1dc52eb971a_Client-image--7-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/71f97748fcd0-68e0a324c2e072fddf8eb8e8_Client-image--3-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/babb6ebf179b-68e0a324ecc054b681e1cb5b_Client-image--4-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/73827beef985-68e0a3232f5c74270c386291_Client-image--1-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/f9eff2214c5a-68e0a3240df9caaa148c8e4a_Client-image--8-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/9da8a14cc69d-68e0a32352dda659458f9dbf_Client-image--2-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/731b3bffdd50-68e0a3246d21c9d17ee549f8_Client-image--5-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/e8fc908feb8e-68e0a324aca239f0eb318b59_Client-image--6-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/e9328a56c80f-68e0a324728be1dc52eb971a_Client-image--7-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/71f97748fcd0-68e0a324c2e072fddf8eb8e8_Client-image--3-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/babb6ebf179b-68e0a324ecc054b681e1cb5b_Client-image--4-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/73827beef985-68e0a3232f5c74270c386291_Client-image--1-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/f9eff2214c5a-68e0a3240df9caaa148c8e4a_Client-image--8-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/9da8a14cc69d-68e0a32352dda659458f9dbf_Client-image--2-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page411e97b5e8.tsx",
+    "original": "/assets/731b3bffdd50-68e0a3246d21c9d17ee549f8_Client-image--5-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page436f81d503.tsx",
+    "original": "/assets/61e0c111c451-68e098648e044f6774ff0357_Product-Image--3-.webp",
+    "replacement": "/assets/onos-finishing-table-slot-61e0c111c451.webp",
+    "componentClass": "product-image",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/generated/Page436f81d503.tsx",
+    "original": "/assets/3784355d542a-68e097b6914d80d53f78e44b_Product-Image--2-.png",
+    "replacement": "/assets/onos-press-machines-row-slot-3784355d542a.webp",
+    "componentClass": "product-image",
+    "alt": "Heat press equipment at Onos"
+  },
+  {
+    "file": "src/generated/Page436f81d503.tsx",
+    "original": "/assets/287932d7ab5a-68e09864627b68238e93a027_Product-Image--1-.webp",
+    "replacement": "/assets/onos-laser-cut-gifts-slot-287932d7ab5a.webp",
+    "componentClass": "product-image",
+    "alt": "Personalised laser-cut wooden decor and gift products"
+  },
+  {
+    "file": "src/generated/Page436f81d503.tsx",
+    "original": "/assets/87da0557bb85-68e098644bb31efae7327e1e_Product-Image--4-.webp",
+    "replacement": "/assets/onos-equipment-embroidery-slot-87da0557bb85.webp",
+    "componentClass": "product-image",
+    "alt": "An Onos operator checking embroidery on garments"
+  },
+  {
+    "file": "src/generated/Page436f81d503.tsx",
+    "original": "/assets/64004978aafd-68e362240c2d1510981b1f9e_Product-5.webp",
+    "replacement": "/assets/onos-embroidery-slot-64004978aafd.webp",
+    "componentClass": "product-image",
+    "alt": "Embroidery equipment at Onos"
+  },
+  {
+    "file": "src/generated/Page436f81d503.tsx",
+    "original": "/assets/781e1ba80e04-68e362259d84e2e8f428b979_Product-6.webp",
+    "replacement": "/assets/onos-equipment-embroidery-slot-781e1ba80e04.webp",
+    "componentClass": "product-image",
+    "alt": "An Onos operator checking embroidery on garments"
+  },
+  {
+    "file": "src/generated/Page436f81d503.tsx",
+    "original": "/assets/df5362e46192-68e36225ce6a424be8999cdc_Product-7.webp",
+    "replacement": "/assets/onos-laser-cut-gifts-slot-df5362e46192.webp",
+    "componentClass": "product-image",
+    "alt": "Personalised laser-cut wooden decor and gift products"
+  },
+  {
+    "file": "src/generated/Page436f81d503.tsx",
+    "original": "/assets/99b77a69802c-68e36225515462be8d353c2b_Product-8.webp",
+    "replacement": "/assets/onos-press-machines-row-slot-99b77a69802c.webp",
+    "componentClass": "product-image",
+    "alt": "Heat press equipment at Onos"
+  },
+  {
+    "file": "src/generated/Page475401f293.tsx",
+    "original": "/assets/35d052637085-68e34c8ebb0a9c959c940a85_blog-big-image-6.webp",
+    "replacement": "/assets/onos-warehouse-inventory-slot-35d052637085.webp",
+    "componentClass": "hero-inner-image",
+    "alt": "Organised garment inventory at the Onos warehouse"
+  },
+  {
+    "file": "src/generated/Page475401f293.tsx",
+    "original": "/assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp",
+    "replacement": "/assets/onos-sample-development-slot-c84ffa4fb2b8.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page475401f293.tsx",
+    "original": "/assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp",
+    "replacement": "/assets/onos-sample-development-slot-17ed536d0c8a.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page475401f293.tsx",
+    "original": "/assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp",
+    "replacement": "/assets/onos-sample-development-slot-1ca0aa821cd9.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page477a478401.tsx",
+    "original": "/assets/79a31a2d5450-68e254aa0bf150d8b71ead93_Case-Study-Image-1.webp",
+    "replacement": "/assets/onos-finishing-table-slot-79a31a2d5450.webp",
+    "componentClass": "project-image",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/generated/Page477a478401.tsx",
+    "original": "/assets/03147d08ed83-68e2579794f0ac3ba256d484_Client-Image.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-list-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page477a478401.tsx",
+    "original": "/assets/f43d8b900690-68e254b81d5a9819d9c132b7_Case-Study-Image-2.webp",
+    "replacement": "/assets/onos-dtg-machine-detail-slot-f43d8b900690.webp",
+    "componentClass": "project-image",
+    "alt": "DTG printing machine at Onos"
+  },
+  {
+    "file": "src/generated/Page477a478401.tsx",
+    "original": "/assets/bfcfa2bfb293-68e257aed761fb3533200be5_Client-Image-2.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-list-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page477a478401.tsx",
+    "original": "/assets/291661be0b4b-68e254c45dd2bac47a1b73ea_Case-Study-Image-3.webp",
+    "replacement": "/assets/onos-laser-cut-gifts-slot-291661be0b4b.webp",
+    "componentClass": "project-image",
+    "alt": "Personalised laser-cut wooden decor and gift products"
+  },
+  {
+    "file": "src/generated/Page477a478401.tsx",
+    "original": "/assets/cf0de23d4c0d-68e33a4abcec2d6e55eac7d0_Client-Image-3.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-list-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page477a478401.tsx",
+    "original": "/assets/060aab7641ed-68e254eb0b7b84e9f4def04e_case-study-image-4.webp",
+    "replacement": "/assets/onos-warehouse-inventory-slot-060aab7641ed.webp",
+    "componentClass": "project-image",
+    "alt": "Organised garment inventory at the Onos warehouse"
+  },
+  {
+    "file": "src/generated/Page477a478401.tsx",
+    "original": "/assets/fa8efdba11e5-68e33b240f41e4018e30d8e1_Client-Image-4.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-list-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page49d324a630.tsx",
+    "original": "/assets/a1f02455f6d5-68df5fc3dd6919f447f80a49_Service-Image--1-.webp",
+    "replacement": "/assets/onos-laser-cut-gifts-slot-a1f02455f6d5.webp",
+    "componentClass": "service-detail-image",
+    "alt": "Personalised laser-cut wooden decor and gift products"
+  },
+  {
+    "file": "src/generated/Page5985b8def2.tsx",
+    "original": "/assets/124d65582cc8-68e5e433f5353269f863ba00_Service-Image--2-.webp",
+    "replacement": "/assets/onos-sample-development-slot-124d65582cc8.webp",
+    "componentClass": "service-detail-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page61d11f8ca2.tsx",
+    "original": "/assets/634640404b79-68e34c4242c834288f918dee_blog-big-image-3.webp",
+    "replacement": "/assets/onos-facility-thai-nguyen-slot-634640404b79.webp",
+    "componentClass": "hero-inner-image",
+    "alt": "Sewing floor at the Thai Nguyen plant"
+  },
+  {
+    "file": "src/generated/Page61d11f8ca2.tsx",
+    "original": "/assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp",
+    "replacement": "/assets/onos-sample-development-slot-c84ffa4fb2b8.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page61d11f8ca2.tsx",
+    "original": "/assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp",
+    "replacement": "/assets/onos-sample-development-slot-17ed536d0c8a.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page61d11f8ca2.tsx",
+    "original": "/assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp",
+    "replacement": "/assets/onos-sample-development-slot-1ca0aa821cd9.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page6b7de2e0ae.tsx",
+    "original": "/assets/a7358f674f5d-68e25528f043e1ae90e95631_case-study-image-6.webp",
+    "replacement": "/assets/onos-press-machines-row-slot-a7358f674f5d.webp",
+    "componentClass": "case-image",
+    "alt": "Heat press equipment at Onos"
+  },
+  {
+    "file": "src/generated/Page6b7de2e0ae.tsx",
+    "original": "/assets/134ca7144ec5-68e33b50fee16c7f8ffecd5f_Client-image-6.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-client-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page6b7de2e0ae.tsx",
+    "original": "/assets/34855537bbe3-68e78e965c4355e229382a24_Untitled-16.webp",
+    "replacement": "/assets/onos-dtg-machine-detail-slot-34855537bbe3.webp",
+    "componentClass": "overview-image",
+    "alt": "DTG printing machine at Onos"
+  },
+  {
+    "file": "src/generated/Page6b7de2e0ae.tsx",
+    "original": "/assets/03ca0fd1e5a0-68e78e9579f88772b20e66f8_Untitled-17.webp",
+    "replacement": "/assets/onos-sample-development-slot-03ca0fd1e5a0.webp",
+    "componentClass": "overview-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page6b7de2e0ae.tsx",
+    "original": "/assets/dfdcabf1ab39-68e78e96bf8662622d0f70b8_Untitled-18.webp",
+    "replacement": "/assets/onos-finishing-table-slot-dfdcabf1ab39.webp",
+    "componentClass": "overview-image",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/generated/Page6b7de2e0ae.tsx",
+    "original": "/assets/79a31a2d5450-68e254aa0bf150d8b71ead93_Case-Study-Image-1.webp",
+    "replacement": "/assets/onos-finishing-table-slot-79a31a2d5450.webp",
+    "componentClass": "project-image",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/generated/Page6b7de2e0ae.tsx",
+    "original": "/assets/03147d08ed83-68e2579794f0ac3ba256d484_Client-Image.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-list-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page6b7de2e0ae.tsx",
+    "original": "/assets/f43d8b900690-68e254b81d5a9819d9c132b7_Case-Study-Image-2.webp",
+    "replacement": "/assets/onos-dtg-machine-detail-slot-f43d8b900690.webp",
+    "componentClass": "project-image",
+    "alt": "DTG printing machine at Onos"
+  },
+  {
+    "file": "src/generated/Page6b7de2e0ae.tsx",
+    "original": "/assets/bfcfa2bfb293-68e257aed761fb3533200be5_Client-Image-2.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-list-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page7dfe47843d.tsx",
+    "original": "/assets/a47cf3da203c-68f0d76ef26b42567ee64ddc_blog-big-image-8.webp",
+    "replacement": "/assets/onos-dtg-machine-detail-slot-a47cf3da203c.webp",
+    "componentClass": "hero-inner-image",
+    "alt": "DTG printing machine at Onos"
+  },
+  {
+    "file": "src/generated/Page7dfe47843d.tsx",
+    "original": "/assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp",
+    "replacement": "/assets/onos-sample-development-slot-17ed536d0c8a.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page7dfe47843d.tsx",
+    "original": "/assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp",
+    "replacement": "/assets/onos-sample-development-slot-1ca0aa821cd9.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page7dfe47843d.tsx",
+    "original": "/assets/044f629c5a70-68e34c39638ac15970c6717c_image-3.webp",
+    "replacement": "/assets/onos-sample-development-slot-044f629c5a70.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page890d5b02bb.tsx",
+    "original": "/assets/79a31a2d5450-68e254aa0bf150d8b71ead93_Case-Study-Image-1.webp",
+    "replacement": "/assets/onos-finishing-table-slot-79a31a2d5450.webp",
+    "componentClass": "case-image",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/generated/Page890d5b02bb.tsx",
+    "original": "/assets/03147d08ed83-68e2579794f0ac3ba256d484_Client-Image.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-client-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page890d5b02bb.tsx",
+    "original": "/assets/6032b4467bfc-68e77e842f0acbb43b9d3e7c_Untitled-1.webp",
+    "replacement": "/assets/onos-dtg-machine-detail-slot-6032b4467bfc.webp",
+    "componentClass": "overview-image",
+    "alt": "DTG printing machine at Onos"
+  },
+  {
+    "file": "src/generated/Page890d5b02bb.tsx",
+    "original": "/assets/d1dae711fe5d-68e77e84cb92db72a703d9ac_Untitled-2.webp",
+    "replacement": "/assets/onos-sample-development-slot-d1dae711fe5d.webp",
+    "componentClass": "overview-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page890d5b02bb.tsx",
+    "original": "/assets/5512662f1cd9-68e77fac2235d9ea8f316c41_Untitled-3.webp",
+    "replacement": "/assets/onos-finishing-table-slot-5512662f1cd9.webp",
+    "componentClass": "overview-image",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/generated/Page890d5b02bb.tsx",
+    "original": "/assets/f43d8b900690-68e254b81d5a9819d9c132b7_Case-Study-Image-2.webp",
+    "replacement": "/assets/onos-dtg-machine-detail-slot-f43d8b900690.webp",
+    "componentClass": "project-image",
+    "alt": "DTG printing machine at Onos"
+  },
+  {
+    "file": "src/generated/Page890d5b02bb.tsx",
+    "original": "/assets/bfcfa2bfb293-68e257aed761fb3533200be5_Client-Image-2.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-list-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page890d5b02bb.tsx",
+    "original": "/assets/291661be0b4b-68e254c45dd2bac47a1b73ea_Case-Study-Image-3.webp",
+    "replacement": "/assets/onos-laser-cut-gifts-slot-291661be0b4b.webp",
+    "componentClass": "project-image",
+    "alt": "Personalised laser-cut wooden decor and gift products"
+  },
+  {
+    "file": "src/generated/Page890d5b02bb.tsx",
+    "original": "/assets/cf0de23d4c0d-68e33a4abcec2d6e55eac7d0_Client-Image-3.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-list-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Page8bb6c94216.tsx",
+    "original": "/assets/35d338b6bbf8-68e34c5441f10182d22ca65b_blog-big-image-4.webp",
+    "replacement": "/assets/onos-laser-cut-gifts-slot-35d338b6bbf8.webp",
+    "componentClass": "hero-inner-image",
+    "alt": "Personalised laser-cut wooden decor and gift products"
+  },
+  {
+    "file": "src/generated/Page8bb6c94216.tsx",
+    "original": "/assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp",
+    "replacement": "/assets/onos-sample-development-slot-c84ffa4fb2b8.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page8bb6c94216.tsx",
+    "original": "/assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp",
+    "replacement": "/assets/onos-sample-development-slot-17ed536d0c8a.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page8bb6c94216.tsx",
+    "original": "/assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp",
+    "replacement": "/assets/onos-sample-development-slot-1ca0aa821cd9.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page8f5230e31f.tsx",
+    "original": "/assets/092f666590da-68df5fb4697d6800a50442a3_Service-Image--7-.webp",
+    "replacement": "/assets/onos-dtg-machine-detail-slot-092f666590da.webp",
+    "componentClass": "service-detail-image",
+    "alt": "DTG printing machine at Onos"
+  },
+  {
+    "file": "src/generated/Page9cf819f26d.tsx",
+    "original": "/assets/71280ceeb52d-68e34caa469b016c2ec00fe7_blog-big-image-7.webp",
+    "replacement": "/assets/onos-equipment-embroidery-slot-71280ceeb52d.webp",
+    "componentClass": "hero-inner-image",
+    "alt": "An Onos operator checking embroidery on garments"
+  },
+  {
+    "file": "src/generated/Page9cf819f26d.tsx",
+    "original": "/assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp",
+    "replacement": "/assets/onos-sample-development-slot-c84ffa4fb2b8.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page9cf819f26d.tsx",
+    "original": "/assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp",
+    "replacement": "/assets/onos-sample-development-slot-17ed536d0c8a.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Page9cf819f26d.tsx",
+    "original": "/assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp",
+    "replacement": "/assets/onos-sample-development-slot-1ca0aa821cd9.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Pagea674e411e4.tsx",
+    "original": "/assets/291661be0b4b-68e254c45dd2bac47a1b73ea_Case-Study-Image-3.webp",
+    "replacement": "/assets/onos-laser-cut-gifts-slot-291661be0b4b.webp",
+    "componentClass": "case-image",
+    "alt": "Personalised laser-cut wooden decor and gift products"
+  },
+  {
+    "file": "src/generated/Pagea674e411e4.tsx",
+    "original": "/assets/cf0de23d4c0d-68e33a4abcec2d6e55eac7d0_Client-Image-3.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-client-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pagea674e411e4.tsx",
+    "original": "/assets/6cb1e02b97db-68e78528ba9ac3e9501427e8_Untitled-7.webp",
+    "replacement": "/assets/onos-laser-cut-gifts-slot-6cb1e02b97db.webp",
+    "componentClass": "overview-image",
+    "alt": "Personalised laser-cut wooden decor and gift products"
+  },
+  {
+    "file": "src/generated/Pagea674e411e4.tsx",
+    "original": "/assets/b4b334dc3333-68e78528719951b56187c851_Untitled-8.webp",
+    "replacement": "/assets/onos-sample-development-slot-b4b334dc3333.webp",
+    "componentClass": "overview-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Pagea674e411e4.tsx",
+    "original": "/assets/f1e0a3d2c01a-68e7852848deec80bb48aba2_Untitled-9.webp",
+    "replacement": "/assets/onos-partner-meeting-slot-f1e0a3d2c01a.webp",
+    "componentClass": "overview-image",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/generated/Pagea674e411e4.tsx",
+    "original": "/assets/79a31a2d5450-68e254aa0bf150d8b71ead93_Case-Study-Image-1.webp",
+    "replacement": "/assets/onos-finishing-table-slot-79a31a2d5450.webp",
+    "componentClass": "project-image",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/generated/Pagea674e411e4.tsx",
+    "original": "/assets/03147d08ed83-68e2579794f0ac3ba256d484_Client-Image.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-list-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pagea674e411e4.tsx",
+    "original": "/assets/f43d8b900690-68e254b81d5a9819d9c132b7_Case-Study-Image-2.webp",
+    "replacement": "/assets/onos-dtg-machine-detail-slot-f43d8b900690.webp",
+    "componentClass": "project-image",
+    "alt": "DTG printing machine at Onos"
+  },
+  {
+    "file": "src/generated/Pagea674e411e4.tsx",
+    "original": "/assets/bfcfa2bfb293-68e257aed761fb3533200be5_Client-Image-2.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-list-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageb2209ae1d8.tsx",
+    "original": "/assets/79a31a2d5450-68e254aa0bf150d8b71ead93_Case-Study-Image-1.webp",
+    "replacement": "/assets/onos-finishing-table-slot-79a31a2d5450.webp",
+    "componentClass": "project-image",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/generated/Pageb2209ae1d8.tsx",
+    "original": "/assets/03147d08ed83-68e2579794f0ac3ba256d484_Client-Image.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-list-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageb2209ae1d8.tsx",
+    "original": "/assets/f43d8b900690-68e254b81d5a9819d9c132b7_Case-Study-Image-2.webp",
+    "replacement": "/assets/onos-dtg-machine-detail-slot-f43d8b900690.webp",
+    "componentClass": "project-image",
+    "alt": "DTG printing machine at Onos"
+  },
+  {
+    "file": "src/generated/Pageb2209ae1d8.tsx",
+    "original": "/assets/bfcfa2bfb293-68e257aed761fb3533200be5_Client-Image-2.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-list-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageb2209ae1d8.tsx",
+    "original": "/assets/291661be0b4b-68e254c45dd2bac47a1b73ea_Case-Study-Image-3.webp",
+    "replacement": "/assets/onos-laser-cut-gifts-slot-291661be0b4b.webp",
+    "componentClass": "project-image",
+    "alt": "Personalised laser-cut wooden decor and gift products"
+  },
+  {
+    "file": "src/generated/Pageb2209ae1d8.tsx",
+    "original": "/assets/cf0de23d4c0d-68e33a4abcec2d6e55eac7d0_Client-Image-3.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-list-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageb2209ae1d8.tsx",
+    "original": "/assets/060aab7641ed-68e254eb0b7b84e9f4def04e_case-study-image-4.webp",
+    "replacement": "/assets/onos-warehouse-inventory-slot-060aab7641ed.webp",
+    "componentClass": "project-image",
+    "alt": "Organised garment inventory at the Onos warehouse"
+  },
+  {
+    "file": "src/generated/Pageb2209ae1d8.tsx",
+    "original": "/assets/fa8efdba11e5-68e33b240f41e4018e30d8e1_Client-Image-4.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-list-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageb34b43c969.tsx",
+    "original": "/assets/f9aa8ad652f1-68df5f9eb1faa87c52dcbf9b_Service-Image--4-.webp",
+    "replacement": "/assets/onos-press-machines-row-slot-f9aa8ad652f1.webp",
+    "componentClass": "service-detail-image",
+    "alt": "Heat press equipment at Onos"
+  },
+  {
+    "file": "src/generated/Pagec8b7dfe3d4.tsx",
+    "original": "/assets/709f2e70e0a2-68df5fd46f6e13be0b0f8839_Service-Image--6-.webp",
+    "replacement": "/assets/onos-finishing-table-slot-709f2e70e0a2.webp",
+    "componentClass": "service-image-inner",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/generated/Pagec8b7dfe3d4.tsx",
+    "original": "/assets/a1f02455f6d5-68df5fc3dd6919f447f80a49_Service-Image--1-.webp",
+    "replacement": "/assets/onos-laser-cut-gifts-slot-a1f02455f6d5.webp",
+    "componentClass": "service-image-inner",
+    "alt": "Personalised laser-cut wooden decor and gift products"
+  },
+  {
+    "file": "src/generated/Pagec8b7dfe3d4.tsx",
+    "original": "/assets/092f666590da-68df5fb4697d6800a50442a3_Service-Image--7-.webp",
+    "replacement": "/assets/onos-dtg-machine-detail-slot-092f666590da.webp",
+    "componentClass": "service-image-inner",
+    "alt": "DTG printing machine at Onos"
+  },
+  {
+    "file": "src/generated/Pagec8b7dfe3d4.tsx",
+    "original": "/assets/f9aa8ad652f1-68df5f9eb1faa87c52dcbf9b_Service-Image--4-.webp",
+    "replacement": "/assets/onos-press-machines-row-slot-f9aa8ad652f1.webp",
+    "componentClass": "service-image-inner",
+    "alt": "Heat press equipment at Onos"
+  },
+  {
+    "file": "src/generated/Pagec8b7dfe3d4.tsx",
+    "original": "/assets/0f41e795711f-68e5e44896c7f2571c97974b_Service-Image--3-.webp",
+    "replacement": "/assets/onos-equipment-embroidery-slot-0f41e795711f.webp",
+    "componentClass": "service-image-inner",
+    "alt": "An Onos operator checking embroidery on garments"
+  },
+  {
+    "file": "src/generated/Pagec8b7dfe3d4.tsx",
+    "original": "/assets/124d65582cc8-68e5e433f5353269f863ba00_Service-Image--2-.webp",
+    "replacement": "/assets/onos-sample-development-slot-124d65582cc8.webp",
+    "componentClass": "service-image-inner",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Pagec950afe906.tsx",
+    "original": "/assets/5c0f3af88957-68d1288562216d12f8801fe1_67ca90d9a3388af71fdbf084_starter-page.png",
+    "replacement": "/assets/onos-wordmark.svg",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pagec98e999142.tsx",
+    "original": "/assets/0fcabf3332a4-68e2555178675ff9623b0491_case-study-image-7.webp",
+    "replacement": "/assets/onos-sample-development-slot-0fcabf3332a4.webp",
+    "componentClass": "case-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Pagec98e999142.tsx",
+    "original": "/assets/21d6057ee5c7-68e33b35d11bf82e5b1d78d6_Client-Image-7.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-client-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pagec98e999142.tsx",
+    "original": "/assets/123b21cf087d-68e78eaf026cc4e19d433516_Untitled-19.webp",
+    "replacement": "/assets/onos-dtg-machine-detail-slot-123b21cf087d.webp",
+    "componentClass": "overview-image",
+    "alt": "DTG printing machine at Onos"
+  },
+  {
+    "file": "src/generated/Pagec98e999142.tsx",
+    "original": "/assets/62488f261f3a-68e78eaf04f72a3052676c8d_Untitled-20.webp",
+    "replacement": "/assets/onos-sample-development-slot-62488f261f3a.webp",
+    "componentClass": "overview-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Pagec98e999142.tsx",
+    "original": "/assets/7b64da3ddce9-68e78edc006764c838d8ead6_Untitled-21.webp",
+    "replacement": "/assets/onos-finishing-table-slot-7b64da3ddce9.webp",
+    "componentClass": "overview-image",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/generated/Pagec98e999142.tsx",
+    "original": "/assets/79a31a2d5450-68e254aa0bf150d8b71ead93_Case-Study-Image-1.webp",
+    "replacement": "/assets/onos-finishing-table-slot-79a31a2d5450.webp",
+    "componentClass": "project-image",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/generated/Pagec98e999142.tsx",
+    "original": "/assets/03147d08ed83-68e2579794f0ac3ba256d484_Client-Image.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-list-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pagec98e999142.tsx",
+    "original": "/assets/f43d8b900690-68e254b81d5a9819d9c132b7_Case-Study-Image-2.webp",
+    "replacement": "/assets/onos-dtg-machine-detail-slot-f43d8b900690.webp",
+    "componentClass": "project-image",
+    "alt": "DTG printing machine at Onos"
+  },
+  {
+    "file": "src/generated/Pagec98e999142.tsx",
+    "original": "/assets/bfcfa2bfb293-68e257aed761fb3533200be5_Client-Image-2.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-list-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pagedfae293630.tsx",
+    "original": "/assets/709f2e70e0a2-68df5fd46f6e13be0b0f8839_Service-Image--6-.webp",
+    "replacement": "/assets/onos-finishing-table-slot-709f2e70e0a2.webp",
+    "componentClass": "service-detail-image",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/generated/Pagee1ec93431d.tsx",
+    "original": "/assets/f43d8b900690-68e254b81d5a9819d9c132b7_Case-Study-Image-2.webp",
+    "replacement": "/assets/onos-dtg-machine-detail-slot-f43d8b900690.webp",
+    "componentClass": "case-image",
+    "alt": "DTG printing machine at Onos"
+  },
+  {
+    "file": "src/generated/Pagee1ec93431d.tsx",
+    "original": "/assets/bfcfa2bfb293-68e257aed761fb3533200be5_Client-Image-2.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-client-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pagee1ec93431d.tsx",
+    "original": "/assets/d2c8e6c275a9-68e78239ba9ac3e950131f4b_Untitled-4.webp",
+    "replacement": "/assets/onos-dtg-machine-detail-slot-d2c8e6c275a9.webp",
+    "componentClass": "overview-image",
+    "alt": "DTG printing machine at Onos"
+  },
+  {
+    "file": "src/generated/Pagee1ec93431d.tsx",
+    "original": "/assets/8093152243df-68e782396fa689b94b9ab406_Untitled-5.webp",
+    "replacement": "/assets/onos-sample-development-slot-8093152243df.webp",
+    "componentClass": "overview-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Pagee1ec93431d.tsx",
+    "original": "/assets/3d5f11e48633-68e782390659bf5ac48b0d09_Untitled-6.webp",
+    "replacement": "/assets/onos-finishing-table-slot-3d5f11e48633.webp",
+    "componentClass": "overview-image",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/generated/Pagee1ec93431d.tsx",
+    "original": "/assets/79a31a2d5450-68e254aa0bf150d8b71ead93_Case-Study-Image-1.webp",
+    "replacement": "/assets/onos-finishing-table-slot-79a31a2d5450.webp",
+    "componentClass": "project-image",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/generated/Pagee1ec93431d.tsx",
+    "original": "/assets/03147d08ed83-68e2579794f0ac3ba256d484_Client-Image.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-list-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pagee1ec93431d.tsx",
+    "original": "/assets/291661be0b4b-68e254c45dd2bac47a1b73ea_Case-Study-Image-3.webp",
+    "replacement": "/assets/onos-laser-cut-gifts-slot-291661be0b4b.webp",
+    "componentClass": "project-image",
+    "alt": "Personalised laser-cut wooden decor and gift products"
+  },
+  {
+    "file": "src/generated/Pagee1ec93431d.tsx",
+    "original": "/assets/cf0de23d4c0d-68e33a4abcec2d6e55eac7d0_Client-Image-3.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-list-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageeb5639ef03.tsx",
+    "original": "/assets/73827beef985-68e0a3232f5c74270c386291_Client-image--1-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageeb5639ef03.tsx",
+    "original": "/assets/71f97748fcd0-68e0a324c2e072fddf8eb8e8_Client-image--3-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageeb5639ef03.tsx",
+    "original": "/assets/9da8a14cc69d-68e0a32352dda659458f9dbf_Client-image--2-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageeb5639ef03.tsx",
+    "original": "/assets/babb6ebf179b-68e0a324ecc054b681e1cb5b_Client-image--4-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageeb5639ef03.tsx",
+    "original": "/assets/e8fc908feb8e-68e0a324aca239f0eb318b59_Client-image--6-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageeb5639ef03.tsx",
+    "original": "/assets/e9328a56c80f-68e0a324728be1dc52eb971a_Client-image--7-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageeb5639ef03.tsx",
+    "original": "/assets/f9eff2214c5a-68e0a3240df9caaa148c8e4a_Client-image--8-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageeb5639ef03.tsx",
+    "original": "/assets/731b3bffdd50-68e0a3246d21c9d17ee549f8_Client-image--5-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageeb5639ef03.tsx",
+    "original": "/assets/73827beef985-68e0a3232f5c74270c386291_Client-image--1-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageeb5639ef03.tsx",
+    "original": "/assets/71f97748fcd0-68e0a324c2e072fddf8eb8e8_Client-image--3-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageeb5639ef03.tsx",
+    "original": "/assets/9da8a14cc69d-68e0a32352dda659458f9dbf_Client-image--2-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageeb5639ef03.tsx",
+    "original": "/assets/babb6ebf179b-68e0a324ecc054b681e1cb5b_Client-image--4-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageeb5639ef03.tsx",
+    "original": "/assets/e8fc908feb8e-68e0a324aca239f0eb318b59_Client-image--6-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageeb5639ef03.tsx",
+    "original": "/assets/e9328a56c80f-68e0a324728be1dc52eb971a_Client-image--7-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageeb5639ef03.tsx",
+    "original": "/assets/f9eff2214c5a-68e0a3240df9caaa148c8e4a_Client-image--8-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageeb5639ef03.tsx",
+    "original": "/assets/731b3bffdd50-68e0a3246d21c9d17ee549f8_Client-image--5-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageeb5639ef03.tsx",
+    "original": "/assets/73827beef985-68e0a3232f5c74270c386291_Client-image--1-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageeb5639ef03.tsx",
+    "original": "/assets/71f97748fcd0-68e0a324c2e072fddf8eb8e8_Client-image--3-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageeb5639ef03.tsx",
+    "original": "/assets/9da8a14cc69d-68e0a32352dda659458f9dbf_Client-image--2-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageeb5639ef03.tsx",
+    "original": "/assets/babb6ebf179b-68e0a324ecc054b681e1cb5b_Client-image--4-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageeb5639ef03.tsx",
+    "original": "/assets/e8fc908feb8e-68e0a324aca239f0eb318b59_Client-image--6-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageeb5639ef03.tsx",
+    "original": "/assets/e9328a56c80f-68e0a324728be1dc52eb971a_Client-image--7-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageeb5639ef03.tsx",
+    "original": "/assets/f9eff2214c5a-68e0a3240df9caaa148c8e4a_Client-image--8-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pageeb5639ef03.tsx",
+    "original": "/assets/731b3bffdd50-68e0a3246d21c9d17ee549f8_Client-image--5-.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "client-image",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pagef0599f46f7.tsx",
+    "original": "/assets/56b1595ce856-68e34c503ed0adec5ca1c9f7_image-4.webp",
+    "replacement": "/assets/onos-sample-development-slot-56b1595ce856.webp",
+    "componentClass": "blog-image-one",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Pagef0599f46f7.tsx",
+    "original": "/assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp",
+    "replacement": "/assets/onos-sample-development-slot-c84ffa4fb2b8.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Pagef0599f46f7.tsx",
+    "original": "/assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp",
+    "replacement": "/assets/onos-sample-development-slot-17ed536d0c8a.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Pagef0599f46f7.tsx",
+    "original": "/assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp",
+    "replacement": "/assets/onos-sample-development-slot-1ca0aa821cd9.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Pagef0599f46f7.tsx",
+    "original": "/assets/044f629c5a70-68e34c39638ac15970c6717c_image-3.webp",
+    "replacement": "/assets/onos-sample-development-slot-044f629c5a70.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Pagef0599f46f7.tsx",
+    "original": "/assets/33ca09a41b60-68e34c7154f05f793faf9888_image-5.webp",
+    "replacement": "/assets/onos-sample-development-slot-33ca09a41b60.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Pagef0599f46f7.tsx",
+    "original": "/assets/ef8f7135eaab-68e34c8a0f917a13debc0f2c_image-6.webp",
+    "replacement": "/assets/onos-sample-development-slot-ef8f7135eaab.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Pagef0599f46f7.tsx",
+    "original": "/assets/bf56dbb39faa-68e34c9df2a2b68f26b6c08e_image-7.webp",
+    "replacement": "/assets/onos-sample-development-slot-bf56dbb39faa.webp",
+    "componentClass": "blog-image-01",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Pagefa1f949c77.tsx",
+    "original": "/assets/060aab7641ed-68e254eb0b7b84e9f4def04e_case-study-image-4.webp",
+    "replacement": "/assets/onos-warehouse-inventory-slot-060aab7641ed.webp",
+    "componentClass": "case-image",
+    "alt": "Organised garment inventory at the Onos warehouse"
+  },
+  {
+    "file": "src/generated/Pagefa1f949c77.tsx",
+    "original": "/assets/fa8efdba11e5-68e33b240f41e4018e30d8e1_Client-Image-4.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-client-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pagefa1f949c77.tsx",
+    "original": "/assets/4a6f1a59d6b5-68e78674f6857e2847973968_Untitled-10.webp",
+    "replacement": "/assets/onos-dtg-machine-detail-slot-4a6f1a59d6b5.webp",
+    "componentClass": "overview-image",
+    "alt": "DTG printing machine at Onos"
+  },
+  {
+    "file": "src/generated/Pagefa1f949c77.tsx",
+    "original": "/assets/222ec6e2bcfc-68e78674e92cfe53c6106788_Untitled-11.webp",
+    "replacement": "/assets/onos-sample-development-slot-222ec6e2bcfc.webp",
+    "componentClass": "overview-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/generated/Pagefa1f949c77.tsx",
+    "original": "/assets/da773a74eeb1-68e78674d3ebbaceb4b44efe_Untitled-12.webp",
+    "replacement": "/assets/onos-finishing-table-slot-da773a74eeb1.webp",
+    "componentClass": "overview-image",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/generated/Pagefa1f949c77.tsx",
+    "original": "/assets/79a31a2d5450-68e254aa0bf150d8b71ead93_Case-Study-Image-1.webp",
+    "replacement": "/assets/onos-finishing-table-slot-79a31a2d5450.webp",
+    "componentClass": "project-image",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/generated/Pagefa1f949c77.tsx",
+    "original": "/assets/03147d08ed83-68e2579794f0ac3ba256d484_Client-Image.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-list-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pagefa1f949c77.tsx",
+    "original": "/assets/f43d8b900690-68e254b81d5a9819d9c132b7_Case-Study-Image-2.webp",
+    "replacement": "/assets/onos-dtg-machine-detail-slot-f43d8b900690.webp",
+    "componentClass": "project-image",
+    "alt": "DTG printing machine at Onos"
+  },
+  {
+    "file": "src/generated/Pagefa1f949c77.tsx",
+    "original": "/assets/bfcfa2bfb293-68e257aed761fb3533200be5_Client-Image-2.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-list-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/generated/Pagefc56e108f9.tsx",
+    "original": "/assets/7dbcee796a77-68e0a5811f399b56334cd5cf_Why-choose-image.webp",
+    "replacement": "/assets/onos-laser-cut-gifts-slot-7dbcee796a77.webp",
+    "alt": "Personalised laser-cut wooden decor and gift products"
+  },
+  {
+    "file": "src/generated/Pagefd07ecbd13.tsx",
+    "original": "/assets/0f41e795711f-68e5e44896c7f2571c97974b_Service-Image--3-.webp",
+    "replacement": "/assets/onos-equipment-embroidery-slot-0f41e795711f.webp",
+    "componentClass": "service-detail-image",
+    "alt": "An Onos operator checking embroidery on garments"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/acdb185fdc0a-68d52f04943817525b88ad07_a29f3460f69ee2944f9599d001238d55_Logo.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg",
+    "replacement": "/assets/onos-wordmark-light.svg",
+    "componentClass": "footer-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg",
+    "replacement": "/assets/onos-wordmark-light.svg",
+    "componentClass": "footer-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg",
+    "replacement": "/assets/onos-wordmark-light.svg",
+    "componentClass": "footer-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg",
+    "replacement": "/assets/onos-wordmark-light.svg",
+    "componentClass": "footer-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg",
+    "replacement": "/assets/onos-wordmark-light.svg",
+    "componentClass": "footer-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg",
+    "replacement": "/assets/onos-wordmark-light.svg",
+    "componentClass": "logo-big",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg",
+    "replacement": "/assets/onos-wordmark-light.svg",
+    "componentClass": "footer-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg",
+    "replacement": "/assets/onos-wordmark-light.svg",
+    "componentClass": "footer-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg",
+    "replacement": "/assets/onos-wordmark-light.svg",
+    "componentClass": "footer-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg",
+    "replacement": "/assets/onos-wordmark-light.svg",
+    "componentClass": "footer-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg",
+    "replacement": "/assets/onos-wordmark-light.svg",
+    "componentClass": "footer-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg",
+    "replacement": "/assets/onos-wordmark-light.svg",
+    "componentClass": "footer-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg",
+    "replacement": "/assets/onos-wordmark-light.svg",
+    "componentClass": "footer-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "footer-social-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/SiteChrome.tsx",
+    "original": "/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg",
+    "replacement": "/assets/onos-wordmark-light.svg",
+    "componentClass": "footer-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/8bbff24cefc7-68dcbebd1bc8fc56182605e9_Quote-Image-2.webp",
+    "replacement": "/assets/onos-sample-development-slot-8bbff24cefc7.webp",
+    "componentClass": "hero-quote-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/b67523de0d62-68dcc4be4bec1b8c53916029_Avatar-Image--2-.webp",
+    "replacement": "/assets/onos-sample-development-slot-b67523de0d62.webp",
+    "componentClass": "avatar-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/4c4eddd9988b-68dcc4bebd77bc4ff1fc5206_Avatar-Image--3-.webp",
+    "replacement": "/assets/onos-sample-development-slot-4c4eddd9988b.webp",
+    "componentClass": "avatar-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/24641e74c0a7-68dcc4bed9e7a8448d66fb53_Avatar-Image--4-.webp",
+    "replacement": "/assets/onos-sample-development-slot-24641e74c0a7.webp",
+    "componentClass": "avatar-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/1ade6f5f4402-68dcc4be0a27f1a9ecbc0b06_Avatar-Image--1-.webp",
+    "replacement": "/assets/onos-sample-development-slot-1ade6f5f4402.webp",
+    "componentClass": "avatar-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/cb361e303112-68dcd946978511538d622f29_Group.png",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "about-box-vector",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/e547dfdb5e37-68dcda0075e8b528cbfffec8_about-image.webp",
+    "replacement": "/assets/onos-production-floor-slot-e547dfdb5e37.webp",
+    "componentClass": "about-image-box",
+    "alt": "Epson print production with an automated conveyor at Onos"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/acdb185fdc0a-68d52f04943817525b88ad07_a29f3460f69ee2944f9599d001238d55_Logo.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "about-box-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/c1e963771d4c-68dcd945b4e886f71b7649aa_01.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "rating-image",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/acc14bd76ebf-690092402be57032171eed75_about-round-image--2-.png",
+    "replacement": "/assets/onos-partner-meeting-slot-acc14bd76ebf.webp",
+    "componentClass": "about-image-small image-one",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/523c719f4d04-690092401550c668556b1522_about-round-image--3-.png",
+    "replacement": "/assets/onos-partner-meeting-slot-523c719f4d04.webp",
+    "componentClass": "about-image-small image-two",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/9a42f43e47b7-69009240e71084103dfc8390_about-round-image--1-.png",
+    "replacement": "/assets/onos-partner-meeting-slot-9a42f43e47b7.webp",
+    "componentClass": "about-image-small image-three",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/709f2e70e0a2-68df5fd46f6e13be0b0f8839_Service-Image--6-.webp",
+    "replacement": "/assets/onos-finishing-table-slot-709f2e70e0a2.webp",
+    "componentClass": "service-image",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "feature-item-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "feature-item-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "feature-item-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "feature-item-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/a1f02455f6d5-68df5fc3dd6919f447f80a49_Service-Image--1-.webp",
+    "replacement": "/assets/onos-laser-cut-gifts-slot-a1f02455f6d5.webp",
+    "componentClass": "service-image",
+    "alt": "Personalised laser-cut wooden decor and gift products"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "feature-item-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "feature-item-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "feature-item-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "feature-item-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/092f666590da-68df5fb4697d6800a50442a3_Service-Image--7-.webp",
+    "replacement": "/assets/onos-dtg-machine-detail-slot-092f666590da.webp",
+    "componentClass": "service-image",
+    "alt": "DTG printing machine at Onos"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "feature-item-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "feature-item-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "feature-item-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "feature-item-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/f9aa8ad652f1-68df5f9eb1faa87c52dcbf9b_Service-Image--4-.webp",
+    "replacement": "/assets/onos-press-machines-row-slot-f9aa8ad652f1.webp",
+    "componentClass": "service-image",
+    "alt": "Heat press equipment at Onos"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "feature-item-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "feature-item-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "feature-item-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "feature-item-icon",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/79a31a2d5450-68e254aa0bf150d8b71ead93_Case-Study-Image-1.webp",
+    "replacement": "/assets/onos-finishing-table-slot-79a31a2d5450.webp",
+    "componentClass": "case-study-image",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/03147d08ed83-68e2579794f0ac3ba256d484_Client-Image.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-study-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/f43d8b900690-68e254b81d5a9819d9c132b7_Case-Study-Image-2.webp",
+    "replacement": "/assets/onos-dtg-machine-detail-slot-f43d8b900690.webp",
+    "componentClass": "case-study-image",
+    "alt": "DTG printing machine at Onos"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/bfcfa2bfb293-68e257aed761fb3533200be5_Client-Image-2.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-study-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/291661be0b4b-68e254c45dd2bac47a1b73ea_Case-Study-Image-3.webp",
+    "replacement": "/assets/onos-laser-cut-gifts-slot-291661be0b4b.webp",
+    "componentClass": "case-study-image",
+    "alt": "Personalised laser-cut wooden decor and gift products"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/cf0de23d4c0d-68e33a4abcec2d6e55eac7d0_Client-Image-3.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-study-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/060aab7641ed-68e254eb0b7b84e9f4def04e_case-study-image-4.webp",
+    "replacement": "/assets/onos-warehouse-inventory-slot-060aab7641ed.webp",
+    "componentClass": "case-study-image",
+    "alt": "Organised garment inventory at the Onos warehouse"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/fa8efdba11e5-68e33b240f41e4018e30d8e1_Client-Image-4.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-study-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/0cce9e8f6c9c-68e2550a6393cda20820810b_case-study-image-5.webp",
+    "replacement": "/assets/onos-equipment-embroidery-slot-0cce9e8f6c9c.webp",
+    "componentClass": "case-study-image",
+    "alt": "An Onos operator checking embroidery on garments"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/ab05bb3ff732-68e33b2be1011afe9783e44e_Client-image-5.svg",
+    "replacement": "/assets/onos-wordmark.svg",
+    "componentClass": "case-study-logo",
+    "alt": "ONOS Global"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/89e9c4c56e8a-68e0b1d7773807a49628d175_testimonial-images--3-.png",
+    "replacement": "/assets/onos-production-floor-slot-89e9c4c56e8a.webp",
+    "componentClass": "help-line-image",
+    "alt": "Epson print production with an automated conveyor at Onos"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/7637ca827e29-68e0b1d79b260e7f43f3773b_testimonial-images--1-.png",
+    "replacement": "/assets/onos-partner-meeting-slot-7637ca827e29.webp",
+    "componentClass": "help-line-image one",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/7637ca827e29-68e0b1d79b260e7f43f3773b_testimonial-images--1-.png",
+    "replacement": "/assets/onos-partner-meeting-slot-7637ca827e29.webp",
+    "componentClass": "testimonial-image",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/f950461d7bef-690300862ee7924a815a73f2_Client-images--2-.webp",
+    "replacement": "/assets/onos-sample-development-slot-f950461d7bef.webp",
+    "componentClass": "testimonial-image",
+    "alt": "The Onos team reviewing product samples and materials"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/89e9c4c56e8a-68e0b1d7773807a49628d175_testimonial-images--3-.png",
+    "replacement": "/assets/onos-production-floor-slot-89e9c4c56e8a.webp",
+    "componentClass": "testimonial-image",
+    "alt": "Epson print production with an automated conveyor at Onos"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/ee6643d259cd-68e0b1d754d6ce41f9b34fb8_testimonial-images--4-.png",
+    "replacement": "/assets/onos-warehouse-inventory-slot-ee6643d259cd.webp",
+    "componentClass": "testimonial-image",
+    "alt": "Organised garment inventory at the Onos warehouse"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/cd85abd121f8-68e0b1d7e5dc788e9f17f966_testimonial-images--5-.png",
+    "replacement": "/assets/onos-finishing-table-slot-cd85abd121f8.webp",
+    "componentClass": "testimonial-image",
+    "alt": "Printed garments organised at the finishing table"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/569f9df35283-68e0b53000060b17ea5a6b03_Testimonial-Star.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "testimonial-star",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/569f9df35283-68e0b53000060b17ea5a6b03_Testimonial-Star.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "testimonial-star",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/569f9df35283-68e0b53000060b17ea5a6b03_Testimonial-Star.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "testimonial-star",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/569f9df35283-68e0b53000060b17ea5a6b03_Testimonial-Star.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "testimonial-star",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/569f9df35283-68e0b53000060b17ea5a6b03_Testimonial-Star.svg",
+    "replacement": "/assets/onos-connection.svg",
+    "componentClass": "testimonial-star",
+    "alt": "ONOS production"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/2012b8c229c2-68e0bd5d62070af5476040b7_01.webp",
+    "replacement": "/assets/onos-partner-meeting-slot-2012b8c229c2.webp",
+    "componentClass": "testimonial-info-image",
+    "alt": "Onos team"
+  },
+  {
+    "file": "src/components/sections/HomeSections.tsx",
+    "original": "/assets/a19694e03003-6903036277cea5ae1a2d9233_Brand-White.svg",
+    "replacement": "/assets/onos-wordmark-light.svg",
+    "componentClass": "logo-image",
+    "alt": "ONOS Global"
+  }
+]

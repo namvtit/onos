@@ -3,7 +3,7 @@ import { ContactForm } from "@/components/ContactForm";
 import { SiteRuntime } from "@/components/SiteRuntime";
 import { Footerff0835e88c, Navbar5de3fbdae5 } from "@/components/SiteChrome";
 
-export const metadata = {"title": "CNC machining services", "description": "Precision CNC machining with 5-axis technology for complex, high-accuracy parts.", "openGraph": {"title": "CNC machining services", "description": "Precision CNC machining with 5-axis technology for complex, high-accuracy parts.", "images": ["/assets/092f666590da-68df5fb4697d6800a50442a3_Service-Image--7-.webp"]}};
+export const metadata = {"title":"DTG Printing | ONOS Global","description":"Direct printing for detailed artwork and gradients on cotton and cotton-rich apparel.","openGraph":{"title":"DTG Printing | ONOS Global","description":"Direct printing for detailed artwork and gradients on cotton and cotton-rich apparel.","images":["/assets/onos-dtg-machine-detail.webp"]},"robots":{"index":false,"follow":true}};
 export default function Page8f5230e31f() {
 const activePath = "/service/cnc-machining-services";
 return <>
@@ -13,10 +13,10 @@ return <>
 <div className={"service-details-top container"}>
 <div data-w-id={"206e8d17-554e-d01a-63a7-73227b355aec"} style={{"opacity": "0"}} className={"service-detail-main"}>
 <h1 className={"service-detail-name"}>
-{"CNC machining services"}
+{"DTG Printing"}
 </h1>
 <p className={"service-detail-description"}>
-{"Precision CNC machining with 5-axis technology for complex, high-accuracy parts."}
+{"Direct printing for detailed artwork and gradients on cotton and cotton-rich apparel."}
 </p>
 <div className={"service-detail-button"}>
 <a data-wf--button-arrow--variant={"base"} data-w-id={"d102baf6-0bbf-4311-9c79-6b424f8fe8a7"} href={"/contact"} className={"primary-button w-inline-block"}>
@@ -24,10 +24,10 @@ return <>
 <div className={"button-text-wrap"}>
 <div className={"button-text-inner"}>
 <div className={"button-text"}>
-{"Get Free Quote"}
+{"Request a Quote"}
 </div>
 <div className={"button-hover-text"}>
-{"Get Free Quote"}
+{"Request a Quote"}
 </div>
 </div>
 </div>
@@ -40,7 +40,7 @@ return <>
 </div>
 </div>
 </div>
-<img src={"/assets/092f666590da-68df5fb4697d6800a50442a3_Service-Image--7-.webp"} loading={"lazy"} alt={"Service Detail Image"} sizes={"100vw"} srcSet={"/assets/d96091fcbd0a-68df5fb4697d6800a50442a3_Service-Image--7--p-500.webp 500w, /assets/787953046057-68df5fb4697d6800a50442a3_Service-Image--7--p-800.webp 800w, /assets/ca0b831883b7-68df5fb4697d6800a50442a3_Service-Image--7--p-1080.webp 1080w, /assets/092f666590da-68df5fb4697d6800a50442a3_Service-Image--7-.webp 1400w"} className={"service-detail-image"} />
+<img src={"/assets/onos-dtg-machine-detail-slot-092f666590da.webp"} loading={"lazy"} alt={"DTG printing machine at Onos"} sizes={"100vw"} srcSet={"/assets/onos-dtg-machine-detail-slot-092f666590da-500w.webp 500w, /assets/onos-dtg-machine-detail-slot-092f666590da-800w.webp 800w, /assets/onos-dtg-machine-detail-slot-092f666590da-1080w.webp 1080w, /assets/onos-dtg-machine-detail-slot-092f666590da-1400w.webp 1400w"} className={"service-detail-image"} />
 <div className={"service-more-info section-spacing-bottom"}>
 <div className={"container"}>
 <div className={"more-info-inner"}>
@@ -57,19 +57,19 @@ return <>
 </div>
 <div className={"service-info-description w-richtext"}>
 <h3>
-{"CNC Machining Services"}
+{"DTG Printing"}
 </h3>
 <p>
-{"‍"}
+{""}
 </p>
 <p>
-{"Our CNC Machining Services combine cutting-edge technology with skilled technicians to produce precision components that meet the highest industry standards. Using advanced 3, 4, and 5-axis machining centers, we handle everything from simple prototypes to complex production runs with unmatched accuracy."}
+{"Direct printing for detailed artwork and gradients on cotton and cotton-rich apparel."}
 </p>
 <p>
-{"With tight tolerances and comprehensive quality checks at every stage, each part is guaranteed to meet your exact specifications. Whether for low-volume prototypes or high-volume production, our CNC machining ensures efficiency, reliability, and cost-effectiveness."}
+{"Share your design, product, expected quantity and destination so ONOS can confirm the production method and material."}
 </p>
 <p>
-{"By integrating modern machinery, experienced operators, and strict quality protocols, we deliver components ready for assembly, manufacturing, or end-use applications."}
+{"Agree artwork, colours, placement and a physical sample before proceeding with a larger order."}
 </p>
 </div>
 </div>
@@ -80,10 +80,10 @@ return <>
 <img src={"/assets/595dc863a514-68e5fa3ed6ea05a74cf4cf6e_Service-Fratures-Icon--3-.svg"} loading={"lazy"} alt={"Feature Icon"} className={"feature-icon"} />
 </div>
 <h2 className={"feature-name"}>
-{"±0.0001\" tolerance capability"}
+{"Cotton apparel"}
 </h2>
 <p className={"feature-description"}>
-{"Exceptional precision achieving tolerances as tight as ±0.0001\" for critical components."}
+{"Confirm the product and material with ONOS."}
 </p>
 </div>
 <div data-w-id={"9fa3e42a-bbfa-2ab3-e864-45adad20769c"} style={{"opacity": "0"}} className={"feature-main"}>
@@ -91,10 +91,10 @@ return <>
 <img src={"/assets/556487eef0a2-68e5fa59c4ba42c966ffaa02_Service-Fratures-Icon--1-.svg"} loading={"lazy"} alt={"Feature Icon"} className={"feature-icon"} />
 </div>
 <h2 className={"feature-name"}>
-{"Multi-axis machining centers"}
+{"Detailed artwork"}
 </h2>
 <p className={"feature-description"}>
-{"Advanced multi-axis machining centers delivering complex geometries with high accuracy."}
+{"The team reviews artwork before production."}
 </p>
 </div>
 <div data-w-id={"4a6175ee-4c2a-ff61-a8b4-73a9a65dd739"} style={{"opacity": "0"}} className={"feature-main"}>
@@ -102,10 +102,10 @@ return <>
 <img src={"/assets/ec61ce0ba60c-68e5fa805e7632fa2bde6893_Service-Fratures-Icon--2-.svg"} loading={"lazy"} alt={"Feature Icon"} className={"feature-icon"} />
 </div>
 <h2 className={"feature-name"}>
-{"Materials: Metals, plastics, composites"}
+{"Artwork placement"}
 </h2>
 <p className={"feature-description"}>
-{"Expertise in metals, plastics, and composites for versatile manufacturing solutions."}
+{"Review size, colour and placement on the intended material."}
 </p>
 </div>
 <div data-w-id={"ea5e43b3-cbbc-f0e0-4900-803ff30f1adb"} style={{"opacity": "0"}} className={"feature-main"}>
@@ -113,10 +113,10 @@ return <>
 <img src={"/assets/512d2d193cc7-68e5fa4fd87126b410f24deb_Service-Fratures-Icon--4-.svg"} loading={"lazy"} alt={"Feature Icon"} className={"feature-icon"} />
 </div>
 <h2 className={"feature-name"}>
-{"Prototype to production volumes"}
+{"Approve a physical sample"}
 </h2>
 <p className={"feature-description"}>
-{"Seamless support from prototype development to full-scale production runs efficiently."}
+{"Agree the sample and order plan before production."}
 </p>
 </div>
 </div>
@@ -144,7 +144,7 @@ return <>
 </div>
 <div data-w-id={"2a387ced-18c6-fcb7-78b2-8b6420ebab7f"} style={{"opacity": "0"}} className={"title-grid-right"}>
 <h2 className={"category-title"}>
-{"CNC machining services"}
+{"DTG Printing"}
 </h2>
 </div>
 </div>
@@ -164,25 +164,25 @@ return <>
 <div data-w-id={"414d7f5e-7f66-a170-8b87-34e456294203"} style={{"opacity": "0"}} className={"w-layout-grid grid-category-info"}>
 <div className={"category-name-wrap"}>
 <div className={"category-name"}>
-{"Technical specifications"}
+{"Product & material"}
 </div>
 </div>
 <div className={"category-details-wrap"}>
 <div className={"category-details w-richtext"}>
 <li>
-{"Material types: thermoplastics, thermosets, composites"}
+{"Confirm the product"}
 </li>
 <li>
-{"Dimensional tolerances up to ±0.001\""}
+{"Confirm fabric or material suitability"}
 </li>
 <li>
-{"Surface finish: smooth, textured, or custom"}
+{"Share expected quantity"}
 </li>
 <li>
-{"Mechanical properties: strength, hardness, impact resistance"}
+{"Discuss the destination"}
 </li>
 <li>
-{"Thermal & chemical resistance for various applications."}
+{"Agree details with ONOS"}
 </li>
 </div>
 </div>
@@ -190,25 +190,25 @@ return <>
 <div data-w-id={"525aa89b-801b-c9e1-5fdb-8cb4fb7ed62b"} style={{"opacity": "0"}} className={"w-layout-grid grid-category-info"}>
 <div className={"category-name-wrap"}>
 <div className={"category-name"}>
-{"Equipment & Tools Used"}
+{"Artwork preparation"}
 </div>
 </div>
 <div className={"category-details-wrap"}>
 <div className={"category-details w-richtext"}>
 <li>
-{"Material types: thermoplastics, thermosets, composites"}
+{"Share the artwork file"}
 </li>
 <li>
-{"Tight dimensional tolerances up to ±0.001\""}
+{"Confirm intended artwork size"}
 </li>
 <li>
-{"Precision surface finishes: smooth, textured, custom"}
+{"Review colour and placement"}
 </li>
 <li>
-{"Mechanical strength & impact resistance"}
+{"Check fine design details"}
 </li>
 <li>
-{"Thermal & chemical resistance capabilities"}
+{"Request artwork review"}
 </li>
 </div>
 </div>
@@ -216,25 +216,25 @@ return <>
 <div data-w-id={"5edbb32d-21dc-53ca-9066-56c78845f5af"} style={{"opacity": "0"}} className={"w-layout-grid grid-category-info last"}>
 <div className={"category-name-wrap"}>
 <div className={"category-name"}>
-{"Key Performance Metrics"}
+{"Sample & order plan"}
 </div>
 </div>
 <div className={"category-details-wrap"}>
 <div className={"category-details w-richtext"}>
 <li>
-{"Materials: thermoplastics, thermosets, composites"}
+{"Review a physical sample"}
 </li>
 <li>
-{"Dimensional tolerances up to ±0.001\""}
+{"Agree larger-order production"}
 </li>
 <li>
-{"Mechanical strength & hardness controlled"}
+{"Check and finish products"}
 </li>
 <li>
-{"Thermal & chemical resistance ensured"}
+{"Prepare packing"}
 </li>
 <li>
-{"Customizable surface finish options"}
+{"Discuss shipping handover"}
 </li>
 </div>
 </div>
@@ -283,21 +283,21 @@ return <>
 <h2 className={"section-title"}>
 {"Our "}
 <span className={"text-linear-gradient"}>
-{"proven"}
+{"production"}
 </span>
 {" workflow"}
 </h2>
 </div>
 <div className={"step-button"}>
-<a data-wf--button-arrow--variant={"base"} data-w-id={"d102baf6-0bbf-4311-9c79-6b424f8fe8a7"} href={"/assets/7cc6038925cd-68f0b12338ba832c3a370ba1_PDF.pdf"} target={"_blank"} className={"primary-button w-inline-block"}>
+<a data-wf--button-arrow--variant={"base"} data-w-id={"d102baf6-0bbf-4311-9c79-6b424f8fe8a7"} href={"mailto:onospod.com@gmail.com?subject=ONOS%20Global%20production%20enquiry"} target={"_blank"} className={"primary-button w-inline-block"}>
 <div className={"button-primary-inner"}>
 <div className={"button-text-wrap"}>
 <div className={"button-text-inner"}>
 <div className={"button-text"}>
-{"Download Brochure"}
+{"Request a Quote"}
 </div>
 <div className={"button-hover-text"}>
-{"Download Brochure"}
+{"Request a Quote"}
 </div>
 </div>
 </div>
@@ -316,7 +316,7 @@ return <>
 {"Step 1"}
 </div>
 <h3 className={"step-title-one text-white"}>
-{"Design and planning"}
+{"Share your idea"}
 </h3>
 </div>
 </div>
@@ -326,7 +326,7 @@ return <>
 {"Step 2"}
 </div>
 <h3 className={"step-title-one text-primary"}>
-{"Precision machining"}
+{"Prepare production"}
 </h3>
 </div>
 </div>
@@ -336,7 +336,7 @@ return <>
 {"Step 3"}
 </div>
 <h3 className={"step-title-one"}>
-{"Quality check & Delivery"}
+{"Make, check & ship"}
 </h3>
 </div>
 </div>
@@ -380,14 +380,14 @@ return <>
 </div>
 </div>
 <h2 className={"section-title title-center"}>
-{"CNC machining services FAQs"}
+{"DTG Printing FAQs"}
 </h2>
 </div>
 <div data-w-id={"61ec9ba3-dd59-e899-fd09-62632b8c217d"} style={{"opacity": "0"}} className={"faqs-wrap"}>
 <div className={"accordion-item"}>
 <div data-w-id={"e4ff89fe-cbf7-86c1-7b53-b2ddd0ff35ac"} className={"accordion-heading"}>
 <h3 className={"accordion-title"}>
-{"What is CNC Machining?"}
+{"Can I start with a small quantity?"}
 </h3>
 <div className={"accordion-icon-bg"}>
 <img src={"/assets/536a795c5a7c-68dcc369de4ced980408d673_-.svg"} loading={"lazy"} style={{"WebkitTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(45deg) skew(0, 0)", "MozTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(45deg) skew(0, 0)", "msTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(45deg) skew(0, 0)", "transform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(45deg) skew(0, 0)"}} alt={"Pluse Icon"} className={"plus-icon"} />
@@ -396,7 +396,7 @@ return <>
 <div className={"accordion-content"}>
 <div className={"accordion-description w-richtext"}>
 <p>
-{"CNC Machining is a precision manufacturing process where computer-controlled machines cut, shape, and drill materials to produce highly accurate components."}
+{"DTG and sublimation orders can start from one product. Minimum quantities for custom blanks or tailored uniforms are agreed for each project."}
 </p>
 </div>
 </div>
@@ -404,7 +404,7 @@ return <>
 <div className={"accordion-item"}>
 <div data-w-id={"05056745-6dd6-af8a-fd49-dca6718387cd"} className={"accordion-heading"}>
 <h3 className={"accordion-title"}>
-{"What materials can you machine?"}
+{"What artwork files should I prepare?"}
 </h3>
 <div className={"accordion-icon-bg"}>
 <img src={"/assets/536a795c5a7c-68dcc369de4ced980408d673_-.svg"} loading={"lazy"} style={{"WebkitTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "MozTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "msTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "transform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"}} alt={"Pluse Icon"} className={"plus-icon"} />
@@ -413,7 +413,7 @@ return <>
 <div style={{"height": "0px"}} className={"accordion-content"}>
 <div className={"accordion-description w-richtext"}>
 <p>
-{"We machine a wide range of materials, including aluminum, steel, titanium, plastics, and composites for various industrial applications."}
+{"Send AI, EPS, SVG or PDF vector artwork, or a transparent PNG at 300 DPI at actual print size. ONOS checks files before production."}
 </p>
 </div>
 </div>
@@ -421,7 +421,7 @@ return <>
 <div className={"accordion-item"}>
 <div data-w-id={"6ab982a9-d116-5d00-0772-e301af073cda"} className={"accordion-heading"}>
 <h3 className={"accordion-title"}>
-{"What types of CNC machines do you use?"}
+{"Can I approve a sample first?"}
 </h3>
 <div className={"accordion-icon-bg"}>
 <img src={"/assets/536a795c5a7c-68dcc369de4ced980408d673_-.svg"} loading={"lazy"} style={{"WebkitTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "MozTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "msTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "transform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"}} alt={"Pluse Icon"} className={"plus-icon"} />
@@ -430,7 +430,7 @@ return <>
 <div style={{"height": "0px"}} className={"accordion-content"}>
 <div className={"accordion-description w-richtext"}>
 <p>
-{"We use advanced 3-axis, 4-axis, and 5-axis CNC machines to handle everything from simple parts to complex geometries."}
+{"Yes. Me Linh has a dedicated sampling line. ONOS recommends agreeing a sample before larger production orders."}
 </p>
 </div>
 </div>
@@ -438,7 +438,7 @@ return <>
 <div className={"accordion-item"}>
 <div data-w-id={"5a958ff6-c440-e8e8-bbe7-00f184c3223e"} className={"accordion-heading"}>
 <h3 className={"accordion-title"}>
-{"Can you handle both prototypes and large production runs?"}
+{"How do I confirm pricing and timing?"}
 </h3>
 <div className={"accordion-icon-bg"}>
 <img src={"/assets/536a795c5a7c-68dcc369de4ced980408d673_-.svg"} loading={"lazy"} style={{"WebkitTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "MozTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "msTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "transform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"}} alt={"Pluse Icon"} className={"plus-icon"} />
@@ -447,7 +447,7 @@ return <>
 <div style={{"height": "0px"}} className={"accordion-content"}>
 <div className={"accordion-description w-richtext"}>
 <p>
-{"Yes, our CNC machining services cater to small prototype batches as well as high-volume production with consistent quality."}
+{"Share your product, design, expected quantity and delivery address. ONOS discusses pricing, timing and shipping before you decide."}
 </p>
 </div>
 </div>
@@ -455,7 +455,7 @@ return <>
 <div className={"accordion-item"}>
 <div data-w-id={"4cbf6f7c-df07-9fae-3a18-cb63e9055216"} className={"accordion-heading"}>
 <h3 className={"accordion-title"}>
-{"How do you ensure precision and quality?"}
+{"Which production method suits my product?"}
 </h3>
 <div className={"accordion-icon-bg"}>
 <img src={"/assets/536a795c5a7c-68dcc369de4ced980408d673_-.svg"} loading={"lazy"} style={{"WebkitTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "MozTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "msTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)", "transform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"}} alt={"Pluse Icon"} className={"plus-icon"} />
@@ -464,7 +464,7 @@ return <>
 <div style={{"height": "0px"}} className={"accordion-content"}>
 <div className={"accordion-description w-richtext"}>
 <p>
-{"We maintain tight tolerances, implement comprehensive quality checks, and use ISO-certified processes to ensure every component meets exact specifications."}
+{"DTG suits cotton-rich apparel; embroidery suits caps, polos and bags; sublimation suits polyester; laser cutting and engraving suit materials confirmed by ONOS."}
 </p>
 </div>
 </div>
@@ -473,7 +473,7 @@ return <>
 </div>
 </div>
 </section>
-<section className={"cta-section"}>
+<section className={"cta-section"} style={{"backgroundImage": "linear-gradient(#151515d9,#151515d9),url(\"/assets/onos-finishing-table.webp\")"}}>
 <div className={"cta-info"}>
 <div className={"section-title-center _02"}>
 <div data-wf--pre-section-title--variant={"bg-dark"} className={"pre-section-title-wrap w-variant-de5a90dc-c401-95a9-b09f-388955c5be35"}>
@@ -489,9 +489,9 @@ return <>
 <h2 className={"section-title title-center text-white"}>
 {"Start your "}
 <span className={"text-linear-gradient"}>
-{"precision "}
+{"apparel "}
 </span>
-{"manufacturing journey"}
+{"production journey"}
 </h2>
 </div>
 <div className={"cta-form-info"}>
@@ -503,20 +503,20 @@ return <>
 <input className={"form-input bg-change w-input"} maxLength={256} name={"inquiry"} data-name={"inquiry"} placeholder={"Inquiry"} type={"text"} id={"inquiry"} />
 </div>
 <div className={"cta-form-textarea"}>
-<textarea placeholder={"Message"} maxLength={5000} id={"field"} name={"field"} data-name={"Field"} className={"form-input bg-change form-textarea w-input"}>
+<textarea placeholder={"Demo only — email onospod.com@gmail.com to request production."} maxLength={5000} id={"field"} name={"field"} data-name={"Field"} className={"form-input bg-change form-textarea w-input"}>
 
 </textarea>
-<input type={"submit"} data-wait={"Please wait..."} className={"form-submit-button bg-change w-button"} value={"send"} />
+<input type={"submit"} data-wait={"Please wait..."} className={"form-submit-button bg-change w-button"} value={"Preview (demo)"} />
 </div>
 </ContactForm>
 <div className={"w-form-done"}>
 <div>
-{"Thank you! Your submission has been received!"}
+{"Demo only. No submission has been sent. Please email onospod.com@gmail.com."}
 </div>
 </div>
 <div className={"w-form-fail"}>
 <div>
-{"Oops! Something went wrong while submitting the form."}
+{"Please email onospod.com@gmail.com to contact ONOS."}
 </div>
 </div>
 </div>

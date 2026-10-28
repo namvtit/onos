@@ -2,7 +2,7 @@
 import { SiteRuntime } from "@/components/SiteRuntime";
 import { Footerff0835e88c, Navbar5de3fbdae5 } from "@/components/SiteChrome";
 
-export const metadata = {"title": "AI and machine learning powering smarter production", "description": "Artificial intelligence improves quality, planning, and maintenance. Machine learning predicts faults before they cause downtime. Together, they create highly efficient manufacturing systems.", "openGraph": {"title": "AI and machine learning powering smarter production", "description": "Artificial intelligence improves quality, planning, and maintenance. Machine learning predicts faults before they cause downtime. Together, they create highly efficient manufacturing systems.", "images": ["/assets/ef8f7135eaab-68e34c8a0f917a13debc0f2c_image-6.webp"]}};
+export const metadata = {"title":"From finishing to shipping handover | ONOS Global","description":"After printing or embroidery, products are checked and finished before packing. Me Linh connects production, finished-product checks and packing with international shipping partners.","openGraph":{"title":"From finishing to shipping handover | ONOS Global","description":"After printing or embroidery, products are checked and finished before packing. Me Linh connects production, finished-product checks and packing with international shipping partners.","images":["/assets/onos-warehouse-inventory.webp"]},"robots":{"index":false,"follow":true}};
 export default function Page475401f293() {
 const activePath = "/blog/ai-and-machine-learning-powering-smarter-production";
 return <>
@@ -13,19 +13,19 @@ return <>
 <div data-w-id={"57ad97ff-6e17-bb27-fb1a-35879195ab14"} style={{"opacity": "0"}} className={"hero-inner-wrap"}>
 <div className={"blog-category-wrap"}>
 <div className={"blog-hero-date"}>
-{"October 17, 2025"}
+{"ONOS production guide"}
 </div>
 <div className={"blog-category bg-change"}>
-{"AI in manufacturing"}
+{"Fulfillment"}
 </div>
 </div>
 <h1 className={"hero-inner-title"}>
-{"AI and machine learning powering smarter production"}
+{"From finishing to shipping handover"}
 </h1>
 <p className={"hero-inner-description"}>
-{"Artificial intelligence improves quality, planning, and maintenance. Machine learning predicts faults before they cause downtime. Together, they create highly efficient manufacturing systems."}
+{"After printing or embroidery, products are checked and finished before packing. Me Linh connects production, finished-product checks and packing with international shipping partners."}
 </p>
-<img src={"/assets/35d052637085-68e34c8ebb0a9c959c940a85_blog-big-image-6.webp"} loading={"eager"} alt={"Blog Image"} className={"hero-inner-image"} />
+<img src={"/assets/onos-warehouse-inventory-slot-35d052637085.webp"} loading={"eager"} alt={"Organised garment inventory at the Onos warehouse"} className={"hero-inner-image"} />
 </div>
 </div>
 </div>
@@ -33,49 +33,49 @@ return <>
 <div className={"w-layout-blockcontainer container-medium w-container"}>
 <div className={"blog-rich-text w-richtext"}>
 <h5>
-{"The most common business debate isn't as black and white as you might think"}
+{"Before production"}
 </h5>
 <p>
-{"Artificial Intelligence (AI) and Machine Learning (ML) are transforming the manufacturing landscape by enabling smarter, data-driven production systems. These technologies analyze vast amounts of data in real time to optimize processes, predict equipment failures, and enhance product quality. By integrating AI and ML, manufacturers can reduce downtime, increase efficiency, and respond quickly to changing market demands. This approach allows companies to make more informed decisions, automate repetitive tasks, and innovate faster, positioning AI and ML as essential tools for the future of industrial production."}
+{"After printing or embroidery, products are checked and finished before packing. Me Linh connects production, finished-product checks and packing with international shipping partners."}
 </p>
 <ul role={"list"}>
 <li>
-{"Predictive Maintenance"}
+{"Confirm your product"}
 </li>
 <li>
-{"Enhanced Process Optimization"}
+{"Share your artwork"}
 </li>
 <li>
-{"Improved Product Quality"}
+{"Review the material"}
 </li>
 <li>
-{"Faster Decision-Making"}
+{"Agree the sample"}
 </li>
 <li>
-{"Cost Reduction"}
+{"Discuss the shipping plan"}
 </li>
 </ul>
 <p>
-{"AI and Machine Learning are redefining modern manufacturing by transforming data into actionable insights. These technologies enable smarter, more efficient, and highly adaptable production systems that improve quality, reduce costs, and accelerate innovation. As industries increasingly rely on AI and ML, manufacturers are empowered to create more resilient, intelligent, and future-ready operations."}
+{"Packed products are handed to shipping partners and followed through the delivery process. Discuss destination and shipping arrangements with ONOS for your order."}
 </p>
 <figure style={{"paddingBottom": "56.206088992974244%"}} className={"w-richtext-align-fullwidth w-richtext-figure-type-video"}>
 <div>
-<iframe src={"/assets/bcf85a6254b8--U0IXSmp6kc"} scrolling={"no"} frameBorder={"0"} allowFullScreen={true}>
+<iframe src={"/assets/onos-production-reel.mp4"} scrolling={"no"} frameBorder={"0"} allowFullScreen={true}>
 
 </iframe>
 </div>
 </figure>
 <h5>
-{"Ten questions you should answer truthfully"}
+{"Prepare your order"}
 </h5>
 <p>
-{"AI and Machine Learning provide predictive insights into every aspect of production, allowing manufacturers to anticipate equipment failures, optimize workflows, and minimize downtime. This leads to higher efficiency, reduced maintenance costs, and more reliable operations."}
+{"Share the product, artwork, expected quantity and delivery address. ONOS reviews pricing, timing and shipping before you decide."}
 </p>
 <blockquote>
-{"“Artificial Intelligence and Machine Learning are powering a new era of manufacturing where data drives decisions, efficiency is maximized, and innovation happens faster than ever before. By predicting outcomes, optimizing processes, and enabling smarter production, these technologies are transforming traditional factories into intelligent, adaptive, and resilient systems capable of meeting the demands of today and tomorrow.”"}
+{"After printing or embroidery, products are checked and finished before packing. Me Linh connects production, finished-product checks and packing with international shipping partners."}
 </blockquote>
 <p>
-{"AI and ML empower manufacturers to make faster, data-driven decisions, enabling rapid adaptation to market changes, customized production, and innovative product development. This intelligence-driven approach not only increases competitiveness but also supports sustainable and cost-effective manufacturing practices."}
+{"Packed products are handed to shipping partners and followed through the delivery process. Discuss destination and shipping arrangements with ONOS for your order."}
 </p>
 </div>
 </div>
@@ -90,12 +90,12 @@ return <>
 
 </div>
 <div className={"pre-section-title"}>
-{"Insights & Article"}
+{"Production guidance"}
 </div>
 </div>
 </div>
 <h2 className={"section-title title-center"}>
-{"Recent blogs"}
+{"More production guides"}
 </h2>
 </div>
 <div className={"w-dyn-list"}>
@@ -103,19 +103,19 @@ return <>
 <div data-w-id={"58bd62fe-80db-d9e6-6b94-34f2845c2cc8"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a href={"/blog/breakthroughs-powering-manufacturing-efficiency"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp"} loading={"lazy"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/dbad3439e2f8-68f0d76a4b953aaae184fd6f_image-8-p-500.webp 500w, /assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-c84ffa4fb2b8.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-c84ffa4fb2b8-500w.webp 500w, /assets/onos-sample-development-slot-c84ffa4fb2b8-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item two"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Smart manufacturing"}
+{"Fulfillment"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"Breakthroughs powering manufacturing efficiency"}
+{"Preparing artwork for DTG printing"}
 </h2>
 </div>
 </a>
@@ -123,19 +123,19 @@ return <>
 <div data-w-id={"58bd62fe-80db-d9e6-6b94-34f2845c2cc8"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a href={"/blog/how-automation-is-shaping-the-future-of-manufacturing"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp"} loading={"lazy"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/cbd6faacf7d6-68e34a923545f0f0d61ea5d3_image-1-p-500.webp 500w, /assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-17ed536d0c8a.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-17ed536d0c8a-500w.webp 500w, /assets/onos-sample-development-slot-17ed536d0c8a-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item two"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Industry 4.0"}
+{"Fulfillment"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"How automation is shaping the future of manufacturing"}
+{"Planning your apparel production order"}
 </h2>
 </div>
 </a>
@@ -143,19 +143,19 @@ return <>
 <div data-w-id={"58bd62fe-80db-d9e6-6b94-34f2845c2cc8"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a href={"/blog/top-5-materials-revolutionizing-industrial-components"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp"} loading={"lazy"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/412ae6730e81-68e34c235b42befd11b5ec93_image-2-p-500.webp 500w, /assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-1ca0aa821cd9.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-1ca0aa821cd9-500w.webp 500w, /assets/onos-sample-development-slot-1ca0aa821cd9-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item two"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Advanced materials"}
+{"Fulfillment"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"Top 5 materials revolutionizing industrial components"}
+{"Choosing materials for your apparel"}
 </h2>
 </div>
 </a>

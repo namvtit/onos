@@ -2,7 +2,7 @@
 import { SiteRuntime } from "@/components/SiteRuntime";
 import { Footerff0835e88c, Navbar5de3fbdae5 } from "@/components/SiteChrome";
 
-export const metadata = {"title": "Sustainable manufacturing driving a greener future", "description": "Manufacturers are adopting eco-friendly materials and energy-saving methods. Sustainability reduces waste and operating costs. It’s the key to long-term industrial growth and responsibility.", "openGraph": {"title": "Sustainable manufacturing driving a greener future", "description": "Manufacturers are adopting eco-friendly materials and energy-saving methods. Sustainability reduces waste and operating costs. It’s the key to long-term industrial growth and responsibility.", "images": ["/assets/56b1595ce856-68e34c503ed0adec5ca1c9f7_image-4.webp"]}};
+export const metadata = {"title":"Choosing laser-cut gift materials | ONOS Global","description":"ONOS offers laser cutting and engraving for personalized gifts and decor in suitable wood, acrylic, leather and fabric.","openGraph":{"title":"Choosing laser-cut gift materials | ONOS Global","description":"ONOS offers laser cutting and engraving for personalized gifts and decor in suitable wood, acrylic, leather and fabric.","images":["/assets/onos-laser-cut-gifts.webp"]},"robots":{"index":false,"follow":true}};
 export default function Page8bb6c94216() {
 const activePath = "/blog/sustainable-manufacturing-driving-a-greener-future";
 return <>
@@ -13,19 +13,19 @@ return <>
 <div data-w-id={"57ad97ff-6e17-bb27-fb1a-35879195ab14"} style={{"opacity": "0"}} className={"hero-inner-wrap"}>
 <div className={"blog-category-wrap"}>
 <div className={"blog-hero-date"}>
-{"October 17, 2025"}
+{"ONOS production guide"}
 </div>
 <div className={"blog-category bg-change"}>
-{"Sustainability"}
+{"Laser gifts"}
 </div>
 </div>
 <h1 className={"hero-inner-title"}>
-{"Sustainable manufacturing driving a greener future"}
+{"Choosing laser-cut gift materials"}
 </h1>
 <p className={"hero-inner-description"}>
-{"Manufacturers are adopting eco-friendly materials and energy-saving methods. Sustainability reduces waste and operating costs. It’s the key to long-term industrial growth and responsibility."}
+{"ONOS offers laser cutting and engraving for personalized gifts and decor in suitable wood, acrylic, leather and fabric."}
 </p>
-<img src={"/assets/35d338b6bbf8-68e34c5441f10182d22ca65b_blog-big-image-4.webp"} loading={"eager"} alt={"Blog Image"} className={"hero-inner-image"} />
+<img src={"/assets/onos-laser-cut-gifts-slot-35d338b6bbf8.webp"} loading={"eager"} alt={"Personalised laser-cut wooden decor and gift products"} className={"hero-inner-image"} />
 </div>
 </div>
 </div>
@@ -33,49 +33,49 @@ return <>
 <div className={"w-layout-blockcontainer container-medium w-container"}>
 <div className={"blog-rich-text w-richtext"}>
 <h5>
-{"The most common business debate isn't as black and white as you might think"}
+{"Before production"}
 </h5>
 <p>
-{"Sustainable manufacturing is transforming industries by integrating eco-friendly practices, renewable energy, and resource-efficient processes into production. It focuses on reducing environmental impact while maintaining high productivity and quality standards. By adopting sustainable methods, companies can minimize waste, lower carbon emissions, and conserve natural resources. This approach not only benefits the planet but also enhances operational efficiency, reduces costs, and strengthens brand reputation. As global awareness of environmental issues grows, sustainable manufacturing is becoming essential for businesses striving to meet both economic and ecological goals."}
+{"ONOS offers laser cutting and engraving for personalized gifts and decor in suitable wood, acrylic, leather and fabric."}
 </p>
 <ul role={"list"}>
 <li>
-{"Reduced Carbon Footprint"}
+{"Confirm your product"}
 </li>
 <li>
-{"Efficient Resource Utilization"}
+{"Share your artwork"}
 </li>
 <li>
-{"Waste Minimization"}
+{"Review the material"}
 </li>
 <li>
-{"Cost Savings through Energy Efficiency"}
+{"Agree the sample"}
 </li>
 <li>
-{"Improved Brand Reputation"}
+{"Discuss the shipping plan"}
 </li>
 </ul>
 <p>
-{"Sustainable manufacturing is revolutionizing production by prioritizing environmental responsibility alongside profitability. It allows industries to innovate without compromising the planet, ensuring long-term viability and resilience. As technology and sustainability practices advance, green manufacturing is set to become the standard, enabling companies to meet global demand while safeguarding natural resources."}
+{"Provide the material type, thickness and cutting file. The team needs to confirm material suitability for the intended process."}
 </p>
 <figure style={{"paddingBottom": "56.206088992974244%"}} className={"w-richtext-align-fullwidth w-richtext-figure-type-video"}>
 <div>
-<iframe src={"/assets/bcf85a6254b8--U0IXSmp6kc"} scrolling={"no"} frameBorder={"0"} allowFullScreen={true}>
+<iframe src={"/assets/onos-production-reel.mp4"} scrolling={"no"} frameBorder={"0"} allowFullScreen={true}>
 
 </iframe>
 </div>
 </figure>
 <h5>
-{"Ten questions you should answer truthfully"}
+{"Prepare your order"}
 </h5>
 <p>
-{"Sustainable manufacturing integrates energy-efficient technologies, renewable resources, and waste reduction strategies to create production systems that minimize environmental impact while maintaining high standards of productivity and quality. This approach allows companies to operate responsibly, reduce costs, and improve long-term sustainability."}
+{"Approve a sample surface before confirming production. Share your design, expected quantity and destination to discuss the order with ONOS."}
 </p>
 <blockquote>
-{"“Sustainable manufacturing is more than a trend—it is the future of industry. By combining innovation, efficiency, and environmental responsibility, it allows businesses to produce high-quality products while conserving resources, reducing waste, and protecting the planet. Every step taken toward greener manufacturing strengthens our ability to meet global demands responsibly, creating a world where progress and sustainability go hand in hand.”"}
+{"ONOS offers laser cutting and engraving for personalized gifts and decor in suitable wood, acrylic, leather and fabric."}
 </blockquote>
 <p>
-{"Sustainable manufacturing encourages innovation in product design, supply chain management, and operational workflows, enabling companies to create eco-friendly products and services without sacrificing efficiency. These practices foster resilience, improve corporate reputation, and position businesses as leaders in the global shift toward a greener, more responsible industrial future."}
+{"Provide the material type, thickness and cutting file. The team needs to confirm material suitability for the intended process."}
 </p>
 </div>
 </div>
@@ -90,12 +90,12 @@ return <>
 
 </div>
 <div className={"pre-section-title"}>
-{"Insights & Article"}
+{"Production guidance"}
 </div>
 </div>
 </div>
 <h2 className={"section-title title-center"}>
-{"Recent blogs"}
+{"More production guides"}
 </h2>
 </div>
 <div className={"w-dyn-list"}>
@@ -103,19 +103,19 @@ return <>
 <div data-w-id={"58bd62fe-80db-d9e6-6b94-34f2845c2cc8"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a href={"/blog/breakthroughs-powering-manufacturing-efficiency"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp"} loading={"lazy"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/dbad3439e2f8-68f0d76a4b953aaae184fd6f_image-8-p-500.webp 500w, /assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-c84ffa4fb2b8.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-c84ffa4fb2b8-500w.webp 500w, /assets/onos-sample-development-slot-c84ffa4fb2b8-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item two"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Smart manufacturing"}
+{"Laser gifts"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"Breakthroughs powering manufacturing efficiency"}
+{"Preparing artwork for DTG printing"}
 </h2>
 </div>
 </a>
@@ -123,19 +123,19 @@ return <>
 <div data-w-id={"58bd62fe-80db-d9e6-6b94-34f2845c2cc8"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a href={"/blog/how-automation-is-shaping-the-future-of-manufacturing"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp"} loading={"lazy"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/cbd6faacf7d6-68e34a923545f0f0d61ea5d3_image-1-p-500.webp 500w, /assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-17ed536d0c8a.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-17ed536d0c8a-500w.webp 500w, /assets/onos-sample-development-slot-17ed536d0c8a-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item two"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Industry 4.0"}
+{"Laser gifts"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"How automation is shaping the future of manufacturing"}
+{"Planning your apparel production order"}
 </h2>
 </div>
 </a>
@@ -143,19 +143,19 @@ return <>
 <div data-w-id={"58bd62fe-80db-d9e6-6b94-34f2845c2cc8"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a href={"/blog/top-5-materials-revolutionizing-industrial-components"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp"} loading={"lazy"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/412ae6730e81-68e34c235b42befd11b5ec93_image-2-p-500.webp 500w, /assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-1ca0aa821cd9.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-1ca0aa821cd9-500w.webp 500w, /assets/onos-sample-development-slot-1ca0aa821cd9-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item two"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Advanced materials"}
+{"Laser gifts"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"Top 5 materials revolutionizing industrial components"}
+{"Choosing materials for your apparel"}
 </h2>
 </div>
 </a>

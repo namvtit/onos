@@ -2,7 +2,7 @@
 import { ContactForm } from "@/components/ContactForm";
 import { SiteRuntime } from "@/components/SiteRuntime";
 
-export const metadata = {"title": "Protected page | Saash - Webflow HTML website template", "description": "Trusted by industries worldwide for quality manufacturing, advanced technology, and timely delivery.", "openGraph": {"title": "Protected page | Saash - Webflow HTML website template", "description": "Trusted by industries worldwide for quality manufacturing, advanced technology, and timely delivery.", "images": ["/assets/18abbc66ca4e-69032939b90d78f4742e4808_open-graph--1-.jpg"]}};
+export const metadata = {"title":"Protected page | ONOS Global","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","openGraph":{"title":"Protected page | ONOS Global","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","images":["/assets/onos-production-floor.webp"]},"robots":{"index":false,"follow":true}};
 export default function Page73c13bdab4() {
 return <>
 
@@ -10,16 +10,16 @@ return <>
 <div className={"utility-page-content w-password-page w-form"}>
 <ContactForm id={"email-form"} name={"email-form"} data-name={"Email Form"} className={"utility-page-form w-password-page"}>
 <h1 className={"heading-h2"}>
-{"Protected Page"}
+{"Password Demo"}
 </h1>
 <label htmlFor={"pass"} className={"w-password-page"}>
 {"Password"}
 </label>
 <input className={"form-input input-white w-password-page w-input"} autoFocus={true} maxLength={256} name={"pass"} data-name={"field"} placeholder={"Enter your password"} type={"password"} id={"pass"} />
-<input type={"submit"} data-wait={"Please wait..."} className={"form-submit-button bg-dark w-password-page w-button"} value={"Submit"} />
+<input type={"submit"} data-wait={"Please wait..."} className={"form-submit-button bg-dark w-password-page w-button"} value={"Preview (demo)"} />
 <div className={"error-message w-password-page w-form-fail"}>
 <div>
-{"Incorrect password. Please try again."}
+{"Demo only — no authentication service is connected."}
 </div>
 </div>
 <div style={{"display": "none"}} className={"w-password-page w-embed w-script"}>

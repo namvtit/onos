@@ -15,7 +15,7 @@ export function ContactForm({ children, ...props }: ComponentProps<"form">) {
       {submitted && <p role="status" className="local-form-status">
         {password
           ? "This demo has no password authentication service."
-          : "Your details are ready. This demo does not send submissions."}
+          : "This demo does not send submissions. Email onospod.com@gmail.com for production enquiries."}
       </p>}
     </form>
   );

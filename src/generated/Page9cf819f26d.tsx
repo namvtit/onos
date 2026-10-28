@@ -2,7 +2,7 @@
 import { SiteRuntime } from "@/components/SiteRuntime";
 import { Footerff0835e88c, Navbar5de3fbdae5 } from "@/components/SiteChrome";
 
-export const metadata = {"title": "Robotics revolution changing industrial operations", "description": "Robots are performing complex, repetitive tasks with precision. Collaborative robots work safely beside human operators. This balance increases speed, safety, and quality.", "openGraph": {"title": "Robotics revolution changing industrial operations", "description": "Robots are performing complex, repetitive tasks with precision. Collaborative robots work safely beside human operators. This balance increases speed, safety, and quality.", "images": ["/assets/bf56dbb39faa-68e34c9df2a2b68f26b6c08e_image-7.webp"]}};
+export const metadata = {"title":"Preparing your embroidery logo | ONOS Global","description":"ONOS uses design digitization and multi-head embroidery for raised brand details on suitable caps, polos and bags.","openGraph":{"title":"Preparing your embroidery logo | ONOS Global","description":"ONOS uses design digitization and multi-head embroidery for raised brand details on suitable caps, polos and bags.","images":["/assets/onos-equipment-embroidery.webp"]},"robots":{"index":false,"follow":true}};
 export default function Page9cf819f26d() {
 const activePath = "/blog/robotics-revolution-changing-industrial-operations";
 return <>
@@ -13,19 +13,19 @@ return <>
 <div data-w-id={"57ad97ff-6e17-bb27-fb1a-35879195ab14"} style={{"opacity": "0"}} className={"hero-inner-wrap"}>
 <div className={"blog-category-wrap"}>
 <div className={"blog-hero-date"}>
-{"October 17, 2025"}
+{"ONOS production guide"}
 </div>
 <div className={"blog-category bg-change"}>
-{"Robotics"}
+{"Embroidery"}
 </div>
 </div>
 <h1 className={"hero-inner-title"}>
-{"Robotics revolution changing industrial operations"}
+{"Preparing your embroidery logo"}
 </h1>
 <p className={"hero-inner-description"}>
-{"Robots are performing complex, repetitive tasks with precision. Collaborative robots work safely beside human operators. This balance increases speed, safety, and quality."}
+{"ONOS uses design digitization and multi-head embroidery for raised brand details on suitable caps, polos and bags."}
 </p>
-<img src={"/assets/71280ceeb52d-68e34caa469b016c2ec00fe7_blog-big-image-7.webp"} loading={"eager"} alt={"Blog Image"} className={"hero-inner-image"} />
+<img src={"/assets/onos-equipment-embroidery-slot-71280ceeb52d.webp"} loading={"eager"} alt={"An Onos operator checking embroidery on garments"} className={"hero-inner-image"} />
 </div>
 </div>
 </div>
@@ -33,49 +33,49 @@ return <>
 <div className={"w-layout-blockcontainer container-medium w-container"}>
 <div className={"blog-rich-text w-richtext"}>
 <h5>
-{"The most common business debate isn't as black and white as you might think"}
+{"Before production"}
 </h5>
 <p>
-{"The robotics revolution is transforming industrial operations by integrating advanced robotic systems into manufacturing, logistics, and assembly processes. Modern robots are capable of performing repetitive, hazardous, and precise tasks with speed and accuracy, reducing human error and improving overall productivity. Robotics technology, combined with automation, AI, and machine learning, enables industries to scale operations, optimize workflows, and maintain consistent quality. By embracing robotics, manufacturers can enhance efficiency, lower operational costs, and create safer working environments, marking a significant shift toward the factories of the future."}
+{"ONOS uses design digitization and multi-head embroidery for raised brand details on suitable caps, polos and bags."}
 </p>
 <ul role={"list"}>
 <li>
-{"Increased Productivity"}
+{"Confirm your product"}
 </li>
 <li>
-{"Enhanced Precision and Quality"}
+{"Share your artwork"}
 </li>
 <li>
-{"Safer Work Environments"}
+{"Review the material"}
 </li>
 <li>
-{"Cost Efficiency"}
+{"Agree the sample"}
 </li>
 <li>
-{"Scalability and Flexibility"}
+{"Discuss the shipping plan"}
 </li>
 </ul>
 <p>
-{"The robotics revolution is redefining the way industries operate by automating critical processes and improving efficiency. Advanced robots empower manufacturers to maintain high-quality production while reducing risks and operational costs. As robotics technology continues to evolve, industrial operations will become more adaptive, intelligent, and capable of meeting the growing demands of modern manufacturing."}
+{"Share the logo dimensions and intended position. Small lettering and fine details need review during embroidery file digitization."}
 </p>
 <figure style={{"paddingBottom": "56.206088992974244%"}} className={"w-richtext-align-fullwidth w-richtext-figure-type-video"}>
 <div>
-<iframe src={"/assets/bcf85a6254b8--U0IXSmp6kc"} scrolling={"no"} frameBorder={"0"} allowFullScreen={true}>
+<iframe src={"/assets/onos-production-reel.mp4"} scrolling={"no"} frameBorder={"0"} allowFullScreen={true}>
 
 </iframe>
 </div>
 </figure>
 <h5>
-{"Ten questions you should answer truthfully"}
+{"Prepare your order"}
 </h5>
 <p>
-{"Robotics enables industries to automate repetitive and hazardous tasks, improving worker safety while maintaining high levels of precision and consistency. This automation reduces human error and allows employees to focus on more strategic and creative work."}
+{"Discuss the product and fabric with ONOS and agree a sample before larger production orders."}
 </p>
 <blockquote>
-{"“The robotics revolution is reshaping industrial operations by combining speed, precision, and intelligence. Robots are not just tools—they are partners in production, enhancing safety, efficiency, and innovation. By automating repetitive and hazardous tasks, industries can achieve higher productivity, reduce costs, and create a more adaptable, future-ready workforce that meets the evolving demands of modern manufacturing.”"}
+{"ONOS uses design digitization and multi-head embroidery for raised brand details on suitable caps, polos and bags."}
 </blockquote>
 <p>
-{"Advanced robotics allows manufacturers to scale operations efficiently, reduce production costs, and improve overall competitiveness. By combining speed, accuracy, and adaptability, robotic systems are driving innovation, enabling faster production cycles, and creating a safer, more sustainable industrial environment."}
+{"Share the logo dimensions and intended position. Small lettering and fine details need review during embroidery file digitization."}
 </p>
 </div>
 </div>
@@ -90,12 +90,12 @@ return <>
 
 </div>
 <div className={"pre-section-title"}>
-{"Insights & Article"}
+{"Production guidance"}
 </div>
 </div>
 </div>
 <h2 className={"section-title title-center"}>
-{"Recent blogs"}
+{"More production guides"}
 </h2>
 </div>
 <div className={"w-dyn-list"}>
@@ -103,19 +103,19 @@ return <>
 <div data-w-id={"58bd62fe-80db-d9e6-6b94-34f2845c2cc8"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a href={"/blog/breakthroughs-powering-manufacturing-efficiency"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp"} loading={"lazy"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/dbad3439e2f8-68f0d76a4b953aaae184fd6f_image-8-p-500.webp 500w, /assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-c84ffa4fb2b8.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-c84ffa4fb2b8-500w.webp 500w, /assets/onos-sample-development-slot-c84ffa4fb2b8-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item two"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Smart manufacturing"}
+{"Embroidery"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"Breakthroughs powering manufacturing efficiency"}
+{"Preparing artwork for DTG printing"}
 </h2>
 </div>
 </a>
@@ -123,19 +123,19 @@ return <>
 <div data-w-id={"58bd62fe-80db-d9e6-6b94-34f2845c2cc8"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a href={"/blog/how-automation-is-shaping-the-future-of-manufacturing"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp"} loading={"lazy"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/cbd6faacf7d6-68e34a923545f0f0d61ea5d3_image-1-p-500.webp 500w, /assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-17ed536d0c8a.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-17ed536d0c8a-500w.webp 500w, /assets/onos-sample-development-slot-17ed536d0c8a-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item two"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Industry 4.0"}
+{"Embroidery"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"How automation is shaping the future of manufacturing"}
+{"Planning your apparel production order"}
 </h2>
 </div>
 </a>
@@ -143,19 +143,19 @@ return <>
 <div data-w-id={"58bd62fe-80db-d9e6-6b94-34f2845c2cc8"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a href={"/blog/top-5-materials-revolutionizing-industrial-components"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp"} loading={"lazy"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/412ae6730e81-68e34c235b42befd11b5ec93_image-2-p-500.webp 500w, /assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-1ca0aa821cd9.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-1ca0aa821cd9-500w.webp 500w, /assets/onos-sample-development-slot-1ca0aa821cd9-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item two"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Advanced materials"}
+{"Embroidery"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"Top 5 materials revolutionizing industrial components"}
+{"Choosing materials for your apparel"}
 </h2>
 </div>
 </a>

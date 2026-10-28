@@ -2,7 +2,7 @@
 import { SiteRuntime } from "@/components/SiteRuntime";
 import { Footerad35bd4ee8, Navbar5de3fbdae5 } from "@/components/SiteChrome";
 
-export const metadata = {"title": "Changelog | Manufactt - Webflow HTML website template", "description": "Trusted by industries worldwide for quality manufacturing, advanced technology, and timely delivery.", "openGraph": {"title": "Changelog | Manufactt - Webflow HTML website template", "description": "Trusted by industries worldwide for quality manufacturing, advanced technology, and timely delivery.", "images": ["/assets/18abbc66ca4e-69032939b90d78f4742e4808_open-graph--1-.jpg"]}};
+export const metadata = {"title":"Changelog | ONOS Global","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","openGraph":{"title":"Changelog | ONOS Global","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","images":["/assets/onos-production-floor.webp"]},"robots":{"index":false,"follow":true}};
 export default function Pageb5573205f7() {
 const activePath = "/utility-pages/changelog";
 return <>
@@ -28,7 +28,7 @@ return <>
 <div className={"style-guide-content"}>
 <div>
 <h3 className={"style-guide-title"}>
-{"Initial Release - Manufactt Template Released."}
+{"ONOS content mapped to the original template."}
 </h3>
 </div>
 </div>

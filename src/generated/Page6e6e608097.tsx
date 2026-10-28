@@ -2,7 +2,7 @@
 import { SiteRuntime } from "@/components/SiteRuntime";
 import { Footerff0835e88c, Navbar5de3fbdae5 } from "@/components/SiteChrome";
 
-export const metadata = {"title": "FAQs | Manufactt - Webflow HTML website template", "description": "Trusted by industries worldwide for quality manufacturing, advanced technology, and timely delivery.", "openGraph": {"title": "FAQs | Manufactt - Webflow HTML website template", "description": "Trusted by industries worldwide for quality manufacturing, advanced technology, and timely delivery.", "images": ["/assets/18abbc66ca4e-69032939b90d78f4742e4808_open-graph--1-.jpg"]}};
+export const metadata = {"title":"FAQs | ONOS Global","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","openGraph":{"title":"FAQs | ONOS Global","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","images":["/assets/onos-production-floor.webp"]},"robots":{"index":true,"follow":true}};
 export default function Page6e6e608097() {
 const activePath = "/faqs";
 return <>
@@ -23,7 +23,7 @@ return <>
 <div className={"accordion-item"}>
 <div data-w-id={"ae4fe69c-2488-5a02-50ff-226521ed3b53"} className={"accordion-heading"}>
 <h2 className={"accordion-title"}>
-{"What are common manufacturing processes?"}
+{"Can I start with a small quantity?"}
 </h2>
 <div className={"accordion-icon-bg"}>
 <img src={"/assets/536a795c5a7c-68dcc369de4ced980408d673_-.svg"} loading={"lazy"} style={{"WebkitTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(45deg) skew(0, 0)", "MozTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(45deg) skew(0, 0)", "msTransform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(45deg) skew(0, 0)", "transform": "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(45deg) skew(0, 0)"}} alt={"Pluse Icon"} className={"plus-icon"} />
@@ -31,14 +31,14 @@ return <>
 </div>
 <div className={"accordion-content"}>
 <p className={"accordion-description"}>
-{"The most common manufacturing processes include CNC machining, injection molding, 3D printing (additive manufacturing), sheet metal fabrication, casting, and automated assembly."}
+{"DTG and sublimation orders can start from one product. Minimum quantities for custom blanks or tailored uniforms are agreed for each project."}
 </p>
 </div>
 </div>
 <div className={"accordion-item"}>
 <div data-w-id={"bc7a5251-644f-7f5d-0137-f49ead5583d4"} className={"accordion-heading"}>
 <h3 className={"accordion-title"}>
-{"How does automation improve manufacturing?"}
+{"What artwork files do you need?"}
 </h3>
 <div className={"accordion-icon-bg"}>
 <img src={"/assets/536a795c5a7c-68dcc369de4ced980408d673_-.svg"} loading={"lazy"} alt={"Pluse Icon"} className={"plus-icon"} />
@@ -46,14 +46,14 @@ return <>
 </div>
 <div className={"accordion-content"}>
 <p className={"accordion-description"}>
-{"Automation increases production speed, consistency, and accuracy while reducing human error. It also helps in cost savings, improved safety, and the ability to scale production to meet high demand without compromising quality."}
+{"Send AI, EPS, SVG or PDF vector artwork, or a transparent PNG at 300 DPI at actual print size. ONOS checks files before production."}
 </p>
 </div>
 </div>
 <div className={"accordion-item"}>
 <div data-w-id={"bc7a5251-644f-7f5d-0137-f49ead5583d4"} className={"accordion-heading"}>
 <h3 className={"accordion-title"}>
-{"Why is quality control important?"}
+{"Can I approve a sample first?"}
 </h3>
 <div className={"accordion-icon-bg"}>
 <img src={"/assets/536a795c5a7c-68dcc369de4ced980408d673_-.svg"} loading={"lazy"} alt={"Pluse Icon"} className={"plus-icon"} />
@@ -61,14 +61,14 @@ return <>
 </div>
 <div className={"accordion-content"}>
 <p className={"accordion-description"}>
-{"Quality control ensures that products meet industry standards and customer requirements. It involves inspections, testing, and monitoring throughout production to minimize defects, reduce waste, and maintain reliability."}
+{"Yes. Me Linh has a dedicated sampling line. ONOS recommends agreeing a sample before larger production orders."}
 </p>
 </div>
 </div>
 <div className={"accordion-item"}>
 <div data-w-id={"bc7a5251-644f-7f5d-0137-f49ead5583d4"} className={"accordion-heading"}>
 <h3 className={"accordion-title"}>
-{"How are materials chosen?"}
+{"How do we confirm pricing and lead time?"}
 </h3>
 <div className={"accordion-icon-bg"}>
 <img src={"/assets/536a795c5a7c-68dcc369de4ced980408d673_-.svg"} loading={"lazy"} alt={"Pluse Icon"} className={"plus-icon"} />
@@ -76,14 +76,14 @@ return <>
 </div>
 <div className={"accordion-content"}>
 <p className={"accordion-description"}>
-{"Material selection depends on mechanical properties, durability, cost, environmental factors, and production process compatibility. Advanced manufacturing often involves lightweight metals, composites, or polymers to improve performance and reduce costs."}
+{"Share your product, design, expected quantity and delivery address. ONOS discusses pricing, timing and shipping before you decide."}
 </p>
 </div>
 </div>
 <div className={"accordion-item"}>
 <div data-w-id={"bc7a5251-644f-7f5d-0137-f49ead5583d4"} className={"accordion-heading"}>
 <h3 className={"accordion-title"}>
-{"What are the latest trends in manufacturing technology?"}
+{"Which production method fits my product?"}
 </h3>
 <div className={"accordion-icon-bg"}>
 <img src={"/assets/536a795c5a7c-68dcc369de4ced980408d673_-.svg"} loading={"lazy"} alt={"Pluse Icon"} className={"plus-icon"} />
@@ -91,14 +91,14 @@ return <>
 </div>
 <div className={"accordion-content"}>
 <p className={"accordion-description"}>
-{"Key trends include additive manufacturing (3D printing), smart factories with IoT integration, AI-driven predictive maintenance, robotics, and sustainable manufacturing practices. These technologies increase flexibility, reduce downtime, and support eco-friendly production."}
+{"DTG suits cotton-rich apparel; embroidery suits caps, polos and bags; sublimation suits polyester; laser cutting and engraving suit materials confirmed by ONOS."}
 </p>
 </div>
 </div>
 <div className={"accordion-item"}>
 <div data-w-id={"bc7a5251-644f-7f5d-0137-f49ead5583d4"} className={"accordion-heading"}>
 <h3 className={"accordion-title"}>
-{"What challenges do manufacturers face today?"}
+{"Where are the ONOS factories?"}
 </h3>
 <div className={"accordion-icon-bg"}>
 <img src={"/assets/536a795c5a7c-68dcc369de4ced980408d673_-.svg"} loading={"lazy"} alt={"Pluse Icon"} className={"plus-icon"} />
@@ -106,7 +106,7 @@ return <>
 </div>
 <div className={"accordion-content"}>
 <p className={"accordion-description"}>
-{"Manufacturers face rising material costs, labor shortages, and the need for skilled workers. Adapting to new technologies like automation, robotics, and AI requires investment and training."}
+{"Thai Nguyen, Vietnam; Me Linh, Hanoi, Vietnam; and California, USA. California operates through ONOS American Ventures Corp."}
 </p>
 </div>
 </div>

@@ -3,7 +3,7 @@ import { ContactForm } from "@/components/ContactForm";
 import { SiteRuntime } from "@/components/SiteRuntime";
 import { Footercc83311ca4, Navbar5de3fbdae5 } from "@/components/SiteChrome";
 
-export const metadata = {"title": "Style Guide | Manufactt - Webflow HTML website template", "description": "Trusted by industries worldwide for quality manufacturing, advanced technology, and timely delivery.", "openGraph": {"title": "Style Guide | Manufactt - Webflow HTML website template", "description": "Trusted by industries worldwide for quality manufacturing, advanced technology, and timely delivery.", "images": ["/assets/18abbc66ca4e-69032939b90d78f4742e4808_open-graph--1-.jpg"]}};
+export const metadata = {"title":"Style Guide | ONOS Global","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","openGraph":{"title":"Style Guide | ONOS Global","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","images":["/assets/onos-production-floor.webp"]},"robots":{"index":false,"follow":true}};
 export default function Pagefc56e108f9() {
 const activePath = "/utility-pages/style-guide";
 return <>
@@ -744,7 +744,7 @@ return <>
 </p>
 <figure className={"w-richtext-align-center w-richtext-figure-type-image"}>
 <div>
-<img src={"/assets/7dbcee796a77-68e0a5811f399b56334cd5cf_Why-choose-image.webp"} loading={"lazy"} alt={"Why Choose Image"} />
+<img src={"/assets/onos-laser-cut-gifts-slot-7dbcee796a77.webp"} loading={"lazy"} alt={"Personalised laser-cut wooden decor and gift products"} />
 </div>
 <figcaption>
 {"Type image caption here"}
@@ -854,16 +854,16 @@ return <>
 </option>
 </select>
 </div>
-<input type={"submit"} data-wait={""} className={"form-submit-button bg-change w-button"} value={"Submit"} />
+<input type={"submit"} data-wait={""} className={"form-submit-button bg-change w-button"} value={"Preview (demo)"} />
 </ContactForm>
 <div className={"success-message w-form-done"}>
 <div>
-{"Thank you! Your submission has been received!"}
+{"Demo only. No submission has been sent. Please email onospod.com@gmail.com."}
 </div>
 </div>
 <div className={"error-message w-form-fail"}>
 <div>
-{"Oops! Something went wrong while submitting the form."}
+{"Please email onospod.com@gmail.com to contact ONOS."}
 </div>
 </div>
 </div>

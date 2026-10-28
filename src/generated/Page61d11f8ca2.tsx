@@ -2,7 +2,7 @@
 import { SiteRuntime } from "@/components/SiteRuntime";
 import { Footerff0835e88c, Navbar5de3fbdae5 } from "@/components/SiteChrome";
 
-export const metadata = {"title": "Smart factories transforming modern manufacturing", "description": "IoT and automation are creating intelligent, connected production floors. Real-time data improves decision-making and efficiency. Smart factories are setting new standards for productivity.", "openGraph": {"title": "Smart factories transforming modern manufacturing", "description": "IoT and automation are creating intelligent, connected production floors. Real-time data improves decision-making and efficiency. Smart factories are setting new standards for productivity.", "images": ["/assets/044f629c5a70-68e34c39638ac15970c6717c_image-3.webp"]}};
+export const metadata = {"title":"The ONOS factory network | ONOS Global","description":"Thai Nguyen, Vietnam brings together DTG, sublimation, embroidery and laser production, with a five-step quality-control process described by ONOS.","openGraph":{"title":"The ONOS factory network | ONOS Global","description":"Thai Nguyen, Vietnam brings together DTG, sublimation, embroidery and laser production, with a five-step quality-control process described by ONOS.","images":["/assets/onos-facility-thai-nguyen.webp"]},"robots":{"index":false,"follow":true}};
 export default function Page61d11f8ca2() {
 const activePath = "/blog/smart-factories-transforming-modern-manufacturing";
 return <>
@@ -13,19 +13,19 @@ return <>
 <div data-w-id={"57ad97ff-6e17-bb27-fb1a-35879195ab14"} style={{"opacity": "0"}} className={"hero-inner-wrap"}>
 <div className={"blog-category-wrap"}>
 <div className={"blog-hero-date"}>
-{"October 17, 2025"}
+{"ONOS production guide"}
 </div>
 <div className={"blog-category bg-change"}>
-{"Smart manufacturing"}
+{"Production network"}
 </div>
 </div>
 <h1 className={"hero-inner-title"}>
-{"Smart factories transforming modern manufacturing"}
+{"The ONOS factory network"}
 </h1>
 <p className={"hero-inner-description"}>
-{"IoT and automation are creating intelligent, connected production floors. Real-time data improves decision-making and efficiency. Smart factories are setting new standards for productivity."}
+{"Thai Nguyen, Vietnam brings together DTG, sublimation, embroidery and laser production, with a five-step quality-control process described by ONOS."}
 </p>
-<img src={"/assets/634640404b79-68e34c4242c834288f918dee_blog-big-image-3.webp"} loading={"eager"} alt={"Blog Image"} className={"hero-inner-image"} />
+<img src={"/assets/onos-facility-thai-nguyen-slot-634640404b79.webp"} loading={"eager"} alt={"Sewing floor at the Thai Nguyen plant"} className={"hero-inner-image"} />
 </div>
 </div>
 </div>
@@ -33,49 +33,49 @@ return <>
 <div className={"w-layout-blockcontainer container-medium w-container"}>
 <div className={"blog-rich-text w-richtext"}>
 <h5>
-{"The most common business debate isn't as black and white as you might think"}
+{"Before production"}
 </h5>
 <p>
-{"Smart factories represent the pinnacle of industrial evolution, integrating advanced technologies such as IoT, AI, robotics, and data analytics into manufacturing processes. Unlike traditional factories, smart factories operate with real-time data, predictive maintenance, and autonomous systems, leading to improved productivity, precision, and flexibility. They allow manufacturers to respond rapidly to market demands, reduce waste, optimize energy consumption, and ensure consistent quality. As industries embrace digital transformation, smart factories are not just a trend—they are the blueprint for the future of manufacturing worldwide."}
+{"Thai Nguyen, Vietnam brings together DTG, sublimation, embroidery and laser production, with a five-step quality-control process described by ONOS."}
 </p>
 <ul role={"list"}>
 <li>
-{"Enhanced Operational Efficiency"}
+{"Confirm your product"}
 </li>
 <li>
-{"Data-Driven Decision Making"}
+{"Share your artwork"}
 </li>
 <li>
-{"Flexibility and Adaptability"}
+{"Review the material"}
 </li>
 <li>
-{"Reduced Waste and Energy Consumption"}
+{"Agree the sample"}
 </li>
 <li>
-{"Improved Product Quality"}
+{"Discuss the shipping plan"}
 </li>
 </ul>
 <p>
-{"Smart factories are revolutionizing manufacturing by combining technology, data, and automation to create highly efficient, adaptable, and sustainable production environments. They empower industries to innovate faster, meet market demands with precision, and reduce operational costs while supporting environmental goals. As digital transformation accelerates, smart factories will continue to set the standard for modern manufacturing."}
+{"Me Linh, Hanoi, Vietnam supports sampling, production, finished-product checks and packing, connected with international shipping partners."}
 </p>
 <figure style={{"paddingBottom": "56.206088992974244%"}} className={"w-richtext-align-fullwidth w-richtext-figure-type-video"}>
 <div>
-<iframe src={"/assets/bcf85a6254b8--U0IXSmp6kc"} scrolling={"no"} frameBorder={"0"} allowFullScreen={true}>
+<iframe src={"/assets/onos-production-reel.mp4"} scrolling={"no"} frameBorder={"0"} allowFullScreen={true}>
 
 </iframe>
 </div>
 </figure>
 <h5>
-{"Ten questions you should answer truthfully"}
+{"Prepare your order"}
 </h5>
 <p>
-{"Smart factories combine cutting-edge technologies such as AI, IoT, robotics, and cloud computing to create fully integrated production environments. These systems monitor every stage of manufacturing in real time, predict potential issues before they occur, and allow seamless coordination across all departments, ensuring maximum efficiency and minimal downtime."}
+{"California, USA provides DTG and DTF production for North America through ONOS American Ventures Corp. The network connects three factories in two countries."}
 </p>
 <blockquote>
-{"“Smart factories are where technology meets industry—transforming traditional production into an intelligent ecosystem that works faster, smarter, and greener, shaping the future of manufacturing one innovation at a time.”"}
+{"Thai Nguyen, Vietnam brings together DTG, sublimation, embroidery and laser production, with a five-step quality-control process described by ONOS."}
 </blockquote>
 <p>
-{"The adaptability and intelligence of smart factories allow rapid response to changing market demands, including product customization, batch changes, and scaling production up or down. This flexibility, combined with sustainable practices such as optimized energy consumption and resource management, positions smart factories as the cornerstone of modern, future-ready manufacturing."}
+{"Me Linh, Hanoi, Vietnam supports sampling, production, finished-product checks and packing, connected with international shipping partners."}
 </p>
 </div>
 </div>
@@ -90,12 +90,12 @@ return <>
 
 </div>
 <div className={"pre-section-title"}>
-{"Insights & Article"}
+{"Production guidance"}
 </div>
 </div>
 </div>
 <h2 className={"section-title title-center"}>
-{"Recent blogs"}
+{"More production guides"}
 </h2>
 </div>
 <div className={"w-dyn-list"}>
@@ -103,19 +103,19 @@ return <>
 <div data-w-id={"58bd62fe-80db-d9e6-6b94-34f2845c2cc8"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a href={"/blog/breakthroughs-powering-manufacturing-efficiency"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp"} loading={"lazy"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/dbad3439e2f8-68f0d76a4b953aaae184fd6f_image-8-p-500.webp 500w, /assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-c84ffa4fb2b8.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-c84ffa4fb2b8-500w.webp 500w, /assets/onos-sample-development-slot-c84ffa4fb2b8-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item two"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Smart manufacturing"}
+{"Production network"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"Breakthroughs powering manufacturing efficiency"}
+{"Preparing artwork for DTG printing"}
 </h2>
 </div>
 </a>
@@ -123,19 +123,19 @@ return <>
 <div data-w-id={"58bd62fe-80db-d9e6-6b94-34f2845c2cc8"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a href={"/blog/how-automation-is-shaping-the-future-of-manufacturing"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp"} loading={"lazy"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/cbd6faacf7d6-68e34a923545f0f0d61ea5d3_image-1-p-500.webp 500w, /assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-17ed536d0c8a.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-17ed536d0c8a-500w.webp 500w, /assets/onos-sample-development-slot-17ed536d0c8a-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item two"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Industry 4.0"}
+{"Production network"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"How automation is shaping the future of manufacturing"}
+{"Planning your apparel production order"}
 </h2>
 </div>
 </a>
@@ -143,19 +143,19 @@ return <>
 <div data-w-id={"58bd62fe-80db-d9e6-6b94-34f2845c2cc8"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a href={"/blog/top-5-materials-revolutionizing-industrial-components"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp"} loading={"lazy"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/412ae6730e81-68e34c235b42befd11b5ec93_image-2-p-500.webp 500w, /assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-1ca0aa821cd9.webp"} loading={"lazy"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-1ca0aa821cd9-500w.webp 500w, /assets/onos-sample-development-slot-1ca0aa821cd9-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item two"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Advanced materials"}
+{"Production network"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"Top 5 materials revolutionizing industrial components"}
+{"Choosing materials for your apparel"}
 </h2>
 </div>
 </a>

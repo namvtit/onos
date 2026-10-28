@@ -2,7 +2,7 @@
 import { SiteRuntime } from "@/components/SiteRuntime";
 import { Footer610fffa9d2, Navbar5de3fbdae5 } from "@/components/SiteChrome";
 
-export const metadata = {"title": "Blog | Manufactt - Webflow HTML website template", "description": "Trusted by industries worldwide for quality manufacturing, advanced technology, and timely delivery.", "openGraph": {"title": "Blog | Manufactt - Webflow HTML website template", "description": "Trusted by industries worldwide for quality manufacturing, advanced technology, and timely delivery.", "images": ["/assets/18abbc66ca4e-69032939b90d78f4742e4808_open-graph--1-.jpg"]}};
+export const metadata = {"title":"Blog | ONOS Global","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","openGraph":{"title":"Blog | ONOS Global","description":"Apparel printing, embroidery, laser gifts and fulfillment across Vietnam and the United States. Discuss your production requirements with ONOS Global.","images":["/assets/onos-production-floor.webp"]},"robots":{"index":true,"follow":true}};
 export default function Pagef0599f46f7() {
 const activePath = "/blog";
 return <>
@@ -12,7 +12,7 @@ return <>
 <div className={"container-medium"}>
 <div className={"hero-simple-wrap"}>
 <h1 data-w-id={"af0a8489-00c7-95fb-3085-49be9123b83a"} style={{"opacity": "0"}} className={"hero-inner-title"}>
-{"Our blogs"}
+{"Production Guides"}
 </h1>
 </div>
 </div>
@@ -49,19 +49,19 @@ return <>
 <div className={"blog-info-item"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Sustainability"}
+{"Laser gifts"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"Sustainable manufacturing driving a greener future"}
+{"Choosing laser-cut gift materials"}
 </h2>
 </div>
 </div>
 <div className={"blog-image-inner"}>
-<img src={"/assets/56b1595ce856-68e34c503ed0adec5ca1c9f7_image-4.webp"} loading={"lazy"} data-w-id={"f09ee6c2-d2dd-1fb3-a447-484b5dcd83d9"} alt={"Blog Image One"} sizes={"100vw"} srcSet={"/assets/26ee16585c13-68e34c503ed0adec5ca1c9f7_image-4-p-500.webp 500w, /assets/56b1595ce856-68e34c503ed0adec5ca1c9f7_image-4.webp 700w"} className={"blog-image-one"} />
+<img src={"/assets/onos-sample-development-slot-56b1595ce856.webp"} loading={"lazy"} data-w-id={"f09ee6c2-d2dd-1fb3-a447-484b5dcd83d9"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-56b1595ce856-500w.webp 500w, /assets/onos-sample-development-slot-56b1595ce856-700w.webp 700w"} className={"blog-image-one"} />
 <div className={"featured-blog"}>
 {"Featured"}
 </div>
@@ -75,19 +75,19 @@ return <>
 <div data-w-id={"65d92239-da8a-894b-6a04-a0d9e5ded870"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a data-w-id={"512ff9e4-c2ad-d651-42b4-897ccfc8b256"} href={"/blog/breakthroughs-powering-manufacturing-efficiency"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp"} loading={"lazy"} data-w-id={"86741fcb-fbc7-8642-0106-ddf1358c1258"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/dbad3439e2f8-68f0d76a4b953aaae184fd6f_image-8-p-500.webp 500w, /assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-c84ffa4fb2b8.webp"} loading={"lazy"} data-w-id={"86741fcb-fbc7-8642-0106-ddf1358c1258"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-c84ffa4fb2b8-500w.webp 500w, /assets/onos-sample-development-slot-c84ffa4fb2b8-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Smart manufacturing"}
+{"Production network"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"Breakthroughs powering manufacturing efficiency"}
+{"Preparing artwork for DTG printing"}
 </h2>
 </div>
 </a>
@@ -95,19 +95,19 @@ return <>
 <div data-w-id={"65d92239-da8a-894b-6a04-a0d9e5ded870"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a data-w-id={"512ff9e4-c2ad-d651-42b4-897ccfc8b256"} href={"/blog/how-automation-is-shaping-the-future-of-manufacturing"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp"} loading={"lazy"} data-w-id={"86741fcb-fbc7-8642-0106-ddf1358c1258"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/cbd6faacf7d6-68e34a923545f0f0d61ea5d3_image-1-p-500.webp 500w, /assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-17ed536d0c8a.webp"} loading={"lazy"} data-w-id={"86741fcb-fbc7-8642-0106-ddf1358c1258"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-17ed536d0c8a-500w.webp 500w, /assets/onos-sample-development-slot-17ed536d0c8a-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Industry 4.0"}
+{"Order planning"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"How automation is shaping the future of manufacturing"}
+{"Planning your apparel production order"}
 </h2>
 </div>
 </a>
@@ -120,19 +120,19 @@ return <>
 <div data-w-id={"3818a41c-1359-47ba-156a-29719e7af54f"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a data-w-id={"3818a41c-1359-47ba-156a-29719e7af550"} href={"/blog/top-5-materials-revolutionizing-industrial-components"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp"} loading={"lazy"} data-w-id={"3818a41c-1359-47ba-156a-29719e7af552"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/412ae6730e81-68e34c235b42befd11b5ec93_image-2-p-500.webp 500w, /assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-1ca0aa821cd9.webp"} loading={"lazy"} data-w-id={"3818a41c-1359-47ba-156a-29719e7af552"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-1ca0aa821cd9-500w.webp 500w, /assets/onos-sample-development-slot-1ca0aa821cd9-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Advanced materials"}
+{"Materials"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"Top 5 materials revolutionizing industrial components"}
+{"Choosing materials for your apparel"}
 </h2>
 </div>
 </a>
@@ -140,19 +140,19 @@ return <>
 <div data-w-id={"3818a41c-1359-47ba-156a-29719e7af54f"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a data-w-id={"3818a41c-1359-47ba-156a-29719e7af550"} href={"/blog/smart-factories-transforming-modern-manufacturing"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/044f629c5a70-68e34c39638ac15970c6717c_image-3.webp"} loading={"lazy"} data-w-id={"3818a41c-1359-47ba-156a-29719e7af552"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/6646126256f8-68e34c39638ac15970c6717c_image-3-p-500.webp 500w, /assets/044f629c5a70-68e34c39638ac15970c6717c_image-3.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-044f629c5a70.webp"} loading={"lazy"} data-w-id={"3818a41c-1359-47ba-156a-29719e7af552"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-044f629c5a70-500w.webp 500w, /assets/onos-sample-development-slot-044f629c5a70-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Smart manufacturing"}
+{"Production network"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"Smart factories transforming modern manufacturing"}
+{"The ONOS factory network"}
 </h2>
 </div>
 </a>
@@ -160,19 +160,19 @@ return <>
 <div data-w-id={"3818a41c-1359-47ba-156a-29719e7af54f"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a data-w-id={"3818a41c-1359-47ba-156a-29719e7af550"} href={"/blog/3d-printing-revolutionizing-product-development"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/33ca09a41b60-68e34c7154f05f793faf9888_image-5.webp"} loading={"lazy"} data-w-id={"3818a41c-1359-47ba-156a-29719e7af552"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/146178125e1e-68e34c7154f05f793faf9888_image-5-p-500.webp 500w, /assets/33ca09a41b60-68e34c7154f05f793faf9888_image-5.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-33ca09a41b60.webp"} loading={"lazy"} data-w-id={"3818a41c-1359-47ba-156a-29719e7af552"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-33ca09a41b60-500w.webp 500w, /assets/onos-sample-development-slot-33ca09a41b60-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Additive manufacturing"}
+{"Sampling"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"3D printing revolutionizing product development"}
+{"Developing a production sample"}
 </h2>
 </div>
 </a>
@@ -180,19 +180,19 @@ return <>
 <div data-w-id={"3818a41c-1359-47ba-156a-29719e7af54f"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a data-w-id={"3818a41c-1359-47ba-156a-29719e7af550"} href={"/blog/ai-and-machine-learning-powering-smarter-production"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/ef8f7135eaab-68e34c8a0f917a13debc0f2c_image-6.webp"} loading={"lazy"} data-w-id={"3818a41c-1359-47ba-156a-29719e7af552"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/76a6f4e5d525-68e34c8a0f917a13debc0f2c_image-6-p-500.webp 500w, /assets/ef8f7135eaab-68e34c8a0f917a13debc0f2c_image-6.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-ef8f7135eaab.webp"} loading={"lazy"} data-w-id={"3818a41c-1359-47ba-156a-29719e7af552"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-ef8f7135eaab-500w.webp 500w, /assets/onos-sample-development-slot-ef8f7135eaab-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"AI in manufacturing"}
+{"Fulfillment"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"AI and machine learning powering smarter production"}
+{"From finishing to shipping handover"}
 </h2>
 </div>
 </a>
@@ -200,19 +200,19 @@ return <>
 <div data-w-id={"3818a41c-1359-47ba-156a-29719e7af54f"} style={{"opacity": "0"}} role={"listitem"} className={"blog-list-item-one w-dyn-item"}>
 <a data-w-id={"3818a41c-1359-47ba-156a-29719e7af550"} href={"/blog/robotics-revolution-changing-industrial-operations"} className={"blog-link-one w-inline-block"}>
 <div className={"blog-image-wrap-one"}>
-<img src={"/assets/bf56dbb39faa-68e34c9df2a2b68f26b6c08e_image-7.webp"} loading={"lazy"} data-w-id={"3818a41c-1359-47ba-156a-29719e7af552"} alt={"Blog Image 01"} sizes={"100vw"} srcSet={"/assets/5931433e326a-68e34c9df2a2b68f26b6c08e_image-7-p-500.webp 500w, /assets/bf56dbb39faa-68e34c9df2a2b68f26b6c08e_image-7.webp 700w"} className={"blog-image-01"} />
+<img src={"/assets/onos-sample-development-slot-bf56dbb39faa.webp"} loading={"lazy"} data-w-id={"3818a41c-1359-47ba-156a-29719e7af552"} alt={"The Onos team reviewing product samples and materials"} sizes={"100vw"} srcSet={"/assets/onos-sample-development-slot-bf56dbb39faa-500w.webp 500w, /assets/onos-sample-development-slot-bf56dbb39faa-700w.webp 700w"} className={"blog-image-01"} />
 </div>
 <div className={"blog-info-item"}>
 <div className={"blog-inner-info"}>
 <div className={"blog-category"}>
-{"Robotics"}
+{"Embroidery"}
 </div>
 <div className={"blog-update-date"}>
-{"17 Oct 25"}
+{"Production guide"}
 </div>
 </div>
 <h2 className={"blog-titles"}>
-{"Robotics revolution changing industrial operations"}
+{"Preparing your embroidery logo"}
 </h2>
 </div>
 </a>
