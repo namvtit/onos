@@ -1,0 +1,16 @@
+'use client';
+import { contact, ecosystem, faqs, inquiryHref } from '@/data/onos-content';
+import { useSite } from '@/components/interactions/SiteContext';
+import { Button, Eyebrow, SectionHeading, Texture } from '@/components/layout/Primitives';
+export function Ecosystem() {
+  const { t } = useSite();
+  return <section id="ecosystem" className="onos-ecosystem section-spacing"><div className="container-full"><SectionHeading eyebrow="The Onos ecosystem" title="Connected by one ambition." description="Three doors into Onos. Find the team that fits where you want to go." /><div className="onos-ecosystem-grid">{ecosystem.map((item, index) => <a key={item.name} href={item.url} target="_blank" rel="noopener noreferrer" className="onos-ecosystem-card" data-reveal><span className="onos-label">0{index + 1} / {t(item.audience)}</span><div className="onos-ecosystem-title"><h3>{item.name}</h3><span className="service-arrow" aria-hidden="true">↗</span></div><p>{t(item.description)}</p><span className="onos-label">{new URL(item.url).host}</span></a>)}</div></div><Texture /></section>;
+}
+export function FAQ() {
+  const { t } = useSite();
+  return <section id="faq" className="onos-faq section-spacing"><div className="container"><div className="w-layout-grid grid-about"><div data-reveal><SectionHeading eyebrow="Before we get started" title="Good questions." description="Have something else in mind? Our team can help you work out the details." /><Button href="#contact">{t('Ask our team')}</Button></div><div className="onos-accordion-list" data-reveal>{faqs.map(faq => <details key={faq.question} className="onos-accordion"><summary className="accordion-heading"><h3>{t(faq.question)}</h3><span aria-hidden="true" className="onos-accordion-icon">+</span></summary><div className="accordion-content"><p>{t(faq.answer)}</p></div></details>)}</div></div></div></section>;
+}
+export function Contact() {
+  const { t, language } = useSite();
+  return <section id="contact" className="onos-contact section-spacing"><div className="container-full"><div className="onos-contact-grid"><div data-reveal><Eyebrow>{t('Next stop: your next product.')}</Eyebrow><h2 className="section-title">{t("Let's make something happen.")}</h2><p className="onos-section-intro">{t('Send your product idea, artwork, expected volume and destination. Our team will help you shape the next step.')}</p><Button id="email-brief" href={inquiryHref(language)} accent>{t('Email your project brief')}</Button><p className="onos-contact-note">{t('Opens your email app with a project outline ready to fill in.')}</p><p className="onos-contact-note">{t('No form is submitted here. Review and send the draft in your email app.')}</p></div><div className="onos-contact-details" data-reveal><div><span className="onos-label">{t('Email')}</span><a href={`mailto:${contact.email}`}>{contact.email} ↗</a></div><div><span className="onos-label">{t('Telephone')}</span><a href={`tel:${contact.telephone}`}>{contact.phone}</a></div><div><span className="onos-label">{t('HEAD OFFICE / HANOI')}</span><address>{t(contact.address)}</address></div><div><span className="onos-label">{t('Working hours')}</span><p>{t(contact.hours)}</p></div></div></div></div><Texture /></section>;
+}

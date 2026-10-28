@@ -1,16 +1,23 @@
-# Manufactt Next.js migration
+# ONOS Global — Manufactt design transplant
+
+A single-page Next.js implementation of ONOS Global at `/`, using the preserved Manufactt template styling and genuine ONOS photography. English is the default; Vietnamese is available through the navbar. `/?lang=vi` also opens Vietnamese directly.
 
 ```sh
-npm ci
 npm run dev
+npm run typecheck
+npm run lint
+npm run verify:assets
+npm run build
+npm run start
+npx playwright test --grep 'homepage smoke:'
 ```
 
-Open http://localhost:3000. For production: `npm run build`, then `npm run start`.
+The smoke test uses the production server on port 3000; Playwright starts it when necessary. Results and current screenshots go to `audit/final/`, separate from original QA evidence.
 
-The original crawl is preserved in `raw-webflow/`. Application routes are in `src/app/`, converted page JSX in `src/generated/`, shared UI in `src/components/`, and exact restored dependencies in `public/assets/`.
+Business content and recommendations live in `src/data/onos-content.ts`; translations live in `src/data/translations.ts`. Layout, sections and interactions are under `src/components/`. `src/app/globals.css` imports the unchanged Manufactt font and shared stylesheets, followed by the local behavior adaptations in `onos.css`.
 
-Read [FINAL_REPORT.md](FINAL_REPORT.md), [AUDIT.md](AUDIT.md), and [MIGRATION_REPORT.md](MIGRATION_REPORT.md). QA evidence is in `audit/qa/`; the final visual pass is intentionally partial.
+Only `/` is a normal content page. Relevant old overview URLs redirect to homepage anchors. Obsolete articles, case studies, industrial service details and utility/demo paths return 404. No contact backend, tracking, newsletter service or fabricated factory video is included. Inquiry buttons open localized email drafts for the visitor to review and send.
 
-Available checks: `npm run typecheck`, `npm run lint`, `npm run verify:assets`, `npm run build`. Playwright interaction tests are in `tests/`; they require an installed Chromium browser and a production build. The final full-suite rerun was intentionally omitted at the user’s request.
+Current documentation: `ONOS_FEATURE_PARITY.md`, `ONOS_DESIGN_MAPPING.md`, `ONOS_REMAINING_ISSUES.md`, `FINAL_REPORT.md`. Earlier migration/mapping reports and scripts are historical source records. `raw-webflow/`, original QA evidence, the baseline branch, ONOS backup and the checkpoint branch are preserved.
 
-Migration scripts preserve the source and are retained for traceability. Python scripts require Beautiful Soup (`beautifulsoup4`). Do not regenerate page JSX to make routine UI edits unless deliberately updating the conversion. Forms are local demos; no submission or authentication backend is configured.
+No deployment or push is part of this work. Existing template and media license terms continue to apply.

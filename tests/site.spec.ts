@@ -1,223 +1,188 @@
-import { test, expect } from "@playwright/test";
-import fs from "node:fs";
-
-const routes: { route: string }[] = JSON.parse(fs.readFileSync("audit/route-manifest.json", "utf8"));
-
-test("every migrated route renders without broken local media or runtime errors", async ({ page }) => {
-  test.setTimeout(180000);
-  const errors: string[] = [];
-  const failures: string[] = [];
-  page.on("pageerror", error => errors.push(error.message));
-  page.on("response", response => { if (response.url().includes("127.0.0.1:3000") && response.status() >= 400 && !response.url().endsWith("/404")) failures.push(`${response.status()} ${response.url()}`); });
-  await page.route("https://**/*", route => route.abort());
-  await page.emulateMedia({ reducedMotion: "reduce" });
-  for (const { route } of routes) {
-    const response = await page.goto(route, { waitUntil: "load" });
-    expect(response?.status(), route).toBe(route === "/404" ? 404 : 200);
-    await expect(page.locator("html")).toHaveClass(/site-ready/);
-    await expect(page.locator("h1")).toHaveCount(route === "/products" ? 0 : route === "/utility-pages/style-guide" ? 2 : 1);
-    await page.evaluate(async () => {
-      document.querySelectorAll<HTMLImageElement>("img[loading='lazy']").forEach(image => image.loading = "eager");
-      await Promise.all(Array.from(document.images).map(image => image.decode().catch(() => undefined)));
-    });
-    expect(await page.evaluate(() => Array.from(document.images).filter(image => !image.complete || !image.naturalWidth).map(image => image.src)), route).toEqual([]);
-    expect(await page.locator(".more-templates,.access-paas,.w-webflow-badge").count()).toBe(0);
-    expect(await page.locator("form[action],script[src*='webflow'],script[src*='jquery']").count()).toBe(0);
+import { test, expect } from '@playwright/test';
+import fs from 'node:fs';
+const original = JSON.parse(fs.readFileSync('audit/final/reference/live-audit.json', 'utf8'));
+const methodCases = [
+  { id: 'dtg', name: 'DTG printing', material: 'Cotton and cotton-rich apparel.', prep: 'Confirm fabric composition, garment colour, artwork size and placement. Approve colour on a physical sample.' },
+  { id: 'embroidery', name: 'Computerised embroidery', material: 'Caps, polos and bags suitable for embroidery.', prep: 'Share the logo size and placement. Small lettering and fine details need review when digitising the stitch file.' },
+  { id: 'sublimation', name: 'Sublimation printing', material: 'Polyester apparel and sportswear suitable for sublimation.', prep: 'Confirm fabric composition, base colour, pattern layout and seams. Test colour on the intended material.' },
+  { id: 'laser', name: 'Laser cutting & engraving', material: 'Wood, acrylic, leather or fabric confirmed as suitable by the team.', prep: 'Provide material type, thickness and cutting paths. Confirm the finish on a sample before approving the run.' },
+];
+for (const width of [375, 768, 1024, 1440]) {
+  test(`responsive content and images at ${width}px in EN and VI`, async ({ page }) => {
+    const errors: string[] = []; page.on('pageerror', error => errors.push(error.message));
+    await page.setViewportSize({ width, height: 900 }); await page.goto('/');
+    for (const lang of ['en', 'vi']) {
+      if (lang === 'vi') { await page.evaluate(() => scrollTo(0, 0)); await page.getByRole('button', { name: 'Tiếng Việt', exact: true }).click(); }
+      await expect(page.locator('html')).toHaveAttribute('lang', lang);
+      for (const id of ['home','about','capabilities','production-fit','network','process','gallery','ecosystem','faq','contact']) {
+        await page.locator(`#${id}`).scrollIntoViewIfNeeded();
+        await expect(page.locator(`#${id}`)).toBeVisible();
+        await expect.poll(() => page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true);
+      }
+      await expect.poll(() => page.locator('main img').evaluateAll(images => images.filter(image => !(image as HTMLImageElement).complete || !(image as HTMLImageElement).naturalWidth).map(image => image.getAttribute('src')))).toEqual([]);
+      await page.screenshot({ path: `audit/final/screenshots/home-${width}-${lang}.png`, fullPage: true });
+    }
+    expect(errors).toEqual([]);
+    await expect(page.locator('h1')).toHaveCount(1);
+    await expect(page.locator('body')).not.toContainText(/Manufactt|CNC|aerospace|newsletter|Emily Carter|demo testimonial/i);
+  });
+}
+test('navigation, every anchor, contact and ecosystem destinations', async ({ page }) => {
+  await page.goto('/');
+  const broken = await page.locator('a[href^="#"]').evaluateAll(links => links.map(link => link.getAttribute('href')!).filter(href => !document.getElementById(href.slice(1))));
+  expect(broken).toEqual([]);
+  await page.getByRole('link', { name: 'Find your production fit', exact: true }).click(); await expect(page).toHaveURL(/#production-fit$/);
+  for (const url of ['https://onosglobal.pages.dev/', 'https://onospod.pages.dev/', 'https://onosgroup.pages.dev/']) expect(original.links.some((link: { href: string }) => link.href === url)).toBe(true);
+  await expect(page.locator('#ecosystem a')).toHaveCount(3);
+  for (const [index, url] of ['https://onosglobal.pages.dev/', 'https://onospod.pages.dev/', 'https://onosgroup.pages.dev/'].entries()) await expect(page.locator('#ecosystem a').nth(index)).toHaveAttribute('href', url);
+  await expect(page.locator('#contact a[href^="tel:"]')).toHaveAttribute('href', 'tel:+84986385112');
+  await expect(page.locator('#contact')).toContainText('705 Lac Long Quan');
+  await expect(page.locator('#contact')).toContainText('Mon–Fri: 7:30–17:30 · Sat: 8:00–17:00');
+  await expect(page.locator('form')).toHaveCount(0);
+});
+test('four production recommendations, selector, tabs, capability CTAs and contextual drafts match original', async ({ page }) => {
+  await page.goto('/');
+  for (const item of methodCases) {
+    const source = original.finder.find((entry: { value: string }) => entry.value === item.id);
+    expect(source.text).toContain(item.material); expect(source.text).toContain(item.prep);
+    await page.locator('#production-method').selectOption(item.id);
+    const panel = page.getByRole('tabpanel'); await expect(panel).toContainText(item.name); await expect(panel).toContainText(item.material); await expect(panel).toContainText(item.prep);
+    await expect(panel).toContainText('300 DPI'); await expect(page.locator(`#tab-${item.id}`)).toHaveAttribute('aria-selected', 'true');
+    const draft = new URL((await page.locator('#method-email').getAttribute('href'))!);
+    expect(draft.pathname).toBe('onospod.com@gmail.com'); expect(draft.searchParams.get('body')).toContain(`Production method: ${item.name}`);
+    expect(draft.searchParams.get('body')).toContain('Destination country / postcode:');
   }
-  expect(errors).toEqual([]);
-  expect(failures).toEqual([]);
+  await page.locator('#tab-laser').focus(); await page.keyboard.press('Home'); await expect(page.locator('#tab-dtg')).toBeFocused();
+  await page.keyboard.press('ArrowDown'); await expect(page.locator('#tab-embroidery')).toBeFocused(); await expect(page.locator('#production-method')).toHaveValue('embroidery');
+  await page.locator('#capabilities a').nth(2).click(); await expect(page.locator('#production-method')).toHaveValue('sublimation'); await expect(page.locator('#tab-sublimation')).toBeFocused();
 });
-
-test("desktop navigation, dropdown, buttons, anchors and legacy URLs", async ({ page }) => {
-  await page.setViewportSize({ width: 1440, height: 1000 });
-  await page.goto("/");
-  await expect(page.locator("html")).toHaveClass(/site-ready/);
-  const toggle = page.locator(".dropdown-toggle");
-  await toggle.hover(); await expect(toggle).toHaveAttribute("aria-expanded", "true");
-  await page.locator(".dropdown-list").getByRole("link", { name: "Products", exact: true }).click();
-  await expect(page).toHaveURL(/\/products$/);
-  await page.locator(".brand").click(); await expect(page).toHaveURL(/\/$/);
-  await page.locator(".hero-button a").click(); await expect(page).toHaveURL(/\/services$/);
-  await page.goto("/about.html"); await expect(page).toHaveURL(/\/about$/);
-  await page.goto("/index.html"); await expect(page).toHaveURL(/\/$/);
-  await page.locator(".hero-bottom-link").click(); await expect(page).toHaveURL(/#Footer$/);
-  await expect(page.locator("#Footer")).toBeInViewport();
-  expect((await page.goto("/missing-page"))?.status()).toBe(404);
+test('Vietnamese covers full content, recommendations, FAQ, alt text, labels and email drafts', async ({ page }) => {
+  await page.goto('/'); await page.getByRole('button', { name: 'Tiếng Việt', exact: true }).click();
+  await expect(page.locator('h1')).toContainText('Sáng Tạo Không Ngừng.');
+  await expect(page.locator('#capabilities')).toContainText('Máy thêu vi tính nhiều đầu');
+  await expect(page.locator('#network')).toContainText('Đại Từ · Thái Nguyên · Việt Nam');
+  await expect(page.locator('#process')).toContainText('Sẵn sàng giao hàng');
+  await expect(page.locator('#contact')).toContainText('Tầng 3, số 705 Lạc Long Quân');
+  const enAlts = await page.locator('main img').evaluateAll(images => images.map(image => image.getAttribute('alt')).filter(alt => alt && /Onos|garment|production|equipment|team|plant|floor|wooden/.test(alt) && !/Onos$|Onos tại|ngũ Onos|tại Onos|Onos trao|Onos kiểm|xưởng|quần|gỗ|Thiết|Hệ thống/.test(alt)));
+  expect(enAlts).toEqual([]);
+  for (const id of ['dtg','embroidery','sublimation','laser']) { await page.locator('#production-method').selectOption(id); await expect(page.getByRole('tabpanel')).toContainText('Trước khi sản xuất'); expect(decodeURIComponent((await page.locator('#method-email').getAttribute('href'))!)).toContain('Công nghệ:'); }
+  const summaries = page.locator('#faq summary');
+  for (let index = 0; index < 4; index++) { await summaries.nth(index).click(); await expect(page.locator('#faq details').nth(index)).toHaveAttribute('open', ''); }
+  await expect(page.locator('#faq')).toContainText('PNG nền trong suốt ở 300 DPI');
+  const draft = new URL((await page.locator('#email-brief').getAttribute('href'))!); expect(draft.searchParams.get('body')).toContain('Số lượng dự kiến:'); expect(draft.searchParams.get('subject')).toContain('Yêu cầu sản xuất');
+  await expect(page.locator('#contact')).toContainText('Không có biểu mẫu nào được gửi');
 });
-
-for (const width of [768, 375]) test(`mobile navigation and nested pages menu at ${width}px`, async ({ page }) => {
-  await page.setViewportSize({ width, height: 900 });
-  await page.goto("/");
-  const button = page.locator(".menu-button");
-  await expect(button).toBeVisible();
-  await button.click(); await expect(button).toHaveAttribute("aria-expanded", "true");
-  await expect(page.locator(".nav-menu")).toBeVisible();
-  await page.locator(".dropdown-toggle").click();
-  await page.locator(".dropdown-list").getByRole("link", { name: "FAQs", exact: true }).click();
-  await expect(page).toHaveURL(/\/faqs$/);
-  await page.locator(".menu-button").press("Enter");
-  await expect(page.locator(".menu-button")).toHaveAttribute("aria-expanded", "true");
-  await page.locator(".menu-button").press("Escape");
-  await expect(page.locator(".menu-button")).toHaveAttribute("aria-expanded", "false");
+test('factory carousel previous, next, dots, wrap, keys, pause and swipe', async ({ page }) => {
+  await page.goto('/'); const carousel = page.locator('.onos-factory-carousel'); await carousel.scrollIntoViewIfNeeded();
+  const image = carousel.locator('img'); await expect(image).toHaveAttribute('alt', 'Sewing floor at the Thai Nguyen plant');
+  await carousel.getByRole('button', { name: 'Next photo', exact: true }).click(); await expect(image).toHaveAttribute('alt', 'Automated fabric cutting at the Me Linh plant');
+  await carousel.getByRole('button', { name: 'Previous photo', exact: true }).click(); await carousel.getByRole('button', { name: 'Previous photo', exact: true }).click(); await expect(image).toHaveAttribute('alt', /Epson/);
+  await carousel.getByRole('button', { name: 'Show photo 3', exact: true }).click(); await expect(image).toHaveAttribute('alt', /California/);
+  await carousel.focus(); await page.keyboard.press('ArrowRight'); await expect(image).toHaveAttribute('alt', /Epson/);
+  await carousel.getByRole('button', { name: 'Pause slideshow', exact: true }).click(); await expect(carousel.getByRole('button', { name: 'Play slideshow', exact: true })).toHaveAttribute('aria-pressed', 'true');
+  await carousel.locator('figure').dispatchEvent('touchstart', { touches: [{ identifier: 0, clientX: 300, clientY: 200 }] }); await carousel.locator('figure').dispatchEvent('touchend', { changedTouches: [{ identifier: 0, clientX: 120, clientY: 205 }] }); await expect(image).toHaveAttribute('alt', /Thai Nguyen/);
 });
-
-test("industry and testimonial tabs, keyboard navigation, carousel and video controls", async ({ page }) => {
-  await page.goto("/");
-  const industry = page.locator(".industry-tabs");
-  await industry.getByRole("tab", { name: "Embroidered products", exact: true }).click();
-  await expect(industry.getByRole("tabpanel").filter({ visible: true })).toContainText("Digitized embroidery");
-  await industry.getByRole("tab", { name: "Embroidered products", exact: true }).press("ArrowRight");
-  await expect(industry.getByRole("tab", { name: "Polyester sportswear", exact: true })).toHaveAttribute("aria-selected", "true");
-  const testimonials = page.locator(".testimonial-tabs");
-  await testimonials.getByRole("tab").nth(2).click();
-  await expect(testimonials.getByRole("tabpanel").filter({ visible: true })).toContainText("Awaiting ONOS review");
-  const slider = page.locator(".case-study-slider");
-  await slider.getByRole("button", { name: "Next slide", exact: true }).click();
-  await expect(slider.locator(".w-slide[aria-hidden='false']")).toContainText("DTG artwork preparation");
-  await slider.getByRole("button", { name: "Previous slide", exact: true }).press("Enter");
-  await expect(slider.locator(".w-slide[aria-hidden='false']")).toContainText("Printed cotton apparel");
-  const video = page.locator(".hero-background-video video");
-  await video.scrollIntoViewIfNeeded();
-  const control = page.locator(".hero-background-video button");
-  await expect(control).toHaveAttribute("aria-label", "Pause video");
-  await control.click();
-  await expect(control).toHaveAttribute("aria-label", "Play video");
-  expect(await video.evaluate((element: HTMLVideoElement) => element.paused)).toBe(true);
+test('factory autoplay, pause persistence and reduced motion', async ({ page }) => {
+  await page.goto('/'); const carousel = page.locator('.onos-factory-carousel'); await carousel.scrollIntoViewIfNeeded(); await page.mouse.move(1, 1);
+  await expect(carousel.locator('img')).toHaveAttribute('alt', /Me Linh/, { timeout: 7500 });
+  await carousel.getByRole('button', { name: 'Pause slideshow', exact: true }).click(); const pausedAlt = await carousel.locator('img').getAttribute('alt'); await page.locator('h2').first().focus(); await page.mouse.move(1, 1); await page.waitForTimeout(5500); await expect(carousel.locator('img')).toHaveAttribute('alt', pausedAlt!);
+  await carousel.getByRole('button', { name: 'Play slideshow', exact: true }).click(); await page.mouse.move(1, 1); await expect.poll(() => carousel.locator('img').getAttribute('alt'), { timeout: 7500 }).not.toBe(pausedAlt);
+  await page.getByRole('button', { name: 'Pause animations', exact: true }).click(); await page.reload(); await expect(page.getByRole('button', { name: 'Play animations', exact: true })).toHaveAttribute('aria-pressed', 'true');
+  await expect(carousel.getByRole('button', { name: 'Play slideshow', exact: true })).toBeDisabled();
+  await page.emulateMedia({ reducedMotion: 'reduce' }); await expect(page.getByRole('button', { name: 'Motion reduced by system setting' })).toBeDisabled();
 });
-
-test("FAQ preserves the initial open answer and supports keyboard toggling", async ({ page }) => {
-  await page.goto("/faqs");
-  const headings = page.locator(".accordion-heading");
-  await expect(headings.first()).toHaveAttribute("aria-expanded", "true");
-  await expect(headings.nth(1)).toHaveAttribute("aria-expanded", "false");
-  await headings.nth(1).press("Enter");
-  await expect(headings.nth(1)).toHaveAttribute("aria-expanded", "true");
-  await expect(page.locator(".accordion-content").nth(1)).toHaveAttribute("aria-hidden", "false");
-  await headings.nth(1).press("Space");
-  await expect(headings.nth(1)).toHaveAttribute("aria-expanded", "false");
+test('gallery rail and modal: next/previous, arrows, Tab/Shift+Tab, Escape and restored focus', async ({ page }) => {
+  await page.goto('/'); const gallery = page.locator('#gallery'); await gallery.scrollIntoViewIfNeeded();
+  await gallery.getByRole('button', { name: 'Next photos', exact: true }).click(); await expect.poll(() => page.locator('.onos-gallery-rail').evaluate(element => element.scrollLeft)).toBeGreaterThan(0);
+  const opener = gallery.locator('.onos-gallery-open').first(); await opener.click(); const dialog = page.getByRole('dialog'); await expect(dialog).toBeVisible();
+  await expect(dialog.locator('img')).toHaveAttribute('alt', 'The Onos team at a working meeting');
+  await dialog.getByRole('button', { name: 'Next photo', exact: true }).click(); await expect(dialog.locator('img')).toHaveAttribute('alt', /finishing table/);
+  await page.keyboard.press('ArrowLeft'); await expect(dialog.locator('img')).toHaveAttribute('alt', /working meeting/);
+  await page.keyboard.press('ArrowLeft'); await expect(dialog.locator('img')).toHaveAttribute('alt', /warehouse/);
+  const close = dialog.getByRole('button', { name: 'Close photograph' }); const next = dialog.getByRole('button', { name: 'Next photo', exact: true });
+  await close.focus(); await page.keyboard.press('Shift+Tab'); await expect(next).toBeFocused(); await page.keyboard.press('Tab'); await expect(close).toBeFocused();
+  await page.keyboard.press('Escape'); await expect(dialog).not.toBeVisible(); await expect(opener).toBeFocused();
+  await opener.click(); await dialog.getByRole('button', { name: 'Close photograph' }).click(); await expect(opener).toBeFocused();
 });
-
-test("forms validate and give honest local feedback without a network submission", async ({ page }) => {
-  await page.goto("/contact");
-  const submissions: string[] = [];
-  page.on("request", request => { if (request.method() === "POST" || request.url().includes("api.webflow.com")) submissions.push(request.url()); });
-  const form = page.locator("form#email-form");
-  await form.locator("input[type='submit']").click();
-  await expect(form.getByRole("status")).toHaveCount(0);
-  await form.getByLabel("First name *", { exact: true }).fill("Test");
-  await form.getByLabel("Last name *", { exact: true }).fill("User");
-  await form.getByLabel("Email address *", { exact: true }).fill("test@example.com");
-  await form.locator("input[type='submit']").click();
-  await expect(form.getByRole("status")).toContainText("does not send submissions");
-  const newsletter = page.locator(".form-subscribe");
-  await newsletter.locator("input[type='email']").fill("test@example.com");
-  await newsletter.getByRole("button", { name: "Subscribe", exact: true }).click();
-  await expect(newsletter.getByRole("status")).toContainText("does not send submissions");
-  expect(submissions).toEqual([]);
+test('mobile menu keyboard dismissal, outside click and navigation', async ({ page }) => {
+  await page.setViewportSize({ width: 375, height: 812 }); await page.goto('/'); const menu = page.getByRole('button', { name: 'Open navigation' });
+  await menu.click(); await expect(page.locator('#main-navigation')).toBeVisible(); await page.keyboard.press('Escape'); await expect(menu).toBeFocused(); await expect(menu).toHaveAttribute('aria-expanded', 'false');
+  await menu.click(); await page.locator('.hero-description').click(); await expect(menu).toHaveAttribute('aria-expanded', 'false');
+  await menu.click(); await page.locator('#main-navigation').getByRole('link', { name: 'Our network', exact: true }).click(); await expect(page).toHaveURL(/#network$/); await expect(menu).toHaveAttribute('aria-expanded', 'false');
 });
-
-test("case-study pagination, verified quote link and media gallery", async ({ page }) => {
-  await page.goto("/case-studies");
-  const first = await page.locator(".project-list-section").innerText();
-  await page.locator("a.w-pagination-next").click();
-  await expect(page).toHaveURL(/a472e93b_page=2/);
-  expect(await page.locator(".project-list-section").innerText()).not.toBe(first);
-  await page.locator("a.w-pagination-previous").click();
-  await expect(page).toHaveURL(/a472e93b_page=1/);
-  await page.goto("/");
-  const quote = page.getByRole("link", { name: "Request a Quote", exact: true }).filter({ hasText: "Request a Quote" });
-  await expect(quote.filter({ visible: true }).last()).toHaveAttribute("href", /^(mailto:onospod\.com@gmail\.com|\/contact)/);
-  await page.goto("/case-study/precision-cnc-milling-for-automotive-components");
-  await page.locator(".w-lightbox").first().click();
-  await expect(page.getByRole("dialog")).toBeVisible();
-  const src = await page.locator(".lightbox-media").getAttribute("src");
-  await page.getByRole("button", { name: "Next image", exact: true }).click();
-  expect(await page.locator(".lightbox-media").getAttribute("src")).not.toBe(src);
-  await page.keyboard.press("Escape"); await expect(page.getByRole("dialog")).toHaveCount(0);
+test('FAQ keyboard operation and original answers; English inquiry outline', async ({ page }) => {
+  await page.goto('/'); const summary = page.locator('#faq summary').first(); await summary.focus(); await page.keyboard.press('Enter'); await expect(page.locator('#faq details').first()).toHaveAttribute('open', '');
+  expect(original.faq[0]).toContain('DTG and sublimation orders can start from a single unit.'); await expect(page.locator('#faq details').first()).toContainText('DTG and sublimation orders can start from a single unit.');
+  await page.keyboard.press('Space'); await expect(page.locator('#faq details').first()).not.toHaveAttribute('open');
+  const draft = new URL((await page.locator('#email-brief').getAttribute('href'))!); expect(draft.searchParams.get('body')).toBe('Hello Onos team,\n\nProduct:\nExpected quantity:\nDestination:\nTarget date:\nArtwork link:\n');
 });
-
-for (const width of [375, 768, 1024, 1440]) test(`responsive controls and geometry at ${width}px`, async ({ page }) => {
-  await page.setViewportSize({ width, height: 1000 });
-  await page.goto("/");
-  await expect(page.locator("html")).toHaveClass(/site-ready/);
-  expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBe(width);
-  if (width <= 991) {
-    await expect(page.locator(".menu-button")).toBeVisible();
-    await page.locator(".menu-button").click();
-    await page.locator(".dropdown-toggle").click();
-  } else {
-    await expect(page.locator(".menu-button")).toBeHidden();
-    await page.locator(".dropdown-toggle").hover();
-  }
-  await expect(page.locator(".dropdown-toggle")).toHaveAttribute("aria-expanded", "true");
-  await expect(page.locator(".dropdown-list")).toBeVisible();
-  await page.locator(".dropdown-list").getByRole("link", { name: "Services", exact: true }).click();
-  await expect(page).toHaveURL(/\/services$/);
-  expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBe(width);
+test('single content route, meaningful legacy redirects and obsolete demo 404s', async ({ request }) => {
+  for (const [route, destination] of [['/about','/#about'],['/services','/#capabilities'],['/products','/#production-fit'],['/contact.html','/#contact'],['/faqs','/#faq'],['/vi','/?lang=vi']]) { const response = await request.get(route, { maxRedirects: 0 }); expect(response.status()).toBe(308); expect(response.headers().location).toBe(destination); }
+  for (const route of ['/blog','/case-studies','/utility-pages/style-guide','/service/cnc-machining-services']) expect((await request.get(route)).status()).toBe(404);
 });
-
-test("touch navigation, slider swipe and resize across the navigation breakpoint", async ({ browser }) => {
-  const context = await browser.newContext({ viewport: { width: 375, height: 900 }, isMobile: true, hasTouch: true });
-  const page = await context.newPage();
-  await page.goto("http://127.0.0.1:3000/");
-  await page.locator(".menu-button").tap();
-  await page.locator(".dropdown-toggle").tap();
-  await expect(page.locator(".dropdown-toggle")).toHaveAttribute("aria-expanded", "true");
-  await page.locator(".dropdown-list").getByRole("link", { name: "FAQs", exact: true }).tap();
-  await expect(page).toHaveURL(/\/faqs$/);
-  await page.goto("http://127.0.0.1:3000/");
-  const mask = page.locator(".case-study-slider .w-slider-mask");
-  await mask.scrollIntoViewIfNeeded();
-  await mask.dispatchEvent("touchstart", { changedTouches: [{ identifier: 0, clientX: 300, clientY: 300 }] });
-  await mask.dispatchEvent("touchend", { changedTouches: [{ identifier: 0, clientX: 80, clientY: 300 }] });
-  await expect(page.locator(".case-study-slider .w-slide[aria-hidden='false']")).toContainText("DTG artwork preparation");
-  await page.setViewportSize({ width: 768, height: 900 });
-  await page.locator(".menu-button").tap();
-  await page.setViewportSize({ width: 1024, height: 900 });
-  await expect(page.locator(".menu-button")).toBeHidden();
-  await page.setViewportSize({ width: 375, height: 900 });
-  await expect(page.locator(".menu-button")).toHaveAttribute("aria-expanded", "false");
+test('mobile lightbox swipe, close, restored focus and Vietnamese deep link', async ({ browser }) => {
+  const context = await browser.newContext({ viewport: { width: 375, height: 812 }, isMobile: true, hasTouch: true });
+  const page = await context.newPage(); await page.goto('http://127.0.0.1:3000/?lang=vi');
+  await expect(page.locator('html')).toHaveAttribute('lang', 'vi');
+  const opener = page.locator('.onos-gallery-open').first(); await opener.tap();
+  const dialog = page.getByRole('dialog'); await expect(dialog).toBeVisible();
+  await dialog.locator('figure').dispatchEvent('touchstart', { touches: [{ identifier: 1, clientX: 300, clientY: 250 }] });
+  await dialog.locator('figure').dispatchEvent('touchend', { changedTouches: [{ identifier: 1, clientX: 100, clientY: 255 }] });
+  await expect(dialog.locator('img')).toHaveAttribute('alt', /bàn hoàn thiện/);
+  await dialog.getByRole('button', { name: 'Ảnh trước', exact: true }).tap(); await expect(dialog.locator('img')).toHaveAttribute('alt', /trao đổi công việc/);
+  await page.screenshot({ path: 'audit/final/screenshots/gallery-lightbox-375-vi.png' });
+  await dialog.getByRole('button', { name: 'Đóng ảnh', exact: true }).tap(); await expect(dialog).not.toBeVisible(); await expect(opener).toBeFocused();
   await context.close();
 });
-
-test("Home 2 slider autoplay, pause, arrows and video lightbox", async ({ page }) => {
-  await page.goto("/home-2");
-  await expect(page.locator("html")).toHaveClass(/site-ready/);
-  const slider = page.locator(".product-slider");
-  const first = await slider.locator(".w-slide[aria-hidden='false']").innerText();
-  await expect.poll(async () => slider.locator(".w-slide[aria-hidden='false']").innerText(), { timeout: 7000 }).not.toBe(first);
-  await slider.hover();
-  const paused = await slider.locator(".w-slide[aria-hidden='false']").innerText();
-  await page.waitForTimeout(4300);
-  expect(await slider.locator(".w-slide[aria-hidden='false']").innerText()).toBe(paused);
-  for (let i = 0; i < 4 && await slider.locator(".w-slide[aria-hidden='false']").innerText() !== first; i++) {
-    await slider.getByRole("button", { name: "Previous slide", exact: true }).click();
+test('homepage smoke: responsive layout, original choices, carousel, gallery, FAQ, language and contact', async ({ page }) => {
+  const errors: string[] = []; page.on('pageerror', error => errors.push(error.message));
+  await page.setViewportSize({ width: 1024, height: 900 }); await page.goto('/');
+  await expect(page.locator('h1')).toHaveText('Innovating without limits. Elevating value.');
+  await expect(page.locator('#capabilities .service-info-link')).toHaveCount(4);
+  await expect(page.locator('.onos-factory-card')).toHaveCount(3);
+  await expect(page.locator('.onos-process-step')).toHaveCount(4);
+  await expect(page.locator('#ecosystem a')).toHaveCount(3);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true);
+  for (const item of methodCases) {
+    await page.locator('#production-method').selectOption(item.id);
+    await expect(page.getByRole('tabpanel')).toContainText(item.material);
+    await expect(page.getByRole('tabpanel')).toContainText(item.prep);
+    expect(new URL((await page.locator('#method-email').getAttribute('href'))!).searchParams.get('body')).toContain(`Production method: ${item.name}`);
   }
-  await expect.poll(() => slider.locator(".w-slide[aria-hidden='false']").innerText()).toBe(first);
-  const video = page.locator(".video-light-box");
-  await video.click();
-  await expect(page.getByRole("dialog")).toBeVisible();
-  await expect(page.locator(".lightbox-video")).toHaveAttribute("src", /\/assets\/onos-production-reel\.mp4/);
-  await page.getByRole("button", { name: "Close media viewer", exact: true }).click();
-  await expect(page.getByRole("dialog")).toHaveCount(0);
-});
-
-test("exact font weights and rendered heading fonts", async ({ page }) => {
-  await page.goto("/");
-  const results = await page.evaluate(async () => {
-    const requests = ['400 16px "Mona Sans"', '600 16px "Mona Sans"', '700 16px "Mona Sans"', '400 16px "Geist"', '500 16px "Geist"'];
-    return Promise.all(requests.map(async request => { await document.fonts.load(request); return document.fonts.check(request); }));
-  });
-  expect(results).toEqual([true, true, true, true, true]);
-  await expect(page.locator("h1")).toHaveCSS("font-family", '"Mona Sans", sans-serif');
-  await expect(page.locator(".hero-description")).toHaveCSS("font-family", "Geist, sans-serif");
-});
-
-test("Home 2 CTA marquee animates its columns without translating every image", async ({ page }) => {
-  await page.goto("/home-2");
-  const marquee = page.locator(".cta-marquee");
-  await marquee.scrollIntoViewIfNeeded();
-  await expect(page.locator(".cta-marquee-list").first()).not.toHaveCSS("transform", "none");
-  const transforms = await page.locator(".cta-marquee-image").evaluateAll(images => images.map(image => getComputedStyle(image).transform));
-  expect(transforms.every(transform => transform === "none")).toBe(true);
+  await page.locator('#capabilities a').nth(1).click(); await expect(page.locator('#production-method')).toHaveValue('embroidery');
+  await page.keyboard.press('ArrowDown'); await expect(page.locator('#production-method')).toHaveValue('sublimation');
+  const carousel = page.locator('.onos-factory-carousel'); await carousel.scrollIntoViewIfNeeded();
+  await carousel.getByRole('button', { name: 'Show photo 1', exact: true }).click();
+  await carousel.getByRole('button', { name: 'Next photo', exact: true }).click(); await expect(carousel.locator('img')).toHaveAttribute('alt', /Me Linh/);
+  await carousel.getByRole('button', { name: 'Previous photo', exact: true }).click(); await expect(carousel.locator('img')).toHaveAttribute('alt', /Thai Nguyen/);
+  await carousel.locator('figure').dispatchEvent('touchstart', { touches: [{ identifier: 0, clientX: 300, clientY: 200 }] });
+  await carousel.locator('figure').dispatchEvent('touchend', { changedTouches: [{ identifier: 0, clientX: 120, clientY: 205 }] });
+  await expect(carousel.locator('img')).toHaveAttribute('alt', /Me Linh/);
+  await carousel.getByRole('button', { name: 'Pause slideshow', exact: true }).click(); await expect(carousel.getByRole('button', { name: 'Play slideshow', exact: true })).toHaveAttribute('aria-pressed', 'true');
+  await carousel.getByRole('button', { name: 'Play slideshow', exact: true }).click(); await page.mouse.move(1, 1);
+  await expect.poll(() => carousel.locator('img').getAttribute('alt'), { timeout: 7500 }).not.toMatch(/Me Linh/);
+  await page.locator('#faq summary').first().focus(); await page.keyboard.press('Enter'); await expect(page.locator('#faq details').first()).toContainText('DTG and sublimation orders can start from a single unit.');
+  const opener = page.locator('.onos-gallery-open').first(); await opener.click(); const dialog = page.getByRole('dialog'); await expect(dialog).toBeVisible();
+  await page.keyboard.press('ArrowRight'); await expect(dialog.locator('img')).toHaveAttribute('alt', /finishing table/);
+  await dialog.getByRole('button', { name: 'Close photograph' }).focus(); await page.keyboard.press('Shift+Tab'); await expect(dialog.getByRole('button', { name: 'Next photo', exact: true })).toBeFocused();
+  await page.keyboard.press('Tab'); await expect(dialog.getByRole('button', { name: 'Close photograph' })).toBeFocused();
+  await page.keyboard.press('Escape'); await expect(opener).toBeFocused();
+  await page.evaluate(() => scrollTo(0, 0)); await page.setViewportSize({ width: 375, height: 812 });
+  const menu = page.getByRole('button', { name: 'Open navigation' }); await menu.click(); await expect(page.locator('#main-navigation')).toBeVisible();
+  await page.locator('.hero-description').click(); await expect(menu).toHaveAttribute('aria-expanded', 'false');
+  await menu.click(); await page.keyboard.press('Escape'); await expect(menu).toBeFocused();
+  await page.getByRole('button', { name: 'Tiếng Việt', exact: true }).click(); await expect(page.locator('html')).toHaveAttribute('lang', 'vi');
+  await expect(page.locator('#production-fit')).toContainText('Chọn công nghệ để xem chất liệu phù hợp');
+  await expect(page.locator('#contact')).toContainText('Tầng 3, số 705 Lạc Long Quân');
+  expect(new URL((await page.locator('#email-brief').getAttribute('href'))!).searchParams.get('body')).toContain('Số lượng dự kiến:');
+  await opener.click(); await dialog.locator('figure').dispatchEvent('touchstart', { touches: [{ identifier: 1, clientX: 300, clientY: 250 }] });
+  await dialog.locator('figure').dispatchEvent('touchend', { changedTouches: [{ identifier: 1, clientX: 100, clientY: 255 }] }); await expect(dialog.locator('img')).toHaveAttribute('alt', /bàn hoàn thiện/);
+  await dialog.getByRole('button', { name: 'Đóng ảnh', exact: true }).click(); await expect(opener).toBeFocused();
+  await page.getByRole('button', { name: 'Tạm dừng hiệu ứng động', exact: true }).click(); await expect(page.locator('html')).toHaveClass(/motion-paused/);
+  for (const width of [375,768,1024,1440]) { await page.setViewportSize({ width, height: 900 }); expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true); }
+  await page.screenshot({ path: 'audit/final/screenshots/home-final-1440-vi.png', fullPage: true });
+  await page.evaluate(() => scrollTo(0, 0)); await page.getByRole('button', { name: 'English', exact: true }).click(); await page.screenshot({ path: 'audit/final/screenshots/home-final-1440-en.png', fullPage: true });
+  await expect(page.locator('form')).toHaveCount(0);
+  expect(await page.locator('a[href^="#"]').evaluateAll(links => links.map(link => link.getAttribute('href')!).filter(href => !document.getElementById(href.slice(1))))).toEqual([]);
+  expect(errors).toEqual([]);
 });

@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+import { chromium } from '@playwright/test';
+const assets=JSON.parse(fs.readFileSync('audit/content-mapping/assets.json','utf8')).filter(asset=>asset.source);
+const browser=await chromium.launch();const page=await browser.newPage();await page.goto('https://onosglobal.pages.dev/',{waitUntil:'networkidle'});
+const results=await page.evaluate(async assets=>Promise.all(assets.map(async asset=>{const response=await fetch(asset.source);const bytes=await response.arrayBuffer();const digest=await crypto.subtle.digest('SHA-256',bytes);const sha256=Array.from(new Uint8Array(digest)).map(x=>x.toString(16).padStart(2,'0')).join('');return{source:asset.source,local:asset.local,status:response.status,bytes:bytes.byteLength,sha256,matchesLocal:sha256===asset.sha256};})),assets);
+fs.writeFileSync('audit/final/live-media-verification.json',JSON.stringify(results,null,2)+'\n');console.log({total:results.length,verified:results.filter(x=>x.matchesLocal).length,failed:results.filter(x=>!x.matchesLocal)});
+await page.goto('https://manufactt-wbs.webflow.io/',{waitUntil:'domcontentloaded'});await page.setViewportSize({width:1440,height:1000});await page.screenshot({path:'audit/final/reference/manufactt-live-1440.png'});
+const selectors=['body','h1','.container-full','.grid-hero','.hero-wrap','.hero-bottom-wrap','.primary-button'];
+const read=selectors=>Object.fromEntries(selectors.map(selector=>{const el=document.querySelector(selector);if(!el)return[selector,null];const s=getComputedStyle(el);return[selector,{font:s.fontFamily,fontSize:s.fontSize,color:s.color,columns:s.gridTemplateColumns,padding:s.padding,gap:s.gap,borderRadius:s.borderRadius}];}));
+const design=await page.evaluate(read,selectors);await page.goto('http://127.0.0.1:3000/',{waitUntil:'networkidle'});const final=await page.evaluate(read,selectors);
+fs.writeFileSync('audit/final/design-comparison.json',JSON.stringify({design,final},null,2)+'\n');console.log('Manufactt computed design comparison saved.');await browser.close();
+if(results.some(x=>!x.matchesLocal))process.exitCode=1;

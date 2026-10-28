@@ -1,0 +1,2430 @@
+{
+  "preserved": [
+    "0d0523f980a9-68e36641e657ece2cad1488d_Product-BG-Image.webp",
+    "2f7c809fa685-68e8928f85ce98b5075e778f_Hero-Image-2.webp",
+    "32f49076361a-manufactt-wbs.webflow.shared.edef070c1.min.css",
+    "3768cc3a3031-68d1288562216d12f8801f46_check-white.svg",
+    "482c041f6200-68ef88cde82deef6d306067c_002.avif",
+    "49e40a0fb313-6902f65613a1cb372bd44ac4_bg-noice.gif",
+    "541119bccb21-gyBhhwUxId8gMGYQMKR3pzfaWI_RruM4nQ.ttf",
+    "579ccbdc0c6d-68ef7a820b82c6228ba0dea9_01-vector.webp",
+    "5ff0c03f9b15-custom-checkbox-checkmark.589d534424.svg",
+    "77501d0ee1a6-o-0mIpQmx24alC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyAaBN9d.ttf",
+    "7d1ba9ff3853-68e09ed266fbd66356368937_Download-icon.svg",
+    "7dbcee796a77-68e0a5811f399b56334cd5cf_Why-choose-image.webp",
+    "886c8689ec84-68e0f9a032b17a59b69e7ecb_CTA-bg--2-.webp",
+    "8b671e0bc5a1-o-0mIpQmx24alC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyD9A99d.ttf",
+    "8ced890523aa-6900a140f61795ffd32bd64a_Nav-Hover-Dot.svg",
+    "9606e74b50ac-68df954e4d9871865bbf2e51_CTA-BG.webp",
+    "9cdfff75c25e-68e498e842b11adbc9d7e49b_Download-Icon-Dark.svg",
+    "b74d1f0fd317-68e74fb7dcd29b30ec77a073_CTA-Image.webp",
+    "b7debcc07246-68dccb1a236df883a760f069_Vector.svg",
+    "c2bef016fb9b-gyBhhwUxId8gMGYQMKR3pzfaWI_RnOM4nQ.ttf",
+    "c36d2aaf8d02-68e0d3a80896c0c10ce0572a_about.webp",
+    "d883edf96be0-68d1288562216d12f8801f88_button-dark-arrow.svg",
+    "f494923440e8-o-0mIpQmx24alC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyAjBN9d.ttf",
+    "fonts.css",
+    "onos-connection.svg",
+    "onos-dtg-machine-detail.webp",
+    "onos-embroidery-hero-640.webp",
+    "onos-embroidery-hero.webp",
+    "onos-embroidery.webp",
+    "onos-equipment-embroidery.webp",
+    "onos-facility-california.webp",
+    "onos-facility-me-linh.webp",
+    "onos-facility-thai-nguyen.webp",
+    "onos-favicon.svg",
+    "onos-finishing-table.webp",
+    "onos-laser-cut-gifts.webp",
+    "onos-partner-meeting.webp",
+    "onos-press-machines-row.webp",
+    "onos-production-floor.webp",
+    "onos-sample-development.webp",
+    "onos-warehouse-inventory.webp",
+    "onos-wordmark-light.svg",
+    "onos-wordmark.svg"
+  ],
+  "removed": [
+    {
+      "file": "public/assets/d4a40d45c081-68e788edd02ee081790acdc6_Untitled-14.webp",
+      "bytes": 16166,
+      "sha256": "3d49df900e0eb28e6a16276044cfde12631fb3bd84b0ef0de76bf4ec4aff9066"
+    },
+    {
+      "file": "public/assets/onos-dtg-machine-detail-slot-f43d8b900690-500w.webp",
+      "bytes": 19470,
+      "sha256": "6e7f59900d3157f8d08551bc9e0462215d5dfe24b2954bbd16b81a981ba421b4"
+    },
+    {
+      "file": "public/assets/onos-partner-meeting-slot-523c719f4d04.webp",
+      "bytes": 1772,
+      "sha256": "fc3323ba6b9ef73452f09e60e8289969cd11a60a6ea5b6d4f2f8890d375bb065"
+    },
+    {
+      "file": "public/assets/onos-dtg-machine-detail-slot-092f666590da-500w.webp",
+      "bytes": 21442,
+      "sha256": "660724923a8da497348a7afd44c90cd1d2d045df5a0bcb95692870db543dda50"
+    },
+    {
+      "file": "public/assets/ad9ff512262f-6900978b8937384b23c556df_3930-p-500.jpg",
+      "bytes": 36199,
+      "sha256": "7adb075235d1c383987a92de06f095df462c4ad27f1b5793b64b58e07d330b05"
+    },
+    {
+      "file": "public/assets/b3fa4a4328ab-ScrollTrigger.min.js",
+      "bytes": 44575,
+      "sha256": "b0b14d67b55b0c43c756ac0b106cfcb09d0879945f6ead64451065b0672916a2"
+    },
+    {
+      "file": "public/assets/onos-dtg-machine-detail-slot-092f666590da-800w.webp",
+      "bytes": 37824,
+      "sha256": "13981dd4010a6057aeeb1919babccbb0e51e9c7031d7ce19cdd9b46fcc7c49fc"
+    },
+    {
+      "file": "public/assets/onos-finishing-table-slot-709f2e70e0a2-1080w.webp",
+      "bytes": 110838,
+      "sha256": "c3360d76d03d33bd52d6f84174961ce88e0cf193560ea1d7cba1dab89950d18e"
+    },
+    {
+      "file": "public/assets/9594efa49b03-68ef8c7488c431e5697cf546_Medical-devices.svg",
+      "bytes": 1485,
+      "sha256": "b57ce1c97bda4d8440dfb051a71cdcced11df2ad7374cc47b80aba5dd3ad2af3"
+    },
+    {
+      "file": "public/assets/onos-dtg-machine-detail-slot-123b21cf087d.webp",
+      "bytes": 14130,
+      "sha256": "9543cf23b750b3f661b43284e1478a685e5e7b617a1615ccba674b2119f3a389"
+    },
+    {
+      "file": "public/assets/3d82ea8adf9e-68dd0f0f45f09a74e7a4e083_68dd045c0438e2e8731b21c1_Icon-2002.svg",
+      "bytes": 5059,
+      "sha256": "761275399d3e0d0d7fc82c8cbcde1821f0349b7b5f5a76e1ed1daeb541b0f0ef"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-9fd2d77f9bed.webp",
+      "bytes": 50854,
+      "sha256": "a072cc836b631834877088259b358bb3eade8fc1750313a63efc3cf1749c546a"
+    },
+    {
+      "file": "public/assets/4e576bec3956-68e4b81e884760e3070cd389_Client-image--10-.svg",
+      "bytes": 2405,
+      "sha256": "4ecefefdfb5b364a0e712fef40582efda2ee4e77bfde60d9c3b95e812c605b2c"
+    },
+    {
+      "file": "public/assets/0f41e795711f-68e5e44896c7f2571c97974b_Service-Image--3-.webp",
+      "bytes": 274232,
+      "sha256": "d60b671084f4fb56fddd866e785330a2097a6a8010893bfa0f1836650f4f2192"
+    },
+    {
+      "file": "public/assets/cf0de23d4c0d-68e33a4abcec2d6e55eac7d0_Client-Image-3.svg",
+      "bytes": 5515,
+      "sha256": "bbd73b6d7eb13c761f23c644df6652d94600c38b0568a1f3208898d376509de3"
+    },
+    {
+      "file": "public/assets/e8fc908feb8e-68e0a324aca239f0eb318b59_Client-image--6-.svg",
+      "bytes": 1988,
+      "sha256": "6c0bea12dccad87480c37e120b49c7681f87f7cd096fc9e70e0d5377e6522d9e"
+    },
+    {
+      "file": "public/assets/cd85abd121f8-68e0b1d7e5dc788e9f17f966_testimonial-images--5-.png",
+      "bytes": 22340,
+      "sha256": "ec16db58c2b80919186fcdb1e44f1b35afe3901b5edfc9cba20e43482e56cd5a"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-08f3412fcb24.webp",
+      "bytes": 58426,
+      "sha256": "4ae71b644dff3761df53d62a09920cbdff2d328e39c23e89344145e05ce53cfd"
+    },
+    {
+      "file": "public/assets/onos-equipment-embroidery-slot-665b1bd0a788-533w.webp",
+      "bytes": 50438,
+      "sha256": "c0afe733d73ef654dce0c378aaef62fdf6e69a1931ef273c15edad3f300f9276"
+    },
+    {
+      "file": "public/assets/onos-production-floor-slot-acc7d80c36b3.webp",
+      "bytes": 38902,
+      "sha256": "3ea877b1759f4e6ddaefc4e0ff7c9f895338727316dff6026e047cf26bf2f731"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-ef8f7135eaab-700w.webp",
+      "bytes": 121602,
+      "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-62488f261f3a.webp",
+      "bytes": 47246,
+      "sha256": "b008a7f097065b9f55f3f58ceaf2ebc2d3c386a70fd096dd63f284249bccfbec"
+    },
+    {
+      "file": "public/assets/onos-partner-meeting-slot-7637ca827e29.webp",
+      "bytes": 3352,
+      "sha256": "51998616c238b182d4190049f1a819284ca1be98a28e7a22ad1865e739a36d85"
+    },
+    {
+      "file": "public/assets/onos-partner-meeting-slot-f02f46afbd73.webp",
+      "bytes": 5136,
+      "sha256": "8408c7ccab6d54799d938b252b3e3e8b0dc4513876485d9522f847b9d3d24586"
+    },
+    {
+      "file": "public/assets/f02f46afbd73-68e74d75323521c203b1a691_marquee-image--5-.webp",
+      "bytes": 3194,
+      "sha256": "34bc67f0656e0f7b3bb436f70e618f804032a5b0c97dcfa3df2751c94e8605d6"
+    },
+    {
+      "file": "public/assets/a18541310af5-68dfaa6a72a48addb404ecaf_Industry-image-bg--1-.png",
+      "bytes": 42107,
+      "sha256": "0f947542900547220cf9ff230496313daadd6e7d3a94333a0be96e325bc9b4be"
+    },
+    {
+      "file": "public/assets/06851c5df34e-68e098648e044f6774ff0357_Product-Image--3--p-500.webp",
+      "bytes": 20596,
+      "sha256": "5496a53eb18b1db571dc1d6ee68b8ec987f92a672a9c53a49fc4331dfd9b37e6"
+    },
+    {
+      "file": "public/assets/onos-finishing-table-slot-5512662f1cd9.webp",
+      "bytes": 35640,
+      "sha256": "e4eb29f7667af9ec0c23940e5702e7652427259b6a85ef39b6bc1364f7ff25b8"
+    },
+    {
+      "file": "public/assets/onos-laser-cut-gifts-slot-35d338b6bbf8.webp",
+      "bytes": 230054,
+      "sha256": "d9047616d2bc1270a7f603768878eadb5645f6103fea45db65f9b04214943fba"
+    },
+    {
+      "file": "public/assets/8093152243df-68e782396fa689b94b9ab406_Untitled-5.webp",
+      "bytes": 21816,
+      "sha256": "e8409f44ab34a1917aa74751310cc1325c6334f819d78ee9958e6df3c419bcee"
+    },
+    {
+      "file": "public/assets/499fc3831bb5-68e20964a1e9b28688647be6_industry-2--2-.webp",
+      "bytes": 31252,
+      "sha256": "4f4d25cc95b1b0a824f50cda7da0f7dc8c1d1961c0c67f4e9d29482e74d7fac5"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-1ca0aa821cd9-500w.webp",
+      "bytes": 71784,
+      "sha256": "aaa4af3d97f4fb47a85c4eefef5799a7be86f325ce9b7a2a77b14137a0c4ffa0"
+    },
+    {
+      "file": "public/assets/onos-equipment-embroidery-slot-87da0557bb85.webp",
+      "bytes": 44096,
+      "sha256": "aad426d6d07b58dd36b1d550ef21a2ddf40e280d9c7172b8ad74e2b2d77ec49b"
+    },
+    {
+      "file": "public/assets/af26d02a2a0b-68e0f2d55bfe12b2d0d89da1_shadow.png",
+      "bytes": 700566,
+      "sha256": "7d48e798854b4d9719a4c88bce14f7c8bf51b8e2311f737f5a78cb60db852bb9"
+    },
+    {
+      "file": "public/assets/33ca09a41b60-68e34c7154f05f793faf9888_image-5.webp",
+      "bytes": 116902,
+      "sha256": "356effcc648130655a91d47f0e8418056bb6d9bb1072960a79b2c963e77d7b51"
+    },
+    {
+      "file": "public/assets/onos-production-floor-slot-52d70e14a4fd-800w.webp",
+      "bytes": 65056,
+      "sha256": "369654fda4791d3966243e6be8d7a011b001e678ab61adcd8361891f469ca89e"
+    },
+    {
+      "file": "public/assets/onos-dtg-machine-detail-slot-092f666590da.webp",
+      "bytes": 66744,
+      "sha256": "448ed55c59889aed587d4796d07a05c6fcf0cf70c4b28c8be76902400bfd8e23"
+    },
+    {
+      "file": "public/assets/90c891d7e49f-webflow.6aa9b53e.32b0e5fcd18cc99b.js",
+      "bytes": 1875,
+      "sha256": "e35df04323cb0fc2e29b07428f12c40c7028c52d1fe4238414c6d7eaf9c22845"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-bf56dbb39faa-500w.webp",
+      "bytes": 71784,
+      "sha256": "aaa4af3d97f4fb47a85c4eefef5799a7be86f325ce9b7a2a77b14137a0c4ffa0"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-1ca0aa821cd9.webp",
+      "bytes": 121602,
+      "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-24641e74c0a7.webp",
+      "bytes": 6474,
+      "sha256": "3a9e1fa7217509cfec6afa9dbc14a7cc96251b21c020b4d327903e04587544c8"
+    },
+    {
+      "file": "public/assets/d0719d01877a-68e1e92efee16c7f8fdae6b1_testimonial-Slide-Arrow--2-.svg",
+      "bytes": 284,
+      "sha256": "6e1b3077a8c903f6abe493dea96fed087e2c7b9d9f2e9afe4e98ba3d2300d424"
+    },
+    {
+      "file": "public/assets/8303235faa4a-68d1288562216d12f8801f37-68e4bc3a1992c6b0b7d18443_Video-02-transcode.mp4",
+      "bytes": 2932405,
+      "sha256": "1c041b1b8e60b77493fbe7d580f67ca90fbe4a726be57461e5a887db0659c363"
+    },
+    {
+      "file": "public/assets/7b73a5e3512f-68dd0f10a657fd757cc63f70_68dd097ddfef66551e348204_Icon-2001.svg",
+      "bytes": 4172,
+      "sha256": "4736870f38f7f531cea7fbe49083c5e20a6b82a07ca25e61b186eb4f28b7b08c"
+    },
+    {
+      "file": "public/assets/7503dd39428c-68e3860518576ae8099df460_Counter-Line.png",
+      "bytes": 4227,
+      "sha256": "02da0e730494703993af17e2f58dc57d8721ebbe0f73c67cd8e23e497e6f37dc"
+    },
+    {
+      "file": "public/assets/177128e47962-68d1288562216d12f8801f37-68e3748906d641fb7c119f89_counter-video-transcode.webm",
+      "bytes": 6801926,
+      "sha256": "79daa79e429ce1ba4d20870c2ccbdbc7cdc7edafdf3e3de72cec7a4d12d577b6"
+    },
+    {
+      "file": "public/assets/b38b158ba43b-68dfaa6ba66a9dbc9c52d860_Industry-image-bg--3-.png",
+      "bytes": 21249,
+      "sha256": "d62df6c30543b54beae0257c08cf0f98e6fe5589974e7dd400404527fc5afdce"
+    },
+    {
+      "file": "public/assets/5f6aad90ac76-68e0f2d55bfe12b2d0d89da1_shadow-p-500.png",
+      "bytes": 67317,
+      "sha256": "72162af91c63539ca0a63fae6bf05ffe539ea4834bdb1fba2610a2ee2475b20e"
+    },
+    {
+      "file": "public/assets/123b21cf087d-68e78eaf026cc4e19d433516_Untitled-19.webp",
+      "bytes": 10310,
+      "sha256": "4a5db1461303824dfcd4dfb34f24c35f6915dcf22b65ccc549a28b9dc36f37e9"
+    },
+    {
+      "file": "public/assets/c71f405ee70b-68e097b6914d80d53f78e44b_Product-Image--2--p-500.png",
+      "bytes": 40602,
+      "sha256": "94e0a45f4f8cdd43278bc94bee9ecc76106638ace7caee8a7843251761b4d688"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-ef8f7135eaab.webp",
+      "bytes": 121602,
+      "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44"
+    },
+    {
+      "file": "public/assets/9f15e59288eb-6954ffc673b0708bd9bbdbff_c6d4168604ef3f8f5fa13d42b2ebd32d_access-image-p-500.jpg",
+      "bytes": 36372,
+      "sha256": "e9af39bc436dbd3ea76ed012a0b7c252ec731a4903fe11d388a73fc1b64fd55d"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-044f629c5a70-700w.webp",
+      "bytes": 121602,
+      "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44"
+    },
+    {
+      "file": "public/assets/408f6bff77b2-68e10f90db84576a3cee5184_testimonial-images--5-.webp",
+      "bytes": 44416,
+      "sha256": "144c3e3e88e98ec4f08a415212c0e4df4c462cd0fa24e7fff278a8866151f0c6"
+    },
+    {
+      "file": "public/assets/14b2f51fb46b-68f0b900e90d66f1e6a7f4c3_2-p-500.webp",
+      "bytes": 48890,
+      "sha256": "9fcf045bcfb692cad8171725fa55db8434b5ad108d3ffdd5a323efcb73b50eca"
+    },
+    {
+      "file": "public/assets/bf56dbb39faa-68e34c9df2a2b68f26b6c08e_image-7.webp",
+      "bytes": 151240,
+      "sha256": "09d6307714060e1d8023acc5b14fcb626e0b01fb7d2359c8d45b2e5095265c14"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-ba1a3da1c376.webp",
+      "bytes": 58426,
+      "sha256": "4ae71b644dff3761df53d62a09920cbdff2d328e39c23e89344145e05ce53cfd"
+    },
+    {
+      "file": "public/assets/7ffd01c4687d-68dfa2eeedefd61b2678f7ae_Industry-icon.svg",
+      "bytes": 1128,
+      "sha256": "502835e37d919bb8c97e1a65d8557f54d8bc94718de529c7c3de3d084c86d484"
+    },
+    {
+      "file": "public/assets/61e0c111c451-68e098648e044f6774ff0357_Product-Image--3-.webp",
+      "bytes": 55004,
+      "sha256": "80f49b9939302de1cbff9ff50b0707904003dc0c3bfc28999e89f06aa71db5ea"
+    },
+    {
+      "file": "public/assets/de51459f628e-68e496d251974662834e9c54_About-Hero-Image-p-1080.webp",
+      "bytes": 40786,
+      "sha256": "6cec7e2b632914fef1e197f22f98371d4175a152189dc6831fa71802f0f52160"
+    },
+    {
+      "file": "public/assets/onos-dtg-machine-detail-slot-f43d8b900690.webp",
+      "bytes": 31828,
+      "sha256": "2f6af4ae3ee9cd2cdd7ec411c22d1b734f9a0c5481d24bef125d98ba2e297acf"
+    },
+    {
+      "file": "public/assets/onos-warehouse-inventory-slot-060aab7641ed.webp",
+      "bytes": 89348,
+      "sha256": "15964e6d57c8028355e8e9c7c7b82238da7ef4f0f1cc3c1e0d400829b8ff0f58"
+    },
+    {
+      "file": "public/assets/56a8602db7a1-68e254c45dd2bac47a1b73ea_Case-Study-Image-3-p-500.webp",
+      "bytes": 12588,
+      "sha256": "fb79e0d9f7c3f2862478bd5acc66b0b1ba6145e6c1a74eb1e0b0cf3f7175a431"
+    },
+    {
+      "file": "public/assets/onos-production-floor-slot-52d70e14a4fd-1080w.webp",
+      "bytes": 105660,
+      "sha256": "4db794f7b569e8ddb3a0bc4cacf75069d1504ae90f0cb2c14f4f7ae2d731cfc4"
+    },
+    {
+      "file": "public/assets/onos-production-floor-slot-89e9c4c56e8a.webp",
+      "bytes": 4108,
+      "sha256": "5118984c45b69108166f41ac904b72fc22124cd05bbb40ec29a9436832e2d5b7"
+    },
+    {
+      "file": "public/assets/6646126256f8-68e34c39638ac15970c6717c_image-3-p-500.webp",
+      "bytes": 24750,
+      "sha256": "43d0f5458517ef800379dea7d07d863529d2c2c4150466876400b7bbaf40c762"
+    },
+    {
+      "file": "public/assets/9c47dab1e55f-68e4a478139d94dc1ef8914c_A.png",
+      "bytes": 132347,
+      "sha256": "bccc6417119651ed2dcba1e2fc48e6a7aa69858d682ef07bb402662455754d19"
+    },
+    {
+      "file": "public/assets/c3fe12f9f05d-68e20964d73c072f5087d840_industry-2--4-.webp",
+      "bytes": 57426,
+      "sha256": "69bcfbb27a52314f84b1227ccbc6216a788c64741d5ea7add9a31fa617cc10f9"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-f950461d7bef.webp",
+      "bytes": 2098,
+      "sha256": "af4fcd0e9b7dd18508a2ca1d90885e1855b4b2759d38cab0649623d1ac0ae7bd"
+    },
+    {
+      "file": "public/assets/0c25ad641304-68e2214d3f9f7fd1a8412201_Award--3-.svg",
+      "bytes": 143303,
+      "sha256": "868717c61dc8f4b4c6c6933ed1b49b83d7730402c6944ac8cf778feb3ae17c29"
+    },
+    {
+      "file": "public/assets/onos-equipment-embroidery-slot-781e1ba80e04.webp",
+      "bytes": 44096,
+      "sha256": "aad426d6d07b58dd36b1d550ef21a2ddf40e280d9c7172b8ad74e2b2d77ec49b"
+    },
+    {
+      "file": "public/assets/1fcea65a1062-68df5fc3dd6919f447f80a49_Service-Image--1--p-500.webp",
+      "bytes": 11170,
+      "sha256": "5619159e9faf689aec9b592ec4a48c5245372c0fdcda3001db325f373b8016fc"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-408f6bff77b2.webp",
+      "bytes": 58426,
+      "sha256": "4ae71b644dff3761df53d62a09920cbdff2d328e39c23e89344145e05ce53cfd"
+    },
+    {
+      "file": "public/assets/onos-facility-thai-nguyen-slot-634640404b79.webp",
+      "bytes": 298028,
+      "sha256": "9b867ec18883b3acab7da457a14df5127d8696c3b2a76bb6bba46393209ee675"
+    },
+    {
+      "file": "public/assets/onos-press-machines-row-slot-99b77a69802c-525w.webp",
+      "bytes": 34938,
+      "sha256": "a8d8640a0421cd1d808b6caa3b16d0ea44eafcf67d4e7598e258401e69d8b1d5"
+    },
+    {
+      "file": "public/assets/9fd2d77f9bed-68f0cd27ab20d017a56a6c36_Team-Members--6-.webp",
+      "bytes": 18912,
+      "sha256": "f1263ff8552e4509a6a10ad317590d6fd925c85cb8d34013b90df6de632747e2"
+    },
+    {
+      "file": "public/assets/35d052637085-68e34c8ebb0a9c959c940a85_blog-big-image-6.webp",
+      "bytes": 180532,
+      "sha256": "5debce83a738a23ba8fdfd171ec1661e6c49872f9085a12f0d9ad62867ba29e3"
+    },
+    {
+      "file": "public/assets/onos-finishing-table-slot-3d5f11e48633.webp",
+      "bytes": 35640,
+      "sha256": "e4eb29f7667af9ec0c23940e5702e7652427259b6a85ef39b6bc1364f7ff25b8"
+    },
+    {
+      "file": "public/assets/onos-laser-cut-gifts-slot-5adfffc4debd-500w.webp",
+      "bytes": 53636,
+      "sha256": "1b1b3665c33acdc4d02955bfd1a91f4adbd21518b32f50ec494ba2a58335ae24"
+    },
+    {
+      "file": "public/assets/1fe441a2e589-68e74d7465989122b4ac4063_marquee-image--4-.webp",
+      "bytes": 3226,
+      "sha256": "a8d9abbae44ceaa311126054ecf5ac5b8129529b90f83b72be6bc583bdd5dcde"
+    },
+    {
+      "file": "public/assets/325832b90864-68ef719470f70b566b619f48_17d8fcfec28431d4f26688fc26aebd45_Home-2-logo.svg",
+      "bytes": 2337,
+      "sha256": "5923a1690979f3a7135e9259c3a18560365f56f6ecc8653a3c203b2f23bebfec"
+    },
+    {
+      "file": "public/assets/onos-laser-cut-gifts-slot-a1f02455f6d5-800w.webp",
+      "bytes": 100020,
+      "sha256": "a2443e5a7e65cf92b1ac10b4deac88c5e1dd72ddd2e6da2529c749d664b6c9ef"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-1ade6f5f4402.webp",
+      "bytes": 6474,
+      "sha256": "3a9e1fa7217509cfec6afa9dbc14a7cc96251b21c020b4d327903e04587544c8"
+    },
+    {
+      "file": "public/assets/onos-partner-meeting-slot-9c47dab1e55f.webp",
+      "bytes": 13832,
+      "sha256": "bf001fcfbf7d0200981a46a48925db80d31f2d9507229a666f053cc836154d8d"
+    },
+    {
+      "file": "public/assets/onos-equipment-embroidery-slot-87da0557bb85-525w.webp",
+      "bytes": 44096,
+      "sha256": "aad426d6d07b58dd36b1d550ef21a2ddf40e280d9c7172b8ad74e2b2d77ec49b"
+    },
+    {
+      "file": "public/assets/d1dae711fe5d-68e77e84cb92db72a703d9ac_Untitled-2.webp",
+      "bytes": 23378,
+      "sha256": "8f579b6b9bd385ab66a75046f944c6ba9781e321a1ac37cbfa9dc5cd0b7bcee9"
+    },
+    {
+      "file": "public/assets/7d3ce37fcdcb-6954ffc673b0708bd9bbdbf9_crown.svg",
+      "bytes": 1181,
+      "sha256": "7d8e8a99cb59af4bd478e1552055aa75150db9eba197cc6e2d157382626e7f68"
+    },
+    {
+      "file": "public/assets/1ffdc9ac2aa3-68e0de9da751d46e57eab5ce_Chart.png",
+      "bytes": 6789,
+      "sha256": "46878a9f605d2b3ef49338801d7371dc046cb20d315e5e9346821b62767f4442"
+    },
+    {
+      "file": "public/assets/onos-laser-cut-gifts-slot-a1f02455f6d5.webp",
+      "bytes": 230054,
+      "sha256": "d9047616d2bc1270a7f603768878eadb5645f6103fea45db65f9b04214943fba"
+    },
+    {
+      "file": "public/assets/c2123401563d-68e362240c2d1510981b1f9e_Product-5-p-500.webp",
+      "bytes": 9092,
+      "sha256": "8c70d145d3d59a585da4e9ee03883879fafdd650a0e376f8aa8ec860a1bfd7a1"
+    },
+    {
+      "file": "public/assets/onos-laser-cut-gifts-slot-291661be0b4b-760w.webp",
+      "bytes": 85990,
+      "sha256": "d20132fb3cf44cd770d04b5c4d45202a9245bf43e3bc38ec4036ed41ddd82596"
+    },
+    {
+      "file": "public/assets/onos-equipment-embroidery-slot-781e1ba80e04-500w.webp",
+      "bytes": 41036,
+      "sha256": "334fdc3888e1d938bce02efe8cf0320b24bfc83462e216c45ddcbbdbcbe7ede9"
+    },
+    {
+      "file": "public/assets/37c47b2a383f-68e5e433f5353269f863ba00_Service-Image--2--p-500.webp",
+      "bytes": 20484,
+      "sha256": "8451fd0d8ddd9a2255b36ed5f17209ac28dcddc2abe7b795153b9aab848f7c93"
+    },
+    {
+      "file": "public/assets/56bfe79fbac5-68e5e44896c7f2571c97974b_Service-Image--3--p-800.webp",
+      "bytes": 34712,
+      "sha256": "14b73d9a6a459852a123f850481751fbdc889bce92b0b8fd2a6eb086120f19eb"
+    },
+    {
+      "file": "public/assets/89e9c4c56e8a-68e0b1d7773807a49628d175_testimonial-images--3-.png",
+      "bytes": 19482,
+      "sha256": "7f3c5ae26673ff3638b48c1d831491b89baf374cebe0286f646cd55c8b0aabbf"
+    },
+    {
+      "file": "public/assets/731b3bffdd50-68e0a3246d21c9d17ee549f8_Client-image--5-.svg",
+      "bytes": 7906,
+      "sha256": "8323cfc29272e332034974c4a8baecb19e994e39478f6623cb77551930103412"
+    },
+    {
+      "file": "public/assets/f8c477a4cef8-68e4960b857104b3f49cf6eb_Shadow-p-800.png",
+      "bytes": 129238,
+      "sha256": "d11a418419fbd946dd035a8861d2865899e51fb5da413ff83f90a00e07471041"
+    },
+    {
+      "file": "public/assets/onos-laser-cut-gifts-slot-69f77842671e.webp",
+      "bytes": 9960,
+      "sha256": "062f0e8950b7529860a11773da0bfe0ea7ec1019b1f0e72b352512c455fe456a"
+    },
+    {
+      "file": "public/assets/f905b540fb48-68ecdd3d945e5b3131e0c22d_Video-Icon-Play.svg",
+      "bytes": 499,
+      "sha256": "389e47505f0c38a58089a441ad026bf812c18d3e22c1414734cf207600ea7282"
+    },
+    {
+      "file": "public/assets/62488f261f3a-68e78eaf04f72a3052676c8d_Untitled-20.webp",
+      "bytes": 7586,
+      "sha256": "1a2259c123a9630cb3d7c1af0d3fa5e769475cb4d4707c3e214e54b30ea7a979"
+    },
+    {
+      "file": "public/assets/5c0f3af88957-68d1288562216d12f8801fe1_67ca90d9a3388af71fdbf084_starter-page.png",
+      "bytes": 64415,
+      "sha256": "4d73b926a504e883a8df97349b7ee672f6ba29ef2b57cc3131cbefebc47b935e"
+    },
+    {
+      "file": "public/assets/onos-finishing-table-slot-cd85abd121f8.webp",
+      "bytes": 4300,
+      "sha256": "7cc0767e3c6d958c1d3296bfb3419bcaded278ec11ff483b82c2a0dd5876f53b"
+    },
+    {
+      "file": "public/assets/26b70e5f6f00-68df5fd46f6e13be0b0f8839_Service-Image--6--p-800.webp",
+      "bytes": 22836,
+      "sha256": "d0beeca69cb25e262f121f82606496509b36044ed4a36a8003e147d4122be406"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-124d65582cc8-800w.webp",
+      "bytes": 96280,
+      "sha256": "d3eb6085f965461ae6057fa74d9e067372472bf581d646767266338c8247984c"
+    },
+    {
+      "file": "public/assets/d5316f28e42e-6900978adab7c2df4b8af06a_3--2--p-500.jpg",
+      "bytes": 7879,
+      "sha256": "963ab7fe6d08aa19797c3fb9025e8df2bf5b2d8b79fa8385f9c0422f651bd66f"
+    },
+    {
+      "file": "public/assets/eeee5ecbc8c8-68df5fd46f6e13be0b0f8839_Service-Image--6--p-1080.webp",
+      "bytes": 33534,
+      "sha256": "42adf6d09d5bb115f08afcc333181f71b9bbcf0a45c2e5e459b6e3a3deaff32c"
+    },
+    {
+      "file": "public/assets/48153a316eff-68e4cb3e2a22a605a377008d_social-icon--3-.svg",
+      "bytes": 901,
+      "sha256": "d682a977304c9acfef54fb9ba0b250ae86a5271caff53bdeb33d8164d1d51416"
+    },
+    {
+      "file": "public/assets/61b645ad489b-68e74d7246442f79299415a2_marquee-image--6-.webp",
+      "bytes": 1732,
+      "sha256": "8499792345ce15c9ad93a26019df8051b0aeb547623d26238dd2fd2aa9028234"
+    },
+    {
+      "file": "public/assets/onos-partner-meeting-slot-61b645ad489b.webp",
+      "bytes": 5136,
+      "sha256": "8408c7ccab6d54799d938b252b3e3e8b0dc4513876485d9522f847b9d3d24586"
+    },
+    {
+      "file": "public/assets/7b64da3ddce9-68e78edc006764c838d8ead6_Untitled-21.webp",
+      "bytes": 21646,
+      "sha256": "3d1b45c3329e43de4bfd28240138658d4b865dc1bd76f0b36aee8210014e085b"
+    },
+    {
+      "file": "public/assets/5adfffc4debd-6900978adab7c2df4b8af06a_3--2-.jpg",
+      "bytes": 72943,
+      "sha256": "d8704418fce701ecacbcd22137d83fd20ab24af8eda65f5546f01c4d099f6add"
+    },
+    {
+      "file": "public/assets/56b1595ce856-68e34c503ed0adec5ca1c9f7_image-4.webp",
+      "bytes": 169578,
+      "sha256": "a33599728e33fae0ce853fbfd9f7aa044c4c6c655a2045fc6b997c67a1e8ca44"
+    },
+    {
+      "file": "public/assets/291661be0b4b-68e254c45dd2bac47a1b73ea_Case-Study-Image-3.webp",
+      "bytes": 72380,
+      "sha256": "90e8e2a4acfa09a430b39836e084d3b2e44b04f50e5714acac41bb7062fb17b4"
+    },
+    {
+      "file": "public/assets/c1e963771d4c-68dcd945b4e886f71b7649aa_01.svg",
+      "bytes": 1032,
+      "sha256": "c7eb1637a5c588ab01497801d62e8229e55a165a1d0d53e0e48c5e446cb8581a"
+    },
+    {
+      "file": "public/assets/4e4b73038efe-6900978b8937384b23c556df_3930.jpg",
+      "bytes": 190245,
+      "sha256": "d23c544d8a3714f28e022e1aa07c8580928ba200d47003ef7c885691fec28395"
+    },
+    {
+      "file": "public/assets/6f1929c3a33f-68e2555178675ff9623b0491_case-study-image-7-p-500.webp",
+      "bytes": 22840,
+      "sha256": "fdd120c447d6ea1bc1699620cea4b358e2d526a36f9adc482efc1dd3ebf31f6d"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-0fcabf3332a4-500w.webp",
+      "bytes": 43556,
+      "sha256": "b4555c76dc15e0efb8370e2476742c3f810c7a9e1844a14a7fa451d2a2d79020"
+    },
+    {
+      "file": "public/assets/c42a27712f28-68e09864627b68238e93a027_Product-Image--1--p-500.webp",
+      "bytes": 8712,
+      "sha256": "0a33ebd91474cb266136666e8ae9466b4d08b3f7d117851dedf380a6eb947a3d"
+    },
+    {
+      "file": "public/assets/onos-production-floor-slot-52d70e14a4fd-500w.webp",
+      "bytes": 29498,
+      "sha256": "69f7bbbd1bb48a0c236710b0e9e4c5b28b1ad359bb3868662dcda1f3f7ebb438"
+    },
+    {
+      "file": "public/assets/onos-finishing-table-slot-61e0c111c451-525w.webp",
+      "bytes": 38220,
+      "sha256": "f05f592dbdd00ad5fb4574f438b20cd4a10fced95265a88c958d317777fe99b3"
+    },
+    {
+      "file": "public/assets/23886552e67a-68f083bd068f5863f2f7606f_Fav-Icon-32.svg",
+      "bytes": 807,
+      "sha256": "8d7f15ca711dfa8a52495a36c9c2e844046a756956a61e848aaca02233dd8885"
+    },
+    {
+      "file": "public/assets/f3c541e9178a-68e5e433f5353269f863ba00_Service-Image--2--p-800.webp",
+      "bytes": 34780,
+      "sha256": "bca79f96d08ac10ef6c34be1794b367ee4495c0e9d1dac0ec50104b13dbb342d"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-ef8f7135eaab-500w.webp",
+      "bytes": 71784,
+      "sha256": "aaa4af3d97f4fb47a85c4eefef5799a7be86f325ce9b7a2a77b14137a0c4ffa0"
+    },
+    {
+      "file": "public/assets/f165bc1323ad-68e10f90715f79d3ce6cbcb3_testimonial-images--1-.webp",
+      "bytes": 65860,
+      "sha256": "ac2ec4fe809e0dc6831aa2ae4cceed9a7624f6ca54c67d31029ee442c99fcbc2"
+    },
+    {
+      "file": "public/assets/onos-press-machines-row-slot-a735c7f18d7a.webp",
+      "bytes": 39298,
+      "sha256": "5b104fbca3135d877dae643e9e3123f4ec6ff6ae9f89c572b18a68de3c3e801e"
+    },
+    {
+      "file": "public/assets/40764fd9535f-63a59d6f6df355075be6d82a_wbs-icon.svg",
+      "bytes": 696,
+      "sha256": "cadf8769f3c8a374b74c54eb405e3012eadccb1eee5ea70bcecd71bb2a58b685"
+    },
+    {
+      "file": "public/assets/ad08da844e33-6954ffc673b0708bd9bbdbff_c6d4168604ef3f8f5fa13d42b2ebd32d_access-image-p-1080.jpg",
+      "bytes": 113680,
+      "sha256": "cab8a1bebeea3a17ad1cf31223fdda61f6d9191eff40151064979d2e379f1ecb"
+    },
+    {
+      "file": "public/assets/onos-laser-cut-gifts-slot-a1f02455f6d5-1400w.webp",
+      "bytes": 230054,
+      "sha256": "d9047616d2bc1270a7f603768878eadb5645f6103fea45db65f9b04214943fba"
+    },
+    {
+      "file": "public/assets/222ec6e2bcfc-68e78674e92cfe53c6106788_Untitled-11.webp",
+      "bytes": 19328,
+      "sha256": "011e3b292042285ebb537a6fdf1219e36db064fd6b82783f9507a4bf239cadf7"
+    },
+    {
+      "file": "public/assets/onos-equipment-embroidery-slot-0cce9e8f6c9c.webp",
+      "bytes": 72798,
+      "sha256": "2cd02fc19accc23705f461df24534ebbc555a5dd00887011c680168f33b1fc60"
+    },
+    {
+      "file": "public/assets/40e26bb74965-68d1288562216d12f8801f37-68dcaf0cefe8d0466c2141cf_hero-video-poster-00001.jpg",
+      "bytes": 70344,
+      "sha256": "4bd53788e687f1ccd5da4fc05c5e80f336e31954732c52bcaae74ef18b1b28c7"
+    },
+    {
+      "file": "public/assets/21d6057ee5c7-68e33b35d11bf82e5b1d78d6_Client-Image-7.svg",
+      "bytes": 5082,
+      "sha256": "d298b0cc2312af7e409a23063601acc137ab33cd26448b8a40119f5665def71a"
+    },
+    {
+      "file": "public/assets/7637ca827e29-68e0b1d79b260e7f43f3773b_testimonial-images--1-.png",
+      "bytes": 23853,
+      "sha256": "e069db04c8243eed9015d9adc55eef4fa9eb08794e5ace6c466a9aa025f3ae22"
+    },
+    {
+      "file": "public/assets/1fa0b5bc68d0-68e0c2f936f3a375961dd0a0_shadow.png",
+      "bytes": 72534,
+      "sha256": "c5ef4bed77e85bb13970713a51e728b767fdd4612b7a7fa985499b25424fa984"
+    },
+    {
+      "file": "public/assets/7060b808e513-68e5e44896c7f2571c97974b_Service-Image--3--p-1080.webp",
+      "bytes": 51890,
+      "sha256": "567cb80af6211dd81d31f4a7e92322074891cfdaaaa8f74dea7a65ac4d9600e0"
+    },
+    {
+      "file": "public/assets/f9eff2214c5a-68e0a3240df9caaa148c8e4a_Client-image--8-.svg",
+      "bytes": 5011,
+      "sha256": "efb05e20a05dcce14aebc78d047fb22ae8e39ed8e95182e9789e30af6ecac3c1"
+    },
+    {
+      "file": "public/assets/4c4eddd9988b-68dcc4bebd77bc4ff1fc5206_Avatar-Image--3-.webp",
+      "bytes": 4386,
+      "sha256": "e7f6c78d4f7e8fec54563f356e99a53aacd19fba9c827d9917243eba1db03ab7"
+    },
+    {
+      "file": "public/assets/ef8f7135eaab-68e34c8a0f917a13debc0f2c_image-6.webp",
+      "bytes": 98862,
+      "sha256": "cd8858a91633b880d0b7fee0e9cdad48560bff5a2aad74b4132fae69c75ae45d"
+    },
+    {
+      "file": "public/assets/onos-partner-meeting-slot-6c01a7087931.webp",
+      "bytes": 5136,
+      "sha256": "8408c7ccab6d54799d938b252b3e3e8b0dc4513876485d9522f847b9d3d24586"
+    },
+    {
+      "file": "public/assets/76a6f4e5d525-68e34c8a0f917a13debc0f2c_image-6-p-500.webp",
+      "bytes": 26360,
+      "sha256": "862e1ce183ab18e28d35effa83ab0435ebc0eadfd801c8842a886ad1092142cc"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-044f629c5a70-500w.webp",
+      "bytes": 71784,
+      "sha256": "aaa4af3d97f4fb47a85c4eefef5799a7be86f325ce9b7a2a77b14137a0c4ffa0"
+    },
+    {
+      "file": "public/assets/da773a74eeb1-68e78674d3ebbaceb4b44efe_Untitled-12.webp",
+      "bytes": 25154,
+      "sha256": "5c4e576c20977cbd935fbdb42d39dd501c55c6ecafe68b3aa1ce210058b39f32"
+    },
+    {
+      "file": "public/assets/onos-equipment-embroidery-slot-0f41e795711f-1400w.webp",
+      "bytes": 177410,
+      "sha256": "63f438611b4a11365d6ba65f90a69d45b865d72fa746cf2bc01b189900e281bb"
+    },
+    {
+      "file": "public/assets/8b2b95881eb7-68e254aa0bf150d8b71ead93_Case-Study-Image-1-p-500.webp",
+      "bytes": 11718,
+      "sha256": "79b650812e47c0cc3c37f695ca5106f4520b66c4f5f99f22b46e03859cb3d826"
+    },
+    {
+      "file": "public/assets/6e718a069b9c-68e36a0ba276b3c16c800d45_sider-arrow--2-.svg",
+      "bytes": 293,
+      "sha256": "dcffc1fe43262395595bd330fd8d79cb4c445f66938641ce390f1b8d0579641c"
+    },
+    {
+      "file": "public/assets/512d2d193cc7-68e5fa4fd87126b410f24deb_Service-Fratures-Icon--4-.svg",
+      "bytes": 1839,
+      "sha256": "edf9593b96aeaefc445f5c7e8256d020487ccd9d432a3792487e1150dd2e9dc9"
+    },
+    {
+      "file": "public/assets/ae27370f52d3-68dfaa6a28c7a7c7d48d1369_Industry-image-bg--5-.png",
+      "bytes": 24437,
+      "sha256": "6f08de1c492e897a459e0d712de30baee31ce42fd4260dab95ebb25dee71f3c0"
+    },
+    {
+      "file": "public/assets/134ca7144ec5-68e33b50fee16c7f8ffecd5f_Client-image-6.svg",
+      "bytes": 4834,
+      "sha256": "57c63cfbd058a37bcdeccfadb712c90bd5495c0f88471a736215b01b27c8d312"
+    },
+    {
+      "file": "public/assets/acb597143987-68e25528f043e1ae90e95631_case-study-image-6-p-500.webp",
+      "bytes": 31238,
+      "sha256": "c8986969f640e0618a8e92b654ce8e9ed8bacc47eda125fff25100311848d52b"
+    },
+    {
+      "file": "public/assets/e9328a56c80f-68e0a324728be1dc52eb971a_Client-image--7-.svg",
+      "bytes": 3488,
+      "sha256": "10b79455d13bb123561d28aab45e46d55f277f2fe45f117233d9a86793605a8b"
+    },
+    {
+      "file": "public/assets/d3e3b833ef28-6954ffc673b0708bd9bbdbfa_close.svg",
+      "bytes": 437,
+      "sha256": "5f237bbffaebe47a5171d277c5d7482d5f1e3c65be56b6a1b8029f56c33ca706"
+    },
+    {
+      "file": "public/assets/onos-press-machines-row-slot-f9aa8ad652f1.webp",
+      "bytes": 151790,
+      "sha256": "59a2df4794e9db13125eb71cd2cb963b453b9bf196c782d6ccf93374930a857c"
+    },
+    {
+      "file": "public/assets/onos-press-machines-row-slot-3784355d542a-500w.webp",
+      "bytes": 32016,
+      "sha256": "f7935e8e3ace51a642cd7cf92e213394f5975be3d2577bc4a6205849afad6917"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-c2ad96ea220a.webp",
+      "bytes": 215174,
+      "sha256": "05e4e390a2709c0c6cac064708ea0420d2fc31b005e9b06df759227a6044b4cb"
+    },
+    {
+      "file": "public/assets/onos-laser-cut-gifts-slot-a1f02455f6d5-500w.webp",
+      "bytes": 47110,
+      "sha256": "28d4fc98c5c7f2a9ada61ba2fcfc3c8bcb81bd82e5ad717356d9594ec14d316c"
+    },
+    {
+      "file": "public/assets/0fcabf3332a4-68e2555178675ff9623b0491_case-study-image-7.webp",
+      "bytes": 95468,
+      "sha256": "cef2a200845b449776114214722f321c70b6fb07de5574e1eb1037c1fd376dbf"
+    },
+    {
+      "file": "public/assets/f67b7e54fa62-68e5e44896c7f2571c97974b_Service-Image--3--p-500.webp",
+      "bytes": 17692,
+      "sha256": "10d58252661e0c9afe7d829f1967022cd8208b416453b9f9e423437b758d1d18"
+    },
+    {
+      "file": "public/assets/onos-dtg-machine-detail-slot-4e4b73038efe.webp",
+      "bytes": 23816,
+      "sha256": "507f43e4ec03d62a8bef2e234a46fa4e9ac67895a02dc124fe6ca082f9ba5da8"
+    },
+    {
+      "file": "public/assets/8bbff24cefc7-68dcbebd1bc8fc56182605e9_Quote-Image-2.webp",
+      "bytes": 38994,
+      "sha256": "9ed1e858b10ad52d91de8e8a3d3d06cebb32504032d193aae95f403c723b01c3"
+    },
+    {
+      "file": "public/assets/onos-finishing-table-slot-79a31a2d5450-761w.webp",
+      "bytes": 63818,
+      "sha256": "a65d2407403e28d337b5bb464aa1573feea2979c51b45a0a1bf6ecbc7bbd53e4"
+    },
+    {
+      "file": "public/assets/onos-dtg-machine-detail-slot-a47cf3da203c.webp",
+      "bytes": 66744,
+      "sha256": "448ed55c59889aed587d4796d07a05c6fcf0cf70c4b28c8be76902400bfd8e23"
+    },
+    {
+      "file": "public/assets/onos-partner-meeting-slot-838d1d8608fa.webp",
+      "bytes": 5136,
+      "sha256": "8408c7ccab6d54799d938b252b3e3e8b0dc4513876485d9522f847b9d3d24586"
+    },
+    {
+      "file": "public/assets/onos-laser-cut-gifts-slot-5adfffc4debd-533w.webp",
+      "bytes": 59854,
+      "sha256": "4aa106eb6212f12b78f7188fe7792f8e28dbc0e8b332387331d0aa15202783f3"
+    },
+    {
+      "file": "public/assets/97ed0f4db74c-webflow.0b794540.ecad0c8df27c1d95.js",
+      "bytes": 1853,
+      "sha256": "d29cf5c4fb128b9ec0c0fa0437ddfdcfa52c80b38cd5ad6054ce90356e809a99"
+    },
+    {
+      "file": "public/assets/6cf3ebf029f9-68e0a9c43bd0b1ca00cd2b65_Star.svg",
+      "bytes": 1034,
+      "sha256": "2bcf7e307380673725e162f5e0551d4e47933b0b80033df947e7be49627d58f9"
+    },
+    {
+      "file": "public/assets/onos-finishing-table-slot-768ea262688c.webp",
+      "bytes": 43824,
+      "sha256": "07a5e882efe5486eaba14bfa6bf5ed4456006e18d7e5988f8e1d0be350cdb6b6"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-124d65582cc8-1400w.webp",
+      "bytes": 215174,
+      "sha256": "05e4e390a2709c0c6cac064708ea0420d2fc31b005e9b06df759227a6044b4cb"
+    },
+    {
+      "file": "public/assets/d5aef9a86973-jquery-3.5.1.min.dc5e7f18c8.js",
+      "bytes": 89476,
+      "sha256": "f7f6a5894f1d19ddad6fa392b2ece2c5e578cbf7da4ea805b6885eb6985b6e3d"
+    },
+    {
+      "file": "public/assets/248f38f36333-68e2550a6393cda20820810b_case-study-image-5-p-500.webp",
+      "bytes": 15036,
+      "sha256": "5eb4073df3185e29ca7550f864eb90852a86dc53d1b02d0332a49ecec75f74e2"
+    },
+    {
+      "file": "public/assets/506a6c9b8b92-68d1288562216d12f8801f37-68e4bc3a1992c6b0b7d18443_Video-02-transcode.webm",
+      "bytes": 4006258,
+      "sha256": "7580b8311f01e08decf7142cb95d3399db34e01b9878d1ac9a30e80f356e1323"
+    },
+    {
+      "file": "public/assets/onos-finishing-table-slot-dfdcabf1ab39.webp",
+      "bytes": 35640,
+      "sha256": "e4eb29f7667af9ec0c23940e5702e7652427259b6a85ef39b6bc1364f7ff25b8"
+    },
+    {
+      "file": "public/assets/onos-laser-cut-gifts-slot-287932d7ab5a-500w.webp",
+      "bytes": 47110,
+      "sha256": "28d4fc98c5c7f2a9ada61ba2fcfc3c8bcb81bd82e5ad717356d9594ec14d316c"
+    },
+    {
+      "file": "public/assets/595dc863a514-68e5fa3ed6ea05a74cf4cf6e_Service-Fratures-Icon--3-.svg",
+      "bytes": 1138,
+      "sha256": "3ed1dcf515ebfd06bdaf482aa549d41e55225751a3aa780e3b000bed03e8fea4"
+    },
+    {
+      "file": "public/assets/onos-warehouse-inventory-slot-ae27370f52d3.webp",
+      "bytes": 5084,
+      "sha256": "d5864c4d6dd1db0682eaca39c305fdd6b08ded47fc6df425f77b9114b005cf48"
+    },
+    {
+      "file": "public/assets/035525d00d02-68dfbb0effbd3efe695a9fe0_Products-Icon.svg",
+      "bytes": 196216,
+      "sha256": "266746457be72358e1ff7c2ffe8cec11eac0b106bb66d07bf40b26fb88f53f16"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-124d65582cc8-500w.webp",
+      "bytes": 45094,
+      "sha256": "915a8505ec3994fd903e65c1e4520ae6f4679029073ddc52c000fd6954170ef7"
+    },
+    {
+      "file": "public/assets/onos-partner-meeting-slot-1fe441a2e589.webp",
+      "bytes": 5136,
+      "sha256": "8408c7ccab6d54799d938b252b3e3e8b0dc4513876485d9522f847b9d3d24586"
+    },
+    {
+      "file": "public/assets/ca0b831883b7-68df5fb4697d6800a50442a3_Service-Image--7--p-1080.webp",
+      "bytes": 15606,
+      "sha256": "d8f25e2cedaa3d1d1775256c43348fd2f97d8e5dee1ed31000559dfb68d97fb9"
+    },
+    {
+      "file": "public/assets/c2ad96ea220a-68e34c75cdca16a714d6962e_blog-big-image-5.webp",
+      "bytes": 179956,
+      "sha256": "86d463b117840780237319145bcad529bc238497f326014ea9a41a0038f4be3b"
+    },
+    {
+      "file": "public/assets/634640404b79-68e34c4242c834288f918dee_blog-big-image-3.webp",
+      "bytes": 177712,
+      "sha256": "2b1b690244cfc1b4df547fdc6573b07cb7494e502dbfa149d6e87d051b7fe713"
+    },
+    {
+      "file": "public/assets/84b2c1c222bb-webflow.schunk.f919141e3448519b.js",
+      "bytes": 9100,
+      "sha256": "8087d2d7ead71d3abce6b970b56fd35be6888d215769cc3dea19eee8158c9044"
+    },
+    {
+      "file": "public/assets/onos-equipment-embroidery-slot-71280ceeb52d.webp",
+      "bytes": 177410,
+      "sha256": "63f438611b4a11365d6ba65f90a69d45b865d72fa746cf2bc01b189900e281bb"
+    },
+    {
+      "file": "public/assets/d461a139a097-webflow.schunk.36b8fb49256177c8.js",
+      "bytes": 41429,
+      "sha256": "8b7d0de9f3df9103d70ed000c17b348240623ac4e4053d56fa0d5cfd8d74d79d"
+    },
+    {
+      "file": "public/assets/ee6643d259cd-68e0b1d754d6ce41f9b34fb8_testimonial-images--4-.png",
+      "bytes": 23577,
+      "sha256": "974953b9a27b3e30ff951576b708e930df89db3d45d1682b60c0949f580f4f88"
+    },
+    {
+      "file": "public/assets/17ed536d0c8a-68e34a923545f0f0d61ea5d3_image-1.webp",
+      "bytes": 65078,
+      "sha256": "78ffea0d8ea9df597828711d12b00ca218b643ce05fffde67ac49fcb0ebfd70c"
+    },
+    {
+      "file": "public/assets/412ae6730e81-68e34c235b42befd11b5ec93_image-2-p-500.webp",
+      "bytes": 19446,
+      "sha256": "be6a5933f6fbb6bf1dd9fd821b5cb0ce73c90aa607e9722d254e85df7cefac66"
+    },
+    {
+      "file": "public/assets/onos-press-machines-row-slot-99b77a69802c.webp",
+      "bytes": 34938,
+      "sha256": "a8d8640a0421cd1d808b6caa3b16d0ea44eafcf67d4e7598e258401e69d8b1d5"
+    },
+    {
+      "file": "public/assets/2359952e3860-68e788edf622788ab0f6d952_Untitled-13.webp",
+      "bytes": 12888,
+      "sha256": "4ceaa608451888799ddfddaa043a5809feb8cf09b6b4573dcbf2765060d07619"
+    },
+    {
+      "file": "public/assets/79a31a2d5450-68e254aa0bf150d8b71ead93_Case-Study-Image-1.webp",
+      "bytes": 58998,
+      "sha256": "c7fe824a2c25cf38db79ef47973920c4cf35fbebc06a7b0c6fb7e50d8caf493a"
+    },
+    {
+      "file": "public/assets/onos-press-machines-row-slot-3784355d542a.webp",
+      "bytes": 34938,
+      "sha256": "a8d8640a0421cd1d808b6caa3b16d0ea44eafcf67d4e7598e258401e69d8b1d5"
+    },
+    {
+      "file": "public/assets/onos-equipment-embroidery-slot-0f41e795711f-500w.webp",
+      "bytes": 41036,
+      "sha256": "334fdc3888e1d938bce02efe8cf0320b24bfc83462e216c45ddcbbdbcbe7ede9"
+    },
+    {
+      "file": "public/assets/24641e74c0a7-68dcc4bed9e7a8448d66fb53_Avatar-Image--4-.webp",
+      "bytes": 3040,
+      "sha256": "4c698ed0995e3f0a474aefd3647470babec27f2585423e34a3224c804c8f6cde"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-33ca09a41b60-700w.webp",
+      "bytes": 121602,
+      "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44"
+    },
+    {
+      "file": "public/assets/665b1bd0a788-6900978be722667c0731fdce_3--3-.jpg",
+      "bytes": 129900,
+      "sha256": "775d3b0d670ac7673036f78dd34efffb3a265c1ae7816be06a23ba3ccc6cb8d4"
+    },
+    {
+      "file": "public/assets/52d70e14a4fd-68e496d251974662834e9c54_About-Hero-Image.webp",
+      "bytes": 45748,
+      "sha256": "9cd3dd41d59d99dbe415d7b199bf96719a94e7f9229e8a5fe8f630c82db500be"
+    },
+    {
+      "file": "public/assets/onos-partner-meeting-slot-9a42f43e47b7.webp",
+      "bytes": 1772,
+      "sha256": "fc3323ba6b9ef73452f09e60e8289969cd11a60a6ea5b6d4f2f8890d375bb065"
+    },
+    {
+      "file": "public/assets/onos-press-machines-row-slot-f9aa8ad652f1-800w.webp",
+      "bytes": 67572,
+      "sha256": "698ad3b0c2c009bb786ff9e24c7188f331a5ec36b014aebbda44059194d23f9f"
+    },
+    {
+      "file": "public/assets/709dd11cac55-68f0cd26622b55ec3a3ec249_Team-Members--2-.webp",
+      "bytes": 19116,
+      "sha256": "5fe30ff980ed565e87eab9c2777698a500795537093da91e0b5f8e1d74005f86"
+    },
+    {
+      "file": "public/assets/acdb185fdc0a-68d52f04943817525b88ad07_a29f3460f69ee2944f9599d001238d55_Logo.svg",
+      "bytes": 2181,
+      "sha256": "7ab2167b046f4e86a85f5e84585c73825ecfd049c59323dc7131a0b0492d6bee"
+    },
+    {
+      "file": "public/assets/onos-laser-cut-gifts-slot-287932d7ab5a.webp",
+      "bytes": 50706,
+      "sha256": "2779ad65a08644863ae0192cc11565a0ba449915fe2091800246cec1d219bdfd"
+    },
+    {
+      "file": "public/assets/onos-equipment-embroidery-slot-0f41e795711f-1080w.webp",
+      "bytes": 130534,
+      "sha256": "310813ae573a7bd1e524cf81d84c272d0305f907534bee516ee37d272709015a"
+    },
+    {
+      "file": "public/assets/a57060e6e940-68e74d737df1cfac21f4746f_marquee-image--1-.webp",
+      "bytes": 5382,
+      "sha256": "66930bfee7ae9cdaa4194bb7e49e1c77961aa2eec9d7af8fbb33144e9d22c486"
+    },
+    {
+      "file": "public/assets/onos-laser-cut-gifts-slot-c3fe12f9f05d.webp",
+      "bytes": 45248,
+      "sha256": "08f80f6423e1c2c4fcb9a6e6d6e5c5a37a6f1edc2193db62d3b4a60542185759"
+    },
+    {
+      "file": "public/assets/6032b4467bfc-68e77e842f0acbb43b9d3e7c_Untitled-1.webp",
+      "bytes": 12408,
+      "sha256": "cf66bd1aed0d36c45446e515f6e136d61030d431fe0aa1d3ac15f96d2133c754"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-b4b334dc3333.webp",
+      "bytes": 47246,
+      "sha256": "b008a7f097065b9f55f3f58ceaf2ebc2d3c386a70fd096dd63f284249bccfbec"
+    },
+    {
+      "file": "public/assets/onos-production-floor-slot-e547dfdb5e37.webp",
+      "bytes": 53956,
+      "sha256": "b8ced5addd330b27380cefce4e37a95e56d90154f32746f0d8170d7af7d588ad"
+    },
+    {
+      "file": "public/assets/onos-press-machines-row-slot-3784355d542a-525w.webp",
+      "bytes": 34938,
+      "sha256": "a8d8640a0421cd1d808b6caa3b16d0ea44eafcf67d4e7598e258401e69d8b1d5"
+    },
+    {
+      "file": "public/assets/044f629c5a70-68e34c39638ac15970c6717c_image-3.webp",
+      "bytes": 95492,
+      "sha256": "4997cbf1375340b95684cda94b35dfccb9c665bc7397406561e0af4ecd4e67ae"
+    },
+    {
+      "file": "public/assets/62379ae07751-68d6314bdbf908695fdc3d3e_blur.svg",
+      "bytes": 821,
+      "sha256": "82c3ac0f3abcaf253c4f32e276eeb750a7e761ca6e4503ab59f4f5af1bcf2339"
+    },
+    {
+      "file": "public/assets/onos-finishing-table-slot-33fb02620915.webp",
+      "bytes": 37282,
+      "sha256": "18e89c9ac8f38d059c475fab5862b68fb2df82d0dc51da3afb99c55bb7076b7e"
+    },
+    {
+      "file": "public/assets/f6fb857a05d1-68d1288562216d12f8801f37-68e3748906d641fb7c119f89_counter-video-poster-00001.jpg",
+      "bytes": 52544,
+      "sha256": "921d1db47c9d93643f7d984b1275f42bff48e3d7f92810a41e3687dbdead33fe"
+    },
+    {
+      "file": "public/assets/383a4a9522fc-68e3860518576ae8099df460_Counter-Line-p-800.png",
+      "bytes": 2443,
+      "sha256": "55e427118ce5a0cbff0be6ed10415c65ae97e3c29d8c3226da3620af4b241b41"
+    },
+    {
+      "file": "public/assets/onos-production-reel.mp4",
+      "bytes": 683921,
+      "sha256": "fe28fc22256e5655026c6d89dd7d268989d0c509779988a8301458d917d15fec"
+    },
+    {
+      "file": "public/assets/99b77a69802c-68e36225515462be8d353c2b_Product-8.webp",
+      "bytes": 25462,
+      "sha256": "0c5ac6c5ff1fe4712abe8f67369509e6f7dbcc54bfc7b846f74923388ce85c02"
+    },
+    {
+      "file": "public/assets/babb6ebf179b-68e0a324ecc054b681e1cb5b_Client-image--4-.svg",
+      "bytes": 4844,
+      "sha256": "d14043dd9cb5e13df46b5f55b543e785f40dc178d248c39ff09aaf63444a98ac"
+    },
+    {
+      "file": "public/assets/2b24032b0ac7-68e1e92ebc2f8e7f7dd6d052_testimonial-Slide-Arrow--1-.svg",
+      "bytes": 282,
+      "sha256": "4288529c0f65ba9e1c1a928a72bfcb818e93e8328b400fec5c7107330b50e991"
+    },
+    {
+      "file": "public/assets/588ff987507b-68e3860518576ae8099df460_Counter-Line-p-500.png",
+      "bytes": 1392,
+      "sha256": "893049e6426fb5f1c831c1c37f513c3cbdd8caf2441a23a9f6f4a0564ac657ae"
+    },
+    {
+      "file": "public/assets/fec1c11b8e15-68e3860518576ae8099df460_Counter-Line-p-1080.png",
+      "bytes": 3740,
+      "sha256": "a273a62fc198fc2540b3381078fae4e5cba05f1456450b98e112044953e51786"
+    },
+    {
+      "file": "public/assets/b7f3cc4d1234-68df5f9eb1faa87c52dcbf9b_Service-Image--4--p-500.webp",
+      "bytes": 17764,
+      "sha256": "ad1b0385c0347d3e027b0188dfc0d0b490aade80b1656c676a60ed717af3a2fc"
+    },
+    {
+      "file": "public/assets/onos-production-floor-slot-52d70e14a4fd.webp",
+      "bytes": 148066,
+      "sha256": "a35a3138d30bba0e6c41eec51186f80d2c974ae14b66d79d2fdff374273e9fd5"
+    },
+    {
+      "file": "public/assets/421a6b3da7c0-68d1288562216d12f8801f37-68e4bc3a1992c6b0b7d18443_Video-02-poster-00001.jpg",
+      "bytes": 52731,
+      "sha256": "6c643f37cd7d4e70b729dd4d97edeb549563ab84a68f63c9cf16e3baf136b92e"
+    },
+    {
+      "file": "public/assets/onos-partner-meeting-slot-05a540b58921.webp",
+      "bytes": 120768,
+      "sha256": "557bf97286214efd92f4356b4e19c55952f8ef41895c4ff621735dddf417391a"
+    },
+    {
+      "file": "public/assets/a7358f674f5d-68e25528f043e1ae90e95631_case-study-image-6.webp",
+      "bytes": 140096,
+      "sha256": "caac78ba34c6ab5088850fb1b469b7319b96d0b77bd619e342f896d53e2a4ce0"
+    },
+    {
+      "file": "public/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg",
+      "bytes": 1141,
+      "sha256": "5dc12edac3be0be032061d52ff4e04811cca7726891a78b4dfa7b8eba0823cb6"
+    },
+    {
+      "file": "public/assets/c84ffa4fb2b8-68f0d76a4b953aaae184fd6f_image-8.webp",
+      "bytes": 103820,
+      "sha256": "0e26f488c6a146fd06baff150da57c513271eb2d49bf85121c167b73f4061013"
+    },
+    {
+      "file": "public/assets/onos-press-machines-row-slot-a61c1aca7ee7.webp",
+      "bytes": 30136,
+      "sha256": "b5d74e8ec0698555469922aff60064e8988294b3848c3b14dc018b857771b38e"
+    },
+    {
+      "file": "public/assets/769cefdc4eb2-68d1288562216d12f8801f37-68dcaf0cefe8d0466c2141cf_hero-video-transcode.webm",
+      "bytes": 3060661,
+      "sha256": "b1b7590885f051fa1d9ce1113d0d6f9d8c3265818f708e381a5e7924f6e0d173"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-bf56dbb39faa.webp",
+      "bytes": 121602,
+      "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-0fcabf3332a4.webp",
+      "bytes": 85324,
+      "sha256": "39292e2c50cd1ba4e9f8179cead0c24dc5fd3894fcb4f836c86ea613586fcbda"
+    },
+    {
+      "file": "public/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg",
+      "bytes": 1249,
+      "sha256": "8b909b5ddc625a5ee60a584951f5ec3e0625df3fe91766d6793cba7b207989f7"
+    },
+    {
+      "file": "public/assets/215864445fe2-68df5fd46f6e13be0b0f8839_Service-Image--6--p-500.webp",
+      "bytes": 12134,
+      "sha256": "4bb1542375e7886767774ecd11fedd6a7552627ad05ab0baf393fc78a0504d33"
+    },
+    {
+      "file": "public/assets/a1f02455f6d5-68df5fc3dd6919f447f80a49_Service-Image--1-.webp",
+      "bytes": 127234,
+      "sha256": "250644eaf5c684578c3fd35c0ef215d76688784d4a15944d45aa8ea070bd190b"
+    },
+    {
+      "file": "public/assets/onos-press-machines-row-slot-a735c7f18d7a-500w.webp",
+      "bytes": 35616,
+      "sha256": "1fccb6859d8627635ec0d4d4244bde4e20f2c1deeac5189b8b3d8848c84b6e67"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-56b1595ce856-500w.webp",
+      "bytes": 71784,
+      "sha256": "aaa4af3d97f4fb47a85c4eefef5799a7be86f325ce9b7a2a77b14137a0c4ffa0"
+    },
+    {
+      "file": "public/assets/64004978aafd-68e362240c2d1510981b1f9e_Product-5.webp",
+      "bytes": 10174,
+      "sha256": "a3febb3984b9cf402360522817da1e49d86eec5f7c6eb3c426c413eb63c2eb0a"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-03ca0fd1e5a0.webp",
+      "bytes": 47246,
+      "sha256": "b008a7f097065b9f55f3f58ceaf2ebc2d3c386a70fd096dd63f284249bccfbec"
+    },
+    {
+      "file": "public/assets/4c3c93203a9f-68d1288562216d12f8801f37-68e3748906d641fb7c119f89_counter-video-transcode.mp4",
+      "bytes": 5346079,
+      "sha256": "14c73baddec30cafdf31ab5e6bd7270981ce46cc66429d417dbf08a347048aaa"
+    },
+    {
+      "file": "public/assets/a5bb7b038fbf-68f0cd26d6a7b86a22158acb_Team-Members--1-.webp",
+      "bytes": 16562,
+      "sha256": "f103d784b15aefcb05488c26a2b834fe7a608f3ac773f23e438018fa1b0000c8"
+    },
+    {
+      "file": "public/assets/onos-press-machines-row-slot-a7358f674f5d-760w.webp",
+      "bytes": 59478,
+      "sha256": "cbcc42cfd376f35e9679efaffd3b834b028a489adf172d07439249c506ff6c1d"
+    },
+    {
+      "file": "public/assets/5512662f1cd9-68e77fac2235d9ea8f316c41_Untitled-3.webp",
+      "bytes": 10900,
+      "sha256": "96f2ec6a3db037ba0e18fa2479187550929d39a194c0688259d950384d7b80c1"
+    },
+    {
+      "file": "public/assets/onos-facility-me-linh-slot-709dd11cac55.webp",
+      "bytes": 47186,
+      "sha256": "0905eb749e2421f90cb507d6a5ed886c9945129ef367697f75ef4360bc6691ff"
+    },
+    {
+      "file": "public/assets/75e8f722a505-68d527b447e1a5cc60cc1c27_button-icon.svg",
+      "bytes": 253,
+      "sha256": "d13f4bc4024add2c76a9272624bee12820f62a7ce9d2f206aa70f3e63f64babc"
+    },
+    {
+      "file": "public/assets/26ee16585c13-68e34c503ed0adec5ca1c9f7_image-4-p-500.webp",
+      "bytes": 37664,
+      "sha256": "a8e79d39fcf0de250a7ff72225a67e367cf5787d21b846e8eb6ad94591bc32cb"
+    },
+    {
+      "file": "public/assets/2189a248897a-68f0cd27d2cbc9bf9ba9b734_Team-Members--5-.webp",
+      "bytes": 31556,
+      "sha256": "fc2e613c5614f38ea8e0feeb5a00aa698f7badcc13af5cba1587334160e2b7ad"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-bf56dbb39faa-700w.webp",
+      "bytes": 121602,
+      "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44"
+    },
+    {
+      "file": "public/assets/ec61ce0ba60c-68e5fa805e7632fa2bde6893_Service-Fratures-Icon--2-.svg",
+      "bytes": 5173,
+      "sha256": "71eec634ca23046e0fbfeb39846f9121a38580b2a7e18ea0bd83d68fcf506b0a"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-33ca09a41b60.webp",
+      "bytes": 121602,
+      "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44"
+    },
+    {
+      "file": "public/assets/b4b334dc3333-68e78528719951b56187c851_Untitled-8.webp",
+      "bytes": 14824,
+      "sha256": "7f1541e5643dde1609aea6e9208b140b868157bdbd83fce72fa66327ad2f1f61"
+    },
+    {
+      "file": "public/assets/0cce9e8f6c9c-68e2550a6393cda20820810b_case-study-image-5.webp",
+      "bytes": 138854,
+      "sha256": "6e87f30a3ee9c7f4a664c735b5561318bc97db135755732397ac903379bbbc37"
+    },
+    {
+      "file": "public/assets/919b6e982e1e-68dd10c0b38ff642330975ce_Icon-04.svg",
+      "bytes": 4074,
+      "sha256": "0ed1063d239bb88f06ace217c06bbdc74d2ad1cbe66439f0a6f2ca959b3eb472"
+    },
+    {
+      "file": "public/assets/37c4af51ec1e-webflow.36bdfbad.90c960e41ed53aaf.js",
+      "bytes": 1902,
+      "sha256": "f41c42a5978a544197ac7d9fae201834182cea58673592258c1b0548fcb3f1b1"
+    },
+    {
+      "file": "public/assets/onos-finishing-table-slot-da773a74eeb1.webp",
+      "bytes": 35640,
+      "sha256": "e4eb29f7667af9ec0c23940e5702e7652427259b6a85ef39b6bc1364f7ff25b8"
+    },
+    {
+      "file": "public/assets/8169b0f5436a-6900978be722667c0731fdce_3--3--p-500.jpg",
+      "bytes": 30169,
+      "sha256": "5581cb8fdd7495bd1a9bed1c5275cb4e40ffcda635a8458e3842e9ed38827482"
+    },
+    {
+      "file": "public/assets/287932d7ab5a-68e09864627b68238e93a027_Product-Image--1-.webp",
+      "bytes": 24146,
+      "sha256": "76592dbd9354435da367672b32917062d84ba212223c015867c6a82820f3018a"
+    },
+    {
+      "file": "public/assets/onos-laser-cut-gifts-slot-6cb1e02b97db.webp",
+      "bytes": 51056,
+      "sha256": "d37b52d7dac3e26ed09ad56458887e14388dce04afbec30b8623ee7482caaeb2"
+    },
+    {
+      "file": "public/assets/a412c318c8fb-68e34c2b5b4fb72c7d9dd691_blog-big-image-2.webp",
+      "bytes": 143988,
+      "sha256": "bfba1aa0c4107c2e6b554ba6a4e9653c07b88e3f2c5ba672f4fdf73d1393dc07"
+    },
+    {
+      "file": "public/assets/onos-finishing-table-slot-709f2e70e0a2-800w.webp",
+      "bytes": 71654,
+      "sha256": "95ecc5f21656938d4bc75806b5b888555ff03f3376552f27bde7ba5d75f0da5b"
+    },
+    {
+      "file": "public/assets/65f9191bba7c-68e2214d469b016c2e9d689d_Award--1-.svg",
+      "bytes": 485305,
+      "sha256": "66e194fbfbb792c7243cf8b41c08c54d3ec6ff7a928e76305791cb60a943e1e2"
+    },
+    {
+      "file": "public/assets/onos-partner-meeting-slot-2012b8c229c2-524w.webp",
+      "bytes": 29926,
+      "sha256": "63c0204a9b81454d1569e6eb09c8e29db48be4b1620c415ffe8fcd9a94027ecb"
+    },
+    {
+      "file": "public/assets/onos-equipment-embroidery-slot-665b1bd0a788.webp",
+      "bytes": 50438,
+      "sha256": "c0afe733d73ef654dce0c378aaef62fdf6e69a1931ef273c15edad3f300f9276"
+    },
+    {
+      "file": "public/assets/c5db671c6ccc-68e36225ce6a424be8999cdc_Product-7-p-500.webp",
+      "bytes": 17648,
+      "sha256": "604e958ad905d7c3df7dedf3ef0d15740e3952352b35328468aa917e714cc8cc"
+    },
+    {
+      "file": "public/assets/35d338b6bbf8-68e34c5441f10182d22ca65b_blog-big-image-4.webp",
+      "bytes": 358244,
+      "sha256": "63a63bf4e17d26dd7349cb0420c2fcb2f7e4a3f85024e2feb011a0963db98a71"
+    },
+    {
+      "file": "public/assets/18abbc66ca4e-69032939b90d78f4742e4808_open-graph--1-.jpg",
+      "bytes": 420868,
+      "sha256": "79f8161a31b3968fc7fb89ffa9e71948769014224d77efe6e40810e3766bb0ce"
+    },
+    {
+      "file": "public/assets/f1505a4586ec-68df5fc3dd6919f447f80a49_Service-Image--1--p-800.webp",
+      "bytes": 20596,
+      "sha256": "e3efc136505287687cc7531bf2f1a7927d34e0f164a2e23049ae621a4df1a013"
+    },
+    {
+      "file": "public/assets/f4b19631b94c-68df5f9eb1faa87c52dcbf9b_Service-Image--4--p-1080.webp",
+      "bytes": 45286,
+      "sha256": "5d93c91916761d2a64cc2880336a11278cb362d63591248d74d8f05ec23d2534"
+    },
+    {
+      "file": "public/assets/onos-dtg-machine-detail-slot-f43d8b900690-760w.webp",
+      "bytes": 31828,
+      "sha256": "2f6af4ae3ee9cd2cdd7ec411c22d1b734f9a0c5481d24bef125d98ba2e297acf"
+    },
+    {
+      "file": "public/assets/23eb24f9ba4f-68e0bd5d62070af5476040b7_01-p-500.webp",
+      "bytes": 21720,
+      "sha256": "2331e6ef521fdcb02a1e77636ed1a240a9d5f11e83bb1809ef3df064ba22591f"
+    },
+    {
+      "file": "public/assets/69f77842671e-68dfaae5b689f779b96d4111_Industry-image-bg--4-.png",
+      "bytes": 57910,
+      "sha256": "d42b8b8f2625195d8c829b9fe785aaf29691131d546dbd99d6c8ff8873acc88f"
+    },
+    {
+      "file": "public/assets/onos-dtg-machine-detail-slot-34855537bbe3.webp",
+      "bytes": 14130,
+      "sha256": "9543cf23b750b3f661b43284e1478a685e5e7b617a1615ccba674b2119f3a389"
+    },
+    {
+      "file": "public/assets/149bf62245de-68e362259d84e2e8f428b979_Product-6-p-500.webp",
+      "bytes": 25610,
+      "sha256": "e8b8b955280154be7f270e8d0e7b893c9c6daa4ec883773e1bc792008b807949"
+    },
+    {
+      "file": "public/assets/73827beef985-68e0a3232f5c74270c386291_Client-image--1-.svg",
+      "bytes": 5525,
+      "sha256": "bdf9d165b3cabc94fd9b0540bb1c300a4d8a6dc1a58aa0eb795aa0cc2c7e44f9"
+    },
+    {
+      "file": "public/assets/onos-embroidery-slot-64004978aafd-525w.webp",
+      "bytes": 47832,
+      "sha256": "029bde9228db16229fa36f513a0821a7cf8c71cef995351189fc005fd2b65017"
+    },
+    {
+      "file": "public/assets/6cb1e02b97db-68e78528ba9ac3e9501427e8_Untitled-7.webp",
+      "bytes": 18332,
+      "sha256": "eb851283653295cb04af7f21d52bddfa9d84e18d8f0d7f672fc3e5160a01604b"
+    },
+    {
+      "file": "public/assets/onos-dtg-machine-detail-slot-4e4b73038efe-500w.webp",
+      "bytes": 21626,
+      "sha256": "63a15229bdd27a2f038a9f3b9abb274b23ee43180617986ebeb393f17d69fb66"
+    },
+    {
+      "file": "public/assets/2d1112c8a114-gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    {
+      "file": "public/assets/e753930fb6e8-webflow.623fd989.7bb82f3d35b1a445.js",
+      "bytes": 1865,
+      "sha256": "49bf701151d90182ad9be6dca3239272bb8ba24a978dbd318d8c86e79b04d9e5"
+    },
+    {
+      "file": "public/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg",
+      "bytes": 1284,
+      "sha256": "5a7d880f4bb12fafaba5706eaba60da32e9cff08d24ac7914be472a60c319d8f"
+    },
+    {
+      "file": "public/assets/bcf85a6254b8--U0IXSmp6kc",
+      "bytes": 137442,
+      "sha256": "50a19a2ac65cdc73dbe4e4b4612ef17b5566c8d5c2a618f2e78d4e0c3983e968"
+    },
+    {
+      "file": "public/assets/d576bd9217ad-6954ffc673b0708bd9bbdbff_access-image.jpg",
+      "bytes": 825277,
+      "sha256": "d35232dc3976bb09a054b5cf04423d6705fb8b5a73b558f14542f37bafb0457e"
+    },
+    {
+      "file": "public/assets/48c00c6655df-68dfaa6b3891620d3b4a31f5_Industry-image-bg--2-.png",
+      "bytes": 51646,
+      "sha256": "129234ed07e55b0af045f0ea21727adbd4c5cb5d57dba1b1cfe1b6c32793067b"
+    },
+    {
+      "file": "public/assets/124d65582cc8-68e5e433f5353269f863ba00_Service-Image--2-.webp",
+      "bytes": 208106,
+      "sha256": "3e8278f72cf1cfacf46cb4f1660cef20f3e39ec168a060a564022948fcf714f5"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-0fcabf3332a4-760w.webp",
+      "bytes": 85324,
+      "sha256": "39292e2c50cd1ba4e9f8179cead0c24dc5fd3894fcb4f836c86ea613586fcbda"
+    },
+    {
+      "file": "public/assets/429a579e2ccc-webflow.schunk.61b534daaaeddbc7.js",
+      "bytes": 8640,
+      "sha256": "912b131848eea5ad53d359c1ce50a06f23cb380d36696cf5cee3287c9ca4b937"
+    },
+    {
+      "file": "public/assets/430137efdaad-68d1288562216d12f8801f37-68dcaf0cefe8d0466c2141cf_hero-video-transcode.mp4",
+      "bytes": 3915600,
+      "sha256": "6b5650552a964387488d91fce42d153fd97c1a52840ea0965464b6dd3ae9725b"
+    },
+    {
+      "file": "public/assets/onos-embroidery-hero-slot-2359952e3860.webp",
+      "bytes": 40896,
+      "sha256": "468117bb63d69f234df55e0bb943b57e4e72d800a8f179fc76d62bd849ce4879"
+    },
+    {
+      "file": "public/assets/onos-equipment-embroidery-slot-0cce9e8f6c9c-500w.webp",
+      "bytes": 38832,
+      "sha256": "bfb6e8b759bf3bb10815c7c6d7547289db5a50de29b590ecd2d2398cdc90b0fc"
+    },
+    {
+      "file": "public/assets/onos-warehouse-inventory-slot-060aab7641ed-500w.webp",
+      "bytes": 44446,
+      "sha256": "49858c704306e7bfede1a494425694878db9678405f5033fa5131980bbad0964"
+    },
+    {
+      "file": "public/assets/onos-partner-meeting-slot-acc14bd76ebf.webp",
+      "bytes": 1772,
+      "sha256": "fc3323ba6b9ef73452f09e60e8289969cd11a60a6ea5b6d4f2f8890d375bb065"
+    },
+    {
+      "file": "public/assets/f222f22a190d-68e2214da3e3ddc545e1c8f8_Award--2-.svg",
+      "bytes": 41446,
+      "sha256": "0349475ca9324ed989bb11e2fd467037224b6f7fd8e37d07ba92b5dc8e28b333"
+    },
+    {
+      "file": "public/assets/cb361e303112-68dcd946978511538d622f29_Group.png",
+      "bytes": 5386,
+      "sha256": "d9bdb932d923835cafc7fea50596762a6bcdbe97d509d3fd547e7e0e121ab85e"
+    },
+    {
+      "file": "public/assets/fa8efdba11e5-68e33b240f41e4018e30d8e1_Client-Image-4.svg",
+      "bytes": 7896,
+      "sha256": "624bfd0fa3966b129252ca2ba1f595eec06b8210754506d186712f872e1b5daf"
+    },
+    {
+      "file": "public/assets/570acbb9781e-68e254eb0b7b84e9f4def04e_case-study-image-4-p-500.webp",
+      "bytes": 15196,
+      "sha256": "1d374c42e8379fd2618e54e9c5b24875e1906087b378a636877cae79c3a15d19"
+    },
+    {
+      "file": "public/assets/5034c6b01ee6-68e36225515462be8d353c2b_Product-8-p-500.webp",
+      "bytes": 21832,
+      "sha256": "d103b1782667f60f4de5f58eeddec2cb4621a873b52471923cd93b614a361391"
+    },
+    {
+      "file": "public/assets/768ea262688c-68f0b900e90d66f1e6a7f4c3_2.webp",
+      "bytes": 57390,
+      "sha256": "e5aefa23ff3ae88ee27567765b2790a3a275554bf82415d6e1c999fcc552285f"
+    },
+    {
+      "file": "public/assets/onos-equipment-embroidery-slot-665b1bd0a788-500w.webp",
+      "bytes": 45546,
+      "sha256": "3f4fef8f63d1275d4e90660d7499fc5e99678dcde9dd16a3996b5edca9f5ed6d"
+    },
+    {
+      "file": "public/assets/0d16070f386b-68e397aa9321643777d22395_Step-Icon-3.svg",
+      "bytes": 5598,
+      "sha256": "49469745a823c6add926603eada11b9c769658fee18f9cdb22ad498be075fbb0"
+    },
+    {
+      "file": "public/assets/536a795c5a7c-68dcc369de4ced980408d673_-.svg",
+      "bytes": 237,
+      "sha256": "1b10a678a5d744701c2dfa087235e549f2d4c41bb8aeebe14c2bc24c2b7a70ef"
+    },
+    {
+      "file": "public/assets/onos-warehouse-inventory-slot-35d052637085.webp",
+      "bytes": 239450,
+      "sha256": "774cfc94d99302f54800e3e2715de9b8e13844f4af9c18dc9094a062e3863352"
+    },
+    {
+      "file": "public/assets/onos-dtg-machine-detail-slot-d2c8e6c275a9.webp",
+      "bytes": 14130,
+      "sha256": "9543cf23b750b3f661b43284e1478a685e5e7b617a1615ccba674b2119f3a389"
+    },
+    {
+      "file": "public/assets/1ca0aa821cd9-68e34c235b42befd11b5ec93_image-2.webp",
+      "bytes": 92450,
+      "sha256": "897c8b1fddd1d6358ec04ca90a6136d6aef9740280cf56ffde729297652398a4"
+    },
+    {
+      "file": "public/assets/onos-dtg-machine-detail-slot-4a6f1a59d6b5.webp",
+      "bytes": 14130,
+      "sha256": "9543cf23b750b3f661b43284e1478a685e5e7b617a1615ccba674b2119f3a389"
+    },
+    {
+      "file": "public/assets/08f3412fcb24-68e10f8f4ab30641ef1be4bf_testimonial-images--4-.webp",
+      "bytes": 58028,
+      "sha256": "c88d986318e9630d1912c15e8264533b8825db9fc377af92739150117279d212"
+    },
+    {
+      "file": "public/assets/3d5f11e48633-68e782390659bf5ac48b0d09_Untitled-6.webp",
+      "bytes": 19388,
+      "sha256": "af86ace654067a450f54c0bef1dc35e828d769a7584c36aa7c211f5ab698d661"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-17ed536d0c8a.webp",
+      "bytes": 121602,
+      "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44"
+    },
+    {
+      "file": "public/assets/f5a760e3742d-68e4cb3edc42b538e669f498_social-icon--1-.svg",
+      "bytes": 327,
+      "sha256": "ac6e867babcf92168b63a5d261f0b2ddf919af6703223e08cda44356fe1fe3c2"
+    },
+    {
+      "file": "public/assets/onos-finishing-table-slot-7b64da3ddce9.webp",
+      "bytes": 35640,
+      "sha256": "e4eb29f7667af9ec0c23940e5702e7652427259b6a85ef39b6bc1364f7ff25b8"
+    },
+    {
+      "file": "public/assets/05a540b58921-68e34bf4a3e3ddc5450493cb_blog-big-image-1.webp",
+      "bytes": 82396,
+      "sha256": "5421dade90714de2cc997f48adee9556d4a4272d8f33f642f0186844dd25dea3"
+    },
+    {
+      "file": "public/assets/9e2147816950-68ef8c740c7b68bd15f4eeec_Energy---Power.svg",
+      "bytes": 5896,
+      "sha256": "1528bb8e1409aeb48b6ef90d72b5161fa565523dd8481fce52425c4075026ae9"
+    },
+    {
+      "file": "public/assets/onos-finishing-table-slot-768ea262688c-533w.webp",
+      "bytes": 43824,
+      "sha256": "07a5e882efe5486eaba14bfa6bf5ed4456006e18d7e5988f8e1d0be350cdb6b6"
+    },
+    {
+      "file": "public/assets/168b3e8f9814-6954ffc673b0708bd9bbdbff_c6d4168604ef3f8f5fa13d42b2ebd32d_access-image-p-800.jpg",
+      "bytes": 73325,
+      "sha256": "ded46a7651f7cade46652d96186d43a7d6a7e4f9f317ddce984f38bdbbead0ab"
+    },
+    {
+      "file": "public/assets/3784355d542a-68e097b6914d80d53f78e44b_Product-Image--2-.png",
+      "bytes": 105799,
+      "sha256": "c5b7cee58b9344c03ca02070d7911ce7d2b95a7d3dc00b23faebd2af25afb0a0"
+    },
+    {
+      "file": "public/assets/onos-equipment-embroidery-slot-0cce9e8f6c9c-760w.webp",
+      "bytes": 72798,
+      "sha256": "2cd02fc19accc23705f461df24534ebbc555a5dd00887011c680168f33b1fc60"
+    },
+    {
+      "file": "public/assets/2012b8c229c2-68e0bd5d62070af5476040b7_01.webp",
+      "bytes": 57118,
+      "sha256": "85607083295667c1025b00a11ba8c007048811b732423bc7fdfa8de9f93829c6"
+    },
+    {
+      "file": "public/assets/a19694e03003-6903036277cea5ae1a2d9233_Brand-White.svg",
+      "bytes": 2358,
+      "sha256": "a79b0901e19c70ba3dc6267a3cdc3424d9b29b37efb1566f5a9a1c4d0107d754"
+    },
+    {
+      "file": "public/assets/onos-press-machines-row-slot-f9aa8ad652f1-500w.webp",
+      "bytes": 32016,
+      "sha256": "f7935e8e3ace51a642cd7cf92e213394f5975be3d2577bc4a6205849afad6917"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-34f42b969523.webp",
+      "bytes": 58426,
+      "sha256": "4ae71b644dff3761df53d62a09920cbdff2d328e39c23e89344145e05ce53cfd"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-8093152243df.webp",
+      "bytes": 47246,
+      "sha256": "b008a7f097065b9f55f3f58ceaf2ebc2d3c386a70fd096dd63f284249bccfbec"
+    },
+    {
+      "file": "public/assets/71280ceeb52d-68e34caa469b016c2ec00fe7_blog-big-image-7.webp",
+      "bytes": 243744,
+      "sha256": "2a18c85ee2c4d98917ee52de7aaef78672dc017db7e3bef4be457b4642fdeea6"
+    },
+    {
+      "file": "public/assets/34855537bbe3-68e78e965c4355e229382a24_Untitled-16.webp",
+      "bytes": 25088,
+      "sha256": "45c01ceda705406d300d4fa8fc0603c69d2ea87621c68faa24a9cb3c50be7e60"
+    },
+    {
+      "file": "public/assets/onos-finishing-table-slot-768ea262688c-500w.webp",
+      "bytes": 39594,
+      "sha256": "7a36d4c54d8afeabd8dd1130e2612320716a809d78d6fb31823d9f1e27336a57"
+    },
+    {
+      "file": "public/assets/onos-laser-cut-gifts-slot-df5362e46192-500w.webp",
+      "bytes": 47110,
+      "sha256": "28d4fc98c5c7f2a9ada61ba2fcfc3c8bcb81bd82e5ad717356d9594ec14d316c"
+    },
+    {
+      "file": "public/assets/onos-partner-meeting-slot-2012b8c229c2.webp",
+      "bytes": 29926,
+      "sha256": "63c0204a9b81454d1569e6eb09c8e29db48be4b1620c415ffe8fcd9a94027ecb"
+    },
+    {
+      "file": "public/assets/2a81782a8907-webflow.schunk.9dfb96661114d3db.js",
+      "bytes": 3087,
+      "sha256": "898acff6176baaa92e47f3ebe72d1bbc20eeab582d8aa80c307852d97e9ab36a"
+    },
+    {
+      "file": "public/assets/onos-laser-cut-gifts-slot-287932d7ab5a-525w.webp",
+      "bytes": 50706,
+      "sha256": "2779ad65a08644863ae0192cc11565a0ba449915fe2091800246cec1d219bdfd"
+    },
+    {
+      "file": "public/assets/onos-laser-cut-gifts-slot-5adfffc4debd.webp",
+      "bytes": 59854,
+      "sha256": "4aa106eb6212f12b78f7188fe7792f8e28dbc0e8b332387331d0aa15202783f3"
+    },
+    {
+      "file": "public/assets/395906f773c1-ScrollTrigger.min.js",
+      "bytes": 44235,
+      "sha256": "45327f639648f7e8ea20e3789b59723cb8f6d4fcbb0024648cf65978ca323926"
+    },
+    {
+      "file": "public/assets/onos-warehouse-inventory-slot-ee6643d259cd.webp",
+      "bytes": 4838,
+      "sha256": "fab0ad3bfa7fce91619ade56416ec966f01f25659363721b2f845cad6de9bca7"
+    },
+    {
+      "file": "public/assets/onos-facility-thai-nguyen-slot-a5bb7b038fbf.webp",
+      "bytes": 65478,
+      "sha256": "f5b93e2e7c173daa5757ed87b45e441eae5a3fafce22a2f4a4688502b142abaa"
+    },
+    {
+      "file": "public/assets/onos-laser-cut-gifts-slot-291661be0b4b-500w.webp",
+      "bytes": 44422,
+      "sha256": "9aef26968e4553ba9410b09ffaef55eaaa74d4089cf6fdc69ab60a99429cde14"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-c84ffa4fb2b8.webp",
+      "bytes": 121602,
+      "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44"
+    },
+    {
+      "file": "public/assets/31c5c34b02e9-68f0849840d991a6278e6745_Fav-icon-256.svg",
+      "bytes": 820,
+      "sha256": "5c4d4452e67662459aa136d7d474f90902d83bbf2e31e5267ca6c6f39cc8ae1c"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-b67523de0d62.webp",
+      "bytes": 6474,
+      "sha256": "3a9e1fa7217509cfec6afa9dbc14a7cc96251b21c020b4d327903e04587544c8"
+    },
+    {
+      "file": "public/assets/146178125e1e-68e34c7154f05f793faf9888_image-5-p-500.webp",
+      "bytes": 21996,
+      "sha256": "57cb535e60540db6df3538000cb404f936a1e71cf8414635b6d54ff1362677bc"
+    },
+    {
+      "file": "public/assets/onos-dtg-machine-detail-slot-4e4b73038efe-533w.webp",
+      "bytes": 23816,
+      "sha256": "507f43e4ec03d62a8bef2e234a46fa4e9ac67895a02dc124fe6ca082f9ba5da8"
+    },
+    {
+      "file": "public/assets/onos-press-machines-row-slot-f9aa8ad652f1-1080w.webp",
+      "bytes": 108916,
+      "sha256": "0304f13eed1832bde286e9a8519e5d5b6b6c2f4895c62c267ee64b2fe525081d"
+    },
+    {
+      "file": "public/assets/b40286a28ab0-68df5f9eb1faa87c52dcbf9b_Service-Image--4--p-800.webp",
+      "bytes": 31348,
+      "sha256": "97412d2034b6596c789ca362bd4b0f2b5df8beefc10a66b0bf1fc442ebb8b8e0"
+    },
+    {
+      "file": "public/assets/f01bd9a2f8dd-68e5e433f5353269f863ba00_Service-Image--2--p-1080.webp",
+      "bytes": 49076,
+      "sha256": "4b40f8797b320d234185d2171d7a43bc57c492637a0ec1ce8244338f026d83d2"
+    },
+    {
+      "file": "public/assets/523c719f4d04-690092401550c668556b1522_about-round-image--3-.png",
+      "bytes": 10243,
+      "sha256": "7540d33b07f9758cc12a4ecb659d82bb8b09cf53468f7fa855e717379d62fcf0"
+    },
+    {
+      "file": "public/assets/5931433e326a-68e34c9df2a2b68f26b6c08e_image-7-p-500.webp",
+      "bytes": 34404,
+      "sha256": "bc88d7fbf6e237ce98b9577d8eeb410482de4e882c20809eb245795655374fdf"
+    },
+    {
+      "file": "public/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg",
+      "bytes": 495,
+      "sha256": "be13767e8222f8a0bd1b17072f7839c5fefc0ecd7bfe49c9bb24dbae249ccbbc"
+    },
+    {
+      "file": "public/assets/onos-finishing-table-slot-79a31a2d5450.webp",
+      "bytes": 63818,
+      "sha256": "a65d2407403e28d337b5bb464aa1573feea2979c51b45a0a1bf6ecbc7bbd53e4"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-c84ffa4fb2b8-700w.webp",
+      "bytes": 121602,
+      "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44"
+    },
+    {
+      "file": "public/assets/34f42b969523-68e10f8fb534a5ce614059b2_testimonial-images--2-.webp",
+      "bytes": 55574,
+      "sha256": "1f11eb9987cc72a682118f785d9c54610d5bc45dc18a466a401a3ea95f78f877"
+    },
+    {
+      "file": "public/assets/46a30e49739d-68f0cd279465ea6b5dad0320_Team-Members--3-.webp",
+      "bytes": 21624,
+      "sha256": "88d11e2e8ce461bcc5510cd351662369a51fd219d47abf9b22583284d98a1058"
+    },
+    {
+      "file": "public/assets/onos-press-machines-row-slot-b38b158ba43b.webp",
+      "bytes": 4578,
+      "sha256": "5134e76b6b3f4cbdc8a388cee6e796d34268d443776ea7b87b8bd6378e24a613"
+    },
+    {
+      "file": "public/assets/709f2e70e0a2-68df5fd46f6e13be0b0f8839_Service-Image--6-.webp",
+      "bytes": 105660,
+      "sha256": "9db93bf329dd89431f5ba2986500040344201699200dcedb9c44c50e6dff0ce9"
+    },
+    {
+      "file": "public/assets/onos-embroidery-slot-1ffdc9ac2aa3.webp",
+      "bytes": 22062,
+      "sha256": "51f29c8c5b8b5d95a4c722338c41ece14c85f659365e2f1f83649f6ab387182e"
+    },
+    {
+      "file": "public/assets/onos-laser-cut-gifts-slot-df5362e46192.webp",
+      "bytes": 50706,
+      "sha256": "2779ad65a08644863ae0192cc11565a0ba449915fe2091800246cec1d219bdfd"
+    },
+    {
+      "file": "public/assets/060aab7641ed-68e254eb0b7b84e9f4def04e_case-study-image-4.webp",
+      "bytes": 67606,
+      "sha256": "5bef0ade4397de0669146982e68a4e8ecf3580aabee5295988ff08bd94425df6"
+    },
+    {
+      "file": "public/assets/onos-finishing-table-slot-709f2e70e0a2-1400w.webp",
+      "bytes": 158298,
+      "sha256": "dd9fb00ab23f22dcc603e37b7e36e319230bfde2f6f1405e3744ee7d1e2be858"
+    },
+    {
+      "file": "public/assets/onos-equipment-embroidery-slot-0f41e795711f.webp",
+      "bytes": 177410,
+      "sha256": "63f438611b4a11365d6ba65f90a69d45b865d72fa746cf2bc01b189900e281bb"
+    },
+    {
+      "file": "public/assets/baddf10c0c4d-69030087fdeff1c0b5795cfa_Client-images--1-.webp",
+      "bytes": 1288,
+      "sha256": "de9222fddb14529ceb50d132a4af900c24809083a106898813616875e5149ab0"
+    },
+    {
+      "file": "public/assets/29a7d1006974-68e4b81e90c5a2d2ed6b1bdb_Client-image--9-.svg",
+      "bytes": 2599,
+      "sha256": "932da63af626a058391e0dbddd3ed5965dd142de048f022bd0bddff26c5b45a0"
+    },
+    {
+      "file": "public/assets/onos-warehouse-inventory-slot-060aab7641ed-760w.webp",
+      "bytes": 89348,
+      "sha256": "15964e6d57c8028355e8e9c7c7b82238da7ef4f0f1cc3c1e0d400829b8ff0f58"
+    },
+    {
+      "file": "public/assets/d2c8e6c275a9-68e78239ba9ac3e950131f4b_Untitled-4.webp",
+      "bytes": 28978,
+      "sha256": "02a3f0754125e27628d56aad403a3817bec20a73628135251755c74f0688ee51"
+    },
+    {
+      "file": "public/assets/onos-embroidery-slot-64004978aafd.webp",
+      "bytes": 47832,
+      "sha256": "029bde9228db16229fa36f513a0821a7cf8c71cef995351189fc005fd2b65017"
+    },
+    {
+      "file": "public/assets/787953046057-68df5fb4697d6800a50442a3_Service-Image--7--p-800.webp",
+      "bytes": 10406,
+      "sha256": "4588140f1200b6bb744b9b8c33ffa323d72aa6e82392fe287b57f65b64ec23ee"
+    },
+    {
+      "file": "public/assets/092f666590da-68df5fb4697d6800a50442a3_Service-Image--7-.webp",
+      "bytes": 55842,
+      "sha256": "6f85357a446b444888bafadc8234bebe5059332e11ad51c1648a2e0a1b03237d"
+    },
+    {
+      "file": "public/assets/25fa06e607a2-webflow.01c1af1c.33a1f3a415e0c2c5.js",
+      "bytes": 5083,
+      "sha256": "2c0202260d8c85e748fe821b58c95ac1cfd922f34e29e2f8aefcd13f8a2093a5"
+    },
+    {
+      "file": "public/assets/ab05bb3ff732-68e33b2be1011afe9783e44e_Client-image-5.svg",
+      "bytes": 7331,
+      "sha256": "aed6b391a92d4c98eed9edceb2c4e849cabe9fc14510e7ac722acdfd15ce5507"
+    },
+    {
+      "file": "public/assets/cdf005dc5768-68e4cb3fe740fb818253d579_social-icon--2-.svg",
+      "bytes": 3969,
+      "sha256": "258a8bea9ba7f538569b0d1b7875e9c6bad5086be62db3f4181147ad04f3c16d"
+    },
+    {
+      "file": "public/assets/onos-facility-california-slot-46a30e49739d.webp",
+      "bytes": 15554,
+      "sha256": "794bcf47b39e86216ee9011438c5c0c1b61c887d7aaed09aea035bcda8e31921"
+    },
+    {
+      "file": "public/assets/b67523de0d62-68dcc4be4bec1b8c53916029_Avatar-Image--2-.webp",
+      "bytes": 3484,
+      "sha256": "bf5f7fe50837f698f9115b26edc944cfe073cde07c9bebb3d4ce1f4f997f32c0"
+    },
+    {
+      "file": "public/assets/onos-finishing-table-slot-79a31a2d5450-500w.webp",
+      "bytes": 33820,
+      "sha256": "848126050ef053ed116872c51fcd5f5fcec5d1a512a83fd6185a841a79a9ea13"
+    },
+    {
+      "file": "public/assets/9da8a14cc69d-68e0a32352dda659458f9dbf_Client-image--2-.svg",
+      "bytes": 7347,
+      "sha256": "8ee84ed9aadcc444b422e74fc88aeb3008c6fe123ab4c1c5cc8c2d65837f1401"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-56b1595ce856.webp",
+      "bytes": 121602,
+      "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44"
+    },
+    {
+      "file": "public/assets/onos-press-machines-row-slot-a7358f674f5d-500w.webp",
+      "bytes": 30316,
+      "sha256": "0a6c06543aa556d9e8f312b348675e5251490152d41bb05dbb3dc7c5a5484fd9"
+    },
+    {
+      "file": "public/assets/4de5b852c15c-68ef8c742a7bf3defa7650d3_Industrial-equipment.svg",
+      "bytes": 2538,
+      "sha256": "75d72de600abc244231422f638b67b68874f287cdee8ade88e7e462502edd174"
+    },
+    {
+      "file": "public/assets/a9658e3178bd-68dd10d7260632638bde8850_Icon-03.svg",
+      "bytes": 2341,
+      "sha256": "11309be6687c7ebe2caf2d62b0d08add22de382da018e019d69f7cb402af90cd"
+    },
+    {
+      "file": "public/assets/4a6f1a59d6b5-68e78674f6857e2847973968_Untitled-10.webp",
+      "bytes": 37524,
+      "sha256": "3a7383d9a58f907ccc610120876a495d078ac787133095c385ae81705270ef72"
+    },
+    {
+      "file": "public/assets/onos-laser-cut-gifts-slot-291661be0b4b.webp",
+      "bytes": 85990,
+      "sha256": "d20132fb3cf44cd770d04b5c4d45202a9245bf43e3bc38ec4036ed41ddd82596"
+    },
+    {
+      "file": "public/assets/03147d08ed83-68e2579794f0ac3ba256d484_Client-Image.svg",
+      "bytes": 5001,
+      "sha256": "1e0d7afc53fc37dc2a6e24b2799eccbf4f094dac54266e056d4be550d5cb459b"
+    },
+    {
+      "file": "public/assets/b50a798d709c-webflow.schunk.c1050d341df384dc.js",
+      "bytes": 417814,
+      "sha256": "75dc8f25751f22d539dea9fab9e2574d72c744a9cf159f537044fe8b0f8fd539"
+    },
+    {
+      "file": "public/assets/cbd6faacf7d6-68e34a923545f0f0d61ea5d3_image-1-p-500.webp",
+      "bytes": 16952,
+      "sha256": "168edcfb32d58a6cea510250e84f28a4685b023984b678a34a0737a566e4c253"
+    },
+    {
+      "file": "public/assets/838d1d8608fa-68e74d73933552e9dca68cd4_marquee-image--3-.webp",
+      "bytes": 4592,
+      "sha256": "5be3a5206b5c812e801912d67196ca9b59f40d64f952ad5b23081e93479defc9"
+    },
+    {
+      "file": "public/assets/6f585f94f2e7-68e496d251974662834e9c54_About-Hero-Image-p-800.webp",
+      "bytes": 24502,
+      "sha256": "8fa86e62f9bb4bd0939b2582ef0dfa8e2f21384d4bcbb2c1f9e15ce409923256"
+    },
+    {
+      "file": "public/assets/f1e0a3d2c01a-68e7852848deec80bb48aba2_Untitled-9.webp",
+      "bytes": 23938,
+      "sha256": "17f3fc2ae00181a563cf6797cc69d99904c5c0368d7293849e8d1708e77839f8"
+    },
+    {
+      "file": "public/assets/556487eef0a2-68e5fa59c4ba42c966ffaa02_Service-Fratures-Icon--1-.svg",
+      "bytes": 1274,
+      "sha256": "6ca76490aedd584c5fab708948c28c8f346beb9e767bd293c1857cb040942d9b"
+    },
+    {
+      "file": "public/assets/acc7d80c36b3-68f0cd260f33dbf1ac5cefcb_Team-Members--4-.webp",
+      "bytes": 20342,
+      "sha256": "d512804a8b4bf697d925efd0840d2d8e723bee06770ce105cd3bf7857add1354"
+    },
+    {
+      "file": "public/assets/onos-embroidery-slot-d4a40d45c081.webp",
+      "bytes": 41596,
+      "sha256": "9b03de2fdba8dd9d4e83b39149d304d32f16cf9591428ab4ce7e4ddda61301fa"
+    },
+    {
+      "file": "public/assets/6ba760b04e85-68e36a0b34626e3842846490_sider-arrow--1-.svg",
+      "bytes": 291,
+      "sha256": "42c8920256205428a9654b120fae494e73af9a475d3ef897da70bda60c8cb3ac"
+    },
+    {
+      "file": "public/assets/onos-finishing-table-slot-a18541310af5.webp",
+      "bytes": 7004,
+      "sha256": "6ab3c36b6bd5967dbd4e4c918ea1544e42050599111269511576f00a7bfd092d"
+    },
+    {
+      "file": "public/assets/onos-partner-meeting-slot-2012b8c229c2-500w.webp",
+      "bytes": 27988,
+      "sha256": "96344aae97a6bae9460482b9013eb34184f4a041fb7098183b772ce84ffdb25e"
+    },
+    {
+      "file": "public/assets/f8b956197b4f-68e4960b857104b3f49cf6eb_Shadow-p-500.png",
+      "bytes": 50305,
+      "sha256": "e94114f69144a16a7d429c4667fdabdb795099b094fffaac7ecaa4833e85d570"
+    },
+    {
+      "file": "public/assets/onos-equipment-embroidery-slot-48c00c6655df.webp",
+      "bytes": 7270,
+      "sha256": "b0d1e09299ecdee33a16dc6e35051a3489c483a9f87731bdcf982d95ef1fe531"
+    },
+    {
+      "file": "public/assets/bfcfa2bfb293-68e257aed761fb3533200be5_Client-Image-2.svg",
+      "bytes": 1978,
+      "sha256": "dab21ae7123d4a770637302b8f52e903e3b6d201d83bb0dafdb13401137e4b7a"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-17ed536d0c8a-500w.webp",
+      "bytes": 71784,
+      "sha256": "aaa4af3d97f4fb47a85c4eefef5799a7be86f325ce9b7a2a77b14137a0c4ffa0"
+    },
+    {
+      "file": "public/assets/569f9df35283-68e0b53000060b17ea5a6b03_Testimonial-Star.svg",
+      "bytes": 2310,
+      "sha256": "0c94c39f914a455c3e1b1a9e7aefad210e5b808fa8dcf4879ebab865f8964459"
+    },
+    {
+      "file": "public/assets/9a42f43e47b7-69009240e71084103dfc8390_about-round-image--1-.png",
+      "bytes": 5551,
+      "sha256": "40e38c073a6d144e88f3d79bb8dda2d52be9ceb10bb3538b3a09b9c90e2b0389"
+    },
+    {
+      "file": "public/assets/f6da47bc57d0-68e496d251974662834e9c54_About-Hero-Image-p-500.webp",
+      "bytes": 11132,
+      "sha256": "b204ab007c37efff00e0a3c01388527a4cc7a8fe48b2669ce7e34fc336b26063"
+    },
+    {
+      "file": "public/assets/66b9107ec39d-68e0f2d55bfe12b2d0d89da1_shadow-p-800.png",
+      "bytes": 200022,
+      "sha256": "66ba24022f4e2caa0bc1d0f5e9d1088996cff6cab1de550308f6d75f96cd2d23"
+    },
+    {
+      "file": "public/assets/fae2eb2a9204-68ef8c74b4dbcf9ddba15b0d_Automotive.svg",
+      "bytes": 4174,
+      "sha256": "51e92b51796ffcd6f08618fe7f4b9b979174692c3ea7bf1e6e1fa490be368f2f"
+    },
+    {
+      "file": "public/assets/76613b0dd324-68e098644bb31efae7327e1e_Product-Image--4--p-500.webp",
+      "bytes": 16528,
+      "sha256": "8955a14c1f58e9fe05c102cb0866b22501f1099711b9a4c8f725f5830670aea0"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-d1dae711fe5d.webp",
+      "bytes": 47246,
+      "sha256": "b008a7f097065b9f55f3f58ceaf2ebc2d3c386a70fd096dd63f284249bccfbec"
+    },
+    {
+      "file": "public/assets/df5362e46192-68e36225ce6a424be8999cdc_Product-7.webp",
+      "bytes": 19820,
+      "sha256": "5a668295ef85ac574f4a85eff271a85cf51ecd49363349373878c03522af7280"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-17ed536d0c8a-700w.webp",
+      "bytes": 121602,
+      "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44"
+    },
+    {
+      "file": "public/assets/a61c1aca7ee7-68e20964469b016c2e9b975e_industry-2--3-.webp",
+      "bytes": 61704,
+      "sha256": "032ba63082ba95d5b0bea1e49eec3abfe919bb60aec6586a6d7aef6dbbbe89dd"
+    },
+    {
+      "file": "public/assets/ba1a3da1c376-68e10f8f8909a10dec0a8876_testimonial-images--3-.webp",
+      "bytes": 49020,
+      "sha256": "3e9f666680207019e589b03c3e2dc6548fe09f4bbd56b38b6bf7d2ca5c31cb8d"
+    },
+    {
+      "file": "public/assets/onos-dtg-machine-detail-slot-092f666590da-1400w.webp",
+      "bytes": 66744,
+      "sha256": "448ed55c59889aed587d4796d07a05c6fcf0cf70c4b28c8be76902400bfd8e23"
+    },
+    {
+      "file": "public/assets/1ade6f5f4402-68dcc4be0a27f1a9ecbc0b06_Avatar-Image--1-.webp",
+      "bytes": 3564,
+      "sha256": "2156e568c0ddfbe1311ee666a9cd500bece22850427e4f56b68ccc76b085aab4"
+    },
+    {
+      "file": "public/assets/a8bc21b02dc2-68e4960b857104b3f49cf6eb_Shadow.webp",
+      "bytes": 173750,
+      "sha256": "4b2ac050bdcc8fc178e5c7be26f44deb60b955614b26e31af2f38b108c874510"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-33ca09a41b60-500w.webp",
+      "bytes": 71784,
+      "sha256": "aaa4af3d97f4fb47a85c4eefef5799a7be86f325ce9b7a2a77b14137a0c4ffa0"
+    },
+    {
+      "file": "public/assets/onos-equipment-embroidery-slot-0f41e795711f-800w.webp",
+      "bytes": 83218,
+      "sha256": "acd7aa7b25808de177a8b6d982cbf883fb3dbb8a7b579bf5ac1112ab461215b5"
+    },
+    {
+      "file": "public/assets/a735c7f18d7a-6900978bee7fdb79ad563415_3--1-.jpg",
+      "bytes": 115086,
+      "sha256": "51e62f691edb4a8fb987bf29ba6cffaa4583fbae153fa77d50ed573f6d808314"
+    },
+    {
+      "file": "public/assets/onos-equipment-embroidery-slot-781e1ba80e04-525w.webp",
+      "bytes": 44096,
+      "sha256": "aad426d6d07b58dd36b1d550ef21a2ddf40e280d9c7172b8ad74e2b2d77ec49b"
+    },
+    {
+      "file": "public/assets/onos-equipment-embroidery-slot-499fc3831bb5.webp",
+      "bytes": 34958,
+      "sha256": "7d6be29655644d0bbf42f1fc892b4419c2dbe6208cbed404fbc3e0b20901afd5"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-124d65582cc8.webp",
+      "bytes": 215174,
+      "sha256": "05e4e390a2709c0c6cac064708ea0420d2fc31b005e9b06df759227a6044b4cb"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-222ec6e2bcfc.webp",
+      "bytes": 47246,
+      "sha256": "b008a7f097065b9f55f3f58ceaf2ebc2d3c386a70fd096dd63f284249bccfbec"
+    },
+    {
+      "file": "public/assets/onos-laser-cut-gifts-slot-df5362e46192-525w.webp",
+      "bytes": 50706,
+      "sha256": "2779ad65a08644863ae0192cc11565a0ba449915fe2091800246cec1d219bdfd"
+    },
+    {
+      "file": "public/assets/012e56dad079-webfont.js",
+      "bytes": 13188,
+      "sha256": "81016ac6be850b72df5d4faa0c3cec8e2c1b0ba0045712144a6766adfad40bee"
+    },
+    {
+      "file": "public/assets/aa941b5d0b50-68e4b81fc3b9f44298f9bb37_Client-image--11-.svg",
+      "bytes": 4574,
+      "sha256": "ce2c4fbaa93933f6480860659b5d91005b7a6946ed744e6f8b04a582060ef85d"
+    },
+    {
+      "file": "public/assets/87da0557bb85-68e098644bb31efae7327e1e_Product-Image--4-.webp",
+      "bytes": 36724,
+      "sha256": "82a2aec657119eb030a12e702984caf92e24edb2580ce00507485f8b2c72ba32"
+    },
+    {
+      "file": "public/assets/33fb02620915-68f0cd2786973a4f07346a59_Team-Members--7-.webp",
+      "bytes": 17414,
+      "sha256": "59929bc1ff3af1d4450b14cbff9b4be4c366112e79abc5620d3f5e32a2b68919"
+    },
+    {
+      "file": "public/assets/cac7de71ad9c-68e2096394f0ac3ba24efefa_industry-2--1-.webp",
+      "bytes": 46688,
+      "sha256": "ac1c4d978a66862ceb7c3f8a23d2a67656318d6705bda9435046e7202961650a"
+    },
+    {
+      "file": "public/assets/e143d99131ff-68e4b81ff1a23d72f7c38766_Client-image--12-.svg",
+      "bytes": 3718,
+      "sha256": "c14d46e034605d9cbecfd22cee9acde538759698df3c3c79b722a43ee0c40dcb"
+    },
+    {
+      "file": "public/assets/f43d8b900690-68e254b81d5a9819d9c132b7_Case-Study-Image-2.webp",
+      "bytes": 77094,
+      "sha256": "0706e05e04121756e81affa7eccd8d943749b3da77da040d7b3f93c4b22b0c48"
+    },
+    {
+      "file": "public/assets/onos-partner-meeting-slot-a57060e6e940.webp",
+      "bytes": 5136,
+      "sha256": "8408c7ccab6d54799d938b252b3e3e8b0dc4513876485d9522f847b9d3d24586"
+    },
+    {
+      "file": "public/assets/onos-finishing-table-slot-a412c318c8fb.webp",
+      "bytes": 158298,
+      "sha256": "dd9fb00ab23f22dcc603e37b7e36e319230bfde2f6f1405e3744ee7d1e2be858"
+    },
+    {
+      "file": "public/assets/onos-equipment-embroidery-slot-0f1b481cd8e3.webp",
+      "bytes": 41326,
+      "sha256": "2d8124b7ccc126897de42efc4cdcc6d2e2f8b9c0ba50813ae6adf4c26ba310a5"
+    },
+    {
+      "file": "public/assets/475bb9c3f352-68e2214cc283f05792dfc708_Award--4-.svg",
+      "bytes": 36816,
+      "sha256": "4cbc2c9d4f1eced3b1dc6ac2a7d9f199c824d48efd5cfa1f0d59e922b3510fc6"
+    },
+    {
+      "file": "public/assets/0f1b481cd8e3-68e788e4eca24ead46dfb49f_Untitled-15.webp",
+      "bytes": 9250,
+      "sha256": "ce247682acd9e71ca601948e15be583a18375966c94fa20874f085620a9adcc1"
+    },
+    {
+      "file": "public/assets/71f97748fcd0-68e0a324c2e072fddf8eb8e8_Client-image--3-.svg",
+      "bytes": 5092,
+      "sha256": "61089e54798025bf90a73af741ff197f3308f63615187701a242ffe7ba614221"
+    },
+    {
+      "file": "public/assets/dfdcabf1ab39-68e78e96bf8662622d0f70b8_Untitled-18.webp",
+      "bytes": 19762,
+      "sha256": "6a3c4cc3a0a94a7972380155b001655ab172365955679339ff5b826a8c97629d"
+    },
+    {
+      "file": "public/assets/9e9739b1b293-68e8855863e70b787c3ebe64_Hero-Content-Image.svg",
+      "bytes": 411115,
+      "sha256": "e16cb809b2d7edd84ce17a0789f73492cb5537c18b3047926a501ff65e0a6729"
+    },
+    {
+      "file": "public/assets/onos-production-reel.webm",
+      "bytes": 313077,
+      "sha256": "7ab69d3933d54511e8ebe01211403f3713d306613ff878a3474bc81b98beac02"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-f165bc1323ad.webp",
+      "bytes": 58426,
+      "sha256": "4ae71b644dff3761df53d62a09920cbdff2d328e39c23e89344145e05ce53cfd"
+    },
+    {
+      "file": "public/assets/onos-laser-cut-gifts-slot-7dbcee796a77.webp",
+      "bytes": 256580,
+      "sha256": "3a9364ca7b161ccaecd361d5cd83621bfae8515dc590f53c10c732917274d21e"
+    },
+    {
+      "file": "public/assets/onos-production-floor-slot-52d70e14a4fd-1337w.webp",
+      "bytes": 148066,
+      "sha256": "a35a3138d30bba0e6c41eec51186f80d2c974ae14b66d79d2fdff374273e9fd5"
+    },
+    {
+      "file": "public/assets/onos-finishing-table-slot-709f2e70e0a2-500w.webp",
+      "bytes": 35246,
+      "sha256": "e2345060eb0bcf69bb5b96a390e977f519d171977f0d7648beecdfeb3b05db3c"
+    },
+    {
+      "file": "public/assets/onos-dtg-machine-detail-slot-6032b4467bfc.webp",
+      "bytes": 14130,
+      "sha256": "9543cf23b750b3f661b43284e1478a685e5e7b617a1615ccba674b2119f3a389"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-044f629c5a70.webp",
+      "bytes": 121602,
+      "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44"
+    },
+    {
+      "file": "public/assets/03ca0fd1e5a0-68e78e9579f88772b20e66f8_Untitled-17.webp",
+      "bytes": 5908,
+      "sha256": "421745c5f3264722e4f42649b7e05e3e1135d0d39c7c4e4c0e943760f89ce1ca"
+    },
+    {
+      "file": "public/assets/f9aa8ad652f1-68df5f9eb1faa87c52dcbf9b_Service-Image--4-.webp",
+      "bytes": 137898,
+      "sha256": "048a23c371230467cc6d952772cb998294d7947754db362c4342ae4fa9ed33cb"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-1ca0aa821cd9-700w.webp",
+      "bytes": 121602,
+      "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44"
+    },
+    {
+      "file": "public/assets/5c6703911d28-68e0bd5d66fbd6635638ea42_Icon.svg",
+      "bytes": 6164,
+      "sha256": "6a8befe5f3eed07be05f8b18cf9bd44bf6495823ae8fa8ec611bd0817df7919d"
+    },
+    {
+      "file": "public/assets/e547dfdb5e37-68dcda0075e8b528cbfffec8_about-image.webp",
+      "bytes": 48820,
+      "sha256": "d3a0e5910bc176dffddfa1663ea1075c786c124e708cc2b4b30235c516533cdf"
+    },
+    {
+      "file": "public/assets/dbad3439e2f8-68f0d76a4b953aaae184fd6f_image-8-p-500.webp",
+      "bytes": 52362,
+      "sha256": "249ad284e7293ab248012ec496a4bb6923b848ed0436be05d6e86a1ddf1df01d"
+    },
+    {
+      "file": "public/assets/acc14bd76ebf-690092402be57032171eed75_about-round-image--2-.png",
+      "bytes": 12187,
+      "sha256": "574088ef83fc1fd78bf8aefaa78d89efc608b11c8f8c27711c6beafb373ce6ca"
+    },
+    {
+      "file": "public/assets/onos-laser-cut-gifts-slot-a1f02455f6d5-1080w.webp",
+      "bytes": 155070,
+      "sha256": "7031e4f50a23f1f843409754a6640d6d15e9bc09a29b079653c22a8302593ee0"
+    },
+    {
+      "file": "public/assets/onos-press-machines-row-slot-f9aa8ad652f1-1400w.webp",
+      "bytes": 151790,
+      "sha256": "59a2df4794e9db13125eb71cd2cb963b453b9bf196c782d6ccf93374930a857c"
+    },
+    {
+      "file": "public/assets/onos-finishing-table-slot-61e0c111c451-500w.webp",
+      "bytes": 35246,
+      "sha256": "e2345060eb0bcf69bb5b96a390e977f519d171977f0d7648beecdfeb3b05db3c"
+    },
+    {
+      "file": "public/assets/onos-finishing-table-slot-61e0c111c451.webp",
+      "bytes": 38220,
+      "sha256": "f05f592dbdd00ad5fb4574f438b20cd4a10fced95265a88c958d317777fe99b3"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-4c4eddd9988b.webp",
+      "bytes": 6474,
+      "sha256": "3a9e1fa7217509cfec6afa9dbc14a7cc96251b21c020b4d327903e04587544c8"
+    },
+    {
+      "file": "public/assets/761cce29f032-68e20963a751d46e5709b54b_industry-2--5-.webp",
+      "bytes": 27852,
+      "sha256": "e8903fcb3410aeb89d449766ea8431e5781e9deb5d2b4b66c84bac17a8c8d789"
+    },
+    {
+      "file": "public/assets/16d6609a4608-68e254b81d5a9819d9c132b7_Case-Study-Image-2-p-500.webp",
+      "bytes": 18306,
+      "sha256": "e5d9a0b9e43ab693d84d2ef628ded9fb0dcaba0fb01c22daa1f42f30582dd90d"
+    },
+    {
+      "file": "public/assets/a47cf3da203c-68f0d76ef26b42567ee64ddc_blog-big-image-8.webp",
+      "bytes": 170444,
+      "sha256": "ea26efda207dbd080fa9c9e6d97b12c5c5431727d6a25df75d44440a8a097e5c"
+    },
+    {
+      "file": "public/assets/a3a417ca617f-68ecdd3c431234be644acd0a_video-Icon-Puse.svg",
+      "bytes": 1153,
+      "sha256": "c9b808011bc0fe7726cee9d514f7179b9679d65d3e2309b7e750a141a89883bd"
+    },
+    {
+      "file": "public/assets/d96091fcbd0a-68df5fb4697d6800a50442a3_Service-Image--7--p-500.webp",
+      "bytes": 5494,
+      "sha256": "3802cad7ac9bdc6835cd9307b5884a06cd949eb5098e2156de569b84a05e00ec"
+    },
+    {
+      "file": "public/assets/9b9407a344cc-69030086f67c830626e8e303_Client-images--4-.webp",
+      "bytes": 1520,
+      "sha256": "5696fd65e6529b8d322fe98f40deead6f34e5831e96737a90230aaf7a8062a29"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-8bbff24cefc7.webp",
+      "bytes": 54700,
+      "sha256": "de31a8444271e347dd1ef0fb6ccabbc95e685cfcd8d753a9caa83cd438512d79"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-124d65582cc8-1080w.webp",
+      "bytes": 153228,
+      "sha256": "a95b83b77809f72468a6847c407150d8bfc57779b7867f037e1ba990f247c69a"
+    },
+    {
+      "file": "public/assets/6850729c4def-68df5fc3dd6919f447f80a49_Service-Image--1--p-1080.webp",
+      "bytes": 30826,
+      "sha256": "a062bc1853f8a1920b409293d894fead2a8a64e4a7def668a91aa3f34bd30607"
+    },
+    {
+      "file": "public/assets/onos-press-machines-row-slot-a7358f674f5d.webp",
+      "bytes": 59478,
+      "sha256": "cbcc42cfd376f35e9679efaffd3b834b028a489adf172d07439249c506ff6c1d"
+    },
+    {
+      "file": "public/assets/6c01a7087931-68e74d731b812d7944a634e4_marquee-image--2-.webp",
+      "bytes": 5584,
+      "sha256": "9279d70389026d87c427402ed8ab40f5a1deccd8d20cf6b3e9d73112bd3326e5"
+    },
+    {
+      "file": "public/assets/1e7563df9af6-68e4ad0b02234b1f4b36db55_Link-Arrow.svg",
+      "bytes": 537,
+      "sha256": "463af5b4538fb0411ecee70e22747e134cba720e8d65d765cb9f9c8bd962a77b"
+    },
+    {
+      "file": "public/assets/onos-finishing-table-slot-709f2e70e0a2.webp",
+      "bytes": 158298,
+      "sha256": "dd9fb00ab23f22dcc603e37b7e36e319230bfde2f6f1405e3744ee7d1e2be858"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-c84ffa4fb2b8-500w.webp",
+      "bytes": 71784,
+      "sha256": "aaa4af3d97f4fb47a85c4eefef5799a7be86f325ce9b7a2a77b14137a0c4ffa0"
+    },
+    {
+      "file": "public/assets/onos-embroidery-slot-64004978aafd-500w.webp",
+      "bytes": 44216,
+      "sha256": "cf7d4851666982b2d2219f38cd04bbe25af212d2d495601ae711228d7c7dd520"
+    },
+    {
+      "file": "public/assets/onos-sample-development-slot-56b1595ce856-700w.webp",
+      "bytes": 121602,
+      "sha256": "cc6e4213a1ed39de989bffb31e6467ff1977e3126f12de1bc2d7f6781db26f44"
+    },
+    {
+      "file": "public/assets/onos-partner-meeting-slot-2189a248897a.webp",
+      "bytes": 26776,
+      "sha256": "e115777181cdbf6c8667ca1e00ee75237bbe5730e9ca35850cbfe54049cfdc0c"
+    },
+    {
+      "file": "public/assets/onos-press-machines-row-slot-a735c7f18d7a-533w.webp",
+      "bytes": 39298,
+      "sha256": "5b104fbca3135d877dae643e9e3123f4ec6ff6ae9f89c572b18a68de3c3e801e"
+    },
+    {
+      "file": "public/assets/onos-equipment-embroidery-slot-87da0557bb85-500w.webp",
+      "bytes": 41036,
+      "sha256": "334fdc3888e1d938bce02efe8cf0320b24bfc83462e216c45ddcbbdbcbe7ede9"
+    },
+    {
+      "file": "public/assets/onos-dtg-machine-detail-slot-092f666590da-1080w.webp",
+      "bytes": 52624,
+      "sha256": "84514db944bd306b4e82b37829d99c926f2d333355a62f18dbe0c886ab3886c7"
+    },
+    {
+      "file": "public/assets/4aac6c0ccf4f-69030087bc539651bba2d643_Client-images--3-.webp",
+      "bytes": 1436,
+      "sha256": "23d6c71bbbc40deefbaf38737b1b0fbad9a73462c0d5eda240a6701c00f3fde9"
+    },
+    {
+      "file": "public/assets/7cc6038925cd-68f0b12338ba832c3a370ba1_PDF.pdf",
+      "bytes": 3028,
+      "sha256": "8decc8571946d4cd70a024949e033a2a2a54377fe9f1c1b944c20f9ee11a9e51"
+    },
+    {
+      "file": "public/assets/4929600d0f55-6900978bee7fdb79ad563415_3--1--p-500.jpg",
+      "bytes": 22233,
+      "sha256": "7b2c96c1cc2854e6f63cf89923550382ad51e5160b12664a26265e6335fb128e"
+    },
+    {
+      "file": "public/assets/onos-press-machines-row-slot-99b77a69802c-500w.webp",
+      "bytes": 32016,
+      "sha256": "f7935e8e3ace51a642cd7cf92e213394f5975be3d2577bc4a6205849afad6917"
+    },
+    {
+      "file": "public/assets/onos-warehouse-inventory-slot-761cce29f032.webp",
+      "bytes": 49330,
+      "sha256": "070757ece4796d5067bafb92acc363d880cf16c1ae9f567a27191362294d4124"
+    },
+    {
+      "file": "public/assets/onos-partner-meeting-slot-f1e0a3d2c01a.webp",
+      "bytes": 25266,
+      "sha256": "420bf5110d32cb37f0f938ff3ce93a9e71cb1902311dd533063eb35917d52f40"
+    },
+    {
+      "file": "public/assets/636c50440248-gsap.min.js",
+      "bytes": 72927,
+      "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
+    },
+    {
+      "file": "public/assets/onos-finishing-table-slot-cac7de71ad9c.webp",
+      "bytes": 32546,
+      "sha256": "10be08eac1ca1841c8e8b4277361d1c04778009bff014b16e6bec96199008d50"
+    },
+    {
+      "file": "public/assets/5651eb1bb2e0-68e397a9ee616a27fed6add7_Step-Icon-4.svg",
+      "bytes": 3309,
+      "sha256": "c28092485655db529ad391c3d7687b55b8e1ff907bc19dcf5e326b884ace1b02"
+    },
+    {
+      "file": "public/assets/781e1ba80e04-68e362259d84e2e8f428b979_Product-6.webp",
+      "bytes": 27492,
+      "sha256": "dece70458c2186078d7cda56405b5f577335ad0e105c309cd620e80375468eee"
+    },
+    {
+      "file": "public/assets/f950461d7bef-690300862ee7924a815a73f2_Client-images--2-.webp",
+      "bytes": 1280,
+      "sha256": "479dbe6218ca720a691a1bf3046f5c7a550e3d24e34954c95c3f25dfdd401612"
+    },
+    {
+      "file": "public/assets/66c129b0cdea-68e397a9005a59e720fc81a7_Step-Icon-2.svg",
+      "bytes": 4332,
+      "sha256": "0df21a67d7a36e7c9797922cdadc1c818468fc9dbe2bd112312172f4c97a47d2"
+    },
+    {
+      "file": "public/assets/b93f5fd25a07-68e397a9b7c9c2a0ebe884fd_Step-Icon-1.svg",
+      "bytes": 8733,
+      "sha256": "9f1de131404b83648916d264ced35d216a02c532b86bba0495d18d0a9634b3e5"
+    }
+  ],
+  "removedBytes": 53348039
+}

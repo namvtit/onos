@@ -1,0 +1,23 @@
+import { chromium } from '@playwright/test';
+import fs from 'node:fs';
+const dir='audit/final/reference'; fs.mkdirSync(dir,{recursive:true});
+const browser=await chromium.launch();const page=await browser.newPage({viewport:{width:1440,height:1000}});
+page.on('response',async response=>{if(response.status()===200 && /\/(site|production|facilities-carousel|enterprise|motion)\.js/.test(response.url()))fs.writeFileSync(`${dir}/${new URL(response.url()).pathname.split('/').pop()}`,await response.body());});
+await page.goto('https://onosglobal.pages.dev/',{waitUntil:'networkidle'});
+const record={};
+record.en=await page.locator('body').innerText();
+record.links=await page.locator('a').evaluateAll(es=>es.map(e=>({text:e.textContent.trim(),href:e.getAttribute('href')})));
+record.images=await page.locator('img').evaluateAll(es=>es.map(e=>({src:e.getAttribute('src'),alt:e.alt})));
+record.select=await page.locator('select').evaluateAll(es=>es.map(e=>({id:e.id,options:Array.from(e.options).map(o=>({value:o.value,text:o.textContent}))})));
+record.finder=[];
+for(const option of record.select[0].options){await page.locator(`[data-method-choice="${option.value}"]`).click();record.finder.push({value:option.value,text:await page.locator('[data-method]:visible').innerText()});}
+await page.screenshot({path:`${dir}/onos-en-full.png`,fullPage:true});
+record.details=await page.locator('details').count();
+for(const summary of await page.locator('summary').all())await summary.click();
+record.faq=await page.locator('details').allTextContents();
+await page.getByRole('button',{name:/Enlarge:/}).first().click();record.lightbox=await page.locator('[role="dialog"],dialog').evaluateAll(es=>es.map(e=>e.outerHTML));
+await page.keyboard.press('ArrowRight');record.lightboxAfterRight=await page.locator('[role="dialog"],dialog').evaluateAll(es=>es.map(e=>e.outerHTML));await page.keyboard.press('Escape');
+await page.setViewportSize({width:375,height:812});await page.getByRole('button',{name:'Open navigation'}).click();record.mobileMenu=await page.locator('header').innerText();await page.screenshot({path:`${dir}/onos-mobile-menu.png`});
+await page.goto('https://onosglobal.pages.dev/vi/',{waitUntil:'networkidle'});record.vi=await page.locator('body').innerText();record.viContent=await page.locator('[data-en]').evaluateAll(es=>es.map(e=>({tag:e.tagName,en:e.getAttribute('data-en'),vi:e.getAttribute('data-vi')})));
+for(const summary of await page.locator('summary').all())await summary.click();record.faqVi=await page.locator('details').allTextContents();
+fs.writeFileSync(`${dir}/live-audit.json`,JSON.stringify(record,null,2));await browser.close();console.log('Live ONOS behavior, bilingual content, scripts and screenshots captured.');

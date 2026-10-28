@@ -1,0 +1,159 @@
+
+> manufactt-next@1.0.0 test:e2e
+> playwright test
+
+
+Running 13 tests using 1 worker
+
+(node:2491) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/site.spec.ts:11:7 › responsive content and images at 375px in EN and VI (5.5s)
+  ✓   2 tests/site.spec.ts:11:7 › responsive content and images at 768px in EN and VI (7.3s)
+  ✘   3 tests/site.spec.ts:11:7 › responsive content and images at 1024px in EN and VI (9.8s)
+(node:2685) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   4 tests/site.spec.ts:11:7 › responsive content and images at 1440px in EN and VI (10.5s)
+  ✓   5 tests/site.spec.ts:30:5 › navigation, every anchor, contact and ecosystem destinations (686ms)
+  ✓   6 tests/site.spec.ts:43:5 › four production recommendations, selector, tabs, capability CTAs and contextual drafts match original (2.5s)
+  ✓   7 tests/site.spec.ts:59:5 › Vietnamese covers full content, recommendations, FAQ, alt text, labels and email drafts (2.5s)
+  ✘   8 tests/site.spec.ts:75:5 › factory carousel previous, next, dots, wrap, keys, pause and swipe (4.1s)
+(node:2852) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   9 tests/site.spec.ts:85:5 › factory autoplay, pause persistence and reduced motion (13.7s)
+  ✓  10 tests/site.spec.ts:93:5 › gallery rail and modal: next/previous, arrows, Tab/Shift+Tab, Escape and restored focus (2.2s)
+  ✘  11 tests/site.spec.ts:106:5 › mobile menu keyboard dismissal, outside click and navigation (45.2s)
+(node:3149) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  12 tests/site.spec.ts:112:5 › FAQ keyboard operation and original answers; English inquiry outline (817ms)
+  ✓  13 tests/site.spec.ts:118:5 › single content route, meaningful legacy redirects and obsolete demo 404s (143ms)
+
+
+  1) tests/site.spec.ts:11:7 › responsive content and images at 1024px in EN and VI ────────────────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+    Call Log:
+    - Timeout 10000ms exceeded while waiting on the predicate
+
+      18 |         await page.locator(`#${id}`).scrollIntoViewIfNeeded();
+      19 |         await expect(page.locator(`#${id}`)).toBeVisible();
+    > 20 |         await expect.poll(() => page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true);
+         |                                                                                                              ^
+      21 |       }
+      22 |       await expect.poll(() => page.locator('main img').evaluateAll(images => images.filter(image => !(image as HTMLImageElement).complete || !(image as HTMLImageElement).naturalWidth).map(image => image.getAttribute('src')))).toEqual([]);
+      23 |       await page.screenshot({ path: `audit/final/screenshots/home-${width}-${lang}.png`, fullPage: true });
+        at /home/nam/onos/manufactt-project/tests/site.spec.ts:20:110
+
+    Error Context: audit/final/test-results/site-responsive-content-and-images-at-1024px-in-EN-and-VI/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    audit/final/test-results/site-responsive-content-and-images-at-1024px-in-EN-and-VI/trace.zip
+    Usage:
+
+        npx playwright show-trace audit/final/test-results/site-responsive-content-and-images-at-1024px-in-EN-and-VI/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests/site.spec.ts:75:5 › factory carousel previous, next, dots, wrap, keys, pause and swipe ──
+
+    Error: locator.dispatchEvent: TypeError: Failed to construct 'Touch': Failed to read the 'identifier' property from 'TouchInit': Required member is undefined.
+        at <anonymous>:7936:45
+        at Array.map (<anonymous>)
+        at InjectedScript.dispatchEvent (<anonymous>:7934:78)
+        at eval (eval at eval (:7098:24), <anonymous>:2:26)
+        at eval (eval at eval (:7098:24), <anonymous>:4:28)
+        at eval (eval at evaluate (:370:30), <anonymous>:15:22)
+        at UtilityScript.evaluate (<anonymous>:372:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+    Call log:
+      - waiting for locator('.onos-factory-carousel').locator('figure')
+
+        at <anonymous>:7936:45
+        at InjectedScript.dispatchEvent (<anonymous>:7934:78)
+        at eval (eval at eval (:7098:24), <anonymous>:2:26)
+        at eval (eval at eval (:7098:24), <anonymous>:4:28)
+        at eval (eval at evaluate (:370:30), <anonymous>:15:22)
+        at UtilityScript.evaluate (<anonymous>:372:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /home/nam/onos/manufactt-project/tests/site.spec.ts:83:36
+
+    Error Context: audit/final/test-results/site-factory-carousel-prev-41a62-s-wrap-keys-pause-and-swipe/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    audit/final/test-results/site-factory-carousel-prev-41a62-s-wrap-keys-pause-and-swipe/trace.zip
+    Usage:
+
+        npx playwright show-trace audit/final/test-results/site-factory-carousel-prev-41a62-s-wrap-keys-pause-and-swipe/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) tests/site.spec.ts:106:5 › mobile menu keyboard dismissal, outside click and navigation ───────
+
+    Test timeout of 45000ms exceeded.
+
+    Error: locator.click: Test timeout of 45000ms exceeded.
+    Browser logs:
+
+    <launching> /home/nam/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-uymC3z --remote-debugging-pipe --no-startup-window
+    <launched> pid=2865
+    [pid=2865][err] [1028/213603.536591:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/user/1000/bus: No such file or directory
+    [pid=2865][err] [1028/213603.543614:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+    [pid=2865][err] [1028/213603.543889:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/user/1000/bus: No such file or directory
+    [pid=2865][err] [1028/213603.548570:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+    [pid=2865][err] [1028/213603.589731:WARNING:sandbox/policy/linux/sandbox_linux.cc:405] InitializeSandbox() called with multiple threads in process gpu-process.
+    [pid=2865] <gracefully close start>
+    Call log:
+      - waiting for locator('h1')
+        - locator resolved to <h1 class="hero-title">…</h1>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <a class="nav-link" href="#ecosystem">Our ecosystem</a> from <header class="navbar w-nav onos-navbar">…</header> subtree intercepts pointer events
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <a class="nav-link" href="#ecosystem">Our ecosystem</a> from <header class="navbar w-nav onos-navbar">…</header> subtree intercepts pointer events
+        - retrying click action
+          - waiting 100ms
+        81 × waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <a class="nav-link" href="#ecosystem">Our ecosystem</a> from <header class="navbar w-nav onos-navbar">…</header> subtree intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+
+
+      107 |   await page.setViewportSize({ width: 375, height: 812 }); await page.goto('/'); const menu = page.getByRole('button', { name: 'Open navigation' });
+      108 |   await menu.click(); await expect(page.locator('#main-navigation')).toBeVisible(); await page.keyboard.press('Escape'); await expect(menu).toBeFocused(); await expect(menu).toHaveAttribute('aria-expanded', 'false');
+    > 109 |   await menu.click(); await page.locator('h1').click(); await expect(menu).toHaveAttribute('aria-expanded', 'false');
+          |                                                ^
+      110 |   await menu.click(); await page.locator('#main-navigation').getByRole('link', { name: 'Our network', exact: true }).click(); await expect(page).toHaveURL(/#network$/); await expect(menu).toHaveAttribute('aria-expanded', 'false');
+      111 | });
+      112 | test('FAQ keyboard operation and original answers; English inquiry outline', async ({ page }) => {
+        at /home/nam/onos/manufactt-project/tests/site.spec.ts:109:48
+
+    Error Context: audit/final/test-results/site-mobile-menu-keyboard--4a564-utside-click-and-navigation/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    audit/final/test-results/site-mobile-menu-keyboard--4a564-utside-click-and-navigation/trace.zip
+    Usage:
+
+        npx playwright show-trace audit/final/test-results/site-mobile-menu-keyboard--4a564-utside-click-and-navigation/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3 failed
+    tests/site.spec.ts:11:7 › responsive content and images at 1024px in EN and VI ─────────────────
+    tests/site.spec.ts:75:5 › factory carousel previous, next, dots, wrap, keys, pause and swipe ───
+    tests/site.spec.ts:106:5 › mobile menu keyboard dismissal, outside click and navigation ────────
+  10 passed (1.8m)

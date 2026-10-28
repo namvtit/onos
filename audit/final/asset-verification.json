@@ -1,0 +1,117 @@
+{
+  "assetReferences": 43,
+  "missingAssets": [],
+  "unexpectedExternalMedia": [],
+  "originalMedia": [
+    {
+      "file": "/assets/onos-embroidery-hero.webp",
+      "source": "https://onosglobal.pages.dev/assets/embroidery-hero.webp",
+      "exists": true,
+      "sha256": "77afad62af26d6c6118628a16094784f45000468940fae0547abf8231dcad186",
+      "match": true
+    },
+    {
+      "file": "/assets/onos-dtg-machine-detail.webp",
+      "source": "https://onosglobal.pages.dev/assets/dtg-machine-detail.webp",
+      "exists": true,
+      "sha256": "315a490b741561185c8d4cbb5aaeff05738d0eaeeb13dced8194dc13877ce9c7",
+      "match": true
+    },
+    {
+      "file": "/assets/onos-equipment-embroidery.webp",
+      "source": "https://onosglobal.pages.dev/assets/equipment-embroidery.webp",
+      "exists": true,
+      "sha256": "9ce154a02ed9f72fbd9d9f2b56f8af0b001495f693b42d208d24743e773148ee",
+      "match": true
+    },
+    {
+      "file": "/assets/onos-press-machines-row.webp",
+      "source": "https://onosglobal.pages.dev/assets/press-machines-row.webp",
+      "exists": true,
+      "sha256": "0e37b94a9b3c5492c3783fc7b8d5d2f1c5a16b0be9fb57de1f113b09e443cba5",
+      "match": true
+    },
+    {
+      "file": "/assets/onos-laser-cut-gifts.webp",
+      "source": "https://onosglobal.pages.dev/assets/laser-cut-gifts.webp",
+      "exists": true,
+      "sha256": "1cf593d1f4e3993014ffb5f30d08187f575d4f8d32f61d290665a12c354bbb8c",
+      "match": true
+    },
+    {
+      "file": "/assets/onos-production-floor.webp",
+      "source": "https://onosglobal.pages.dev/assets/production-floor.webp",
+      "exists": true,
+      "sha256": "cd90904ada71b678a21ecd9335b67324ef1f039d10a09e6db632551184e095ed",
+      "match": true
+    },
+    {
+      "file": "/assets/onos-embroidery.webp",
+      "source": "https://onosglobal.pages.dev/assets/embroidery.webp",
+      "exists": true,
+      "sha256": "fecf4ef11c74ebe886e88a2eb17706fcf9b142f3fd2007d967e3e2dc61ba9e28",
+      "match": true
+    },
+    {
+      "file": "/assets/onos-facility-thai-nguyen.webp",
+      "source": "https://onosglobal.pages.dev/assets/facility-thai-nguyen.webp",
+      "exists": true,
+      "sha256": "ffdd6c35e4f339acb8e2f079d8d4dab57ecc06e460cd09409738c6aaefb0f96e",
+      "match": true
+    },
+    {
+      "file": "/assets/onos-facility-me-linh.webp",
+      "source": "https://onosglobal.pages.dev/assets/facility-me-linh.webp",
+      "exists": true,
+      "sha256": "7a566a66c35867aa9239da5062e0d10ad8d6ac11ecf5bc998ba1d76d0021c198",
+      "match": true
+    },
+    {
+      "file": "/assets/onos-facility-california.webp",
+      "source": "https://onosglobal.pages.dev/assets/facility-california.webp",
+      "exists": true,
+      "sha256": "3866e4e71a68a64b0659fbb399e6141bd8967e5ebe46f22f8aca0f03a90920d1",
+      "match": true
+    },
+    {
+      "file": "/assets/onos-sample-development.webp",
+      "source": "https://onosglobal.pages.dev/assets/sample-development.webp",
+      "exists": true,
+      "sha256": "506c23c053d9ee206d90696c90855a222134606049e6bcb019452f91057e654a",
+      "match": true
+    },
+    {
+      "file": "/assets/onos-partner-meeting.webp",
+      "source": "https://onosglobal.pages.dev/assets/partner-meeting.webp",
+      "exists": true,
+      "sha256": "fb38d2b49e08f7aa5736cd6f0291146156e67f2d399f519cc21e68a347e32fd3",
+      "match": true
+    },
+    {
+      "file": "/assets/onos-finishing-table.webp",
+      "source": "https://onosglobal.pages.dev/assets/finishing-table.webp",
+      "exists": true,
+      "sha256": "4d732638081d8c2e3dd4599c4ef9717278b025979a439a7b7f09a9949e94d33c",
+      "match": true
+    },
+    {
+      "file": "/assets/onos-warehouse-inventory.webp",
+      "source": "https://onosglobal.pages.dev/assets/warehouse-inventory.webp",
+      "exists": true,
+      "sha256": "ad51bd7ed55230f473c926805c8fe3677cc44a755f1c4e72bd9501b86986fa54",
+      "match": true
+    },
+    {
+      "file": "/assets/onos-embroidery-hero-640.webp",
+      "source": "https://onosglobal.pages.dev/assets/embroidery-hero-640.webp",
+      "exists": true,
+      "sha256": "6661887bb448181c5513882362e138273db55071b015faf4894820e4d830cc59",
+      "match": true
+    }
+  ],
+  "sourceFilesChanged": [],
+  "brokenAnchors": [],
+  "contentPages": [
+    "src/app/page.tsx"
+  ]
+}

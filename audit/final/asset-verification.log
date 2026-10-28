@@ -1,0 +1,15 @@
+
+> manufactt-next@1.0.0 verify:assets
+> node scripts/verify-assets.mjs
+
+{
+  "assetReferences": 43,
+  "originalPhotosVerified": 15,
+  "missingAssets": [],
+  "unexpectedExternalMedia": [],
+  "sourceFilesChanged": [],
+  "brokenAnchors": [],
+  "contentPages": [
+    "src/app/page.tsx"
+  ]
+}
