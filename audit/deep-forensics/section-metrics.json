@@ -1,0 +1,240 @@
+{
+  "desktop": [
+    {
+      "name": "01-navbar",
+      "selector": ".navbar",
+      "height": 95.40625,
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible",
+      "zeroOpCount": 0
+    },
+    {
+      "name": "02-hero",
+      "selector": "#home",
+      "height": 602.21875,
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible",
+      "zeroOpCount": 0
+    },
+    {
+      "name": "03-hero-video",
+      "selector": ".hero-video-wrap",
+      "height": 1000,
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible",
+      "zeroOpCount": 0
+    },
+    {
+      "name": "04-about",
+      "selector": "#about",
+      "height": 1141.609375,
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible",
+      "zeroOpCount": 0
+    },
+    {
+      "name": "05-capabilities",
+      "selector": "#capabilities",
+      "height": 2207.421875,
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible",
+      "zeroOpCount": 0
+    },
+    {
+      "name": "06-products",
+      "selector": "#products",
+      "height": 2700.296875,
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible",
+      "zeroOpCount": 0
+    },
+    {
+      "name": "07-production-fit",
+      "selector": "#production-fit",
+      "height": 1154.859375,
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible",
+      "zeroOpCount": 0
+    },
+    {
+      "name": "08-network",
+      "selector": "#network",
+      "height": 1241.1875,
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible",
+      "zeroOpCount": 0
+    },
+    {
+      "name": "09-workflow",
+      "selector": "#workflow",
+      "height": 1180.90625,
+      "opacity": "1",
+      "display": "flex",
+      "visibility": "visible",
+      "zeroOpCount": 0
+    },
+    {
+      "name": "10-gallery",
+      "selector": "#gallery",
+      "height": 1104.875,
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible",
+      "zeroOpCount": 0
+    },
+    {
+      "name": "11-faq",
+      "selector": "#faq",
+      "height": 851.203125,
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible",
+      "zeroOpCount": 0
+    },
+    {
+      "name": "12-contact",
+      "selector": "#contact",
+      "height": 1096.1875,
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible",
+      "zeroOpCount": 0
+    },
+    {
+      "name": "13-footer",
+      "selector": "#Footer",
+      "height": 907.96875,
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible",
+      "zeroOpCount": 0
+    }
+  ],
+  "mobile": [
+    {
+      "name": "01-navbar",
+      "selector": ".navbar",
+      "height": 48,
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible",
+      "zeroOpCount": 0
+    },
+    {
+      "name": "02-hero",
+      "selector": "#home",
+      "height": 695.359375,
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible",
+      "zeroOpCount": 0
+    },
+    {
+      "name": "03-hero-video",
+      "selector": ".hero-video-wrap",
+      "height": 550,
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible",
+      "zeroOpCount": 0
+    },
+    {
+      "name": "04-about",
+      "selector": "#about",
+      "height": 1800.34375,
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible",
+      "zeroOpCount": 0
+    },
+    {
+      "name": "05-capabilities",
+      "selector": "#capabilities",
+      "height": 2924.734375,
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible",
+      "zeroOpCount": 0
+    },
+    {
+      "name": "06-products",
+      "selector": "#products",
+      "height": 2892.796875,
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible",
+      "zeroOpCount": 0
+    },
+    {
+      "name": "07-production-fit",
+      "selector": "#production-fit",
+      "height": 1162.125,
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible",
+      "zeroOpCount": 0
+    },
+    {
+      "name": "08-network",
+      "selector": "#network",
+      "height": 1164.765625,
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible",
+      "zeroOpCount": 0
+    },
+    {
+      "name": "09-workflow",
+      "selector": "#workflow",
+      "height": 983.53125,
+      "opacity": "1",
+      "display": "flex",
+      "visibility": "visible",
+      "zeroOpCount": 0
+    },
+    {
+      "name": "10-gallery",
+      "selector": "#gallery",
+      "height": 1647.3125,
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible",
+      "zeroOpCount": 0
+    },
+    {
+      "name": "11-faq",
+      "selector": "#faq",
+      "height": 698.734375,
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible",
+      "zeroOpCount": 0
+    },
+    {
+      "name": "12-contact",
+      "selector": "#contact",
+      "height": 1446.859375,
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible",
+      "zeroOpCount": 0
+    },
+    {
+      "name": "13-footer",
+      "selector": "#Footer",
+      "height": 1455.734375,
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible",
+      "zeroOpCount": 0
+    }
+  ]
+}

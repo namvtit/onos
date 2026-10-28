@@ -1,0 +1,902 @@
+{
+  "manufactt": {
+    "htmlClasses": "w-mod-js w-mod-ix wf-monasans-n6-active wf-monasans-n7-active wf-monasans-n4-active wf-geist-n4-active wf-geist-n5-active wf-active",
+    "bodyClasses": "",
+    "runtime": {
+      "hasGsap": true,
+      "hasScrollTrigger": true,
+      "hasWebflow": true
+    },
+    "nav": {
+      "width": 1440,
+      "height": 95.40625,
+      "paddingTop": "18px",
+      "paddingBottom": "18px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(92, 92, 92)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "display": "block",
+      "gap": "normal",
+      "gridTemplateColumns": "none",
+      "border": "0px none rgb(92, 92, 92)",
+      "borderRadius": "0px",
+      "transform": "none",
+      "opacity": "1"
+    },
+    "hero": {
+      "width": 1440,
+      "height": 604.515625,
+      "paddingTop": "200px",
+      "paddingBottom": "0px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(92, 92, 92)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "display": "block",
+      "gap": "normal",
+      "gridTemplateColumns": "none",
+      "border": "0px none rgb(92, 92, 92)",
+      "borderRadius": "0px",
+      "transform": "none",
+      "opacity": "1"
+    },
+    "heroTitle": {
+      "width": 829.28125,
+      "height": 158.40625,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "fontFamily": "\"Mona Sans\", sans-serif",
+      "fontSize": "72px",
+      "fontWeight": "700",
+      "lineHeight": "79.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(21, 21, 21)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "display": "block",
+      "gap": "normal",
+      "gridTemplateColumns": "none",
+      "border": "0px none rgb(21, 21, 21)",
+      "borderRadius": "0px",
+      "transform": "none",
+      "opacity": "1"
+    },
+    "heroBtn": {
+      "width": 275,
+      "height": 53.40625,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgb(21, 21, 21)",
+      "display": "inline-block",
+      "gap": "normal",
+      "gridTemplateColumns": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "borderRadius": "5.008px 5.008px 15.008px",
+      "transform": "none",
+      "opacity": "1"
+    },
+    "about": {
+      "width": 1440,
+      "height": 1165.015625,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(92, 92, 92)",
+      "backgroundColor": "rgb(246, 246, 246)",
+      "display": "block",
+      "gap": "normal",
+      "gridTemplateColumns": "none",
+      "border": "0px none rgb(92, 92, 92)",
+      "borderRadius": "0px",
+      "transform": "none",
+      "opacity": "1"
+    },
+    "serviceRows": [],
+    "product": {
+      "width": 1440,
+      "height": 2129.0625,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(92, 92, 92)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "display": "block",
+      "gap": "normal",
+      "gridTemplateColumns": "none",
+      "border": "0px none rgb(92, 92, 92)",
+      "borderRadius": "0px",
+      "transform": "none",
+      "opacity": "1"
+    },
+    "productGrid": {
+      "width": 1340,
+      "height": 506.25,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(92, 92, 92)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "display": "grid",
+      "gap": "15px",
+      "gridTemplateColumns": "323.75px 323.75px 323.75px 323.75px",
+      "border": "0px none rgb(92, 92, 92)",
+      "borderRadius": "0px",
+      "transform": "none",
+      "opacity": "1"
+    },
+    "industry": {
+      "width": 1440,
+      "height": 1047.296875,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(92, 92, 92)",
+      "backgroundColor": "rgb(246, 246, 246)",
+      "display": "block",
+      "gap": "normal",
+      "gridTemplateColumns": "none",
+      "border": "0px none rgb(92, 92, 92)",
+      "borderRadius": "0px",
+      "transform": "none",
+      "opacity": "1"
+    },
+    "industryTabs": [
+      "Aerospace industry",
+      "Automotive",
+      "Medical devices",
+      "Energy & Power",
+      "Industrial equipment"
+    ],
+    "caseStudy": {
+      "width": 1440,
+      "height": 1171.296875,
+      "paddingTop": "200px",
+      "paddingBottom": "200px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(92, 92, 92)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "display": "block",
+      "gap": "normal",
+      "gridTemplateColumns": "none",
+      "border": "0px none rgb(92, 92, 92)",
+      "borderRadius": "0px",
+      "transform": "none",
+      "opacity": "1"
+    },
+    "whyChoose": {
+      "width": 1440,
+      "height": 1040.65625,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(92, 92, 92)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "20px",
+      "gridTemplateColumns": "none",
+      "border": "0px none rgb(92, 92, 92)",
+      "borderRadius": "0px",
+      "transform": "none",
+      "opacity": "1"
+    },
+    "testimonial": {
+      "width": 1440,
+      "height": 1119.703125,
+      "paddingTop": "200px",
+      "paddingBottom": "200px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(92, 92, 92)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "display": "block",
+      "gap": "normal",
+      "gridTemplateColumns": "none",
+      "border": "0px none rgb(92, 92, 92)",
+      "borderRadius": "0px",
+      "transform": "none",
+      "opacity": "1"
+    },
+    "faq": null,
+    "footer": {
+      "width": 1440,
+      "height": 693.453125,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(92, 92, 92)",
+      "backgroundColor": "rgb(21, 21, 21)",
+      "display": "block",
+      "gap": "normal",
+      "gridTemplateColumns": "none",
+      "border": "0px none rgb(92, 92, 92)",
+      "borderRadius": "0px",
+      "transform": "none",
+      "opacity": "1"
+    }
+  },
+  "onos": {
+    "links": [
+      {
+        "text": "Skip to content",
+        "href": "#main",
+        "target": null
+      },
+      {
+        "text": "ONOSGLOBAL",
+        "href": "#top",
+        "target": null
+      },
+      {
+        "text": "Capabilities",
+        "href": "#capabilities",
+        "target": null
+      },
+      {
+        "text": "Our network",
+        "href": "#facilities",
+        "target": null
+      },
+      {
+        "text": "How we work",
+        "href": "#process",
+        "target": null
+      },
+      {
+        "text": "Our ecosystem",
+        "href": "#ecosystem",
+        "target": null
+      },
+      {
+        "text": "EN",
+        "href": "/",
+        "target": null
+      },
+      {
+        "text": "VI",
+        "href": "/vi/",
+        "target": null
+      },
+      {
+        "text": "Let's talk↗",
+        "href": "#contact",
+        "target": null
+      },
+      {
+        "text": "Find your production fit↗",
+        "href": "#production-fit",
+        "target": null
+      },
+      {
+        "text": "Step inside Onos↓",
+        "href": "#inside-onos",
+        "target": null
+      },
+      {
+        "text": "CONNECTED BY DESIGN↗\n      \n      Local expertise.A global outlook.3 plants. 2 countries. One Onos.",
+        "href": "#facilities",
+        "target": null
+      },
+      {
+        "text": "Explore this technique",
+        "href": "#production-fit",
+        "target": null
+      },
+      {
+        "text": "Explore this technique",
+        "href": "#production-fit",
+        "target": null
+      },
+      {
+        "text": "Explore this technique",
+        "href": "#production-fit",
+        "target": null
+      },
+      {
+        "text": "Explore this technique",
+        "href": "#production-fit",
+        "target": null
+      },
+      {
+        "text": "Talk production ↗",
+        "href": "#contact",
+        "target": null
+      },
+      {
+        "text": "Discuss this product↗",
+        "href": "mailto:onospod.com@gmail.com?subject=Production%20enquiry%20%7C%20Onos%20Global&body=Hello%20Onos%20team%2C%0A%0AProduction%20method%3A%20DTG%20printing%0AProduct%20%2F%20material%3A%0AExpected%20quantity%3A%0ADestination%20country%20%2F%20postcode%3A%0AArtwork%20link%20%2F%20print%20size%3A%0ATarget%20date%3A%0A%0APlease%20advise%20on%20sampling%2C%20pricing%20and%20production%20lead%20time.",
+        "target": null
+      },
+      {
+        "text": "◒FOR INTERNATIONAL BRANDSOnos Global ↗Manufacturing and fulfillment across borders.onosglobal.pages.dev",
+        "href": "https://onosglobal.pages.dev/",
+        "target": null
+      },
+      {
+        "text": "✳FOR VIETNAMESE SELLERSonospod ↗The production partner for your POD business.onospod.pages.dev",
+        "href": "https://onospod.pages.dev/",
+        "target": null
+      },
+      {
+        "text": "⊕THE PEOPLE BEHIND IT ALLOnos Group ↗Our company, our people and the next chapter.onosgroup.pages.dev",
+        "href": "https://onosgroup.pages.dev/",
+        "target": null
+      },
+      {
+        "text": "Ask our team ↗",
+        "href": "#contact",
+        "target": null
+      },
+      {
+        "text": "Email your project brief ↗",
+        "href": "mailto:onospod.com@gmail.com?subject=Production%20enquiry%20%E2%80%94%20Onos%20Global&body=Hello%20Onos%20team%2C%0A%0AProduct%3A%0AExpected%20quantity%3A%0ADestination%3A%0ATarget%20date%3A%0AArtwork%20link%3A%0A",
+        "target": null
+      },
+      {
+        "text": "onospod.com@gmail.com",
+        "href": "mailto:onospod.com@gmail.com",
+        "target": null
+      },
+      {
+        "text": "+84 986 385 112",
+        "href": "tel:+84986385112",
+        "target": null
+      },
+      {
+        "text": "ONOSPOD FULFILLMENT SOLUTION↗",
+        "href": "https://onosgroup.pages.dev/",
+        "target": null
+      },
+      {
+        "text": "Capabilities",
+        "href": "#capabilities",
+        "target": null
+      },
+      {
+        "text": "Our ecosystem",
+        "href": "#ecosystem",
+        "target": null
+      },
+      {
+        "text": "Questions",
+        "href": "#faq",
+        "target": null
+      },
+      {
+        "text": "Contact",
+        "href": "#contact",
+        "target": null
+      }
+    ],
+    "finderOptions": [
+      {
+        "value": "dtg",
+        "text": "Detailed artwork on cotton"
+      },
+      {
+        "value": "embroidery",
+        "text": "Embroidered logos on apparel and caps"
+      },
+      {
+        "value": "sublimation",
+        "text": "All-over designs on polyester"
+      },
+      {
+        "value": "laser",
+        "text": "Cut and engraved gifts"
+      }
+    ],
+    "tabs": [],
+    "sections": [
+      {
+        "id": "top",
+        "className": "site-header",
+        "headings": []
+      },
+      {
+        "id": "",
+        "className": "enterprise-hero wrap",
+        "headings": [
+          "Innovating without limits.Elevating value."
+        ]
+      },
+      {
+        "id": "",
+        "className": "facts wrap",
+        "headings": []
+      },
+      {
+        "id": "capabilities",
+        "className": "section wrap",
+        "headings": [
+          "Good ideas. Made tangible.",
+          "DTG printing",
+          "Computerised embroidery",
+          "Sublimation printing",
+          "Laser cutting & engraving"
+        ]
+      },
+      {
+        "id": "production-fit",
+        "className": "production-fit",
+        "headings": [
+          "Find the right production fit.",
+          "DTG printing",
+          "Computerised embroidery",
+          "Sublimation printing",
+          "Laser cutting & engraving"
+        ]
+      },
+      {
+        "id": "facilities",
+        "className": "network section",
+        "headings": [
+          "Three plants. One connected team.",
+          "Thai Nguyen",
+          "Me Linh",
+          "California"
+        ]
+      },
+      {
+        "id": "process",
+        "className": "section wrap",
+        "headings": [
+          "Your next collection starts here.",
+          "Share the idea",
+          "Get it production-ready",
+          "Make. Check. Finish.",
+          "On its way"
+        ]
+      },
+      {
+        "id": "inside-onos",
+        "className": "gallery-section section",
+        "headings": [
+          "Real people. Real production."
+        ]
+      },
+      {
+        "id": "ecosystem",
+        "className": "section wrap ecosystem",
+        "headings": [
+          "Connected by one ambition.",
+          "Onos Global ↗",
+          "onospod ↗",
+          "Onos Group ↗"
+        ]
+      },
+      {
+        "id": "faq",
+        "className": "section wrap faq",
+        "headings": [
+          "Good questions."
+        ]
+      },
+      {
+        "id": "contact",
+        "className": "contact-section",
+        "headings": [
+          "Let's make something happen."
+        ]
+      },
+      {
+        "id": "",
+        "className": "site-footer wrap",
+        "headings": []
+      }
+    ]
+  },
+  "local": {
+    "htmlClasses": "site-ready",
+    "bodyClasses": "",
+    "nav": {
+      "width": 1440,
+      "height": 118.8125,
+      "paddingTop": "18px",
+      "paddingBottom": "18px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(92, 92, 92)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "display": "block",
+      "gap": "normal",
+      "gridTemplateColumns": "none",
+      "border": "0px none rgb(92, 92, 92)",
+      "borderRadius": "0px",
+      "transform": "none",
+      "opacity": "1"
+    },
+    "hero": {
+      "width": 1440,
+      "height": 602.21875,
+      "paddingTop": "200px",
+      "paddingBottom": "0px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(92, 92, 92)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "display": "block",
+      "gap": "normal",
+      "gridTemplateColumns": "none",
+      "border": "0px none rgb(92, 92, 92)",
+      "borderRadius": "0px",
+      "transform": "none",
+      "opacity": "1"
+    },
+    "heroTitle": {
+      "width": 829.28125,
+      "height": 158.40625,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "fontFamily": "\"Mona Sans\", sans-serif",
+      "fontSize": "72px",
+      "fontWeight": "700",
+      "lineHeight": "79.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(21, 21, 21)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "display": "block",
+      "gap": "normal",
+      "gridTemplateColumns": "none",
+      "border": "0px none rgb(21, 21, 21)",
+      "borderRadius": "0px",
+      "transform": "none",
+      "opacity": "1"
+    },
+    "heroBtn": {
+      "width": 273,
+      "height": 53.40625,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgb(21, 21, 21)",
+      "display": "inline-block",
+      "gap": "normal",
+      "gridTemplateColumns": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "borderRadius": "5.008px 5.008px 15.008px",
+      "transform": "none",
+      "opacity": "1"
+    },
+    "about": {
+      "width": 1440,
+      "height": 1141.609375,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(92, 92, 92)",
+      "backgroundColor": "rgb(246, 246, 246)",
+      "display": "block",
+      "gap": "normal",
+      "gridTemplateColumns": "none",
+      "border": "0px none rgb(92, 92, 92)",
+      "borderRadius": "0px",
+      "transform": "none",
+      "opacity": "1"
+    },
+    "serviceRows": [],
+    "product": {
+      "width": 1440,
+      "height": 2558.921875,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(92, 92, 92)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "display": "block",
+      "gap": "normal",
+      "gridTemplateColumns": "none",
+      "border": "0px none rgb(92, 92, 92)",
+      "borderRadius": "0px",
+      "transform": "none",
+      "opacity": "1"
+    },
+    "productGrid": {
+      "width": 1340,
+      "height": 936.109375,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(92, 92, 92)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "display": "grid",
+      "gap": "15px",
+      "gridTemplateColumns": "323.75px 323.75px 323.75px 323.75px",
+      "border": "0px none rgb(92, 92, 92)",
+      "borderRadius": "0px",
+      "transform": "none",
+      "opacity": "1"
+    },
+    "industry": {
+      "width": 1440,
+      "height": 1154.859375,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(92, 92, 92)",
+      "backgroundColor": "rgb(246, 246, 246)",
+      "display": "block",
+      "gap": "normal",
+      "gridTemplateColumns": "none",
+      "border": "0px none rgb(92, 92, 92)",
+      "borderRadius": "0px",
+      "transform": "none",
+      "opacity": "1"
+    },
+    "industryTabs": [
+      "DTG printing",
+      "Computerised embroidery",
+      "Sublimation printing",
+      "Laser cutting & engraving"
+    ],
+    "caseStudy": {
+      "width": 1440,
+      "height": 1241.1875,
+      "paddingTop": "200px",
+      "paddingBottom": "200px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(92, 92, 92)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "display": "block",
+      "gap": "normal",
+      "gridTemplateColumns": "none",
+      "border": "0px none rgb(92, 92, 92)",
+      "borderRadius": "0px",
+      "transform": "none",
+      "opacity": "1"
+    },
+    "whyChoose": {
+      "width": 1440,
+      "height": 1180.90625,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(92, 92, 92)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "20px",
+      "gridTemplateColumns": "none",
+      "border": "0px none rgb(92, 92, 92)",
+      "borderRadius": "0px",
+      "transform": "none",
+      "opacity": "1"
+    },
+    "testimonial": {
+      "width": 1440,
+      "height": 1104.875,
+      "paddingTop": "200px",
+      "paddingBottom": "200px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(92, 92, 92)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "display": "block",
+      "gap": "normal",
+      "gridTemplateColumns": "none",
+      "border": "0px none rgb(92, 92, 92)",
+      "borderRadius": "0px",
+      "transform": "none",
+      "opacity": "1"
+    },
+    "faq": {
+      "width": 1440,
+      "height": 851.203125,
+      "paddingTop": "96px",
+      "paddingBottom": "200px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(92, 92, 92)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "display": "block",
+      "gap": "normal",
+      "gridTemplateColumns": "none",
+      "border": "0px none rgb(92, 92, 92)",
+      "borderRadius": "0px",
+      "transform": "none",
+      "opacity": "1"
+    },
+    "footer": {
+      "width": 1440,
+      "height": 693.453125,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(92, 92, 92)",
+      "backgroundColor": "rgb(21, 21, 21)",
+      "display": "block",
+      "gap": "normal",
+      "gridTemplateColumns": "none",
+      "border": "0px none rgb(92, 92, 92)",
+      "borderRadius": "0px",
+      "transform": "none",
+      "opacity": "1"
+    }
+  }
+}

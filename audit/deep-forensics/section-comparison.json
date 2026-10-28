@@ -1,0 +1,540 @@
+{
+  "sections": [
+    {
+      "section": "Navbar",
+      "selector": ".navbar",
+      "manufactt": {
+        "exists": true,
+        "height": 95.40625,
+        "paddingTop": "18px",
+        "paddingBottom": "18px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block"
+      },
+      "local": {
+        "exists": true,
+        "height": 118.8125,
+        "paddingTop": "18px",
+        "paddingBottom": "18px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block"
+      }
+    },
+    {
+      "section": "Hero",
+      "selector": ".hero-section",
+      "manufactt": {
+        "exists": true,
+        "height": 604.515625,
+        "paddingTop": "200px",
+        "paddingBottom": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block"
+      },
+      "local": {
+        "exists": true,
+        "height": 602.21875,
+        "paddingTop": "200px",
+        "paddingBottom": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block"
+      }
+    },
+    {
+      "section": "Hero Video",
+      "selector": ".hero-video-section",
+      "manufactt": null,
+      "local": null
+    },
+    {
+      "section": "About",
+      "selector": ".about-section",
+      "manufactt": {
+        "exists": true,
+        "height": 1165.015625,
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "bg": "rgb(246, 246, 246)",
+        "display": "block"
+      },
+      "local": {
+        "exists": true,
+        "height": 1141.609375,
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "bg": "rgb(246, 246, 246)",
+        "display": "block"
+      }
+    },
+    {
+      "section": "Services",
+      "selector": ".service-section",
+      "manufactt": {
+        "exists": true,
+        "height": 2165.90625,
+        "paddingTop": "200px",
+        "paddingBottom": "50px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block"
+      },
+      "local": {
+        "exists": true,
+        "height": 2549.359375,
+        "paddingTop": "200px",
+        "paddingBottom": "50px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block"
+      }
+    },
+    {
+      "section": "Products / What We Manufacture",
+      "selector": ".product-section",
+      "manufactt": {
+        "exists": true,
+        "height": 2129.0625,
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block"
+      },
+      "local": {
+        "exists": true,
+        "height": 2558.921875,
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block"
+      }
+    },
+    {
+      "section": "Industry / Production Finder",
+      "selector": ".industry-section",
+      "manufactt": {
+        "exists": true,
+        "height": 1047.296875,
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "bg": "rgb(246, 246, 246)",
+        "display": "block"
+      },
+      "local": {
+        "exists": true,
+        "height": 1154.859375,
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "bg": "rgb(246, 246, 246)",
+        "display": "block"
+      }
+    },
+    {
+      "section": "Case Studies / Network Slider",
+      "selector": ".case-study-section",
+      "manufactt": {
+        "exists": true,
+        "height": 1171.296875,
+        "paddingTop": "200px",
+        "paddingBottom": "200px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block"
+      },
+      "local": {
+        "exists": true,
+        "height": 1241.1875,
+        "paddingTop": "200px",
+        "paddingBottom": "200px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block"
+      }
+    },
+    {
+      "section": "Why Choose Us",
+      "selector": ".why-choose-section",
+      "manufactt": {
+        "exists": true,
+        "height": 1040.65625,
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "flex"
+      },
+      "local": {
+        "exists": true,
+        "height": 1180.90625,
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "flex"
+      }
+    },
+    {
+      "section": "Testimonials & Gallery",
+      "selector": ".testimonial-section",
+      "manufactt": {
+        "exists": true,
+        "height": 1119.703125,
+        "paddingTop": "200px",
+        "paddingBottom": "200px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block"
+      },
+      "local": {
+        "exists": true,
+        "height": 1104.875,
+        "paddingTop": "200px",
+        "paddingBottom": "200px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block"
+      }
+    },
+    {
+      "section": "FAQ",
+      "selector": ".faqs-section",
+      "manufactt": null,
+      "local": {
+        "exists": true,
+        "height": 851.203125,
+        "paddingTop": "96px",
+        "paddingBottom": "200px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block"
+      }
+    },
+    {
+      "section": "Contact / Blog",
+      "selector": ".blog-section",
+      "manufactt": {
+        "exists": true,
+        "height": 458.703125,
+        "paddingTop": "0px",
+        "paddingBottom": "200px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block"
+      },
+      "local": null
+    },
+    {
+      "section": "Footer",
+      "selector": ".footer",
+      "manufactt": {
+        "exists": true,
+        "height": 693.453125,
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "bg": "rgb(21, 21, 21)",
+        "display": "block"
+      },
+      "local": {
+        "exists": true,
+        "height": 693.453125,
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "bg": "rgb(21, 21, 21)",
+        "display": "block"
+      }
+    }
+  ],
+  "typoM": [
+    {
+      "tag": "DIV",
+      "class": "pre-section-title",
+      "text": "Trusted manufacturing partner",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "14px",
+      "lineHeight": "23.4px",
+      "letterSpacing": "-0.32px",
+      "color": "rgb(21, 21, 21)"
+    },
+    {
+      "tag": "H1",
+      "class": "hero-title",
+      "text": "From raw material to market-re",
+      "fontFamily": "\"Mona Sans\", sans-serif",
+      "fontSize": "72px",
+      "lineHeight": "79.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(21, 21, 21)"
+    },
+    {
+      "tag": "DIV",
+      "class": "pre-section-title",
+      "text": "Who we are",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "14px",
+      "lineHeight": "23.4px",
+      "letterSpacing": "-0.32px",
+      "color": "rgb(21, 21, 21)"
+    },
+    {
+      "tag": "H2",
+      "class": "section-title",
+      "text": "Driven by technology, backed b",
+      "fontFamily": "\"Mona Sans\", sans-serif",
+      "fontSize": "58px",
+      "lineHeight": "63.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(21, 21, 21)"
+    },
+    {
+      "tag": "H2",
+      "class": "like-score",
+      "text": "1 million+",
+      "fontFamily": "\"Mona Sans\", sans-serif",
+      "fontSize": "40px",
+      "lineHeight": "44px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "DIV",
+      "class": "pre-section-title",
+      "text": "What We Do",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "14px",
+      "lineHeight": "23.4px",
+      "letterSpacing": "-0.32px",
+      "color": "rgb(21, 21, 21)"
+    },
+    {
+      "tag": "H2",
+      "class": "section-title",
+      "text": "Scalable capabilities for ever",
+      "fontFamily": "\"Mona Sans\", sans-serif",
+      "fontSize": "58px",
+      "lineHeight": "63.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(21, 21, 21)"
+    },
+    {
+      "tag": "H2",
+      "class": "service-name",
+      "text": "Product assembly",
+      "fontFamily": "\"Mona Sans\", sans-serif",
+      "fontSize": "28px",
+      "lineHeight": "30.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(21, 21, 21)"
+    },
+    {
+      "tag": "H2",
+      "class": "service-name",
+      "text": "Sheet metal fabrication",
+      "fontFamily": "\"Mona Sans\", sans-serif",
+      "fontSize": "28px",
+      "lineHeight": "30.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(21, 21, 21)"
+    },
+    {
+      "tag": "H2",
+      "class": "service-name",
+      "text": "CNC machining services",
+      "fontFamily": "\"Mona Sans\", sans-serif",
+      "fontSize": "28px",
+      "lineHeight": "30.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(21, 21, 21)"
+    },
+    {
+      "tag": "H2",
+      "class": "service-name",
+      "text": "Injection molding",
+      "fontFamily": "\"Mona Sans\", sans-serif",
+      "fontSize": "28px",
+      "lineHeight": "30.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(21, 21, 21)"
+    },
+    {
+      "tag": "H2",
+      "class": "cta-text",
+      "text": "Ready to start your next proje",
+      "fontFamily": "\"Mona Sans\", sans-serif",
+      "fontSize": "40px",
+      "lineHeight": "44px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "DIV",
+      "class": "pre-section-title w-variant-de5a90dc-c401-95a9-b09f-388955c5be35",
+      "text": "What we manufacture",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "14px",
+      "lineHeight": "23.4px",
+      "letterSpacing": "-0.32px",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "H3",
+      "class": "product-name",
+      "text": "Aluminum gear housing",
+      "fontFamily": "\"Mona Sans\", sans-serif",
+      "fontSize": "28px",
+      "lineHeight": "30.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "H3",
+      "class": "product-name",
+      "text": "Custom plastic enclosures",
+      "fontFamily": "\"Mona Sans\", sans-serif",
+      "fontSize": "28px",
+      "lineHeight": "30.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)"
+    }
+  ],
+  "typoL": [
+    {
+      "tag": "DIV",
+      "class": "pre-section-title",
+      "text": "ONOS GLOBAL / PRINT-ON-DEMAND",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "14px",
+      "lineHeight": "23.4px",
+      "letterSpacing": "-0.32px",
+      "color": "rgb(21, 21, 21)"
+    },
+    {
+      "tag": "H1",
+      "class": "hero-title",
+      "text": "Innovating without limits. Ele",
+      "fontFamily": "\"Mona Sans\", sans-serif",
+      "fontSize": "72px",
+      "lineHeight": "79.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(21, 21, 21)"
+    },
+    {
+      "tag": "DIV",
+      "class": "pre-section-title",
+      "text": "Who We Are",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "14px",
+      "lineHeight": "23.4px",
+      "letterSpacing": "-0.32px",
+      "color": "rgb(21, 21, 21)"
+    },
+    {
+      "tag": "H2",
+      "class": "section-title",
+      "text": "Local expertise, backed by sca",
+      "fontFamily": "\"Mona Sans\", sans-serif",
+      "fontSize": "58px",
+      "lineHeight": "63.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(21, 21, 21)"
+    },
+    {
+      "tag": "H2",
+      "class": "like-score",
+      "text": "1 million+",
+      "fontFamily": "\"Mona Sans\", sans-serif",
+      "fontSize": "40px",
+      "lineHeight": "44px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "DIV",
+      "class": "pre-section-title",
+      "text": "What We Do",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "14px",
+      "lineHeight": "23.4px",
+      "letterSpacing": "-0.32px",
+      "color": "rgb(21, 21, 21)"
+    },
+    {
+      "tag": "H2",
+      "class": "section-title",
+      "text": "Scalable capabilities for ever",
+      "fontFamily": "\"Mona Sans\", sans-serif",
+      "fontSize": "58px",
+      "lineHeight": "63.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(21, 21, 21)"
+    },
+    {
+      "tag": "H3",
+      "class": "service-name",
+      "text": "DTG printing",
+      "fontFamily": "\"Mona Sans\", sans-serif",
+      "fontSize": "28px",
+      "lineHeight": "30.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(21, 21, 21)"
+    },
+    {
+      "tag": "H3",
+      "class": "service-name",
+      "text": "Computerised embroidery",
+      "fontFamily": "\"Mona Sans\", sans-serif",
+      "fontSize": "28px",
+      "lineHeight": "30.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(21, 21, 21)"
+    },
+    {
+      "tag": "H3",
+      "class": "service-name",
+      "text": "Sublimation printing",
+      "fontFamily": "\"Mona Sans\", sans-serif",
+      "fontSize": "28px",
+      "lineHeight": "30.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(21, 21, 21)"
+    },
+    {
+      "tag": "H3",
+      "class": "service-name",
+      "text": "Laser cutting & engraving",
+      "fontFamily": "\"Mona Sans\", sans-serif",
+      "fontSize": "28px",
+      "lineHeight": "30.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(21, 21, 21)"
+    },
+    {
+      "tag": "H2",
+      "class": "cta-text",
+      "text": "Ready to start your next proje",
+      "fontFamily": "\"Mona Sans\", sans-serif",
+      "fontSize": "40px",
+      "lineHeight": "44px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "DIV",
+      "class": "pre-section-title w-variant-de5a90dc-c401-95a9-b09f-388955c5be35",
+      "text": "What we manufacture",
+      "fontFamily": "Geist, sans-serif",
+      "fontSize": "14px",
+      "lineHeight": "23.4px",
+      "letterSpacing": "-0.32px",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "H3",
+      "class": "product-name",
+      "text": "DTG Cotton Apparel",
+      "fontFamily": "\"Mona Sans\", sans-serif",
+      "fontSize": "28px",
+      "lineHeight": "30.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "H3",
+      "class": "product-name",
+      "text": "Computerised Embroidered Headw",
+      "fontFamily": "\"Mona Sans\", sans-serif",
+      "fontSize": "28px",
+      "lineHeight": "30.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)"
+    }
+  ]
+}

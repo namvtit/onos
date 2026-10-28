@@ -108,6 +108,9 @@ export function mountSourceAnimations(pageId: string) {
       running.get(key)?.kill();
       if (event.action.config.autoStopEventId) running.get(`${event.action.config.autoStopEventId}:${trigger.dataset.runtimeKey}`)?.kill();
       if (reduced) { if (!settings.loop) groups.forEach(group => apply(group, trigger)); return; }
+      if (event.eventTypeId === "SCROLL_INTO_VIEW" && list.useFirstGroupAsInitialState && list.actionItemGroups?.[0]) {
+        apply(list.actionItemGroups[0], trigger);
+      }
       const timeline = gsap.timeline({ repeat: settings.loop ? -1 : 0, delay: (settings.delay || 0) / 1000 });
       running.set(key, timeline);
       let cursor = 0;
@@ -128,7 +131,7 @@ export function mountSourceAnimations(pageId: string) {
     }
     // Apply initial states before any triggers. Accordions and dropdowns have their own controls.
     activeEvents.forEach(event => {
-      if (!["MOUSE_OVER", "MOUSE_OUT", "SCROLL_INTO_VIEW"].includes(event.eventTypeId)) return;
+      if (!["MOUSE_OVER", "MOUSE_OUT"].includes(event.eventTypeId)) return;
       const list = data.actionLists[event.action.config.actionListId];
       if (list.useFirstGroupAsInitialState && list.actionItemGroups?.[0]) {
         targets(event.target, document.documentElement, pageId).forEach(trigger => apply(list.actionItemGroups![0], trigger));
