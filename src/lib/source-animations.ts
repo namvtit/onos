@@ -241,22 +241,7 @@ export function mountSourceAnimations(pageId: string) {
         cleanups.push(() => tween.kill());
       }
 
-      // c) About section floating badges & photos alternating vertical drift
-      const aboutBoxes = document.querySelectorAll<HTMLElement>(".about-info-box, .about-image-box");
-      aboutBoxes.forEach((box, i) => {
-        const drift = i % 2 === 0 ? -30 : 30;
-        const tween = gsap.to(box, {
-          y: drift,
-          ease: "none",
-          scrollTrigger: {
-            trigger: box.parentElement || box,
-            start: "top bottom",
-            end: "bottom top",
-            scrub: 1,
-          }
-        });
-        cleanups.push(() => tween.kill());
-      });
+      // c) About section circular cards remain static and fixed (no vertical drift or clipping)
 
       // d) Footer giant wordmark vertical entrance parallax
       const footerLogo = document.querySelector<HTMLElement>(".footer-logo, .footer-logo-text");

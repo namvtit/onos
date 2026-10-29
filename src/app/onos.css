@@ -102,10 +102,18 @@ html.motion-paused video {
 }
 
 /* Logo sizing in navbar */
+.navbar .brand {
+  display: flex !important;
+  align-items: center !important;
+  min-width: 160px !important;
+}
 .navbar .brand img.logo {
+  height: 34px !important;
   max-height: 38px;
-  width: auto;
+  width: auto !important;
+  aspect-ratio: 7808 / 1250 !important;
   object-fit: contain;
+  display: block;
 }
 
 /* Giant wordmark in footer */
