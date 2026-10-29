@@ -24,7 +24,7 @@ export function HeroVideo() {
         <div className="hero-facility-indicator-bar">
           <div className="hero-facility-badge">
             <span className="facility-pulse-dot"></span>
-            <span>{t("Active Facility · Thai Nguyen")}</span>
+            <span>{t("Thai Nguyen Facility")}</span>
           </div>
           <a
             href="/assets/onos-embroidery-hero.webp"

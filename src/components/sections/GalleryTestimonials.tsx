@@ -72,16 +72,19 @@ export function GalleryTestimonials() {
                 <div className="testimonial-tabs-pane w-tab-pane w--tab-active">
                   <div className="testimonial-info">
                     <div className="testimonial-info-inner">
-                      <div className="pre-section-title-wrap" style={{ marginBottom: "10px" }}>
-                        <div className="pre-section-title-inner">
-                          <div className="pre-section-title-square"></div>
-                          <div className="pre-section-title" style={{ color: "var(--color--primary)", letterSpacing: "1px" }}>
-                            {t("A Closer Look")}
-                          </div>
-                        </div>
-                      </div>
-                      <p className="testimonial-description">{t(current.caption)}</p>
-                      <div style={{ marginTop: "16px", borderRadius: "8px", overflow: "hidden" }}>
+                      <h3
+                        className="testimonial-card-heading"
+                        style={{
+                          fontSize: "1.35rem",
+                          fontWeight: 700,
+                          color: "var(--color--white)",
+                          margin: "0 0 14px 0",
+                          lineHeight: 1.3,
+                        }}
+                      >
+                        {t(current.caption)}
+                      </h3>
+                      <div style={{ marginTop: "12px", borderRadius: "8px", overflow: "hidden" }}>
                         <a
                           href={`/assets/onos-${current.image}.webp`}
                           className="w-lightbox"
@@ -109,9 +112,11 @@ export function GalleryTestimonials() {
                       </div>
                     </div>
                     <div className="author-details">
-                      <h3 className="author-name">{t(current.caption)}</h3>
+                      <div className="author-name" style={{ fontSize: "1rem", fontWeight: 600, color: "var(--color--white)" }}>
+                        {t("Production Network & Facilities")}
+                      </div>
                       <div className="author-job-title">
-                        {t("ONOS / PRODUCTION")} · {activePhoto + 1}/{galleryPhotos.length}
+                        {t("Vietnam ↔ USA")} · {activePhoto + 1}/{galleryPhotos.length}
                       </div>
                     </div>
                   </div>

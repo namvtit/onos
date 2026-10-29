@@ -205,8 +205,8 @@ export function Footer() {
         </div>
       </div>
 
-      <img src="/assets/62379ae07751-68d6314bdbf908695fdc3d3e_blur.svg" loading="lazy" alt="Footer Shadow" className="footer-shadow _01" />
-      <img src="/assets/62379ae07751-68d6314bdbf908695fdc3d3e_blur.svg" loading="lazy" alt="Footer Shadow" className="footer-shadow _02" />
+      <img src="/assets/62379ae07751-68d6314bdbf908695fdc3d3e_blur.svg" loading="lazy" alt="" aria-hidden="true" className="footer-shadow _01" style={{ zIndex: 0, pointerEvents: "none" }} />
+      <img src="/assets/62379ae07751-68d6314bdbf908695fdc3d3e_blur.svg" loading="lazy" alt="" aria-hidden="true" className="footer-shadow _02" style={{ zIndex: 0, pointerEvents: "none" }} />
 
       <div className="line-wrapper">
         <div className="section-line"></div>

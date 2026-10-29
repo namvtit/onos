@@ -37,6 +37,7 @@ export const vietnamese: Record<string, string> = {
   "CONNECTED BY DESIGN": "KẾT NỐI TỪ NỀN TẢNG",
   "Production network": "Mạng lưới sản xuất",
   "Active Facility · Thai Nguyen": "Xưởng đang vận hành · Thái Nguyên",
+  "Thai Nguyen Facility": "Cơ sở sản xuất Thái Nguyên",
   "Expand facility photograph": "Xem ảnh phóng to cơ sở sản xuất",
 
   // About
@@ -206,6 +207,7 @@ export const vietnamese: Record<string, string> = {
   "The finishing touches.": "Tỉ mỉ từng đường nét.",
   "Ideas you can hold.": "Ý tưởng cầm được trên tay.",
   "Ready for the next order.": "Sẵn sàng cho đơn hàng tiếp theo.",
+  "Production Network & Facilities": "Mạng lưới cơ sở sản xuất",
   "On-Time delivery rate": "Tỷ lệ giao hàng đúng hạn",
   "On-Time fulfillment": "Hoàn tất đơn hàng đúng hạn",
   "Skilled professionals": "Nhân sự tay nghề cao",

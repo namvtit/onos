@@ -1,5 +1,26 @@
 /* Bridges for controls previously initialized by the Webflow runtime. */
-html { scroll-behavior: smooth; }
+/* Prevent horizontal overflow on tablet/desktop from decorative vectors */
+.product-section {
+  overflow: hidden !important;
+}
+.client-marquee {
+  overflow: hidden !important;
+}
+.hero-video-wrap {
+  overflow: hidden !important;
+}
+.line-wrapper {
+  overflow: hidden !important;
+  max-width: 100% !important;
+}
+.page-wrapper {
+  overflow-x: hidden !important;
+  max-width: 100vw !important;
+}
+html, body {
+  overflow-x: hidden !important;
+  max-width: 100vw;
+}
 html:not(.site-ready) [data-w-id][style*="opacity:0"],
 html:not(.site-ready) [data-w-id][style*="opacity: 0"] { opacity: 1 !important; }
 .local-form-status { grid-column: 1 / -1; flex-basis: 100%; margin: 16px 0 0; position: relative; z-index: 2; }
@@ -170,13 +191,14 @@ html:not(.site-ready) [data-w-id][style*="opacity: 0"] { opacity: 1 !important; 
 
 /* Hero Facility Media Indicator & Lightbox Trigger */
 .hero-facility-indicator-bar {
-  position: absolute;
-  bottom: 24px;
-  right: 24px;
-  z-index: 5;
-  display: flex;
-  align-items: center;
-  gap: 12px;
+  position: absolute !important;
+  bottom: 24px !important;
+  right: 24px !important;
+  left: auto !important;
+  z-index: 10 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
 }
 .hero-facility-badge {
   display: inline-flex;
@@ -230,23 +252,79 @@ html:not(.site-ready) [data-w-id][style*="opacity: 0"] { opacity: 1 !important; 
 }
 @media (max-width: 767px) {
   .hero-facility-indicator-bar {
-    bottom: 16px;
-    right: 16px;
-    left: 16px;
-    justify-content: space-between;
+    bottom: 18px !important;
+    right: 18px !important;
+    left: auto !important;
+    gap: 8px !important;
   }
   .hero-facility-badge {
-    font-size: 10px;
-    padding: 6px 10px;
+    font-size: 10px !important;
+    padding: 6px 12px !important;
   }
   .hero-lightbox-trigger {
-    width: 36px;
-    height: 36px;
-    flex-shrink: 0;
+    width: 38px !important;
+    height: 38px !important;
+    flex-shrink: 0 !important;
   }
 }
 
-/* Workflow Glass Card Mobile Readability & Contrast */
+/* Workflow Glass Card Internal Structure & Typography */
+.why-choose-inner {
+  display: flex !important;
+  align-items: center !important;
+  gap: 1.25rem !important;
+  margin-top: 1.75rem !important;
+  padding-top: 1.25rem !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.12) !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+.why-choose-inner .avatar {
+  display: flex !important;
+  align-items: center !important;
+  flex-shrink: 0 !important;
+  margin: 0 !important;
+}
+.why-choose-inner .avatar-box {
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  border: 2px solid rgba(255, 255, 255, 0.2) !important;
+  background-color: #1a1a1a !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.why-choose-inner .avatar-box.one {
+  margin-left: -14px !important;
+}
+.why-choose-inner .avatar-image {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+.why-choose-inner .rating-info {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 10px !important;
+  flex: 1 !important;
+  margin: 0 !important;
+}
+.why-choose-inner .rating-image {
+  width: 16px !important;
+  height: 16px !important;
+  flex-shrink: 0 !important;
+  display: block !important;
+}
+.why-choose-inner .rating-text {
+  font-size: 0.85rem !important;
+  line-height: 1.35 !important;
+  color: #e4e4e7 !important;
+}
+
 @media screen and (max-width: 767px) {
   .why-choose-info {
     background-position: 65% center !important;
@@ -273,5 +351,149 @@ html:not(.site-ready) [data-w-id][style*="opacity: 0"] { opacity: 1 !important; 
   .why-choose-list {
     grid-row-gap: 1.25rem !important;
   }
+  .why-choose-inner {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0.75rem !important;
+    margin-top: 1.25rem !important;
+    padding-top: 1rem !important;
+  }
+  .why-choose-inner .avatar-box {
+    width: 38px !important;
+    height: 38px !important;
+  }
+  .why-choose-inner .avatar-box.one {
+    margin-left: -12px !important;
+  }
+  .why-choose-inner .rating-info {
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 8px !important;
+  }
+  .why-choose-inner .rating-text {
+    font-size: 0.8rem !important;
+  }
 }
+
+/* About Section Circle 3 Hierarchy & Fit */
+.about-info-box.box-bg-white {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 1.5rem 1.25rem !important;
+  box-sizing: border-box !important;
+}
+.about-info-box.box-bg-white .about-box-logo {
+  max-height: 20px !important;
+  width: auto !important;
+  margin-bottom: 0.35rem !important;
+}
+.about-info-box.box-bg-white .inner-number.about-counter {
+  margin-bottom: 0.2rem !important;
+  line-height: 1 !important;
+}
+.about-info-box.box-bg-white .about-info-text {
+  width: auto !important;
+  max-width: 200px !important;
+  font-size: 0.82rem !important;
+  line-height: 1.35 !important;
+  margin-bottom: 0.65rem !important;
+  color: var(--color--dark) !important;
+}
+.about-info-box.box-bg-white .about-rating-wrap {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 6px !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+.about-info-box.box-bg-white .about-rating-text {
+  font-size: 0.85rem !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  color: var(--color--dark) !important;
+  display: flex !important;
+  align-items: baseline !important;
+  justify-content: center !important;
+  gap: 4px !important;
+  white-space: nowrap !important;
+}
+.about-info-box.box-bg-white .about-rating-text .rating-small-text {
+  font-size: 0.75rem !important;
+  font-weight: 500 !important;
+  color: #666 !important;
+}
+.about-info-box.box-bg-white .rating-image {
+  width: 104px !important;
+  height: 16px !important;
+  flex-shrink: 0 !important;
+  display: block !important;
+  margin: 0 auto !important;
+}
+@media screen and (max-width: 767px) {
+  .about-info-box.box-bg-white {
+    padding: 1.25rem 1rem !important;
+  }
+  .about-info-box.box-bg-white .about-box-logo {
+    max-height: 18px !important;
+    margin-bottom: 0.25rem !important;
+  }
+  .about-info-box.box-bg-white .about-info-text {
+    max-width: 180px !important;
+    font-size: 0.78rem !important;
+    margin-bottom: 0.4rem !important;
+  }
+  .about-info-box.box-bg-white .about-rating-text {
+    font-size: 0.8rem !important;
+  }
+  .about-info-box.box-bg-white .about-rating-text .rating-small-text {
+    font-size: 0.7rem !important;
+  }
+  .about-info-box.box-bg-white .rating-image {
+    width: 96px !important;
+    height: 15px !important;
+  }
+}
+
+/* Footer Stacking Context & Mobile Contrast */
+.footer {
+  position: relative !important;
+  overflow: hidden !important;
+}
+.footer-shadow {
+  z-index: 0 !important;
+  pointer-events: none !important;
+}
+.footer-wrapper {
+  position: relative !important;
+  z-index: 2 !important;
+}
+.footer-link,
+.footer-address,
+.working-text {
+  color: #c4c0be !important;
+}
+.footer-link:hover,
+.footer-address-link:hover,
+.footer-contact-link:hover {
+  color: #ffffff !important;
+}
+@media screen and (max-width: 767px) {
+  .footer-link,
+  .footer-address,
+  .working-text {
+    color: #e0dedd !important;
+    font-size: 0.92rem !important;
+    line-height: 1.55 !important;
+  }
+  .footer-title {
+    color: #ffffff !important;
+    font-size: 1.1rem !important;
+    font-weight: 700 !important;
+  }
+}
+
 
