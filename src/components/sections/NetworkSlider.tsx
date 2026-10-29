@@ -75,18 +75,35 @@ export function NetworkSlider() {
     <section id="network" className="case-study-section section-spacing">
       <span id="facilities" className="onos-anchor-alias" aria-hidden="true" />
       <div className="container-full">
-        {/* Section Title Header */}
-        <div className="section-title-wrap one">
-          <div data-wf--pre-section-title--variant="base" className="pre-section-title-wrap">
-            <div className="pre-section-title-inner">
-              <div className="pre-section-title-square"></div>
-              <div className="pre-section-title">{t("Manufacturing Network")}</div>
+        {/* Balanced Two-Column Section Header */}
+        <div
+          className="factory-network-header"
+          style={{
+            display: "grid",
+            gridTemplateColumns: "1.1fr 0.9fr",
+            columnGap: "48px",
+            rowGap: "24px",
+            alignItems: "end",
+            marginBottom: "28px",
+          }}
+        >
+          {/* Left Column: Eyebrow + Main Heading */}
+          <div>
+            <div data-wf--pre-section-title--variant="base" className="pre-section-title-wrap" style={{ marginBottom: "14px" }}>
+              <div className="pre-section-title-inner">
+                <div className="pre-section-title-square"></div>
+                <div className="pre-section-title">{t("Manufacturing Network")}</div>
+              </div>
             </div>
-          </div>
-          <div className="section-title-wrap one">
             <h2
               data-w-id="9d872462-3a61-1c11-5760-a0f5066f94a7"
               className="section-title"
+              style={{
+                margin: 0,
+                fontSize: "clamp(2rem, 3.2vw, 3rem)",
+                lineHeight: 1.15,
+                fontWeight: 700,
+              }}
             >
               {language === "vi" ? (
                 <>
@@ -99,51 +116,67 @@ export function NetworkSlider() {
               )}
             </h2>
           </div>
-        </div>
 
-        {/* 3-Facility Quick Discover Switcher */}
-        <div
-          className="facility-tabs-bar"
-          role="tablist"
-          aria-label={t("Three plants. One connected team.")}
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            gap: "12px",
-            marginBottom: "28px",
-          }}
-        >
-          {factories.map((fac) => {
-            const isSelected = activeFacility.code === fac.code;
-            return (
-              <button
-                key={fac.code}
-                type="button"
-                role="tab"
-                aria-selected={isSelected}
-                onClick={() => goToFacility(fac.code)}
-                style={{
-                  padding: "10px 22px",
-                  borderRadius: "24px",
-                  fontSize: "0.95rem",
-                  fontWeight: 600,
-                  cursor: "pointer",
-                  transition: "all 0.3s ease",
-                  backgroundColor: isSelected ? "var(--color--primary-1, #f66234)" : "rgba(255, 255, 255, 0.06)",
-                  color: isSelected ? "white" : "var(--color--white, #fff)",
-                  border: isSelected ? "1px solid var(--color--primary-1, #f66234)" : "1px solid rgba(255, 255, 255, 0.15)",
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "8px",
-                }}
-              >
-                <span style={{ opacity: isSelected ? 1 : 0.85, fontWeight: 700, fontFamily: "var(--font-mono, monospace)" }}>
-                  {fac.code}
-                </span>
-                <span>{t(fac.name)}</span>
-              </button>
-            );
-          })}
+          {/* Right Column: Intro Copy + Facility Selector */}
+          <div>
+            <p
+              style={{
+                fontSize: "1.05rem",
+                lineHeight: 1.6,
+                color: "#4a4a4a",
+                margin: "0 0 18px 0",
+              }}
+            >
+              {t(
+                "Production in Vietnam. Fulfillment closer to the US market. A connected network built around where your customers are."
+              )}
+            </p>
+
+            {/* 3-Facility Quick Discover Switcher */}
+            <div
+              className="facility-tabs-bar"
+              role="tablist"
+              aria-label={t("Three plants. One connected team.")}
+              style={{
+                display: "flex",
+                flexWrap: "wrap",
+                gap: "10px",
+              }}
+            >
+              {factories.map((fac) => {
+                const isSelected = activeFacility.code === fac.code;
+                return (
+                  <button
+                    key={fac.code}
+                    type="button"
+                    role="tab"
+                    aria-selected={isSelected}
+                    onClick={() => goToFacility(fac.code)}
+                    style={{
+                      padding: "8px 18px",
+                      borderRadius: "20px",
+                      fontSize: "0.9rem",
+                      fontWeight: 600,
+                      cursor: "pointer",
+                      transition: "all 0.25s ease",
+                      backgroundColor: isSelected ? "var(--color--primary-1, #f66234)" : "#ffffff",
+                      color: isSelected ? "#ffffff" : "var(--color--black, #191919)",
+                      border: isSelected ? "1px solid var(--color--primary-1, #f66234)" : "1px solid #d4d4d4",
+                      boxShadow: isSelected ? "0 4px 12px rgba(246, 98, 52, 0.25)" : "0 2px 6px rgba(0, 0, 0, 0.05)",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: "8px",
+                    }}
+                  >
+                    <span style={{ opacity: isSelected ? 1 : 0.85, fontWeight: 700, fontFamily: "var(--font-mono, monospace)" }}>
+                      {fac.code}
+                    </span>
+                    <span>{t(fac.name)}</span>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
         </div>
 
         {/* Main Slider Container */}
@@ -312,7 +345,7 @@ export function NetworkSlider() {
                                         position: "absolute",
                                         top: "16px",
                                         right: "16px",
-                                        backgroundColor: "rgba(0, 0, 0, 0.7)",
+                                        backgroundColor: "rgba(0, 0, 0, 0.72)",
                                         backdropFilter: "blur(6px)",
                                         padding: "6px 14px",
                                         borderRadius: "20px",
@@ -328,6 +361,71 @@ export function NetworkSlider() {
                                       <span>{t(photo.caption)}</span>
                                       <span style={{ opacity: 0.5 }}>·</span>
                                       <span>{idx + 1} / {totalSlides}</span>
+                                    </div>
+
+                                    {/* Direct On-Image Carousel Arrows */}
+                                    <div
+                                      style={{
+                                        position: "absolute",
+                                        bottom: "16px",
+                                        right: "16px",
+                                        display: "flex",
+                                        gap: "8px",
+                                        zIndex: 4,
+                                      }}
+                                    >
+                                      <button
+                                        type="button"
+                                        onClick={(e) => {
+                                          e.preventDefault();
+                                          e.stopPropagation();
+                                          prev();
+                                        }}
+                                        aria-label={t("Previous photo")}
+                                        style={{
+                                          width: "38px",
+                                          height: "38px",
+                                          borderRadius: "50%",
+                                          backgroundColor: "rgba(18, 18, 18, 0.75)",
+                                          backdropFilter: "blur(8px)",
+                                          border: "1px solid rgba(255, 255, 255, 0.3)",
+                                          color: "#ffffff",
+                                          display: "flex",
+                                          alignItems: "center",
+                                          justifyContent: "center",
+                                          cursor: "pointer",
+                                          fontSize: "0.95rem",
+                                          transition: "all 0.2s ease",
+                                        }}
+                                      >
+                                        ←
+                                      </button>
+                                      <button
+                                        type="button"
+                                        onClick={(e) => {
+                                          e.preventDefault();
+                                          e.stopPropagation();
+                                          next();
+                                        }}
+                                        aria-label={t("Next photo")}
+                                        style={{
+                                          width: "38px",
+                                          height: "38px",
+                                          borderRadius: "50%",
+                                          backgroundColor: "rgba(18, 18, 18, 0.75)",
+                                          backdropFilter: "blur(8px)",
+                                          border: "1px solid rgba(255, 255, 255, 0.3)",
+                                          color: "#ffffff",
+                                          display: "flex",
+                                          alignItems: "center",
+                                          justifyContent: "center",
+                                          cursor: "pointer",
+                                          fontSize: "0.95rem",
+                                          transition: "all 0.2s ease",
+                                        }}
+                                      >
+                                        →
+                                      </button>
                                     </div>
                                   </div>
                                 </div>
@@ -373,30 +471,78 @@ export function NetworkSlider() {
             </button>
           </div>
 
-          {/* Under-slider Controls Bar: Dots + Slideshow Control */}
+          {/* Under-slider Controls Bar: Facility Info + Navigation Dots + Prev/Next Controls */}
           <div
             style={{
               display: "flex",
               justifyContent: "space-between",
               alignItems: "center",
               marginTop: "20px",
-              padding: "0 8px",
+              padding: "0 4px",
+              flexWrap: "wrap",
+              gap: "12px",
             }}
           >
-            <div style={{ fontSize: "0.88rem", color: "rgba(255, 255, 255, 0.7)" }}>
-              <span style={{ fontWeight: 700, color: "var(--color--white, #fff)" }}>
+            <div style={{ fontSize: "0.9rem", color: "#4a4a4a" }}>
+              <span style={{ fontWeight: 700, color: "var(--color--black, #191919)" }}>
                 {activeFacility.code}
               </span>{" "}
               — {t(activeFacility.name)} ({t(activeFacility.role)})
             </div>
 
-            <div style={{ display: "flex", alignItems: "center", gap: "14px" }}>
+            <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+              {/* Prev / Next circular buttons */}
+              <button
+                type="button"
+                onClick={prev}
+                aria-label={t("Previous photo")}
+                style={{
+                  background: "#ffffff",
+                  border: "1px solid #d4d4d4",
+                  borderRadius: "50%",
+                  width: "32px",
+                  height: "32px",
+                  display: "inline-flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  color: "#191919",
+                  fontSize: "0.85rem",
+                  cursor: "pointer",
+                  transition: "all 0.2s ease",
+                  boxShadow: "0 2px 4px rgba(0,0,0,0.04)",
+                }}
+              >
+                ←
+              </button>
+              <button
+                type="button"
+                onClick={next}
+                aria-label={t("Next photo")}
+                style={{
+                  background: "#ffffff",
+                  border: "1px solid #d4d4d4",
+                  borderRadius: "50%",
+                  width: "32px",
+                  height: "32px",
+                  display: "inline-flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  color: "#191919",
+                  fontSize: "0.85rem",
+                  cursor: "pointer",
+                  transition: "all 0.2s ease",
+                  boxShadow: "0 2px 4px rgba(0,0,0,0.04)",
+                }}
+              >
+                →
+              </button>
+
               {/* Photo Indicator Dots */}
               <div
                 className="facility-dots"
                 role="group"
                 aria-label={t("Photo navigation")}
-                style={{ display: "flex", gap: "6px", alignItems: "center" }}
+                style={{ display: "flex", gap: "6px", alignItems: "center", marginLeft: "4px", marginRight: "4px" }}
               >
                 {factoryPhotos.map((_, i) => (
                   <button
@@ -409,7 +555,7 @@ export function NetworkSlider() {
                       width: i === currentSlide ? "24px" : "8px",
                       height: "8px",
                       borderRadius: "4px",
-                      backgroundColor: i === currentSlide ? "var(--color--primary-1, #f66234)" : "rgba(255, 255, 255, 0.25)",
+                      backgroundColor: i === currentSlide ? "var(--color--primary-1, #f66234)" : "#cbd5e1",
                       border: "none",
                       padding: 0,
                       cursor: "pointer",
@@ -426,18 +572,19 @@ export function NetworkSlider() {
                 aria-label={isPaused ? t("Play slideshow") : t("Pause slideshow")}
                 aria-pressed={isPaused}
                 style={{
-                  background: "none",
-                  border: "1px solid rgba(255, 255, 255, 0.25)",
+                  background: "#ffffff",
+                  border: "1px solid #d4d4d4",
                   borderRadius: "50%",
-                  width: "30px",
-                  height: "30px",
+                  width: "32px",
+                  height: "32px",
                   display: "inline-flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  color: "var(--color--white, #fff)",
+                  color: "#191919",
                   fontSize: "0.8rem",
                   cursor: "pointer",
                   transition: "border-color 0.2s ease",
+                  boxShadow: "0 2px 4px rgba(0,0,0,0.04)",
                 }}
               >
                 {isPaused ? "▶" : "Ⅱ"}

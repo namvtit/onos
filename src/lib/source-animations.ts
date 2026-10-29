@@ -293,6 +293,188 @@ export function mountSourceAnimations(pageId: string) {
         });
         cleanups.push(() => tween.kill());
       });
+
+      // f) Services / Capabilities vertical scroll slide & continuous parallax
+      const serviceHeader = document.querySelector<HTMLElement>(".service-details-wrap");
+      if (serviceHeader) {
+        const tween = gsap.fromTo(
+          serviceHeader,
+          { y: 40, opacity: 0.4 },
+          {
+            y: 0,
+            opacity: 1,
+            ease: "power2.out",
+            scrollTrigger: {
+              trigger: serviceHeader,
+              start: "top 95%",
+              end: "top 65%",
+              scrub: 0.8,
+            },
+          }
+        );
+        cleanups.push(() => tween.kill());
+      }
+
+      const serviceRows = document.querySelectorAll<HTMLElement>(".service-list-wrapper");
+      serviceRows.forEach((row) => {
+        // 1. Entrance vertical slide directly scrubbed to scroll position
+        const rowTween = gsap.fromTo(
+          row,
+          { y: 50, opacity: 0.3 },
+          {
+            y: 0,
+            opacity: 1,
+            ease: "power2.out",
+            scrollTrigger: {
+              trigger: row,
+              start: "top 96%",
+              end: "top 65%",
+              scrub: 0.8,
+            },
+          }
+        );
+        cleanups.push(() => rowTween.kill());
+
+        // 2. Parallax vertical drift on the image wrap while scrolling past
+        const imgWrap = row.querySelector<HTMLElement>(".service-image-wrap");
+        if (imgWrap) {
+          const imgTween = gsap.fromTo(
+            imgWrap,
+            { y: -16 },
+            {
+              y: 16,
+              ease: "none",
+              scrollTrigger: {
+                trigger: row,
+                start: "top bottom",
+                end: "bottom top",
+                scrub: 1,
+              },
+            }
+          );
+          cleanups.push(() => imgTween.kill());
+        }
+
+        // 3. Subtle floating vertical drift on icon
+        const icon = row.querySelector<HTMLElement>(".service-icon");
+        if (icon) {
+          const iconTween = gsap.fromTo(
+            icon,
+            { y: -10 },
+            {
+              y: 10,
+              ease: "none",
+              scrollTrigger: {
+                trigger: row,
+                start: "top bottom",
+                end: "bottom top",
+                scrub: 0.8,
+              },
+            }
+          );
+          cleanups.push(() => iconTween.kill());
+        }
+      });
+
+      // g) Factory Network (#network) balanced header & card entrance reveals
+      const networkHeader = document.querySelector<HTMLElement>(".factory-network-header");
+      if (networkHeader) {
+        const tween = gsap.fromTo(
+          networkHeader,
+          { y: 45, opacity: 0.4 },
+          {
+            y: 0,
+            opacity: 1,
+            ease: "power2.out",
+            scrollTrigger: {
+              trigger: networkHeader,
+              start: "top 95%",
+              end: "top 65%",
+              scrub: 0.8,
+            },
+          }
+        );
+        cleanups.push(() => tween.kill());
+      }
+
+      const caseStudyLeft = document.querySelector<HTMLElement>(".case-study-info-left");
+      if (caseStudyLeft) {
+        const tween = gsap.fromTo(
+          caseStudyLeft,
+          { y: 45, opacity: 0.4 },
+          {
+            y: 0,
+            opacity: 1,
+            ease: "power2.out",
+            scrollTrigger: {
+              trigger: caseStudyLeft,
+              start: "top 95%",
+              end: "top 60%",
+              scrub: 0.8,
+            },
+          }
+        );
+        cleanups.push(() => tween.kill());
+      }
+
+      const caseStudyRight = document.querySelector<HTMLElement>(".case-study-info-right");
+      if (caseStudyRight) {
+        const tween = gsap.fromTo(
+          caseStudyRight,
+          { y: 55, opacity: 0.4 },
+          {
+            y: 0,
+            opacity: 1,
+            ease: "power2.out",
+            scrollTrigger: {
+              trigger: caseStudyRight,
+              start: "top 95%",
+              end: "top 60%",
+              scrub: 0.8,
+            },
+          }
+        );
+        cleanups.push(() => tween.kill());
+      }
+
+      const facilityImages = document.querySelectorAll<HTMLElement>(".case-study-image");
+      facilityImages.forEach((img) => {
+        const tween = gsap.fromTo(
+          img,
+          { yPercent: -6 },
+          {
+            yPercent: 6,
+            ease: "none",
+            scrollTrigger: {
+              trigger: img.closest(".case-study-info") || img,
+              start: "top bottom",
+              end: "bottom top",
+              scrub: 1.2,
+            },
+          }
+        );
+        cleanups.push(() => tween.kill());
+      });
+
+      const helpWrap = document.querySelector<HTMLElement>(".info-help-wrap");
+      if (helpWrap) {
+        const tween = gsap.fromTo(
+          helpWrap,
+          { y: 35, opacity: 0.4 },
+          {
+            y: 0,
+            opacity: 1,
+            ease: "power2.out",
+            scrollTrigger: {
+              trigger: helpWrap,
+              start: "top 95%",
+              end: "top 70%",
+              scrub: 0.8,
+            },
+          }
+        );
+        cleanups.push(() => tween.kill());
+      }
     }
 
     // 5. Number Counters with GSAP ScrollTrigger

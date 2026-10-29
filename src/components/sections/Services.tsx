@@ -254,11 +254,12 @@ export function Services() {
                             </div>
 
                             <div className="service-feature-list">
-                              <div className="service-feature-text">
-                                {t("Features")} · {t(item.modelKey)}
+                              <div className="service-feature-text" style={{ fontWeight: 600, color: "var(--color--dark, #151515)", display: "flex", alignItems: "center", gap: "6px" }}>
+                                <span style={{ color: "var(--color--primary-1, #f66234)", fontSize: "0.75rem" }}>●</span>
+                                <span>{t(item.modelKey)}</span>
                               </div>
                               <div className="feature-list-item">
-                                {item.features.map((feat, fIdx) => (
+                                {(isExpanded ? item.features : item.features.slice(0, 2)).map((feat, fIdx) => (
                                   <div key={fIdx} className="feature-item-inner">
                                     <img
                                       src="/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"
@@ -271,53 +272,57 @@ export function Services() {
                                 ))}
                               </div>
 
-                              {/* Relocated Authentic ONOS Business Specifications */}
-                              <div
-                                style={{
-                                  marginTop: "12px",
-                                  padding: "10px 12px",
-                                  borderRadius: "6px",
-                                  backgroundColor: "var(--color--gray-5, #f8f8f8)",
-                                  fontSize: "0.84rem",
-                                  lineHeight: 1.45,
-                                  color: "#555",
-                                }}
-                              >
-                                <div>
-                                  <strong style={{ color: "var(--color--dark, #151515)" }}>
-                                    {t("Suitable materials")}:
-                                  </strong>{" "}
-                                  {t(item.material)}
-                                </div>
-                                <div style={{ marginTop: "4px" }}>
-                                  <strong style={{ color: "var(--color--dark, #151515)" }}>
-                                    {t("Preparation")}:
-                                  </strong>{" "}
-                                  {t(item.preparation)}
-                                </div>
-                              </div>
+                              {isExpanded && (
+                                <div style={{ marginTop: "8px" }}>
+                                  {/* Authentic ONOS Business Specifications */}
+                                  <div
+                                    style={{
+                                      padding: "12px 14px",
+                                      borderRadius: "6px",
+                                      backgroundColor: "var(--color--gray-5, #f8f8f8)",
+                                      border: "1px solid #ebebeb",
+                                      fontSize: "0.84rem",
+                                      lineHeight: 1.5,
+                                      color: "#555",
+                                    }}
+                                  >
+                                    <div>
+                                      <strong style={{ color: "var(--color--dark, #151515)" }}>
+                                        {t("Suitable materials")}:
+                                      </strong>{" "}
+                                      {t(item.material)}
+                                    </div>
+                                    <div style={{ marginTop: "6px" }}>
+                                      <strong style={{ color: "var(--color--dark, #151515)" }}>
+                                        {t("Preparation")}:
+                                      </strong>{" "}
+                                      {t(item.preparation)}
+                                    </div>
+                                  </div>
 
-                              {/* Inquiry CTA */}
-                              <div style={{ marginTop: "14px" }}>
-                                <a
-                                  id={isExpanded ? "method-email" : undefined}
-                                  href={inquiryHref(language, item.nameKey)}
-                                  onClick={(e) => e.stopPropagation()}
-                                  className="text-link"
-                                  style={{
-                                    fontSize: "0.88rem",
-                                    fontWeight: 600,
-                                    color: "var(--color--primary-1, #f66234)",
-                                    display: "inline-flex",
-                                    alignItems: "center",
-                                    gap: "6px",
-                                    textDecoration: "none",
-                                  }}
-                                >
-                                  <span>{t("Inquire about this method")}</span>
-                                  <span>→</span>
-                                </a>
-                              </div>
+                                  {/* Inquiry CTA */}
+                                  <div style={{ marginTop: "12px" }}>
+                                    <a
+                                      id="method-email"
+                                      href={inquiryHref(language, item.nameKey)}
+                                      onClick={(e) => e.stopPropagation()}
+                                      className="text-link"
+                                      style={{
+                                        fontSize: "0.88rem",
+                                        fontWeight: 600,
+                                        color: "var(--color--primary-1, #f66234)",
+                                        display: "inline-flex",
+                                        alignItems: "center",
+                                        gap: "6px",
+                                        textDecoration: "none",
+                                      }}
+                                    >
+                                      <span>{t("Inquire about this method")}</span>
+                                      <span>→</span>
+                                    </a>
+                                  </div>
+                                </div>
+                              )}
                             </div>
                           </div>
                         </div>

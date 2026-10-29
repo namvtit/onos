@@ -100,11 +100,12 @@ export function GalleryTestimonials() {
                       }`}
                       style={{
                         background: "none",
-                        border: isSelected ? "2px solid var(--color--primary-1, #f66234)" : "2px solid transparent",
+                        border: isSelected ? "2px solid var(--color--primary-1, #f66234)" : "2px solid #e0e0e0",
                         borderRadius: "8px",
                         padding: 0,
                         cursor: "pointer",
                         overflow: "hidden",
+                        opacity: isSelected ? 1 : 0.65,
                         transition: "all 0.3s ease",
                       }}
                     >
@@ -142,7 +143,7 @@ export function GalleryTestimonials() {
                           style={{
                             fontSize: "1.35rem",
                             fontWeight: 700,
-                            color: "var(--color--white)",
+                            color: "var(--color--black, #191919)",
                             margin: 0,
                             lineHeight: 1.3,
                           }}
@@ -152,7 +153,7 @@ export function GalleryTestimonials() {
                       </div>
 
                       {/* Photo Description / Alt Context */}
-                      <p style={{ fontSize: "0.92rem", color: "rgb(187, 187, 187)", margin: "4px 0 16px 0", lineHeight: 1.5 }}>
+                      <p style={{ fontSize: "0.95rem", color: "#4a4a4a", margin: "4px 0 16px 0", lineHeight: 1.5 }}>
                         {t(current.alt)}
                       </p>
 
@@ -190,30 +191,33 @@ export function GalleryTestimonials() {
 
                     {/* Footer Details & Prev/Next Navigation */}
                     <div className="author-details">
-                      <div className="author-name" style={{ fontSize: "0.95rem", fontWeight: 600, color: "var(--color--white)" }}>
+                      <div className="author-name" style={{ fontSize: "0.95rem", fontWeight: 600, color: "var(--color--black, #191919)" }}>
                         {t("Production Network & Facilities")}
                       </div>
-                      <div className="author-job-title">
+                      <div className="author-job-title" style={{ color: "#666666" }}>
                         {t("Vietnam ↔ USA")} · {activePhoto + 1} / {total}
                       </div>
 
-                      {/* Arrows */}
+                      {/* High-Contrast Nav Arrows */}
                       <div className="testimonial-arrow-wrap" style={{ marginTop: "12px", display: "flex", gap: "8px" }}>
                         <button
                           type="button"
                           onClick={prev}
                           aria-label={t("Previous photo")}
                           style={{
-                            background: "rgba(255, 255, 255, 0.08)",
-                            border: "1px solid rgba(255, 255, 255, 0.15)",
+                            background: "#ffffff",
+                            border: "1px solid #d4d4d4",
                             borderRadius: "50%",
-                            width: "36px",
-                            height: "36px",
+                            width: "38px",
+                            height: "38px",
                             display: "inline-flex",
                             alignItems: "center",
                             justifyContent: "center",
                             cursor: "pointer",
-                            color: "white",
+                            color: "#191919",
+                            fontSize: "0.95rem",
+                            boxShadow: "0 2px 5px rgba(0, 0, 0, 0.05)",
+                            transition: "all 0.2s ease",
                           }}
                         >
                           ←
@@ -223,16 +227,19 @@ export function GalleryTestimonials() {
                           onClick={next}
                           aria-label={t("Next photo")}
                           style={{
-                            background: "rgba(255, 255, 255, 0.08)",
-                            border: "1px solid rgba(255, 255, 255, 0.15)",
+                            background: "#ffffff",
+                            border: "1px solid #d4d4d4",
                             borderRadius: "50%",
-                            width: "36px",
-                            height: "36px",
+                            width: "38px",
+                            height: "38px",
                             display: "inline-flex",
                             alignItems: "center",
                             justifyContent: "center",
                             cursor: "pointer",
-                            color: "white",
+                            color: "#191919",
+                            fontSize: "0.95rem",
+                            boxShadow: "0 2px 5px rgba(0, 0, 0, 0.05)",
+                            transition: "all 0.2s ease",
                           }}
                         >
                           →
@@ -246,7 +253,7 @@ export function GalleryTestimonials() {
 
             {/* Right Column: Balanced 2-Column Composition */}
             <div className="testimonial-more-info">
-              {/* Top Card: Metrics & Authenticity */}
+              {/* Top Card: Authentic Facilities & Global Operations */}
               <div
                 data-w-id="3c0ff7e9-dac1-81ef-d189-54acdf24a6e9"
                 className="testimonial-inner"
@@ -276,25 +283,25 @@ export function GalleryTestimonials() {
                     <div className="counter">
                       <div className="inner-number testimonial-counter">
                         <div className="numbers-counts">
-                          <div data-target="99" className="count">99</div>
-                        </div>
-                        <div className="counter-symbol text-dark">
-                          <div>%</div>
-                        </div>
-                      </div>
-                      <div className="counter-text">{t("On-time fulfillment rate")}</div>
-                    </div>
-
-                    <div className="counter">
-                      <div className="inner-number testimonial-counter">
-                        <div className="numbers-counts">
-                          <div data-target="50" className="count">50</div>
+                          <div className="count">3</div>
                         </div>
                         <div className="counter-symbol text-dark">
                           <div>+</div>
                         </div>
                       </div>
-                      <div className="counter-text">{t("Skilled craft specialists")}</div>
+                      <div className="counter-text">{t("Three plants. One connected team")}</div>
+                    </div>
+
+                    <div className="counter">
+                      <div className="inner-number testimonial-counter">
+                        <div className="numbers-counts">
+                          <div className="count">2</div>
+                        </div>
+                        <div className="counter-symbol text-dark">
+                          <div>★</div>
+                        </div>
+                      </div>
+                      <div className="counter-text">{t("Vietnam ↔ USA")}</div>
                     </div>
                   </div>
                 </div>

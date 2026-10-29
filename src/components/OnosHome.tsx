@@ -3,7 +3,6 @@
 import { Navbar } from './layout/Navbar';
 import { Footer } from './layout/Footer';
 import { Hero } from './sections/Hero';
-import { HeroVideo } from './sections/HeroVideo';
 import { About } from './sections/About';
 import { Services } from './sections/Services';
 import { NetworkSlider } from './sections/NetworkSlider';
@@ -27,7 +26,6 @@ function PageContent() {
       <Navbar />
       <main id="main">
         <Hero />
-        <HeroVideo />
         <About />
         <Services />
         <NetworkSlider />

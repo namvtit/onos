@@ -137,7 +137,7 @@ export const factories: readonly Facility[] = [
     location: 'Dai Tu · Thai Nguyen · Vietnam',
     description: 'DTG, sublimation, embroidery and laser production, supported by a five-step quality control process.',
     primarySlide: 0,
-    slideIndices: [0, 3],
+    slideIndices: [0, 3, 4],
     qcProcess: 'Five-step quality control process',
   },
   {
@@ -212,6 +212,16 @@ export const factoryPhotos: readonly FactorySlide[] = [
     facilityName: 'Thai Nguyen',
     alt: 'Epson print production with an automated conveyor at Onos',
     equipmentNote: 'Epson print production with automated conveyor',
+  },
+  {
+    id: 4,
+    image: 'embroidery-hero',
+    caption: 'Craft, at an industrial scale.',
+    location: 'THAI NGUYEN / VIETNAM',
+    facilityCode: 'VN—01',
+    facilityName: 'Thai Nguyen',
+    alt: 'Multi-head embroidery machines producing garments at Onos',
+    equipmentNote: 'Multi-head industrial embroidery machines',
   },
 ] as const;
 
