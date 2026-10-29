@@ -6,7 +6,6 @@ import { Hero } from './sections/Hero';
 import { HeroVideo } from './sections/HeroVideo';
 import { About } from './sections/About';
 import { Services } from './sections/Services';
-import { IndustryFinder } from './sections/IndustryFinder';
 import { NetworkSlider } from './sections/NetworkSlider';
 import { WhyChoose } from './sections/WhyChoose';
 import { GalleryTestimonials } from './sections/GalleryTestimonials';
@@ -31,7 +30,6 @@ function PageContent() {
         <HeroVideo />
         <About />
         <Services />
-        <IndustryFinder />
         <NetworkSlider />
         <WhyChoose />
         <GalleryTestimonials />

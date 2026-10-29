@@ -243,6 +243,123 @@ export function GalleryTestimonials() {
                 </div>
               </div>
             </div>
+
+            {/* Right Column: Balanced 2-Column Composition */}
+            <div className="testimonial-more-info">
+              {/* Top Card: Metrics & Authenticity */}
+              <div
+                data-w-id="3c0ff7e9-dac1-81ef-d189-54acdf24a6e9"
+                className="testimonial-inner"
+              >
+                <div className="testimonial-image-wrap">
+                  <img
+                    src="/assets/onos-warehouse-inventory.webp"
+                    loading="lazy"
+                    alt="Onos Garment Inventory & Fulfillment"
+                    className="testimonial-info-image"
+                    style={{ width: "100%", height: "240px", objectFit: "cover" }}
+                  />
+                  <div className="testimonial-layout">
+                    <div className="logo-info-text">{"// 2019-2026 //"}</div>
+                    <img
+                      src="/assets/onos-wordmark.svg"
+                      loading="lazy"
+                      alt="ONOS Global"
+                      className="logo-image"
+                      style={{ maxHeight: "20px", width: "auto" }}
+                    />
+                  </div>
+                </div>
+
+                <div className="testimonial-counter-wrapper">
+                  <div className="counter-inner-wrap">
+                    <div className="counter">
+                      <div className="inner-number testimonial-counter">
+                        <div className="numbers-counts">
+                          <div data-target="99" className="count">99</div>
+                        </div>
+                        <div className="counter-symbol text-dark">
+                          <div>%</div>
+                        </div>
+                      </div>
+                      <div className="counter-text">{t("On-time fulfillment rate")}</div>
+                    </div>
+
+                    <div className="counter">
+                      <div className="inner-number testimonial-counter">
+                        <div className="numbers-counts">
+                          <div data-target="50" className="count">50</div>
+                        </div>
+                        <div className="counter-symbol text-dark">
+                          <div>+</div>
+                        </div>
+                      </div>
+                      <div className="counter-text">{t("Skilled craft specialists")}</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Bottom Card: Need Guidance Support CTA */}
+              <div
+                data-w-id="875f79ed-bce3-0f38-c930-0a98b0b95d77"
+                className="support-info-wrap"
+              >
+                <img
+                  src="/assets/1fa0b5bc68d0-68e0c2f936f3a375961dd0a0_shadow.png"
+                  loading="lazy"
+                  alt=""
+                  className="box-shadow"
+                />
+                <div className="support-info-inner">
+                  <img
+                    src="/assets/5c6703911d28-68e0bd5d66fbd6635638ea42_Icon.svg"
+                    loading="lazy"
+                    alt=""
+                    className="support-icon"
+                  />
+                  <div>
+                    <h3 className="support-title">
+                      {t("Need help choosing the right product?")}
+                    </h3>
+                    <p className="support-description">
+                      {t("Our specialists across Vietnam and the United States are ready to review your files, provide physical samples, and guide your run.")}
+                    </p>
+                  </div>
+                  <div className="support-button">
+                    <a
+                      data-wf--button-arrow--variant="button-white-bg"
+                      data-w-id="d102baf6-0bbf-4311-9c79-6b424f8fe8a7"
+                      href="#contact"
+                      className="primary-button w-variant-e5ebfb29-ba2d-88c3-9b4e-1bbc038e3a15 w-inline-block"
+                    >
+                      <div className="button-primary-inner">
+                        <div className="button-text-wrap">
+                          <div className="button-text-inner">
+                            <div className="button-text">{t("Contact Support")}</div>
+                            <div className="button-hover-text">{t("Contact Support")}</div>
+                          </div>
+                        </div>
+                        <div className="button-icon-bg">
+                          <img
+                            src="/assets/75e8f722a505-68d527b447e1a5cc60cc1c27_button-icon.svg"
+                            loading="eager"
+                            alt="Arrow"
+                            className="button-icon"
+                          />
+                          <img
+                            src="/assets/75e8f722a505-68d527b447e1a5cc60cc1c27_button-icon.svg"
+                            loading="lazy"
+                            alt="Arrow"
+                            className="button-icon-hover"
+                          />
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

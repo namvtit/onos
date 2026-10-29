@@ -168,7 +168,7 @@ export function About() {
                 </p>
               </div>
               <img
-                src="/assets/onos-connection.svg"
+                src="/assets/cb361e303112-68dcd946978511538d622f29_Group.png"
                 loading="lazy"
                 alt="About Box Vector"
                 className="about-box-vector"
@@ -217,7 +217,7 @@ export function About() {
                   02 <span className="rating-small-text">{" / " + t("Countries, connected")}</span>
                 </div>
                 <img
-                  src="/assets/onos-network-badge.svg"
+                  src="/assets/c1e963771d4c-68dcd945b4e886f71b7649aa_01.svg"
                   loading="lazy"
                   alt="Vietnam and USA Network"
                   className="rating-image"
@@ -232,22 +232,25 @@ export function About() {
             >
               <div className="about-image-wrap">
                 <img
-                  src="/assets/onos-facility-thai-nguyen.webp"
+                  src="/assets/9a42f43e47b7-69009240e71084103dfc8390_about-round-image--1-.png"
                   loading="lazy"
-                  alt="Thai Nguyen Facility"
+                  alt="Production facility"
                   className="about-image-small image-one"
+                  style={{ objectFit: "cover", width: "55px", height: "60px", borderRadius: "6px" }}
                 />
                 <img
-                  src="/assets/onos-facility-me-linh.webp"
+                  src="/assets/acc14bd76ebf-690092402be57032171eed75_about-round-image--2-.png"
                   loading="lazy"
-                  alt="Me Linh Facility"
+                  alt="Equipment"
                   className="about-image-small image-two"
+                  style={{ objectFit: "cover", width: "55px", height: "60px", borderRadius: "6px" }}
                 />
                 <img
-                  src="/assets/onos-facility-california.webp"
+                  src="/assets/523c719f4d04-690092401550c668556b1522_about-round-image--3-.png"
                   loading="lazy"
-                  alt="California Facility"
+                  alt="Quality control"
                   className="about-image-small image-three"
+                  style={{ objectFit: "cover", width: "55px", height: "60px", borderRadius: "6px" }}
                 />
               </div>
               <h2 className="like-score">

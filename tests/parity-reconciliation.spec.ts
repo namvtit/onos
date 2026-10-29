@@ -79,42 +79,47 @@ test.describe('ONOS Global Business & Functional Parity Verification', () => {
     await expect(capabilityRows.nth(1)).toHaveClass(/is-expanded/);
   });
 
-  test('P0: Exact Production Finder (4 selectable methods & context mailto)', async ({ page }) => {
+  test('P0: Exact Production Finder (4 selectable methods & context mailto in Services)', async ({ page }) => {
     await page.goto(`${BASE_URL}/`, { waitUntil: 'networkidle' });
 
-    const finder = page.locator('#production-fit');
-    await expect(finder).toBeVisible();
+    const services = page.locator('#capabilities');
+    await expect(services).toBeVisible();
 
-    const tabs = finder.locator('.industry-tabs-menu button');
-    await expect(tabs).toHaveCount(4);
+    const rows = services.locator('.service-info-link');
+    await expect(rows).toHaveCount(4);
 
-    // Tab 1: DTG
-    await tabs.nth(0).click();
-    await expect(finder).toContainText('Cotton and cotton-rich apparel.');
-    await expect(finder).toContainText('Approve colour on a physical sample.');
-    const cta = finder.locator('#method-email');
+    // Row 1: DTG
+    if (await rows.nth(0).getAttribute('aria-expanded') !== 'true') {
+      await rows.nth(0).click();
+    }
+    await expect(services).toContainText('Cotton and cotton-rich apparel.');
+    await expect(services).toContainText('Approve colour on a physical sample.');
+    let cta = services.locator('#method-email');
     let href = await cta.getAttribute('href');
     expect(href).toContain('onospod.com@gmail.com');
     expect(href).toContain('DTG%20printing');
 
-    // Tab 2: Embroidery
-    await tabs.nth(1).click();
-    await expect(finder).toContainText('Caps, polos and bags suitable for embroidery.');
-    await expect(finder).toContainText('Small lettering and fine details need review');
+    // Row 2: Embroidery
+    await rows.nth(1).click();
+    await expect(services).toContainText('Caps, polos and bags suitable for embroidery.');
+    await expect(services).toContainText('Small lettering and fine details need review');
+    cta = services.locator('#method-email');
     href = await cta.getAttribute('href');
     expect(href).toContain('Computerised%20embroidery');
 
-    // Tab 3: Sublimation
-    await tabs.nth(2).click();
-    await expect(finder).toContainText('Polyester apparel and sportswear suitable for sublimation.');
-    await expect(finder).toContainText('Test colour on the intended material.');
+    // Row 3: Sublimation
+    await rows.nth(2).click();
+    await expect(services).toContainText('Polyester apparel and sportswear suitable for sublimation.');
+    await expect(services).toContainText('Test colour on the intended material.');
+    cta = services.locator('#method-email');
     href = await cta.getAttribute('href');
     expect(href).toContain('Sublimation%20printing');
 
-    // Tab 4: Laser
-    await tabs.nth(3).click();
-    await expect(finder).toContainText('Wood, acrylic, leather or fabric');
-    await expect(finder).toContainText('cutting paths');
+    // Row 4: Laser
+    await rows.nth(3).click();
+    await expect(services).toContainText('Wood, acrylic, leather or fabric');
+    await expect(services).toContainText('cutting paths');
+    cta = services.locator('#method-email');
     href = await cta.getAttribute('href');
     expect(href).toContain('Laser%20cutting');
   });

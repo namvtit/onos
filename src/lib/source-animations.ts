@@ -72,6 +72,7 @@ function vars(item: Item): gsap.TweenVars {
   }
   return result;
 }
+
 function easing(name = "") {
   const names: Record<string, string> = {
     "": "power1.inOut", ease: "power1.inOut", inOutQuad: "power1.inOut", outQuart: "power3.out",
@@ -85,21 +86,28 @@ function easing(name = "") {
 export function mountSourceAnimations(pageId: string) {
   gsap.registerPlugin(ScrollTrigger);
   const media = gsap.matchMedia();
-  media.add({ main: "(min-width: 992px)", medium: "(min-width: 768px) and (max-width: 991px)", small: "(min-width: 480px) and (max-width: 767px)", tiny: "(max-width: 479px)", reduced: "(prefers-reduced-motion: reduce)" }, (context) => {
+  media.add({
+    main: "(min-width: 992px)",
+    medium: "(min-width: 768px) and (max-width: 991px)",
+    small: "(min-width: 480px) and (max-width: 767px)",
+    tiny: "(max-width: 479px)",
+  }, (context) => {
     const conditions = context.conditions!;
     const cleanups: (() => void)[] = [];
-    const reduced = conditions.reduced;
+    const isPaused = () => document.documentElement.classList.contains("motion-paused");
     const running = new Map<string, gsap.core.Timeline>();
     const activeEvents = Object.values(data.events).filter(event => event.mediaQueries.some(key => conditions[key]));
     const listeners = (el: HTMLElement, type: string, callback: () => void) => {
       el.addEventListener(type, callback); cleanups.push(() => el.removeEventListener(type, callback));
     };
+
     function apply(group: Group, trigger: HTMLElement) {
       group.actionItems.forEach(item => {
         const els = targets(item.config.target, trigger, pageId);
         if (els.length) gsap.set(els, vars(item));
       });
     }
+
     function run(event: SourceEvent, trigger: HTMLElement) {
       const list = data.actionLists[event.action.config.actionListId];
       const settings = event.config as EventConfig;
@@ -107,9 +115,9 @@ export function mountSourceAnimations(pageId: string) {
       const key = `${event.id}:${trigger.dataset.runtimeKey}`;
       running.get(key)?.kill();
       if (event.action.config.autoStopEventId) running.get(`${event.action.config.autoStopEventId}:${trigger.dataset.runtimeKey}`)?.kill();
-      if (reduced) { if (!settings.loop) groups.forEach(group => apply(group, trigger)); return; }
-      if (event.eventTypeId === "SCROLL_INTO_VIEW" && list.useFirstGroupAsInitialState && list.actionItemGroups?.[0]) {
-        apply(list.actionItemGroups[0], trigger);
+      if (isPaused()) {
+        if (!settings.loop) groups.forEach(group => apply(group, trigger));
+        return;
       }
       const timeline = gsap.timeline({ repeat: settings.loop ? -1 : 0, delay: (settings.delay || 0) / 1000 });
       running.set(key, timeline);
@@ -129,7 +137,8 @@ export function mountSourceAnimations(pageId: string) {
       });
       if (!cursor) timeline.kill();
     }
-    // Apply initial states before any triggers. Accordions and dropdowns have their own controls.
+
+    // 1. Apply initial states for hover/click interactions
     activeEvents.forEach(event => {
       if (!["MOUSE_OVER", "MOUSE_OUT"].includes(event.eventTypeId)) return;
       const list = data.actionLists[event.action.config.actionListId];
@@ -137,6 +146,23 @@ export function mountSourceAnimations(pageId: string) {
         targets(event.target, document.documentElement, pageId).forEach(trigger => apply(list.actionItemGroups![0], trigger));
       }
     });
+
+    // 2. Pre-set initial states for below-the-fold entrance reveal elements to avoid flashing
+    activeEvents.forEach(event => {
+      if (event.eventTypeId !== "SCROLL_INTO_VIEW") return;
+      const list = data.actionLists[event.action.config.actionListId];
+      if (list?.useFirstGroupAsInitialState && list.actionItemGroups?.[0]) {
+        const initialGroup = list.actionItemGroups[0];
+        targets(event.target, document.documentElement, pageId).forEach(trigger => {
+          const rect = trigger.getBoundingClientRect();
+          if (rect.top >= window.innerHeight * 0.95 && !isPaused()) {
+            apply(initialGroup, trigger);
+          }
+        });
+      }
+    });
+
+    // 3. Register scroll and hover triggers
     let serial = 0;
     activeEvents.forEach(event => {
       const list = data.actionLists[event.action.config.actionListId];
@@ -147,10 +173,22 @@ export function mountSourceAnimations(pageId: string) {
         if (event.eventTypeId === "SCROLL_INTO_VIEW") {
           const config = event.config as EventConfig;
           const offset = config.scrollOffsetValue || 0;
-          ScrollTrigger.create({ trigger, start: `top ${100 - offset}%`, once: true, onEnter: () => run(event, trigger) });
+          const rect = trigger.getBoundingClientRect();
+          if (rect.top < window.innerHeight * 0.95 && !isPaused()) {
+            // Already visible in viewport on initial mount (e.g. Hero title/badges)
+            run(event, trigger);
+          } else {
+            const st = ScrollTrigger.create({
+              trigger,
+              start: `top ${Math.max(70, 100 - offset)}%`,
+              once: true,
+              onEnter: () => run(event, trigger)
+            });
+            cleanups.push(() => st.kill());
+          }
         }
         if (event.eventTypeId === "PAGE_START") run(event, trigger);
-        if (event.eventTypeId === "SCROLLING_IN_VIEW" && !reduced) {
+        if (event.eventTypeId === "SCROLLING_IN_VIEW" && !isPaused()) {
           list.continuousParameterGroups?.forEach(parameter => {
             const timeline = gsap.timeline({ scrollTrigger: { trigger, start: "top bottom", end: "bottom bottom", scrub: 0.9 } });
             let previous = 0;
@@ -163,10 +201,101 @@ export function mountSourceAnimations(pageId: string) {
               });
               previous = group.keyframe;
             });
+            cleanups.push(() => timeline.kill());
           });
         }
       });
     });
+
+    // 4. Continuous Scroll Parallax System
+    if (!isPaused()) {
+      // a) Hero media vertical parallax translation
+      const heroMedia = document.querySelector<HTMLElement>(".hero-video-image, .hero-background-video");
+      if (heroMedia) {
+        const tween = gsap.to(heroMedia, {
+          yPercent: 12,
+          ease: "none",
+          scrollTrigger: {
+            trigger: heroMedia.parentElement || heroMedia,
+            start: "top top",
+            end: "bottom top",
+            scrub: true,
+          }
+        });
+        cleanups.push(() => tween.kill());
+      }
+
+      // b) Hero quote floating card parallax drift
+      const heroQuote = document.querySelector<HTMLElement>(".hero-quote-info");
+      if (heroQuote) {
+        const tween = gsap.to(heroQuote, {
+          y: 45,
+          ease: "none",
+          scrollTrigger: {
+            trigger: heroQuote,
+            start: "top 85%",
+            end: "bottom top",
+            scrub: 1.2,
+          }
+        });
+        cleanups.push(() => tween.kill());
+      }
+
+      // c) About section floating badges & photos alternating vertical drift
+      const aboutBoxes = document.querySelectorAll<HTMLElement>(".about-info-box, .about-image-box");
+      aboutBoxes.forEach((box, i) => {
+        const drift = i % 2 === 0 ? -30 : 30;
+        const tween = gsap.to(box, {
+          y: drift,
+          ease: "none",
+          scrollTrigger: {
+            trigger: box.parentElement || box,
+            start: "top bottom",
+            end: "bottom top",
+            scrub: 1,
+          }
+        });
+        cleanups.push(() => tween.kill());
+      });
+
+      // d) Footer giant wordmark vertical entrance parallax
+      const footerLogo = document.querySelector<HTMLElement>(".footer-logo, .footer-logo-text");
+      if (footerLogo) {
+        const tween = gsap.fromTo(footerLogo,
+          { yPercent: 20 },
+          {
+            yPercent: -12,
+            ease: "none",
+            scrollTrigger: {
+              trigger: footerLogo.closest("footer, .footer-main") || footerLogo,
+              start: "top bottom",
+              end: "bottom bottom",
+              scrub: 1,
+            }
+          }
+        );
+        cleanups.push(() => tween.kill());
+      }
+
+      // e) Footer blur shadow glows
+      const footerShadows = document.querySelectorAll<HTMLElement>(".footer-shadow");
+      footerShadows.forEach((shadow, i) => {
+        const tween = gsap.to(shadow, {
+          y: i === 0 ? -50 : 50,
+          scale: 1.15,
+          ease: "none",
+          scrollTrigger: {
+            trigger: shadow.closest("footer, .footer-main") || shadow,
+            start: "top bottom",
+            end: "bottom top",
+            scrub: 1.5,
+          }
+        });
+        cleanups.push(() => tween.kill());
+      });
+    }
+
+    // 5. Number Counters with GSAP ScrollTrigger
     document.querySelectorAll<HTMLElement>(".count").forEach((el, index) => {
       const rawTarget = el.dataset.target || el.dataset.count || el.textContent || "0";
       const target = parseInt(rawTarget.replace(/\D/g, ""), 10);
@@ -182,35 +311,50 @@ export function mountSourceAnimations(pageId: string) {
 
       const finalFormatted = isYear ? String(target) : (isPadded ? String(target).padStart(2, "0") : String(target));
 
-      if (reduced) {
+      if (isPaused()) {
         el.textContent = finalFormatted;
         return;
       }
 
-      ScrollTrigger.create({
-        trigger: el,
-        start: "top 85%",
-        once: true,
-        onEnter: () => {
-          const counter = { val: 0 };
-          el.textContent = format(0);
-          gsap.to(counter, {
-            val: target,
-            duration: Math.max(1, Math.min(2.5, (target / 200) * 2 + 0.8)),
-            ease: "power2.out",
-            delay: (index % 4) * 0.12,
-            onUpdate: () => {
-              el.textContent = format(counter.val);
-            },
-            onComplete: () => {
-              el.textContent = finalFormatted;
-            },
-          });
-        },
-      });
+      const trigger = el.closest<HTMLElement>(".about-info-box, .about-info-inner, .products-counter-wrap, .counter-run") || el;
+
+      const animateCount = () => {
+        const counter = { val: 0 };
+        gsap.to(counter, {
+          val: target,
+          duration: Math.max(1, Math.min(2.5, (target / 200) * 2 + 0.8)),
+          ease: "power2.out",
+          delay: (index % 4) * 0.12,
+          onUpdate: () => {
+            el.textContent = format(counter.val);
+          },
+          onComplete: () => {
+            el.textContent = finalFormatted;
+          },
+        });
+      };
+
+      if (trigger.getBoundingClientRect().top < window.innerHeight * 0.95) {
+        el.textContent = format(0);
+        animateCount();
+      } else {
+        el.textContent = format(0);
+        const st = ScrollTrigger.create({
+          trigger,
+          start: "top 88%",
+          once: true,
+          onEnter: () => animateCount(),
+        });
+        cleanups.push(() => st.kill());
+      }
     });
+
     ScrollTrigger.refresh();
-    return () => { cleanups.forEach(cleanup => cleanup()); running.forEach(timeline => timeline.kill()); };
+    return () => {
+      cleanups.forEach(cleanup => cleanup());
+      running.forEach(timeline => timeline.kill());
+    };
   });
+
   return () => media.revert();
 }

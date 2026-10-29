@@ -32,7 +32,7 @@ export function NetworkSlider() {
     }
   };
 
-  // Slideshow auto-advance (5200ms) matching original ONOS facilities-carousel.js
+  // Slideshow auto-advance (5200ms)
   useEffect(() => {
     if (isPaused || isHovered) return;
     const timer = setInterval(() => {
@@ -73,6 +73,7 @@ export function NetworkSlider() {
 
   return (
     <section id="network" className="case-study-section section-spacing">
+      <span id="facilities" className="onos-anchor-alias" aria-hidden="true" />
       <div className="container-full">
         {/* Section Title Header */}
         <div className="section-title-wrap one">
@@ -122,21 +123,23 @@ export function NetworkSlider() {
                 aria-selected={isSelected}
                 onClick={() => goToFacility(fac.code)}
                 style={{
-                  padding: "10px 20px",
+                  padding: "10px 22px",
                   borderRadius: "24px",
                   fontSize: "0.95rem",
                   fontWeight: 600,
                   cursor: "pointer",
                   transition: "all 0.3s ease",
                   backgroundColor: isSelected ? "var(--color--primary-1, #f66234)" : "rgba(255, 255, 255, 0.06)",
-                  color: isSelected ? "white" : "var(--color--white)",
+                  color: isSelected ? "white" : "var(--color--white, #fff)",
                   border: isSelected ? "1px solid var(--color--primary-1, #f66234)" : "1px solid rgba(255, 255, 255, 0.15)",
                   display: "inline-flex",
                   alignItems: "center",
                   gap: "8px",
                 }}
               >
-                <span style={{ opacity: isSelected ? 1 : 0.7, fontWeight: 700 }}>{fac.code}</span>
+                <span style={{ opacity: isSelected ? 1 : 0.85, fontWeight: 700, fontFamily: "var(--font-mono, monospace)" }}>
+                  {fac.code}
+                </span>
                 <span>{t(fac.name)}</span>
               </button>
             );
@@ -154,7 +157,7 @@ export function NetworkSlider() {
           onTouchEnd={handleTouchEnd}
           data-w-id="07cc8b02-829c-0744-9683-1d2336d4de7f"
           className="case-study-info"
-          style={{ outline: "none" }}
+          style={{ outline: "none", position: "relative" }}
         >
           <div
             className="case-study-slider w-slider"
@@ -186,10 +189,10 @@ export function NetworkSlider() {
                           <div className="w-layout-grid grid-case-study">
                             {/* Left Info Panel */}
                             <div className="case-study-info-left">
-                              <div className="case-study-inner">
+                              <div className="case-study-inner" style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", height: "100%", gap: "24px" }}>
                                 <div className="case-study-content-wrap">
-                                  {/* Facility Code & Name */}
-                                  <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "8px" }}>
+                                  {/* Facility Code & Location Badge */}
+                                  <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "10px" }}>
                                     <span
                                       style={{
                                         display: "inline-block",
@@ -209,36 +212,36 @@ export function NetworkSlider() {
                                     </span>
                                   </div>
 
-                                  <h3 className="case-study-name" style={{ marginTop: "4px" }}>
+                                  <h3 className="case-study-name" style={{ marginTop: "4px", fontSize: "1.5rem", lineHeight: 1.3 }}>
                                     {t(photoFacility.name)} · {t(photoFacility.role)}
                                   </h3>
-                                  <p className="case-study-description">
+                                  <p className="case-study-description" style={{ marginTop: "12px", lineHeight: 1.6 }}>
                                     {t(photoFacility.description)}
                                   </p>
 
                                   {/* Verified Equipment & Process Highlight */}
                                   <div
                                     style={{
-                                      marginTop: "16px",
-                                      padding: "12px 14px",
+                                      marginTop: "18px",
+                                      padding: "14px 16px",
                                       borderRadius: "6px",
                                       backgroundColor: "rgba(255, 255, 255, 0.04)",
                                       borderLeft: "3px solid var(--color--primary-1, #f66234)",
                                     }}
                                   >
-                                    <div style={{ fontSize: "0.88rem", fontWeight: 600, color: "var(--color--white)" }}>
+                                    <div style={{ fontSize: "0.9rem", fontWeight: 600, color: "var(--color--white, #fff)" }}>
                                       {t(photo.caption)}
                                     </div>
-                                    <div style={{ fontSize: "0.82rem", color: "#999", marginTop: "4px" }}>
+                                    <div style={{ fontSize: "0.84rem", color: "rgba(255, 255, 255, 0.7)", marginTop: "4px" }}>
                                       {t(photo.equipmentNote)}
                                     </div>
                                   </div>
                                 </div>
 
-                                <div className="case-study-score-info">
+                                <div className="case-study-score-info" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: "16px", flexWrap: "wrap", paddingTop: "12px", borderTop: "1px solid rgba(255, 255, 255, 0.08)" }}>
                                   <div className="case-study-score-info-inner">
-                                    <h3 className="case-study-score">{photoFacility.code}</h3>
-                                    <div className="case-study-score-text">
+                                    <h3 className="case-study-score" style={{ margin: 0, fontSize: "1.6rem" }}>{photoFacility.code}</h3>
+                                    <div className="case-study-score-text" style={{ fontSize: "0.85rem" }}>
                                       {t(photoFacility.location)}
                                     </div>
                                   </div>
@@ -251,11 +254,13 @@ export function NetworkSlider() {
                                     >
                                       <div className="button-primary-inner">
                                         <div className="button-text-wrap">
-                                          <div className="button-text">
-                                            {t("View Plant Details")}
-                                          </div>
-                                          <div className="button-hover-text">
-                                            {t("View Plant Details")}
+                                          <div className="button-text-inner">
+                                            <div className="button-text">
+                                              {t("View Plant Details")}
+                                            </div>
+                                            <div className="button-hover-text">
+                                              {t("View Plant Details")}
+                                            </div>
                                           </div>
                                         </div>
                                         <div className="button-icon-bg">
@@ -280,10 +285,10 @@ export function NetworkSlider() {
                             </div>
 
                             {/* Right Image Panel */}
-                            <div className="case-study-image-wrapper">
+                            <div className="case-study-info-right">
                               <a
                                 href={`/assets/onos-${photo.image}.webp`}
-                                className="case-study-image-link w-inline-block w-lightbox"
+                                className="case-study-link w-inline-block w-lightbox"
                                 data-lightbox={JSON.stringify({
                                   items: factoryPhotos.map((p) => ({
                                     type: "image",
@@ -293,33 +298,37 @@ export function NetworkSlider() {
                                 })}
                                 aria-label={`${t("Expand facility photograph")}: ${t(photo.caption)}`}
                               >
-                                <img
-                                  src={`/assets/onos-${photo.image}.webp`}
-                                  loading={idx === 0 ? "eager" : "lazy"}
-                                  alt={t(photo.alt)}
-                                  className="case-study-image"
-                                  style={{ objectFit: "cover" }}
-                                />
-                                <div className="case-study-image-layout">
-                                  <div
-                                    style={{
-                                      position: "absolute",
-                                      bottom: "16px",
-                                      left: "16px",
-                                      backgroundColor: "rgba(0, 0, 0, 0.65)",
-                                      backdropFilter: "blur(4px)",
-                                      padding: "6px 12px",
-                                      borderRadius: "4px",
-                                      color: "white",
-                                      fontSize: "0.82rem",
-                                      display: "flex",
-                                      alignItems: "center",
-                                      gap: "8px",
-                                    }}
-                                  >
-                                    <span style={{ fontWeight: 600 }}>{t(photo.caption)}</span>
-                                    <span style={{ opacity: 0.6 }}>·</span>
-                                    <span style={{ opacity: 0.75 }}>{idx + 1} / {totalSlides}</span>
+                                <div className="case-study-image-info">
+                                  <img
+                                    src={`/assets/onos-${photo.image}.webp`}
+                                    loading={idx === 0 ? "eager" : "lazy"}
+                                    alt={t(photo.alt)}
+                                    className="case-study-image"
+                                    style={{ objectFit: "cover", width: "100%", height: "100%", minHeight: "380px" }}
+                                  />
+                                  <div className="case-study-image-layout">
+                                    <div
+                                      style={{
+                                        position: "absolute",
+                                        top: "16px",
+                                        right: "16px",
+                                        backgroundColor: "rgba(0, 0, 0, 0.7)",
+                                        backdropFilter: "blur(6px)",
+                                        padding: "6px 14px",
+                                        borderRadius: "20px",
+                                        color: "white",
+                                        fontSize: "0.82rem",
+                                        fontWeight: 600,
+                                        display: "flex",
+                                        alignItems: "center",
+                                        gap: "8px",
+                                        zIndex: 2,
+                                      }}
+                                    >
+                                      <span>{t(photo.caption)}</span>
+                                      <span style={{ opacity: 0.5 }}>·</span>
+                                      <span>{idx + 1} / {totalSlides}</span>
+                                    </div>
                                   </div>
                                 </div>
                               </a>
@@ -362,23 +371,32 @@ export function NetworkSlider() {
                 className="slide-arrow"
               />
             </button>
+          </div>
 
-            {/* Photo Pagination Dots + Pause/Play Controls */}
-            <div
-              className="facility-bottom-controls"
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                gap: "16px",
-                marginTop: "20px",
-              }}
-            >
+          {/* Under-slider Controls Bar: Dots + Slideshow Control */}
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
+              marginTop: "20px",
+              padding: "0 8px",
+            }}
+          >
+            <div style={{ fontSize: "0.88rem", color: "rgba(255, 255, 255, 0.7)" }}>
+              <span style={{ fontWeight: 700, color: "var(--color--white, #fff)" }}>
+                {activeFacility.code}
+              </span>{" "}
+              — {t(activeFacility.name)} ({t(activeFacility.role)})
+            </div>
+
+            <div style={{ display: "flex", alignItems: "center", gap: "14px" }}>
+              {/* Photo Indicator Dots */}
               <div
                 className="facility-dots"
                 role="group"
-                aria-label={t("Choose a photo")}
-                style={{ display: "flex", alignItems: "center", gap: "8px" }}
+                aria-label={t("Photo navigation")}
+                style={{ display: "flex", gap: "6px", alignItems: "center" }}
               >
                 {factoryPhotos.map((_, i) => (
                   <button
@@ -409,15 +427,15 @@ export function NetworkSlider() {
                 aria-pressed={isPaused}
                 style={{
                   background: "none",
-                  border: "1px solid rgba(255, 255, 255, 0.2)",
+                  border: "1px solid rgba(255, 255, 255, 0.25)",
                   borderRadius: "50%",
-                  width: "28px",
-                  height: "28px",
+                  width: "30px",
+                  height: "30px",
                   display: "inline-flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  color: "var(--color--white)",
-                  fontSize: "0.75rem",
+                  color: "var(--color--white, #fff)",
+                  fontSize: "0.8rem",
                   cursor: "pointer",
                   transition: "border-color 0.2s ease",
                 }}

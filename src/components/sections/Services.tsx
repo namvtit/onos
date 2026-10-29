@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useSite } from "@/components/interactions/SiteContext";
+import { inquiryHref } from "@/data/onos-content";
 
 interface ServiceItem {
   id: string;
@@ -15,6 +16,8 @@ interface ServiceItem {
   iconAlt: string;
   imageSrc: string;
   imageAlt: string;
+  material: string;
+  preparation: string;
   features: string[];
   dataWId: string;
   imgDataWId: string;
@@ -35,6 +38,8 @@ const serviceItems: ServiceItem[] = [
     iconAlt: "DTG Icon",
     imageSrc: "/assets/onos-dtg-machine-detail.webp",
     imageAlt: "DTG printing machine at Onos",
+    material: "Cotton and cotton-rich apparel.",
+    preparation: "Confirm fabric composition, garment colour, artwork size and placement. Approve colour on a physical sample.",
     features: [
       "Machine: SL-DTG-X2S",
       "Cotton and cotton-rich apparel",
@@ -58,6 +63,8 @@ const serviceItems: ServiceItem[] = [
     iconAlt: "Embroidery Icon",
     imageSrc: "/assets/onos-equipment-embroidery.webp",
     imageAlt: "An Onos operator checking embroidery on garments",
+    material: "Caps, polos and bags suitable for embroidery.",
+    preparation: "Share the logo size and placement. Small lettering and fine details need review when digitising the stitch file.",
     features: [
       "Equipment: multi-head embroidery",
       "Caps, polos and bags",
@@ -81,6 +88,8 @@ const serviceItems: ServiceItem[] = [
     iconAlt: "Sublimation Icon",
     imageSrc: "/assets/onos-press-machines-row.webp",
     imageAlt: "Heat press equipment on the Onos production floor",
+    material: "Polyester apparel and sportswear suitable for sublimation.",
+    preparation: "Confirm fabric composition, base colour, pattern layout and seams. Test colour on the intended material.",
     features: [
       "Epson SC-F11030 · PD-1800D-800 heat press",
       "Polyester apparel and sportswear",
@@ -104,6 +113,8 @@ const serviceItems: ServiceItem[] = [
     iconAlt: "Laser Icon",
     imageSrc: "/assets/onos-laser-cut-gifts.webp",
     imageAlt: "Laser-cut wooden decor and gift samples",
+    material: "Wood, acrylic, leather or fabric confirmed as suitable by the team.",
+    preparation: "Provide material type, thickness and cutting paths. Confirm the finish on a sample before approving the run.",
     features: [
       "Laser FW-1822 · LP-2219 auto cutter",
       "Wood, acrylic, leather & fabric",
@@ -128,6 +139,9 @@ export function Services() {
   return (
     <section id="capabilities" className="service-section section-spacing-top">
       <span id="services" className="onos-anchor-alias" aria-hidden="true" />
+      <span id="production-fit" className="onos-anchor-alias" aria-hidden="true" />
+      <span id="finder" className="onos-anchor-alias" aria-hidden="true" />
+
       <div className="container-full">
         <div className="service-details-main">
           {/* Section Header */}
@@ -156,7 +170,7 @@ export function Services() {
             </div>
           </div>
 
-          {/* Accordion Rows */}
+          {/* Full-width horizontal service rows stacked vertically (Manufactt Accordion) */}
           <div className="service-info">
             {serviceItems.map((item, idx) => {
               const isExpanded = activeService === idx;
@@ -186,6 +200,7 @@ export function Services() {
                         style={{ cursor: "pointer" }}
                       >
                         <div className="service-info-inner">
+                          {/* Left: Icon & Image Columns */}
                           <div className="service-image-main">
                             <img
                               src={item.iconSrc}
@@ -205,6 +220,7 @@ export function Services() {
                             </div>
                           </div>
 
+                          {/* Center: Title & Features Columns */}
                           <div className="service-content-wrap">
                             <div className="service-name-wrapper">
                               <div>
@@ -255,12 +271,38 @@ export function Services() {
                                 ))}
                               </div>
 
+                              {/* Relocated Authentic ONOS Business Specifications */}
+                              <div
+                                style={{
+                                  marginTop: "12px",
+                                  padding: "10px 12px",
+                                  borderRadius: "6px",
+                                  backgroundColor: "var(--color--gray-5, #f8f8f8)",
+                                  fontSize: "0.84rem",
+                                  lineHeight: 1.45,
+                                  color: "#555",
+                                }}
+                              >
+                                <div>
+                                  <strong style={{ color: "var(--color--dark, #151515)" }}>
+                                    {t("Suitable materials")}:
+                                  </strong>{" "}
+                                  {t(item.material)}
+                                </div>
+                                <div style={{ marginTop: "4px" }}>
+                                  <strong style={{ color: "var(--color--dark, #151515)" }}>
+                                    {t("Preparation")}:
+                                  </strong>{" "}
+                                  {t(item.preparation)}
+                                </div>
+                              </div>
+
+                              {/* Inquiry CTA */}
                               <div style={{ marginTop: "14px" }}>
                                 <a
-                                  href="#production-fit"
-                                  onClick={(e) => {
-                                    e.stopPropagation();
-                                  }}
+                                  id={isExpanded ? "method-email" : undefined}
+                                  href={inquiryHref(language, item.nameKey)}
+                                  onClick={(e) => e.stopPropagation()}
                                   className="text-link"
                                   style={{
                                     fontSize: "0.88rem",
@@ -272,7 +314,7 @@ export function Services() {
                                     textDecoration: "none",
                                   }}
                                 >
-                                  <span>{t("Explore this technique")}</span>
+                                  <span>{t("Inquire about this method")}</span>
                                   <span>→</span>
                                 </a>
                               </div>
@@ -280,7 +322,7 @@ export function Services() {
                           </div>
                         </div>
 
-                        {/* Arrow Micro-Interaction */}
+                        {/* Orange Arrow Button on Far Right */}
                         <div className="service-arrow">
                           <img
                             src="/assets/2b24032b0ac7-68e1e92ebc2f8e7f7dd6d052_testimonial-Slide-Arrow--1-.svg"
