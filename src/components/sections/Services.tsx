@@ -2,11 +2,14 @@
 
 import { useState } from "react";
 import { useSite } from "@/components/interactions/SiteContext";
-import { inquiryHref } from "@/data/onos-content";
 
 interface ServiceItem {
   id: string;
+  methodId: "dtg" | "embroidery" | "sublimation" | "laser";
   nameKey: string;
+  tagKey: string;
+  modelKey: string;
+  descriptionKey: string;
   wrapperClass: string;
   iconSrc: string;
   iconAlt: string;
@@ -22,17 +25,21 @@ interface ServiceItem {
 const serviceItems: ServiceItem[] = [
   {
     id: "dtg-printing",
+    methodId: "dtg",
     nameKey: "DTG printing",
+    tagKey: "T-shirts · Apparel",
+    modelKey: "Machine: SL-DTG-X2S",
+    descriptionKey: "Direct-to-garment printing for photographs, gradients and detailed artwork on cotton and cotton-rich apparel.",
     wrapperClass: "one",
     iconSrc: "/assets/919b6e982e1e-68dd10c0b38ff642330975ce_Icon-04.svg",
     iconAlt: "DTG Icon",
     imageSrc: "/assets/onos-dtg-machine-detail.webp",
-    imageAlt: "DTG printing machine",
+    imageAlt: "DTG printing machine at Onos",
     features: [
-      "Detailed gradient artwork",
-      "Single unit to bulk runs",
-      "OEKO-TEX certified inks",
-      "Fast 2-4 day turnaround",
+      "Machine: SL-DTG-X2S",
+      "Cotton and cotton-rich apparel",
+      "Photographs, gradients & detailed artwork",
+      "Physical sample colour approval",
     ],
     dataWId: "bc23f244-bfd2-2ac7-1a49-5f880f92e2a4",
     imgDataWId: "d4d290b2-cf1f-2b7c-1c15-7a88dddc2d17",
@@ -41,17 +48,21 @@ const serviceItems: ServiceItem[] = [
   },
   {
     id: "computerised-embroidery",
+    methodId: "embroidery",
     nameKey: "Computerised embroidery",
+    tagKey: "Caps · Polos · Bags",
+    modelKey: "Equipment: multi-head embroidery",
+    descriptionKey: "Digitised designs and multi-head embroidery bring texture and a distinctive finish to your brand identity.",
     wrapperClass: "two",
     iconSrc: "/assets/3d82ea8adf9e-68dd0f0f45f09a74e7a4e083_68dd045c0438e2e8731b21c1_Icon-2002.svg",
     iconAlt: "Embroidery Icon",
     imageSrc: "/assets/onos-equipment-embroidery.webp",
-    imageAlt: "Computerised embroidery",
+    imageAlt: "An Onos operator checking embroidery on garments",
     features: [
-      "High-density 3D puff embroidery",
-      "Tajima & Barudan multi-head lines",
-      "Premium durable threads",
-      "Caps, hoodies and polo uniforms",
+      "Equipment: multi-head embroidery",
+      "Caps, polos and bags",
+      "Digitised stitch-file review",
+      "Distinctive texture & premium finish",
     ],
     dataWId: "77cde797-b601-13a8-b976-f135a003b69f",
     imgDataWId: "77cde797-b601-13a8-b976-f135a003b6a3",
@@ -60,17 +71,21 @@ const serviceItems: ServiceItem[] = [
   },
   {
     id: "sublimation-printing",
+    methodId: "sublimation",
     nameKey: "Sublimation printing",
+    tagKey: "All-over print · Sportswear",
+    modelKey: "Epson SC-F11030 · heat press PD-1800D-800",
+    descriptionKey: "All-over printing bonds colour into polyester fibres for expressive, full-coverage apparel and sportswear.",
     wrapperClass: "three",
     iconSrc: "/assets/7b73a5e3512f-68dd0f10a657fd757cc63f70_68dd097ddfef66551e348204_Icon-2001.svg",
     iconAlt: "Sublimation Icon",
     imageSrc: "/assets/onos-press-machines-row.webp",
-    imageAlt: "Sublimation printing",
+    imageAlt: "Heat press equipment on the Onos production floor",
     features: [
-      "Full-bleed edge-to-edge printing",
-      "Permanent wash-fast sublimation dyes",
-      "Cut & sew sportswear production",
-      "Rich vibrant colour gamut",
+      "Epson SC-F11030 · PD-1800D-800 heat press",
+      "Polyester apparel and sportswear",
+      "All-over printing bonded into fibres",
+      "Material colour testing before run",
     ],
     dataWId: "fd6444eb-66fc-2dbd-3d3a-042d56ad9110",
     imgDataWId: "fd6444eb-66fc-2dbd-3d3a-042d56ad9114",
@@ -79,17 +94,21 @@ const serviceItems: ServiceItem[] = [
   },
   {
     id: "laser-cutting-engraving",
+    methodId: "laser",
     nameKey: "Laser cutting & engraving",
+    tagKey: "Decor · Personalised gifts",
+    modelKey: "Laser FW-1822 · auto cutter LP-2219",
+    descriptionKey: "Precision cutting and engraving for personalised gifts and decor in wood, acrylic, leather and fabric.",
     wrapperClass: "four",
     iconSrc: "/assets/a9658e3178bd-68dd10d7260632638bde8850_Icon-03.svg",
     iconAlt: "Laser Icon",
     imageSrc: "/assets/onos-laser-cut-gifts.webp",
-    imageAlt: "Laser cutting & engraving",
+    imageAlt: "Laser-cut wooden decor and gift samples",
     features: [
-      "Sub-millimeter cutting accuracy",
-      "Wood, acrylic and leather crafts",
-      "Custom geometric fabric shapes",
-      "Personalised gift production",
+      "Laser FW-1822 · LP-2219 auto cutter",
+      "Wood, acrylic, leather & fabric",
+      "Custom cutting paths & vector specs",
+      "Sample finish approval before run",
     ],
     dataWId: "ea75087c-806d-fa5f-23d1-e85b71fbeb55",
     imgDataWId: "ea75087c-806d-fa5f-23d1-e85b71fbeb59",
@@ -102,11 +121,16 @@ export function Services() {
   const { language, t } = useSite();
   const [activeService, setActiveService] = useState<number>(0);
 
+  const toggle = (idx: number) => {
+    setActiveService(idx);
+  };
+
   return (
     <section id="capabilities" className="service-section section-spacing-top">
       <span id="services" className="onos-anchor-alias" aria-hidden="true" />
       <div className="container-full">
         <div className="service-details-main">
+          {/* Section Header */}
           <div
             data-w-id="238c3f25-28e9-d07e-772d-22cc173e9e24"
             className="service-details-wrap"
@@ -121,51 +145,22 @@ export function Services() {
               <h2 className="section-title">
                 {language === "vi" ? (
                   <>
-                    Năng lực <span className="text-linear-gradient">sản xuất</span> cho mọi nhu cầu
+                    Ý tưởng lớn. <span className="text-linear-gradient">Thành hình sắc nét.</span>
                   </>
                 ) : (
                   <>
-                    Scalable <span className="text-linear-gradient">capabilities</span> for every challenge
+                    Good ideas. <span className="text-linear-gradient">Made tangible.</span>
                   </>
                 )}
               </h2>
-              <div id="w-node-e23adfcb-92aa-cd61-ca12-ef84ce0764ac-f8801f19" className="section-button-wrap">
-                <a
-                  data-wf--button-arrow--variant="base"
-                  data-w-id="d102baf6-0bbf-4311-9c79-6b424f8fe8a7"
-                  href="#production-fit"
-                  className="primary-button w-inline-block"
-                >
-                  <div className="button-primary-inner">
-                    <div className="button-text-wrap">
-                      <div className="button-text-inner">
-                        <div className="button-text">{t("Explore All Methods")}</div>
-                        <div className="button-hover-text">{t("Explore All Methods")}</div>
-                      </div>
-                    </div>
-                    <div className="button-icon-bg">
-                      <img
-                        src="/assets/75e8f722a505-68d527b447e1a5cc60cc1c27_button-icon.svg"
-                        loading="eager"
-                        alt="Arrow"
-                        className="button-icon"
-                      />
-                      <img
-                        src="/assets/75e8f722a505-68d527b447e1a5cc60cc1c27_button-icon.svg"
-                        loading="lazy"
-                        alt="Arrow"
-                        className="button-icon-hover"
-                      />
-                    </div>
-                  </div>
-                </a>
-              </div>
             </div>
           </div>
 
-          <div className="service-info" role="region" aria-label="Services List">
-            {serviceItems.map((item, index) => {
-              const isExpanded = activeService === index;
+          {/* Accordion Rows */}
+          <div className="service-info">
+            {serviceItems.map((item, idx) => {
+              const isExpanded = activeService === idx;
+
               return (
                 <div
                   key={item.id}
@@ -173,27 +168,22 @@ export function Services() {
                 >
                   <div role="list" className="service-list w-dyn-items">
                     <div role="listitem" className="service-list-item w-dyn-item">
-                      <a
-                        data-w-id={item.dataWId}
-                        href={inquiryHref(language, item.nameKey)}
-                        className={`service-info-link w-inline-block${isExpanded ? " is-expanded" : ""}`}
+                      <div
+                        role="button"
+                        tabIndex={0}
                         aria-expanded={isExpanded}
-                        onMouseEnter={() => setActiveService(index)}
-                        onFocus={() => setActiveService(index)}
-                        onClick={(e) => {
-                          if (activeService !== index) {
-                            e.preventDefault();
-                            setActiveService(index);
-                          }
-                        }}
+                        onClick={() => toggle(idx)}
                         onKeyDown={(e) => {
                           if (e.key === "Enter" || e.key === " ") {
-                            if (activeService !== index) {
-                              e.preventDefault();
-                              setActiveService(index);
-                            }
+                            e.preventDefault();
+                            toggle(idx);
                           }
                         }}
+                        data-w-id={item.dataWId}
+                        className={`service-info-link w-inline-block ${
+                          isExpanded ? "is-expanded" : ""
+                        }`}
+                        style={{ cursor: "pointer" }}
                       >
                         <div className="service-info-inner">
                           <div className="service-image-main">
@@ -208,35 +198,90 @@ export function Services() {
                                 src={item.imageSrc}
                                 loading="lazy"
                                 data-w-id={item.imgDataWId}
-                                alt={item.imageAlt}
+                                alt={t(item.imageAlt)}
                                 className="service-image"
                                 style={{ objectFit: "cover" }}
                               />
                             </div>
                           </div>
+
                           <div className="service-content-wrap">
                             <div className="service-name-wrapper">
-                              <h3 className="service-name">{t(item.nameKey)}</h3>
+                              <div>
+                                <div
+                                  style={{
+                                    display: "inline-block",
+                                    fontSize: "0.82rem",
+                                    fontWeight: 700,
+                                    textTransform: "uppercase",
+                                    color: "var(--color--primary-1, #f66234)",
+                                    marginBottom: "4px",
+                                    letterSpacing: "0.04em",
+                                  }}
+                                >
+                                  {t(item.tagKey)}
+                                </div>
+                                <h3 className="service-name">{t(item.nameKey)}</h3>
+                                <p
+                                  style={{
+                                    fontSize: "0.92rem",
+                                    color: "#666",
+                                    marginTop: "6px",
+                                    marginBottom: 0,
+                                    lineHeight: 1.5,
+                                    maxWidth: "520px",
+                                  }}
+                                >
+                                  {t(item.descriptionKey)}
+                                </p>
+                              </div>
                             </div>
+
                             <div className="service-feature-list">
-                              <div className="service-feature-text">{t("Features")}</div>
+                              <div className="service-feature-text">
+                                {t("Features")} · {t(item.modelKey)}
+                              </div>
                               <div className="feature-list-item">
-                                {item.features.map((featureKey) => (
-                                  <div key={featureKey} className="feature-item-inner">
+                                {item.features.map((feat, fIdx) => (
+                                  <div key={fIdx} className="feature-item-inner">
                                     <img
                                       src="/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"
                                       loading="lazy"
                                       alt="Check"
                                       className="feature-item-icon"
                                     />
-                                    <div className="feature-item">{t(featureKey)}</div>
+                                    <div className="feature-item">{t(feat)}</div>
                                   </div>
                                 ))}
+                              </div>
+
+                              <div style={{ marginTop: "14px" }}>
+                                <a
+                                  href="#production-fit"
+                                  onClick={(e) => {
+                                    e.stopPropagation();
+                                  }}
+                                  className="text-link"
+                                  style={{
+                                    fontSize: "0.88rem",
+                                    fontWeight: 600,
+                                    color: "var(--color--primary-1, #f66234)",
+                                    display: "inline-flex",
+                                    alignItems: "center",
+                                    gap: "6px",
+                                    textDecoration: "none",
+                                  }}
+                                >
+                                  <span>{t("Explore this technique")}</span>
+                                  <span>→</span>
+                                </a>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <div className="service-arrow" aria-hidden="true">
+
+                        {/* Arrow Micro-Interaction */}
+                        <div className="service-arrow">
                           <img
                             src="/assets/2b24032b0ac7-68e1e92ebc2f8e7f7dd6d052_testimonial-Slide-Arrow--1-.svg"
                             loading="lazy"
@@ -252,7 +297,7 @@ export function Services() {
                             className="service-hover-icon"
                           />
                         </div>
-                      </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -261,63 +306,15 @@ export function Services() {
 
             <div className="service-box-height"></div>
           </div>
-
-          {/* Honeycomb CTA Banner */}
-          <div className="cta-wrap">
-            <div
-              data-w-id="2a6fecb6-c324-2a47-4e56-63bf9666fe76"
-              className="cta-info-wrapper"
-              style={{ backgroundImage: "url('/assets/886c8689ec84-68e0f9a032b17a59b69e7ecb_CTA-bg--2-.webp')" }}
-            >
-              <div className="cta-info-inner">
-                <h2 className="cta-text">
-                  {language === "vi" ? (
-                    <>
-                      Sẵn sàng khởi động <br />
-                      dự án tiếp theo?
-                    </>
-                  ) : (
-                    <>
-                      Ready to start your <br />
-                      next project?
-                    </>
-                  )}
-                </h2>
-                <div className="cta-button">
-                  <a
-                    data-wf--button-arrow--variant="button-white-bg"
-                    data-w-id="d102baf6-0bbf-4311-9c79-6b424f8fe8a7"
-                    href="#contact"
-                    className="primary-button w-variant-e5ebfb29-ba2d-88c3-9b4e-1bbc038e3a15 w-inline-block"
-                  >
-                    <div className="button-primary-inner">
-                      <div className="button-text-wrap">
-                        <div className="button-text-inner">
-                          <div className="button-text">{t("Email Project Brief")}</div>
-                          <div className="button-hover-text">{t("Email Project Brief")}</div>
-                        </div>
-                      </div>
-                      <div className="button-icon-bg">
-                        <img
-                          src="/assets/75e8f722a505-68d527b447e1a5cc60cc1c27_button-icon.svg"
-                          loading="eager"
-                          alt="Arrow"
-                          className="button-icon"
-                        />
-                        <img
-                          src="/assets/75e8f722a505-68d527b447e1a5cc60cc1c27_button-icon.svg"
-                          loading="lazy"
-                          alt="Arrow"
-                          className="button-icon-hover"
-                        />
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
+      </div>
+
+      <div className="line-wrapper">
+        <div className="section-line border-grey-1"></div>
+        <div className="section-line border-grey-1"></div>
+        <div className="section-line border-grey-1"></div>
+        <div className="section-line border-grey-1"></div>
+        <div className="section-line border-grey-1"></div>
       </div>
     </section>
   );

@@ -4,8 +4,7 @@
       "/usr/bin/node",
       "/home/nam/onos/manufactt-project/node_modules/.bin/playwright",
       "test",
-      "--grep",
-      "homepage smoke:"
+      "tests/parity-reconciliation.spec.ts"
     ],
     "configFile": "/home/nam/onos/manufactt-project/playwright.config.ts",
     "rootDir": "/home/nam/onos/manufactt-project/tests",
@@ -105,53 +104,402 @@
   },
   "suites": [
     {
-      "title": "site.spec.ts",
-      "file": "site.spec.ts",
+      "title": "parity-reconciliation.spec.ts",
+      "file": "parity-reconciliation.spec.ts",
       "column": 0,
       "line": 0,
-      "specs": [
+      "specs": [],
+      "suites": [
         {
-          "title": "homepage smoke: responsive layout, original choices, carousel, gallery, FAQ, language and contact",
-          "ok": true,
-          "tags": [],
-          "tests": [
+          "title": "ONOS Global Business & Functional Parity Verification",
+          "file": "parity-reconciliation.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
             {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
+              "title": "P0: Complete Factory Network (3 facilities, 4 carousel photographs)",
+              "ok": true,
+              "tags": [],
+              "tests": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 23458,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-10-28T14:43:07.533Z",
+                  "timeout": 45000,
                   "annotations": [],
-                  "attachments": []
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3146,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T06:51:41.830Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "status": "expected"
+              "id": "0da305a93acbed0cb1c1-e1750cb658f49c0d02b1",
+              "file": "parity-reconciliation.spec.ts",
+              "line": 6,
+              "column": 7
+            },
+            {
+              "title": "P0: Exact Manufacturing Capabilities (4 primary capabilities, no invented claims)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2038,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T06:51:45.543Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0da305a93acbed0cb1c1-c90f915841f2ac0f4c1e",
+              "file": "parity-reconciliation.spec.ts",
+              "line": 47,
+              "column": 7
+            },
+            {
+              "title": "P0: Exact Production Finder (4 selectable methods & context mailto)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3274,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T06:51:45.422Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0da305a93acbed0cb1c1-3c57b5a381194a4c18b6",
+              "file": "parity-reconciliation.spec.ts",
+              "line": 82,
+              "column": 7
+            },
+            {
+              "title": "P1: Production Gallery (4 authentic photos & lightbox)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3257,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T06:51:48.718Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0da305a93acbed0cb1c1-3d24c27a1011abeaae75",
+              "file": "parity-reconciliation.spec.ts",
+              "line": 122,
+              "column": 7
+            },
+            {
+              "title": "P1: Complete ONOS Ecosystem (3 entities with verified links)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2010,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T06:51:51.991Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0da305a93acbed0cb1c1-31bd2914d78cf2bf8178",
+              "file": "parity-reconciliation.spec.ts",
+              "line": 157,
+              "column": 7
+            },
+            {
+              "title": "P1: 4-Step Workflow and Distinction from 5-step QC",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1568,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T06:51:54.021Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0da305a93acbed0cb1c1-596d2afdb42e43947d9e",
+              "file": "parity-reconciliation.spec.ts",
+              "line": 188,
+              "column": 7
+            },
+            {
+              "title": "P1: FAQ Parity (4 questions & authentic answers)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1480,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T06:51:55.615Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0da305a93acbed0cb1c1-b11da89021996e1f5a11",
+              "file": "parity-reconciliation.spec.ts",
+              "line": 201,
+              "column": 7
+            },
+            {
+              "title": "P1: Contact & Project Inquiry",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1348,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T06:51:57.116Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0da305a93acbed0cb1c1-09c48df1dab0eaa1cb57",
+              "file": "parity-reconciliation.spec.ts",
+              "line": 222,
+              "column": 7
+            },
+            {
+              "title": "P1: Content Cleanup (No newsletter, no unsupported product catalog)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1275,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T06:51:58.482Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0da305a93acbed0cb1c1-440357ce777279a3e742",
+              "file": "parity-reconciliation.spec.ts",
+              "line": 238,
+              "column": 7
+            },
+            {
+              "title": "P1: Bilingual Support (English and Vietnamese)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2204,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T06:51:59.771Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0da305a93acbed0cb1c1-0d943916a044b15870d7",
+              "file": "parity-reconciliation.spec.ts",
+              "line": 254,
+              "column": 7
+            },
+            {
+              "title": "Responsive & No Horizontal Overflow at 1440, 1024, 768, 375px",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3776,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T06:52:01.989Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0da305a93acbed0cb1c1-490052176b97afe617fc",
+              "file": "parity-reconciliation.spec.ts",
+              "line": 269,
+              "column": 7
             }
-          ],
-          "id": "5c02723ad68c2a0d50c5-42b4fba0377bf6006190",
-          "file": "site.spec.ts",
-          "line": 137,
-          "column": 5
+          ]
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-10-28T14:43:06.574Z",
-    "duration": 24681.791,
-    "expected": 1,
+    "startTime": "2026-10-29T06:51:41.130Z",
+    "duration": 26952.599,
+    "expected": 11,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

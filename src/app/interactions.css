@@ -669,4 +669,38 @@ html:not(.site-ready) [data-w-id][style*="opacity: 0"] { opacity: 1 !important; 
   }
 }
 
+/* Decorative Background Lines - Never Intercept Clicks */
+.line-wrapper,
+.section-line {
+  pointer-events: none !important;
+}
+
+/* Factory Network Slider Navigation Controls */
+.case-study-slider .slider-arrow-left,
+.case-study-slider .slider-arrow-right {
+  display: flex !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Navbar Overflow Prevention at 1024px Viewports */
+.navbar {
+  max-width: 100vw !important;
+  overflow-x: clip !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1240px) {
+  .nav-link {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    font-size: 0.84rem !important;
+  }
+  .grid-nav {
+    column-gap: 8px !important;
+  }
+  .nav-button .primary-button {
+    padding: 8px 12px !important;
+    font-size: 0.82rem !important;
+  }
+}
+
 

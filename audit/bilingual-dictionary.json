@@ -1,0 +1,1070 @@
+[
+  {
+    "en": "Skip to content",
+    "vi": "Đến nội dung chính",
+    "tag": "SPAN",
+    "parentTag": "A"
+  },
+  {
+    "en": "Capabilities",
+    "vi": "Năng lực",
+    "tag": "SPAN",
+    "parentTag": "A"
+  },
+  {
+    "en": "Our network",
+    "vi": "Nhà máy",
+    "tag": "SPAN",
+    "parentTag": "A"
+  },
+  {
+    "en": "How we work",
+    "vi": "Quy trình",
+    "tag": "SPAN",
+    "parentTag": "A"
+  },
+  {
+    "en": "Our ecosystem",
+    "vi": "Hệ sinh thái",
+    "tag": "SPAN",
+    "parentTag": "A"
+  },
+  {
+    "en": "Let's talk",
+    "vi": "Liên hệ",
+    "tag": "SPAN",
+    "parentTag": "A"
+  },
+  {
+    "en": "ONOS GLOBAL / PRINT-ON-DEMAND",
+    "vi": "ONOS GLOBAL / SẢN XUẤT THEO YÊU CẦU",
+    "tag": "SPAN",
+    "parentTag": "P"
+  },
+  {
+    "en": "VIETNAM + UNITED STATES",
+    "vi": "VIỆT NAM + HOA KỲ",
+    "tag": "SPAN",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Innovating without limits.",
+    "vi": "Sáng Tạo Không Ngừng.",
+    "tag": "SPAN",
+    "parentTag": "H1"
+  },
+  {
+    "en": "Elevating value.",
+    "vi": "Nâng tầm giá trị",
+    "tag": "SPAN",
+    "parentTag": "H1"
+  },
+  {
+    "en": "A production partner for ambitious brands. Printing, embroidery and fulfillment, connected across Vietnam and the United States.",
+    "vi": "Đối tác sản xuất cho thương hiệu của bạn. Kết nối in ấn, thêu và hoàn tất đơn hàng tại Việt Nam và Hoa Kỳ.",
+    "tag": "P",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Find your production fit",
+    "vi": "Chọn công nghệ phù hợp",
+    "tag": "SPAN",
+    "parentTag": "A"
+  },
+  {
+    "en": "Step inside Onos",
+    "vi": "Khám phá xưởng Onos",
+    "tag": "SPAN",
+    "parentTag": "A"
+  },
+  {
+    "en": "Craft, at an industrial scale.",
+    "vi": "Tay nghề thật. Quy mô lớn.",
+    "tag": "SPAN",
+    "parentTag": "FIGCAPTION"
+  },
+  {
+    "en": "ONOS / PRODUCTION",
+    "vi": "ONOS / SẢN XUẤT",
+    "tag": "SPAN",
+    "parentTag": "FIGCAPTION"
+  },
+  {
+    "en": "CONNECTED BY DESIGN",
+    "vi": "KẾT NỐI TỪ NỀN TẢNG",
+    "tag": "SPAN",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Local expertise.",
+    "vi": "Tay nghề địa phương.",
+    "tag": "STRONG",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "A global outlook.",
+    "vi": "Tầm nhìn toàn cầu.",
+    "tag": "STRONG",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "3 plants. 2 countries. One Onos.",
+    "vi": "3 nhà máy. 2 quốc gia. Một Onos.",
+    "tag": "SPAN",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Production plants",
+    "vi": "Nhà máy sản xuất",
+    "tag": "SPAN",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Countries, connected",
+    "vi": "Quốc gia, kết nối",
+    "tag": "SPAN",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Production machines",
+    "vi": "Máy móc sản xuất",
+    "tag": "SPAN",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "The year we began",
+    "vi": "Năm khởi đầu",
+    "tag": "SPAN",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Production capabilities",
+    "vi": "Công nghệ sản xuất",
+    "tag": "SPAN",
+    "parentTag": "P"
+  },
+  {
+    "en": "Good ideas. Made tangible.",
+    "vi": "Từ ý tưởng đến sản phẩm.",
+    "tag": "H2",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "From detailed graphics to dimensional stitching, we match the production method to your product, material and market.",
+    "vi": "Từ hình in nhiều chi tiết đến đường thêu nổi, Onos lựa chọn công nghệ phù hợp với sản phẩm, chất liệu và thị trường của bạn.",
+    "tag": "P",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "DTG",
+    "vi": "DTG",
+    "tag": "SPAN",
+    "parentTag": "SPAN"
+  },
+  {
+    "en": "DTG printing",
+    "vi": "In DTG",
+    "tag": "H3",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Direct-to-garment printing for photographs, gradients and detailed artwork on cotton and cotton-rich apparel.",
+    "vi": "In trực tiếp lên vải cho hình ảnh, chuyển sắc và thiết kế nhiều chi tiết trên cotton và vải pha cotton.",
+    "tag": "P",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "T-shirts · Apparel",
+    "vi": "Áo thun · Trang phục",
+    "tag": "SPAN",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Machine: SL-DTG-X2S",
+    "vi": "Máy: SL-DTG-X2S",
+    "tag": "SMALL",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Explore this technique",
+    "vi": "Khám phá công nghệ",
+    "tag": "SPAN",
+    "parentTag": "A"
+  },
+  {
+    "en": "EMBROIDERY",
+    "vi": "THÊU VI TÍNH",
+    "tag": "SPAN",
+    "parentTag": "SPAN"
+  },
+  {
+    "en": "Computerised embroidery",
+    "vi": "Thêu vi tính",
+    "tag": "H3",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Digitised designs and multi-head embroidery bring texture and a distinctive finish to your brand identity.",
+    "vi": "Số hóa thiết kế và hệ thống thêu nhiều đầu tạo độ nổi cùng dấu ấn riêng cho nhận diện thương hiệu.",
+    "tag": "P",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Caps · Polos · Bags",
+    "vi": "Mũ · Áo polo · Túi",
+    "tag": "SPAN",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Equipment: multi-head embroidery",
+    "vi": "Máy thêu vi tính nhiều đầu",
+    "tag": "SMALL",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Explore this technique",
+    "vi": "Khám phá công nghệ",
+    "tag": "SPAN",
+    "parentTag": "A"
+  },
+  {
+    "en": "SUBLIMATION",
+    "vi": "IN CHUYỂN NHIỆT",
+    "tag": "SPAN",
+    "parentTag": "SPAN"
+  },
+  {
+    "en": "Sublimation printing",
+    "vi": "In chuyển nhiệt",
+    "tag": "H3",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "All-over printing bonds colour into polyester fibres for expressive, full-coverage apparel and sportswear.",
+    "vi": "In tràn viền đưa màu vào sợi polyester, tạo nên trang phục và đồ thể thao với thiết kế phủ toàn bộ bề mặt.",
+    "tag": "P",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "All-over print · Sportswear",
+    "vi": "In tràn viền · Đồ thể thao",
+    "tag": "SPAN",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Epson SC-F11030 · heat press PD-1800D-800",
+    "vi": "Epson SC-F11030 · máy ép PD-1800D-800",
+    "tag": "SMALL",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Explore this technique",
+    "vi": "Khám phá công nghệ",
+    "tag": "SPAN",
+    "parentTag": "A"
+  },
+  {
+    "en": "LASER",
+    "vi": "CẮT KHẮC LASER",
+    "tag": "SPAN",
+    "parentTag": "SPAN"
+  },
+  {
+    "en": "Laser cutting & engraving",
+    "vi": "Cắt khắc laser",
+    "tag": "H3",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Precision cutting and engraving for personalised gifts and decor in wood, acrylic, leather and fabric.",
+    "vi": "Cắt và khắc chính xác cho quà tặng cá nhân hóa và đồ trang trí bằng gỗ, acrylic, da và vải.",
+    "tag": "P",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Decor · Personalised gifts",
+    "vi": "Trang trí · Quà tặng cá nhân hóa",
+    "tag": "SPAN",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Laser FW-1822 · auto cutter LP-2219",
+    "vi": "Laser FW-1822 · máy cắt tự động LP-2219",
+    "tag": "SMALL",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Explore this technique",
+    "vi": "Khám phá công nghệ",
+    "tag": "SPAN",
+    "parentTag": "A"
+  },
+  {
+    "en": "Not sure which method fits? Send us your artwork and product idea. We will work through the options with you.",
+    "vi": "Chưa biết chọn công nghệ nào? Gửi thiết kế và ý tưởng sản phẩm để Onos cùng bạn tìm phương án phù hợp.",
+    "tag": "P",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Talk production",
+    "vi": "Trao đổi sản xuất",
+    "tag": "SPAN",
+    "parentTag": "A"
+  },
+  {
+    "en": "Find the right production fit.",
+    "vi": "Chọn cách làm phù hợp.",
+    "tag": "H2",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "What are you making?",
+    "vi": "Bạn muốn làm sản phẩm nào?",
+    "tag": "SPAN",
+    "parentTag": "LABEL"
+  },
+  {
+    "en": "Detailed artwork on cotton",
+    "vi": "Hình nhiều màu trên cotton",
+    "tag": "OPTION",
+    "parentTag": "SELECT"
+  },
+  {
+    "en": "Embroidered logos on apparel and caps",
+    "vi": "Thêu logo trên trang phục và mũ",
+    "tag": "OPTION",
+    "parentTag": "SELECT"
+  },
+  {
+    "en": "All-over designs on polyester",
+    "vi": "Họa tiết tràn viền trên polyester",
+    "tag": "OPTION",
+    "parentTag": "SELECT"
+  },
+  {
+    "en": "Cut and engraved gifts",
+    "vi": "Quà tặng cắt khắc theo thiết kế",
+    "tag": "OPTION",
+    "parentTag": "SELECT"
+  },
+  {
+    "en": "Explore each technique, the materials it works with, and what to prepare before production.",
+    "vi": "Chọn công nghệ để xem chất liệu phù hợp và những gì cần chuẩn bị trước khi sản xuất.",
+    "tag": "P",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "DTG printing",
+    "vi": "In DTG",
+    "tag": "BUTTON",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Embroidery",
+    "vi": "Thêu vi tính",
+    "tag": "BUTTON",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Sublimation",
+    "vi": "In chuyển nhiệt",
+    "tag": "BUTTON",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Laser cutting",
+    "vi": "Cắt khắc laser",
+    "tag": "BUTTON",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "DTG printing",
+    "vi": "In DTG",
+    "tag": "H3",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Material & application",
+    "vi": "Chất liệu & ứng dụng",
+    "tag": "DT",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Cotton and cotton-rich apparel.",
+    "vi": "Cotton và trang phục pha cotton cao.",
+    "tag": "DD",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Before production",
+    "vi": "Trước khi sản xuất",
+    "tag": "DT",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Confirm fabric composition, garment colour, artwork size and placement. Approve colour on a physical sample.",
+    "vi": "Xác nhận thành phần vải, màu áo, kích thước và vị trí thiết kế. Duyệt màu trên mẫu thực tế.",
+    "tag": "DD",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Computerised embroidery",
+    "vi": "Thêu vi tính",
+    "tag": "H3",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Material & application",
+    "vi": "Chất liệu & ứng dụng",
+    "tag": "DT",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Caps, polos and bags suitable for embroidery.",
+    "vi": "Mũ, áo polo và túi phù hợp với thêu.",
+    "tag": "DD",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Before production",
+    "vi": "Trước khi sản xuất",
+    "tag": "DT",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Share the logo size and placement. Small lettering and fine details need review when digitising the stitch file.",
+    "vi": "Gửi kích thước và vị trí logo. Chữ nhỏ và chi tiết mảnh cần được kiểm tra khi số hóa file thêu.",
+    "tag": "DD",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Sublimation printing",
+    "vi": "In chuyển nhiệt",
+    "tag": "H3",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Material & application",
+    "vi": "Chất liệu & ứng dụng",
+    "tag": "DT",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Polyester apparel and sportswear suitable for sublimation.",
+    "vi": "Trang phục polyester và đồ thể thao phù hợp với in chuyển nhiệt.",
+    "tag": "DD",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Before production",
+    "vi": "Trước khi sản xuất",
+    "tag": "DT",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Confirm fabric composition, base colour, pattern layout and seams. Test colour on the intended material.",
+    "vi": "Xác nhận thành phần, màu nền vải, bố cục họa tiết và đường ráp. Kiểm tra màu trên đúng chất liệu dự kiến.",
+    "tag": "DD",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Laser cutting & engraving",
+    "vi": "Cắt khắc laser",
+    "tag": "H3",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Material & application",
+    "vi": "Chất liệu & ứng dụng",
+    "tag": "DT",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Wood, acrylic, leather or fabric confirmed as suitable by the team.",
+    "vi": "Gỗ, acrylic, da hoặc vải đã được đội ngũ xác nhận phù hợp.",
+    "tag": "DD",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Before production",
+    "vi": "Trước khi sản xuất",
+    "tag": "DT",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Provide material type, thickness and cutting paths. Confirm the finish on a sample before approving the run.",
+    "vi": "Cung cấp loại vật liệu, độ dày và file đường cắt. Duyệt bề mặt mẫu trước khi chốt sản xuất.",
+    "tag": "DD",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Have a product in mind? Our team will help confirm the technique, sample and production plan. Contact us by email.",
+    "vi": "Đã có ý tưởng sản phẩm? Gửi email để Onos cùng bạn xác nhận công nghệ, mẫu và kế hoạch sản xuất.",
+    "tag": "P",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Discuss this product",
+    "vi": "Trao đổi sản phẩm này",
+    "tag": "SPAN",
+    "parentTag": "A"
+  },
+  {
+    "en": "Local craft. Global reach.",
+    "vi": "Tay nghề Việt. Kết nối toàn cầu.",
+    "tag": "SPAN",
+    "parentTag": "P"
+  },
+  {
+    "en": "Three plants. One connected team.",
+    "vi": "Ba nhà máy. Một đội ngũ kết nối.",
+    "tag": "H2",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Production in Vietnam. Fulfillment closer to the US market. A connected network built around where your customers are.",
+    "vi": "Sản xuất tại Việt Nam. Hoàn tất đơn hàng gần thị trường Mỹ hơn. Mạng lưới kết nối theo nơi khách hàng của bạn hiện diện.",
+    "tag": "P",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "A skilled team at work",
+    "vi": "Đội ngũ lành nghề tại xưởng",
+    "tag": "SPAN",
+    "parentTag": "FIGCAPTION"
+  },
+  {
+    "en": "THAI NGUYEN / VIETNAM",
+    "vi": "THÁI NGUYÊN / VIỆT NAM",
+    "tag": "SPAN",
+    "parentTag": "FIGCAPTION"
+  },
+  {
+    "en": "Automated fabric cutting",
+    "vi": "Cắt vải tự động",
+    "tag": "SPAN",
+    "parentTag": "FIGCAPTION"
+  },
+  {
+    "en": "ME LINH / HANOI",
+    "vi": "MÊ LINH / HÀ NỘI",
+    "tag": "SPAN",
+    "parentTag": "FIGCAPTION"
+  },
+  {
+    "en": "Our California team at work",
+    "vi": "Đội ngũ Onos tại California",
+    "tag": "SPAN",
+    "parentTag": "FIGCAPTION"
+  },
+  {
+    "en": "CALIFORNIA / UNITED STATES",
+    "vi": "CALIFORNIA / HOA KỲ",
+    "tag": "SPAN",
+    "parentTag": "FIGCAPTION"
+  },
+  {
+    "en": "Automated Epson conveyor line",
+    "vi": "Băng chuyền tự động Epson",
+    "tag": "SPAN",
+    "parentTag": "FIGCAPTION"
+  },
+  {
+    "en": "THAI NGUYEN / VIETNAM",
+    "vi": "THÁI NGUYÊN / VIỆT NAM",
+    "tag": "SPAN",
+    "parentTag": "FIGCAPTION"
+  },
+  {
+    "en": "Thai Nguyen",
+    "vi": "Thái Nguyên",
+    "tag": "H3",
+    "parentTag": "ARTICLE"
+  },
+  {
+    "en": "High-volume production",
+    "vi": "Sản xuất quy mô lớn",
+    "tag": "P",
+    "parentTag": "ARTICLE"
+  },
+  {
+    "en": "DTG, sublimation, embroidery and laser production, supported by a five-step quality control process.",
+    "vi": "In DTG, chuyển nhiệt, thêu và cắt laser, kết hợp quy trình kiểm soát chất lượng 5 bước.",
+    "tag": "P",
+    "parentTag": "ARTICLE"
+  },
+  {
+    "en": "Dai Tu · Thai Nguyen · Vietnam",
+    "vi": "Đại Từ · Thái Nguyên · Việt Nam",
+    "tag": "SPAN",
+    "parentTag": "ARTICLE"
+  },
+  {
+    "en": "Me Linh",
+    "vi": "Mê Linh",
+    "tag": "H3",
+    "parentTag": "ARTICLE"
+  },
+  {
+    "en": "Sampling & coordination",
+    "vi": "May mẫu & điều phối",
+    "tag": "P",
+    "parentTag": "ARTICLE"
+  },
+  {
+    "en": "Sampling, production, final inspection and packing, with direct links to international carriers.",
+    "vi": "May mẫu, sản xuất, kiểm tra thành phẩm và đóng gói, kết nối trực tiếp với đơn vị vận chuyển quốc tế.",
+    "tag": "P",
+    "parentTag": "ARTICLE"
+  },
+  {
+    "en": "Me Linh · Hanoi · Vietnam",
+    "vi": "Mê Linh · Hà Nội · Việt Nam",
+    "tag": "SPAN",
+    "parentTag": "ARTICLE"
+  },
+  {
+    "en": "California",
+    "vi": "California",
+    "tag": "H3",
+    "parentTag": "ARTICLE"
+  },
+  {
+    "en": "US print & fulfillment",
+    "vi": "In ấn & fulfillment tại Mỹ",
+    "tag": "P",
+    "parentTag": "ARTICLE"
+  },
+  {
+    "en": "DTG and DTF production for the North American market, operated by ONOS American Ventures Corp.",
+    "vi": "Sản xuất DTG và DTF cho thị trường Bắc Mỹ, vận hành bởi ONOS American Ventures Corp.",
+    "tag": "P",
+    "parentTag": "ARTICLE"
+  },
+  {
+    "en": "California · United States",
+    "vi": "California · Hoa Kỳ",
+    "tag": "SPAN",
+    "parentTag": "ARTICLE"
+  },
+  {
+    "en": "From file to finished",
+    "vi": "Từ thiết kế đến thành phẩm",
+    "tag": "SPAN",
+    "parentTag": "P"
+  },
+  {
+    "en": "Your next collection starts here.",
+    "vi": "Bộ sưu tập tiếp theo bắt đầu từ đây.",
+    "tag": "H2",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "A clear process, with people alongside you at every handoff.",
+    "vi": "Quy trình rõ ràng, có đội ngũ đồng hành trong từng công đoạn.",
+    "tag": "P",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Product development starts with a conversation.",
+    "vi": "Sản phẩm bắt đầu từ một cuộc trao đổi.",
+    "tag": "SPAN",
+    "parentTag": "FIGCAPTION"
+  },
+  {
+    "en": "Share the idea",
+    "vi": "Chia sẻ ý tưởng",
+    "tag": "H3",
+    "parentTag": "LI"
+  },
+  {
+    "en": "Tell us your product, expected volume and destination. We recommend the material and production method.",
+    "vi": "Cho Onos biết sản phẩm, số lượng dự kiến và thị trường. Đội ngũ tư vấn chất liệu và công nghệ phù hợp.",
+    "tag": "P",
+    "parentTag": "LI"
+  },
+  {
+    "en": "Get it production-ready",
+    "vi": "Chuẩn bị sản xuất",
+    "tag": "H3",
+    "parentTag": "LI"
+  },
+  {
+    "en": "We review your artwork, colour and placement. For a bulk run, agree the sample before moving ahead.",
+    "vi": "Kiểm tra thiết kế, màu sắc và vị trí in. Với đơn hàng lớn, thống nhất mẫu trước khi triển khai.",
+    "tag": "P",
+    "parentTag": "LI"
+  },
+  {
+    "en": "Make. Check. Finish.",
+    "vi": "Sản xuất. Kiểm tra. Hoàn thiện.",
+    "tag": "H3",
+    "parentTag": "LI"
+  },
+  {
+    "en": "The production team prints or stitches your design, inspects the output and prepares the finished product.",
+    "vi": "Đội ngũ in hoặc thêu thiết kế, kiểm tra chất lượng và hoàn thiện từng sản phẩm.",
+    "tag": "P",
+    "parentTag": "LI"
+  },
+  {
+    "en": "On its way",
+    "vi": "Sẵn sàng giao hàng",
+    "tag": "H3",
+    "parentTag": "LI"
+  },
+  {
+    "en": "Products are packed and handed to shipping partners, with tracking through the fulfillment process.",
+    "vi": "Sản phẩm được đóng gói, bàn giao cho đối tác vận chuyển và theo dõi trong quá trình giao hàng.",
+    "tag": "P",
+    "parentTag": "LI"
+  },
+  {
+    "en": "A closer look",
+    "vi": "Nhìn gần hơn",
+    "tag": "SPAN",
+    "parentTag": "P"
+  },
+  {
+    "en": "Real people. Real production.",
+    "vi": "Con người thật. Sản xuất thật.",
+    "tag": "H2",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Better, together.",
+    "vi": "Cùng nhau làm tốt hơn.",
+    "tag": "SPAN",
+    "parentTag": "FIGCAPTION"
+  },
+  {
+    "en": "The finishing touches.",
+    "vi": "Chăm chút khâu hoàn thiện.",
+    "tag": "SPAN",
+    "parentTag": "FIGCAPTION"
+  },
+  {
+    "en": "Ideas you can hold.",
+    "vi": "Ý tưởng trở thành sản phẩm.",
+    "tag": "SPAN",
+    "parentTag": "FIGCAPTION"
+  },
+  {
+    "en": "Ready for the next order.",
+    "vi": "Sẵn sàng cho đơn hàng tiếp theo.",
+    "tag": "SPAN",
+    "parentTag": "FIGCAPTION"
+  },
+  {
+    "en": "Scroll to explore. Select a photograph for a closer look.",
+    "vi": "Vuốt để khám phá. Chọn ảnh để xem chi tiết.",
+    "tag": "P",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "The Onos ecosystem",
+    "vi": "Hệ sinh thái Onos",
+    "tag": "SPAN",
+    "parentTag": "P"
+  },
+  {
+    "en": "Connected by one ambition.",
+    "vi": "Kết nối bởi một tầm nhìn.",
+    "tag": "H2",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Three doors into Onos. Find the team that fits where you want to go.",
+    "vi": "Ba điểm kết nối với Onos. Chọn đội ngũ phù hợp với hành trình của bạn.",
+    "tag": "P",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "FOR INTERNATIONAL BRANDS",
+    "vi": "DÀNH CHO THƯƠNG HIỆU QUỐC TẾ",
+    "tag": "SPAN",
+    "parentTag": "A"
+  },
+  {
+    "en": "Manufacturing and fulfillment across borders.",
+    "vi": "Sản xuất và hoàn tất đơn hàng xuyên biên giới.",
+    "tag": "P",
+    "parentTag": "A"
+  },
+  {
+    "en": "FOR VIETNAMESE SELLERS",
+    "vi": "DÀNH CHO SELLER VIỆT NAM",
+    "tag": "SPAN",
+    "parentTag": "A"
+  },
+  {
+    "en": "The production partner for your POD business.",
+    "vi": "Đối tác sản xuất cho hành trình kinh doanh POD.",
+    "tag": "P",
+    "parentTag": "A"
+  },
+  {
+    "en": "THE PEOPLE BEHIND IT ALL",
+    "vi": "CON NGƯỜI PHÍA SAU HỆ THỐNG",
+    "tag": "SPAN",
+    "parentTag": "A"
+  },
+  {
+    "en": "Our company, our people and the next chapter.",
+    "vi": "Công ty, con người và chặng đường tiếp theo.",
+    "tag": "P",
+    "parentTag": "A"
+  },
+  {
+    "en": "Before we get started",
+    "vi": "Trước khi bắt đầu",
+    "tag": "P",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Good questions.",
+    "vi": "Điều bạn muốn biết.",
+    "tag": "H2",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Have something else in mind? Our team can help you work out the details.",
+    "vi": "Bạn còn điều cần trao đổi? Đội ngũ Onos sẽ cùng bạn làm rõ từng chi tiết.",
+    "tag": "P",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Ask our team",
+    "vi": "Hỏi đội ngũ Onos",
+    "tag": "SPAN",
+    "parentTag": "A"
+  },
+  {
+    "en": "Can I start with a small order?",
+    "vi": "Tôi có thể bắt đầu với số lượng ít không?",
+    "tag": "SPAN",
+    "parentTag": "SUMMARY"
+  },
+  {
+    "en": "Yes. DTG and sublimation orders can start from a single unit. Custom blanks and made-to-measure uniforms have minimum quantities agreed for each project.",
+    "vi": "Có. Đơn DTG và in chuyển nhiệt có thể bắt đầu từ một sản phẩm. Với phôi riêng hoặc đồng phục may đo, số lượng tối thiểu được thống nhất theo từng dự án.",
+    "tag": "P",
+    "parentTag": "DETAILS"
+  },
+  {
+    "en": "What artwork files do you need?",
+    "vi": "Tôi cần chuẩn bị file thiết kế nào?",
+    "tag": "SPAN",
+    "parentTag": "SUMMARY"
+  },
+  {
+    "en": "Send vector artwork (AI, EPS, SVG or PDF), or a transparent PNG at 300 DPI at the final print size. Our team checks the file before it moves into production.",
+    "vi": "Gửi file vector (AI, EPS, SVG hoặc PDF), hoặc PNG nền trong suốt ở 300 DPI theo kích thước in thực tế. Đội ngũ kiểm tra file trước khi sản xuất.",
+    "tag": "P",
+    "parentTag": "DETAILS"
+  },
+  {
+    "en": "Can we approve a sample first?",
+    "vi": "Tôi có thể duyệt mẫu trước không?",
+    "tag": "SPAN",
+    "parentTag": "SUMMARY"
+  },
+  {
+    "en": "Yes. Our Me Linh plant has a dedicated sampling line. For larger orders, we recommend agreeing a sample before the full production run.",
+    "vi": "Có. Xưởng Mê Linh có dây chuyền may mẫu riêng. Với đơn hàng lớn, Onos khuyến nghị thống nhất mẫu trước khi sản xuất hàng loạt.",
+    "tag": "P",
+    "parentTag": "DETAILS"
+  },
+  {
+    "en": "How do we confirm pricing and lead time?",
+    "vi": "Làm sao xác nhận giá và tiến độ?",
+    "tag": "SPAN",
+    "parentTag": "SUMMARY"
+  },
+  {
+    "en": "Share the product, design, expected quantity and shipping destination. We will review the production requirements and discuss pricing, timing and shipping with you before you proceed.",
+    "vi": "Chia sẻ sản phẩm, thiết kế, số lượng dự kiến và địa chỉ nhận hàng. Onos xem xét yêu cầu sản xuất và trao đổi giá, tiến độ, vận chuyển trước khi bạn quyết định.",
+    "tag": "P",
+    "parentTag": "DETAILS"
+  },
+  {
+    "en": "Next stop: your next product.",
+    "vi": "Chặng tiếp theo: sản phẩm của bạn.",
+    "tag": "P",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Let's make something happen.",
+    "vi": "Cùng tạo nên sản phẩm tiếp theo.",
+    "tag": "H2",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Send your product idea, artwork, expected volume and destination. Our team will help you shape the next step.",
+    "vi": "Gửi ý tưởng sản phẩm, thiết kế, số lượng dự kiến và thị trường. Đội ngũ Onos sẽ cùng bạn lên bước tiếp theo.",
+    "tag": "P",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Email your project brief",
+    "vi": "Gửi yêu cầu qua email",
+    "tag": "SPAN",
+    "parentTag": "A"
+  },
+  {
+    "en": "Opens your email app with a project outline ready to fill in.",
+    "vi": "Mở ứng dụng email với mẫu thông tin dự án để bạn điền.",
+    "tag": "P",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "HEAD OFFICE / HANOI",
+    "vi": "TRỤ SỞ / HÀ NỘI",
+    "tag": "SPAN",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "3rd floor, 705 Lac Long Quan, Tay Ho, Hanoi, Vietnam",
+    "vi": "Tầng 3, số 705 Lạc Long Quân, Tây Hồ, Hà Nội, Việt Nam",
+    "tag": "P",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Mon–Fri: 7:30–17:30 · Sat: 8:00–17:00 (Vietnam time)",
+    "vi": "T2–T6: 7:30–17:30 · T7: 8:00–17:00 (giờ Việt Nam)",
+    "tag": "P",
+    "parentTag": "DIV"
+  },
+  {
+    "en": "Capabilities",
+    "vi": "Năng lực",
+    "tag": "SPAN",
+    "parentTag": "A"
+  },
+  {
+    "en": "Our ecosystem",
+    "vi": "Hệ sinh thái",
+    "tag": "SPAN",
+    "parentTag": "A"
+  },
+  {
+    "en": "Questions",
+    "vi": "Câu hỏi",
+    "tag": "SPAN",
+    "parentTag": "A"
+  },
+  {
+    "en": "Contact",
+    "vi": "Liên hệ",
+    "tag": "SPAN",
+    "parentTag": "A"
+  },
+  {
+    "en": "Multi-head embroidery machines producing garments at Onos",
+    "vi": "Hệ thống máy thêu nhiều đầu sản xuất trang phục tại Onos",
+    "type": "alt",
+    "src": "https://onosglobal.pages.dev/assets/embroidery-hero.webp"
+  },
+  {
+    "en": "DTG printing machine at Onos",
+    "vi": "Máy in DTG tại Onos",
+    "type": "alt",
+    "src": "https://onosglobal.pages.dev/assets/dtg-machine-detail.webp"
+  },
+  {
+    "en": "An Onos operator checking embroidery on garments",
+    "vi": "Nhân sự Onos kiểm tra đường thêu trên trang phục",
+    "type": "alt",
+    "src": "https://onosglobal.pages.dev/assets/equipment-embroidery.webp"
+  },
+  {
+    "en": "Heat press equipment on the Onos production floor",
+    "vi": "Hệ thống ép nhiệt tại xưởng Onos",
+    "type": "alt",
+    "src": "https://onosglobal.pages.dev/assets/press-machines-row.webp"
+  },
+  {
+    "en": "Laser-cut wooden decor and gift samples",
+    "vi": "Mẫu quà tặng và trang trí gỗ cắt laser",
+    "type": "alt",
+    "src": "https://onosglobal.pages.dev/assets/laser-cut-gifts.webp"
+  },
+  {
+    "en": "The Onos print production floor",
+    "vi": "Xưởng in Onos",
+    "type": "alt",
+    "src": "https://onosglobal.pages.dev/assets/production-floor.webp"
+  },
+  {
+    "en": "Embroidery equipment at Onos",
+    "vi": "Thiết bị thêu tại Onos",
+    "type": "alt",
+    "src": "https://onosglobal.pages.dev/assets/embroidery.webp"
+  },
+  {
+    "en": "Heat press equipment at Onos",
+    "vi": "Thiết bị ép nhiệt tại Onos",
+    "type": "alt",
+    "src": "https://onosglobal.pages.dev/assets/press-machines-row.webp"
+  },
+  {
+    "en": "Laser-cut wooden decor and gift examples",
+    "vi": "Mẫu đồ trang trí và quà tặng gỗ cắt laser",
+    "type": "alt",
+    "src": "https://onosglobal.pages.dev/assets/laser-cut-gifts.webp"
+  },
+  {
+    "en": "Sewing floor at the Thai Nguyen plant",
+    "vi": "Đội ngũ may tại xưởng Thái Nguyên",
+    "type": "alt",
+    "src": "https://onosglobal.pages.dev/assets/facility-thai-nguyen.webp"
+  },
+  {
+    "en": "Automated fabric cutting at the Me Linh plant",
+    "vi": "Máy cắt vải tự động tại xưởng Mê Linh",
+    "type": "alt",
+    "src": "https://onosglobal.pages.dev/assets/facility-me-linh.webp"
+  },
+  {
+    "en": "Onos team discussing operations in California",
+    "vi": "Đội ngũ Onos trao đổi kế hoạch vận hành tại California",
+    "type": "alt",
+    "src": "https://onosglobal.pages.dev/assets/facility-california.webp"
+  },
+  {
+    "en": "Epson print production with an automated conveyor at Onos",
+    "vi": "Dây chuyền in Epson kết hợp băng chuyền tự động tại Onos",
+    "type": "alt",
+    "src": "https://onosglobal.pages.dev/assets/production-floor.webp"
+  },
+  {
+    "en": "The Onos team reviewing product samples and materials",
+    "vi": "Đội ngũ Onos trao đổi mẫu sản phẩm và chất liệu",
+    "type": "alt",
+    "src": "https://onosglobal.pages.dev/assets/sample-development.webp"
+  },
+  {
+    "en": "The Onos team at a working meeting",
+    "vi": "Đội ngũ Onos trong buổi trao đổi công việc",
+    "type": "alt",
+    "src": "https://onosglobal.pages.dev/assets/partner-meeting.webp"
+  },
+  {
+    "en": "Printed garments organised at the finishing table",
+    "vi": "Trang phục đã in được sắp xếp tại bàn hoàn thiện",
+    "type": "alt",
+    "src": "https://onosglobal.pages.dev/assets/finishing-table.webp"
+  },
+  {
+    "en": "Personalised laser-cut wooden decor and gift products",
+    "vi": "Đồ trang trí và quà tặng gỗ cắt laser cá nhân hóa",
+    "type": "alt",
+    "src": "https://onosglobal.pages.dev/assets/laser-cut-gifts.webp"
+  },
+  {
+    "en": "Organised garment inventory at the Onos warehouse",
+    "vi": "Kho phôi trang phục được sắp xếp tại Onos",
+    "type": "alt",
+    "src": "https://onosglobal.pages.dev/assets/warehouse-inventory.webp"
+  }
+]

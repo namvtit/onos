@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useSite } from "@/components/interactions/SiteContext";
-import { contact, methods } from "@/data/onos-content";
+import { contact, methods, inquiryHref } from "@/data/onos-content";
 
 export function ContactSection() {
   const { language, t } = useSite();
@@ -43,6 +43,9 @@ export function ContactSection() {
                 data-w-id="de00b61c-1ece-35fa-f76b-0f658df5c5c0"
                 className="contact-left-wrap"
               >
+                <div style={{ fontSize: "0.85rem", fontWeight: 700, color: "var(--color--primary-1, #f66234)", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: "8px" }}>
+                  {"// " + (language === "vi" ? "Chặng tiếp theo: sản phẩm của bạn." : "Next stop: your next product.") + " //"}
+                </div>
                 <div className="contact-title-wrap">
                   <h2 className="contact-title">
                     {language === "vi" ? (
@@ -61,8 +64,45 @@ export function ContactSection() {
                     "Send your product idea, artwork, expected volume and destination. Our team will help you shape the next step."
                   )}
                 </p>
+
+                {/* Direct Mailto Action matching original ONOS #email-brief */}
+                <div style={{ marginTop: "24px", marginBottom: "28px" }}>
+                  <a
+                    id="email-brief"
+                    href={inquiryHref(language)}
+                    className="primary-button w-inline-block"
+                    style={{ textDecoration: "none" }}
+                  >
+                    <div className="button-primary-inner">
+                      <div className="button-text-wrap">
+                        <div className="button-text-inner">
+                          <div className="button-text">{t("Email your project brief")} ↗</div>
+                          <div className="button-hover-text">{t("Email your project brief")} ↗</div>
+                        </div>
+                      </div>
+                      <div className="button-icon-bg">
+                        <img
+                          src="/assets/75e8f722a505-68d527b447e1a5cc60cc1c27_button-icon.svg"
+                          loading="eager"
+                          alt="Arrow"
+                          className="button-icon"
+                        />
+                        <img
+                          src="/assets/75e8f722a505-68d527b447e1a5cc60cc1c27_button-icon.svg"
+                          loading="lazy"
+                          alt="Arrow"
+                          className="button-icon-hover"
+                        />
+                      </div>
+                    </div>
+                  </a>
+                  <p style={{ marginTop: "8px", fontSize: "0.82rem", color: "#888" }}>
+                    {t("Opens your email app with a project outline ready to fill in.")}
+                  </p>
+                </div>
               </div>
 
+              {/* Verified Contact Details */}
               <div
                 data-w-id="51462de8-daa5-0e47-b122-e655531d26e6"
                 className="contact-list-item"
@@ -230,8 +270,8 @@ export function ContactSection() {
                       <div className="button-primary-inner">
                         <div className="button-text-wrap">
                           <div className="button-text-inner">
-                            <div className="button-text">{t("Email your project brief")}</div>
-                            <div className="button-hover-text">{t("Email your project brief")}</div>
+                            <div className="button-text">{t("Email your project brief")} ↗</div>
+                            <div className="button-hover-text">{t("Email your project brief")} ↗</div>
                           </div>
                         </div>
                         <div className="button-icon-bg">
@@ -250,34 +290,37 @@ export function ContactSection() {
                         </div>
                       </div>
                     </button>
+
                     <p style={{ marginTop: "12px", fontSize: "0.85rem", color: "#888" }}>
-                      {t("Opens your email app with a project outline ready to fill in.")}
+                      {t("Opens your email app with a project outline ready to fill in.")}{" "}
+                      {t("No form is submitted here. Review and send the draft in your email app.")}
                     </p>
+
                     {submitted && (
                       <div
                         style={{
                           marginTop: "16px",
-                          padding: "12px 16px",
+                          padding: "14px 18px",
                           borderRadius: "8px",
-                          backgroundColor: "rgba(255, 107, 0, 0.08)",
-                          border: "1px solid rgba(255, 107, 0, 0.3)",
+                          backgroundColor: "rgba(246, 98, 52, 0.08)",
+                          border: "1px solid rgba(246, 98, 52, 0.3)",
                           color: "var(--color--white)",
                           fontSize: "0.88rem",
-                          lineHeight: 1.4,
+                          lineHeight: 1.5,
                         }}
                       >
                         <div style={{ fontWeight: 600 }}>
                           {language === "vi"
-                            ? "Ứng dụng email đã được mở cùng bản phác thảo dự án. Vui lòng gửi email đã soạn để hoàn tất."
+                            ? "Ứng dụng email đã được mở cùng bản phác thảo dự án. Vui lòng gửi email đã soạn để chuyển tới đội ngũ Onos."
                             : "Your email app has been opened with your project outline. Please send the prepared email to reach our team."}
                         </div>
                         <div style={{ marginTop: "6px", fontSize: "0.82rem", opacity: 0.85 }}>
                           {language === "vi" ? (
                             <>
-                              Nếu ứng dụng không tự mở, vui lòng gửi thông tin trực tiếp tới{" "}
+                              Nếu ứng dụng không tự mở, vui lòng gửi trực tiếp tới{" "}
                               <a
                                 href={`mailto:${contact.email}`}
-                                style={{ color: "var(--color--primary)", textDecoration: "underline" }}
+                                style={{ color: "var(--color--primary-1, #f66234)", textDecoration: "underline" }}
                               >
                                 {contact.email}
                               </a>
@@ -288,7 +331,7 @@ export function ContactSection() {
                               If your email app did not open, please email your brief directly to{" "}
                               <a
                                 href={`mailto:${contact.email}`}
-                                style={{ color: "var(--color--primary)", textDecoration: "underline" }}
+                                style={{ color: "var(--color--primary-1, #f66234)", textDecoration: "underline" }}
                               >
                                 {contact.email}
                               </a>
@@ -304,14 +347,6 @@ export function ContactSection() {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="line-wrapper">
-        <div className="section-line border-grey-1"></div>
-        <div className="section-line border-grey-1"></div>
-        <div className="section-line border-grey-1"></div>
-        <div className="section-line border-grey-1"></div>
-        <div className="section-line border-grey-1"></div>
       </div>
     </section>
   );

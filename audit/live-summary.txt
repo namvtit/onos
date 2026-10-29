@@ -1,0 +1,686 @@
+=== SECTIONS & HEADINGS ===
+MAIN id="main" class="":
+  [H1] Innovating without limits.
+Elevating value.
+  [H2] Good ideas. Made tangible.
+  [H3] DTG printing
+  [H3] Computerised embroidery
+  [H3] Sublimation printing
+  [H3] Laser cutting & engraving
+  [H2] Find the right production fit.
+  [H3] DTG printing
+  [H3] Computerised embroidery
+  [H3] Sublimation printing
+  [H3] Laser cutting & engraving
+  [H2] Three plants. One connected team.
+  [H3] Thai Nguyen
+  [H3] Me Linh
+  [H3] California
+  [H2] Your next collection starts here.
+  [H3] Share the idea
+  [H3] Get it production-ready
+  [H3] Make. Check. Finish.
+  [H3] On its way
+  [H2] Real people. Real production.
+  [H2] Connected by one ambition.
+  [H3] Onos Global
+↗
+  [H3] onospod
+↗
+  [H3] Onos Group
+↗
+  [H2] Good questions.
+  [H2] Let's make something happen.
+SECTION id="" class="enterprise-hero wrap":
+  [H1] Innovating without limits.
+Elevating value.
+SECTION id="capabilities" class="section wrap":
+  [H2] Good ideas. Made tangible.
+  [H3] DTG printing
+  [H3] Computerised embroidery
+  [H3] Sublimation printing
+  [H3] Laser cutting & engraving
+ARTICLE id="" class="capability-card reveal will-reveal":
+  [H3] DTG printing
+ARTICLE id="" class="capability-card reveal will-reveal":
+  [H3] Computerised embroidery
+ARTICLE id="" class="capability-card reveal will-reveal":
+  [H3] Sublimation printing
+ARTICLE id="" class="capability-card reveal will-reveal":
+  [H3] Laser cutting & engraving
+SECTION id="production-fit" class="production-fit":
+  [H2] Find the right production fit.
+  [H3] DTG printing
+  [H3] Computerised embroidery
+  [H3] Sublimation printing
+  [H3] Laser cutting & engraving
+ARTICLE id="" class="fit-panel":
+  [H3] DTG printing
+ARTICLE id="" class="fit-panel":
+  [H3] Computerised embroidery
+ARTICLE id="" class="fit-panel":
+  [H3] Sublimation printing
+ARTICLE id="" class="fit-panel":
+  [H3] Laser cutting & engraving
+SECTION id="facilities" class="network section":
+  [H2] Three plants. One connected team.
+  [H3] Thai Nguyen
+  [H3] Me Linh
+  [H3] California
+ARTICLE id="" class="plant reveal will-reveal":
+  [H3] Thai Nguyen
+ARTICLE id="" class="plant reveal will-reveal":
+  [H3] Me Linh
+ARTICLE id="" class="plant reveal will-reveal":
+  [H3] California
+SECTION id="process" class="section wrap":
+  [H2] Your next collection starts here.
+  [H3] Share the idea
+  [H3] Get it production-ready
+  [H3] Make. Check. Finish.
+  [H3] On its way
+SECTION id="inside-onos" class="gallery-section section":
+  [H2] Real people. Real production.
+SECTION id="ecosystem" class="section wrap ecosystem":
+  [H2] Connected by one ambition.
+  [H3] Onos Global
+↗
+  [H3] onospod
+↗
+  [H3] Onos Group
+↗
+SECTION id="faq" class="section wrap faq":
+  [H2] Good questions.
+SECTION id="contact" class="contact-section":
+  [H2] Let's make something happen.
+
+=== SELECTS ===
+[
+  {
+    "id": "production-method",
+    "name": "",
+    "options": [
+      {
+        "value": "dtg",
+        "text": "Detailed artwork on cotton",
+        "selected": true
+      },
+      {
+        "value": "embroidery",
+        "text": "Embroidered logos on apparel and caps",
+        "selected": false
+      },
+      {
+        "value": "sublimation",
+        "text": "All-over designs on polyester",
+        "selected": false
+      },
+      {
+        "value": "laser",
+        "text": "Cut and engraved gifts",
+        "selected": false
+      }
+    ]
+  }
+]
+
+=== DETAILS / FAQ ===
+[
+  {
+    "summary": "Can I start with a small order?\n+",
+    "content": "Can I start with a small order?\n+"
+  },
+  {
+    "summary": "What artwork files do you need?\n+",
+    "content": "What artwork files do you need?\n+"
+  },
+  {
+    "summary": "Can we approve a sample first?\n+",
+    "content": "Can we approve a sample first?\n+"
+  },
+  {
+    "summary": "How do we confirm pricing and lead time?\n+",
+    "content": "How do we confirm pricing and lead time?\n+"
+  }
+]
+
+=== LINKS ===
+[
+  {
+    "text": "Skip to content",
+    "href": "#main",
+    "ariaLabel": null,
+    "title": null
+  },
+  {
+    "text": "ONOS\nGLOBAL",
+    "href": "#top",
+    "ariaLabel": "Onos Global",
+    "title": null
+  },
+  {
+    "text": "Capabilities",
+    "href": "#capabilities",
+    "ariaLabel": null,
+    "title": null
+  },
+  {
+    "text": "Our network",
+    "href": "#facilities",
+    "ariaLabel": null,
+    "title": null
+  },
+  {
+    "text": "How we work",
+    "href": "#process",
+    "ariaLabel": null,
+    "title": null
+  },
+  {
+    "text": "Our ecosystem",
+    "href": "#ecosystem",
+    "ariaLabel": null,
+    "title": null
+  },
+  {
+    "text": "EN",
+    "href": "/",
+    "ariaLabel": "English",
+    "title": null
+  },
+  {
+    "text": "VI",
+    "href": "/vi/",
+    "ariaLabel": "Tiếng Việt",
+    "title": null
+  },
+  {
+    "text": "Let's talk\n↗",
+    "href": "#contact",
+    "ariaLabel": null,
+    "title": null
+  },
+  {
+    "text": "Find your production fit\n↗",
+    "href": "#production-fit",
+    "ariaLabel": null,
+    "title": null
+  },
+  {
+    "text": "Step inside Onos\n↓",
+    "href": "#inside-onos",
+    "ariaLabel": null,
+    "title": null
+  },
+  {
+    "text": "CONNECTED BY DESIGN\n↗\nLocal expertise.\nA global outlook.\n3 plants. 2 countries. One Onos.",
+    "href": "#facilities",
+    "ariaLabel": "Explore our Vietnam and US production network",
+    "title": null
+  },
+  {
+    "text": "Explore this technique",
+    "href": "#production-fit",
+    "ariaLabel": null,
+    "title": null
+  },
+  {
+    "text": "Explore this technique",
+    "href": "#production-fit",
+    "ariaLabel": null,
+    "title": null
+  },
+  {
+    "text": "Explore this technique",
+    "href": "#production-fit",
+    "ariaLabel": null,
+    "title": null
+  },
+  {
+    "text": "Explore this technique",
+    "href": "#production-fit",
+    "ariaLabel": null,
+    "title": null
+  },
+  {
+    "text": "Talk production ↗",
+    "href": "#contact",
+    "ariaLabel": null,
+    "title": null
+  },
+  {
+    "text": "Discuss this product\n↗",
+    "href": "mailto:onospod.com@gmail.com?subject=Production%20enquiry%20%7C%20Onos%20Global&body=Hello%20Onos%20team%2C%0A%0AProduction%20method%3A%20DTG%20printing%0AProduct%20%2F%20material%3A%0AExpected%20quantity%3A%0ADestination%20country%20%2F%20postcode%3A%0AArtwork%20link%20%2F%20print%20size%3A%0ATarget%20date%3A%0A%0APlease%20advise%20on%20sampling%2C%20pricing%20and%20production%20lead%20time.",
+    "ariaLabel": null,
+    "title": null
+  },
+  {
+    "text": "◒\nFOR INTERNATIONAL BRANDS\nOnos Global\n↗\n\nManufacturing and fulfillment across borders.\n\nonosglobal.pages.dev",
+    "href": "https://onosglobal.pages.dev/",
+    "ariaLabel": null,
+    "title": null
+  },
+  {
+    "text": "✳\nFOR VIETNAMESE SELLERS\nonospod\n↗\n\nThe production partner for your POD business.\n\nonospod.pages.dev",
+    "href": "https://onospod.pages.dev/",
+    "ariaLabel": null,
+    "title": null
+  },
+  {
+    "text": "⊕\nTHE PEOPLE BEHIND IT ALL\nOnos Group\n↗\n\nOur company, our people and the next chapter.\n\nonosgroup.pages.dev",
+    "href": "https://onosgroup.pages.dev/",
+    "ariaLabel": null,
+    "title": null
+  },
+  {
+    "text": "Ask our team\n↗",
+    "href": "#contact",
+    "ariaLabel": null,
+    "title": null
+  },
+  {
+    "text": "Email your project brief\n↗",
+    "href": "mailto:onospod.com@gmail.com?subject=Production%20enquiry%20%E2%80%94%20Onos%20Global&body=Hello%20Onos%20team%2C%0A%0AProduct%3A%0AExpected%20quantity%3A%0ADestination%3A%0ATarget%20date%3A%0AArtwork%20link%3A%0A",
+    "ariaLabel": null,
+    "title": null
+  },
+  {
+    "text": "onospod.com@gmail.com",
+    "href": "mailto:onospod.com@gmail.com",
+    "ariaLabel": null,
+    "title": null
+  },
+  {
+    "text": "+84 986 385 112",
+    "href": "tel:+84986385112",
+    "ariaLabel": null,
+    "title": null
+  },
+  {
+    "text": "ONOS\nPOD FULFILLMENT SOLUTION\n↗",
+    "href": "https://onosgroup.pages.dev/",
+    "ariaLabel": "Onos Group",
+    "title": null
+  },
+  {
+    "text": "Capabilities",
+    "href": "#capabilities",
+    "ariaLabel": null,
+    "title": null
+  },
+  {
+    "text": "Our ecosystem",
+    "href": "#ecosystem",
+    "ariaLabel": null,
+    "title": null
+  },
+  {
+    "text": "Questions",
+    "href": "#faq",
+    "ariaLabel": null,
+    "title": null
+  },
+  {
+    "text": "Contact",
+    "href": "#contact",
+    "ariaLabel": null,
+    "title": null
+  }
+]
+
+=== BUTTONS ===
+[
+  {
+    "text": "",
+    "ariaLabel": "Open navigation",
+    "id": "",
+    "dataAttrs": {}
+  },
+  {
+    "text": "DTG printing",
+    "ariaLabel": null,
+    "id": "",
+    "dataAttrs": {
+      "methodChoice": "dtg",
+      "en": "DTG printing",
+      "vi": "In DTG"
+    }
+  },
+  {
+    "text": "Embroidery",
+    "ariaLabel": null,
+    "id": "",
+    "dataAttrs": {
+      "methodChoice": "embroidery",
+      "en": "Embroidery",
+      "vi": "Thêu vi tính"
+    }
+  },
+  {
+    "text": "Sublimation",
+    "ariaLabel": null,
+    "id": "",
+    "dataAttrs": {
+      "methodChoice": "sublimation",
+      "en": "Sublimation",
+      "vi": "In chuyển nhiệt"
+    }
+  },
+  {
+    "text": "Laser cutting",
+    "ariaLabel": null,
+    "id": "",
+    "dataAttrs": {
+      "methodChoice": "laser",
+      "en": "Laser cutting",
+      "vi": "Cắt khắc laser"
+    }
+  },
+  {
+    "text": "←",
+    "ariaLabel": "Previous photo",
+    "id": "",
+    "dataAttrs": {
+      "facilityPrev": ""
+    }
+  },
+  {
+    "text": "",
+    "ariaLabel": "Show photo 1",
+    "id": "",
+    "dataAttrs": {
+      "facilitySlide": "0"
+    }
+  },
+  {
+    "text": "",
+    "ariaLabel": "Show photo 2",
+    "id": "",
+    "dataAttrs": {
+      "facilitySlide": "1"
+    }
+  },
+  {
+    "text": "",
+    "ariaLabel": "Show photo 3",
+    "id": "",
+    "dataAttrs": {
+      "facilitySlide": "2"
+    }
+  },
+  {
+    "text": "",
+    "ariaLabel": "Show photo 4",
+    "id": "",
+    "dataAttrs": {
+      "facilitySlide": "3"
+    }
+  },
+  {
+    "text": "→",
+    "ariaLabel": "Next photo",
+    "id": "",
+    "dataAttrs": {
+      "facilityNext": ""
+    }
+  },
+  {
+    "text": "Ⅱ",
+    "ariaLabel": "Pause slideshow",
+    "id": "",
+    "dataAttrs": {
+      "facilityToggle": ""
+    }
+  },
+  {
+    "text": "←",
+    "ariaLabel": "Previous photos",
+    "id": "",
+    "dataAttrs": {
+      "galleryMove": "-1"
+    }
+  },
+  {
+    "text": "→",
+    "ariaLabel": "Next photos",
+    "id": "",
+    "dataAttrs": {
+      "galleryMove": "1"
+    }
+  },
+  {
+    "text": "↗",
+    "ariaLabel": "Enlarge: The Onos team at a working meeting",
+    "id": "",
+    "dataAttrs": {
+      "viewImage": "https://onosglobal.pages.dev/assets/partner-meeting.webp"
+    }
+  },
+  {
+    "text": "↗",
+    "ariaLabel": "Enlarge: Printed garments organised at the finishing table",
+    "id": "",
+    "dataAttrs": {
+      "viewImage": "https://onosglobal.pages.dev/assets/finishing-table.webp"
+    }
+  },
+  {
+    "text": "↗",
+    "ariaLabel": "Enlarge: Personalised laser-cut wooden decor and gift products",
+    "id": "",
+    "dataAttrs": {
+      "viewImage": "https://onosglobal.pages.dev/assets/laser-cut-gifts.webp"
+    }
+  },
+  {
+    "text": "↗",
+    "ariaLabel": "Enlarge: Organised garment inventory at the Onos warehouse",
+    "id": "",
+    "dataAttrs": {
+      "viewImage": "https://onosglobal.pages.dev/assets/warehouse-inventory.webp"
+    }
+  },
+  {
+    "text": "×",
+    "ariaLabel": "Close photograph",
+    "id": "",
+    "dataAttrs": {}
+  },
+  {
+    "text": "",
+    "ariaLabel": "Pause animations",
+    "id": "",
+    "dataAttrs": {}
+  }
+]
+
+=== IMAGES ===
+[
+  {
+    "src": "https://onosglobal.pages.dev/assets/embroidery-hero.webp",
+    "currentSrc": "https://onosglobal.pages.dev/assets/embroidery-hero.webp",
+    "alt": "Multi-head embroidery machines producing garments at Onos",
+    "loading": "eager",
+    "dataAttrs": {
+      "altEn": "Multi-head embroidery machines producing garments at Onos",
+      "altVi": "Hệ thống máy thêu nhiều đầu sản xuất trang phục tại Onos"
+    }
+  },
+  {
+    "src": "https://onosglobal.pages.dev/assets/dtg-machine-detail.webp",
+    "currentSrc": "https://onosglobal.pages.dev/assets/dtg-machine-detail.webp",
+    "alt": "DTG printing machine at Onos",
+    "loading": "lazy",
+    "dataAttrs": {
+      "altEn": "DTG printing machine at Onos",
+      "altVi": "Máy in DTG tại Onos"
+    }
+  },
+  {
+    "src": "https://onosglobal.pages.dev/assets/equipment-embroidery.webp",
+    "currentSrc": "https://onosglobal.pages.dev/assets/equipment-embroidery.webp",
+    "alt": "An Onos operator checking embroidery on garments",
+    "loading": "lazy",
+    "dataAttrs": {
+      "altEn": "An Onos operator checking embroidery on garments",
+      "altVi": "Nhân sự Onos kiểm tra đường thêu trên trang phục"
+    }
+  },
+  {
+    "src": "https://onosglobal.pages.dev/assets/press-machines-row.webp",
+    "currentSrc": "https://onosglobal.pages.dev/assets/press-machines-row.webp",
+    "alt": "Heat press equipment on the Onos production floor",
+    "loading": "lazy",
+    "dataAttrs": {
+      "altEn": "Heat press equipment on the Onos production floor",
+      "altVi": "Hệ thống ép nhiệt tại xưởng Onos"
+    }
+  },
+  {
+    "src": "https://onosglobal.pages.dev/assets/laser-cut-gifts.webp",
+    "currentSrc": "https://onosglobal.pages.dev/assets/laser-cut-gifts.webp",
+    "alt": "Laser-cut wooden decor and gift samples",
+    "loading": "lazy",
+    "dataAttrs": {
+      "altEn": "Laser-cut wooden decor and gift samples",
+      "altVi": "Mẫu quà tặng và trang trí gỗ cắt laser"
+    }
+  },
+  {
+    "src": "https://onosglobal.pages.dev/assets/production-floor.webp",
+    "currentSrc": "https://onosglobal.pages.dev/assets/production-floor.webp",
+    "alt": "The Onos print production floor",
+    "loading": "lazy",
+    "dataAttrs": {
+      "altEn": "The Onos print production floor",
+      "altVi": "Xưởng in Onos"
+    }
+  },
+  {
+    "src": "https://onosglobal.pages.dev/assets/embroidery.webp",
+    "currentSrc": "https://onosglobal.pages.dev/assets/embroidery.webp",
+    "alt": "Embroidery equipment at Onos",
+    "loading": "lazy",
+    "dataAttrs": {
+      "altEn": "Embroidery equipment at Onos",
+      "altVi": "Thiết bị thêu tại Onos"
+    }
+  },
+  {
+    "src": "https://onosglobal.pages.dev/assets/press-machines-row.webp",
+    "currentSrc": "https://onosglobal.pages.dev/assets/press-machines-row.webp",
+    "alt": "Heat press equipment at Onos",
+    "loading": "lazy",
+    "dataAttrs": {
+      "altEn": "Heat press equipment at Onos",
+      "altVi": "Thiết bị ép nhiệt tại Onos"
+    }
+  },
+  {
+    "src": "https://onosglobal.pages.dev/assets/laser-cut-gifts.webp",
+    "currentSrc": "https://onosglobal.pages.dev/assets/laser-cut-gifts.webp",
+    "alt": "Laser-cut wooden decor and gift examples",
+    "loading": "lazy",
+    "dataAttrs": {
+      "altEn": "Laser-cut wooden decor and gift examples",
+      "altVi": "Mẫu đồ trang trí và quà tặng gỗ cắt laser"
+    }
+  },
+  {
+    "src": "https://onosglobal.pages.dev/assets/facility-thai-nguyen.webp",
+    "currentSrc": "https://onosglobal.pages.dev/assets/facility-thai-nguyen.webp",
+    "alt": "Sewing floor at the Thai Nguyen plant",
+    "loading": "lazy",
+    "dataAttrs": {
+      "altEn": "Sewing floor at the Thai Nguyen plant",
+      "altVi": "Đội ngũ may tại xưởng Thái Nguyên"
+    }
+  },
+  {
+    "src": "https://onosglobal.pages.dev/assets/facility-me-linh.webp",
+    "currentSrc": "https://onosglobal.pages.dev/assets/facility-me-linh.webp",
+    "alt": "Automated fabric cutting at the Me Linh plant",
+    "loading": "lazy",
+    "dataAttrs": {
+      "altEn": "Automated fabric cutting at the Me Linh plant",
+      "altVi": "Máy cắt vải tự động tại xưởng Mê Linh"
+    }
+  },
+  {
+    "src": "https://onosglobal.pages.dev/assets/facility-california.webp",
+    "currentSrc": "https://onosglobal.pages.dev/assets/facility-california.webp",
+    "alt": "Onos team discussing operations in California",
+    "loading": "lazy",
+    "dataAttrs": {
+      "altEn": "Onos team discussing operations in California",
+      "altVi": "Đội ngũ Onos trao đổi kế hoạch vận hành tại California"
+    }
+  },
+  {
+    "src": "https://onosglobal.pages.dev/assets/production-floor.webp",
+    "currentSrc": "https://onosglobal.pages.dev/assets/production-floor.webp",
+    "alt": "Epson print production with an automated conveyor at Onos",
+    "loading": "lazy",
+    "dataAttrs": {
+      "altEn": "Epson print production with an automated conveyor at Onos",
+      "altVi": "Dây chuyền in Epson kết hợp băng chuyền tự động tại Onos"
+    }
+  },
+  {
+    "src": "https://onosglobal.pages.dev/assets/sample-development.webp",
+    "currentSrc": "",
+    "alt": "The Onos team reviewing product samples and materials",
+    "loading": "lazy",
+    "dataAttrs": {
+      "altEn": "The Onos team reviewing product samples and materials",
+      "altVi": "Đội ngũ Onos trao đổi mẫu sản phẩm và chất liệu"
+    }
+  },
+  {
+    "src": "https://onosglobal.pages.dev/assets/partner-meeting.webp",
+    "currentSrc": "https://onosglobal.pages.dev/assets/partner-meeting.webp",
+    "alt": "The Onos team at a working meeting",
+    "loading": "lazy",
+    "dataAttrs": {
+      "altEn": "The Onos team at a working meeting",
+      "altVi": "Đội ngũ Onos trong buổi trao đổi công việc"
+    }
+  },
+  {
+    "src": "https://onosglobal.pages.dev/assets/finishing-table.webp",
+    "currentSrc": "",
+    "alt": "Printed garments organised at the finishing table",
+    "loading": "lazy",
+    "dataAttrs": {
+      "altEn": "Printed garments organised at the finishing table",
+      "altVi": "Trang phục đã in được sắp xếp tại bàn hoàn thiện"
+    }
+  },
+  {
+    "src": "https://onosglobal.pages.dev/assets/laser-cut-gifts.webp",
+    "currentSrc": "https://onosglobal.pages.dev/assets/laser-cut-gifts.webp",
+    "alt": "Personalised laser-cut wooden decor and gift products",
+    "loading": "lazy",
+    "dataAttrs": {
+      "altEn": "Personalised laser-cut wooden decor and gift products",
+      "altVi": "Đồ trang trí và quà tặng gỗ cắt laser cá nhân hóa"
+    }
+  },
+  {
+    "src": "https://onosglobal.pages.dev/assets/warehouse-inventory.webp",
+    "currentSrc": "",
+    "alt": "Organised garment inventory at the Onos warehouse",
+    "loading": "lazy",
+    "dataAttrs": {
+      "altEn": "Organised garment inventory at the Onos warehouse",
+      "altVi": "Kho phôi trang phục được sắp xếp tại Onos"
+    }
+  },
+  {
+    "src": "https://onosglobal.pages.dev/assets/partner-meeting.webp",
+    "currentSrc": "https://onosglobal.pages.dev/assets/partner-meeting.webp",
+    "alt": "Onos team",
+    "loading": null,
+    "dataAttrs": {}
+  }
+]

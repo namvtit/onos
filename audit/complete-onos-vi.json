@@ -1,0 +1,191 @@
+{
+  "hero": {
+    "h1": "Sáng Tạo Không Ngừng.\nNâng tầm giá trị",
+    "quickLinks": [
+      {
+        "text": "Chọn công nghệ phù hợp\n↗",
+        "href": "#production-fit"
+      },
+      {
+        "text": "Khám phá xưởng Onos\n↓",
+        "href": "#inside-onos"
+      },
+      {
+        "text": "KẾT NỐI TỪ NỀN TẢNG\n↗\nTay nghề địa phương.\nTầm nhìn toàn cầu.\n3 nhà máy. 2 quốc gia. Một Onos.",
+        "href": "#facilities"
+      }
+    ],
+    "facts": []
+  },
+  "capabilities": [
+    {
+      "tag": "Áo thun · Trang phục",
+      "model": "Máy: SL-DTG-X2S",
+      "title": "In DTG",
+      "desc": "In trực tiếp lên vải cho hình ảnh, chuyển sắc và thiết kế nhiều chi tiết trên cotton và vải pha cotton.",
+      "action": "Khám phá công nghệ"
+    },
+    {
+      "tag": "Mũ · Áo polo · Túi",
+      "model": "Máy thêu vi tính nhiều đầu",
+      "title": "Thêu vi tính",
+      "desc": "Số hóa thiết kế và hệ thống thêu nhiều đầu tạo độ nổi cùng dấu ấn riêng cho nhận diện thương hiệu.",
+      "action": "Khám phá công nghệ"
+    },
+    {
+      "tag": "In tràn viền · Đồ thể thao",
+      "model": "Epson SC-F11030 · máy ép PD-1800D-800",
+      "title": "In chuyển nhiệt",
+      "desc": "In tràn viền đưa màu vào sợi polyester, tạo nên trang phục và đồ thể thao với thiết kế phủ toàn bộ bề mặt.",
+      "action": "Khám phá công nghệ"
+    },
+    {
+      "tag": "Trang trí · Quà tặng cá nhân hóa",
+      "model": "Laser FW-1822 · máy cắt tự động LP-2219",
+      "title": "Cắt khắc laser",
+      "desc": "Cắt và khắc chính xác cho quà tặng cá nhân hóa và đồ trang trí bằng gỗ, acrylic, da và vải.",
+      "action": "Khám phá công nghệ"
+    }
+  ],
+  "finderMethods": [
+    {
+      "methodId": "dtg",
+      "title": "In DTG",
+      "specs": []
+    },
+    {
+      "methodId": "embroidery",
+      "title": "Thêu vi tính",
+      "specs": []
+    },
+    {
+      "methodId": "sublimation",
+      "title": "In chuyển nhiệt",
+      "specs": []
+    },
+    {
+      "methodId": "laser",
+      "title": "Cắt khắc laser",
+      "specs": []
+    }
+  ],
+  "facilities": {
+    "h2": "Ba nhà máy. Một đội ngũ kết nối.",
+    "intro": "02\nTAY NGHỀ VIỆT. KẾT NỐI TOÀN CẦU.",
+    "plants": [
+      {
+        "code": "VN—01",
+        "title": "Thái Nguyên",
+        "location": "Đại Từ · Thái Nguyên · Việt Nam",
+        "role": "Sản xuất quy mô lớn"
+      },
+      {
+        "code": "VN—02",
+        "title": "Mê Linh",
+        "location": "Mê Linh · Hà Nội · Việt Nam",
+        "role": "May mẫu & điều phối"
+      },
+      {
+        "code": "US—01",
+        "title": "California",
+        "location": "California · Hoa Kỳ",
+        "role": "In ấn & fulfillment tại Mỹ"
+      }
+    ],
+    "slides": [
+      {
+        "img": "https://onosglobal.pages.dev/assets/facility-thai-nguyen.webp",
+        "alt": "Đội ngũ may tại xưởng Thái Nguyên",
+        "caption": "Đội ngũ lành nghề tại xưởng\nTHÁI NGUYÊN / VIỆT NAM"
+      },
+      {
+        "img": "https://onosglobal.pages.dev/assets/facility-me-linh.webp",
+        "alt": "Máy cắt vải tự động tại xưởng Mê Linh",
+        "caption": ""
+      },
+      {
+        "img": "https://onosglobal.pages.dev/assets/facility-california.webp",
+        "alt": "Đội ngũ Onos trao đổi kế hoạch vận hành tại California",
+        "caption": ""
+      },
+      {
+        "img": "https://onosglobal.pages.dev/assets/production-floor.webp",
+        "alt": "Dây chuyền in Epson kết hợp băng chuyền tự động tại Onos",
+        "caption": ""
+      }
+    ]
+  },
+  "process": {
+    "h2": "Bộ sưu tập tiếp theo bắt đầu từ đây.",
+    "steps": []
+  },
+  "gallery": {
+    "h2": "Con người thật. Sản xuất thật.",
+    "items": [
+      {
+        "img": "https://onosglobal.pages.dev/assets/partner-meeting.webp",
+        "alt": "Đội ngũ Onos trong buổi trao đổi công việc",
+        "caption": "01\nCùng nhau làm tốt hơn."
+      },
+      {
+        "img": "https://onosglobal.pages.dev/assets/finishing-table.webp",
+        "alt": "Trang phục đã in được sắp xếp tại bàn hoàn thiện",
+        "caption": "02\nChăm chút khâu hoàn thiện."
+      },
+      {
+        "img": "https://onosglobal.pages.dev/assets/laser-cut-gifts.webp",
+        "alt": "Đồ trang trí và quà tặng gỗ cắt laser cá nhân hóa",
+        "caption": "03\nÝ tưởng trở thành sản phẩm."
+      },
+      {
+        "img": "https://onosglobal.pages.dev/assets/warehouse-inventory.webp",
+        "alt": "Kho phôi trang phục được sắp xếp tại Onos",
+        "caption": "04\nSẵn sàng cho đơn hàng tiếp theo."
+      }
+    ]
+  },
+  "ecosystem": {
+    "h2": "Kết nối bởi một tầm nhìn.",
+    "entities": [
+      {
+        "title": "Onos Global\n↗",
+        "desc": "Sản xuất và hoàn tất đơn hàng xuyên biên giới."
+      },
+      {
+        "title": "onospod\n↗",
+        "desc": "Đối tác sản xuất cho hành trình kinh doanh POD."
+      },
+      {
+        "title": "Onos Group\n↗",
+        "desc": "Công ty, con người và chặng đường tiếp theo."
+      }
+    ]
+  },
+  "faq": {
+    "h2": "Điều bạn muốn biết.",
+    "questions": [
+      {
+        "summary": "Tôi có thể bắt đầu với số lượng ít không?",
+        "answer": ""
+      },
+      {
+        "summary": "Tôi cần chuẩn bị file thiết kế nào?",
+        "answer": ""
+      },
+      {
+        "summary": "Tôi có thể duyệt mẫu trước không?",
+        "answer": ""
+      },
+      {
+        "summary": "Làm sao xác nhận giá và tiến độ?",
+        "answer": ""
+      }
+    ]
+  },
+  "contact": {
+    "h2": "Cùng tạo nên sản phẩm tiếp theo.",
+    "briefCta": "Gửi yêu cầu qua email\n↗",
+    "briefHref": "mailto:onospod.com@gmail.com?subject=Y%C3%AAu%20c%E1%BA%A7u%20s%E1%BA%A3n%20xu%E1%BA%A5t%20%E2%80%94%20Onos%20Global&body=Ch%C3%A0o%20%C4%91%E1%BB%99i%20ng%C5%A9%20Onos%2C%0A%0AS%E1%BA%A3n%20ph%E1%BA%A9m%3A%0AS%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20d%E1%BB%B1%20ki%E1%BA%BFn%3A%0A%C4%90%E1%BB%8Ba%20ch%E1%BB%89%20nh%E1%BA%ADn%3A%0ATh%E1%BB%9Di%20gian%20d%E1%BB%B1%20ki%E1%BA%BFn%3A%0ALink%20thi%E1%BA%BFt%20k%E1%BA%BF%3A%0A",
+    "channels": []
+  }
+}

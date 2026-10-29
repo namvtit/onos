@@ -1,129 +1,83 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
 import { useSite } from '@/components/interactions/SiteContext';
 import { contact, ecosystem } from '@/data/onos-content';
 
 export function Footer() {
-  const { language, t } = useSite();
-  const [subscribed, setSubscribed] = useState(false);
-  const [email, setEmail] = useState('');
-
-  const handleSubscribe = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (email) {
-      const isEn = language === 'en';
-      const subject = isEn ? 'Newsletter Subscription | Onos Global' : 'Đăng ký nhận tin | Onos Global';
-      const body = isEn
-        ? `Hello Onos team,\n\nPlease subscribe my email (${email}) to manufacturing updates and production capacity highlights.\n\nThank you!`
-        : `Chào đội ngũ Onos,\n\nNhờ Onos cập nhật thông tin sản xuất và công nghệ mới cho email: ${email}.\n\nCảm ơn!`;
-      window.location.href = `mailto:${contact.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-      setSubscribed(true);
-    }
-  };
+  const { t } = useSite();
 
   return (
     <section id="Footer" data-wf--footer--variant="base" className="footer">
       <div data-w-id="84eea156-668a-6145-cebb-c3051d65f2bd" className="footer-main section-spacing-top">
         <div className="footer-bg-wrap">
           <div className="w-layout-grid grid-footer">
+            {/* Left Brand Identity Column (Replaces generic newsletter) */}
             <div className="footer-subscribe">
               <div data-w-id="9807520c-65b7-e828-71bd-909a6cfe182e" className="subscribe-wrap">
-                <h2 className="subscribe-title">{t('Stay connected')}</h2>
-                <p className="subscribe-description">
-                  {t('Join our newsletter for manufacturing insights, production capacity updates, and supply chain highlights.')}
+                <a
+                  href="https://onosgroup.pages.dev/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="footer-brand-lockup"
+                  style={{ textDecoration: 'none', display: 'inline-block', marginBottom: '16px' }}
+                >
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                    <span style={{ fontSize: '1.4rem', fontWeight: 800, color: 'var(--color--white, #fff)', letterSpacing: '0.04em' }}>
+                      ONOS
+                    </span>
+                    <span style={{ fontSize: '0.72rem', fontWeight: 700, color: 'var(--color--primary-1, #f66234)', textTransform: 'uppercase', letterSpacing: '0.08em', borderLeft: '1px solid #444', paddingLeft: '10px' }}>
+                      POD FULFILLMENT SOLUTION ↗
+                    </span>
+                  </div>
+                </a>
+                <p className="subscribe-description" style={{ fontSize: '0.92rem', lineHeight: 1.6, color: 'rgb(170, 170, 170)', margin: '0 0 20px 0', maxWidth: '340px' }}>
+                  {t(
+                    'A production partner for ambitious brands. Printing, embroidery and fulfillment, connected across Vietnam and the United States.'
+                  )}
                 </p>
-                <div className="form-subscribe-wrap w-form">
-                  {!subscribed ? (
-                    <form
-                      id="wf-form-Subscribe-Form"
-                      name="wf-form-Subscribe-Form"
-                      data-name="Subscribe Form"
-                      className="form-subscribe"
-                      onSubmit={handleSubscribe}
-                    >
-                      <input
-                        className="form-input form-input-subscribe w-input"
-                        maxLength={256}
-                        name="Email"
-                        data-name="Email"
-                        placeholder={t('Enter your email')}
-                        type="email"
-                        id="Subscribe-Email"
-                        required
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                      />
-                      <input
-                        type="submit"
-                        data-wait=""
-                        className="button-subscribe w-button"
-                        value=""
-                        aria-label="Subscribe"
-                      />
-                    </form>
-                  ) : null}
-                  <div
-                    className="success-message w-form-done"
-                    style={{
-                      display: subscribed ? 'block' : 'none',
-                      backgroundColor: 'rgba(255, 107, 0, 0.1)',
-                      border: '1px solid rgba(255, 107, 0, 0.3)',
-                      borderRadius: '8px',
-                      padding: '12px 14px',
-                      color: 'var(--color--white)',
-                    }}
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  <a
+                    href={`mailto:${contact.email}`}
+                    className="primary-button w-inline-block"
+                    style={{ padding: '10px 18px', fontSize: '0.85rem' }}
                   >
-                    <div style={{ lineHeight: 1.4 }}>
-                      {language === 'vi'
-                        ? 'Ứng dụng email đã được mở. Vui lòng gửi email đã soạn để hoàn tất yêu cầu đăng ký.'
-                        : 'Your email app has been opened. Please send the prepared email to complete your subscription request.'}
+                    <div className="button-primary-inner">
+                      <div className="button-text-wrap">
+                        <div className="button-text-inner">
+                          <div className="button-text">{contact.email} ↗</div>
+                          <div className="button-hover-text">{contact.email} ↗</div>
+                        </div>
+                      </div>
                     </div>
-                    <div style={{ marginTop: '8px', fontSize: '0.8rem', opacity: 0.85 }}>
-                      {language === 'vi' ? (
-                        <>
-                          Nếu ứng dụng không tự mở, vui lòng gửi email tới{' '}
-                          <a href={`mailto:${contact.email}`} style={{ color: 'var(--color--primary)', textDecoration: 'underline' }}>
-                            {contact.email}
-                          </a>
-                          .
-                        </>
-                      ) : (
-                        <>
-                          If your email app did not open, please send directly to{' '}
-                          <a href={`mailto:${contact.email}`} style={{ color: 'var(--color--primary)', textDecoration: 'underline' }}>
-                            {contact.email}
-                          </a>
-                          .
-                        </>
-                      )}
-                    </div>
-                  </div>
-                  <div className="error-message w-form-fail">
-                    <div>{t('Oops! Something went wrong while submitting the form.')}</div>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
 
+            {/* Right Navigation & Info Grid */}
             <div id="w-node-_9807520c-65b7-e828-71bd-909a6cfe1805-6cfe1801" className="footer-item">
               <div className="w-layout-grid grid-footer-menu">
+                {/* Column 1: Main Links */}
                 <div data-w-id="66876f43-9ec4-1dbd-0ca0-ca548397b94e" className="footer-link-item">
                   <h2 className="footer-title">{t('Main links')}</h2>
                   <div className="footer-links">
                     <a href="#home" className="footer-link">{t('Home')}</a>
                     <a href="#about" className="footer-link">{t('About')}</a>
-                    <a href="#services" className="footer-link">{t('Services')}</a>
-                    <a href="#products" className="footer-link">{t('Products')}</a>
-                    <a href="#finder" className="footer-link">{t('Production Fit')}</a>
-                    <a href="#network" className="footer-link">{t('Our Network')}</a>
+                    <a href="#capabilities" className="footer-link">{t('Capabilities')}</a>
+                    <a href="#production-fit" className="footer-link">{t('Production Fit')}</a>
+                    <a href="#network" className="footer-link">{t('Our network')}</a>
                     <a href="#workflow" className="footer-link">{t('Workflow')}</a>
+                    <a href="#gallery" className="footer-link">{t('Gallery')}</a>
+                    <a href="#ecosystem" className="footer-link">{t('Our ecosystem')}</a>
+                    <a href="#faq" className="footer-link">{t('FAQ')}</a>
                     <a href="#contact" className="footer-link">{t('Contact')}</a>
                   </div>
                 </div>
 
+                {/* Column 2: Our Ecosystem */}
                 <div data-w-id="c3c71fa1-678a-c8f3-2483-91e8980a3ade" className="footer-link-item">
-                  <h2 className="footer-title">{t('Our Ecosystem')}</h2>
+                  <h2 className="footer-title">{t('Our ecosystem')}</h2>
                   <div className="footer-links">
                     {ecosystem.map((item) => (
                       <a
@@ -133,33 +87,46 @@ export function Footer() {
                         rel="noopener noreferrer"
                         className="footer-link"
                       >
-                        {item.name}
+                        {item.name} ↗
                       </a>
                     ))}
-                    <a href="#gallery" className="footer-link">{t('Gallery')}</a>
-                    <a href="#faq" className="footer-link">{t('FAQs')}</a>
+                    <div style={{ marginTop: '16px', paddingTop: '12px', borderTop: '1px solid rgba(255, 255, 255, 0.08)' }}>
+                      <span style={{ fontSize: '0.78rem', color: '#777', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                        {t('Vietnam ↔ USA')}
+                      </span>
+                    </div>
                   </div>
                 </div>
 
+                {/* Column 3: Contact Info */}
                 <div data-w-id="64c645f9-8fac-49b8-f082-3f384284032e" className="footer-contact-list">
-                  <h2 className="footer-title">{t('Contact info')}</h2>
+                  <h2 className="footer-title">{t('Contact')}</h2>
                   <div className="footer-contact-item">
-                    <div className="footer-address">{contact.address}</div>
-                    <a href={`tel:${contact.telephone}`} className="footer-link">
+                    <div className="footer-address" style={{ fontSize: '0.88rem', color: '#999', lineHeight: 1.5, marginBottom: '8px' }}>
+                      {contact.address}
+                    </div>
+                    <a href={`tel:${contact.telephone}`} className="footer-link" style={{ display: 'block', marginBottom: '4px' }}>
                       {contact.phone}
                     </a>
-                    <a href={`mailto:${contact.email}`} className="footer-link">
+                    <a href={`mailto:${contact.email}`} className="footer-link" style={{ display: 'block' }}>
                       {contact.email}
                     </a>
                   </div>
                 </div>
 
+                {/* Column 4: Working Hours */}
                 <div data-w-id="2421dafb-c91b-f351-19c3-69d4e8192796" className="footer-contact-list">
-                  <h2 className="footer-title">{t('Working hours')}</h2>
+                  <h2 className="footer-title">{t('// Working hours //')}</h2>
                   <div className="footer-contact-item">
-                    <div className="working-text">Mon–Fri: 7:30–17:30 (ICT)</div>
-                    <div className="working-text">Saturday: 8:00–17:00 (ICT)</div>
-                    <div className="working-text">{t('Sunday: Closed')}</div>
+                    <div className="working-text" style={{ fontSize: '0.88rem', color: 'rgb(170, 170, 170)', lineHeight: 1.6 }}>
+                      Mon–Fri: 7:30–17:30
+                    </div>
+                    <div className="working-text" style={{ fontSize: '0.88rem', color: 'rgb(170, 170, 170)', lineHeight: 1.6 }}>
+                      Saturday: 8:00–17:00
+                    </div>
+                    <div className="working-text" style={{ fontSize: '0.82rem', color: '#777', marginTop: '4px' }}>
+                      (Vietnam time / ICT)
+                    </div>
                   </div>
                 </div>
               </div>
@@ -168,28 +135,18 @@ export function Footer() {
 
           <div className="footer-divider"></div>
 
+          {/* Bottom Copyright Strip */}
           <div className="footer-bottom-wrap">
             <div data-w-id="d283640d-fc6a-1283-2d22-21620e76ddab" className="footer-copyright-wrap">
               <p className="footer-copyright">
                 © 2026 Onos Group. {t('All rights reserved.')}{' '}
-                <a href="#home" className="footer-copyright-link">
-                  Vietnam ↔ USA Manufacturing Network
+                <a href="https://onosgroup.pages.dev/" target="_blank" rel="noopener noreferrer" className="footer-copyright-link">
+                  Onos Group ↗
                 </a>
               </p>
             </div>
-            <div data-w-id="9807520c-65b7-e828-71bd-909a6cfe1841" className="footer-social-inline">
-              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="footer-social-link w-inline-block">
-                <img src="/assets/e5179c696018-68d1288562216d12f8801fb5_facebook.svg" loading="eager" alt="Facebook" className="footer-social-icon" />
-                <div>Facebook</div>
-              </a>
-              <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="footer-social-link w-inline-block">
-                <img src="/assets/888aef57e2e7-69030fdd6a4a78c789fc1f69_twitter-x.svg" loading="eager" alt="Twitter" className="footer-social-icon" />
-                <div>Twitter</div>
-              </a>
-              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="footer-social-link w-inline-block">
-                <img src="/assets/6f9dc32e8554-68d1288562216d12f8801f6e_instagram.svg" loading="eager" alt="Instagram" className="footer-social-icon" />
-                <div>Instagram</div>
-              </a>
+            <div style={{ fontSize: '0.82rem', color: '#777' }}>
+              <span>ONOS Global · Dai Tu (Thai Nguyen) · Me Linh (Hanoi) · California (USA)</span>
             </div>
           </div>
 

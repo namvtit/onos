@@ -1,0 +1,191 @@
+{
+  "hero": {
+    "h1": "Innovating without limits.\nElevating value.",
+    "quickLinks": [
+      {
+        "text": "Find your production fit\n↗",
+        "href": "#production-fit"
+      },
+      {
+        "text": "Step inside Onos\n↓",
+        "href": "#inside-onos"
+      },
+      {
+        "text": "CONNECTED BY DESIGN\n↗\nLocal expertise.\nA global outlook.\n3 plants. 2 countries. One Onos.",
+        "href": "#facilities"
+      }
+    ],
+    "facts": []
+  },
+  "capabilities": [
+    {
+      "tag": "T-shirts · Apparel",
+      "model": "Machine: SL-DTG-X2S",
+      "title": "DTG printing",
+      "desc": "Direct-to-garment printing for photographs, gradients and detailed artwork on cotton and cotton-rich apparel.",
+      "action": "Explore this technique"
+    },
+    {
+      "tag": "Caps · Polos · Bags",
+      "model": "Equipment: multi-head embroidery",
+      "title": "Computerised embroidery",
+      "desc": "Digitised designs and multi-head embroidery bring texture and a distinctive finish to your brand identity.",
+      "action": "Explore this technique"
+    },
+    {
+      "tag": "All-over print · Sportswear",
+      "model": "Epson SC-F11030 · heat press PD-1800D-800",
+      "title": "Sublimation printing",
+      "desc": "All-over printing bonds colour into polyester fibres for expressive, full-coverage apparel and sportswear.",
+      "action": "Explore this technique"
+    },
+    {
+      "tag": "Decor · Personalised gifts",
+      "model": "Laser FW-1822 · auto cutter LP-2219",
+      "title": "Laser cutting & engraving",
+      "desc": "Precision cutting and engraving for personalised gifts and decor in wood, acrylic, leather and fabric.",
+      "action": "Explore this technique"
+    }
+  ],
+  "finderMethods": [
+    {
+      "methodId": "dtg",
+      "title": "DTG printing",
+      "specs": []
+    },
+    {
+      "methodId": "embroidery",
+      "title": "Computerised embroidery",
+      "specs": []
+    },
+    {
+      "methodId": "sublimation",
+      "title": "Sublimation printing",
+      "specs": []
+    },
+    {
+      "methodId": "laser",
+      "title": "Laser cutting & engraving",
+      "specs": []
+    }
+  ],
+  "facilities": {
+    "h2": "Three plants. One connected team.",
+    "intro": "02\nLOCAL CRAFT. GLOBAL REACH.",
+    "plants": [
+      {
+        "code": "VN—01",
+        "title": "Thai Nguyen",
+        "location": "Dai Tu · Thai Nguyen · Vietnam",
+        "role": "High-volume production"
+      },
+      {
+        "code": "VN—02",
+        "title": "Me Linh",
+        "location": "Me Linh · Hanoi · Vietnam",
+        "role": "Sampling & coordination"
+      },
+      {
+        "code": "US—01",
+        "title": "California",
+        "location": "California · United States",
+        "role": "US print & fulfillment"
+      }
+    ],
+    "slides": [
+      {
+        "img": "https://onosglobal.pages.dev/assets/facility-thai-nguyen.webp",
+        "alt": "Sewing floor at the Thai Nguyen plant",
+        "caption": "A skilled team at work\nTHAI NGUYEN / VIETNAM"
+      },
+      {
+        "img": "https://onosglobal.pages.dev/assets/facility-me-linh.webp",
+        "alt": "Automated fabric cutting at the Me Linh plant",
+        "caption": ""
+      },
+      {
+        "img": "https://onosglobal.pages.dev/assets/facility-california.webp",
+        "alt": "Onos team discussing operations in California",
+        "caption": ""
+      },
+      {
+        "img": "https://onosglobal.pages.dev/assets/production-floor.webp",
+        "alt": "Epson print production with an automated conveyor at Onos",
+        "caption": ""
+      }
+    ]
+  },
+  "process": {
+    "h2": "Your next collection starts here.",
+    "steps": []
+  },
+  "gallery": {
+    "h2": "Real people. Real production.",
+    "items": [
+      {
+        "img": "https://onosglobal.pages.dev/assets/partner-meeting.webp",
+        "alt": "The Onos team at a working meeting",
+        "caption": "01\nBetter, together."
+      },
+      {
+        "img": "https://onosglobal.pages.dev/assets/finishing-table.webp",
+        "alt": "Printed garments organised at the finishing table",
+        "caption": "02\nThe finishing touches."
+      },
+      {
+        "img": "https://onosglobal.pages.dev/assets/laser-cut-gifts.webp",
+        "alt": "Personalised laser-cut wooden decor and gift products",
+        "caption": "03\nIdeas you can hold."
+      },
+      {
+        "img": "https://onosglobal.pages.dev/assets/warehouse-inventory.webp",
+        "alt": "Organised garment inventory at the Onos warehouse",
+        "caption": "04\nReady for the next order."
+      }
+    ]
+  },
+  "ecosystem": {
+    "h2": "Connected by one ambition.",
+    "entities": [
+      {
+        "title": "Onos Global\n↗",
+        "desc": "Manufacturing and fulfillment across borders."
+      },
+      {
+        "title": "onospod\n↗",
+        "desc": "The production partner for your POD business."
+      },
+      {
+        "title": "Onos Group\n↗",
+        "desc": "Our company, our people and the next chapter."
+      }
+    ]
+  },
+  "faq": {
+    "h2": "Good questions.",
+    "questions": [
+      {
+        "summary": "Can I start with a small order?",
+        "answer": ""
+      },
+      {
+        "summary": "What artwork files do you need?",
+        "answer": ""
+      },
+      {
+        "summary": "Can we approve a sample first?",
+        "answer": ""
+      },
+      {
+        "summary": "How do we confirm pricing and lead time?",
+        "answer": ""
+      }
+    ]
+  },
+  "contact": {
+    "h2": "Let's make something happen.",
+    "briefCta": "Email your project brief\n↗",
+    "briefHref": "mailto:onospod.com@gmail.com?subject=Production%20enquiry%20%E2%80%94%20Onos%20Global&body=Hello%20Onos%20team%2C%0A%0AProduct%3A%0AExpected%20quantity%3A%0ADestination%3A%0ATarget%20date%3A%0AArtwork%20link%3A%0A",
+    "channels": []
+  }
+}

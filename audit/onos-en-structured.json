@@ -1,0 +1,223 @@
+{
+  "hero": {
+    "h1": "Innovating without limits.\nElevating value.",
+    "subtitle": "ONOS GLOBAL / PRINT-ON-DEMAND",
+    "ctas": [
+      {
+        "text": "Find your production fit\n↗",
+        "href": "#production-fit"
+      },
+      {
+        "text": "Step inside Onos\n↓",
+        "href": "#inside-onos"
+      },
+      {
+        "text": "CONNECTED BY DESIGN\n↗\nLocal expertise.\nA global outlook.\n3 plants. 2 countries. One Onos.",
+        "href": "#facilities"
+      }
+    ]
+  },
+  "capabilities": [
+    {
+      "title": "DTG printing",
+      "description": "Direct-to-garment printing for photographs, gradients and detailed artwork on cotton and cotton-rich apparel.",
+      "img": "https://onosglobal.pages.dev/assets/dtg-machine-detail.webp",
+      "imgAlt": "DTG printing machine at Onos",
+      "link": "#production-fit"
+    },
+    {
+      "title": "Computerised embroidery",
+      "description": "Digitised designs and multi-head embroidery bring texture and a distinctive finish to your brand identity.",
+      "img": "https://onosglobal.pages.dev/assets/equipment-embroidery.webp",
+      "imgAlt": "An Onos operator checking embroidery on garments",
+      "link": "#production-fit"
+    },
+    {
+      "title": "Sublimation printing",
+      "description": "All-over printing bonds colour into polyester fibres for expressive, full-coverage apparel and sportswear.",
+      "img": "https://onosglobal.pages.dev/assets/press-machines-row.webp",
+      "imgAlt": "Heat press equipment on the Onos production floor",
+      "link": "#production-fit"
+    },
+    {
+      "title": "Laser cutting & engraving",
+      "description": "Precision cutting and engraving for personalised gifts and decor in wood, acrylic, leather and fabric.",
+      "img": "https://onosglobal.pages.dev/assets/laser-cut-gifts.webp",
+      "imgAlt": "Laser-cut wooden decor and gift samples",
+      "link": "#production-fit"
+    }
+  ],
+  "finder": [
+    {
+      "id": "dtg",
+      "title": "DTG printing",
+      "material": "Material & application\nCotton and cotton-rich apparel.\nBefore production\nConfirm fabric composition, garment colour, artwork size and placement. Approve colour on a physical sample.",
+      "allText": "01 / 04\nDTG printing\nMaterial & application\nCotton and cotton-rich apparel.\nBefore production\nConfirm fabric composition, garment colour, artwork size and placement. Approve colour on a physical sample.",
+      "img": "https://onosglobal.pages.dev/assets/production-floor.webp",
+      "imgAlt": "The Onos print production floor"
+    },
+    {
+      "id": "embroidery",
+      "title": "Computerised embroidery",
+      "material": "Material & application\nCaps, polos and bags suitable for embroidery.\nBefore production\nShare the logo size and placement. Small lettering and fine details need review when digitising the stitch file.",
+      "allText": "02 / 04\nComputerised embroidery\nMaterial & application\nCaps, polos and bags suitable for embroidery.\nBefore production\nShare the logo size and placement. Small lettering and fine details need review when digitising the stitch file.",
+      "img": "https://onosglobal.pages.dev/assets/embroidery.webp",
+      "imgAlt": "Embroidery equipment at Onos"
+    },
+    {
+      "id": "sublimation",
+      "title": "Sublimation printing",
+      "material": "Material & application\nPolyester apparel and sportswear suitable for sublimation.\nBefore production\nConfirm fabric composition, base colour, pattern layout and seams. Test colour on the intended material.",
+      "allText": "03 / 04\nSublimation printing\nMaterial & application\nPolyester apparel and sportswear suitable for sublimation.\nBefore production\nConfirm fabric composition, base colour, pattern layout and seams. Test colour on the intended material.",
+      "img": "https://onosglobal.pages.dev/assets/press-machines-row.webp",
+      "imgAlt": "Heat press equipment at Onos"
+    },
+    {
+      "id": "laser",
+      "title": "Laser cutting & engraving",
+      "material": "Material & application\nWood, acrylic, leather or fabric confirmed as suitable by the team.\nBefore production\nProvide material type, thickness and cutting paths. Confirm the finish on a sample before approving the run.",
+      "allText": "04 / 04\nLaser cutting & engraving\nMaterial & application\nWood, acrylic, leather or fabric confirmed as suitable by the team.\nBefore production\nProvide material type, thickness and cutting paths. Confirm the finish on a sample before approving the run.",
+      "img": "https://onosglobal.pages.dev/assets/laser-cut-gifts.webp",
+      "imgAlt": "Laser-cut wooden decor and gift examples"
+    }
+  ],
+  "plants": [
+    {
+      "code": "VN—01",
+      "title": "Thai Nguyen",
+      "location": "Dai Tu · Thai Nguyen · Vietnam",
+      "role": "High-volume production",
+      "text": "VN—01\nThai Nguyen\n\nHigh-volume production\n\nDTG, sublimation, embroidery and laser production, supported by a five-step quality control process.\n\nDai Tu · Thai Nguyen · Vietnam"
+    },
+    {
+      "code": "VN—02",
+      "title": "Me Linh",
+      "location": "Me Linh · Hanoi · Vietnam",
+      "role": "Sampling & coordination",
+      "text": "VN—02\nMe Linh\n\nSampling & coordination\n\nSampling, production, final inspection and packing, with direct links to international carriers.\n\nMe Linh · Hanoi · Vietnam"
+    },
+    {
+      "code": "US—01",
+      "title": "California",
+      "location": "California · United States",
+      "role": "US print & fulfillment",
+      "text": "US—01\nCalifornia\n\nUS print & fulfillment\n\nDTG and DTF production for the North American market, operated by ONOS American Ventures Corp.\n\nCalifornia · United States"
+    }
+  ],
+  "carouselSlides": [
+    {
+      "img": "https://onosglobal.pages.dev/assets/facility-thai-nguyen.webp",
+      "alt": "Sewing floor at the Thai Nguyen plant",
+      "caption": "A skilled team at work\nTHAI NGUYEN / VIETNAM"
+    },
+    {
+      "img": "https://onosglobal.pages.dev/assets/facility-thai-nguyen.webp",
+      "alt": "Sewing floor at the Thai Nguyen plant",
+      "caption": "A skilled team at work\nTHAI NGUYEN / VIETNAM"
+    },
+    {
+      "img": "https://onosglobal.pages.dev/assets/facility-me-linh.webp",
+      "alt": "Automated fabric cutting at the Me Linh plant",
+      "caption": ""
+    },
+    {
+      "img": "https://onosglobal.pages.dev/assets/facility-california.webp",
+      "alt": "Onos team discussing operations in California",
+      "caption": ""
+    },
+    {
+      "img": "https://onosglobal.pages.dev/assets/production-floor.webp",
+      "alt": "Epson print production with an automated conveyor at Onos",
+      "caption": ""
+    },
+    {},
+    {},
+    {},
+    {}
+  ],
+  "workflow": [
+    {
+      "text": "01"
+    },
+    {
+      "text": "02"
+    },
+    {
+      "text": "03"
+    },
+    {
+      "text": "04"
+    }
+  ],
+  "gallery": [
+    {
+      "img": "https://onosglobal.pages.dev/assets/partner-meeting.webp",
+      "alt": "The Onos team at a working meeting",
+      "caption": "01\nBetter, together.",
+      "viewBtn": "Enlarge: The Onos team at a working meeting"
+    },
+    {
+      "img": "https://onosglobal.pages.dev/assets/finishing-table.webp",
+      "alt": "Printed garments organised at the finishing table",
+      "caption": "02\nThe finishing touches.",
+      "viewBtn": "Enlarge: Printed garments organised at the finishing table"
+    },
+    {
+      "img": "https://onosglobal.pages.dev/assets/laser-cut-gifts.webp",
+      "alt": "Personalised laser-cut wooden decor and gift products",
+      "caption": "03\nIdeas you can hold.",
+      "viewBtn": "Enlarge: Personalised laser-cut wooden decor and gift products"
+    },
+    {
+      "img": "https://onosglobal.pages.dev/assets/warehouse-inventory.webp",
+      "alt": "Organised garment inventory at the Onos warehouse",
+      "caption": "04\nReady for the next order.",
+      "viewBtn": "Enlarge: Organised garment inventory at the Onos warehouse"
+    }
+  ],
+  "ecosystem": [
+    {
+      "title": "Onos Global\n↗",
+      "desc": "Manufacturing and fulfillment across borders."
+    },
+    {
+      "title": "onospod\n↗",
+      "desc": "The production partner for your POD business."
+    },
+    {
+      "title": "Onos Group\n↗",
+      "desc": "Our company, our people and the next chapter."
+    }
+  ],
+  "faq": [
+    {
+      "summary": "Can I start with a small order?\n+",
+      "content": "Yes. DTG and sublimation orders can start from a single unit. Custom blanks and made-to-measure uniforms have minimum quantities agreed for each project.",
+      "full": "Can I start with a small order?\n+\n\nYes. DTG and sublimation orders can start from a single unit. Custom blanks and made-to-measure uniforms have minimum quantities agreed for each project."
+    },
+    {
+      "summary": "What artwork files do you need?\n+",
+      "content": "Send vector artwork (AI, EPS, SVG or PDF), or a transparent PNG at 300 DPI at the final print size. Our team checks the file before it moves into production.",
+      "full": "What artwork files do you need?\n+\n\nSend vector artwork (AI, EPS, SVG or PDF), or a transparent PNG at 300 DPI at the final print size. Our team checks the file before it moves into production."
+    },
+    {
+      "summary": "Can we approve a sample first?\n+",
+      "content": "Yes. Our Me Linh plant has a dedicated sampling line. For larger orders, we recommend agreeing a sample before the full production run.",
+      "full": "Can we approve a sample first?\n+\n\nYes. Our Me Linh plant has a dedicated sampling line. For larger orders, we recommend agreeing a sample before the full production run."
+    },
+    {
+      "summary": "How do we confirm pricing and lead time?\n+",
+      "content": "Share the product, design, expected quantity and shipping destination. We will review the production requirements and discuss pricing, timing and shipping with you before you proceed.",
+      "full": "How do we confirm pricing and lead time?\n+\n\nShare the product, design, expected quantity and shipping destination. We will review the production requirements and discuss pricing, timing and shipping with you before you proceed."
+    }
+  ],
+  "contact": {
+    "h2": "Let's make something happen.",
+    "lead": "NEXT STOP: YOUR NEXT PRODUCT.",
+    "email": "Email your project brief\n↗",
+    "emailHref": "mailto:onospod.com@gmail.com?subject=Production%20enquiry%20%E2%80%94%20Onos%20Global&body=Hello%20Onos%20team%2C%0A%0AProduct%3A%0AExpected%20quantity%3A%0ADestination%3A%0ATarget%20date%3A%0AArtwork%20link%3A%0A",
+    "phone": "+84 986 385 112",
+    "phoneHref": "tel:+84986385112",
+    "allText": "NEXT STOP: YOUR NEXT PRODUCT.\n\nLet's make something happen.\n\nSend your product idea, artwork, expected volume and destination. Our team will help you shape the next step.\n\nEmail your project brief\n↗\n\nOpens your email app with a project outline ready to fill in.\n\n↗\nonospod.com@gmail.com\n+84 986 385 112\nHEAD OFFICE / HANOI\n\n3rd floor, 705 Lac Long Quan, Tay Ho, Hanoi, Vietnam\n\nMon–Fri: 7:30–17:30 · Sat: 8:00–17:00 (Vietnam time)"
+  }
+}

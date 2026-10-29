@@ -15,6 +15,7 @@ export function IndustryFinder() {
       <span id="finder" className="onos-anchor-alias" aria-hidden="true" />
       <div className="container">
         <div className="industry-info-main section-spacing">
+          {/* Section Heading */}
           <div
             data-w-id="cd4d3bf3-e255-714a-a12d-0490dd2d2cf9"
             className="section-title-center"
@@ -38,52 +39,63 @@ export function IndustryFinder() {
             </h2>
           </div>
 
+          {/* 4 Tabs Navigation */}
           <div
             data-current={`Tab ${activeTab + 1}`}
-            data-easing="ease-in"
-            data-duration-in="0"
-            data-duration-out="0"
             className="industry-tabs w-tabs"
           >
-            {/* Tab links */}
             <div
               data-w-id="b1ef9828-72eb-84fa-b442-e2f6281f5c8c"
               className="industry-tabs-menu w-tab-menu"
               role="tablist"
+              aria-label={t("Choose A Production Method")}
             >
-              {methods.map((m, idx) => (
-                <button
-                  key={m.id}
-                  type="button"
-                  role="tab"
-                  aria-selected={activeTab === idx}
-                  onClick={() => setActiveTab(idx)}
-                  className={`industry-tabs-link w-inline-block w-tab-link ${
-                    activeTab === idx ? "w--current" : ""
-                  }`}
-                  style={{ textAlign: "left", width: "100%", background: "none", border: "none" }}
-                >
-                  <div>{t(m.title)}</div>
-                </button>
-              ))}
+              {methods.map((m, idx) => {
+                const isSelected = activeTab === idx;
+                return (
+                  <button
+                    key={m.id}
+                    type="button"
+                    role="tab"
+                    id={`tab-${m.id}`}
+                    aria-controls={`panel-${m.id}`}
+                    aria-selected={isSelected}
+                    onClick={() => setActiveTab(idx)}
+                    className={`industry-tabs-link w-inline-block w-tab-link ${
+                      isSelected ? "w--current" : ""
+                    }`}
+                    style={{ textAlign: "left", width: "100%", background: "none", border: "none", cursor: "pointer" }}
+                  >
+                    <div>{t(m.title)}</div>
+                  </button>
+                );
+              })}
             </div>
 
-            {/* Tab content */}
+            {/* Tab Content Panel */}
             <div
               data-w-id="b1ef9828-72eb-84fa-b442-e2f6281f5c96"
               className="industry-tabs-content w-tab-content"
             >
-              <div className="industry-tabs-pane w-tab-pane w--tab-active" role="tabpanel">
+              <div
+                id={`panel-${currentMethod.id}`}
+                role="tabpanel"
+                aria-labelledby={`tab-${currentMethod.id}`}
+                className="industry-tabs-pane w-tab-pane w--tab-active"
+              >
                 <div className="industry-content-info">
+                  {/* Left Technique Image */}
                   <div className="industry-image-wrapper">
                     <img
-                      src={`/assets/onos-${currentMethod.image}.webp`}
+                      src={`/assets/onos-${currentMethod.finderImage}.webp`}
                       alt={t(currentMethod.title)}
                       loading="lazy"
                       className="industry-image"
                       style={{ objectFit: "cover" }}
                     />
                   </div>
+
+                  {/* Right Content */}
                   <div className="industry-content">
                     <div className="industry-icon-box">
                       <img
@@ -93,9 +105,13 @@ export function IndustryFinder() {
                         className="industry-icon"
                       />
                     </div>
+                    <div style={{ display: "inline-block", fontSize: "0.82rem", fontWeight: 700, color: "var(--color--primary-1, #f66234)", textTransform: "uppercase", letterSpacing: "0.04em", marginBottom: "4px" }}>
+                      {t(currentMethod.model)}
+                    </div>
                     <h3 className="industry-name">{t(currentMethod.title)}</h3>
                     <p className="industry-description">{t(currentMethod.description)}</p>
 
+                    {/* Verified Specs / Requirements List */}
                     <div className="industry-list">
                       <div className="industry-list-item">
                         <img
@@ -132,18 +148,20 @@ export function IndustryFinder() {
                       </div>
                     </div>
 
+                    {/* Discuss This Product / Enquiry Button */}
                     <div style={{ marginTop: "28px" }}>
                       <a
                         data-wf--button-arrow--variant="base"
                         data-w-id="d102baf6-0bbf-4311-9c79-6b424f8fe8a7"
                         href={inquiryHref(language, currentMethod.title)}
                         className="primary-button w-inline-block"
+                        id="method-email"
                       >
                         <div className="button-primary-inner">
                           <div className="button-text-wrap">
                             <div className="button-text-inner">
-                              <div className="button-text">{t("Enquire About This Method")}</div>
-                              <div className="button-hover-text">{t("Enquire About This Method")}</div>
+                              <div className="button-text">{t("Discuss this product")} ↗</div>
+                              <div className="button-hover-text">{t("Discuss this product")} ↗</div>
                             </div>
                           </div>
                           <div className="button-icon-bg">
@@ -178,43 +196,6 @@ export function IndustryFinder() {
         alt="Industry image BG"
         className="industry-image-bg one"
       />
-      <img
-        src="/assets/ae27370f52d3-68dfaa6a28c7a7c7d48d1369_Industry-image-bg--5-.png"
-        loading="lazy"
-        data-w-id="bb1d146f-3020-9314-d86a-8b5d20f602bd"
-        alt="Industry image BG"
-        className="industry-image-bg two"
-      />
-      <img
-        src="/assets/a18541310af5-68dfaa6a72a48addb404ecaf_Industry-image-bg--1-.png"
-        loading="lazy"
-        data-w-id="ec80440d-ee55-273b-2ae9-ce265c3afa17"
-        alt="Industry image BG"
-        className="industry-image-bg three"
-      />
-      <img
-        src="/assets/b38b158ba43b-68dfaa6ba66a9dbc9c52d860_Industry-image-bg--3-.png"
-        loading="lazy"
-        data-w-id="17719652-441a-8e4d-6709-ab16c3504a7d"
-        alt="Industry image BG"
-        className="industry-image-bg four"
-      />
-      <img
-        src="/assets/69f77842671e-68dfaae5b689f779b96d4111_Industry-image-bg--4-.png"
-        loading="lazy"
-        data-w-id="67adcfec-de99-018d-1042-48952abe5b3f"
-        alt="Industry image BG"
-        className="industry-image-bg five"
-      />
-
-      <div className="line-wrapper">
-        <div className="section-line border-grey-1"></div>
-        <div className="section-line border-grey-1"></div>
-        <div className="section-line border-grey-1"></div>
-        <div className="section-line border-grey-1"></div>
-        <div className="section-line border-grey-1"></div>
-      </div>
-      <div className="noise-overlay"></div>
     </section>
   );
 }

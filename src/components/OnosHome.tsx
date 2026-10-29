@@ -6,11 +6,11 @@ import { Hero } from './sections/Hero';
 import { HeroVideo } from './sections/HeroVideo';
 import { About } from './sections/About';
 import { Services } from './sections/Services';
-import { WhatWeManufacture } from './sections/WhatWeManufacture';
 import { IndustryFinder } from './sections/IndustryFinder';
 import { NetworkSlider } from './sections/NetworkSlider';
 import { WhyChoose } from './sections/WhyChoose';
 import { GalleryTestimonials } from './sections/GalleryTestimonials';
+import { Ecosystem } from './sections/Ecosystem';
 import { FAQSection } from './sections/FAQSection';
 import { ContactSection } from './sections/ContactSection';
 import { MotionControl, SiteProvider, useSite } from './interactions/SiteContext';
@@ -22,7 +22,7 @@ function PageContent() {
 
   return (
     <>
-      <a className="onos-skip-link" href="#home">
+      <a className="onos-skip-link" href="#main">
         {t('Skip to content')}
       </a>
       <Navbar />
@@ -31,11 +31,11 @@ function PageContent() {
         <HeroVideo />
         <About />
         <Services />
-        <WhatWeManufacture />
         <IndustryFinder />
         <NetworkSlider />
         <WhyChoose />
         <GalleryTestimonials />
+        <Ecosystem />
         <FAQSection />
         <ContactSection />
       </main>

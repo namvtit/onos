@@ -1,0 +1,219 @@
+[
+  {
+    "local": "/assets/onos-embroidery-hero.webp",
+    "source": "https://onosglobal.pages.dev/assets/embroidery-hero.webp",
+    "bytes": 226058,
+    "sha256": "77afad62af26d6c6118628a16094784f45000468940fae0547abf8231dcad186",
+    "actualHash": "77afad62af26d6c6118628a16094784f45000468940fae0547abf8231dcad186",
+    "hashMatches": true,
+    "exists": true,
+    "usage": [
+      "src/components/sections/Hero.tsx",
+      "src/components/sections/Services.tsx"
+    ],
+    "altEn": "Multi-head embroidery machines producing garments at Onos",
+    "altVi": "Dàn máy thêu vi tính nhiều đầu vận hành tại xưởng Onos"
+  },
+  {
+    "local": "/assets/onos-dtg-machine-detail.webp",
+    "source": "https://onosglobal.pages.dev/assets/dtg-machine-detail.webp",
+    "bytes": 62358,
+    "sha256": "315a490b741561185c8d4cbb5aaeff05738d0eaeeb13dced8194dc13877ce9c7",
+    "actualHash": "315a490b741561185c8d4cbb5aaeff05738d0eaeeb13dced8194dc13877ce9c7",
+    "hashMatches": true,
+    "exists": true,
+    "usage": [
+      "src/components/sections/Services.tsx",
+      "src/components/sections/IndustryFinder.tsx"
+    ],
+    "altEn": "DTG printing machine at Onos",
+    "altVi": "Máy in trực tiếp trên vải DTG tại xưởng Onos"
+  },
+  {
+    "local": "/assets/onos-equipment-embroidery.webp",
+    "source": "https://onosglobal.pages.dev/assets/equipment-embroidery.webp",
+    "bytes": 115794,
+    "sha256": "9ce154a02ed9f72fbd9d9f2b56f8af0b001495f693b42d208d24743e773148ee",
+    "actualHash": "9ce154a02ed9f72fbd9d9f2b56f8af0b001495f693b42d208d24743e773148ee",
+    "hashMatches": true,
+    "exists": true,
+    "usage": [
+      "src/components/sections/Services.tsx",
+      "src/components/sections/IndustryFinder.tsx"
+    ],
+    "altEn": "An Onos operator checking embroidery on garments",
+    "altVi": "Kỹ thuật viên Onos kiểm tra đường thêu trên trang phục"
+  },
+  {
+    "local": "/assets/onos-press-machines-row.webp",
+    "source": "https://onosglobal.pages.dev/assets/press-machines-row.webp",
+    "bytes": 189096,
+    "sha256": "0e37b94a9b3c5492c3783fc7b8d5d2f1c5a16b0be9fb57de1f113b09e443cba5",
+    "actualHash": "0e37b94a9b3c5492c3783fc7b8d5d2f1c5a16b0be9fb57de1f113b09e443cba5",
+    "hashMatches": true,
+    "exists": true,
+    "usage": [
+      "src/components/sections/Services.tsx",
+      "src/components/sections/IndustryFinder.tsx"
+    ],
+    "altEn": "Heat press equipment at Onos",
+    "altVi": "Hệ thống máy ép nhiệt công nghiệp tại xưởng Onos"
+  },
+  {
+    "local": "/assets/onos-laser-cut-gifts.webp",
+    "source": "https://onosglobal.pages.dev/assets/laser-cut-gifts.webp",
+    "bytes": 270764,
+    "sha256": "1cf593d1f4e3993014ffb5f30d08187f575d4f8d32f61d290665a12c354bbb8c",
+    "actualHash": "1cf593d1f4e3993014ffb5f30d08187f575d4f8d32f61d290665a12c354bbb8c",
+    "hashMatches": true,
+    "exists": true,
+    "usage": [
+      "src/components/sections/Services.tsx",
+      "src/components/sections/IndustryFinder.tsx",
+      "src/components/sections/GalleryTestimonials.tsx"
+    ],
+    "altEn": "Personalised laser-cut wooden decor and gift products",
+    "altVi": "Sản phẩm trang trí gỗ và quà tặng cắt khắc laser theo yêu cầu"
+  },
+  {
+    "local": "/assets/onos-production-floor.webp",
+    "source": "https://onosglobal.pages.dev/assets/production-floor.webp",
+    "bytes": 333762,
+    "sha256": "cd90904ada71b678a21ecd9335b67324ef1f039d10a09e6db632551184e095ed",
+    "actualHash": "cd90904ada71b678a21ecd9335b67324ef1f039d10a09e6db632551184e095ed",
+    "hashMatches": true,
+    "exists": true,
+    "usage": [
+      "src/components/sections/NetworkSlider.tsx"
+    ],
+    "altEn": "Epson print production with an automated conveyor at Onos",
+    "altVi": "Dây chuyền in Epson công nghiệp cùng băng chuyền sấy tự động tại Thái Nguyên"
+  },
+  {
+    "local": "/assets/onos-embroidery.webp",
+    "source": "https://onosglobal.pages.dev/assets/embroidery.webp",
+    "bytes": 467928,
+    "sha256": "fecf4ef11c74ebe886e88a2eb17706fcf9b142f3fd2007d967e3e2dc61ba9e28",
+    "actualHash": "fecf4ef11c74ebe886e88a2eb17706fcf9b142f3fd2007d967e3e2dc61ba9e28",
+    "hashMatches": true,
+    "exists": true,
+    "usage": [
+      "src/components/sections/Hero.tsx",
+      "src/components/sections/Services.tsx"
+    ],
+    "altEn": "Embroidery equipment at Onos",
+    "altVi": "Hệ thống thiết bị thêu công nghiệp tại xưởng Onos"
+  },
+  {
+    "local": "/assets/onos-facility-thai-nguyen.webp",
+    "source": "https://onosglobal.pages.dev/assets/facility-thai-nguyen.webp",
+    "bytes": 304850,
+    "sha256": "ffdd6c35e4f339acb8e2f079d8d4dab57ecc06e460cd09409738c6aaefb0f96e",
+    "actualHash": "ffdd6c35e4f339acb8e2f079d8d4dab57ecc06e460cd09409738c6aaefb0f96e",
+    "hashMatches": true,
+    "exists": true,
+    "usage": [
+      "src/components/sections/NetworkSlider.tsx"
+    ],
+    "altEn": "Sewing floor at the Thai Nguyen plant",
+    "altVi": "Xưởng may và in ấn quy mô lớn tại Đại Từ, Thái Nguyên"
+  },
+  {
+    "local": "/assets/onos-facility-me-linh.webp",
+    "source": "https://onosglobal.pages.dev/assets/facility-me-linh.webp",
+    "bytes": 207538,
+    "sha256": "7a566a66c35867aa9239da5062e0d10ad8d6ac11ecf5bc998ba1d76d0021c198",
+    "actualHash": "7a566a66c35867aa9239da5062e0d10ad8d6ac11ecf5bc998ba1d76d0021c198",
+    "hashMatches": true,
+    "exists": true,
+    "usage": [
+      "src/components/sections/NetworkSlider.tsx"
+    ],
+    "altEn": "Automated fabric cutting at the Me Linh plant",
+    "altVi": "Khu vực cắt vải tự động và đóng gói xuất khẩu tại Mê Linh, Hà Nội"
+  },
+  {
+    "local": "/assets/onos-facility-california.webp",
+    "source": "https://onosglobal.pages.dev/assets/facility-california.webp",
+    "bytes": 67036,
+    "sha256": "3866e4e71a68a64b0659fbb399e6141bd8967e5ebe46f22f8aca0f03a90920d1",
+    "actualHash": "3866e4e71a68a64b0659fbb399e6141bd8967e5ebe46f22f8aca0f03a90920d1",
+    "hashMatches": true,
+    "exists": true,
+    "usage": [
+      "src/components/sections/NetworkSlider.tsx"
+    ],
+    "altEn": "Onos team discussing operations in California",
+    "altVi": "Đội ngũ điều hành sản xuất và hoàn tất đơn hàng tại California, Hoa Kỳ"
+  },
+  {
+    "local": "/assets/onos-sample-development.webp",
+    "source": "https://onosglobal.pages.dev/assets/sample-development.webp",
+    "bytes": 233656,
+    "sha256": "506c23c053d9ee206d90696c90855a222134606049e6bcb019452f91057e654a",
+    "actualHash": "506c23c053d9ee206d90696c90855a222134606049e6bcb019452f91057e654a",
+    "hashMatches": true,
+    "exists": true,
+    "usage": [
+      "src/components/sections/WhyChoose.tsx"
+    ],
+    "altEn": "The Onos team reviewing product samples and materials",
+    "altVi": "Đội ngũ Onos thẩm định mẫu và chất liệu cùng khách hàng"
+  },
+  {
+    "local": "/assets/onos-partner-meeting.webp",
+    "source": "https://onosglobal.pages.dev/assets/partner-meeting.webp",
+    "bytes": 181870,
+    "sha256": "fb38d2b49e08f7aa5736cd6f0291146156e67f2d399f519cc21e68a347e32fd3",
+    "actualHash": "fb38d2b49e08f7aa5736cd6f0291146156e67f2d399f519cc21e68a347e32fd3",
+    "hashMatches": true,
+    "exists": true,
+    "usage": [
+      "src/components/sections/GalleryTestimonials.tsx"
+    ],
+    "altEn": "Onos team collaborating with international partners",
+    "altVi": "Đội ngũ chuyên gia kỹ thuật Onos trao đổi quy trình sản xuất"
+  },
+  {
+    "local": "/assets/onos-finishing-table.webp",
+    "source": "https://onosglobal.pages.dev/assets/finishing-table.webp",
+    "bytes": 169438,
+    "sha256": "4d732638081d8c2e3dd4599c4ef9717278b025979a439a7b7f09a9949e94d33c",
+    "actualHash": "4d732638081d8c2e3dd4599c4ef9717278b025979a439a7b7f09a9949e94d33c",
+    "hashMatches": true,
+    "exists": true,
+    "usage": [
+      "src/components/sections/GalleryTestimonials.tsx"
+    ],
+    "altEn": "Printed garments organised at the finishing table",
+    "altVi": "Khu vực kiểm tra đường may, gấp xếp và đóng gói sản phẩm hoàn thiện"
+  },
+  {
+    "local": "/assets/onos-warehouse-inventory.webp",
+    "source": "https://onosglobal.pages.dev/assets/warehouse-inventory.webp",
+    "bytes": 278722,
+    "sha256": "ad51bd7ed55230f473c926805c8fe3677cc44a755f1c4e72bd9501b86986fa54",
+    "actualHash": "ad51bd7ed55230f473c926805c8fe3677cc44a755f1c4e72bd9501b86986fa54",
+    "hashMatches": true,
+    "exists": true,
+    "usage": [
+      "src/components/sections/GalleryTestimonials.tsx"
+    ],
+    "altEn": "Organised garment inventory at the Onos warehouse",
+    "altVi": "Kho lưu trữ phôi áo, vải và thành phẩm sẵn sàng bàn giao"
+  },
+  {
+    "local": "/assets/onos-embroidery-hero-640.webp",
+    "source": "https://onosglobal.pages.dev/assets/embroidery-hero-640.webp",
+    "bytes": 59754,
+    "sha256": "6661887bb448181c5513882362e138273db55071b015faf4894820e4d830cc59",
+    "actualHash": "6661887bb448181c5513882362e138273db55071b015faf4894820e4d830cc59",
+    "hashMatches": true,
+    "exists": true,
+    "usage": [
+      "src/components/sections/Hero.tsx"
+    ],
+    "altEn": "Multi-head embroidery machines producing garments at Onos (mobile optimized)",
+    "altVi": "Dàn máy thêu vi tính nhiều đầu vận hành tại xưởng Onos (bản tối ưu di động)"
+  }
+]
