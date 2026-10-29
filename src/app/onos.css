@@ -96,10 +96,9 @@ section[id] {
   transform: scale(1.08);
 }
 
-/* Motion control pause state */
-html.motion-paused [data-w-id] {
-  animation-duration: 0.001s !important;
-  transition-duration: 0.001s !important;
+/* Motion control pause state - pauses background media and auto-advancing carousels */
+html.motion-paused video {
+  animation-play-state: paused !important;
 }
 
 /* Logo sizing in navbar */

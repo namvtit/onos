@@ -23,9 +23,9 @@ export function SiteProvider({ children, initialLanguage = 'en' }: { children: R
 }
 export function useSite() { const context = useContext(SiteContext); if (!context) throw new Error('SiteProvider is required'); return context; }
 export function MotionControl() {
-  const { t, paused, reduced, toggleMotion } = useSite();
-  const label = t(reduced ? 'Motion reduced by system setting' : paused ? 'Play animations' : 'Pause animations');
-  return <button type="button" className="motion-control" aria-label={label} title={label} aria-pressed={paused} disabled={reduced} onClick={toggleMotion}><span aria-hidden="true">{paused ? '▶' : 'Ⅱ'}</span></button>;
+  const { t, paused, toggleMotion } = useSite();
+  const label = t(paused ? 'Play animations' : 'Pause animations');
+  return <button type="button" className="motion-control" aria-label={label} title={label} aria-pressed={paused} onClick={toggleMotion}><span aria-hidden="true">{paused ? '▶' : 'Ⅱ'}</span></button>;
 }
 export function PageMotion() {
   const { paused } = useSite();

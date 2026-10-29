@@ -45,8 +45,8 @@ export function Footer() {
                     <div className="button-primary-inner">
                       <div className="button-text-wrap">
                         <div className="button-text-inner">
-                          <div className="button-text">{contact.email} ↗</div>
-                          <div className="button-hover-text">{contact.email} ↗</div>
+                          <div className="button-text">{contact.email}</div>
+                          <div className="button-hover-text">{contact.email}</div>
                         </div>
                       </div>
                     </div>

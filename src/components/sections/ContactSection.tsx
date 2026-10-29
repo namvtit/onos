@@ -76,8 +76,8 @@ export function ContactSection() {
                     <div className="button-primary-inner">
                       <div className="button-text-wrap">
                         <div className="button-text-inner">
-                          <div className="button-text">{t("Email your project brief")} ↗</div>
-                          <div className="button-hover-text">{t("Email your project brief")} ↗</div>
+                          <div className="button-text">{t("Email your project brief")}</div>
+                          <div className="button-hover-text">{t("Email your project brief")}</div>
                         </div>
                       </div>
                       <div className="button-icon-bg">
@@ -270,8 +270,8 @@ export function ContactSection() {
                       <div className="button-primary-inner">
                         <div className="button-text-wrap">
                           <div className="button-text-inner">
-                            <div className="button-text">{t("Email your project brief")} ↗</div>
-                            <div className="button-hover-text">{t("Email your project brief")} ↗</div>
+                            <div className="button-text">{t("Email your project brief")}</div>
+                            <div className="button-hover-text">{t("Email your project brief")}</div>
                           </div>
                         </div>
                         <div className="button-icon-bg">

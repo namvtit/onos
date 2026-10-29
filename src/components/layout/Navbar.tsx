@@ -166,8 +166,8 @@ export function Navbar() {
                 <div className="button-primary-inner">
                   <div className="button-text-wrap">
                     <div className="button-text-inner">
-                      <div className="button-text">{t("Let's talk")} ↗</div>
-                      <div className="button-hover-text">{t("Let's talk")} ↗</div>
+                      <div className="button-text">{t("Let's talk")}</div>
+                      <div className="button-hover-text">{t("Let's talk")}</div>
                     </div>
                   </div>
                   <div className="button-icon-bg">

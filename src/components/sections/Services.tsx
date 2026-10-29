@@ -122,7 +122,7 @@ export function Services() {
   const [activeService, setActiveService] = useState<number>(0);
 
   const toggle = (idx: number) => {
-    setActiveService(idx);
+    setActiveService(activeService === idx ? -1 : idx);
   };
 
   return (
