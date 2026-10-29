@@ -153,3 +153,47 @@ html.motion-paused video {
 }
 
 
+
+/* Authentic ONOS Company Logo & Wordmark (from https://onosglobal.pages.dev/) */
+.wordmark {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  flex: none !important;
+  text-decoration: none !important;
+  color: var(--color--dark, #151515);
+}
+.wordmark .onos-ref-logo {
+  flex-shrink: 0 !important;
+}
+.wordmark b {
+  font-family: var(--_typography---font-family--heading, "Mona Sans", sans-serif) !important;
+  font-size: 1.35rem !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.04em !important;
+  line-height: 1 !important;
+  display: block !important;
+  color: var(--color--dark, #151515);
+}
+.wordmark small {
+  font-family: var(--_typography---font-family--heading, "Mona Sans", sans-serif) !important;
+  display: block !important;
+  font-size: 0.55rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.28em !important;
+  line-height: 1.4 !important;
+  color: var(--color--gray-2, #5c5c5c);
+  text-transform: uppercase !important;
+}
+.wordmark.wordmark-light b {
+  color: #ffffff !important;
+}
+.wordmark.wordmark-light small {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.navbar .brand.w-nav-brand {
+  display: flex !important;
+  align-items: center !important;
+  min-width: 150px !important;
+  text-decoration: none !important;
+}

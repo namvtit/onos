@@ -1,5 +1,7 @@
 "use client";
 
+import { OnosWordmark } from "@/components/brand/OnosLogo";
+
 import { useEffect, useState } from "react";
 import { useSite } from "@/components/interactions/SiteContext";
 
@@ -39,7 +41,7 @@ export function Navbar() {
     >
       <div className="container-full w-container">
         <div className="w-layout-grid grid-nav">
-          {/* Brand Logo */}
+          {/* Authentic ONOS Brand Logo */}
           <a
             href="#home"
             id="w-node-e6ff9f79-f479-fa42-6f69-a3df18a8ef3f-18a8ef3c"
@@ -47,12 +49,7 @@ export function Navbar() {
             className="brand w-nav-brand"
             aria-label="Onos Global"
           >
-            <img
-              src="/assets/onos-wordmark.svg"
-              loading="eager"
-              alt="ONOS Global"
-              className="logo"
-            />
+            <OnosWordmark size={36} subtext="GLOBAL" />
           </a>
 
           {/* Navigation Links */}

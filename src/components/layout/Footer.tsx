@@ -1,4 +1,6 @@
-'use client';
+"use client";
+
+import { OnosLogoSymbol } from "@/components/brand/OnosLogo";
 
 import React from 'react';
 import { useSite } from '@/components/interactions/SiteContext';
@@ -20,8 +22,9 @@ export function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="footer-brand-lockup"
-                  style={{ textDecoration: 'none', display: 'inline-block', marginBottom: '16px' }}
+                  style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '10px', marginBottom: '16px' }}
                 >
+                  <OnosLogoSymbol size={32} isDark={true} />
                   <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                     <span style={{ fontSize: '1.4rem', fontWeight: 800, color: 'var(--color--white, #fff)', letterSpacing: '0.04em' }}>
                       ONOS

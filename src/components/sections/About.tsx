@@ -1,5 +1,7 @@
 "use client";
 
+import { OnosWordmark } from "@/components/brand/OnosLogo";
+
 import { useSite } from "@/components/interactions/SiteContext";
 
 export function About() {
@@ -190,13 +192,9 @@ export function About() {
               data-w-id="e0a0517f-1ee8-9dfc-bba2-14c8a6a448da"
               className="about-info-box box-bg-white"
             >
-              <img
-                src="/assets/onos-wordmark.svg"
-                loading="lazy"
-                alt="ONOS Global"
-                className="about-box-logo"
-                style={{ maxHeight: "24px", width: "auto" }}
-              />
+              <div style={{ display: 'flex', justifyContent: 'center', width: '100%', marginBottom: '6px' }}>
+                <OnosWordmark size={24} subtext="GLOBAL" />
+              </div>
               <div className="counter-run">
                 <div className="inner-number about-counter">
                   <div className="numbers-counts text-linear-gradient">
