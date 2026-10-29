@@ -1,10 +1,106 @@
 "use client";
 
+import { useState } from "react";
 import { useSite } from "@/components/interactions/SiteContext";
 import { inquiryHref } from "@/data/onos-content";
 
+interface ServiceItem {
+  id: string;
+  nameKey: string;
+  wrapperClass: string;
+  iconSrc: string;
+  iconAlt: string;
+  imageSrc: string;
+  imageAlt: string;
+  features: string[];
+  dataWId: string;
+  imgDataWId: string;
+  arrow1DataWId: string;
+  arrow2DataWId: string;
+}
+
+const serviceItems: ServiceItem[] = [
+  {
+    id: "dtg-printing",
+    nameKey: "DTG printing",
+    wrapperClass: "one",
+    iconSrc: "/assets/919b6e982e1e-68dd10c0b38ff642330975ce_Icon-04.svg",
+    iconAlt: "DTG Icon",
+    imageSrc: "/assets/onos-dtg-machine-detail.webp",
+    imageAlt: "DTG printing machine",
+    features: [
+      "Detailed gradient artwork",
+      "Single unit to bulk runs",
+      "OEKO-TEX certified inks",
+      "Fast 2-4 day turnaround",
+    ],
+    dataWId: "bc23f244-bfd2-2ac7-1a49-5f880f92e2a4",
+    imgDataWId: "d4d290b2-cf1f-2b7c-1c15-7a88dddc2d17",
+    arrow1DataWId: "6c3d66a0-b420-e0a5-aade-cb7ede5a2f49",
+    arrow2DataWId: "1b0d8c68-7925-4e4c-b357-5d041e365520",
+  },
+  {
+    id: "computerised-embroidery",
+    nameKey: "Computerised embroidery",
+    wrapperClass: "two",
+    iconSrc: "/assets/3d82ea8adf9e-68dd0f0f45f09a74e7a4e083_68dd045c0438e2e8731b21c1_Icon-2002.svg",
+    iconAlt: "Embroidery Icon",
+    imageSrc: "/assets/onos-equipment-embroidery.webp",
+    imageAlt: "Computerised embroidery",
+    features: [
+      "High-density 3D puff embroidery",
+      "Tajima & Barudan multi-head lines",
+      "Premium durable threads",
+      "Caps, hoodies and polo uniforms",
+    ],
+    dataWId: "77cde797-b601-13a8-b976-f135a003b69f",
+    imgDataWId: "77cde797-b601-13a8-b976-f135a003b6a3",
+    arrow1DataWId: "77cde797-b601-13a8-b976-f135a003b6b7",
+    arrow2DataWId: "77cde797-b601-13a8-b976-f135a003b6b8",
+  },
+  {
+    id: "sublimation-printing",
+    nameKey: "Sublimation printing",
+    wrapperClass: "three",
+    iconSrc: "/assets/7b73a5e3512f-68dd0f10a657fd757cc63f70_68dd097ddfef66551e348204_Icon-2001.svg",
+    iconAlt: "Sublimation Icon",
+    imageSrc: "/assets/onos-press-machines-row.webp",
+    imageAlt: "Sublimation printing",
+    features: [
+      "Full-bleed edge-to-edge printing",
+      "Permanent wash-fast sublimation dyes",
+      "Cut & sew sportswear production",
+      "Rich vibrant colour gamut",
+    ],
+    dataWId: "fd6444eb-66fc-2dbd-3d3a-042d56ad9110",
+    imgDataWId: "fd6444eb-66fc-2dbd-3d3a-042d56ad9114",
+    arrow1DataWId: "fd6444eb-66fc-2dbd-3d3a-042d56ad9128",
+    arrow2DataWId: "fd6444eb-66fc-2dbd-3d3a-042d56ad9129",
+  },
+  {
+    id: "laser-cutting-engraving",
+    nameKey: "Laser cutting & engraving",
+    wrapperClass: "four",
+    iconSrc: "/assets/a9658e3178bd-68dd10d7260632638bde8850_Icon-03.svg",
+    iconAlt: "Laser Icon",
+    imageSrc: "/assets/onos-laser-cut-gifts.webp",
+    imageAlt: "Laser cutting & engraving",
+    features: [
+      "Sub-millimeter cutting accuracy",
+      "Wood, acrylic and leather crafts",
+      "Custom geometric fabric shapes",
+      "Personalised gift production",
+    ],
+    dataWId: "ea75087c-806d-fa5f-23d1-e85b71fbeb55",
+    imgDataWId: "ea75087c-806d-fa5f-23d1-e85b71fbeb59",
+    arrow1DataWId: "ea75087c-806d-fa5f-23d1-e85b71fbeb6d",
+    arrow2DataWId: "ea75087c-806d-fa5f-23d1-e85b71fbeb6e",
+  },
+];
+
 export function Services() {
   const { language, t } = useSite();
+  const [activeService, setActiveService] = useState<number>(0);
 
   return (
     <section id="capabilities" className="service-section section-spacing-top">
@@ -67,390 +163,101 @@ export function Services() {
             </div>
           </div>
 
-          <div className="service-info">
-            {/* Service 1: DTG Printing */}
-            <div className="service-list-wrapper one w-dyn-list">
-              <div role="list" className="service-list w-dyn-items">
-                <div role="listitem" className="service-list-item w-dyn-item">
-                  <a
-                    data-w-id="bc23f244-bfd2-2ac7-1a49-5f880f92e2a4"
-                    href={inquiryHref(language, "DTG printing")}
-                    className="service-info-link w-inline-block"
-                  >
-                    <div className="service-info-inner">
-                      <div className="service-image-main">
-                        <img
-                          src="/assets/0c25ad641304-68e2214d3f9f7fd1a8412201_Award--3-.svg"
-                          loading="lazy"
-                          alt="DTG Icon"
-                          className="service-icon"
-                        />
-                        <div className="service-image-wrap">
-                          <img
-                            src="/assets/onos-dtg-machine-detail.webp"
-                            loading="lazy"
-                            data-w-id="d4d290b2-cf1f-2b7c-1c15-7a88dddc2d17"
-                            alt="DTG printing machine"
-                            className="service-image"
-                            style={{ objectFit: "cover" }}
-                          />
-                        </div>
-                      </div>
-                      <div className="service-content-wrap">
-                        <div className="service-name-wrapper">
-                          <h3 className="service-name">{t("DTG printing")}</h3>
-                        </div>
-                        <div className="service-feature-list">
-                          <div className="service-feature-text">{t("Features")}</div>
-                          <div className="feature-list-item">
-                            <div className="feature-item-inner">
+          <div className="service-info" role="region" aria-label="Services List">
+            {serviceItems.map((item, index) => {
+              const isExpanded = activeService === index;
+              return (
+                <div
+                  key={item.id}
+                  className={`service-list-wrapper ${item.wrapperClass} w-dyn-list`}
+                >
+                  <div role="list" className="service-list w-dyn-items">
+                    <div role="listitem" className="service-list-item w-dyn-item">
+                      <a
+                        data-w-id={item.dataWId}
+                        href={inquiryHref(language, item.nameKey)}
+                        className={`service-info-link w-inline-block${isExpanded ? " is-expanded" : ""}`}
+                        aria-expanded={isExpanded}
+                        onMouseEnter={() => setActiveService(index)}
+                        onFocus={() => setActiveService(index)}
+                        onClick={(e) => {
+                          if (activeService !== index) {
+                            e.preventDefault();
+                            setActiveService(index);
+                          }
+                        }}
+                        onKeyDown={(e) => {
+                          if (e.key === "Enter" || e.key === " ") {
+                            if (activeService !== index) {
+                              e.preventDefault();
+                              setActiveService(index);
+                            }
+                          }
+                        }}
+                      >
+                        <div className="service-info-inner">
+                          <div className="service-image-main">
+                            <img
+                              src={item.iconSrc}
+                              loading="lazy"
+                              alt={item.iconAlt}
+                              className="service-icon"
+                            />
+                            <div className="service-image-wrap">
                               <img
-                                src="/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"
+                                src={item.imageSrc}
                                 loading="lazy"
-                                alt="Check"
-                                className="feature-item-icon"
+                                data-w-id={item.imgDataWId}
+                                alt={item.imageAlt}
+                                className="service-image"
+                                style={{ objectFit: "cover" }}
                               />
-                              <div className="feature-item">{t("Detailed gradient artwork")}</div>
                             </div>
-                            <div className="feature-item-inner">
-                              <img
-                                src="/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"
-                                loading="lazy"
-                                alt="Check"
-                                className="feature-item-icon"
-                              />
-                              <div className="feature-item">{t("Single unit to bulk runs")}</div>
+                          </div>
+                          <div className="service-content-wrap">
+                            <div className="service-name-wrapper">
+                              <h3 className="service-name">{t(item.nameKey)}</h3>
                             </div>
-                            <div className="feature-item-inner">
-                              <img
-                                src="/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"
-                                loading="lazy"
-                                alt="Check"
-                                className="feature-item-icon"
-                              />
-                              <div className="feature-item">{t("OEKO-TEX certified inks")}</div>
-                            </div>
-                            <div className="feature-item-inner">
-                              <img
-                                src="/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"
-                                loading="lazy"
-                                alt="Check"
-                                className="feature-item-icon"
-                              />
-                              <div className="feature-item">{t("Fast 2-4 day turnaround")}</div>
+                            <div className="service-feature-list">
+                              <div className="service-feature-text">{t("Features")}</div>
+                              <div className="feature-list-item">
+                                {item.features.map((featureKey) => (
+                                  <div key={featureKey} className="feature-item-inner">
+                                    <img
+                                      src="/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"
+                                      loading="lazy"
+                                      alt="Check"
+                                      className="feature-item-icon"
+                                    />
+                                    <div className="feature-item">{t(featureKey)}</div>
+                                  </div>
+                                ))}
+                              </div>
                             </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                    <div className="service-arrow">
-                      <img
-                        src="/assets/2b24032b0ac7-68e1e92ebc2f8e7f7dd6d052_testimonial-Slide-Arrow--1-.svg"
-                        loading="lazy"
-                        data-w-id="6c3d66a0-b420-e0a5-aade-cb7ede5a2f49"
-                        alt="Arrow"
-                        className="service-icon-01"
-                      />
-                      <img
-                        src="/assets/2b24032b0ac7-68e1e92ebc2f8e7f7dd6d052_testimonial-Slide-Arrow--1-.svg"
-                        loading="lazy"
-                        data-w-id="1b0d8c68-7925-4e4c-b357-5d041e365520"
-                        alt="Arrow"
-                        className="service-hover-icon"
-                      />
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            {/* Service 2: Computerised Embroidery */}
-            <div className="service-list-wrapper two w-dyn-list">
-              <div role="list" className="service-list w-dyn-items">
-                <div role="listitem" className="service-list-item w-dyn-item">
-                  <a
-                    data-w-id="77cde797-b601-13a8-b976-f135a003b69f"
-                    href={inquiryHref(language, "Computerised embroidery")}
-                    className="service-info-link w-inline-block"
-                  >
-                    <div className="service-info-inner">
-                      <div className="service-image-main">
-                        <img
-                          src="/assets/3d82ea8adf9e-68dd0f0f45f09a74e7a4e083_68dd045c0438e2e8731b21c1_Icon-2002.svg"
-                          loading="lazy"
-                          alt="Embroidery Icon"
-                          className="service-icon"
-                        />
-                        <div className="service-image-wrap">
+                        <div className="service-arrow" aria-hidden="true">
                           <img
-                            src="/assets/onos-equipment-embroidery.webp"
+                            src="/assets/2b24032b0ac7-68e1e92ebc2f8e7f7dd6d052_testimonial-Slide-Arrow--1-.svg"
                             loading="lazy"
-                            data-w-id="77cde797-b601-13a8-b976-f135a003b6a3"
-                            alt="Computerised embroidery"
-                            className="service-image"
-                            style={{ objectFit: "cover" }}
+                            data-w-id={item.arrow1DataWId}
+                            alt="Arrow"
+                            className="service-icon-01"
+                          />
+                          <img
+                            src="/assets/2b24032b0ac7-68e1e92ebc2f8e7f7dd6d052_testimonial-Slide-Arrow--1-.svg"
+                            loading="lazy"
+                            data-w-id={item.arrow2DataWId}
+                            alt="Arrow"
+                            className="service-hover-icon"
                           />
                         </div>
-                      </div>
-                      <div className="service-content-wrap">
-                        <div className="service-name-wrapper">
-                          <h3 className="service-name">{t("Computerised embroidery")}</h3>
-                        </div>
-                        <div className="service-feature-list">
-                          <div className="service-feature-text">{t("Features")}</div>
-                          <div className="feature-list-item">
-                            <div className="feature-item-inner">
-                              <img
-                                src="/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"
-                                loading="lazy"
-                                alt="Check"
-                                className="feature-item-icon"
-                              />
-                              <div className="feature-item">{t("High-density 3D puff embroidery")}</div>
-                            </div>
-                            <div className="feature-item-inner">
-                              <img
-                                src="/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"
-                                loading="lazy"
-                                alt="Check"
-                                className="feature-item-icon"
-                              />
-                              <div className="feature-item">{t("Tajima & Barudan multi-head lines")}</div>
-                            </div>
-                            <div className="feature-item-inner">
-                              <img
-                                src="/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"
-                                loading="lazy"
-                                alt="Check"
-                                className="feature-item-icon"
-                              />
-                              <div className="feature-item">{t("Premium durable threads")}</div>
-                            </div>
-                            <div className="feature-item-inner">
-                              <img
-                                src="/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"
-                                loading="lazy"
-                                alt="Check"
-                                className="feature-item-icon"
-                              />
-                              <div className="feature-item">{t("Caps, hoodies and polo uniforms")}</div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                      </a>
                     </div>
-                    <div className="service-arrow">
-                      <img
-                        src="/assets/2b24032b0ac7-68e1e92ebc2f8e7f7dd6d052_testimonial-Slide-Arrow--1-.svg"
-                        loading="lazy"
-                        data-w-id="77cde797-b601-13a8-b976-f135a003b6b7"
-                        alt="Arrow"
-                        className="service-icon-01"
-                      />
-                      <img
-                        src="/assets/2b24032b0ac7-68e1e92ebc2f8e7f7dd6d052_testimonial-Slide-Arrow--1-.svg"
-                        loading="lazy"
-                        data-w-id="77cde797-b601-13a8-b976-f135a003b6b8"
-                        alt="Arrow"
-                        className="service-hover-icon"
-                      />
-                    </div>
-                  </a>
+                  </div>
                 </div>
-              </div>
-            </div>
-
-            {/* Service 3: Sublimation Printing */}
-            <div className="service-list-wrapper three w-dyn-list">
-              <div role="list" className="service-list w-dyn-items">
-                <div role="listitem" className="service-list-item w-dyn-item">
-                  <a
-                    data-w-id="fd6444eb-66fc-2dbd-3d3a-042d56ad9110"
-                    href={inquiryHref(language, "Sublimation printing")}
-                    className="service-info-link w-inline-block"
-                  >
-                    <div className="service-info-inner">
-                      <div className="service-image-main">
-                        <img
-                          src="/assets/ec61ce0ba60c-68e5fa805e7632fa2bde6893_Service-Fratures-Icon--2-.svg"
-                          loading="lazy"
-                          alt="Sublimation Icon"
-                          className="service-icon"
-                        />
-                        <div className="service-image-wrap">
-                          <img
-                            src="/assets/onos-press-machines-row.webp"
-                            loading="lazy"
-                            data-w-id="fd6444eb-66fc-2dbd-3d3a-042d56ad9114"
-                            alt="Sublimation printing"
-                            className="service-image"
-                            style={{ objectFit: "cover" }}
-                          />
-                        </div>
-                      </div>
-                      <div className="service-content-wrap">
-                        <div className="service-name-wrapper">
-                          <h3 className="service-name">{t("Sublimation printing")}</h3>
-                        </div>
-                        <div className="service-feature-list">
-                          <div className="service-feature-text">{t("Features")}</div>
-                          <div className="feature-list-item">
-                            <div className="feature-item-inner">
-                              <img
-                                src="/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"
-                                loading="lazy"
-                                alt="Check"
-                                className="feature-item-icon"
-                              />
-                              <div className="feature-item">{t("Full-bleed edge-to-edge printing")}</div>
-                            </div>
-                            <div className="feature-item-inner">
-                              <img
-                                src="/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"
-                                loading="lazy"
-                                alt="Check"
-                                className="feature-item-icon"
-                              />
-                              <div className="feature-item">{t("Permanent wash-fast sublimation dyes")}</div>
-                            </div>
-                            <div className="feature-item-inner">
-                              <img
-                                src="/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"
-                                loading="lazy"
-                                alt="Check"
-                                className="feature-item-icon"
-                              />
-                              <div className="feature-item">{t("Cut & sew sportswear production")}</div>
-                            </div>
-                            <div className="feature-item-inner">
-                              <img
-                                src="/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"
-                                loading="lazy"
-                                alt="Check"
-                                className="feature-item-icon"
-                              />
-                              <div className="feature-item">{t("Rich vibrant colour gamut")}</div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="service-arrow">
-                      <img
-                        src="/assets/2b24032b0ac7-68e1e92ebc2f8e7f7dd6d052_testimonial-Slide-Arrow--1-.svg"
-                        loading="lazy"
-                        data-w-id="fd6444eb-66fc-2dbd-3d3a-042d56ad9128"
-                        alt="Arrow"
-                        className="service-icon-01"
-                      />
-                      <img
-                        src="/assets/2b24032b0ac7-68e1e92ebc2f8e7f7dd6d052_testimonial-Slide-Arrow--1-.svg"
-                        loading="lazy"
-                        data-w-id="fd6444eb-66fc-2dbd-3d3a-042d56ad9129"
-                        alt="Arrow"
-                        className="service-hover-icon"
-                      />
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            {/* Service 4: Laser Cutting & Engraving */}
-            <div className="service-list-wrapper four w-dyn-list">
-              <div role="list" className="service-list w-dyn-items">
-                <div role="listitem" className="service-list-item w-dyn-item">
-                  <a
-                    data-w-id="ea75087c-806d-fa5f-23d1-e85b71fbeb55"
-                    href={inquiryHref(language, "Laser cutting & engraving")}
-                    className="service-info-link w-inline-block"
-                  >
-                    <div className="service-info-inner">
-                      <div className="service-image-main">
-                        <img
-                          src="/assets/a9658e3178bd-68dd10d7260632638bde8850_Icon-03.svg"
-                          loading="lazy"
-                          alt="Laser Icon"
-                          className="service-icon"
-                        />
-                        <div className="service-image-wrap">
-                          <img
-                            src="/assets/onos-laser-cut-gifts.webp"
-                            loading="lazy"
-                            data-w-id="ea75087c-806d-fa5f-23d1-e85b71fbeb59"
-                            alt="Laser cutting & engraving"
-                            className="service-image"
-                            style={{ objectFit: "cover" }}
-                          />
-                        </div>
-                      </div>
-                      <div className="service-content-wrap">
-                        <div className="service-name-wrapper">
-                          <h3 className="service-name">{t("Laser cutting & engraving")}</h3>
-                        </div>
-                        <div className="service-feature-list">
-                          <div className="service-feature-text">{t("Features")}</div>
-                          <div className="feature-list-item">
-                            <div className="feature-item-inner">
-                              <img
-                                src="/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"
-                                loading="lazy"
-                                alt="Check"
-                                className="feature-item-icon"
-                              />
-                              <div className="feature-item">{t("Sub-millimeter cutting accuracy")}</div>
-                            </div>
-                            <div className="feature-item-inner">
-                              <img
-                                src="/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"
-                                loading="lazy"
-                                alt="Check"
-                                className="feature-item-icon"
-                              />
-                              <div className="feature-item">{t("Wood, acrylic and leather crafts")}</div>
-                            </div>
-                            <div className="feature-item-inner">
-                              <img
-                                src="/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"
-                                loading="lazy"
-                                alt="Check"
-                                className="feature-item-icon"
-                              />
-                              <div className="feature-item">{t("Custom geometric fabric shapes")}</div>
-                            </div>
-                            <div className="feature-item-inner">
-                              <img
-                                src="/assets/050aeaa60359-68dfa44d1abc142af68c1e2d_list-icon.svg"
-                                loading="lazy"
-                                alt="Check"
-                                className="feature-item-icon"
-                              />
-                              <div className="feature-item">{t("Personalised gift production")}</div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="service-arrow">
-                      <img
-                        src="/assets/2b24032b0ac7-68e1e92ebc2f8e7f7dd6d052_testimonial-Slide-Arrow--1-.svg"
-                        loading="lazy"
-                        data-w-id="ea75087c-806d-fa5f-23d1-e85b71fbeb6d"
-                        alt="Arrow"
-                        className="service-icon-01"
-                      />
-                      <img
-                        src="/assets/2b24032b0ac7-68e1e92ebc2f8e7f7dd6d052_testimonial-Slide-Arrow--1-.svg"
-                        loading="lazy"
-                        data-w-id="ea75087c-806d-fa5f-23d1-e85b71fbeb6e"
-                        alt="Arrow"
-                        className="service-hover-icon"
-                      />
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
+              );
+            })}
 
             <div className="service-box-height"></div>
           </div>
